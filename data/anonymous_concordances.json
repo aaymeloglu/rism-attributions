@@ -4,595 +4,654 @@
   "a_label": "Symphonies–D major; Manuscript copy; PL-CZ I-211",
   "b": "1001012610",
   "b_label": "Symphonies; Manuscript copy; PL-CZ I-240",
-  "movements": [
+  "incipits": [
    {
-    "a": 1,
-    "b": 1,
+    "a": "1.1.1 Allegro moderato",
+    "b": "1.1.1 Allegro molto",
     "pitches": 13
    },
    {
-    "a": 3,
-    "b": 2,
+    "a": "1.2.1 Adagio",
+    "b": "1.2.1 Adagio",
     "pitches": 19
    },
    {
-    "a": 4,
-    "b": 3,
+    "a": "1.3.1 Presto",
+    "b": "1.3.1 Presto",
     "pitches": 12
    }
-  ]
+  ],
+  "verdict": "same",
+  "note": "The encoded incipits agree on 3 sections. Both copies are in the same library, perhaps catalogued together there."
  },
  {
-  "a": "1001364687",
-  "a_label": "Symphonies–E♭ major; Manuscript copy; PL-CZ III-984",
-  "b": "1001012913",
-  "b_label": "Symphonies–E♭ major; Manuscript copy; PL-CZ III-324",
-  "movements": [
+  "a": "1001012913",
+  "a_label": "Symphonies–E♭ major; Manuscript copy; PL-CZ III-324",
+  "b": "1001364687",
+  "b_label": "Symphonies–E♭ major; Manuscript copy; PL-CZ III-984",
+  "incipits": [
    {
-    "a": 1,
-    "b": 1,
+    "a": "1.1.1 Allegro",
+    "b": "1.1.1 Allegro",
     "pitches": 20
    },
    {
-    "a": 2,
-    "b": 4,
+    "a": "1.4.1 Presto",
+    "b": "1.4.1 Presto",
     "pitches": 16
    }
-  ]
+  ],
+  "verdict": "same",
+  "note": "The encoded incipits agree on 2 sections. Both copies are in the same library, perhaps catalogued together there."
  },
  {
-  "a": "300000470",
-  "a_label": "Symphonies–E♭ minor; Manuscript copy; PL-CZ III-321",
-  "b": "1001012913",
-  "b_label": "Symphonies–E♭ major; Manuscript copy; PL-CZ III-324",
-  "movements": [
+  "a": "1001012913",
+  "a_label": "Symphonies–E♭ major; Manuscript copy; PL-CZ III-324",
+  "b": "300000470",
+  "b_label": "Symphonies–E♭ minor; Manuscript copy; PL-CZ III-321",
+  "incipits": [
    {
-    "a": 1,
-    "b": 1,
+    "a": "1.1.1 Allegro",
+    "b": "1.1.1 Allegro",
     "pitches": 9
    },
    {
-    "a": 2,
-    "b": 4,
+    "a": "1.4.1 Presto",
+    "b": "1.2.1 Presto",
     "pitches": 12
    }
-  ]
+  ],
+  "verdict": "same",
+  "note": "The encoded incipits agree on 2 sections. RISM titles PL-CZ III-321 E-flat minor, but its incipits have three flats like the others. Both copies are in the same library, perhaps catalogued together there."
  },
  {
-  "a": "300234095",
-  "a_label": "Symphonies–E♭ major; Manuscript copy; PL-Pa Muz GR V/39",
-  "b": "1001012913",
-  "b_label": "Symphonies–E♭ major; Manuscript copy; PL-CZ III-324",
-  "movements": [
+  "a": "1001012913",
+  "a_label": "Symphonies–E♭ major; Manuscript copy; PL-CZ III-324",
+  "b": "300234095",
+  "b_label": "Symphonies–E♭ major; Manuscript copy; PL-Pa Muz GR V/39",
+  "incipits": [
    {
-    "a": 1,
-    "b": 1,
+    "a": "1.1.1 Allegro",
+    "b": "1.1.1 Allegro assai",
     "pitches": 17
    },
    {
-    "a": 2,
-    "b": 2,
+    "a": "1.2.1 Andante",
+    "b": "1.2.1 Andante",
     "pitches": 21
    },
    {
-    "a": 3,
-    "b": 4,
+    "a": "1.4.1 Presto",
+    "b": "1.3.1 Presto",
     "pitches": 16
    }
-  ]
+  ],
+  "verdict": "same",
+  "note": "The encoded incipits agree on 3 sections."
  },
  {
   "a": "1001050167",
   "a_label": "Concertos–C major; Manuscript copy; PL-Wb M.R.0760",
   "b": "250000077",
   "b_label": "Symphonies–B♭ major; Manuscript copy; D-WRl HMA 3823",
-  "movements": [
+  "incipits": [
    {
-    "a": 1,
-    "b": 1,
+    "a": "1.1.1 Vivace",
+    "b": "1.1.1 Allegro",
     "pitches": 12
    },
    {
-    "a": 2,
-    "b": 2,
+    "a": "1.2.1 Andante Moderato",
+    "b": "1.2.1 Andante moderato",
     "pitches": 15
    },
    {
-    "a": 3,
-    "b": 3,
+    "a": "1.3.1 Rondeau",
+    "b": "1.3.1 Rondeau.",
     "pitches": 19
    }
-  ]
+  ],
+  "verdict": "same",
+  "note": "All three encoded sections agree; RISM titles one copy a concerto in C major, though its incipits have two flats like the B-flat symphony."
  },
  {
-  "a": "300511428",
-  "a_label": "Concertos–G major; Manuscript copy; PL-Wu RM 5896",
-  "b": "1001063059",
-  "b_label": "Concertos–G major; Manuscript copy; PL-Wu RM 10167",
-  "movements": [
+  "a": "1001063059",
+  "a_label": "Concertos–G major; Manuscript copy; PL-Wu RM 10167",
+  "b": "300511428",
+  "b_label": "Concertos–G major; Manuscript copy; PL-Wu RM 5896",
+  "incipits": [
    {
-    "a": 1,
-    "b": 1,
+    "a": "1.1.1",
+    "b": "1.1.1",
     "pitches": 9
    },
    {
-    "a": 2,
-    "b": 2,
+    "a": "1.1.2",
+    "b": "1.1.2",
+    "pitches": 9
+   },
+   {
+    "a": "1.2.1 Andante",
+    "b": "1.2.1 Andante",
     "pitches": 12
    },
    {
-    "a": 3,
-    "b": 3,
+    "a": "1.3.1 Tempo di Menuet",
+    "b": "1.3.1 Tempo di Menuet",
     "pitches": 13
    }
-  ]
+  ],
+  "verdict": "same",
+  "note": "The encoded incipits agree on 3 sections. Both copies are in the same library, perhaps catalogued together there."
  },
  {
-  "a": "300000470",
-  "a_label": "Symphonies–E♭ minor; Manuscript copy; PL-CZ III-321",
-  "b": "1001364687",
-  "b_label": "Symphonies–E♭ major; Manuscript copy; PL-CZ III-984",
-  "movements": [
+  "a": "1001364687",
+  "a_label": "Symphonies–E♭ major; Manuscript copy; PL-CZ III-984",
+  "b": "300000470",
+  "b_label": "Symphonies–E♭ minor; Manuscript copy; PL-CZ III-321",
+  "incipits": [
    {
-    "a": 1,
-    "b": 1,
+    "a": "1.1.1 Allegro",
+    "b": "1.1.1 Allegro",
     "pitches": 9
    },
    {
-    "a": 2,
-    "b": 2,
+    "a": "1.4.1 Presto",
+    "b": "1.2.1 Presto",
     "pitches": 12
    }
-  ]
+  ],
+  "verdict": "same",
+  "note": "The encoded incipits agree on 2 sections. RISM titles PL-CZ III-321 E-flat minor, but its incipits have three flats like the others. Both copies are in the same library, perhaps catalogued together there."
  },
  {
-  "a": "300234095",
-  "a_label": "Symphonies–E♭ major; Manuscript copy; PL-Pa Muz GR V/39",
-  "b": "1001364687",
-  "b_label": "Symphonies–E♭ major; Manuscript copy; PL-CZ III-984",
-  "movements": [
+  "a": "1001364687",
+  "a_label": "Symphonies–E♭ major; Manuscript copy; PL-CZ III-984",
+  "b": "300234095",
+  "b_label": "Symphonies–E♭ major; Manuscript copy; PL-Pa Muz GR V/39",
+  "incipits": [
    {
-    "a": 1,
-    "b": 1,
+    "a": "1.1.1 Allegro",
+    "b": "1.1.1 Allegro assai",
     "pitches": 17
    },
    {
-    "a": 3,
-    "b": 2,
+    "a": "1.4.1 Presto",
+    "b": "1.3.1 Presto",
     "pitches": 16
    }
-  ]
+  ],
+  "verdict": "same",
+  "note": "The encoded incipits agree on 2 sections."
  },
  {
-  "a": "570005129",
-  "a_label": "Symphonies–G major; Manuscript copy; SK-J H-752",
-  "b": "1001376566",
-  "b_label": "Symphonies–G major; Manuscript copy; PL-MO 925",
-  "movements": [
+  "a": "1001376566",
+  "a_label": "Symphonies–G major; Manuscript copy; PL-MO 925",
+  "b": "570005129",
+  "b_label": "Symphonies–G major; Manuscript copy; SK-J H-752",
+  "incipits": [
    {
-    "a": 1,
-    "b": 1,
+    "a": "1.1.1 Allegro",
+    "b": "1.1.1 Allegro assai",
     "pitches": 15
    },
    {
-    "a": 2,
-    "b": 2,
+    "a": "1.2.1 Andante",
+    "b": "1.2.1 Andante",
     "pitches": 8
    },
    {
-    "a": 4,
-    "b": 4,
+    "a": "1.4.1 Presto",
+    "b": "1.4.1 Presto",
     "pitches": 9
    }
-  ]
+  ],
+  "verdict": "same",
+  "note": "The encoded incipits agree on 3 sections."
  },
  {
-  "a": "212002089",
-  "a_label": "Concertos–G major; Manuscript copy; D-Dl Mus.2-O-1,24",
-  "b": "212001983",
-  "b_label": "Concertos–G major; Manuscript copy; D-Dl Mus.2-R-8,62b",
-  "movements": [
+  "a": "212001983",
+  "a_label": "Concertos–G major; Manuscript copy; D-Dl Mus.2-R-8,62b",
+  "b": "212002089",
+  "b_label": "Concertos–G major; Manuscript copy; D-Dl Mus.2-O-1,24",
+  "incipits": [
    {
-    "a": 1,
-    "b": 1,
+    "a": "1.1.1 Allegro",
+    "b": "1.1.1 Allegro",
     "pitches": 12
    },
    {
-    "a": 2,
-    "b": 2,
+    "a": "1.2.1 Largo",
+    "b": "1.2.1 Largo",
     "pitches": 17
    },
    {
-    "a": 3,
-    "b": 3,
+    "a": "1.3.1 Presto",
+    "b": "1.3.1 Presto",
     "pitches": 13
    }
-  ]
+  ],
+  "verdict": "same",
+  "note": "The encoded incipits agree on 3 sections. Both copies are in the same library, perhaps catalogued together there."
  },
  {
-  "a": "212002090",
-  "a_label": "Concertos–G major; Manuscript copy; D-Dl Mus.2-O-1,24a",
-  "b": "212001983",
-  "b_label": "Concertos–G major; Manuscript copy; D-Dl Mus.2-R-8,62b",
-  "movements": [
+  "a": "212001983",
+  "a_label": "Concertos–G major; Manuscript copy; D-Dl Mus.2-R-8,62b",
+  "b": "212002090",
+  "b_label": "Concertos–G major; Manuscript copy; D-Dl Mus.2-O-1,24a",
+  "incipits": [
    {
-    "a": 1,
-    "b": 1,
+    "a": "1.1.1 Allegro",
+    "b": "1.1.1 Allegro",
     "pitches": 12
    },
    {
-    "a": 2,
-    "b": 2,
+    "a": "1.2.1 Largo",
+    "b": "1.2.1 Largo",
     "pitches": 17
    },
    {
-    "a": 3,
-    "b": 3,
+    "a": "1.3.1 Presto",
+    "b": "1.3.1 Presto",
     "pitches": 13
    }
-  ]
+  ],
+  "verdict": "same",
+  "note": "The encoded incipits agree on 3 sections. Both copies are in the same library, perhaps catalogued together there."
  },
  {
   "a": "212002076",
   "a_label": "Symphonies–D major; Manuscript copy; D-Dl Mus.2-N-20,7a",
   "b": "212002077",
   "b_label": "Symphonies–D major; Manuscript copy; D-Dl Mus.2-N-20,7",
-  "movements": [
+  "incipits": [
    {
-    "a": 1,
-    "b": 1,
+    "a": "1.1.1",
+    "b": "1.1.1",
     "pitches": 11
    },
    {
-    "a": 2,
-    "b": 2,
+    "a": "1.2.1 Allegretto",
+    "b": "1.2.1 Allegretto ma piano",
     "pitches": 14
    },
    {
-    "a": 3,
-    "b": 3,
+    "a": "1.3.1 Allegro assai e alternativ",
+    "b": "1.3.1 Allegro assai e alternativement",
     "pitches": 17
    },
    {
-    "a": 4,
-    "b": 4,
+    "a": "1.4.1 [Trio].",
+    "b": "1.4.1 [Trio].",
     "pitches": 12
    }
-  ]
+  ],
+  "verdict": "same",
+  "note": "The encoded incipits agree on 4 sections. Both copies are in the same library, perhaps catalogued together there."
  },
  {
   "a": "212002089",
   "a_label": "Concertos–G major; Manuscript copy; D-Dl Mus.2-O-1,24",
   "b": "212002090",
   "b_label": "Concertos–G major; Manuscript copy; D-Dl Mus.2-O-1,24a",
-  "movements": [
+  "incipits": [
    {
-    "a": 1,
-    "b": 1,
+    "a": "1.1.1 Allegro",
+    "b": "1.1.1 Allegro",
     "pitches": 12
    },
    {
-    "a": 2,
-    "b": 2,
+    "a": "1.2.1 Largo",
+    "b": "1.2.1 Largo",
     "pitches": 17
    },
    {
-    "a": 3,
-    "b": 3,
+    "a": "1.3.1 Presto",
+    "b": "1.3.1 Presto",
     "pitches": 13
    }
-  ]
+  ],
+  "verdict": "same",
+  "note": "The encoded incipits agree on 3 sections. Both copies are in the same library, perhaps catalogued together there."
  },
  {
   "a": "212003416",
   "a_label": "Concertos–A major; Manuscript copy; D-Dl Mus.2-O-7b",
   "b": "212003585",
   "b_label": "Concertos–A major; Manuscript copy; D-Dl Mus.2-O-7c",
-  "movements": [
+  "incipits": [
    {
-    "a": 1,
-    "b": 1,
+    "a": "1.1.1 Allegro",
+    "b": "1.1.1 Allegro non molte",
     "pitches": 15
    },
    {
-    "a": 2,
-    "b": 2,
+    "a": "1.2.1 Largo",
+    "b": "1.2.1 Largo",
     "pitches": 9
    },
    {
-    "a": 3,
-    "b": 3,
+    "a": "1.3.1 Allegro",
+    "b": "1.3.1 Allegro",
     "pitches": 16
    }
-  ]
+  ],
+  "verdict": "same",
+  "note": "The encoded incipits agree on 3 sections. Both copies are in the same library, perhaps catalogued together there."
  },
  {
   "a": "212003416",
   "a_label": "Concertos–A major; Manuscript copy; D-Dl Mus.2-O-7b",
   "b": "212003586",
   "b_label": "Concertos–A major; Manuscript copy; D-Dl Mus.2-O-7a",
-  "movements": [
+  "incipits": [
    {
-    "a": 1,
-    "b": 1,
+    "a": "1.1.1 Allegro",
+    "b": "1.1.1 Allegro",
     "pitches": 15
    },
    {
-    "a": 2,
-    "b": 2,
+    "a": "1.2.1 Largo",
+    "b": "1.2.1 Largo",
     "pitches": 9
    },
    {
-    "a": 3,
-    "b": 3,
+    "a": "1.3.1 Allegro",
+    "b": "1.3.1 Allegro",
     "pitches": 16
    }
-  ]
+  ],
+  "verdict": "same",
+  "note": "The encoded incipits agree on 3 sections. Both copies are in the same library, perhaps catalogued together there."
  },
  {
-  "a": "212003541",
-  "a_label": "Concertos–C major; Manuscript copy; D-Dl Mus.2-O-1,59b",
-  "b": "212003540",
-  "b_label": "Concertos–C major; Manuscript copy; D-Dl Mus.2-O-1,59a",
-  "movements": [
+  "a": "212003540",
+  "a_label": "Concertos–C major; Manuscript copy; D-Dl Mus.2-O-1,59a",
+  "b": "212003541",
+  "b_label": "Concertos–C major; Manuscript copy; D-Dl Mus.2-O-1,59b",
+  "incipits": [
    {
-    "a": 1,
-    "b": 1,
+    "a": "1.1.1 Allegro",
+    "b": "1.1.1 Allegro",
     "pitches": 22
    },
    {
-    "a": 2,
-    "b": 2,
+    "a": "1.2.1 Largo",
+    "b": "1.2.1 Largo",
     "pitches": 13
    },
    {
-    "a": 3,
-    "b": 3,
+    "a": "1.3.1 Vivace",
+    "b": "1.3.1 Vivace",
     "pitches": 19
    }
-  ]
+  ],
+  "verdict": "same",
+  "note": "The encoded incipits agree on 3 sections. Both copies are in the same library, perhaps catalogued together there."
  },
  {
   "a": "212003553",
   "a_label": "Concertos–G minor; Manuscript copy; D-Dl Mus.2-O-14",
   "b": "212003554",
   "b_label": "Concertos–G minor; Manuscript copy; D-Dl Mus.2-O-14a",
-  "movements": [
+  "incipits": [
    {
-    "a": 1,
-    "b": 1,
+    "a": "1.1.1 all[egr]o moderato",
+    "b": "1.1.1 Allegro",
     "pitches": 28
    },
    {
-    "a": 2,
-    "b": 2,
+    "a": "1.2.1 ad[agi]o",
+    "b": "1.2.1 Adagio",
     "pitches": 30
    },
    {
-    "a": 3,
-    "b": 3,
+    "a": "1.3.1 allegro un poco",
+    "b": "1.3.1 Allegro un tropp",
     "pitches": 9
    }
-  ]
+  ],
+  "verdict": "same",
+  "note": "The encoded incipits agree on 3 sections. Both copies are in the same library, perhaps catalogued together there."
  },
  {
   "a": "212003558",
   "a_label": "Concertos–G major; Manuscript copy; D-Dl Mus.2-O-1,7",
   "b": "212003559",
   "b_label": "Concertos–G major; Manuscript copy; D-Dl Mus.2-O-1,7a",
-  "movements": [
+  "incipits": [
    {
-    "a": 1,
-    "b": 1,
+    "a": "1.1.1",
+    "b": "1.1.1",
     "pitches": 19
    },
    {
-    "a": 2,
-    "b": 2,
+    "a": "1.2.1 ad[agi]o",
+    "b": "1.2.1 Adagio",
     "pitches": 11
    }
-  ]
+  ],
+  "verdict": "same",
+  "note": "The encoded incipits agree on 2 sections. Both copies are in the same library, perhaps catalogued together there."
  },
  {
   "a": "212003585",
   "a_label": "Concertos–A major; Manuscript copy; D-Dl Mus.2-O-7c",
   "b": "212003586",
   "b_label": "Concertos–A major; Manuscript copy; D-Dl Mus.2-O-7a",
-  "movements": [
+  "incipits": [
    {
-    "a": 1,
-    "b": 1,
+    "a": "1.1.1 Allegro non molte",
+    "b": "1.1.1 Allegro",
     "pitches": 21
    },
    {
-    "a": 2,
-    "b": 2,
+    "a": "1.2.1 Largo",
+    "b": "1.2.1 Largo",
     "pitches": 16
    },
    {
-    "a": 3,
-    "b": 3,
+    "a": "1.3.1 Allegro",
+    "b": "1.3.1 Allegro",
     "pitches": 16
    }
-  ]
+  ],
+  "verdict": "same",
+  "note": "The encoded incipits agree on 3 sections. Both copies are in the same library, perhaps catalogued together there."
  },
  {
-  "a": "212003591",
-  "a_label": "Concertos–D major; Manuscript copy; D-Dl Mus.2-O-1,30",
-  "b": "212003590",
-  "b_label": "Concertos–D major; Manuscript copy; D-Dl Mus.2-O-1,30a",
-  "movements": [
+  "a": "212003590",
+  "a_label": "Concertos–D major; Manuscript copy; D-Dl Mus.2-O-1,30a",
+  "b": "212003591",
+  "b_label": "Concertos–D major; Manuscript copy; D-Dl Mus.2-O-1,30",
+  "incipits": [
    {
-    "a": 1,
-    "b": 1,
+    "a": "1.1.1 all[egr]o",
+    "b": "1.1.1 allegro",
     "pitches": 10
    },
    {
-    "a": 2,
-    "b": 2,
+    "a": "1.2.1 Adagio",
+    "b": "1.2.1 ad[agi]o",
     "pitches": 16
    },
    {
-    "a": 3,
-    "b": 3,
+    "a": "1.3.1 Allegro",
+    "b": "1.3.1 allegro",
     "pitches": 12
    }
-  ]
+  ],
+  "verdict": "same",
+  "note": "The encoded incipits agree on 3 sections. Both copies are in the same library, perhaps catalogued together there."
  },
  {
   "a": "212003596",
   "a_label": "Concertos–G minor; Manuscript copy; D-Dl Mus.2-O-1,36",
   "b": "212003597",
   "b_label": "Concertos–G minor; Manuscript copy; D-Dl Mus.2-O-1,36a",
-  "movements": [
+  "incipits": [
    {
-    "a": 1,
-    "b": 1,
+    "a": "1.1.1 Cantabile",
+    "b": "1.1.1 Cantabile",
     "pitches": 20
    },
    {
-    "a": 2,
-    "b": 2,
+    "a": "1.2.1 Ad[agi]o",
+    "b": "1.2.1 Adagio",
     "pitches": 17
    },
    {
-    "a": 3,
-    "b": 3,
+    "a": "1.3.1 Presto",
+    "b": "1.3.1 Allegro",
     "pitches": 16
    }
-  ]
+  ],
+  "verdict": "same",
+  "note": "The encoded incipits agree on 3 sections. Both copies are in the same library, perhaps catalogued together there."
  },
  {
-  "a": "212003598",
-  "a_label": "Concertos–A major; Manuscript copy; D-Dl Mus.2-O-8,6",
-  "b": "551005983",
-  "b_label": "Parthia–D major; Manuscript copy; CZ-Pnm XLII B 110",
-  "movements": [
+  "a": "300000470",
+  "a_label": "Symphonies–E♭ minor; Manuscript copy; PL-CZ III-321",
+  "b": "300234095",
+  "b_label": "Symphonies–E♭ major; Manuscript copy; PL-Pa Muz GR V/39",
+  "incipits": [
    {
-    "a": 1,
-    "b": 3,
-    "pitches": 8
-   },
-   {
-    "a": 3,
-    "b": 1,
-    "pitches": 10
-   }
-  ]
- },
- {
-  "a": "300234095",
-  "a_label": "Symphonies–E♭ major; Manuscript copy; PL-Pa Muz GR V/39",
-  "b": "300000470",
-  "b_label": "Symphonies–E♭ minor; Manuscript copy; PL-CZ III-321",
-  "movements": [
-   {
-    "a": 1,
-    "b": 1,
+    "a": "1.1.1 Allegro",
+    "b": "1.1.1 Allegro assai",
     "pitches": 9
    },
    {
-    "a": 3,
-    "b": 2,
+    "a": "1.2.1 Presto",
+    "b": "1.3.1 Presto",
     "pitches": 12
    }
-  ]
+  ],
+  "verdict": "same",
+  "note": "The encoded incipits agree on 2 sections. RISM titles PL-CZ III-321 E-flat minor, but its incipits have three flats like the others."
  },
  {
   "a": "300234099",
   "a_label": "Symphonies–E♭ major; Manuscript copy; PL-Pa Muz GR V/47",
   "b": "300234104",
   "b_label": "Symphonies–E♭ major; Manuscript copy; PL-Pa Muz GR V/43",
-  "movements": [
+  "incipits": [
    {
-    "a": 1,
-    "b": 1,
+    "a": "1.1.1 Allegro",
+    "b": "1.1.1 Allegro",
     "pitches": 11
    },
    {
-    "a": 2,
-    "b": 2,
+    "a": "1.2.1 Andante",
+    "b": "1.2.1 Andante",
     "pitches": 12
    },
    {
-    "a": 3,
-    "b": 3,
+    "a": "1.3.1 Menuet.",
+    "b": "1.3.1 Menuet.",
     "pitches": 8
    },
    {
-    "a": 4,
-    "b": 4,
+    "a": "1.4.1 Rondo.. Moderato",
+    "b": "1.4.1 Rondo.. Moderato",
     "pitches": 16
    }
-  ]
+  ],
+  "verdict": "same",
+  "note": "The encoded incipits agree on 4 sections. Both copies are in the same library, perhaps catalogued together there."
  },
  {
   "a": "300511197",
   "a_label": "Concertos–C major; Manuscript copy; PL-Wu RM 5636",
   "b": "300511198",
   "b_label": "Concertos–B♭ major; Manuscript copy; PL-Wu RM 5629",
-  "movements": [
+  "incipits": [
    {
-    "a": 1,
-    "b": 1,
+    "a": "1.1.1 Concerto. Allegro",
+    "b": "1.1.1 Concerto. Allegro",
     "pitches": 10
    },
    {
-    "a": 2,
-    "b": 2,
+    "a": "1.1.2 Allegro",
+    "b": "1.1.2 Allegro",
     "pitches": 19
    },
    {
-    "a": 3,
-    "b": 4,
+    "a": "1.2.1 Adagio Solo.",
+    "b": "1.2.1 Adagio",
     "pitches": 20
    },
    {
-    "a": 4,
-    "b": 5,
+    "a": "1.3.1 Allegro",
+    "b": "1.3.1 Allegro",
+    "pitches": 12
+   },
+   {
+    "a": "1.3.2",
+    "b": "1.3.2",
     "pitches": 20
    }
-  ]
+  ],
+  "verdict": "probable",
+  "note": "Same harp concerto a whole tone apart (C major and B-flat major), all encoded sections agreeing."
  },
  {
   "a": "400110586",
   "a_label": "Concertos–G major; Manuscript copy; CH-BEl SLA-Mus-JL MLHs 30/1",
   "b": "400110762",
   "b_label": "Concertos–G major; Manuscript copy; CH-BEl SLA-Mus-JL MLHs 40/8",
-  "movements": [
+  "incipits": [
    {
-    "a": 1,
-    "b": 2,
+    "a": "1.1.1 Allegro non molto",
+    "b": "1.1.1",
     "pitches": 18
    },
    {
-    "a": 2,
-    "b": 3,
+    "a": "1.1.1 Allegro non molto",
+    "b": "1.1.2 Allegro non molto",
+    "pitches": 14
+   },
+   {
+    "a": "1.1.2",
+    "b": "1.1.1",
+    "pitches": 14
+   },
+   {
+    "a": "1.1.2",
+    "b": "1.1.2 Allegro non molto",
+    "pitches": 18
+   },
+   {
+    "a": "1.2.1 II. Adagio",
+    "b": "1.2.1 Adagio II.",
     "pitches": 16
    },
    {
-    "a": 3,
-    "b": 4,
+    "a": "1.3.1 Finale Allegro comodo",
+    "b": "1.3.1 Allegro comodo",
     "pitches": 10
    }
-  ]
+  ],
+  "verdict": "probable",
+  "note": "The solo flute and first-violin incipits of the opening Allegro agree in both copies; further sections need checking."
  },
  {
   "a": "600236799",
   "a_label": "Concertos; Manuscript copy; A-Wn E. M. 156h",
   "b": "702000332",
   "b_label": "Sonatas–D minor; Manuscript copy; B-LVu P206 (54)",
-  "movements": [
+  "incipits": [
    {
-    "a": 2,
-    "b": 2,
+    "a": "1.2.1 Grave e staccato",
+    "b": "1.2.1 Grave e staccato",
     "pitches": 8
    },
    {
-    "a": 3,
-    "b": 3,
+    "a": "1.3.1 Allegro",
+    "b": "1.3.1 Presto",
     "pitches": 13
    }
-  ]
+  ],
+  "verdict": "probable",
+  "note": "Incipits 1.2.1 and 1.3.1 agree; one copy is catalogued as a concerto, the other as a sonata in D minor."
  }
 ]

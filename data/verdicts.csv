@@ -1,8 +1,8 @@
 genre,anon_id,composer,verdict,attribution,prior,note
-symphonies,1001012618,"Dittersdorf, Carl Ditters von (1739-1799)",confirmed,secure,comparator-record,Comparator 650002241 already names this anonymous PL-CZ copy. Only movement II matches among the encoded incipits; the comparator records a historical attribution to 'Neimann' (Neumann) in the Paluselli catalogue of 1791.
+symphonies,1001012618,"Dittersdorf, Carl Ditters von (1739-1799)",confirmed,secure,comparator-record,Comparator 650002241 already names this anonymous PL-CZ copy. Among the encoded incipits only the Andante (1.2.1) matches; the comparator records a historical attribution to 'Neimann' (Neumann) in the Paluselli catalogue of 1791.
 symphonies,1001035351,"Gyrowetz, Adalbert (1763-1850)",rejected,,,Only a common scale or arpeggio fragment agrees on inspection
-symphonies,1001043738,"Dittersdorf, Carl Ditters von (1739-1799)",probable,secure,new,Transposed copy in D of KreD 24 in E-flat; anonymous movement II matches movement IV of the comparator. One comparator cross-references Dušek (alleged).
-symphonies,1001043744,"Rosetti, Antonio (1750c-1792)",confirmed,secure,new,"All four movements match MurR A44. RISM titles the anonymous copy 'B major' but the encoding has two flats: it is in B-flat, like the Rosetti copy. First-movement metre is encoded as c against 3/4. The comparator cross-references Zobl."
+symphonies,1001043738,"Dittersdorf, Carl Ditters von (1739-1799)",probable,secure,new,Transposed copy in D of KreD 24 in E-flat: the anonymous Allegro matches incipit 1.1.1 and its Presto matches incipit 1.4.1 of RISM 211007144. One comparator cross-references Dušek (alleged).
+symphonies,1001043744,"Rosetti, Antonio (1750c-1792)",confirmed,secure,new,"All four encoded incipits (1.1.1-1.1.4) match MurR A44, where RISM numbers them 1.1.1, 1.2.1, 1.3.1 and 1.4.1. RISM titles the anonymous copy 'B major' but the encoding has two flats: it is in B-flat, like the Rosetti copy. The first incipit's metre is encoded as c against 3/4. The comparator cross-references Zobl."
 symphonies,1001067396,"Hasse, Johann Adolf (1699-1783)",confirmed,disputed,new,The Hasse copy (D-Bsa SA 2219) qualifies its attribution as alleged; the same symphony is attributed to Johann Christian Röllig in D-Bsa SA 3212 and D-Ju.
 symphonies,1001067396,"Röllig, Johann Christian (1716-1780c)",confirmed,disputed,new,"Also attributed to Hasse (D-Bsa SA 2219, qualified as alleged). The Röllig copies cross-reference Johann Georg Röllig; RISM 469143100 sets out why the Dresden 'Roellig jun.' material belongs to Johann Christian."
 symphonies,1001109262,"Schuster, Joseph (1748-1812)",rejected,,,"Fewer than six pitches agree, from the start or with one incipit entering partway into the other"
@@ -15,8 +15,8 @@ symphonies,1001320767,"Fodor, Josephus (1751-1828)",rejected,,,Only a common sca
 symphonies,1001356492,"Abel, Carl Friedrich (1723-1787)",confirmed,secure,new,"Movements I, III of 3 encoded match: Symphonies–C major (RISM 1001110376, 1.1.1 Allegro)."
 symphonies,1001374730,"Vanhal, Johann Baptist (1739-1813)",rejected,,,Hand review: melodies differ beyond the opening figure
 symphonies,1001376788,"Schaffrath, Christoph (1709-1763)",confirmed,disputed,anonymous-record,"The anonymous record already carries CSWV and GraunWV numbers; the comparator attributes it to Schaffrath conjecturally, with a cross-reference to Graun."
-symphonies,120000486,"Gyrowetz, Adalbert (1763-1850)",confirmed,secure,new,"A one-leaf violin part: the B-flat Andante is movement II of the F-major symphony RicG F4 (op. 13/2), not a separate symphony."
-symphonies,190001882,"Adlgasser, Anton Cajetan (1729-1777)",unresolved,secure,new,"The anonymous 'Sinphonia ... a 4' opens with the pitch sequence of the third instrumental section (movement III) before the first recitative of Pietas in Deum, rebarred from 3/8 to 2/4, and diverges afterwards."
+symphonies,120000486,"Gyrowetz, Adalbert (1763-1850)",confirmed,secure,new,"A one-leaf violin part: its B-flat Andante is the Andante (incipit 1.2.1) of the F-major symphony RicG F4 (op. 13/2), not a separate symphony."
+symphonies,190001882,"Adlgasser, Anton Cajetan (1729-1777)",unresolved,secure,new,"The anonymous 'Sinphonia ... a 4' opens with the pitch sequence of the Allegro assai (incipit 1.3.1), an instrumental section before the first recitative of Pietas in Deum, rebarred from 3/8 to 2/4, and diverges afterwards."
 symphonies,190004287,"Knölcke, Baltzar",unresolved,secure,new,"Same pitches as Knölcke's ""Railleri"" in a different metre; both copies are obscure"
 symphonies,190008967,"Bernasconi, Andrea (1706-1784)",confirmed,secure,new,"The one encoded movement matches: Symphonies–G major (RISM 170000057, 1.1.1 Allegro)."
 symphonies,190009622,"Pampani, Antonio Gaetano (1706-1775)",rejected,,,Only a common scale or arpeggio fragment agrees on inspection
@@ -31,8 +31,8 @@ symphonies,220017253,"Wolf, Ernst Wilhelm (1735-1792)",confirmed,secure,new,Over
 symphonies,220032364,"Cherubini, Luigi (1760-1842)",rejected,,,"Fewer than six pitches agree, from the start or with one incipit entering partway into the other"
 symphonies,240007339,"Fux, Johann Joseph (1660-1741)",rejected,,,Only a common scale or arpeggio fragment agrees on inspection
 symphonies,240007339,"Skuherský, František Zdeněk (1830-1892)",rejected,,,Composer's dates impossible for this copy or genre
-symphonies,240461,"Mozart, Wolfgang Amadeus (1756-1791)",probable,secure,new,"Only the first section matches: the bass opening of the Kyrie of the Litany K. 125, including its partial-autograph parts. The other three sections are not identified."
-symphonies,250004185,"Gyrowetz, Adalbert (1763-1850)",confirmed,secure,new,Movements I-III match the print RicG C3 (movement I differs in one note); the print encodes no finale to compare.
+symphonies,240461,"Mozart, Wolfgang Amadeus (1756-1791)",probable,secure,new,"Only the first section matches: its cello opening is the bass line (incipit 1.1.2) of the Kyrie of the Litany K. 125, found also in the partial-autograph parts. The other three sections are not identified."
+symphonies,250004185,"Gyrowetz, Adalbert (1763-1850)",confirmed,secure,new,"Incipits 1.1.1-1.3.1 match the print RicG C3 (the first differs in one note, the Menuetto is compared flute against violin); the print encodes no finale to compare."
 symphonies,280002277,"Spohr, Louis (1784-1859)",confirmed,secure,new,"Movement I of 2 encoded match: Symphonies–E♭ major (RISM 1001244813, 1.1.1 Adagio)."
 symphonies,300257516,"Pichl, Václav (1741-1805)",confirmed,secure,new,"The one encoded movement matches: Symphonies (RISM 1001302071, 1.1.1 Allo Con Brio)."
 symphonies,300257653,"Pichl, Václav (1741-1805)",confirmed,secure,new,"The one encoded movement matches: Symphonies–F major (RISM 550248218, 1.1.1 Allegro)."
@@ -51,10 +51,10 @@ symphonies,400014560,"Sarti, Giuseppe (1729-1802)",probable,secure,new,"Matches 
 symphonies,400187451,"Asplmayr, Franz (1728-1786)",confirmed,secure,new,"The one encoded movement matches: Symphonies (RISM 150201388, 1.1.1 Allegro)."
 symphonies,400213728,"Pleyel, Ignace (1757-1831)",probable,secure,new,"Opens like the Pleyel quartet BenP 305. RISM titles the anonymous copy G major but its incipit is encoded without the F-sharp, so the copies appear to part where it has F natural. Whether it is an arrangement of the quartet or a symphony sharing its opening is open."
 symphonies,400213960,"Graun, Johann Gottlieb (1702c-1771)",confirmed,disputed,new,"The matching copies attribute the work to Graun only conjecturally, and one is headed 'Sinfonie del Sigre Giuseppe Rainino'."
-symphonies,400213964,"Galimberti, Ferdinando (1751+)",confirmed,disputed,new,"The anonymous Andante matches movement II (Largo) of the comparator; the anonymous Allegro is not encoded. The comparator, a copy by Edgar Refardt (1877-1968), cross-references Lampugnani, under whom the 1762 Breitkopf catalogue lists the work."
+symphonies,400213964,"Galimberti, Ferdinando (1751+)",confirmed,disputed,new,"The anonymous Andante matches the Largo (incipit 1.2.1) of a symphony attributed to Galimberti; the anonymous Allegro is not encoded, so only that section is identified. The comparator, a copy by Edgar Refardt (1877-1968), cross-references Lampugnani, under whom the 1762 Breitkopf catalogue lists the work."
 symphonies,408005075,"Pichl, Václav (1741-1805)",probable,secure,new,"Clarinet and horn parts in E-flat. Movements II and III match Pichl op. 1/6 (ZakP 24), which Zakin and Breitkopf give in E-flat; the finale matches after four bars' rest. The comparators also record a historical Rosetti attribution (MurR A58S). Wind parts need checking against the corresponding parts."
 symphonies,450003164,"Polazzi, Bernardo (18.sc)",confirmed,uncertain,anonymous-record,The anonymous record already names Polazzi; the comparator's attribution is qualified as doubtful.
-symphonies,450004203,"Küffner, Wilhelm (1727-1797)",confirmed,secure,new,"All three movements match Quartetto IV, movements X, XI and XII of the printed set; the historical titles differ (quartet, symphony) but the music is the same."
+symphonies,450004203,"Küffner, Wilhelm (1727-1797)",confirmed,secure,new,"All three encoded incipits match Küffner's Quartetto IV: the Allegro in the print RISM 1001383642, the Andante and Presto as incipits 1.4.2 and 1.4.3 of the six-quartet manuscript RISM 1001074840. The historical titles differ (quartet, symphony) but the music is the same."
 symphonies,450013954,Schmidt,confirmed,name-only,new,"Identical once the measure repeat is expanded (the earlier parser dropped it); the copy is headed only 'Schmidt', so which Schmidt is not established."
 symphonies,450013956,"Ricci, Francesco Pasquale, OFMConv (1732-1817)",confirmed,secure,new,"The one encoded movement matches: Overtures–D major (RISM 400012916, 1.1.1 Allegro)."
 symphonies,450013960,"Belletti, G. C.",confirmed,secure,new,"The one encoded movement matches: Symphonies–G major (RISM 190009831, 1.1.1 Allegro)."
@@ -63,13 +63,13 @@ symphonies,450303558,"Schuster, Joseph (1748-1812)",confirmed,secure,new,"The on
 symphonies,451508718,"Kücken, Friedrich Wilhelm (1810-1882)",rejected,,,Only a common scale or arpeggio fragment agrees on inspection
 symphonies,453002908,"Vivaldi, Antonio (1678-1741)",confirmed,disputed,anonymous-record,The title already carries RV 303; several comparators cross-reference Tartini.
 symphonies,454016146,"Cibulka, Matouš Alois (1768-1845)",rejected,,,Hand review: melodies differ beyond the opening figure
-symphonies,456006022,"Dalayrac, Nicolas-Marie (1753-1809)",probable,secure,new,"Same melody, grace group included, a fourth higher and in halved note values, as an excerpt from Philippe et Georgette: an arrangement."
+symphonies,456006022,"Dalayrac, Nicolas-Marie (1753-1809)",probable,secure,new,"The oboe incipit has the melody of the song 'O ma Georgette toi seule' (incipit 1.1.2) from Philippe et Georgette, grace group included, a fourth higher and in halved note values: an arrangement."
 symphonies,456007997,"Żebrowski, Marcin Józef, OSPPE (1702-1770)",rejected,,,Hand review: melodies differ beyond the opening figure
-symphonies,456008015,"Andreska, Vincenc",probable,secure,new,"The opening four bars agree with an excerpt copy of a symphony attributed to Andreska (qualified as alleged), repeats included; the figure is common, and the copies diverge in how often the bar repeats."
+symphonies,456008015,"Andreska, Vincenc",probable,uncertain,new,"The opening four bars agree with an excerpt copy of a symphony attributed to Andreska (qualified as alleged), repeats included; the figure is common, and the copies diverge in how often the bar repeats."
 symphonies,469190800,"Benda, Franz (1709-1786)",confirmed,secure,new,"All 3 encoded movements match: Symphonies–D major (RISM 212002745, 1.1.1 allegro assai)."
 symphonies,469191400,"Willmann, Samuel David (1743c-1813)",rejected,,,Only a common scale or arpeggio fragment agrees on inspection
 symphonies,469359400,Brixi,rejected,,,Hand review: melodies differ beyond the opening figure
-symphonies,469467700,"Schürer, Johann Georg (1720c-1786)",confirmed,secure,new,"Matches the sinfonia to Part Two of La Galatea (movement XVI of the excerpt collection), not the opening sinfonia."
+symphonies,469467700,"Schürer, Johann Georg (1720c-1786)",confirmed,secure,new,"Matches the 'Seconda Parte Sinfonia' (incipit 1.16.1) of the La Galatea excerpts, the sinfonia to Part Two, not the opening sinfonia."
 symphonies,469467900,"Meisl, Josef Alois (1767-1792p)",rejected,,,Only a common scale or arpeggio fragment agrees on inspection
 symphonies,500028090,"Asplmayr, Franz (1728-1786)",probable,secure,new,Transposed copy (C major) of D major symphony
 symphonies,530000729,"Süßmayr, Franz Xaver (1766-1803)",confirmed,secure,new,Only the first movement is encoded; movement plan and scoring also agree
@@ -81,7 +81,7 @@ symphonies,553001704,"Haydn, Joseph (1732-1809)",rejected,,,Only a repeated neig
 symphonies,570002608,"Hasse, Johann Adolf (1699-1783)",rejected,,,Melodies differ; only a fragment agrees once grace notes are read
 symphonies,570005113,"Adam, Johann (1704-1779)",confirmed,disputed,comparator-record,"Already documented: comparator 1001057046 notes this copy remains anonymous and records attributions to Malzat, Ferrandini and Sammartini as well as Adam (doubtful)."
 symphonies,570005116,"Anfossi, Pasquale (1727-1797)",rejected,,,Only a common scale or arpeggio fragment agrees on inspection
-symphonies,570005119,"Naumann, Johann Gottlieb (1741-1801)",confirmed,secure,new,"Movements I, II and IV derive from the overture to La clemenza di Tito (its movements I-III), transposed from B-flat to C. The added Minuetto is not identified and is not attributed here."
+symphonies,570005119,"Naumann, Johann Gottlieb (1741-1801)",confirmed,secure,new,"The Allegro, Andante and Finale derive from the overture to La clemenza di Tito (its incipits 1.1.2, 1.2.1 and 1.3.1), transposed from B-flat to C. The added Minuetto is not identified and is not attributed here."
 symphonies,570005126,"Hertel, Johann Wilhelm (1727-1789)",rejected,,,Hand review: melodies differ beyond the opening figure
 symphonies,600025915,"Kospoth, Otto Carl Erdmann (1753-1817)",confirmed,secure,new,"The one encoded movement matches: Symphonies–C major (RISM 450012267, 1.1.1 Allegro)."
 symphonies,600025981,"Koželuh, Leopold (1747-1818)",confirmed,secure,new,"The one encoded movement matches: Symphonies–C major (RISM 210045950, 1.1.1 Allegro molto)."
@@ -92,12 +92,12 @@ symphonies,800261847,"Cambini, Giuseppe (1746-1825)",confirmed,secure,new,"The o
 symphonies,800261901,"Toeschi, Carl Joseph (1731-1788)",confirmed,secure,new,"The one encoded movement matches: Symphonies–D major (RISM 150203709, 1.1.1)."
 symphonies,806252327,"Fritz, Gaspard (1716-1783)",confirmed,modern-copy,new,"All three movements match a C-major sonata for the same four string parts, but that copy was made and edited by Eugen Huber (1909-2004). The Fritz attribution needs its period source."
 symphonies,806252343,"Maschek, Vinzenz (1755-1831)",rejected,,,Only a common scale or arpeggio fragment agrees on inspection
-symphonies,806426578,"Lully, Jean-Baptiste (1632-1687)",probable,secure,new,Matches movement XXV of an arrangement of excerpts from Lully's Isis note for note; an eighteenth-century copy of a Lully piece is plausible despite the 'symphony' heading.
+symphonies,806426578,"Lully, Jean-Baptiste (1632-1687)",probable,secure,new,Matches a Menuet from Isis (LWV 54/45) note for note; an eighteenth-century copy of a Lully piece is plausible despite the 'symphony' heading.
 symphonies,840002845,"Sammartini, Giovanni Battista (1700c-1775)",confirmed,secure,new,"RISM heads the anonymous record Quartets, but its own description points to a symphonic piece; four string parts do not by themselves show an arrangement."
 symphonies,840003125,"Perez, Davide (1711-1778)",probable,secure,new,Identical over 17 pitches with the opening of 'Posson ben le stagion'; whether the anonymous symphony is the opera's sinfonia or an arrangement of the aria is open.
 symphonies,850002402,"Asplmayr, Franz (1728-1786)",confirmed,secure,new,"All four encoded bars of Agamemnon vengé agree, grace notes included; the comparator encodes nothing further."
 symphonies,850004869,"Crispi, Pietro Maria (1737c-1797)",confirmed,secure,new,"The one encoded movement matches: Symphonies–D major (RISM 131526, 1.1.1 Allegro con spirito)."
-symphonies,850010403,"Davaux, Jean-Baptiste (1742-1822)",confirmed,secure,new,"The encoded incipit, labelled Allegro, matches movement II (Allegretto) of the printed symphonie concertante; the record also lists a separate Allegretto, so the label or movement order differs. Two solo violins fit a symphonie concertante."
+symphonies,850010403,"Davaux, Jean-Baptiste (1742-1822)",confirmed,secure,new,"The encoded incipit, labelled Allegro, matches the Allegretto (incipit 1.2.1) of the printed symphonie concertante; the record also lists a separate Allegretto, so the label or order differs. Two solo violins fit a symphonie concertante."
 symphonies,850012465,"Leo, Leonardo (1694-1744)",rejected,,,Hand review: melodies differ beyond the opening figure
 symphonies,850025478,"Benevoli, Orazio (1605-1672)",rejected,,,Rhythm and melody differ; only a contour fragment agrees; not rejected on the composer's dates alone.
 symphonies,850026335,"Mysliveček, Josef (1737-1781)",confirmed,secure,new,"The one encoded movement matches: La Calliroe (Excerpts) (RISM 400004242, 1.1.1 Allegro con spirito)."
@@ -108,7 +108,7 @@ symphonies,850604858,"Benatti, Vincenzo (1767-1797)",confirmed,secure,new,"The o
 symphonies,850605102,"Riedt, Friedrich Wilhelm (1710-1783)",rejected,,,Only a common scale or arpeggio fragment agrees on inspection
 symphonies,850607316,"Pleyel, Ignace (1757-1831)",unresolved,secure,new,Anonymous opening equals bars 3-4 of the Pleyel symphonie concertante a step lower; needs the full parts
 symphonies,850607317,"Farinelli, Giuseppe (1769-1836)",confirmed,secure,new,"The one encoded movement matches: Pamela (RISM 840015171, 1.2.1)."
-symphonies,850607318,"Benatti, Vincenzo (1767-1797)",confirmed,secure,anonymous-record,The anonymous record already names Benatti.
+symphonies,850607318,"Benatti, Vincenzo (1767-1797)",confirmed,secure,anonymous-record,"An 1860 note on the copy calls it a sinfonia 'd'ignoto autore' from the head of Il voto di Jefte (Mantua, 1794), with music by Luigi Gatti and Vincenzo Benatti; the one encoded incipit matches the sinfonia of Benatti's partial autograph of Egeria, which points to Benatti."
 symphonies,850607491,"Rolla, Alessandro (1757-1841)",confirmed,secure,new,"The one encoded movement matches: Ballets (RISM 851002700, 1.1.1 N. 1:. Largo maestoso)."
 symphonies,850607664,"Cimarosa, Domenico (1749-1801)",confirmed,secure,new,"The one encoded movement matches: I matrimoni impensati (RISM 850008353, 1.1.1 Sinfonia. Allegro con molto brio)."
 symphonies,850607665,"Pecháček, Franz Martin (1763-1816)",rejected,,,Hand review: melodies differ
@@ -123,7 +123,7 @@ symphonies,854005387,"Paër, Ferdinando (1771-1839)",confirmed,secure,new,"The o
 symphonies,854005521,"Grazioli, Filippo (1774-1840)",probable,secure,new,"Same melody and rhythm a whole step higher than an excerpt from Il barone di Montesecco: a transposed copy or arrangement. RISM titles the anonymous copy A major, but its encoded opening (an Andante, likely a slow introduction) has two sharps."
 symphonies,854006142,"Vargas, Urbán de (1606-1656)",rejected,,,Only repeated notes agree; not rejected on the composer's dates alone.
 concertos,1001011669,"Graun, Carl Heinrich (1704-1759)",rejected,,,"Only a short cadential figure agrees, inside an aria in another key"
-concertos,1001083393,"Woelfl, Joseph (1773-1812)",confirmed,secure,new,Movement I matches Woelfl's Concerto da camera (HaiW WoO 97) note for note; movements II and III find no encoded match.
+concertos,1001083393,"Woelfl, Joseph (1773-1812)",confirmed,secure,new,The first incipit matches Woelfl's Concerto da camera (HaiW WoO 97) note for note; the other two find no encoded match.
 concertos,1001118376,"Bach, Carl Philipp Emanuel (1714-1788)",rejected,,,Only broken-chord accompaniment figuration agrees
 concertos,1001118376,"Bonno, Giuseppe (1711-1788)",rejected,,,Only broken-chord accompaniment figuration agrees
 concertos,1001118376,"Celli, Giovanni",rejected,,,Only broken-chord accompaniment figuration agrees
@@ -149,24 +149,24 @@ concertos,1001386047,"Giornovichi, Giovanni (1747-1804)",probable,secure,anonymo
 concertos,121088,"Dimler, Franz Anton (1753-1827)",confirmed,secure,new,The one encoded movement matches a Dimler concerto (RISM 840011592) note for note.
 concertos,150201913,"Paisiello, Giovanni (1740-1816)",confirmed,secure,new,The one encoded movement matches Paisiello's autograph concerto in G minor (RISM 852029682).
 concertos,150204727,"Vinci, Leonardo (1696c-1730)",rejected,,,"Only a descending scale in repeated notes agrees, inside an excerpt in another key"
-concertos,190004880,"Tessarini, Carlo (1690c-1766p)",probable,secure,anonymous-record,Movement II matches movement I of an aria arrangement (RISM 136107) attributed to Tessarini; the anonymous record already names Tessarini.
+concertos,190004880,"Tessarini, Carlo (1690c-1766p)",probable,secure,anonymous-record,The Largo (incipit 1.2.1) matches incipit 1.1.1 of an aria arrangement attributed to Tessarini (RISM 136107); the anonymous record already names Tessarini.
 concertos,190004899,"Baltzar, Thomas (1630c-1663)",rejected,,,No encoded incipit matches; not rejected on the composer's dates alone
 concertos,190011118,"Meerts, Lambert-Joseph (1800-1863)",rejected,,,Composer born after the copy; only a transposed étude figure agrees
 concertos,190011252,"Hasse, Johann Adolf (1699-1783)",confirmed,secure,new,The one encoded movement matches a Hasse concerto (RISM 701001563) note for note over its sequence.
 concertos,190015610,"Hasse, Johann Adolf (1699-1783)",rejected,,,"Only six pitches agree, inside an aria from Ezio in another key"
-concertos,190100289,"Händel, Georg Friedrich (1685-1759)",confirmed,uncertain,comparator-record,"The anonymous record already carries HWV Anh. B 3, and comparator 453011722 already cites this copy. Its one encoded movement matches movement II of that copy, where the Handel attribution is qualified as alleged."
+concertos,190100289,"Händel, Georg Friedrich (1685-1759)",confirmed,uncertain,comparator-record,"The anonymous record already carries HWV Anh. B 318, and comparator 453011722 already cites this copy. Its one encoded incipit matches the solo violin's Allegro (incipit 1.2.1) of that copy, where the Handel attribution is qualified as alleged."
 concertos,212003238,"Pisendel, Johann Georg (1687-1755)",confirmed,uncertain,anonymous-record,"Movements I and II match a Pisendel autograph concerto in E minor (RISM 212003237), whose attribution RISM qualifies as conjectural; the anonymous record already carries PW Anh. 4:e1."
 concertos,212003573,"Lalande, Michel-Richard de (1657-1726)",rejected,,,Only a few pitches of a Credidi agree
 concertos,212003595,"Dall'Oglio, Domenico (1700c-1764)",rejected,,,"Only the first three bars agree, a tone apart, before the melodies part"
 concertos,240004852,"Vivaldi, Antonio (1678-1741)",rejected,,,"Only a scale and arpeggio fragment, transposed, agrees"
 concertos,240007354,"Boroni, Antonio (1738-1792)",rejected,,,Only a fragment inside a Credidi agrees
-concertos,240007354,"Schubarth, Johann Kaspar (1756-1810)",unresolved,secure,new,"Movement II's opening agrees for seven pitches with movement V of Schubarth's cantata 'Frohlocket ihr Christen', with a slightly different rhythm; too short to decide."
+concertos,240007354,"Schubarth, Johann Kaspar (1756-1810)",unresolved,secure,new,"The opening of the anonymous incipit 1.2.2 agrees for seven pitches with incipit 1.6.2 of Schubarth's cantata 'Frohlocket ihr Christen', with a slightly different rhythm; too short to decide."
 concertos,240007362,"Rauzzini, Venanzio (1746-1810)",rejected,,,Only fragments inside a sonata in another key agree
-concertos,240007366,"Dieter, Christian Ludwig (1757-1822)",confirmed,secure,new,Movement II matches movement III of Dieter's concerto in F (RISM 250014266) note for note.
+concertos,240007366,"Dieter, Christian Ludwig (1757-1822)",confirmed,secure,new,"The Rondo alla polacca, which a note in the anonymous record says a second copyist (Katel?) probably added later, agrees with the Rondo alla pollacka (incipit 1.3.1) in Dieter's concerto RISM 250014266. The preceding Adagio remains unidentified."
 concertos,240007370,"Moniuszko, Stanisław (1819-1872)",rejected,,,Composer born after the copy; only a fragment agrees
 concertos,240007379,Graun,confirmed,name-only,new,Movement III matches a concerto headed only 'Graun' in the same library (RISM 240007380); which Graun is not established.
 concertos,240007386,"Telemann, Georg Philipp (1681-1767)",rejected,,,Only a generic figure agrees with an aria in another key
-concertos,300511594,"Händel, Georg Friedrich (1685-1759)",probable,secure,new,"Movement IV has the melody of an excerpt from Admeto (movement I of that excerpt print), a minor third lower in F; the concerto finale and the opera number share material, relationship open. One Admeto copy cross-references Porpora."
+concertos,300511594,"Händel, Georg Friedrich (1685-1759)",probable,secure,new,"The anonymous Allegro (incipit 1.4.1) has the melody of the orchestral opening (incipit 1.1.1) of the aria 'Se l'arco avessi e i strali' from Admeto (HWV 22/12), a minor third lower in F; the concerto finale and the aria share material, relationship open. One Admeto copy cross-references Porpora."
 concertos,340000399,"Rungger, Joseph (1846+)",rejected,,,"Only seven pitches, in another key and metre, agree"
 concertos,400014083,"Stamitz, Carl (1745-1801)",confirmed,secure,anonymous-record,The one encoded movement matches a Carl Stamitz concerto (RISM 400013124) note for note; the anonymous record already names Stamitz.
 concertos,400014094,"Methfessel, Albert (1785-1869)",rejected,,,Melodies differ; only a transposed fragment agrees
@@ -177,29 +177,29 @@ concertos,400187877,"Valentini, Giuseppe (1681-1753)",confirmed,secure,new,"The 
 concertos,400196182,"Winter, Peter von (1754-1825)",confirmed,secure,new,The one encoded movement matches a Winter concerto in B-flat (RISM 240005358) note for note.
 concertos,450011856,"Gasparini, Quirino (1721-1778)",probable,uncertain,new,"Same melody a fourth apart as an Andantino attributed conjecturally to Quirino Gasparini (RISM 1001138783), in halved note values with the appoggiaturas written out; another copy cross-references Francesco Gasparini."
 concertos,450012658,"Concialini, Michele (1857p+)",rejected,,,Composer's dates impossible for this copy; only a fragment agrees
-concertos,450013911,"Fils, Anton (1733-1760)",confirmed,disputed,anonymous-record,"The anonymous record already carries Hob. V:C6, a work listed under Haydn; its opening matches movement II of a Fils sonata (FuhM) note for note, so both names are in play."
+concertos,450013911,"Fils, Anton (1733-1760)",confirmed,disputed,anonymous-record,"The anonymous record already carries Hob. V:C6, a work listed under Haydn. Its opening matches the keyboard incipit (1.1.2) of the first movement of a Fils sonata (FuhM 12.3) note for note, so both names are in play."
 concertos,450014316,"Gonelli, Giuseppe (1666-1745)",confirmed,secure,new,"The one encoded movement matches a Gonelli sonata (RISM 703004085), ornament groups included."
 concertos,450026094,"Beecke, Ignaz von (1733-1803)",probable,secure,anonymous-record,The anonymous record already carries BEEV 103; its opening matches a Beecke sonata in G a fourth lower and in doubled note values.
-concertos,450026357,Vogel,confirmed,name-only,new,"The one encoded movement matches movement III of a concerto headed only 'Vogel' (RISM 190021287), where the attribution is qualified as conjectural."
+concertos,450026357,Vogel,confirmed,name-only,new,"The one encoded incipit matches the violin Allegro (incipit 1.2.1) of a concerto headed only 'Vogel' (RISM 190021287), where the attribution is qualified as conjectural."
 concertos,450203600,"Holzbauer, Ignaz (1711-1783)",rejected,,,Melodies differ
-concertos,451509888,"Feo, Francesco (1691-1761)",probable,secure,new,"Movement II has the melody of the aria 'In un mar tempestoso' after its introduction (movement I of that copy), rebarred from 2/4 to 3/8."
+concertos,451509888,"Feo, Francesco (1691-1761)",probable,secure,new,"The anonymous incipit has the melody of the alto's entry 'Al vento' (incipit 1.2.2) in the aria of 'In un mar tempestoso', rebarred from 2/4 to 3/8."
 concertos,452506142,"Graun, Carl Heinrich (1704-1759)",confirmed,secure,new,The one encoded movement matches a C. H. Graun concerto (RISM 452019425) note for note.
 concertos,453001017,"Orlandini, Giuseppe Maria (1676-1760)",rejected,,,Only repeated notes agree
 concertos,453001018,"Händel, Georg Friedrich (1685-1759)",rejected,,,Only repeated notes and a triad agree
 concertos,453002236,"Plá, Juan Bautista (1720-1773)",rejected,,,Only a descending line of repeated notes agrees
 concertos,454009597,"Kempter, Karl (1819-1871)",rejected,,,Composer born after the copy; no encoded incipit matches
 concertos,455008510,"Bach, Johann Sebastian (1685-1750)",rejected,,,Only figuration inside a chorale cantata movement agrees
-concertos,469274900,"Hofmann, Leopold (1738-1793)",confirmed,disputed,comparator-record,Comparator 550500620 already cites this autograph; it cross-references Dittersdorf. The one encoded movement matches note for note.
+concertos,469274900,"Hofmann, Leopold (1738-1793)",confirmed,disputed,comparator-record,"Comparator 550500620 already cites this autograph and cross-references Dittersdorf. The anonymous record itself raises Johann Gabriel Seyffarth as a possible composer from the handwriting and revisions. The one encoded incipit matches note for note; composer unresolved between Hofmann, Dittersdorf and Seyffarth."
 concertos,469303700,"Seyffarth, Johann Gabriel (1711-1796)",confirmed,secure,new,Movements I and II match Seyffarth's concerto in D-Bsa SA 2957 note for note; the five-bar search also finds the stock opening figure under other composers.
 concertos,469304100,"Gronau, Daniel Magnus (1700c-1747)",rejected,,,Only a transposed fragment of a contrapuntal study agrees
-concertos,469473100,"Bach, Carl Philipp Emanuel (1714-1788)",probable,secure,anonymous-record,The anonymous record already carries 'Wq deest'; its opening matches a C. P. E. Bach concerto in E-flat a semitone lower.
-concertos,530003269,"Ullinger, Augustin (1746-1781)",unresolved,secure,new,"The opening (repeated Cs and a C-major arpeggio) agrees with an Ullinger symphony, but the figure is common and the rhythm differs slightly."
-concertos,540001081,"Senfft, Giuseppe (18.sc)",confirmed,secure,new,Movements I and II match the Senfft concerto RISM 540001035 note for note.
+concertos,469473100,"Bach, Carl Philipp Emanuel (1714-1788)",probable,uncertain,anonymous-record,"The anonymous record says the title names C. P. E. Bach but his authorship is not established (Enßlin). Its opening matches the E-flat concerto Wq 35 (HelB 446, RISM 703000219) a semitone lower, which supports Bach but as a transposed version the relationship still needs checking."
+concertos,530003269,"Ullinger, Augustin (1746-1781)",unresolved,disputed,new,"The opening (repeated Cs and a C-major arpeggio) agrees with an Ullinger symphony, but the figure is common and the rhythm differs slightly. The anonymous record cross-references Jazitsek."
+concertos,540001081,"Senfft, Giuseppe (18.sc)",confirmed,secure,new,The two encoded incipits match the Senfft concerto RISM 540001035: the anonymous opening Allegro is the keyboard part (incipit 1.1.2) of that copy's first movement.
 concertos,540001102,"Krommer, Franz (1759-1831)",confirmed,secure,new,"The one encoded movement matches a Krommer concerto in A (RISM 551002432); the comparator writes the turn in bar 2 as grace notes, which the automatic comparison drops."
-concertos,551004768,"Fränzl, Ferdinand (1767-1833)",probable,secure,new,Movement III opens like a polonaise attributed to Fränzl (movement I of RISM 456008961) for 13 pitches.
+concertos,551004768,"Fränzl, Ferdinand (1767-1833)",probable,secure,new,The anonymous 'N 2.' (incipit 1.3.1) opens like a polonaise attributed to Fränzl (incipit 1.1.1 of RISM 456008961) for 13 pitches.
 concertos,553004821,"Rosetti, Antonio (1750c-1792)",confirmed,secure,new,"All three movements match Rosetti's clarinet concerto MurR C62 in E-flat; the anonymous incipits are a whole tone higher, as written for B-flat clarinet. The finale is an instrumental Rondo."
 concertos,570004580,"Eberwein, Carl (1786-1868)",rejected,,,Only a fragment inside a Singspiel agrees
-concertos,600026020,"Boroni, Antonio (1738-1792)",probable,secure,new,"Movement I has the melody of an aria (movement XX) of La notte critica, ornaments included, a whole tone lower: an arrangement or shared material."
+concertos,600026020,"Boroni, Antonio (1738-1792)",probable,secure,new,"The Andante has the melody of the 'Aria. Lento' (incipit 1.50.1) of La notte critica, ornaments included, a whole tone lower: an arrangement or shared material."
 concertos,600026060,"Koželuh, Leopold (1747-1818)",probable,secure,new,"The opening matches Koželuh's Symphony in C (PosK I:9), but only seven pitches are encoded and RISM catalogues the anonymous copy as a concerto."
 concertos,600236792,"Alberti, Giuseppe Matteo (1685-1751)",confirmed,secure,new,Movements I and III match the Alberti concerto RISM 1001244317 note for note.
 concertos,600236796,"Heinichen, Johann David (1683-1729)",confirmed,secure,new,Movements I and III match Heinichen's concerto HauH 1.13 in two copies; the five-bar search also returns a copy under Lechleitner.
@@ -207,8 +207,8 @@ concertos,600241001,"Haueisen, Wolfgang Nicolaus (1740-1804)",rejected,,,Melodie
 concertos,600241003,"Cherubini, Luigi (1760-1842)",rejected,,,Only arpeggio figuration inside a Requiem movement agrees
 concertos,600241007,"Führer, Robert (1807-1861)",rejected,,,Only a fragment inside a Mass movement agrees
 concertos,600241015,"Verdú y Landívar, José (19/20)",rejected,,,Only repeated notes agree
-concertos,650005260,"Wagenseil, Georg Christoph (1715-1777)",confirmed,secure,anonymous-record,Movements I-III match Wagenseil divertimentos in two copies note for note; the anonymous record already carries 'MicWka deest'.
-concertos,702000574,"Stamitz, Anton (1750-1809a)",confirmed,secure,anonymous-record,The one encoded movement matches an Anton Stamitz concerto (RISM 1001198035) note for note; the anonymous record already names Stamitz.
+concertos,650005260,"Wagenseil, Georg Christoph (1715-1777)",confirmed,secure,anonymous-record,"The three encoded incipits match Wagenseil divertimentos in two copies (one the autograph fragment, whose incipit 1.1.1 matches the anonymous 1.1.3); the anonymous record already carries 'MicWka deest'."
+concertos,702000574,"Stamitz, Anton (1750-1809a)",confirmed,uncertain,anonymous-record,"The anonymous record says other sources give it probably to Anton or Carl Stamitz. Its one encoded incipit matches a copy naming Anton Stamitz (RISM 1001198035) note for note, which favours Anton but does not rule out Carl."
 concertos,706001606,"Tobi, F.",unresolved,secure,new,"The same rising-arpeggio figure and rhythm as Tobi's concerto in G, a major third lower; RISM titles the anonymous copy B-flat major but its incipit has three flats, and the figure is generic."
 concertos,800247349,"Sammartini, Giuseppe (1695-1750)",confirmed,secure,new,The one encoded movement matches a Giuseppe Sammartini concerto in the same R.M. collection note for note.
 concertos,800247350,"Sammartini, Giuseppe (1695-1750)",confirmed,secure,new,The one encoded movement matches a Giuseppe Sammartini concerto in the same R.M. collection note for note.
@@ -216,14 +216,14 @@ concertos,800247352,"Sammartini, Giuseppe (1695-1750)",confirmed,secure,new,The 
 concertos,800247358,"Sammartini, Giuseppe (1695-1750)",confirmed,secure,new,The one encoded movement matches a Giuseppe Sammartini concerto in the same R.M. collection note for note.
 concertos,800252412,"Tartini, Giuseppe (1692-1770)",confirmed,disputed,comparator-record,"Comparator 806550013 already cites this copy; one comparator cross-references Visconti. The one encoded movement matches, though encoded in c against 3/4."
 concertos,800252419,"Vivaldi, Antonio (1678-1741)",confirmed,secure,new,"The one encoded movement matches a Vivaldi concerto (RISM 850030009) note for note, measure repeat included."
-concertos,800261899,"Winter, Peter von (1754-1825)",probable,secure,new,"The one encoded movement has the melody of Winter's concerto in E-flat (RISM 450000625) a whole tone higher, perhaps a part for a transposing instrument; the instrumentation needs checking."
-concertos,800273642,"Telemann, Georg Philipp (1681-1767)",confirmed,secure,new,The one encoded movement matches movement I of Telemann's Die Satyren in Arcadien (RISM 452513485) note for note.
+concertos,800261899,"Winter, Peter von (1754-1825)",probable,secure,new,"The violin opening agrees in F major with a concerto attributed to Winter, RISM 850777862, which is for solo oboe, whereas the anonymous material has a solo violin part; the relationship and extent need checking. An E-flat Winter concerto (RISM 450000625) has the same melody a tone lower."
+concertos,800273642,"Telemann, Georg Philipp (1681-1767)",confirmed,secure,new,The one encoded incipit matches the opening incipit of Telemann's Die Satyren in Arcadien (RISM 452513485) note for note.
 concertos,806250192,"Vivaldi, Antonio (1678-1741)",rejected,,,Only five pitches agree
 concertos,806549975,"Sacchini, Antonio (1730-1786)",rejected,,,Melodies and rhythm differ on inspection
 concertos,806549977,"Miseroca, Bastiano (16/17)",rejected,,,Only a bass figure agrees
 concertos,850003939,"Pistocchi, Francesco Antonio (1659-1726)",rejected,,,"The same ornamented stepwise rise as an aria, but metre and rhythm differ"
 concertos,850023629,"Schröter, Johann Samuel (1752c-1788)",confirmed,secure,new,The one encoded movement matches a Schröter concerto (RISM 124898) note for note.
-concertos,850027204,"Müller, Wenzel (1759-1835)",rejected,,,"Only a fragment of movement II of a Singspiel, in another key and metre, agrees"
+concertos,850027204,"Müller, Wenzel (1759-1835)",rejected,,,"Only a fragment of a Singspiel number, in another key and metre, agrees"
 concertos,850605742,"Gerold, Julius Viktor (1808-1876)",rejected,,,"Only six pitches, inside a dance, agree"
 concertos,850613684,"Pellegrini, Ferdinando (1715c-1766c)",confirmed,secure,new,The one encoded movement matches a Pellegrini concerto (RISM 500052924) note for note over 22 pitches.
 concertos,850727507,"Stratico, Michele (1728-1783)",probable,secure,new,"Identical opening to a Stratico concerto in A (RISM 138045), trills aside, but only five distinct pitches are encoded."
@@ -232,5 +232,5 @@ concertos,850777458,"Pfeiffer, Johann Michael (1750c*)",confirmed,secure,new,"Th
 concertos,850779370,"Fortunati, Gian Francesco (1746-1821)",confirmed,secure,new,The one encoded movement matches a Fortunati concerto in the same library note for note.
 concertos,850807553,"Rietz, Julius (1812-1877)",rejected,,,Composer born after the copy; no encoded incipit matches
 concertos,851002699,"Chiesa, Melchiorre (1716-1783)",confirmed,secure,new,The one encoded movement matches Chiesa's symphony in D (RISM 400006391) note for note; RISM catalogues the anonymous copy as a concerto.
-concertos,854005386,"Pleyel, Ignace (1757-1831)",unresolved,secure,new,"Its second incipit has the melody of the Rondo (movement II) of a Pleyel quintet arrangement a whole tone higher, the turn written differently; the first incipit is a held G. RISM titles the copy F major, but that first incipit has no key signature."
-concertos,854005778,"Gyrowetz, Adalbert (1763-1850)",probable,secure,new,"The melody of movement III of Gyrowetz's 3 Duets (print), a whole tone higher; RISM catalogues the anonymous copy as a concerto."
+concertos,854005386,"Pleyel, Ignace (1757-1831)",unresolved,secure,new,"Its second incipit (1.1.2) has the melody of the Rondo Allegro (incipit 1.2.1) of a Pleyel quintet arrangement a whole tone higher, the turn written differently; the first incipit is a held G. RISM titles the copy F major, but that first incipit has no key signature."
+concertos,854005778,"Gyrowetz, Adalbert (1763-1850)",probable,secure,new,"The melody of Duo III (incipit 1.3.1, the opening of the third duet) of Gyrowetz's 3 Duets (print), a whole tone higher; RISM catalogues the anonymous copy as a concerto."

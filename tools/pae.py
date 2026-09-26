@@ -193,38 +193,3 @@ def figuration(p, start, length):
             covered.update(range(k, j + 1))
         k = j + 1
     return len(covered) / len(seq) if seq else 0.0
-
-
-def movement_ordinals(labels):
-    """Map incipit labels to movement ordinals (1, 2, ...).
-
-    RISM numbers incipits work.movement.incipit, but catalogues differ: some give each movement
-    its own middle number ("1.2.1 Andante"), others number movements as incipits of one
-    ("1.1.2 Andante"), and extra incipits for other instruments of the same movement carry no
-    title ("1.3.2"). A new movement starts when the middle number changes, or when an incipit
-    within the same number carries a title or tempo of its own.
-    """
-    out, n, prev = {}, 0, None
-    for lab in labels:
-        m = re.match(r"(\d+\.\d+)(?:\.\d+)?\s*(.*)$", lab or "")
-        xy, text = (m.group(1), m.group(2).strip()) if m else (lab, "")
-        if n == 0 or xy != prev or text:
-            n += 1
-        out[lab] = n
-        prev = xy
-    return out
-
-
-def roman(n):
-    out = ""
-    for value, sym in ((40, "XL"), (10, "X"), (9, "IX"), (5, "V"), (4, "IV"), (1, "I")):
-        while n >= value:
-            out += sym
-            n -= value
-    return out
-
-
-def movement_number(label):
-    """RISM incipit labels are work.movement.incipit ("1.2.1 Andante"); returns "1.2"."""
-    m = re.match(r"(\d+)\.(\d+)", label or "")
-    return f"{m.group(1)}.{m.group(2)}" if m else (label or "").split(" ")[0]

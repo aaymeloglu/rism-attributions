@@ -20,16 +20,20 @@ Anonymus count; RISM's Anonymus list also contains records that merely cross-ref
    attributed composer, kept when that composer's copies match two or more incipits, or one
    that no other named composer matches, provided two or more of the composer's copies match or
    the search returned at most two hits. For each lead the script records:
-   - per incipit, the best pitch agreement with the composer's incipits, both from the start
-     and with one incipit starting partway into the other (a part entering after rests);
-   - which movement of the attributed copy matched, with movements counted from titles and
-     numbering rather than incipit numbers (`pae.movement_ordinals`);
+   - per incipit, every attributed incipit that agrees with it, best first, both from the start
+     and with one incipit starting partway into the other (a part entering after rests); among
+     equally long agreements a same-key, same-instrument witness ranks first;
+   - each incipit by RISM's own label, instrument and text incipit. No movement numbers are
+     computed: RISM's numbering mixes movements, sections, instrumental parts and separate
+     pieces, and only reading the record tells which. Where an anonymous incipit matches an
+     attributed incipit with a different number, the note cites that number and says what it is;
    - catalogue context (`tools/context.py`): whether an attributed copy's record already cites
      the anonymous copy by RISM id or call number (under its current or a former library);
      whether the attribution is qualified (conjectural, alleged, doubtful), cross-referenced to
-     other composers, a bare surname, or carried only by a modern copy; whether the matched
-     incipit is labelled as a vocal number; whether any match is in a different key; whether
-     RISM's title key disagrees with the encoded key signature;
+     other composers, a bare surname, or carried only by a modern copy; what the anonymous
+     record itself says about authorship; whether the matched incipit is labelled as a vocal
+     number; whether the text incipits differ (a contrafactum); whether any match is in a
+     different key; whether RISM's title key disagrees with the encoded key signature;
    - the composer's dates against the copy's, and which other composers a five-bar re-search
      returns.
 
@@ -73,7 +77,7 @@ finding are different questions.
 
 | Value | Meaning |
 |---|---|
-| secure | The attributed copies name one composer without qualification. |
+| secure | The attributed copies name one composer without qualification, and every other flag has a written resolution in `data/attribution_resolutions.csv`. |
 | disputed | Attributed copies or catalogues name other composers too. |
 | uncertain | The attribution is qualified (conjectural, doubtful) or itself unverified. |
 | name-only | The attributed copy gives only a surname. |
@@ -87,18 +91,29 @@ finding are different questions.
 | anonymous-record | The anonymous record already names the composer or the catalogue number. |
 | comparator-record | An attributed copy's record already cites the anonymous copy. |
 
-The note says what matched: which movements, which movement of the attributed copy, and what
-that is (an overture, an aria, a quartet movement).
+The note says what matched, in the records' own terms: which incipits, which incipit of the
+attributed copy (by RISM number and title), and what that is (an overture, an aria, a keyboard
+part of a first movement, the opening of a separate duet).
 
 ## Checks
 
 `tests/test_data.py` fails the build when a verdict ignores what the tools found: a lead whose
-comparator already cites the anonymous copy marked new; a flagged attribution (qualifier,
-cross-reference, modern copy, bare surname) marked secure without the note naming it; a match
-with a different movement of the attributed copy whose note does not name that movement; a
-match with a vocal number whose note does not say so; a note claiming a transposition that the
-keys do not show; a title key that disagrees with the encoded key signature and goes
-unmentioned. Each of these reached the site at least once before the check existed.
+comparator already cites the anonymous copy marked new; a qualified attribution marked secure
+(never allowed); any other attribution flag, on the attributed copies or in the anonymous
+record's own authorship notes, on a secure lead without a written resolution (mentioning a flag
+is not resolving it); a match with a differently numbered incipit whose note does not cite it;
+a computed movement numeral in a note; a match with a vocal number, or under different words,
+whose note does not say so; a transposition claim the keys do not show; a title key that
+disagrees with the encoded key signature and goes unmentioned; an anonymous concordance
+candidate without a verdict. Each of these reached the site at least once before the check
+existed.
+
+## Anonymous concordances
+
+Pairs of anonymous sources whose incipits agree, both from the start, on two or more
+differently numbered incipits are candidates. Each gets a verdict in
+`data/concordance_verdicts.csv` (same, probable, rejected) after comparison by eye; only same
+and probable pairs are published, and a rejected pair stays rejected on regeneration.
 
 ## Limits
 
@@ -110,10 +125,11 @@ unmentioned. Each of these reached the site at least once before the check exist
   none; the composers' printed thematic catalogues are the next place to look.
 - "Not noted in RISM" is not "unknown to scholars": a thematic catalogue may already list a
   copy. Check before reporting.
-- Unencoded movements are neither matches nor mismatches.
-- The research and incipit comparison were done by Claude (an LLM). An independent review by
-  Codex (another LLM) on 26 September 2026 led to the three-part verdict, the catalogue checks
-  and the parser fixes. No manuscript images were examined.
+- Unencoded movements and sections are neither matches nor mismatches; the site reports
+  matches as "k of n encoded incipits".
+- The research and incipit comparison were done by Claude (an LLM). Two independent reviews by
+  Codex (another LLM) on 26 September 2026 led to the three-part verdict, the catalogue checks,
+  the incipit-label descriptions and the parser fixes. No manuscript images were examined.
 
 ## Adding a genre
 

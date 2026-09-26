@@ -161,3 +161,51 @@ def key_label_mismatch(label, first_keysig):
     """The title's key disagrees with the first incipit's key signature (e.g. 'B major' over two flats)."""
     expected = label_key_fifths(label)
     return expected is not None and first_keysig is not None and expected != keysig_fifths(first_keysig)
+
+
+def _words(text):
+    return re.findall(r"[a-zà-ÿ]+", (text or "").lower())
+
+
+def text_agreement(a, b):
+    """Compare two text incipits: 'same', 'different', or '' when either is missing.
+    Two copies of one aria share their words; the same melody under different words is a
+    contrafactum (or a coincidence), not the same piece as catalogued."""
+    wa, wb = _words(a), _words(b)
+    if not wa or not wb:
+        return ""
+    n = min(len(wa), len(wb), 3)
+    return "same" if wa[:n] == wb[:n] else "different"
+
+
+AUTHORSHIP = re.compile(r"attribu|zuschreib|zugeschrieb|autorschaft|authorship|komponist|\bcomposer\b|"
+                        r"\b(?:probably|possibly|perhaps|presumably) by\b|"
+                        r"\b(?:vermutlich|wahrscheinlich|wohl|möglicherweise|evtl\.?) (?:von|vom)\b|"
+                        r"nicht gesichert|not established|ignoto autore|d'autore ignoto|autore incerto", re.I)
+
+
+def authorship_notes(src, composer=""):
+    """Catalogue notes on the anonymous record itself that discuss who wrote it, plus its own
+    composer cross-references. An anonymous heading can sit on top of an authorship discussion;
+    a new concordance has to be weighed against it, not over it."""
+    own = composer.split(",")[0].split(" (")[0]
+    out = [f"cross-reference to {name}" + (f" ({q})" if q else "") for name, q in cross_references(src)
+           if name != "Anonymus" and not (own and name.startswith(own))]
+    notes = []
+    for grp in (src.get("contents") or {}).get("summary", []) + [x for g in (src.get("materialGroups") or {}).get("items", []) for x in g.get("summary", [])]:
+        notes += (grp.get("value") or {}).get("none", [])
+    for sec in ("notes", "contents"):
+        block = src.get(sec) or {}
+        for item in block.get("notes", []) if isinstance(block, dict) else []:
+            notes += (item.get("value") or {}).get("none", [])
+    text = json.dumps(src, ensure_ascii=False)
+    for m in re.finditer(r'"value": \{"none": \[((?:"(?:[^"\\]|\\.)*",? ?)+)\]', text):
+        for v in re.findall(r'"((?:[^"\\]|\\.)*)"', m.group(1)):
+            if len(v) > 25 and AUTHORSHIP.search(v) and not v.startswith("<span"):
+                notes.append(v)
+    seen = []
+    for n in notes:
+        n = n.replace('\\"', '"')
+        if AUTHORSHIP.search(n) and n not in seen and len(n) > 25:
+            seen.append(n[:300])
+    return out + seen[:6]

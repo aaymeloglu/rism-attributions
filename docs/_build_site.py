@@ -108,15 +108,6 @@ def badges(lead):
     return '<span class="badges">' + "".join(out) + "</span>"
 
 
-def roman(n):
-    out = ""
-    for value, sym in ((40, "XL"), (10, "X"), (9, "IX"), (5, "V"), (4, "IV"), (1, "I")):
-        while n >= value:
-            out += sym
-            n -= value
-    return out
-
-
 def pae_string(p):
     return f"@clef:{p['clef']}\n@keysig:{p['keysig']}\n@timesig:{p['timesig']}\n@data:{p['data']}"
 
@@ -126,8 +117,8 @@ def score(p):
 
 
 def evidence(lead):
-    mv, hit = lead.get("movements", []), lead.get("movements_matched", [])
-    return f"{len(hit)} of {len(mv)} encoded movement{'s' if len(mv) != 1 else ''}"
+    inc, hit = lead.get("incipits", []), lead.get("incipits_matched", [])
+    return f"{len(hit)} of {len(inc)} encoded incipit{'s' if len(inc) != 1 else ''}"
 
 
 def matched_work(lead):
@@ -162,20 +153,26 @@ def record_page(r):
         parts.append(f"<h2>{html.escape(lead['composer'])}</h2><p>{badges(lead)}</p><p>{html.escape(lead['note'])}</p>")
         flags = [f"Already noted in RISM {html.escape(d['source'])}" for d in lead["prior_documentation"]]
         flags += [html.escape(f) for f in lead["attribution_flags"]]
+        flags += [f"Anonymous record: {html.escape(f)}" for f in lead.get("anonymous_record_authorship", [])]
         if flags:
             parts.append("<p class='where'>Catalogue flags:</p><ul class='flags'>" + "".join(f"<li>{f}</li>" for f in flags) + "</ul>")
         srcs = "".join(f'<li><a href="{RISM}{s["id"]}">RISM {s["id"]}</a>: {html.escape(s["label"])}</li>' for s in lead["sources"])
         parts.append(f"<p class='where'>Attributed copies compared ({evidence(lead)} match):</p><ul class='where'>{srcs}</ul>")
         for p in lead["incipits"]:
-            parts.append(f"<p class='agree'><b>Movement {roman(p['movement'])}</b> · {html.escape(p['incipit'])} "
+            voice = f" · {html.escape(p['voice'])}" if p.get("voice") else ""
+            text = f" · “{html.escape(p['text'])}”" if p.get("text") else ""
+            parts.append(f"<p class='agree'><b>{html.escape(p['incipit'])}</b>{voice}{text} "
                          f"<span class='where'>· {pair_caption(p)}</span></p>")
             left = f"<div><h4>Anonymous copy</h4>{score(p['anon'])}</div>"
             if p.get("match"):
                 m = p["match"]
+                mvoice = f" · {html.escape(m['voice'])}" if m.get("voice") else ""
+                others = "".join(f"<br>also <a href='{RISM}{w['source']}'>RISM {w['source']}</a> {html.escape(w['source_inc'])}"
+                                 for w in p.get("witnesses", [])[:4])
                 right = (f"<div><h4>{html.escape(lead['composer'].split(' (')[0])} · <a href='{RISM}{m['source']}'>RISM {m['source']}</a> "
-                         f"movement {roman(m['movement'])} · {html.escape(m['incipit'])}</h4>{score(m)}</div>")
+                         f"{html.escape(m['incipit'])}{mvoice}</h4>{score(m)}<p class='where'>{others[4:] if others else ''}</p></div>")
             else:
-                right = "<div><h4>Attributed copies</h4><p class='where'>No encoded incipit matches this movement.</p></div>"
+                right = "<div><h4>Attributed copies</h4><p class='where'>No encoded incipit matches this one.</p></div>"
             parts.append(f"<div class='mv'>{left}{right}</div>")
     crumbs = '<div class="crumbs"><a href="HREF_UPindex.html">All results</a></div>'
     return page(f"{r['shelfmark']} · RISM attributions", "".join(parts) + RENDER_JS, crumbs, depth=1)
@@ -209,7 +206,7 @@ def build():
     same = [r["leads"][0] for r in shown if r["verdict"] == "confirmed"]
     new_secure = sum(1 for x in same if x["attribution"] == "secure" and x["prior"] == "new")
     documented = sum(1 for x in same if x["prior"] != "new")
-    multi = sum(1 for x in same if len(x.get("movements_matched", [])) >= 2)
+    multi = sum(1 for x in same if len({i.split(" ")[0].rsplit(".", 1)[0] for i in x.get("incipits_matched", [])}) >= 2)
     qualified = sum(1 for x in same if x["prior"] == "new" and x["attribution"] != "secure")
     burn = []
     for g in genres:
@@ -222,11 +219,11 @@ def build():
     body = (
         "<h1>RISM: naming the anonymous</h1>"
         '<p class="lede"><a href="https://rism.online/">RISM</a> catalogues about 1.6 million music manuscripts and prints; '
-        'about 297,000 of them are listed under “Anonymus”. Most of those carry an incipit, the opening bars of each movement in '
+        'about 297,000 of them are listed under “Anonymus”. Most of those carry incipits, the opening bars of movements or sections in '
         'Plaine &amp; Easie code. This project searches every anonymous incipit against the attributed ones, keeps matches that no '
         'other composer shares, and compares every candidate incipit by incipit. '
         f'So far {count["confirmed"]} anonymous copies are the same music as an attributed copy ({multi} on two or more '
-        f'movements, {count["confirmed"] - multi} on a single movement). Of those, {new_secure} are not noted '
+        f'differently numbered incipits, {count["confirmed"] - multi} on a single one). Of those, {new_secure} are not noted '
         f'in RISM and carry a single, unqualified attribution; {qualified} more are new but their composer is disputed, uncertain, '
         f'a bare surname or known only from a modern copy; {documented} turned out to be noted in RISM already. '
         f'{count["probable"]} more are probably the same music (transposed, arranged, or only partly encoded) and {count["unresolved"]} are unresolved. '
@@ -238,25 +235,29 @@ def build():
         '<div class="scroll"><table class="idx sortable"><tr><th data-col="0">Anonymous copy</th><th data-col="1">Matches</th>'
         '<th>Movements matching</th><th data-col="3">Verdict</th></tr>' + "".join(rows) + "</table></div>"
         "<h2>Burndown</h2>"
-        '<p class="lede">Anonymous RISM sources with incipits, by subject heading. Multi-movement genres go first because '
+        '<p class="lede">Anonymous RISM sources with incipits, by subject heading. Multi-movement genres went first because '
         'agreement across several movements is the strongest evidence.</p>'
         '<div class="scroll"><table class="idx sortable"><tr><th data-col="0">Subject</th><th data-col="1">Anonymous with incipits</th>'
         '<th>Leads reviewed</th><th>Found</th><th>Status</th></tr>' + "".join(burn) + "</table></div>"
-        f'<p class="where">Also: <a href="concordances.html">{len(conc)} anonymous copies matching other anonymous copies</a> '
-        'on two or more movements. These group copies of one work without naming its composer.</p>'
+        f'<p class="where">Also: <a href="concordances.html">{sum(1 for c in conc if c["verdict"] in ("same", "probable"))} pairs of anonymous copies</a> '
+        'that agree with each other on two or more incipits, reviewed by eye. These group copies of one work without naming its composer.</p>'
         f'<details><summary>{len(other)} anonymous copies whose leads were reviewed and rejected</summary>'
         '<div class="scroll"><table class="idx"><tr><th>Anonymous copy</th><th>Lead</th><th>Verdict</th><th>Reason</th></tr>'
         + "".join(other) + "</table></div></details>" + SORT_JS)
     (DOCS / "index.html").write_text(page("RISM: naming the anonymous", body))
+    shown_conc = [c for c in conc if c["verdict"] in ("same", "probable")]
     crows = "".join(
         f'<tr><td><a href="{RISM}{c["a"]}">{html.escape(c["a_label"])}</a></td><td><a href="{RISM}{c["b"]}">{html.escape(c["b_label"])}</a></td>'
-        f'<td>{", ".join(f"{roman(m['a'])} = {roman(m['b'])} ({m['pitches']} pitches)" for m in c["movements"])}</td></tr>' for c in conc)
+        f'<td>{"; ".join(html.escape(m["a"].split(" ")[0] + " = " + m["b"].split(" ")[0]) for m in c["incipits"][:6])}</td>'
+        f'<td><span class="badge {"confirmed" if c["verdict"] == "same" else "probable"}">{"Same music" if c["verdict"] == "same" else "Probably same music"}</span>'
+        f'<br><span class="where">{html.escape(c["note"])}</span></td></tr>' for c in shown_conc)
     (DOCS / "concordances.html").write_text(page(
         "Anonymous concordances · RISM attributions",
-        "<h1>Anonymous concordances</h1><p class='lede'>Pairs of anonymous RISM sources whose incipits agree on two or more "
-        "distinct movements, at least eight pitches each. Each pair is probably two copies of one work; naming either copy's "
-        "composer would name both. These are search results checked by pitch agreement, not reviewed by eye.</p>"
-        '<div class="scroll"><table class="idx"><tr><th>Anonymous copy</th><th>Matches anonymous copy</th><th>Movements</th></tr>'
+        "<h1>Anonymous concordances</h1><p class='lede'>Pairs of anonymous RISM sources whose incipits agree, from the start, "
+        "on two or more differently numbered incipits (at least eight pitches each), each pair compared by eye. Each is "
+        "probably two copies of one work; naming either copy's composer would name both. Automatic candidates judged "
+        "not to be the same music are recorded but not listed.</p>"
+        '<div class="scroll"><table class="idx"><tr><th>Anonymous copy</th><th>Matches anonymous copy</th><th>Incipits</th><th>Verdict</th></tr>'
         + crows + "</table></div>", '<div class="crumbs"><a href="index.html">All results</a></div>'))
     (DOCS / ".nojekyll").write_text("")
 

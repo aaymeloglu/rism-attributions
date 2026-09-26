@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 import context  # noqa: E402
 import rism  # noqa: E402
 from leads import matches  # noqa: E402
-from pae import anchored, movement_ordinals, pitches  # noqa: E402
+from pae import anchored, pitches  # noqa: E402
 
 VERDICTS = ["confirmed", "probable", "unresolved", "rejected"]
 SHOWN = {"confirmed", "probable", "unresolved"}
@@ -32,21 +32,24 @@ def lead_detail(anon_src, lead):
     anon = {i["inc"]: i for i in rism.incipits(anon_src)}
     pairs = []
     for m in lead["incipits"]:
-        pair = {"incipit": m["inc"], "movement": m["movement"], "anon": pae(anon[m["inc"]]), "notes": m["notes"],
+        a = anon[m["inc"]]
+        pair = {"incipit": m["inc"], "voice": a["voice"], "text": a["text"], "anon": pae(a), "notes": m["notes"],
                 "overlap": m["overlap"], "from_start": m["agree"], "counts": bool(m["source"] and matches(m))}
         if m["source"] and m["overlap"] >= 5:
             ci = {x["inc"]: x for x in rism.incipits(rism.source(m["source"]))}[m["source_inc"]]
-            pair["match"] = {"source": m["source"], "incipit": m["source_inc"], "movement": m["source_movement"],
-                             "offset": m["offset"], **pae(ci)}
+            pair["match"] = {"source": m["source"], "incipit": m["source_inc"], "voice": ci["voice"], "text": ci["text"],
+                             "offset": m["offset"], "first": m["source_first"], **pae(ci)}
+            pair["witnesses"] = m.get("witnesses", [])
         pairs.append(pair)
-    return {"incipits": pairs, "movements": lead["movements"], "movements_matched": lead["movements_matched"],
+    return {"incipits": pairs, "incipits_matched": lead["incipits_matched"],
             "sources": [{"id": cid, "label": rism.label(rism.source(cid))} for cid in lead["sources"][:12]]}
 
 
-def concordances():
+def concordance_candidates():
     """Anonymous sources whose incipits agree with another anonymous source's on two or more
-    movements: at least eight agreeing pitches each, distinct movements on both sides (counted by
-    pae.movement_ordinals), and Anonymus as the main creator of both records."""
+    incipits with different RISM numbers (at least eight agreeing pitches each, both matched from
+    the start) and Anonymus as the main creator of both records. These are candidates: each needs
+    a verdict in data/concordance_verdicts.csv before the site presents it as a concordance."""
     pairs = {}
     for slug in sorted(os.listdir("runs")):
         path = f"runs/{slug}/results.json"
@@ -61,23 +64,19 @@ def concordances():
                 key = tuple(sorted((r["id"], c["id"])))
                 if key in pairs:
                     continue
-                a, b = rism.source(r["id"]), rism.source(c["id"])
+                a, b = rism.source(key[0]), rism.source(key[1])
                 if not (context.anonymous_creator(a) and context.anonymous_creator(b)):
                     continue
-                ai, bi = rism.incipits(a), rism.incipits(b)
-                aord = movement_ordinals([i["inc"] for i in ai])
-                bord = movement_ordinals([i["inc"] for i in bi])
-                agree = {}
-                for x in ai:
-                    for y in bi:
-                        p, q = pitches(x["data"], x["keysig"]), pitches(y["data"], y["keysig"])
-                        n, _, _ = anchored(p, q)
-                        if n >= 8:
-                            agree[aord[x["inc"]]] = max(agree.get(aord[x["inc"]], (0, 0)), (n, bord[y["inc"]]))
-                if len(agree) >= 2 and len({v[1] for v in agree.values()}) >= 2:
-                    first, second = (r["id"], c["id"])
-                    pairs[key] = {"a": first, "a_label": rism.label(a), "b": second, "b_label": rism.label(b),
-                                  "movements": [{"a": mv, "b": agree[mv][1], "pitches": agree[mv][0]} for mv in sorted(agree)]}
+                agree = []
+                for x in rism.incipits(a):
+                    for y in rism.incipits(b):
+                        n, i, j = anchored(pitches(x["data"], x["keysig"]), pitches(y["data"], y["keysig"]))
+                        if n >= 8 and i == 0 and j == 0:
+                            agree.append({"a": x["inc"], "b": y["inc"], "pitches": n})
+                nums_a = {m["a"].split(" ")[0].rsplit(".", 1)[0] for m in agree}
+                nums_b = {m["b"].split(" ")[0].rsplit(".", 1)[0] for m in agree}
+                if len(nums_a) >= 2 and len(nums_b) >= 2:
+                    pairs[key] = {"a": key[0], "a_label": rism.label(a), "b": key[1], "b_label": rism.label(b), "incipits": agree}
     return [pairs[k] for k in sorted(pairs)]
 
 
@@ -102,7 +101,8 @@ def main():
             entry = {"composer": lead["composer"], "verdict": v["verdict"], "attribution": v["attribution"],
                      "prior": v["prior"], "note": v["note"], "class": lead["class"],
                      "prior_documentation": lead["prior_documentation"], "attribution_flags": lead["attribution_flags"],
-                     "movement_mismatch": lead["movement_mismatch"]}
+                     "internal_matches": lead["internal_matches"],
+                     "anonymous_record_authorship": lead["anonymous_record_authorship"]}
             if v["verdict"] in SHOWN:
                 entry.update(lead_detail(src, lead))
             rec["leads"].append(entry)
@@ -112,8 +112,14 @@ def main():
     out = sorted(records.values(), key=lambda r: (VERDICTS.index(r["verdict"]), r["leads"][0]["composer"], r["id"]))
     with open("data/attributions.json", "w") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
+    with open("data/concordance_verdicts.csv") as f:
+        cv = {(r["a"], r["b"]): r for r in csv.DictReader(f)}
+    conc = []
+    for c in concordance_candidates():
+        v = cv.get((c["a"], c["b"]))
+        conc.append({**c, "verdict": v["verdict"] if v else "unreviewed", "note": v["note"] if v else ""})
     with open("data/anonymous_concordances.json", "w") as f:
-        json.dump(concordances(), f, ensure_ascii=False, indent=1)
+        json.dump(conc, f, ensure_ascii=False, indent=1)
     counts = {v: sum(1 for r in out if r["verdict"] == v) for v in VERDICTS}
     print(len(out), "records", counts)
 
