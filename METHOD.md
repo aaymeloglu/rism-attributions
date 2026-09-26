@@ -41,7 +41,7 @@ Anonymus count; RISM's Anonymus list also contains records that merely cross-ref
    the review. Composers who died before 1690 are flagged "date-early" for review, not
    rejected: a "symphony" can be an older sinfonia or a later arrangement.
 3. **Review** (`tools/review.py <slug>` prints each lead's incipits side by side with its flags;
-   verdicts go in `data/verdicts.csv`). Every candidate is judged incipit by incipit: same notes
+   `tools/verdict.py` records verdicts in `data/verdicts.csv`, checking the vocabulary). Every candidate is judged incipit by incipit: same notes
    in the same order beyond the opening figure, compatible rhythm, and a plausible relationship.
 4. **Export and build** (`tools/export.py`, `python3 docs/_build_site.py`). Joins verdicts
    with the evidence into `data/attributions.json` and builds the site.
@@ -139,8 +139,9 @@ and probable pairs are published, and a rejected pair stays rejected on regenera
 python3 tools/genres.py                 # refresh counts; set "run" for the genre in data/genres.json
 python3 tools/discover.py Concertos     # writes runs/concertos/results.json
 python3 tools/leads.py concertos        # writes runs/concertos/leads.json
-python3 tools/review.py concertos       # print unreviewed leads with incipits and flags
-# add one row per lead to data/verdicts.csv
+python3 tools/review.py concertos --brief   # unreviewed leads: agreeing incipits and flags
+python3 tools/verdict.py set concertos <anon id> <composer prefix> confirmed --note "..."
+python3 tools/verdict.py todo concertos     # leads still without a verdict
 python3 tools/export.py                 # fails if any lead has no verdict
 python3 docs/_build_site.py
 uv run pytest                           # the checks above

@@ -17,9 +17,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 
-VERDICTS = {"confirmed", "probable", "unresolved", "rejected"}
-ATTRIBUTION = {"secure", "disputed", "uncertain", "name-only", "modern-copy", "work-only"}
-PRIOR = {"new", "anonymous-record", "comparator-record", "title-names-work"}
+import verdict  # noqa: E402  (the vocabularies live in tools/verdict.py)
+
+VERDICTS, ATTRIBUTION, PRIOR = set(verdict.VERDICTS), set(verdict.ATTRIBUTION), set(verdict.PRIOR)
 SHOWN = {"confirmed", "probable", "unresolved"}
 
 

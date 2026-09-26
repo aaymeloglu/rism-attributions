@@ -56,7 +56,7 @@ data/genres.json                  burndown: anonymous sources with incipits per 
 runs/<genre>/results.json         search hits per anonymous source
 runs/<genre>/leads.json           graded leads with evidence
 tools/                            rism.py (cached API client), pae.py (Plaine & Easie pitches), context.py (catalogue checks),
-                                  discover/leads/review/export/genres
+                                  discover/leads/export/genres (pipeline), review.py and verdict.py (reviewing leads)
 docs/                             the site; python3 docs/_build_site.py regenerates it (stdlib only)
 tests/                            verdicts vs catalogue flags, parser, data/site consistency; CI fails if docs/ is stale
 ```
