@@ -8,27 +8,29 @@ those incipits against the attributed ones and compares every candidate incipit 
 The results, with each anonymous copy's movements rendered next to the attributed copy's, are at
 **https://aaymeloglu.github.io/rism-attributions/**.
 
-## Results so far (symphonies, 26 September 2026)
+## Results so far (26 September 2026)
 
-878 anonymous symphonies with incipits were searched; 864 have Anonymus as their main creator.
-123 leads covering 120 anonymous sources were reviewed:
+| | Symphonies | Concertos |
+|---|---|---|
+| Anonymous sources with incipits searched | 878 | 899 |
+| Anonymous sources with a lead, reviewed | 119 | 97 |
+| Same music as an attributed copy | 66 | 39 |
+| of which new, with a single unqualified attribution | 52 | 29 |
+| of which new, but the composer is disputed, uncertain, a bare surname or known only from a modern copy | 6 | 2 |
+| of which already noted in RISM | 8 | 8 |
+| Probably the same music (transposed, arranged, partial, or part of a vocal work) | 17 | 15 |
+| Unresolved | 5 | 4 |
+| Rejected | 31 | 39 |
 
-| | Sources |
-|---|---|
-| Same music as an attributed copy | 66 |
-| of which new, with a single unqualified attribution | 52 |
-| of which new, but the composer is disputed, uncertain, a bare surname or known only from a modern copy | 6 |
-| of which already noted in RISM | 8 |
-| Probably the same music (transposed, arranged, partial, or part of a vocal work) | 17 |
-| Unresolved | 5 |
-| Rejected | 32 |
-
-12 of the 66 matches cover two or more movements; the other 54 rest on a single encoded
-movement. Many anonymous "symphonies" turn out to be opera overtures (Galuppi, Sacchini,
-Mysliveček, Cimarosa, Paisiello, Naumann's *La clemenza di Tito*), single movements of larger
-works, or arrangements. Eleven pairs of anonymous copies agree with each other on two or more
-movements; they are listed on the site as
-[anonymous concordances](https://aaymeloglu.github.io/rism-attributions/concordances.html).
+A source with leads in both genres is counted once, under concertos. Twelve symphony and eight
+concerto matches cover two or more movements; the rest rest on a single encoded movement. Many
+anonymous "symphonies" turn out to be opera overtures (Galuppi, Sacchini, Mysliveček, Cimarosa,
+Paisiello, Naumann's *La clemenza di Tito*), single movements of larger works, or arrangements.
+The concertos include Weber's Clarinet Concertino and Rosetti's clarinet concerto MurR C62 (both
+written for B-flat clarinet, a whole tone above concert pitch), Mozart's K. 175 and a run of
+Giuseppe Sammartini concertos in the British Library's Royal Music collection. Twenty-seven pairs
+of anonymous copies agree with each other on two or more movements; they are listed on the site
+as [anonymous concordances](https://aaymeloglu.github.io/rism-attributions/concordances.html).
 
 A match means RISM holds an attributed copy of the same music. It does not settle a disputed
 authorship, and composers' printed thematic catalogues may already list some of these copies.
