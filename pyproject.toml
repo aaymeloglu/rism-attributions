@@ -1,0 +1,12 @@
+[project]
+name = "rism-attributions"
+version = "0.1.0"
+description = "Attributing anonymous music sources in RISM by incipit concordance"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,5054 @@
+[
+ {
+  "id": "1001356492",
+  "genre": "symphonies",
+  "label": "Symphonies–C major; Manuscript copy; D-Rp Ra 41",
+  "shelfmark": "D-Rp Ra 41",
+  "leads": [
+   {
+    "composer": "Abel, Carl Friedrich (1723-1787)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "strong",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "C2C4C+/C2C4C/C{8.Dt3CD}4E{6,G'CEG}/q4G4.F{6GF}4ED/"
+      },
+      "notes": 14,
+      "agree": 12,
+      "match": {
+       "source": "1001110376",
+       "movement": "1.1.1 Allegro",
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "'4C2C4C+/C2C4C+/C{8.Dt3CD}4E{,6G'CEG}/8qG4.F{6GF}"
+      }
+     },
+     {
+      "movement": "1.2.1 Andante",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "3/4",
+       "data": "''C'AB/AG''C/'F''DC/qC2'B4A/2'G4A/"
+      },
+      "notes": 13,
+      "agree": 2
+     },
+     {
+      "movement": "1.3.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c/",
+       "data": "{8GG}/2''C{8'B''C'B''C}/2G{8GFDF}/{FEDC}{'BA''FD}/{C'BAG}4GG/"
+      },
+      "notes": 21,
+      "agree": 17,
+      "match": {
+       "source": "1001110376",
+       "movement": "1.3.1 Allegro ma non troppo",
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "'GG/''2C{'8B''C'B''C}/2G{8GFDF}/{FEDC}{'BA''FD}/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "1001110376",
+      "label": "Symphonies–C major; Print; AbelWV E25"
+     },
+     {
+      "id": "1001111292",
+      "label": "Symphonies–C major; Manuscript copy; AbelWV E25, KnaA 25; US-WS SCM [116].1 Salem ms"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "400187451",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; CH-E 11,11",
+  "shelfmark": "CH-E 11,11",
+  "leads": [
+   {
+    "composer": "Asplmayr, Franz (1728-1786)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro con spirito",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "'4D8-{6DC}{8D,A'DF}/4D8-{6FE}{8FDFA}/4F8-{6AG}{8AFA''D}/4'A"
+      },
+      "notes": 21,
+      "agree": 21,
+      "match": {
+       "source": "150201388",
+       "movement": "1.1.1 Allegro",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "4/4",
+       "data": "4'D8-6DC8D,A'DF/4D8-6FE8FDFA/4F8-6AG8AFA''D/4'A"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "150201388",
+      "label": "Symphonies; Manuscript copy; RieA deest; DK-Kk (mu 7302.2540)"
+     },
+     {
+      "id": "453011435",
+      "label": "Symphonies; Manuscript copy; RieA deest; D-MMm 601"
+     },
+     {
+      "id": "650002015",
+      "label": "Symphonies–D major; Manuscript copy; RieA deest; A-ST Mus.ms. 307"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "450013960",
+  "genre": "symphonies",
+  "label": "Symphonies–G major; Manuscript copy; D-KA Don Mus.Ms. 1799",
+  "shelfmark": "D-KA Don Mus.Ms. 1799",
+  "leads": [
+   {
+    "composer": "Belletti, G. C.",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "plausible",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "''4G8-6{GF}8{G,GB'D}/''4E8-6{GF}8{G,G'CE}/''4G"
+      },
+      "notes": 14,
+      "agree": 14,
+      "match": {
+       "source": "190009831",
+       "movement": "1.1.1 Allegro",
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c/",
+       "data": "''4G8-{6GF}{8G,GB'D}/''4E8-{6GF}{8G,G'CE}/''4G"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "190009831",
+      "label": "Symphonies–G major; Manuscript copy; S-Skma Alströmer saml. 148:6"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "850604858",
+  "genre": "symphonies",
+  "label": "Symphonies–C major; Manuscript copy; I-OS Mss.Mus.B 3854",
+  "shelfmark": "I-OS Mss.Mus.B 3854",
+  "leads": [
+   {
+    "composer": "Benatti, Vincenzo (1767-1797)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "plausible",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "'4.C{3CDEF}4.G8E/''4.C{3DC'BA}4.G{3BAGF}"
+      },
+      "notes": 16,
+      "agree": 16,
+      "match": {
+       "source": "850604079",
+       "movement": "1.1.1 All.o",
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "'4.C{3CDEF}4.G8E/''4.C{3DC'BA}4.G{3BAGF}"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "850604079",
+      "label": "Symphonies–C major; Partial autograph; I-OS Mss.Mus.B 1957"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "469190800",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; D-Bsa SA 1908",
+  "shelfmark": "D-Bsa SA 1908",
+  "leads": [
+   {
+    "composer": "Benda, Franz (1709-1786)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "strong",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro assai.",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''4Dq6G{FEFG}8A8-q6G{FEFG}/{8ADB'''C}{D''DFG}/"
+      },
+      "notes": 18,
+      "agree": 18,
+      "match": {
+       "source": "212002745",
+       "movement": "1.1.1 allegro assai",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c/",
+       "data": "4''Dq6''G{6FEFG}8A-q6G{6FEFG}/{8ADB'''C}{D''DFG}/{ADB'''C}{D''D}"
+      }
+     },
+     {
+      "movement": "1.2.1 Larghetto.",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "3/4",
+       "data": "{''8F6GF}4.F8F+/{6FFGF}4.F8F+/{8FB}{6xAEFG}{8G6.F3E}/4D4-4-/"
+      },
+      "notes": 13,
+      "agree": 13,
+      "match": {
+       "source": "212002745",
+       "movement": "1.2.1 Larghetto",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "3/4",
+       "data": "{8''F6GF}4.F8F+/{6FFGF}4.F8F+/{FB}{6xAEFG}{8G6.F3E}/4D-"
+      }
+     },
+     {
+      "movement": "1.3.1 Presto.",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "2/4",
+       "data": "'8A/''D4A8F+/F4xD8E+/E4B8G+/G4xE8F/"
+      },
+      "notes": 10,
+      "agree": 10,
+      "match": {
+       "source": "212002745",
+       "movement": "1.3.1 Presto",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "2/4",
+       "data": "8'A/''D4A8F+/F4xD8E+/E4B8G+/G4xE8F/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "212002745",
+      "label": "Symphonies–D major; Manuscript copy; LeeB 1.4; D-Dl Mus.2981-N-2"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "190008967",
+  "genre": "symphonies",
+  "label": "Symphonies–G major; Manuscript copy; S-SK 491",
+  "shelfmark": "S-SK 491",
+  "leads": [
+   {
+    "composer": "Bernasconi, Andrea (1706-1784)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "plausible",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c/",
+       "data": "'4GG{6DC,BA}4G/{8B'D}{6GF8G}{6DC,BA}4G/"
+      },
+      "notes": 16,
+      "agree": 16,
+      "match": {
+       "source": "170000057",
+       "movement": "1.1.1 Allegro",
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "'4GG6{DC,BA}4G/8{B'D}6{GF8G}6{DC,BA}4G/8{B'D}6{GAB''C}8{D'B}''4G/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "170000057",
+      "label": "Symphonies–G major; Manuscript copy; N-T XM 54"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "800261847",
+  "genre": "symphonies",
+  "label": "Symphonies–F major; Manuscript copy; GB-Lbl R.M.21.d.13.",
+  "shelfmark": "GB-Lbl R.M.21.d.13.",
+  "leads": [
+   {
+    "composer": "Cambini, Giuseppe (1746-1825)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "2.''Cq8E{8D6C'B}/8A-G-A-B-/2.''Cq8E{8D6C'B}/"
+      },
+      "notes": 12,
+      "agree": 12,
+      "match": {
+       "source": "104650",
+       "movement": "1.1.1 Allegro",
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "''2.CgE{8D6C'B}/8A-G-A-B-/''2.CgE{8D6C'B}/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "104650",
+      "label": "Symphonies concertantes–F major; Autograph manuscript; US-NYp Mus. Res. *MNZ"
+     },
+     {
+      "id": "990008137",
+      "label": "Symphonies concertantes–F major; Print; ParCa B3"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "850607986",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; I-OS Mss.Mus.B 4692",
+  "shelfmark": "I-OS Mss.Mus.B 4692",
+  "leads": [
+   {
+    "composer": "Caruso, Luigi (1754-1822)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "plausible",
+    "movements": [
+     {
+      "movement": "1.1.1 All.o",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''4.D'8A''4.F8D/4AAF-/4.F8D4.A8F/'''4DD"
+      },
+      "notes": 10,
+      "agree": 10,
+      "match": {
+       "source": "850611268",
+       "movement": "1.1.1 Allegro",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''4.D'8A''4.F8D/4AAF-/4.F8D4.A8F/'''4DD"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "850611268",
+      "label": "Jefte; Manuscript copy; I-OS Mss.Mus.B 119/1-2"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "190026991",
+  "genre": "symphonies",
+  "label": "?Symphonies?–D major; Manuscript copy; S-Skma Alströmer saml. 173:11",
+  "shelfmark": "S-Skma Alströmer saml. 173:11",
+  "leads": [
+   {
+    "composer": "Ciampi, Vincenzo Legrenzio (1719-1762)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "plausible",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "6'D/4D8-6-,A{8.6'D,A}{'D,A}/4'D8-3-{AB''C}{8DEFG}/4A"
+      },
+      "notes": 15,
+      "agree": 15,
+      "match": {
+       "source": "850008027",
+       "movement": "1.1.1 Overtura. Allegro",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "'6D/4D8.-,6A8.6{'D,A}{'D,A}/'4D8-3-{AB''C}8{DEFG}/2A"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "850008027",
+      "label": "Arsinoe (Excerpts); Manuscript copy; I-Tf 1 I 3"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "400003941",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; CH-EN Ms A 128",
+  "shelfmark": "CH-EN Ms A 128",
+  "leads": [
+   {
+    "composer": "Cimarosa, Domenico (1749-1801)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro con brio",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "'''2D+8D''6AB8AA/4A4.A6BA8GF/'''4D4.D''6AB8AA/4A4.A"
+      },
+      "notes": 12,
+      "agree": 12,
+      "match": {
+       "source": "850008382",
+       "movement": "1.1.1 Sinfonia. Allegro con brio",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "'''2D+{8D''6AB}8{AA}/4A4.A6{BA}8{GF}/'''4D4.D''6{AB}8{AA}/4A4.A6{BA}8{GF}/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "850008382",
+      "label": "Giunio Bruto; Partial autograph; I-Nc Rari 1.3.6-7"
+     },
+     {
+      "id": "858000080",
+      "label": "Giunio Bruto; Manuscript copy; I-Rmassimo [without shelfmark]"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "850607664",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; I-OS Mss.Mus.B 4698",
+  "shelfmark": "I-OS Mss.Mus.B 4698",
+  "leads": [
+   {
+    "composer": "Cimarosa, Domenico (1749-1801)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "plausible",
+    "movements": [
+     {
+      "movement": "1.1.1 All.o con brio",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''4FFFgA{8G6FG}/2A4F-/FFFgA{8G6FG}2A4F-/"
+      },
+      "notes": 11,
+      "agree": 11,
+      "match": {
+       "source": "850008353",
+       "movement": "1.1.1 Sinfonia. Allegro con molto brio",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''4FFFgA{8G6FG}/2A4F-/FFFgA{8G6FG}/2A4F-/'''2.Dq8D{C''6B'''C}/i/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "850008353",
+      "label": "I matrimoni impensati; Autograph manuscript; I-Nc Rari 1.1.20-21"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "850004869",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; I-Fn MUS.Mss.Rostirolla.202",
+  "shelfmark": "I-Fn MUS.Mss.Rostirolla.202",
+  "leads": [
+   {
+    "composer": "Crispi, Pietro Maria (1737c-1797)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro con spirito",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "'4.D8-2-/''8G-F-B-A-/'4.D8-2-/''8E-D-E-C-/'4.D"
+      },
+      "notes": 11,
+      "agree": 11,
+      "match": {
+       "source": "131526",
+       "movement": "1.1.1 Allegro con spirito",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "'4.D8-2-/''8G-F-B-A-/'4.D8-2-/''8E-D-E-C-/'4.D8-2-/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "131526",
+      "label": "Symphonies–D major; Manuscript copy; LippmannD 1968 155/6; US-BEm MS 829 A-D"
+     },
+     {
+      "id": "450012798",
+      "label": "Oratorio per l'Assunzione della Maria Vergine (Excerpts); Possible autograph manuscript; D-KA Don Mus.Ms. 293"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "850010403",
+  "genre": "symphonies",
+  "label": "Symphonies–B♭ major; Manuscript copy; I-Rc Mss. 5748",
+  "shelfmark": "I-Rc Mss. 5748",
+  "leads": [
+   {
+    "composer": "Davaux, Jean-Baptiste (1742-1822)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c/",
+       "data": "'4.B''6{CD}4ED/GFE-/4.C8E{D'B''FD}/4.C8E"
+      },
+      "notes": 16,
+      "agree": 16,
+      "match": {
+       "source": "1001348967",
+       "movement": "1.2.1 [p. 4, underneath the 11th stave:] Allegretto",
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c/",
+       "data": "4.'B{6''CD}4ED/GFE-/4.C8E{D'B''FD}/4.C8E{D'B''FD}/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "1001348967",
+      "label": "Symphonies concertantes–B♭ major; Print"
+     },
+     {
+      "id": "1001381603",
+      "label": "Symphonies concertantes–B♭ major; Print"
+     },
+     {
+      "id": "201001936",
+      "label": "Symphonies concertantes–B♭ major; Manuscript copy; D-LEm PM 10068"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "850026336",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; I-Rc Mss. 6203",
+  "shelfmark": "I-Rc Mss. 6203",
+  "leads": [
+   {
+    "composer": "Davaux, Jean-Baptiste (1742-1822)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro moderato",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "2''D'A/{6FE8D}{DD}{DDDD}/{3FG8.A}{8AA}{3FG8.A}8{AA}/4F"
+      },
+      "notes": 12,
+      "agree": 12,
+      "match": {
+       "source": "1001348889",
+       "movement": "1.1.1 [p. 6, at left of the 1st stave:] SINFONIA II [above the 1st stave:] All|o moderato",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "2''D'A/{6FE8D}{8DD}{DDDD}/{3FG8.A}{8AA}{3FG8.A}{8AA}/{8FG}2.G/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "1001348889",
+      "label": "Symphonies concertantes–D major; Print"
+     },
+     {
+      "id": "1001379551",
+      "label": "Symphonies concertantes–D major (Arrangement); Print"
+     },
+     {
+      "id": "1001381521",
+      "label": "Symphonies concertantes–D major; Print"
+     },
+     {
+      "id": "240001379",
+      "label": "Symphonies concertantes–D major; Manuscript copy; D-SWl Mus.1600"
+     },
+     {
+      "id": "400011780",
+      "label": "Symphonies–D major; Manuscript copy; FosD 2; CH-E 2,33"
+     },
+     {
+      "id": "400011783",
+      "label": "Symphonies concertantes–D major; Manuscript copy; CH-E 15,13"
+     },
+     {
+      "id": "551005498",
+      "label": "Symphonies–D major; Manuscript copy; FosD 2; CZ-Pnm XLII B 26"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "1001012618",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; PL-CZ II-369",
+  "shelfmark": "PL-CZ II-369",
+  "leads": [
+   {
+    "composer": "Dittersdorf, Carl Ditters von (1739-1799)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "2'D4.D8D/4D--8''A-/B-A-'''D-''B-/{8.B3AB}4B2-/'D4.D8D/4D"
+      },
+      "notes": 9,
+      "agree": 5,
+      "match": {
+       "source": "1001369353",
+       "movement": "1.1.1 Vivace",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "2D4.8DD/4D--8''A-/B-A-'''D-C-/"
+      }
+     },
+     {
+      "movement": "1.2.1 Andante",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "2/4",
+       "data": "{6.''E3E/{8.E6C}{FEDC/{8.C6'A}{''DC'BA/8B4A8G/"
+      },
+      "notes": 14,
+      "agree": 14,
+      "match": {
+       "source": "1001369353",
+       "movement": "1.2.1 Andante",
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "2/4",
+       "data": "6.3''{EE}/8.6{EC}6{FEDC}/8.6{C'A}6{''DC'BA}/''8qqCr848'BAG/"
+      }
+     },
+     {
+      "movement": "1.3.1 Menuetto",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "3/4",
+       "data": "{3AGFE/4D'''DD/C''B{3EDC'B/4A''GG/"
+      },
+      "notes": 14,
+      "agree": 7,
+      "match": {
+       "source": "1001369353",
+       "movement": "1.3.1 Menuetto",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "3/4",
+       "data": "{6AGFE}4/D'''DD/DC{6''EDC'B}4/A''GG/"
+      }
+     },
+     {
+      "movement": "1.4.1 Presto",
+      "anon": {
+       "clef": "C-3",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "-/=/-D,B'C/,A'C,AB/A'D,AB/A"
+      },
+      "notes": 12,
+      "agree": 2
+     }
+    ],
+    "sources": [
+     {
+      "id": "1001369353",
+      "label": "Symphonies–D major; Manuscript copy; KreD 39, GraDi D5; CZ-Pnm XXII C 10"
+     },
+     {
+      "id": "300000181",
+      "label": "Symphonies–D major; Manuscript copy; KreD 39, GraDi D5; PL-CZ II-74"
+     },
+     {
+      "id": "551001555",
+      "label": "Symphonies–D major; Manuscript copy; KreD 39, GraDi D5; CZ-ZEL Hu 5"
+     },
+     {
+      "id": "650002241",
+      "label": "Symphonies–D major; Manuscript copy; KreD 39, GraDi D5; A-ST Mus.ms. 1697"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "850607317",
+  "genre": "symphonies",
+  "label": "Symphonies–B♭ major; Manuscript copy; I-OS Mss.Mus.B 4714",
+  "shelfmark": "I-OS Mss.Mus.B 4714",
+  "leads": [
+   {
+    "composer": "Farinelli, Giuseppe (1769-1836)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 And.e Grazioso - All.o con spirito",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "3/4",
+       "data": "'4DEF/G{8.G6A}{8BA}/{GFEDEF}/4E+{8.E6C}"
+      },
+      "notes": 15,
+      "agree": 15,
+      "match": {
+       "source": "840015171",
+       "movement": "1.2.1",
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "3/4",
+       "data": "''4DEF/G8.G6A8BA/GFEDEF/4E8.E3C8D-"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "840015171",
+      "label": "Pamela; Manuscript copy; F-Pn D-3891"
+     },
+     {
+      "id": "850033517",
+      "label": "Pamela; Manuscript copy; I-Rsc G.Mss.157"
+     },
+     {
+      "id": "850610816",
+      "label": "Pamela; Manuscript copy; I-OS Mss.Mus.B 243"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "400014408",
+  "genre": "symphonies",
+  "label": "Symphonies–B♭ major; Manuscript copy; CH-E 11,7",
+  "shelfmark": "CH-E 11,7",
+  "leads": [
+   {
+    "composer": "Franck",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "plausible",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro assai",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "''4B'6BAB''C'4B-/6BBBBAAAABBBB''CCCC/DDDDEEEEDDDDCCCC/4B6DCDE4D-/"
+      },
+      "notes": 19,
+      "agree": 19,
+      "match": {
+       "source": "400004036",
+       "movement": "1.1.1 Allegro assai",
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "''4B'6BAB''C'2B/6BBBBAAAABBBB''CCCC/DDDDEEEEDDDDCCCC/4B6DCDE2D/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "400004036",
+      "label": "Symphonies–B♭ major; Manuscript copy; CH-EN Ms A 284"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "806252327",
+  "genre": "symphonies",
+  "label": "Symphonies–C major; Manuscript copy; GB-Lbl Add. 71539",
+  "shelfmark": "GB-Lbl Add. 71539",
+  "leads": [
+   {
+    "composer": "Fritz, Gaspard (1716-1783)",
+    "verdict": "confirmed",
+    "note": "Catalogued as a symphony; the attributed copy is a sonata",
+    "class": "strong",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "3/4",
+       "data": "''4C{8.C6G8.E6C}/'4G{8.G''6E8.C'6G}/4E{8.E''6C'8.G6E}/"
+      },
+      "notes": 12,
+      "agree": 12,
+      "match": {
+       "source": "404000219",
+       "movement": "1.1.1 Allegro",
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "3/4",
+       "data": "48.68.6''C{CGEC}/'G{G''EC'G}/E{E''C'GE}/8.6{Ct,B}gB2'C/"
+      }
+     },
+     {
+      "movement": "1.2.1 andante",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "2/4",
+       "data": "''8C/G4bA8G/{6GnE}q8E4F'8G/{6GtnBBt''D}{6DtFFtbA}/"
+      },
+      "notes": 12,
+      "agree": 8,
+      "match": {
+       "source": "404000219",
+       "movement": "1.2.1 Andante",
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "2/4",
+       "data": "8''C/G4bA8G/6{GnE}gnE4F8'G/6{GnBnB''D}{DFFbA}/848bAtGF/6{E'nB}gnB4''C"
+      }
+     },
+     {
+      "movement": "1.3.1 allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "2/4",
+       "data": "{''8C'''6C''G}{6ECD'B}/''8C'4G8F/{8E'''6C''G}{6ECD'B}/"
+      },
+      "notes": 17,
+      "agree": 17,
+      "match": {
+       "source": "404000219",
+       "movement": "1.3.1 Allegro",
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "2/4",
+       "data": "{''8C'''6C''G}{ECD'B}/''8C4'G8F/{8E'''6C''G}{ECD'B}/''8C4'E8D/6{CEG''C}{EDC'B}/{EG''CE}{GFED}/{'G''CEG}8{'''C''E}/{EtD}4-/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "404000219",
+      "label": "Sonatas–C major; Manuscript copy; CH-BEl SLA-Mus-EH A-08-d-15/1"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "400213964",
+  "genre": "symphonies",
+  "label": "Symphonies–G major; Manuscript copy; CH-FF UK 15|5|-|6|,|8|-|1|1",
+  "shelfmark": "CH-FF UK 15|5|-|6|,|8|-|1|1",
+  "leads": [
+   {
+    "composer": "Galimberti, Ferdinando (1751+)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "plausible",
+    "movements": [
+     {
+      "movement": "1.1.1 Andante",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "2/4",
+       "data": "'8G/''6D'BFG,8G-/''6EC'FG,8G-/''6D'BFG,8A-/"
+      },
+      "notes": 16,
+      "agree": 15,
+      "match": {
+       "source": "400006437",
+       "movement": "1.2.1 Largo.",
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "2/4",
+       "data": "'8G/''6{D'BFG},8G-/''6{EC'FG},8G-/''6{D'BFG},8G-"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "400006437",
+      "label": "Symphonies–D major; Manuscript copy; CH-Bu kr IV 90"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "850604354",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; I-OS Mss.Mus.B 3552/1",
+  "shelfmark": "I-OS Mss.Mus.B 3552/1",
+  "leads": [
+   {
+    "composer": "Galuppi, Baldassare (1706-1785)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "3/4",
+       "data": "'4D{6DCDE}{8DD}/{D,A'DFEG}/4F{6FEFG}{8FF}"
+      },
+      "notes": 15,
+      "agree": 15,
+      "match": {
+       "source": "1001102886",
+       "movement": "1.1.1 All[egr]o assai",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "3/4",
+       "data": "'4D{6DCDE}{8DD}/{D,A'DFEG}/4F{6FEFG}{8FF}/{FDFAGB}/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "1001102886",
+      "label": "Il filosofo di campagna–D major (Excerpts); Manuscript copy; SK-Nb 1"
+     },
+     {
+      "id": "230007890",
+      "label": "Il filosofo di campagna (Arrangement); Manuscript copy; D-LEm PM 3567"
+     },
+     {
+      "id": "250000650",
+      "label": "Il filosofo di campagna (Excerpts); Manuscript copy; D-HAu Werner I d 40"
+     },
+     {
+      "id": "400006906",
+      "label": "Il filosofo di campagna–D major (Excerpts); Manuscript copy; CH-SAf MusSAf.Ms.651"
+     },
+     {
+      "id": "400110828",
+      "label": "Il filosofo di campagna (Excerpts, Arrangement); Manuscript copy; CH-BEl SLA-Mus-JL MLHs 119/9"
+     },
+     {
+      "id": "410004182",
+      "label": "Il filosofo di campagna (Excerpts, Arrangement); Manuscript copy; CH-BEl SLA-Mus-JL ML 19/8"
+     },
+     {
+      "id": "452505237",
+      "label": "Il filosofo di campagna; Manuscript copy; D-B Am.B 363"
+     },
+     {
+      "id": "466000315",
+      "label": "Il filosofo di campagna–D major (Excerpts, Arrangement); Manuscript copy; D-B Mus.ms. 38141,9"
+     },
+     {
+      "id": "530011562",
+      "label": "Il filosofo di campagna–D major (Excerpts); Manuscript copy; H-Gk AMC, G. 5."
+     },
+     {
+      "id": "806435726",
+      "label": "Il filosofo di campagna; Manuscript copy; GB-Lbl Add. 16141"
+     },
+     {
+      "id": "850011306",
+      "label": "Il filosofo di campagna (Excerpts, Arrangement); Manuscript copy; I-Vlevi CF.C.30"
+     },
+     {
+      "id": "850012002",
+      "label": "Il filosofo di campagna (Excerpts); Manuscript copy; I-Vlevi CF.C.190"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "301002142",
+  "genre": "symphonies",
+  "label": "Symphonies–G major; Manuscript copy; PL-WRu 60873 Muz.",
+  "shelfmark": "PL-WRu 60873 Muz.",
+  "leads": [
+   {
+    "composer": "Graun, Carl Heinrich (1704-1759)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "C-1",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "{8''Gt3FG}{8DG}{8.Gt3FG}{8DG}/{6FG8A}2.A/{8.A3GA}{8DA}{8.A3GA}{8DA}/"
+      },
+      "notes": 20,
+      "agree": 20,
+      "match": {
+       "source": "1001054467",
+       "movement": "1.1.1 Sinfonia. Allegro",
+       "clef": "C-1",
+       "keysig": "xF",
+       "timesig": "",
+       "data": "8.{''Gt3FG}8{DG}8.{''Gt3FG}8{DG}/6{FG8A}2.A/8.{''At3GA}8{DA}8.{''At3GA}8{DA}/6{GA8B}2.B/"
+      }
+     },
+     {
+      "movement": "1.2.1 Andante",
+      "anon": {
+       "clef": "C-1",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "''4G/{6EGFA}4E+{8EGAE}/q8G4AG4-4'''C/8C4''B8Aq6A{8G6FE}{8FF}/"
+      },
+      "notes": 18,
+      "agree": 5,
+      "match": {
+       "source": "212002696",
+       "movement": "1.2.1 Andante",
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c/",
+       "data": "4''G/{6EGFA}4G+{8GB'''C''G}/q8G4AG-'''C/8C4''B8Aq6A{8G6FE}{8FF}/"
+      }
+     },
+     {
+      "movement": "1.3.1 Presto",
+      "anon": {
+       "clef": "C-1",
+       "keysig": "xF",
+       "timesig": "3/8",
+       "data": "{''8ADC}/q8C4'B8A/{8G''DE}/q8'G4F8G/"
+      },
+      "notes": 10,
+      "agree": 1
+     }
+    ],
+    "sources": [
+     {
+      "id": "1001054467",
+      "label": "Ifigenia in Aulide (Arrangement); Manuscript copy; GraunWV B:I:18; D-AAst Kf 6046 a"
+     },
+     {
+      "id": "107640",
+      "label": "Ifigenia in Aulide; Manuscript copy; GraunWV B:I:18; US-Wc M1500.G76 I4"
+     },
+     {
+      "id": "212002696",
+      "label": "Ifigenia in Aulide (Excerpts); Manuscript copy; GraunWV B:I:18; D-Dl Mus.2953-F-1a"
+     },
+     {
+      "id": "450060908",
+      "label": "Ifigenia in Aulide; Manuscript copy; GraunWV B:I:18; D-KNh R 647"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "400213960",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; CH-FF UK 15|5|-|6|,|8|-|1|1",
+  "shelfmark": "CH-FF UK 15|5|-|6|,|8|-|1|1",
+  "leads": [
+   {
+    "composer": "Graun, Johann Gottlieb (1702c-1771)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''8F-6-{EFG}{8AGFE}/i/8D"
+      },
+      "notes": 9,
+      "agree": 9,
+      "match": {
+       "source": "190010953",
+       "movement": "1.1.1 Allegro",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''4F8.-({3EFG}){8AGFE}/i/4D"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "190010953",
+      "label": "Symphonies–D major; Manuscript copy; GraunWV D:XII:97, MenH 6.65; S-Skma Alströmer saml. 155:14"
+     },
+     {
+      "id": "190010954",
+      "label": "Symphonies–D major; Manuscript copy; GraunWV D:XII:97, MenH 6.65; S-Skma Alströmer saml. 155:15"
+     },
+     {
+      "id": "190010955",
+      "label": "Symphonies–D major; Manuscript copy; GraunWV D:XII:97; S-Skma Alströmer saml. 155:15"
+     },
+     {
+      "id": "450016845",
+      "label": "Symphonies–D major; Manuscript copy; GraunWV D:XII:97, MenH 6.65; D-RH Ms 315"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "120000486",
+  "genre": "symphonies",
+  "label": "Symphonies–B♭ major; Manuscript copy; MEX-SCHamp Sa-Sn-04-23",
+  "shelfmark": "MEX-SCHamp Sa-Sn-04-23",
+  "leads": [
+   {
+    "composer": "Gyrowetz, Adalbert (1763-1850)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 Andante",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "2/4",
+       "data": "''8F-G-/{8.E6C8D}6-'F}/{BA''C'B}{''DCEC}/{'8.B''6C'8A}6-{F}/''{DCED}{FEGE}/{8.D6E8C}-/"
+      },
+      "notes": 29,
+      "agree": 29,
+      "match": {
+       "source": "1001163821",
+       "movement": "1.2.1 Andante",
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "2/4",
+       "data": "8''F-G-/{ECD}6-'F/{BA''C'B}{''DCEC}/8.{'B6''C8'A}6-F/{''DCED}{FEGE}/{8.6DE8C}-/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "1001036367",
+      "label": "Symphonies–F major; Manuscript copy; RicG F4; D-Sla 235"
+     },
+     {
+      "id": "1001049770",
+      "label": "Symphonies–F major; Manuscript copy; RicG F4; PL-Wb M.R.0172"
+     },
+     {
+      "id": "1001153466",
+      "label": "Symphonies–F major; Print; RicG F4"
+     },
+     {
+      "id": "1001163821",
+      "label": "Symphonies–F major; Manuscript copy; RicG F4; D-WRha Wechmar 79"
+     },
+     {
+      "id": "280001849",
+      "label": "Symphonies–F major; Manuscript copy; D-RUl SH 181"
+     },
+     {
+      "id": "990024170",
+      "label": "Symphonies–F major; Print"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "250004185",
+  "genre": "symphonies",
+  "label": "Symphonies; Manuscript copy; D-WRha Instr.8",
+  "shelfmark": "D-WRha Instr.8",
+  "leads": [
+   {
+    "composer": "Gyrowetz, Adalbert (1763-1850)",
+    "verdict": "confirmed",
+    "note": "3 of 4 movements agree with print RicG C3 (octave-shifted encodings)",
+    "class": "plausible",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro assai",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "3/4",
+       "data": "''4CCC/C-'''C/''B'''C''B/G--/"
+      },
+      "notes": 6,
+      "agree": 4
+     },
+     {
+      "movement": "1.2.1 Andante",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "2/4",
+       "data": "'''{8CCCC}/4''AG/{8FF}{6GBGE}/{8FGA}-/"
+      },
+      "notes": 11,
+      "agree": 1
+     },
+     {
+      "movement": "1.3.1 Menuetto.",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "3/4",
+       "data": "''4C8{C'B''C'B}/4''C'G''C/ECE/2G{6B'''8.C}/4''GG{6B'''8.C}/"
+      },
+      "notes": 16,
+      "agree": 11,
+      "match": {
+       "source": "990024171",
+       "movement": "1.3.1 Minuetto Allegro assai",
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "3/4",
+       "data": "'4C8{C,B'C,B}/4'C,G'C/ECE/2G"
+      }
+     },
+     {
+      "movement": "1.4.1 Finale. Allegretto",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "2/4",
+       "data": "=13/4-8-''G/{ECEG}/{'''CEG}-/''4B'''C/D-/"
+      },
+      "notes": 11,
+      "agree": 1
+     }
+    ],
+    "sources": [
+     {
+      "id": "990024171",
+      "label": "Symphonies–C major; Print; RicG C3"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "302002415",
+  "genre": "symphonies",
+  "label": "Symphonies–G major; Manuscript copy; PL-GD Ms Joh.425",
+  "shelfmark": "PL-GD Ms Joh.425",
+  "leads": [
+   {
+    "composer": "Hiller, Johann Adam (1728-1804)",
+    "verdict": "confirmed",
+    "note": "Overture to the opera Der lustige Schuster",
+    "class": "strong",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro non troppo. Allegro non troppo",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "3/4",
+       "data": ",8{G'GFEDxC}/{DEDC,BA}/{G'GFEDxC}/{DEDC,BA}/"
+      },
+      "notes": 24,
+      "agree": 24,
+      "match": {
+       "source": "990029378",
+       "movement": "1.1.1 Sinfonie Allegro non troppo",
+       "clef": "C-1",
+       "keysig": "xF",
+       "timesig": "3/4",
+       "data": "{8,G'GFEDxC}/{DEDnC,BA}/{8,G'GFEDxC}/{DEDnC,BA}/"
+      }
+     },
+     {
+      "movement": "1.2.1 Allegretto. Allegretto",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "2/4",
+       "data": "''8B/{xDE'B}''B/{xDE'B}''G/6{FEFG}{AFGE}/{xDEFE}8'B''B/"
+      },
+      "notes": 23,
+      "agree": 17,
+      "match": {
+       "source": "990029378",
+       "movement": "1.2.1 Allegretto",
+       "clef": "C-1",
+       "keysig": "xF",
+       "timesig": "2/4",
+       "data": "8''B/{xDE'B''B}/{xDE'B''G}/{6FEFG}{AFGE/"
+      }
+     },
+     {
+      "movement": "1.3.1 Allegro di molto. Allegro di molto",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "3/8",
+       "data": "''4.G/F/A/G/B/A/'''C/''B/'''{8D''6BAB'''C}/"
+      },
+      "notes": 13,
+      "agree": 13,
+      "match": {
+       "source": "990029378",
+       "movement": "1.3.1 Allegro di molto",
+       "clef": "C-1",
+       "keysig": "xF",
+       "timesig": "3/8",
+       "data": "4.''G/4.F/A/G/B/A/'''C/''B/8'''D{6''BAB'''C}/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "990029378",
+      "label": "Der lustige Schuster (Arrangement); Print"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "600025915",
+  "genre": "symphonies",
+  "label": "Symphonies–C major; Manuscript copy; A-SEI V 1023",
+  "shelfmark": "A-SEI V 1023",
+  "leads": [
+   {
+    "composer": "Kospoth, Otto Carl Erdmann (1753-1817)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 Grave",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "2/4",
+       "data": "'4C''{8.C6C}/'4C''{8GG}/{8G6E3-C}{6GFD'B}/''4C"
+      },
+      "notes": 11,
+      "agree": 11,
+      "match": {
+       "source": "450012267",
+       "movement": "1.1.1 Allegro",
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "2/4",
+       "data": "'4C{''8.C6C}/'4C{''8GG}/{G6E3-C}{6GFD'B}/''4C-/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "450012267",
+      "label": "Symphonies–C major; Manuscript copy; D-WEY 613"
+     },
+     {
+      "id": "990034157",
+      "label": "Grande sinfonie–C major; Print"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "600025981",
+  "genre": "symphonies",
+  "label": "Symphonies–C major; Manuscript copy; A-SEI V 1089",
+  "shelfmark": "A-SEI V 1089",
+  "leads": [
+   {
+    "composer": "Koželuh, Leopold (1747-1818)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro di molto",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "''4.8C'G''E'B/8{''CCCE}'4G8-xG/4.A8E"
+      },
+      "notes": 10,
+      "agree": 10,
+      "match": {
+       "source": "210045950",
+       "movement": "1.1.1 Allegro molto",
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "''4.C'8G''4.E'8B/{''CCCE}'4G8-xG/4.A8E''4.C'8xG/{AAA''C}4E-/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "210045950",
+      "label": "Symphonies–C major; Manuscript copy; PosK I:9; D-Dl Mus.3540-N-1"
+     },
+     {
+      "id": "450013478",
+      "label": "Symphonies–C major; Manuscript copy; PosK I:9; D-KA Don Mus.Ms. 1101"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "450004203",
+  "genre": "symphonies",
+  "label": "Symphonies–F major; Manuscript copy; D-BAd EB 819-1",
+  "shelfmark": "D-BAd EB 819-1",
+  "leads": [
+   {
+    "composer": "Küffner, Wilhelm (1727-1797)",
+    "verdict": "confirmed",
+    "note": "Matches Quartetto IV in a printed set",
+    "class": "strong",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro non molto",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "{''6C'A}/q8G8F4F{''6C'A}q8G8F4F6-''C/{8C'6.A''3C}{8C'6.A''3C}8(6{CDE};3)8(6{FED};3){8.C6'C}/"
+      },
+      "notes": 18,
+      "agree": 18,
+      "match": {
+       "source": "1001383642",
+       "movement": "1.1.1 [p. 7, at left of the 6th stave:] QUARTETTO IV [at left underneath the 6th stave:] Allegro non Molto",
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "{6''C'A}/q8G8F4F{6''C'A}q8G8F4F6-''C/{8C6.'A3''C}{8C6.'A3''C}({6''CDE})({FED}){8.C6'C}/"
+      }
+     },
+     {
+      "movement": "1.2.1 Andante",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBEAD",
+       "timesig": "3/4",
+       "data": "4''CAF/4.nE{6FG}4F/4.D{6CD}{8bED}/{'nB''C}2C/"
+      },
+      "notes": 14,
+      "agree": 14,
+      "match": {
+       "source": "1001074840",
+       "movement": "1.4.2 Andante",
+       "clef": "G-2",
+       "keysig": "bBEAD",
+       "timesig": "3/4",
+       "data": "''CAF/4.nE{6FG}4F/4.D{6CD}{8bED}/{'nB''C}2C"
+      }
+     },
+     {
+      "movement": "1.3.1 Presto",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "2/4",
+       "data": "8''C/{FCD'B}/{''C'ABG}/{AF}q6A{8G6FE}/4F-/"
+      },
+      "notes": 15,
+      "agree": 15,
+      "match": {
+       "source": "1001074840",
+       "movement": "1.4.3 Presto",
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "2/4",
+       "data": "8''C/{FCD'B}/{''C'ABG}/{AF}{G6FE}/4F"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "1001074840",
+      "label": "6 Quartets; Manuscript copy; US-NHub Osborn Music MS 5"
+     },
+     {
+      "id": "1001383642",
+      "label": "Quartets–F major; Print"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "450013965",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; D-KA Don Mus.Ms. 1808",
+  "shelfmark": "D-KA Don Mus.Ms. 1808",
+  "leads": [
+   {
+    "composer": "Mozart, Leopold (1719-1787)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "plausible",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''4FF6{FDCD}{'A''D'FA}/''4FF2F/"
+      },
+      "notes": 9,
+      "agree": 9,
+      "match": {
+       "source": "651004152",
+       "movement": "1.1.1 Allegro",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "4/4",
+       "data": "4''FF6{FDCD}{'A''D'FA}/4''FF2F/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "651004152",
+      "label": "Symphonies–D major; Manuscript copy; LMV VII:D20; A-Ik ohne Signatur"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "850026335",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; I-Rc Mss. 6209",
+  "shelfmark": "I-Rc Mss. 6209",
+  "leads": [
+   {
+    "composer": "Mysliveček, Josef (1737-1781)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro con spirito",
+      "anon": {
+       "clef": "C-3",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "{6,A3B'C}/4D8.-3{DE}4F8.-3{FG}/4A--6{GFED}/8C-D-E"
+      },
+      "notes": 15,
+      "agree": 15,
+      "match": {
+       "source": "400004242",
+       "movement": "1.1.1 Allegro con spirito",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": ",6A3B'C/4D8-6DE4F8-6FG/4A--6GFED/8C-D-E-F-/4G"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "400004242",
+      "label": "La Calliroe (Excerpts); Manuscript copy; EvaM 10., D22; CH-EN Ms A 489"
+     },
+     {
+      "id": "400012586",
+      "label": "La Calliroe (Excerpts); Manuscript copy; EvaM 10., D22; CH-E 6,5"
+     },
+     {
+      "id": "850008755",
+      "label": "La Calliroe; Manuscript copy; EvaM 10.D22; I-Nc 29.3.1-3"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "850609331",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; I-OS Mss.Mus.B 4697",
+  "shelfmark": "I-OS Mss.Mus.B 4697",
+  "leads": [
+   {
+    "composer": "Mysliveček, Josef (1737-1781)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 All.o con spirito",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "{,6A3B'C}/4D8.-{3DE}4F8.-{3FG}/4A--{6GFE}"
+      },
+      "notes": 11,
+      "agree": 11,
+      "match": {
+       "source": "400004242",
+       "movement": "1.1.1 Allegro con spirito",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": ",6A3B'C/4D8-6DE4F8-6FG/4A--6GFED/8C-D-E-F-/4G"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "400004242",
+      "label": "La Calliroe (Excerpts); Manuscript copy; EvaM 10., D22; CH-EN Ms A 489"
+     },
+     {
+      "id": "400012586",
+      "label": "La Calliroe (Excerpts); Manuscript copy; EvaM 10., D22; CH-E 6,5"
+     },
+     {
+      "id": "850008755",
+      "label": "La Calliroe; Manuscript copy; EvaM 10.D22; I-Nc 29.3.1-3"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "570005119",
+  "genre": "symphonies",
+  "label": "Symphonies–C major; Manuscript copy; SK-J H-629",
+  "shelfmark": "SK-J H-629",
+  "leads": [
+   {
+    "composer": "Naumann, Johann Gottlieb (1741-1801)",
+    "verdict": "confirmed",
+    "note": "Overture to La clemenza di Tito, transposed from B-flat to C; three movements agree",
+    "class": "strong",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "{''6C'''C''C'''C}{''6C'''C''C'''C}{''6C'''C''C'''C}{''6C'''C''C'''C}/{''6C'''C''C'''C}{''6C'''C''C'''C}{''6C'''C''C'''C}{''6C'''C''C'''C}/4C-"
+      },
+      "notes": 32,
+      "agree": 16,
+      "match": {
+       "source": "1001179385",
+       "movement": "1.1.2",
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "'6{B''B'B''B}'{B''B'B''B}'{B''B'B''B}'{B''B'B''B}/4B-8-{FFF}/{xFG}4G8-{EEE}/{nEF}4F8-"
+      }
+     },
+     {
+      "movement": "1.2.1 Andante",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "3/8",
+       "data": "''4At8G/4Bt8A/4Gt8F/4'''Dt8C/''4Bt8A/4Gt8F/"
+      },
+      "notes": 12,
+      "agree": 12,
+      "match": {
+       "source": "1001179385",
+       "movement": "1.2.1 Andante espressivo",
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "3/8",
+       "data": "''4G8F/4A8G/4F8E/4'''C8''B/4A8G/4F8E/"
+      }
+     },
+     {
+      "movement": "1.3.1 Minuetto.",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "3/4",
+       "data": "'4FA''C/2C{8DE}/4.F8G4A/"
+      },
+      "notes": 8,
+      "agree": 3
+     },
+     {
+      "movement": "1.4.1 Finale. Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "2/4",
+       "data": "''{6CDEC}{DEFD}/{EFGE}{FGAB}/'''{C''GAA}"
+      },
+      "notes": 19,
+      "agree": 19,
+      "match": {
+       "source": "1001179385",
+       "movement": "1.3.1 Allegro",
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "2/4",
+       "data": "'{6B''CD'B}{''CDEC}/{DEFD}{EFGA}/{BFGG}{GEFF}/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "1001179385",
+      "label": "La clemenza di Tito; Manuscript copy; D-Dl Mus.3480-F-4"
+     },
+     {
+      "id": "230006006",
+      "label": "Symphonies–B♭ major (Arrangement); Manuscript copy; OttN B|b2; D-OLH Mus.arch.A.3:5"
+     },
+     {
+      "id": "270001204",
+      "label": "La clemenza di Tito; Autograph manuscript; D-Dl Mus.3480-F-3"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "850733911",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; I-BEc AM.ms79",
+  "shelfmark": "I-BEc AM.ms79",
+  "leads": [
+   {
+    "composer": "Paisiello, Giovanni (1740-1816)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 All:o vivace",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''2D+4D{8.A6F}/2D+4D{8.A6F}/2DgD8{C'B''C}"
+      },
+      "notes": 10,
+      "agree": 10,
+      "match": {
+       "source": "806435695",
+       "movement": "1.1.1 Atto Pmo. Sinfonia. Allegro vivace",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''2.D{8.A6F}/''2.D{8.A6F}/2Dq8D8{C'B''CE}/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "806435695",
+      "label": "I giuochi d'Agrigento (Excerpts, Arrangement); Manuscript copy; RobP 1.84; GB-Lbl Add. 16090"
+     },
+     {
+      "id": "850008786",
+      "label": "I giuochi d'Agrigento; Manuscript copy; RobP 1.84; I-Nc Rari Cornicione 41-42"
+     },
+     {
+      "id": "850008787",
+      "label": "I giuochi d'Agrigento; Manuscript copy; RobP 1.84; I-Nc Rari Cornicione 43-49"
+     },
+     {
+      "id": "850008788",
+      "label": "I giuochi d'Agrigento; Manuscript copy; RobP 1.84; I-Nc Rari Cornicione 45"
+     },
+     {
+      "id": "850012049",
+      "label": "I giuochi d'Agrigento; Manuscript copy; RobP 1.84; I-Vlevi CF.A.1"
+     },
+     {
+      "id": "850777969",
+      "label": "I giuochi d'Agrigento; Manuscript copy; I-PAc Borb.2932/I-II"
+     },
+     {
+      "id": "850781606",
+      "label": "I giuochi d'Agrigento–D major; Manuscript copy; I-PAc Borb.935/I-IV"
+     },
+     {
+      "id": "852029667",
+      "label": "I giuochi d'Agrigento (Excerpts, Arrangement); Manuscript copy; RobP 1.84/01; I-MC 4-E-8/1i"
+     },
+     {
+      "id": "853000289",
+      "label": "I giuochi d'Agrigento (Excerpts, Arrangement); Manuscript copy; RobP 1.84; I-Raf 14.E.4.I.1"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "850608133",
+  "genre": "symphonies",
+  "label": "Symphonies–C minor; Manuscript copy; I-OS Mss.Mus.B 4683",
+  "shelfmark": "I-OS Mss.Mus.B 4683",
+  "leads": [
+   {
+    "composer": "Paër, Ferdinando (1771-1839)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "plausible",
+    "movements": [
+     {
+      "movement": "1.1.1 Larghetto Stac.to - All.o",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "3/4",
+       "data": "'4C8-6-{5CDEF}{8.G6E}/4DA-/,G+{6G3nAnB'C}"
+      },
+      "notes": 12,
+      "agree": 12,
+      "match": {
+       "source": "850604019",
+       "movement": "1.1.1 Larghetto staccato",
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "3/4",
+       "data": "'4C8-{3CDEF}{8.G6E}/4DA-/,4G+{6G3nAnB'CD}"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "850604019",
+      "label": "Symphonies–C minor; Manuscript copy; I-OS Mss.Mus.B 1228"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "854005387",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; I-Ria Mss. Vess. 918",
+  "shelfmark": "I-Ria Mss. Vess. 918",
+  "leads": [
+   {
+    "composer": "Paër, Ferdinando (1771-1839)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "plausible",
+    "movements": [
+     {
+      "movement": "1.1.1 Larghetto",
+      "anon": {
+       "clef": "F-4",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": ",4D8-(3-{'3DC,BAG};6){8.6FDEF}/4G8-({3BAGFED};6){8.6C,,AB,C}/"
+      },
+      "notes": 21,
+      "agree": 21,
+      "match": {
+       "source": "858000019",
+       "movement": "1.1.1 [Sinfonia]. Larghetto",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "4/4",
+       "data": "4''D^,D8-6-({'''DC''BAG};6){8.F6D8.E6F}/4G8-6({BAGFED};6){8.C6'A8.B6''C}/4D^,D-2-/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "858000019",
+      "label": "La virtù al cimento; Manuscript copy; PaWV 18; I-Rmassimo [without shelfmark]"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "190017764",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; S-Skma Alströmer saml. 173:12",
+  "shelfmark": "S-Skma Alströmer saml. 173:12",
+  "leads": [
+   {
+    "composer": "Piazza, Gaetano (18.sc)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "plausible",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "8''D-6qE{DCDE}{8D'A}D-/''F-8qG6{FEFG}{8FD}'8D-/"
+      },
+      "notes": 14,
+      "agree": 14,
+      "match": {
+       "source": "450010294",
+       "movement": "1.1.1 Vivace",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''8D-q6E{DCDE}{8D'A}D-/''F-q6G{FEFG}{8FD}'D-/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "450010294",
+      "label": "Overtures–D major; Manuscript copy; D-Rtt Piazza 1"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "1001220449",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; SK-PREphs H 47",
+  "shelfmark": "SK-PREphs H 47",
+  "leads": [
+   {
+    "composer": "Pichl, Václav (1741-1805)",
+    "verdict": "confirmed",
+    "note": "Anonymous copy encodes opening chords bottom-up, which lowers the automatic note count",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "4/4",
+       "data": "4D^A^''F'8{DF}{EG}{,A'C}/4DD^A^''A'A^''G'A^''E/'4D^A^''F8({'DEF})8({'EFG})8({,AB'C})/"
+      },
+      "notes": 17,
+      "agree": 7,
+      "match": {
+       "source": "455016140",
+       "movement": "1.1.2",
+       "clef": "F-4",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "4,D-2-/4-{8DF}{EG,,A,C}/4D-2-/4-(8{DEF};3)({EFG})({,,AB,C})/"
+      }
+     },
+     {
+      "movement": "1.2.1 Andantino",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "2/4",
+       "data": "8.''{E6E}{EEEE}/{ExDExD}4E/{6DFGA}{GFED}/"
+      },
+      "notes": 13,
+      "agree": 1
+     },
+     {
+      "movement": "1.3.1 Menuetto",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "3/4",
+       "data": "4'DF^''D'F^''D/'2F^''D{6C'BAG}/4'FD^'B'D^'B/'2D^'B{6AGFE}/4D"
+      },
+      "notes": 13,
+      "agree": 2
+     },
+     {
+      "movement": "1.4.1 Trio",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "3/4",
+       "data": "4A/''2A{6AGnFE}/4D'AA/2.bB/2A4A/"
+      },
+      "notes": 9,
+      "agree": 9,
+      "match": {
+       "source": "1001113755",
+       "movement": "1.4.1 Trio",
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "3/4",
+       "data": "4'A/''2A{6AGnFE}/4D'AA/2.B/2A4A/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "1001113755",
+      "label": "Symphonies–D major; Manuscript copy; ZakP 4; SK-Nb 15"
+     },
+     {
+      "id": "455016140",
+      "label": "Symphonies–D major; Manuscript copy; ZakP 4; D-Tl X 43"
+     },
+     {
+      "id": "550248219",
+      "label": "Symphonies–D major; Manuscript copy; ZakP 4; CZ-K 19a K II"
+     },
+     {
+      "id": "550248220",
+      "label": "Symphonies–D major; Manuscript copy; ZakP 4; CZ-K 19b K II"
+     },
+     {
+      "id": "551007385",
+      "label": "Symphonies–D major; Manuscript copy; ZakP 4; CZ-Pnm XLII E 100"
+     },
+     {
+      "id": "570002761",
+      "label": "Symphonies–D major; Manuscript copy; ZakP 4; SK-BRnm MUS XX 82"
+     },
+     {
+      "id": "600177827",
+      "label": "Symphonies–D major; Manuscript copy; ZakP 4; A-KR H 31/259"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "300257516",
+  "genre": "symphonies",
+  "label": "Symphonies–C major; Manuscript copy; PL-Kd 288",
+  "shelfmark": "PL-Kd 288",
+  "leads": [
+   {
+    "composer": "Pichl, Václav (1741-1805)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro con brio",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "'4C8-{3CDEF}4G8.-({3GAB})/''{8CC'BA}4G-/,A8-{3AB'CD}4E"
+      },
+      "notes": 16,
+      "agree": 16,
+      "match": {
+       "source": "1001302071",
+       "movement": "1.1.1 Allo Con Brio",
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "'4C8-{3'CDEF}4G8.-3{GAB}/{''8CC'BA}4G4-/,4A8-{3AB'CD}'4E8.-3{EFG}/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "1001302071",
+      "label": "Symphonies; Manuscript copy; ZakP 21; PL-Kk Kk.I.726"
+     },
+     {
+      "id": "1001315916",
+      "label": "Symphonies–C major; Manuscript copy; ZakP 21; PL-GOkf Mus. V/11"
+     },
+     {
+      "id": "220011907",
+      "label": "Symphonies–C major; Manuscript copy; ZakP 21; D-HER Mus.C 23:6"
+     },
+     {
+      "id": "220017464",
+      "label": "Symphonies–C major; Manuscript copy; ZakP 21; D-HER Mus.L 142:1"
+     },
+     {
+      "id": "301050695",
+      "label": "Symphonies–C major; Manuscript copy; ZakP 21; PL-STAb 21d"
+     },
+     {
+      "id": "400012830",
+      "label": "Symphonies–C major; Manuscript copy; ZakP 21; CH-E 7,14"
+     },
+     {
+      "id": "550500664",
+      "label": "Symphonies–C major; Manuscript copy; ZakP 21; CZ-Pu 59 R 3625"
+     },
+     {
+      "id": "551005012",
+      "label": "Symphonies–C major; Print; ZakP 21"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "300257653",
+  "genre": "symphonies",
+  "label": "Symphonies; Manuscript copy; PL-BA Rm 10",
+  "shelfmark": "PL-BA Rm 10",
+  "leads": [
+   {
+    "composer": "Pichl, Václav (1741-1805)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c/",
+       "data": "''2F4CD/'{8.A6B}''4C-D/{8C'BAB}4G''C/{'8.A6B}''4C"
+      },
+      "notes": 16,
+      "agree": 16,
+      "match": {
+       "source": "550248218",
+       "movement": "1.1.1 Allegro",
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "2''F4CD/{8.'A6B}4''C-D/8{C'BAB}4G''C/{8.'A6B}4''C-"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "550248218",
+      "label": "Symphonies–F major; Manuscript copy; ZakP 5; CZ-K 18 K II"
+     },
+     {
+      "id": "550270761",
+      "label": "Symphonies–F major; Manuscript copy; ZakP 5; CZ-Pnm XLIII C 312"
+     },
+     {
+      "id": "551007628",
+      "label": "Symphonies–F major; Manuscript copy; ZakP 5; CZ-Pnm XLII E 307"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "400003938",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; CH-EN Ms A 125",
+  "shelfmark": "CH-EN Ms A 125",
+  "leads": [
+   {
+    "composer": "Pokorný, Franz Xaver (1729-1794)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "plausible",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro assai",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''4F8-6AG8FFFE/4F8-6AG8FFFC/4D"
+      },
+      "notes": 11,
+      "agree": 11,
+      "match": {
+       "source": "450010621",
+       "movement": "1.1.1 Allegro assai",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''4F8-{6AG}{8FFFE}/4F8-{6AG}{8FFFC}/4D{'8FG}"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "450010621",
+      "label": "Symphonies–D major; Autograph manuscript; AngP D62; D-Rtt Eisenmann 2"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "450013956",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; D-KA Don Mus.Ms. 1790",
+  "shelfmark": "D-KA Don Mus.Ms. 1790",
+  "leads": [
+   {
+    "composer": "Ricci, Francesco Pasquale, OFMConv (1732-1817)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''4F8-A4F8-A/86.3{F'DE}{DFG}{FAB}8{A''F}/"
+      },
+      "notes": 15,
+      "agree": 15,
+      "match": {
+       "source": "550040745",
+       "movement": "1.1.1 Allegro",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''4F8-A4F8-A/{8F'6.D3E}{8D6.F3G}{8F6.A3B}8{A''F}/4G"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "400012916",
+      "label": "Overtures–D major; Manuscript copy; CH-E 13,3"
+     },
+     {
+      "id": "550040745",
+      "label": "Overtures–D major; Manuscript copy; CZ-Pnm XXXIV B 122"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "530012636",
+  "genre": "symphonies",
+  "label": "Symphonies–C major; Manuscript copy; H-Gk AMC, Sinf. 17.",
+  "shelfmark": "H-Gk AMC, Sinf. 17.",
+  "leads": [
+   {
+    "composer": "Richter, Franz Xaver (1709-1789)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "plausible",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "{''8C6CC}{8CC}{6C'CDE}{FGAB}/{''C'EFG}{AB''CD}{E'GAB}{''CDEF}//"
+      },
+      "notes": 24,
+      "agree": 24,
+      "match": {
+       "source": "603000365",
+       "movement": "1.1.1 Allegro",
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "4/4",
+       "data": "''{8C6CC}{8CC}{6C'CDE}{FGAB}/''{C'EFG}{AB''CD}{E'GAB}''{CDEF}/{GCDE}{FGAB}'''{8C''C}"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "603000365",
+      "label": "Symphonies–C major; Manuscript copy; BoeR 10; A-LA 241"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "400014396",
+  "genre": "symphonies",
+  "label": "Symphonies–E♭ major; Manuscript copy; CH-E 199,24|1",
+  "shelfmark": "CH-E 199,24|1",
+  "leads": [
+   {
+    "composer": "Risi, Paolo (18.sc)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "plausible",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "3/4",
+       "data": "'4.E{6BG}{8AF}/{E''E}'{GB}{DF}/4.E{6BG}{8AF}/"
+      },
+      "notes": 16,
+      "agree": 16,
+      "match": {
+       "source": "850002239",
+       "movement": "1.1.1 Allegro",
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "3/4",
+       "data": "'4.E{6BG}{8AF}/{E''E}{'GB}{DF}/4.E{6BG}{8AF}/{E''E}{'GB}{DF}/{E''E}-EqE(8{EDE})/{FA}-{FAF}/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "850002239",
+      "label": "Symphonies–E♭ major; Manuscript copy; I-MAav Cart.15/2 n.16"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "850607491",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; I-OS Mss.Mus.B 4704",
+  "shelfmark": "I-OS Mss.Mus.B 4704",
+  "leads": [
+   {
+    "composer": "Rolla, Alessandro (1757-1841)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "plausible",
+    "movements": [
+     {
+      "movement": "1.1.1 Largo - All.o",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "{,6A3B'C}/4.D8F4CD/2(E)4-8-{,3AB'CD}/4.E"
+      },
+      "notes": 13,
+      "agree": 13,
+      "match": {
+       "source": "851002700",
+       "movement": "1.1.1 N. 1:. Largo maestoso",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "{6,A3B'C}/4D8.-6F8C-D-/2E4-8-3{,AB'CD}/4E8.-"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "851002700",
+      "label": "Ballets; Manuscript copy; I-Mdemicheli MSS.Mus 115"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "1001043744",
+  "genre": "symphonies",
+  "label": "Symphonia–B major; Manuscript copy; CZ-K 419",
+  "shelfmark": "CZ-K 419",
+  "leads": [
+   {
+    "composer": "Rosetti, Antonio (1750c-1792)",
+    "verdict": "confirmed",
+    "note": "First movement metre encoded as c in the anonymous copy, 3/4 in the Rosetti copy; notes agree",
+    "class": "strong",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "F/FBB/B''DD/q8''D4C8q8D{C'B}4''C/"
+      },
+      "notes": 6,
+      "agree": 6,
+      "match": {
+       "source": "570004449",
+       "movement": "1.1.1 Synphonia. Allegro",
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "3/4",
+       "data": "4'F/FBB/B''DD/8qD4C{8C'B}''4C/"
+      }
+     },
+     {
+      "movement": "1.1.2 Andante",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "3/4",
+       "data": "{''8.C6C}/q8xC4D{8nC'BAG}/4.''C{6DC}{'BAGF}/"
+      },
+      "notes": 13,
+      "agree": 13,
+      "match": {
+       "source": "570004449",
+       "movement": "1.2.1 Andante",
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "3/4",
+       "data": "{8.''C6C}/8qxC4D{8nC'BAG}/4''C{6DC}{'BAGF}"
+      }
+     },
+     {
+      "movement": "1.1.3 Menuetto",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "3/4",
+       "data": "{8F6nEF}/2B4''D/'B''D'F/''CE'A/B8-"
+      },
+      "notes": 12,
+      "agree": 12,
+      "match": {
+       "source": "570004449",
+       "movement": "1.3.1 Menuet.",
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "3/4",
+       "data": "8'qG{F6nEF}/2B4''D/'B''D'F/''CE'A/B8-{FFF}/"
+      }
+     },
+     {
+      "movement": "1.1.4 Finale Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "2/4",
+       "data": "8F/{DB}{F''D}/{'B''FDB/{A'''C}"
+      },
+      "notes": 11,
+      "agree": 11,
+      "match": {
+       "source": "570004449",
+       "movement": "1.4.1 Allegro",
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "2/4",
+       "data": "8'F/{DBF''D}/{'B''FDB}/{A'''C''CE}/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "570004449",
+      "label": "Symphonies–B♭ major; Manuscript copy; MurR A44; SK-J H-709"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "530012629",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; H-Gk AMC, Sinf. 10.",
+  "shelfmark": "H-Gk AMC, Sinf. 10.",
+  "leads": [
+   {
+    "composer": "Sacchini, Antonio (1730-1786)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''4FAF8.-{,3AB'C}/4D8.- {,3AB'C}/4D8.- {,3AB'C}//"
+      },
+      "notes": 14,
+      "agree": 14,
+      "match": {
+       "source": "104771",
+       "movement": "1.1.1 Overtura.",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''4FAF8-3-{,AB'C}/8D6-{,AB'C}8D3-{,AB'C}{8DEFG}/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "104771",
+      "label": "Lucio Vero; Manuscript copy; US-R M1500.S119L"
+     },
+     {
+      "id": "107777",
+      "label": "Lucio Vero; Manuscript copy; US-Wc M1500.T76 L7"
+     },
+     {
+      "id": "135066",
+      "label": "Semiramide riconosciuta (Excerpts); Manuscript copy; US-BEm MS 1175"
+     },
+     {
+      "id": "240003886",
+      "label": "Lucio Vero (Excerpts); Manuscript copy; D-SWl Mus.4699"
+     },
+     {
+      "id": "400065359",
+      "label": "Semiramide riconosciuta (Excerpts); Manuscript copy; CH-N XB obl. 215"
+     },
+     {
+      "id": "452008782",
+      "label": "Semiramide riconosciuta; Manuscript copy; D-B Mus.ms. 19165"
+     },
+     {
+      "id": "701002129",
+      "label": "Lucio Vero; Manuscript copy; B-Bc 2334"
+     },
+     {
+      "id": "800159227",
+      "label": "Semiramide riconosciuta (Excerpts); Manuscript copy; GB-Lam MS 176-182"
+     },
+     {
+      "id": "850604748",
+      "label": "Ouverture ?–D major; Manuscript copy; I-OS Mss.Mus.B 4294"
+     },
+     {
+      "id": "858000503",
+      "label": "Semiramide riconosciuta; Manuscript copy; I-Rdp Ms Musicale 107"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "400014560",
+  "genre": "symphonies",
+  "label": "Symphonies–G major; Manuscript copy; CH-SO SJ 2",
+  "shelfmark": "CH-SO SJ 2",
+  "leads": [
+   {
+    "composer": "Sarti, Giuseppe (1729-1802)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "4/4",
+       "data": "'2D+4D8E8(3xFGAB''xC;5)/8D4A'''D''A8xF/4G4.G6xFG8AG/xF"
+      },
+      "notes": 18,
+      "agree": 18,
+      "match": {
+       "source": "131164",
+       "movement": "1.1.1 Recitativo. Allegro",
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "'2D+{8D6ExF}{GAB''xC}/8D4A'''D''A8xF/4G^'B^D''4.G{6xFG}{8AG}/xF4A'''D''A8F/4G^'B^D"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "1001244108",
+      "label": "Ifigenia in Aulide (Excerpts); Manuscript copy; D-Mbs Mus.Schott.As 3264"
+     },
+     {
+      "id": "131164",
+      "label": "Ifigenia (Excerpts); Manuscript copy; US-Wc M1505.A1 (205)"
+     },
+     {
+      "id": "132189",
+      "label": "Ifigenia (Excerpts); Manuscript copy; US-R M1613.3 S249"
+     },
+     {
+      "id": "455027523",
+      "label": "Un amante sventurato (Excerpts); Manuscript copy; D-B Mus.ms. 30128"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "450303558",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; D-Eu Esl VIII 384",
+  "shelfmark": "D-Eu Esl VIII 384",
+  "leads": [
+   {
+    "composer": "Schuster, Joseph (1748-1812)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro con spirito",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "2D4-{8.F6D}/4AAA{8.F6D}/{8AAAA}"
+      },
+      "notes": 7,
+      "agree": 7,
+      "match": {
+       "source": "211008487",
+       "movement": "1.1.1 Sinfonia. Allegro con spirito",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "2'D4-{8.F6D}/4AAA{8.F6D}/{8AAAA}4A{8.F6D}/4A{8.F6D}4A{8.F6D}/4A-2-/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "211008487",
+      "label": "L'idolo cinese; Manuscript copy; D-Dl Mus.3549-F-4"
+     },
+     {
+      "id": "270001259",
+      "label": "L'idolo cinese; Autograph manuscript; D-Dl Mus.3549-F-3"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "469467700",
+  "genre": "symphonies",
+  "label": "Symphonies–G major; Manuscript copy; D-Bsa SA 4677",
+  "shelfmark": "D-Bsa SA 4677",
+  "leads": [
+   {
+    "composer": "Schürer, Johann Georg (1720c-1786)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro assai.",
+      "anon": {
+       "clef": "C-1",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "{8''GDGB}{6''AGFE}{8''D'''D}/{8''GDGB}{6''AGFE}{8''D'''D}"
+      },
+      "notes": 20,
+      "agree": 20,
+      "match": {
+       "source": "212009106",
+       "movement": "1.16.1 Seconda Parte Sinfonia. Allegro",
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "{8''GDGB}{6AGFE}{8D'''D}/{8''GDGB}{6AGFE}{8D'''D}/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "212009106",
+      "label": "La Galatea (Excerpts); Manuscript copy; D-Dl Mus.3096-F-2"
+     },
+     {
+      "id": "469250400",
+      "label": "La Galatea–G major (Excerpts, Arrangement); Manuscript copy; D-Bsa SA 2504"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "280002277",
+  "genre": "symphonies",
+  "label": "Symphonies–E♭ major; Manuscript copy; D-RUl SH 604",
+  "shelfmark": "D-RUl SH 604",
+  "leads": [
+   {
+    "composer": "Spohr, Louis (1784-1859)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "plausible",
+    "movements": [
+     {
+      "movement": "1.1.1 Adagio",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "c",
+       "data": "=2/4.'A+3{A5B''CDEFG}4AA+/8{AGxFG}4G-/=1/4.'E+3{E5FGAB''CD}8{E6DC}{C'BAG}/8{GFnEF}"
+      },
+      "notes": 27,
+      "agree": 27,
+      "match": {
+       "source": "1001244813",
+       "movement": "1.1.1 Adagio",
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "c",
+       "data": "=2/4.'A+3{A5B''CDEFG}4AA+/8{AGxFG}4G-/=1/4.'E+3{E5FGAB''CD}8{E6DC}{C'BAG}/8{GFnEF}"
+      }
+     },
+     {
+      "movement": "1.1.2 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "3/4",
+       "data": "4'B/''E'G''C/'nA8{BEFG}/4Bq6B8{AGAB}/4G"
+      },
+      "notes": 15,
+      "agree": 1
+     }
+    ],
+    "sources": [
+     {
+      "id": "1001244813",
+      "label": "Symphonies–E♭ major; Print; GötS 20"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "600171568",
+  "genre": "symphonies",
+  "label": "Symphonies–B♭ major; Manuscript copy; WarB YC 3, DTB 3/1 deest; A-KR H 31/263",
+  "shelfmark": "A-KR H 31/263",
+  "leads": [
+   {
+    "composer": "Stamitz",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "plausible",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro molto",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "'4B{,8.B6B}4BB/4.B({'3DC,B})'4CE/4.D({3FED})4EG/"
+      },
+      "notes": 13,
+      "agree": 13,
+      "match": {
+       "source": "650002967",
+       "movement": "1.1.1 Allegro molto",
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "4'B{8.,B6B}4BB/4.B{6'D3C,B}4'CE/4.D{6F3ED}4EG/8F-{8.Bt3AB}8A-{8.''Ct3'B''C}/8'B-"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "650002967",
+      "label": "Symphonies–B♭ major; Manuscript copy; WolS III.QS-31, MicWka 435, KucW 73, WarB YC 3; A-ST Mus.ms. 2153"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "530000729",
+  "genre": "symphonies",
+  "label": "Symphonies–C major; Manuscript copy; H-KE 1188",
+  "shelfmark": "H-KE 1188",
+  "leads": [
+   {
+    "composer": "Süßmayr, Franz Xaver (1766-1803)",
+    "verdict": "confirmed",
+    "note": "Only the first movement is encoded; movement plan and scoring also agree",
+    "class": "plausible",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "''8GGAGE/4C8CC4D8DD/4E8CGGAGE/68.AFGEFDEC/4E8D"
+      },
+      "notes": 22,
+      "agree": 12,
+      "match": {
+       "source": "530003761",
+       "movement": "1.1.1 Allegro",
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "8''G{GAGE}/4C8{CC}4D8{DD}/4E8{CG}{GAGE}/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "530003761",
+      "label": "Symphonies–C major; Manuscript copy; SmWV 404; H-Bn Ms.mus IV.41"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "400007392",
+  "genre": "symphonies",
+  "label": "Symphonies–A major; Manuscript copy; CH-SAf MusSAf.Ms.445",
+  "shelfmark": "CH-SAf MusSAf.Ms.445",
+  "leads": [
+   {
+    "composer": "Toeschi, Carl Joseph (1731-1788)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "plausible",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "c",
+       "data": "'4A8.A6A,8A'A''q8C'B6AB/''4C8.C6C,8A''Cq8ED6CD/E"
+      },
+      "notes": 13,
+      "agree": 13,
+      "match": {
+       "source": "140044",
+       "movement": "1.1.1 Allegro",
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "c",
+       "data": "'4A^E^,A{'8.A6A}{,8.A'6A}q''C{'8B6AB}/''4C^'E{''8.C6C}{,8A''C}q6E{8D6CD}/{E'AB''C}{DEFG}{AGAG}{AEC'A}/"
+      }
+     },
+     {
+      "movement": "1.2.1 Andante grazioso",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFCGD",
+       "timesig": "3/4",
+       "data": "'4E,B'{8.G6B}/{8.B6A}4G''{8.E6C}/'4B''C"
+      },
+      "notes": 10,
+      "agree": 1
+     },
+     {
+      "movement": "1.3.1 Presto",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "2/4",
+       "data": "'4A{8EA}/''{CD'BG}/4A{8E''C}/{EFD'B}/''4C"
+      },
+      "notes": 15,
+      "agree": 1
+     }
+    ],
+    "sources": [
+     {
+      "id": "140044",
+      "label": "Symphonies–A major; Manuscript copy; MünT 21; US-Wc M1001.T64P Op. III/iv"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "800261901",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; GB-Lbl R.M.21.d.16.",
+  "shelfmark": "GB-Lbl R.M.21.d.16.",
+  "leads": [
+   {
+    "composer": "Toeschi, Carl Joseph (1731-1788)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "2'''D4.8''AF/4D{8.6D'A}4F{8.6AF}/1D/q6G{8Ft6EF}"
+      },
+      "notes": 12,
+      "agree": 12,
+      "match": {
+       "source": "150203709",
+       "movement": "1.1.1",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "4/4",
+       "data": "'''2D''4.A8F/4D{8D'A}4F{8.A6F}/1D/q6G{8.Ft3EF}8D-"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "150203709",
+      "label": "Symphonies–D major; Manuscript copy; MünT 27; DK-Kk (mu 7308.2137)"
+     },
+     {
+      "id": "190023270",
+      "label": "Symphonies–D major (Excerpts); Manuscript copy; MünT 27/1; S-Skma O-R"
+     },
+     {
+      "id": "190024271",
+      "label": "Symphonies–D major; Manuscript copy; MünT 27; S-L Saml.Kraus 387"
+     },
+     {
+      "id": "400006746",
+      "label": "Symphonies–D major; Manuscript copy; MünT 27; CH-Bu kr II 77"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "1001247888",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; CZ-K 418",
+  "shelfmark": "CZ-K 418",
+  "leads": [
+   {
+    "composer": "Vanhal, Johann Baptist (1739-1813)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "A/''D2D8{FD}/4G2G{8EC}/4D2D{8FD}/"
+      },
+      "notes": 10,
+      "agree": 10,
+      "match": {
+       "source": "280002186",
+       "movement": "1.1.1 Allegro con brio",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "4'A/''D2D8{FD}/4G2G8{EC}/4D2D8{FD}/4G2G8{EC}/D"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "240005219",
+      "label": "Symphonies–D major; Manuscript copy; BryVa D3; D-SWl Mus.5508"
+     },
+     {
+      "id": "280002186",
+      "label": "Symphonies–D major; Manuscript copy; BryVa D 3; D-RUl SH 515"
+     },
+     {
+      "id": "450011418",
+      "label": "Symphonies–D major; Manuscript copy; BryVa D3; D-Rtt Vanhal 13"
+     },
+     {
+      "id": "530002892",
+      "label": "Symphonies–D major; Manuscript copy; BryVa D3; H-P V 12"
+     },
+     {
+      "id": "550248285",
+      "label": "Symphonies–D major; Manuscript copy; BryVa D3; CZ-K 62d K II"
+     },
+     {
+      "id": "551007540",
+      "label": "Symphonies–D major; Manuscript copy; BryVa D3; CZ-Pnm XLII E 243"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "530012639",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; H-Gk AMC, Sinf. 20/1.",
+  "shelfmark": "H-Gk AMC, Sinf. 20/1.",
+  "leads": [
+   {
+    "composer": "Wagenseil, Georg Christoph (1715-1777)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "plausible",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro assai",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "{''8DD}q6E{3DC8.D}{8DD}q6E{3DC8.D}/4.A8F4.A8F//"
+      },
+      "notes": 9,
+      "agree": 9,
+      "match": {
+       "source": "706000763",
+       "movement": "1.1.1 Allegro assai",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "{''8DD}gE{3DC8.D}{8DD}gE{3DC8.D}/4.A8F4.A8F/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "706000763",
+      "label": "Symphonies–D major; Manuscript copy; KucW 17, MicWka 370; B-Bc 7946 XXII"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "220017252",
+  "genre": "symphonies",
+  "label": "?Symphonies?–D major; Manuscript copy; D-HER Mus.N 1:13",
+  "shelfmark": "D-HER Mus.N 1:13",
+  "leads": [
+   {
+    "composer": "Wolf, Ernst Wilhelm (1735-1792)",
+    "verdict": "confirmed",
+    "note": "",
+    "class": "strong",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro di molto",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c/",
+       "data": "6'D/48.6D-AA-''D/2D4D{6D3EFGAB'''C}/4.D8D4.D8D/"
+      },
+      "notes": 10,
+      "agree": 10,
+      "match": {
+       "source": "280000015",
+       "movement": "1.1.1 Allegro di molto",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c/",
+       "data": "6'D/4D8.-6A4A8.-6''D/2D+4D+6{D3EFGAB'''C}/4.D8D4.D8D/2''G+4G"
+      }
+     },
+     {
+      "movement": "1.2.1 Lento",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c/",
+       "data": "4.3333''D{DEFG}A{AnB'''xC''A}/8{'''DD}q6C{8''B6qA8xG}qG4.A{3ABAB}/8{'''CC}"
+      },
+      "notes": 16,
+      "agree": 16,
+      "match": {
+       "source": "280000015",
+       "movement": "1.2.1 Lento",
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "4.''D3{DEFG}4.A3{AnB'''xC''A}/8'''DDq6C8''{Bq6A8xG}q8G4.A3{ABAB}/8'''{CCq''6B8Aq6G8xF}8.G"
+      }
+     },
+     {
+      "movement": "1.3.1 Presto",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "6/8",
+       "data": "8,A/4'D8D{D6EDCD}/8{EEE}48E,A/'EE{8E6FEDE}/{8FDD}"
+      },
+      "notes": 15,
+      "agree": 15,
+      "match": {
+       "source": "280000015",
+       "movement": "1.3.1 Presto",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "6/8",
+       "data": ",8A/'4D8D{D6EDCD}/8{EEE}4E8,A/4'E8E{E6FEDE}/8{FDD}4D"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "280000015",
+      "label": "Symphonies–D major; Manuscript copy; D-WRha DNT i 30"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "220017253",
+  "genre": "symphonies",
+  "label": "?Symphonies?–G major; Manuscript copy; D-HER Mus.N 1:14",
+  "shelfmark": "D-HER Mus.N 1:14",
+  "leads": [
+   {
+    "composer": "Wolf, Ernst Wilhelm (1735-1792)",
+    "verdict": "confirmed",
+    "note": "Overture to Le monde de la lune",
+    "class": "strong",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro di molto",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c/",
+       "data": "4.'''D8''B{'''D''B'''D''B}/4'''D8.{''Bt3AB}4'''C{8.''At3GA}/4.B8B{'''D''B'''D''B}/"
+      },
+      "notes": 19,
+      "agree": 19,
+      "match": {
+       "source": "270003031",
+       "movement": "1.1.1 Sinfonia. Allegro di molto",
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "4.'''D8''B{'''D''B'''D''B}/4'''D{8.''Bt3AB}/4'''C{8.''A3GA}/4.8BB{8'''D''B'''D''B}/"
+      }
+     },
+     {
+      "movement": "1.2.1 Comodetto",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "6/8",
+       "data": "4.''E'B/q6''C{'BAB''C'B''C}{8'BBB}/4.''C'G/"
+      },
+      "notes": 10,
+      "agree": 10,
+      "match": {
+       "source": "280002206",
+       "movement": "1.2.1 Comodetto",
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "6/8",
+       "data": "4.''E'B/q6''C6{'BAB''C'B''C}8'{BBB}/4.''C'G/q6A6{GFGAGA}8{GGxG}/4.AE/"
+      }
+     },
+     {
+      "movement": "1.3.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "{8.'''D6C}/4''BAGF/EDC'B/{(8A''C'B)}{(A''CE)}{(EDC)}{('BAG)}/"
+      },
+      "notes": 21,
+      "agree": 21,
+      "match": {
+       "source": "280002206",
+       "movement": "1.3.1 Allegro",
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c/",
+       "data": "8.{'''D6C}/4''BAGF/EDC'B/8{(A''C'B)}{(A''CE)}{(EDC)}{('BAG)}/F"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "270003031",
+      "label": "Le monde de la lune; Manuscript copy; D-Dl Mus.3388-F-3"
+     },
+     {
+      "id": "280002206",
+      "label": "Symphonies–G major; Manuscript copy; D-RUl SH 535"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "1001067396",
+  "genre": "symphonies",
+  "label": "Symphony–D major; Manuscript copy; PL-SA 141/A III 41",
+  "shelfmark": "PL-SA 141/A III 41",
+  "leads": [
+   {
+    "composer": "Hasse, Johann Adolf (1699-1783)",
+    "verdict": "conflicting",
+    "note": "Same symphony is attributed to Röllig in other RISM copies",
+    "class": "strong",
+    "movements": [
+     {
+      "movement": "1.1.1 Synfonia",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "4''F^'A^D{6''AGFE}4D'A/{8F6DE}{8FG}{A,A}8-'A/{6''D'AAA}{AAAA}{''E'AAA}{AAAA}/"
+      },
+      "notes": 19,
+      "agree": 14,
+      "match": {
+       "source": "469221900",
+       "movement": "1.1.1 Allegro.",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c/",
+       "data": "''4F{6AGFE}4D'A/{'8F6DE}{8FG}{A,A}8-8A/"
+      }
+     },
+     {
+      "movement": "1.2.1 Andante",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "2/4",
+       "data": "8''E/{3CD6E}{3DE6F}{8E'A}/{3B6.G8A}4''A/{3'B6.G8A}4''A/4'D^A^''F{3GFED}{6.3CE'B''D}/"
+      },
+      "notes": 26,
+      "agree": 13,
+      "match": {
+       "source": "469221900",
+       "movement": "1.2.1 Andante.",
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "2/4",
+       "data": "''8E/{3CD6E}{3DE6F}{8E'A}/{3B6.G8A}''4A/"
+      }
+     },
+     {
+      "movement": "1.3.1 Presto",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "6/8",
+       "data": "{6'AF}/{8DDD}{DDD}/{DFA}4''D{6FD}/4A{6AF}4G{6GE}/{8F6FAGF}4E{6'AF}/"
+      },
+      "notes": 19,
+      "agree": 8,
+      "match": {
+       "source": "469221900",
+       "movement": "1.3.1 Presto.",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "6/8",
+       "data": "{6'AF}/{8DDD}{DDD}/{DFA}4''D{6FD}/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "469221900",
+      "label": "Symphonies–D major; Manuscript copy; D-Bsa SA 2219"
+     }
+    ]
+   },
+   {
+    "composer": "Röllig, Johann Christian (1716-1780c)",
+    "verdict": "conflicting",
+    "note": "Same symphony is attributed to Hasse in other RISM copies",
+    "class": "strong",
+    "movements": [
+     {
+      "movement": "1.1.1 Synfonia",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "4''F^'A^D{6''AGFE}4D'A/{8F6DE}{8FG}{A,A}8-'A/{6''D'AAA}{AAAA}{''E'AAA}{AAAA}/"
+      },
+      "notes": 19,
+      "agree": 17,
+      "match": {
+       "source": "1001287072",
+       "movement": "1.1.1",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c/",
+       "data": "''4F6{AGFE}4D'A/{8F6DE}{8FG}{A,A}-'A/''6{D'AAA}{AAAA}"
+      }
+     },
+     {
+      "movement": "1.2.1 Andante",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "2/4",
+       "data": "8''E/{3CD6E}{3DE6F}{8E'A}/{3B6.G8A}4''A/{3'B6.G8A}4''A/4'D^A^''F{3GFED}{6.3CE'B''D}/"
+      },
+      "notes": 26,
+      "agree": 17,
+      "match": {
+       "source": "469321200",
+       "movement": "1.2.1 Andante.",
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "2/4",
+       "data": "''8E/{3CD6E}{3DE6F}{8E'A}/{3B6.G8A}4''A/'{3B6.G8A}4''A/"
+      }
+     },
+     {
+      "movement": "1.3.1 Presto",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "6/8",
+       "data": "{6'AF}/{8DDD}{DDD}/{DFA}4''D{6FD}/4A{6AF}4G{6GE}/{8F6FAGF}4E{6'AF}/"
+      },
+      "notes": 19,
+      "agree": 8,
+      "match": {
+       "source": "1001287072",
+       "movement": "1.3.1 Presto",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "6/8",
+       "data": "'6{AF}/8{DDD}{DDD}/{DFA}''4D{6FD}/4F{6FD}"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "1001287072",
+      "label": "Symphonies–D major; Manuscript copy; D-Ju Ms.Conc.Acad.75"
+     },
+     {
+      "id": "469321200",
+      "label": "Symphonies–D major; Manuscript copy; D-Bsa SA 3212"
+     }
+    ]
+   }
+  ],
+  "verdict": "conflicting"
+ },
+ {
+  "id": "500028090",
+  "genre": "symphonies",
+  "label": "Symphonies–C major; Manuscript copy; HR-Zha XXXV.R",
+  "shelfmark": "HR-Zha XXXV.R",
+  "leads": [
+   {
+    "composer": "Asplmayr, Franz (1728-1786)",
+    "verdict": "probable",
+    "note": "Transposed copy (C major) of D major symphony",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro assai",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "'4C8-{6C,B}{8'C,G'CE}/4C8-{6ED}{8ECEG}/4E"
+      },
+      "notes": 14,
+      "agree": 14,
+      "match": {
+       "source": "150201388",
+       "movement": "1.1.1 Allegro",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "4/4",
+       "data": "4'D8-6DC8D,A'DF/4D8-6FE8FDFA/4F8-6AG8AFA''D/4'A"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "150201388",
+      "label": "Symphonies; Manuscript copy; RieA deest; DK-Kk (mu 7302.2540)"
+     },
+     {
+      "id": "170000017",
+      "label": "Symphonies–D major; Manuscript copy; RieA deest; N-T XM 13"
+     },
+     {
+      "id": "450023691",
+      "label": "Symphonies–D major; Manuscript copy; RieA deest; D-HR III 4 1/2 2|o 1059"
+     },
+     {
+      "id": "453011435",
+      "label": "Symphonies; Manuscript copy; RieA deest; D-MMm 601"
+     },
+     {
+      "id": "454016402",
+      "label": "Symphonies–D major; Manuscript copy; RieA deest; D-Mbs Mus.ms. 12376"
+     },
+     {
+      "id": "550266258",
+      "label": "Symphonies–D major; Manuscript copy; RieA deest; CZ-Pnm XXII A 254"
+     },
+     {
+      "id": "650002015",
+      "label": "Symphonies–D major; Manuscript copy; RieA deest; A-ST Mus.ms. 307"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
+  "id": "1001043738",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; CZ-K 417",
+  "shelfmark": "CZ-K 417",
+  "leads": [
+   {
+    "composer": "Dittersdorf, Carl Ditters von (1739-1799)",
+    "verdict": "probable",
+    "note": "Transposed copy (D) of KreD 24 in E-flat",
+    "class": "weak",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "4.A8B4A''D/2'AG/q8G4F8{EF}{AGFE}/"
+      },
+      "notes": 13,
+      "agree": 9,
+      "match": {
+       "source": "211007144",
+       "movement": "1.1.1",
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "c",
+       "data": "'4.B8''C'4B''E/'2BA/q6A4G{8FG}q6B4A{8GF}/2ED/"
+      }
+     },
+     {
+      "movement": "1.2.1 Presto",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "2/4",
+       "data": "''DD/4.Dq8BA/{ABAG}/4GF/"
+      },
+      "notes": 6,
+      "agree": 1
+     }
+    ],
+    "sources": [
+     {
+      "id": "211007144",
+      "label": "Symphonies–E♭ major; Manuscript copy; KreD 24, KreD 96; D-Dl Mus.3411-N-2,8"
+     },
+     {
+      "id": "452006152",
+      "label": "Symphonies–E♭ major; Manuscript copy; KreD 24, GraDi E|b15; D-B Mus.ms. 5029"
+     },
+     {
+      "id": "455020576",
+      "label": "Symphonies–E♭ major; Manuscript copy; AltD deest, SýkD deest, BrookB 1966 suppl.4, 1769, clm.338, KreD 24, GraD Eb8; D-BSSp Mus.ms. Dittersdorf 1"
+     },
+     {
+      "id": "530002266",
+      "label": "Symphonies–E♭ major; Manuscript copy; KreD 24, GraDi E|b15; H-P D 28"
+     },
+     {
+      "id": "550270285",
+      "label": "Symphonies–E♭ major; Manuscript copy; KreD 24, KreD 96; CZ-Pnm XLIII C 289"
+     },
+     {
+      "id": "552001496",
+      "label": "Symphonies–E♭ major; Manuscript copy; CZ-PELmv 12511"
+     },
+     {
+      "id": "603000076",
+      "label": "Symphonies–E♭ major; Manuscript copy; GraDi Eb15, KreD 24, KreD 96; A-LA 203"
+     },
+     {
+      "id": "850028982",
+      "label": "Symphonies–E♭ major; Manuscript copy; KreD 24, GraDi E|b15; I-BGc N.C.10.1"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
+  "id": "400014405",
+  "genre": "symphonies",
+  "label": "Symphonies–B♭ major; Manuscript copy; CH-E 21,33",
+  "shelfmark": "CH-E 21,33",
+  "leads": [
+   {
+    "composer": "Guglielmi, Pietro Alessandro (1728-1804)",
+    "verdict": "probable",
+    "note": "Instrumental version of aria \"Priva di te mio bene\"",
+    "class": "plausible",
+    "movements": [
+     {
+      "movement": "1.1.1 Larghetto",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "3/4",
+       "data": "''6F/{8.F6D}'{8B''D}gD{C'6BA}/{AB''ED}4D8-F/"
+      },
+      "notes": 11,
+      "agree": 11,
+      "match": {
+       "source": "452022045",
+       "movement": "1.1.1 Larghetto",
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "3/4",
+       "data": "6''F/{8.F6D}{8'B''D}q6D{8C6'BA}/{AB''ED}4D8-F/{6FEDE}4D"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "452022045",
+      "label": "Priva di te mio bene–B♭ major; Manuscript copy; D-B Mus.ms. 8832"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
+  "id": "240461",
+  "genre": "symphonies",
+  "label": "Pieces–B♭ major (Excerpts); Manuscript copy; US-WS SCM [39.3] Salem ms",
+  "shelfmark": "US-WS SCM [39.3] Salem ms",
+  "leads": [
+   {
+    "composer": "Mozart, Wolfgang Amadeus (1756-1791)",
+    "verdict": "probable",
+    "note": "Instrumental excerpts of Litany KV 125",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 Allo. molto",
+      "anon": {
+       "clef": "F-4",
+       "keysig": "bBE",
+       "timesig": "",
+       "data": ",,{8B,B'D,B}{AGAF}/{BBBB}{DDDD}/{EEEE}{FFFF}/"
+      },
+      "notes": 12,
+      "agree": 12,
+      "match": {
+       "source": "450064032",
+       "movement": "1.1.2",
+       "clef": "F-4",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "8,,{B,B'D,B}{AGAF}/{BBBB}{DDDD}/{EEEE}{FFFF}/"
+      }
+     },
+     {
+      "movement": "1.2.1 Andante",
+      "anon": {
+       "clef": "F-4",
+       "keysig": "bBEA",
+       "timesig": "3/4",
+       "data": "{8,EE}E8-4-/{8EE}E8-4-/{8EE}{EFGA}/"
+      },
+      "notes": 4,
+      "agree": 1
+     },
+     {
+      "movement": "1.3.1 Adagio",
+      "anon": {
+       "clef": "F-4",
+       "keysig": "bBEADG",
+       "timesig": "",
+       "data": ",,{6BBBBBBBB}{BBBBBBBB}/{BBBBBBBB}4B8-,B/{bGGGF}{nEEEE}/"
+      },
+      "notes": 6,
+      "agree": 2
+     },
+     {
+      "movement": "1.4.1 Alla breve",
+      "anon": {
+       "clef": "F-4",
+       "keysig": "bBE",
+       "timesig": "",
+       "data": ",2B4BB/2B,,B/4-,BBB/4.B8,,B2B/"
+      },
+      "notes": 4,
+      "agree": 4
+     }
+    ],
+    "sources": [
+     {
+      "id": "450064032",
+      "label": "Litanies–B♭ major (Excerpts, Arrangement); Manuscript copy; KV B125; D-BNu Ec 128.7"
+     },
+     {
+      "id": "455013156",
+      "label": "Litanies (Excerpts, Arrangement); Manuscript copy; KV B125; D-Tl Hh 62"
+     },
+     {
+      "id": "659000817",
+      "label": "Litanies–B♭ major; Partial autograph; KV 125; A-Sd A 1127"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
+  "id": "408005075",
+  "genre": "symphonies",
+  "label": "Symphonies–E♭ major; Manuscript copy; CH-SAf MusSAf.Ms.1361",
+  "shelfmark": "CH-SAf MusSAf.Ms.1361",
+  "leads": [
+   {
+    "composer": "Pichl, Václav (1741-1805)",
+    "verdict": "probable",
+    "note": "Transposed copy (E-flat) of ZakP 24 in D",
+    "class": "weak",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "c",
+       "data": "''4A{8.A6A}{8AEAE}/4A'''EEE/2E{8EDCD}/2D4C-/"
+      },
+      "notes": 10,
+      "agree": 6,
+      "match": {
+       "source": "455016633",
+       "movement": "1.1.1 Allegro",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "4'D{8.6DD}{8D,A'D,A}/4'DAAA/2A{8AGFG}/2G4F-/"
+      }
+     },
+     {
+      "movement": "1.2.1 Rondo Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "c/",
+       "data": "2-/=1/2-'''{8.E6D}4D/{8.C''6F}4F{8ACFE}/4D'B"
+      },
+      "notes": 10,
+      "agree": 1
+     },
+     {
+      "movement": "1.3.1 Allo assai",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "2/4",
+       "data": "=4/''GF/AG/{6FGFE}{DC'BnA}/4B-/=1/"
+      },
+      "notes": 13,
+      "agree": 1
+     }
+    ],
+    "sources": [
+     {
+      "id": "455016633",
+      "label": "Symphonies–D major; Manuscript copy; ZakP 24; D-Mbs Mus.ms. 3719"
+     },
+     {
+      "id": "455016639",
+      "label": "Symphonies–E♭ major; Manuscript copy; ZakP 24, MurR A58S; D-Mbs Mus.ms. 4841"
+     },
+     {
+      "id": "551005015",
+      "label": "Symphonies–E♭ major; Print; ZakP 24"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
+  "id": "400213728",
+  "genre": "symphonies",
+  "label": "Symphonies–G major; Manuscript copy; CH-AR Mus Ms A 102",
+  "shelfmark": "CH-AR Mus Ms A 102",
+  "leads": [
+   {
+    "composer": "Pleyel, Ignace (1757-1831)",
+    "verdict": "probable",
+    "note": "Arrangement of quartet BenP 305",
+    "class": "weak",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "F-4",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "'4D/,BBxGE/4.A8B'4CC/,AAFD/4.G8A4B-/"
+      },
+      "notes": 13,
+      "agree": 8,
+      "match": {
+       "source": "1001098193",
+       "movement": "1.1.1 Allegro",
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "4''D/'BBxGE/4.A8B4''CC/'AAFD/4.nG8A4B''G/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "1001098193",
+      "label": "Quartets–G major; Manuscript copy; BenP 305; PL-Wb M.R.0425"
+     },
+     {
+      "id": "1001352067",
+      "label": "Quartets–G major; Print; BenP 305"
+     },
+     {
+      "id": "1001352078",
+      "label": "Quartets–G major; Print; BenP 305"
+     },
+     {
+      "id": "1001352095",
+      "label": "Quartets–G major; Print; BenP 305"
+     },
+     {
+      "id": "1001362676",
+      "label": "Quartets–G major; Manuscript copy; BenP 305; US-IO M452 .P7 B.301-306 1800"
+     },
+     {
+      "id": "1001362679",
+      "label": "Quartets–G major; Manuscript copy; BenP 305; US-IO M452 .P7 B.305 1800"
+     },
+     {
+      "id": "450017882",
+      "label": "Quartets–G major (Arrangement); Manuscript copy; BenP 305; D-KA Don Mus.Ms. 1585"
+     },
+     {
+      "id": "450034846",
+      "label": "Quartets–G major; Manuscript copy; BenP 305; D-BAR Ba 120 Bü 229"
+     },
+     {
+      "id": "456010364",
+      "label": "Quartets–G major; Manuscript copy; BenP 305; D-Mbs Mus.ms. 288-17"
+     },
+     {
+      "id": "500027463",
+      "label": "Quartets–G major; Manuscript copy; BenP 305; HR-Zha VII.L"
+     },
+     {
+      "id": "540001033",
+      "label": "Quartets–G major; Manuscript copy; BenP 305; SI-Nf Ms. mus. 285"
+     },
+     {
+      "id": "550508147",
+      "label": "Quartets–G major; Manuscript copy; BenP 305; CZ-Pu 59 R 2350"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
+  "id": "840002845",
+  "genre": "symphonies",
+  "label": "Quartets–D major; Manuscript copy; F-AG 292(1-5)",
+  "shelfmark": "F-AG 292(1-5)",
+  "leads": [
+   {
+    "composer": "Sammartini, Giovanni Battista (1700c-1775)",
+    "verdict": "probable",
+    "note": "Quartet arrangement of symphony JenS 10",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "3/4",
+       "data": "4'DDD/{8D,A'DFAF}/{EGEC,A'C}/{D,A'DFAF}/{EGEC,A'C}/4D"
+      },
+      "notes": 25,
+      "agree": 18,
+      "match": {
+       "source": "116305",
+       "movement": "1.1.1 Allegro",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "3/4",
+       "data": "'4DDD/{8D,A'DFAF}/{EGEC,A'C}/{D,A'DFAF}/"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "116305",
+      "label": "Symphonies–D major; Manuscript copy; JenS 10; US-BEm MS 600 A-F"
+     },
+     {
+      "id": "150201617",
+      "label": "Symphonies–D major; Manuscript copy; JenS 10; DK-Kk (mu 7305.2936)"
+     },
+     {
+      "id": "190019057",
+      "label": "Symphonies–D major; Manuscript copy; JenS 10; S-Skma Od-R"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
+  "id": "190001882",
+  "genre": "symphonies",
+  "label": "Quartets–B♭ major; Manuscript copy; S-L Saml.Kraus 157",
+  "shelfmark": "S-L Saml.Kraus 157",
+  "leads": [
+   {
+    "composer": "Adlgasser, Anton Cajetan (1729-1777)",
+    "verdict": "unresolved",
+    "note": "Same pitches as the Adlgasser sacred work, rebarred from 3/8 to 2/4; a quartet borrowing a vocal piece needs the images",
+    "class": "plausible",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "2/4",
+       "data": "'8B''4D8C/'B4F8D/''D4F8E/D'4B8F/{''6BFFF}{FFFF}/{'FA''CF}{EEEE}/{DDDD}{DDDD}/"
+      },
+      "notes": 20,
+      "agree": 12,
+      "match": {
+       "source": "1001025319",
+       "movement": "1.3.1 Allegro assai",
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "3/8",
+       "data": "'8{B''DC}/'{BFD}/''{DFE}/{D'BF}/''6{FFFFFF}/{FFFFFF}/{FGABAB}/4F"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "1001025319",
+      "label": "Pietas in Deum–B♭ major; Manuscript copy; CatAd 10.14; A-LA 1959"
+     }
+    ]
+   }
+  ],
+  "verdict": "unresolved"
+ },
+ {
+  "id": "800070191",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; GB-Ge R.d.39",
+  "shelfmark": "GB-Ge R.d.39",
+  "leads": [
+   {
+    "composer": "Arne, Thomas Augustine (1710-1778)",
+    "verdict": "unresolved",
+    "note": "Opening matches a Mass in D attributed to Arne in a Rome copy; a symphony quoting a Mass opening is odd, needs the images",
+    "class": "plausible",
+    "movements": [
+     {
+      "movement": "1.1.1 Grave",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''4FAF8-F/{AAAA}4D8-D/{GGGG}4C8-"
+      },
+      "notes": 7,
+      "agree": 7,
+      "match": {
+       "source": "850032622",
+       "movement": "1.1.1 Symphony.",
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "4''FAF8-F/{AAAA}4D8-D/{GGGG}4C8-E/{AAAE}"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "850032622",
+      "label": "Masses–D major; Manuscript copy; I-Rama A.Ms.2663"
+     }
+    ]
+   }
+  ],
+  "verdict": "unresolved"
+ },
+ {
+  "id": "190004287",
+  "genre": "symphonies",
+  "label": "?Concertos?–D major (Excerpts); Manuscript copy; S-HÄ ohne Signatur",
+  "shelfmark": "S-HÄ ohne Signatur",
+  "leads": [
+   {
+    "composer": "Knölcke, Baltzar",
+    "verdict": "unresolved",
+    "note": "Same pitches as Knölcke's \"Railleri\" in a different metre; both copies are obscure",
+    "class": "plausible",
+    "movements": [
+     {
+      "movement": "1.1.1 Allegro",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "2/4",
+       "data": "''{8DDDD}/{6D'AB''C}{DEFG}/{8FDDD}/{6D'AB''C}{DEFG}/8F4A{6GF}/{8E'AA''G}/F"
+      },
+      "notes": 25,
+      "agree": 17,
+      "match": {
+       "source": "190004524",
+       "movement": "1.1.1",
+       "clef": "C-1",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''{8DDDD}{6D'AB''C}{DEFG}/{FDDD}{D'AB''C}{DEFG}"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "190004524",
+      "label": "Railleri–D major; Manuscript copy; S-HÄ ohne Signatur"
+     }
+    ]
+   }
+  ],
+  "verdict": "unresolved"
+ },
+ {
+  "id": "850607316",
+  "genre": "symphonies",
+  "label": "Symphonies–G major; Manuscript copy; I-OS Mss.Mus.B 4713",
+  "shelfmark": "I-OS Mss.Mus.B 4713",
+  "leads": [
+   {
+    "composer": "Pleyel, Ignace (1757-1831)",
+    "verdict": "unresolved",
+    "note": "Anonymous opening equals bars 3-4 of the Pleyel symphonie concertante a step lower; needs the full parts",
+    "class": "good",
+    "movements": [
+     {
+      "movement": "1.1.1 All.o",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "''2D'4.B8A/gB{AG}4.G{8GAB}/''2C'4.A8G/G"
+      },
+      "notes": 9,
+      "agree": 9,
+      "match": {
+       "source": "201008913",
+       "movement": "1.1.1 Allegro",
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "c",
+       "data": "''2E4.C'8B/''qC{'BA}4.A{8AB''C}/2D'4.B8A/{AG}4.G"
+      }
+     }
+    ],
+    "sources": [
+     {
+      "id": "201008913",
+      "label": "Symphonies concertantes–A major; Manuscript copy; BenP 114; D-Zsch 10636,23"
+     },
+     {
+      "id": "530002776",
+      "label": "Symphonies concertantes–A major; Manuscript copy; BenP 114; H-P P 53"
+     },
+     {
+      "id": "600033684",
+      "label": "Symphonies concertantes–A major (Arrangement); Manuscript copy; BenP 114; A-RB R 307"
+     }
+    ]
+   }
+  ],
+  "verdict": "unresolved"
+ },
+ {
+  "id": "570005113",
+  "genre": "symphonies",
+  "label": "Symphonies–F major; Manuscript copy; SK-J H-614",
+  "shelfmark": "SK-J H-614",
+  "leads": [
+   {
+    "composer": "Adam, Johann (1704-1779)",
+    "verdict": "known",
+    "note": "Record already names Adam",
+    "class": "known"
+   }
+  ],
+  "verdict": "known"
+ },
+ {
+  "id": "850607318",
+  "genre": "symphonies",
+  "label": "Symphonies–B♭ major; Manuscript copy; I-OS Mss.Mus.B 4715",
+  "shelfmark": "I-OS Mss.Mus.B 4715",
+  "leads": [
+   {
+    "composer": "Benatti, Vincenzo (1767-1797)",
+    "verdict": "known",
+    "note": "Record already names the composer or catalogue number",
+    "class": "known"
+   }
+  ],
+  "verdict": "known"
+ },
+ {
+  "id": "603000139",
+  "genre": "symphonies",
+  "label": "Divertimentos–B♭ major; Manuscript copy; MH 133, MH 104, MH deest; A-LA 329",
+  "shelfmark": "A-LA 329",
+  "leads": [
+   {
+    "composer": "Hafeneder, Joseph (1746-1784)",
+    "verdict": "known",
+    "note": "Record already names the composer or catalogue number",
+    "class": "known"
+   },
+   {
+    "composer": "Haydn, Michael (1737-1806)",
+    "verdict": "known",
+    "note": "Record already names the composer or catalogue number",
+    "class": "known"
+   }
+  ],
+  "verdict": "known"
+ },
+ {
+  "id": "1001382619",
+  "genre": "symphonies",
+  "label": "Symphonies–G major (Arrangement); Manuscript copy; Hob I:94; D-Mbs Mus.Schott.Ha 17501-2",
+  "shelfmark": "D-Mbs Mus.Schott.Ha 17501-2",
+  "leads": [
+   {
+    "composer": "Haydn, Joseph (1732-1809)",
+    "verdict": "known",
+    "note": "Record already names the composer or catalogue number",
+    "class": "known"
+   }
+  ],
+  "verdict": "known"
+ },
+ {
+  "id": "1001382626",
+  "genre": "symphonies",
+  "label": "Symphonies–E♭ major (Arrangement); Manuscript copy; Hob I:99; D-Mbs Mus.Schott.Ha 17504-2",
+  "shelfmark": "D-Mbs Mus.Schott.Ha 17504-2",
+  "leads": [
+   {
+    "composer": "Haydn, Joseph (1732-1809)",
+    "verdict": "known",
+    "note": "Record already names the composer or catalogue number",
+    "class": "known"
+   }
+  ],
+  "verdict": "known"
+ },
+ {
+  "id": "1001382636",
+  "genre": "symphonies",
+  "label": "Symphonies–G major (Arrangement); Manuscript copy; Hob I:94; D-Mbs Mus.Schott.Ha 17505-2",
+  "shelfmark": "D-Mbs Mus.Schott.Ha 17505-2",
+  "leads": [
+   {
+    "composer": "Haydn, Joseph (1732-1809)",
+    "verdict": "known",
+    "note": "Record already names the composer or catalogue number",
+    "class": "known"
+   }
+  ],
+  "verdict": "known"
+ },
+ {
+  "id": "650003004",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; Hob I:1; A-ST Mus.ms. 558",
+  "shelfmark": "A-ST Mus.ms. 558",
+  "leads": [
+   {
+    "composer": "Haydn, Joseph (1732-1809)",
+    "verdict": "known",
+    "note": "Title already carries Hob. I:1",
+    "class": "known"
+   },
+   {
+    "composer": "Benda, Georg (1722-1795)",
+    "verdict": "rejected",
+    "note": "Competing weaker match; work is Haydn Hob. I:1",
+    "class": "known"
+   },
+   {
+    "composer": "Bühler, Franz, OSB (1760-1823)",
+    "verdict": "rejected",
+    "note": "Competing weaker match; work is Haydn Hob. I:1",
+    "class": "known"
+   },
+   {
+    "composer": "Köhler, Johann Hermann (1686-1740)",
+    "verdict": "rejected",
+    "note": "Competing weaker match; work is Haydn Hob. I:1",
+    "class": "known"
+   },
+   {
+    "composer": "Molter, Johann Melchior (1696-1765)",
+    "verdict": "rejected",
+    "note": "Competing weaker match; work is Haydn Hob. I:1",
+    "class": "known"
+   }
+  ],
+  "verdict": "known"
+ },
+ {
+  "id": "450003164",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; D-DS Mus.ms 866/2",
+  "shelfmark": "D-DS Mus.ms 866/2",
+  "leads": [
+   {
+    "composer": "Polazzi, Bernardo (18.sc)",
+    "verdict": "known",
+    "note": "Record already names the composer or catalogue number",
+    "class": "known"
+   }
+  ],
+  "verdict": "known"
+ },
+ {
+  "id": "1001376788",
+  "genre": "symphonies",
+  "label": "Symphonies–A major; Manuscript copy; CSWV Bm:16, GraunWV D:XII:112; PL-MO 928",
+  "shelfmark": "PL-MO 928",
+  "leads": [
+   {
+    "composer": "Schaffrath, Christoph (1709-1763)",
+    "verdict": "known",
+    "note": "Title already carries CSWV/GraunWV numbers",
+    "class": "known"
+   }
+  ],
+  "verdict": "known"
+ },
+ {
+  "id": "212001714",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; D-Dl Mus.2-N-20,19",
+  "shelfmark": "D-Dl Mus.2-N-20,19",
+  "leads": [
+   {
+    "composer": "Tartini, Giuseppe (1692-1770)",
+    "verdict": "known",
+    "note": "Record already names the composer or catalogue number",
+    "class": "known"
+   },
+   {
+    "composer": "Weber, Johann Gottfried (1740-1797)",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "known"
+ },
+ {
+  "id": "453002908",
+  "genre": "symphonies",
+  "label": "Symphonies–G major; Manuscript copy; RV 303, LaRueS 1988 deest; D-KA Mus. Hs. 1016",
+  "shelfmark": "D-KA Mus. Hs. 1016",
+  "leads": [
+   {
+    "composer": "Vivaldi, Antonio (1678-1741)",
+    "verdict": "known",
+    "note": "Record already names the composer or catalogue number",
+    "class": "known"
+   }
+  ],
+  "verdict": "known"
+ },
+ {
+  "id": "456008015",
+  "genre": "symphonies",
+  "label": "Symphonies–C major; Manuscript copy; D-UWB UWB K2 AI 16",
+  "shelfmark": "D-UWB UWB K2 AI 16",
+  "leads": [
+   {
+    "composer": "Andreska, Vincenc",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "570005116",
+  "genre": "symphonies",
+  "label": "Symphonies–G major; Manuscript copy; SK-J H-621",
+  "shelfmark": "SK-J H-621",
+  "leads": [
+   {
+    "composer": "Anfossi, Pasquale (1727-1797)",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "850002402",
+  "genre": "symphonies",
+  "label": "Symphonies–D minor; Manuscript copy; I-MAav Cart.2 n.15",
+  "shelfmark": "I-MAav Cart.2 n.15",
+  "leads": [
+   {
+    "composer": "Asplmayr, Franz (1728-1786)",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "1001302469",
+  "genre": "symphonies",
+  "label": "Symphonies–B♭ major; Manuscript copy; E-Mn MP/3174/8",
+  "shelfmark": "E-Mn MP/3174/8",
+  "leads": [
+   {
+    "composer": "Beethoven, Ludwig van (1770-1827)",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "850608132",
+  "genre": "symphonies",
+  "label": "Symphonies–C major; Manuscript copy; I-OS Mss.Mus.B 4682",
+  "shelfmark": "I-OS Mss.Mus.B 4682",
+  "leads": [
+   {
+    "composer": "Benatti, Vincenzo (1767-1797)",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "850025478",
+  "genre": "symphonies",
+  "label": "Sonatas–C major; Manuscript copy; I-Vqs MS Cl.VIII.27 (1216)",
+  "shelfmark": "I-Vqs MS Cl.VIII.27 (1216)",
+  "leads": [
+   {
+    "composer": "Benevoli, Orazio (1605-1672)",
+    "verdict": "rejected",
+    "note": "Composer's dates impossible for this copy or genre",
+    "class": "date-impossible"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "469359400",
+  "genre": "symphonies",
+  "label": "Trios–G major; Manuscript copy; D-Bsa SA 3594",
+  "shelfmark": "D-Bsa SA 3594",
+  "leads": [
+   {
+    "composer": "Brixi",
+    "verdict": "rejected",
+    "note": "Hand review: melodies differ beyond the opening figure",
+    "class": "plausible"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "211011811",
+  "genre": "symphonies",
+  "label": "Symphonies–C major; Manuscript copy; D-Dl Mus.2-N-5,1",
+  "shelfmark": "D-Dl Mus.2-N-5,1",
+  "leads": [
+   {
+    "composer": "Bruni, Antonio Bartolomeo (1759-1821)",
+    "verdict": "rejected",
+    "note": "Hand review: melodies differ",
+    "class": "good"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "400007387",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; CH-SAf MusSAf.Ms.445",
+  "shelfmark": "CH-SAf MusSAf.Ms.445",
+  "leads": [
+   {
+    "composer": "Cavalli, Francesco (1602-1676)",
+    "verdict": "rejected",
+    "note": "Composer's dates impossible for this copy or genre",
+    "class": "date-impossible"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "220032364",
+  "genre": "symphonies",
+  "label": "Symphonies–C major; Manuscript copy; D-Z Mu 850",
+  "shelfmark": "D-Z Mu 850",
+  "leads": [
+   {
+    "composer": "Cherubini, Luigi (1760-1842)",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "454016146",
+  "genre": "symphonies",
+  "label": "?Symphonies?–F major; Manuscript copy; D-Mbs Mus.ms. 16183",
+  "shelfmark": "D-Mbs Mus.ms. 16183",
+  "leads": [
+   {
+    "composer": "Cibulka, Matouš Alois (1768-1845)",
+    "verdict": "rejected",
+    "note": "Hand review: melodies differ beyond the opening figure",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "456006022",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; D-MHF MHF K5 Mappe 27 (b) (Nr. 10)",
+  "shelfmark": "D-MHF MHF K5 Mappe 27 (b) (Nr. 10)",
+  "leads": [
+   {
+    "composer": "Dalayrac, Nicolas-Marie (1753-1809)",
+    "verdict": "rejected",
+    "note": "Hand review: melodies differ beyond the opening figure",
+    "class": "plausible"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "854005377",
+  "genre": "symphonies",
+  "label": "Symphonies–G major; Possible autograph manuscript; I-Ria Mss. Vess. 910",
+  "shelfmark": "I-Ria Mss. Vess. 910",
+  "leads": [
+   {
+    "composer": "Davide da Bergamo, OFMRef (1791-1863)",
+    "verdict": "rejected",
+    "note": "Hand review: melodies differ beyond the opening figure",
+    "class": "plausible"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "1001247889",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; CZ-K 418",
+  "shelfmark": "CZ-K 418",
+  "leads": [
+   {
+    "composer": "Dittersdorf, Carl Ditters von (1739-1799)",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "190026995",
+  "genre": "symphonies",
+  "label": "Symphonies–G major; Manuscript copy; S-Skma O-R",
+  "shelfmark": "S-Skma O-R",
+  "leads": [
+   {
+    "composer": "Drechsler, František (1803-1878)",
+    "verdict": "rejected",
+    "note": "Composer's dates impossible for this copy or genre",
+    "class": "date-impossible"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "1001320767",
+  "genre": "symphonies",
+  "label": "Symphonies–D minor; Manuscript copy; CZ-LIa No 174 hud.",
+  "shelfmark": "CZ-LIa No 174 hud.",
+  "leads": [
+   {
+    "composer": "Fodor, Josephus (1751-1828)",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "400003780",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; CH-MÜ Ms A 13|4",
+  "shelfmark": "CH-MÜ Ms A 13|4",
+  "leads": [
+   {
+    "composer": "Formichi, Pietro (1829-1913)",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "240007339",
+  "genre": "symphonies",
+  "label": "Symphonies–F major; Manuscript copy; D-SWl Mus.251",
+  "shelfmark": "D-SWl Mus.251",
+  "leads": [
+   {
+    "composer": "Fux, Johann Joseph (1660-1741)",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   },
+   {
+    "composer": "Skuherský, František Zdeněk (1830-1892)",
+    "verdict": "rejected",
+    "note": "Composer's dates impossible for this copy or genre",
+    "class": "date-impossible"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "1001320765",
+  "genre": "symphonies",
+  "label": "Symphonies–E♭ major; Manuscript copy; CZ-LIa No 174 hud.",
+  "shelfmark": "CZ-LIa No 174 hud.",
+  "leads": [
+   {
+    "composer": "Gazzaniga, Giuseppe (1743-1818)",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "854005521",
+  "genre": "symphonies",
+  "label": "Symphonies–A major; Manuscript copy; I-Ria Mss. Vess. 975",
+  "shelfmark": "I-Ria Mss. Vess. 975",
+  "leads": [
+   {
+    "composer": "Grazioli, Filippo (1774-1840)",
+    "verdict": "rejected",
+    "note": "Hand review: melodies differ beyond the opening figure",
+    "class": "plausible"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "1001035351",
+  "genre": "symphonies",
+  "label": "Symphonies–G major; Print",
+  "shelfmark": "Print",
+  "leads": [
+   {
+    "composer": "Gyrowetz, Adalbert (1763-1850)",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "570002608",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; SK-J H-708",
+  "shelfmark": "SK-J H-708",
+  "leads": [
+   {
+    "composer": "Hasse, Johann Adolf (1699-1783)",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "553001704",
+  "genre": "symphonies",
+  "label": "Symphonies–F major; Manuscript copy; CZ-PELmv 12688",
+  "shelfmark": "CZ-PELmv 12688",
+  "leads": [
+   {
+    "composer": "Haydn, Joseph (1732-1809)",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "553001702",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; CZ-PELmv 12686",
+  "shelfmark": "CZ-PELmv 12686",
+  "leads": [
+   {
+    "composer": "Herpol, Homer (1520c-1573c)",
+    "verdict": "rejected",
+    "note": "Composer's dates impossible for this copy or genre",
+    "class": "date-impossible"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "570005126",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; SK-J H-742",
+  "shelfmark": "SK-J H-742",
+  "leads": [
+   {
+    "composer": "Hertel, Johann Wilhelm (1727-1789)",
+    "verdict": "rejected",
+    "note": "Hand review: melodies differ beyond the opening figure",
+    "class": "good"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "850026338",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; I-Rc Mss. 6245/12",
+  "shelfmark": "I-Rc Mss. 6245/12",
+  "leads": [
+   {
+    "composer": "Hoffmeister, Franz Anton (1754-1812)",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "850708125",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; I-Pl ATVb 77",
+  "shelfmark": "I-Pl ATVb 77",
+  "leads": [
+   {
+    "composer": "Hönicke, Friedrich (1755-1809)",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "451508718",
+  "genre": "symphonies",
+  "label": "?Symphonies?; Manuscript copy; D-W Cod. Guelf. 270 Mus. Hdschr. (Nr. 63)",
+  "shelfmark": "D-W Cod. Guelf. 270 Mus. Hdschr. (Nr. 63)",
+  "leads": [
+   {
+    "composer": "Kücken, Friedrich Wilhelm (1810-1882)",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "850012465",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; I-Bsp MS.D.1.9",
+  "shelfmark": "I-Bsp MS.D.1.9",
+  "leads": [
+   {
+    "composer": "Leo, Leonardo (1694-1744)",
+    "verdict": "rejected",
+    "note": "Hand review: melodies differ beyond the opening figure",
+    "class": "plausible"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "806426578",
+  "genre": "symphonies",
+  "label": "Symphonies–C major; Manuscript copy; GB-Lbl Add. 17785",
+  "shelfmark": "GB-Lbl Add. 17785",
+  "leads": [
+   {
+    "composer": "Lully, Jean-Baptiste (1632-1687)",
+    "verdict": "rejected",
+    "note": "Composer's dates impossible for this copy or genre",
+    "class": "date-impossible"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "806252343",
+  "genre": "symphonies",
+  "label": "Symphonies–E♭ major; Manuscript copy; GB-Lbl Add. 71539",
+  "shelfmark": "GB-Lbl Add. 71539",
+  "leads": [
+   {
+    "composer": "Maschek, Vinzenz (1755-1831)",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "469467900",
+  "genre": "symphonies",
+  "label": "Symphonies–G major; Manuscript copy; D-Bsa SA 4679",
+  "shelfmark": "D-Bsa SA 4679",
+  "leads": [
+   {
+    "composer": "Meisl, Josef Alois (1767-1792p)",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "190009622",
+  "genre": "symphonies",
+  "label": "Symphonies–E♭ major; Manuscript copy; WarB YC 60, TerB 281/18; S-Skma O-R",
+  "shelfmark": "S-Skma O-R",
+  "leads": [
+   {
+    "composer": "Pampani, Antonio Gaetano (1706-1775)",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "850607665",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; I-OS Mss.Mus.B 4699",
+  "shelfmark": "I-OS Mss.Mus.B 4699",
+  "leads": [
+   {
+    "composer": "Pecháček, Franz Martin (1763-1816)",
+    "verdict": "rejected",
+    "note": "Hand review: melodies differ",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "840003125",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; F-AG 698",
+  "shelfmark": "F-AG 698",
+  "leads": [
+   {
+    "composer": "Perez, Davide (1711-1778)",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "850605102",
+  "genre": "symphonies",
+  "label": "Symphonies–C major; Manuscript copy; I-OS Mss.Mus.B 4595",
+  "shelfmark": "I-OS Mss.Mus.B 4595",
+  "leads": [
+   {
+    "composer": "Riedt, Friedrich Wilhelm (1710-1783)",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "450013954",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; D-KA Don Mus.Ms. 1787",
+  "shelfmark": "D-KA Don Mus.Ms. 1787",
+  "leads": [
+   {
+    "composer": "Schmidt",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "400003944",
+  "genre": "symphonies",
+  "label": "Symphonies–G major; Manuscript copy; CH-EN Ms A 131",
+  "shelfmark": "CH-EN Ms A 131",
+  "leads": [
+   {
+    "composer": "Schmittbauer, Joseph Aloys (1718-1809)",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "1001109262",
+  "genre": "symphonies",
+  "label": "Symphony–G major; Manuscript copy; PL-SA 524.1/A IX 4",
+  "shelfmark": "PL-SA 524.1/A IX 4",
+  "leads": [
+   {
+    "composer": "Schuster, Joseph (1748-1812)",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "800000068",
+  "genre": "symphonies",
+  "label": "?Symphonies?–D major (Excerpts); Manuscript copy; GB-P O.2",
+  "shelfmark": "GB-P O.2",
+  "leads": [
+   {
+    "composer": "Tritto, Giacomo (1733-1824)",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "1001374730",
+  "genre": "symphonies",
+  "label": "Symphonies–E♭ major; Manuscript copy; PL-MO 917",
+  "shelfmark": "PL-MO 917",
+  "leads": [
+   {
+    "composer": "Vanhal, Johann Baptist (1739-1813)",
+    "verdict": "rejected",
+    "note": "Hand review: melodies differ beyond the opening figure",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "854006142",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; I-Ria Mss. Vess. 1138",
+  "shelfmark": "I-Ria Mss. Vess. 1138",
+  "leads": [
+   {
+    "composer": "Vargas, Urbán de (1606-1656)",
+    "verdict": "rejected",
+    "note": "Composer's dates impossible for this copy or genre",
+    "class": "date-impossible"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "469191400",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; D-Bsa SA 1914",
+  "shelfmark": "D-Bsa SA 1914",
+  "leads": [
+   {
+    "composer": "Willmann, Samuel David (1743c-1813)",
+    "verdict": "rejected",
+    "note": "Fewer than six notes agree",
+    "class": "weak"
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "456007997",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; D-KBD KBD/KES K4 Ms011 (Nr. 6)",
+  "shelfmark": "D-KBD KBD/KES K4 Ms011 (Nr. 6)",
+  "leads": [
+   {
+    "composer": "Żebrowski, Marcin Józef, OSPPE (1702-1770)",
+    "verdict": "rejected",
+    "note": "Hand review: melodies differ beyond the opening figure",
+    "class": "plausible"
+   }
+  ],
+  "verdict": "rejected"
+ }
+]

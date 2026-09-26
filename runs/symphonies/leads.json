@@ -1,0 +1,5349 @@
+[
+ {
+  "anon": "1001012618",
+  "label": "Symphonies–D major; Manuscript copy; PL-CZ II-369",
+  "composer": "Dittersdorf, Carl Ditters von (1739-1799)",
+  "matched": [
+   "1.2.1 Andante"
+  ],
+  "sources": [
+   "1001369353",
+   "300000181",
+   "551001555",
+   "650002241"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1",
+    "notes": 9,
+    "agree": 5,
+    "source": "1001369353",
+    "source_inc": "1.1.1 Vivace"
+   },
+   {
+    "inc": "1.2.1 Andante",
+    "notes": 14,
+    "agree": 14,
+    "source": "1001369353",
+    "source_inc": "1.2.1 Andante"
+   },
+   {
+    "inc": "1.3.1 Menuetto",
+    "notes": 14,
+    "agree": 7,
+    "source": "1001369353",
+    "source_inc": "1.3.1 Menuetto"
+   },
+   {
+    "inc": "1.4.1 Presto",
+    "notes": 12,
+    "agree": 2,
+    "source": "1001369353",
+    "source_inc": "1.2.1 Andante"
+   }
+  ],
+  "life": [
+   1739,
+   1799
+  ],
+  "copy_years": [
+   1790,
+   1800
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "1001035351",
+  "label": "Symphonies–G major; Print",
+  "composer": "Gyrowetz, Adalbert (1763-1850)",
+  "matched": [
+   "1.1.1 II."
+  ],
+  "sources": [
+   "230005753"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 II.",
+    "notes": 15,
+    "agree": 5,
+    "source": "230005753",
+    "source_inc": "1.3.1 Allegro"
+   }
+  ],
+  "life": [
+   1763,
+   1850
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "1001043738",
+  "label": "Symphonies–D major; Manuscript copy; CZ-K 417",
+  "composer": "Dittersdorf, Carl Ditters von (1739-1799)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "211007144",
+   "452006152",
+   "455020576",
+   "530002266",
+   "550270285",
+   "552001496",
+   "603000076",
+   "850028982"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 13,
+    "agree": 9,
+    "source": "211007144",
+    "source_inc": "1.1.1"
+   },
+   {
+    "inc": "1.2.1 Presto",
+    "notes": 6,
+    "agree": 1,
+    "source": "211007144",
+    "source_inc": "1.1.1"
+   }
+  ],
+  "life": [
+   1739,
+   1799
+  ],
+  "copy_years": [
+   1800,
+   1800
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "1001043744",
+  "label": "Symphonia–B major; Manuscript copy; CZ-K 419",
+  "composer": "Rosetti, Antonio (1750c-1792)",
+  "matched": [
+   "1.1.2 Andante",
+   "1.1.3 Menuetto"
+  ],
+  "sources": [
+   "570004449"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 6,
+    "agree": 6,
+    "source": "570004449",
+    "source_inc": "1.1.1 Synphonia. Allegro"
+   },
+   {
+    "inc": "1.1.2 Andante",
+    "notes": 13,
+    "agree": 13,
+    "source": "570004449",
+    "source_inc": "1.2.1 Andante"
+   },
+   {
+    "inc": "1.1.3 Menuetto",
+    "notes": 12,
+    "agree": 12,
+    "source": "570004449",
+    "source_inc": "1.3.1 Menuet."
+   },
+   {
+    "inc": "1.1.4 Finale Allegro",
+    "notes": 11,
+    "agree": 11,
+    "source": "570004449",
+    "source_inc": "1.4.1 Allegro"
+   }
+  ],
+  "life": [
+   1750,
+   1792
+  ],
+  "copy_years": [
+   1792,
+   1820
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "strong"
+ },
+ {
+  "anon": "1001067396",
+  "label": "Symphony–D major; Manuscript copy; PL-SA 141/A III 41",
+  "composer": "Hasse, Johann Adolf (1699-1783)",
+  "matched": [
+   "1.2.1 Andante",
+   "1.3.1 Presto"
+  ],
+  "sources": [
+   "469221900"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Synfonia",
+    "notes": 19,
+    "agree": 14,
+    "source": "469221900",
+    "source_inc": "1.1.1 Allegro."
+   },
+   {
+    "inc": "1.2.1 Andante",
+    "notes": 26,
+    "agree": 13,
+    "source": "469221900",
+    "source_inc": "1.2.1 Andante."
+   },
+   {
+    "inc": "1.3.1 Presto",
+    "notes": 19,
+    "agree": 8,
+    "source": "469221900",
+    "source_inc": "1.3.1 Presto."
+   }
+  ],
+  "life": [
+   1699,
+   1783
+  ],
+  "copy_years": [
+   1750,
+   1799
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "strong"
+ },
+ {
+  "anon": "1001067396",
+  "label": "Symphony–D major; Manuscript copy; PL-SA 141/A III 41",
+  "composer": "Röllig, Johann Christian (1716-1780c)",
+  "matched": [
+   "1.2.1 Andante",
+   "1.3.1 Presto"
+  ],
+  "sources": [
+   "1001287072",
+   "469321200"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Synfonia",
+    "notes": 19,
+    "agree": 17,
+    "source": "1001287072",
+    "source_inc": "1.1.1"
+   },
+   {
+    "inc": "1.2.1 Andante",
+    "notes": 26,
+    "agree": 17,
+    "source": "469321200",
+    "source_inc": "1.2.1 Andante."
+   },
+   {
+    "inc": "1.3.1 Presto",
+    "notes": 19,
+    "agree": 8,
+    "source": "1001287072",
+    "source_inc": "1.3.1 Presto"
+   }
+  ],
+  "life": [
+   1716,
+   1780
+  ],
+  "copy_years": [
+   1750,
+   1799
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "strong"
+ },
+ {
+  "anon": "1001109262",
+  "label": "Symphony–G major; Manuscript copy; PL-SA 524.1/A IX 4",
+  "composer": "Schuster, Joseph (1748-1812)",
+  "matched": [
+   "1.2.1 Andante"
+  ],
+  "sources": [
+   "212003712",
+   "464001483"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1",
+    "notes": 18,
+    "agree": 1,
+    "source": "212003712",
+    "source_inc": "1.1.1 Kyrie. Adagio"
+   },
+   {
+    "inc": "1.2.1 Andante",
+    "notes": 6,
+    "agree": 3,
+    "source": "212003712",
+    "source_inc": "1.4.1 Sanctus. Andante"
+   },
+   {
+    "inc": "1.3.1 Allabreve",
+    "notes": 8,
+    "agree": 2,
+    "source": "212003712",
+    "source_inc": "1.3.2"
+   }
+  ],
+  "life": [
+   1748,
+   1812
+  ],
+  "copy_years": [
+   1750,
+   1799
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "1001220449",
+  "label": "Symphonies–D major; Manuscript copy; SK-PREphs H 47",
+  "composer": "Pichl, Václav (1741-1805)",
+  "matched": [
+   "1.1.1 Allegro",
+   "1.3.1 Menuetto",
+   "1.4.1 Trio"
+  ],
+  "sources": [
+   "1001113755",
+   "455016140",
+   "550248219",
+   "550248220",
+   "551007385",
+   "570002761",
+   "600177827"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 17,
+    "agree": 7,
+    "source": "455016140",
+    "source_inc": "1.1.2"
+   },
+   {
+    "inc": "1.2.1 Andantino",
+    "notes": 13,
+    "agree": 1,
+    "source": "1001113755",
+    "source_inc": "1.1.1 All[eg]ro assai."
+   },
+   {
+    "inc": "1.3.1 Menuetto",
+    "notes": 13,
+    "agree": 2,
+    "source": "455016140",
+    "source_inc": "1.1.2"
+   },
+   {
+    "inc": "1.4.1 Trio",
+    "notes": 9,
+    "agree": 9,
+    "source": "1001113755",
+    "source_inc": "1.4.1 Trio"
+   }
+  ],
+  "life": [
+   1741,
+   1805
+  ],
+  "copy_years": [
+   1750,
+   1799
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [
+   "Baridone",
+   "Kobrich, Johann Anton (1714-1791)",
+   "Roemhildt, Johann Theodor (1684-1756)",
+   "Ryba, Jakub Šimon Jan (1765-1815)",
+   "Schmidt",
+   "Telemann, Georg Philipp (1681-1767)"
+  ],
+  "class": "good"
+ },
+ {
+  "anon": "1001247888",
+  "label": "Symphonies–D major; Manuscript copy; CZ-K 418",
+  "composer": "Vanhal, Johann Baptist (1739-1813)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "240005219",
+   "280002186",
+   "450011418",
+   "530002892",
+   "550248285",
+   "551007540"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 10,
+    "agree": 10,
+    "source": "280002186",
+    "source_inc": "1.1.1 Allegro con brio"
+   }
+  ],
+  "life": [
+   1739,
+   1813
+  ],
+  "copy_years": [
+   1755,
+   1832
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "1001247889",
+  "label": "Symphonies–D major; Manuscript copy; CZ-K 418",
+  "composer": "Dittersdorf, Carl Ditters von (1739-1799)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "1001034975",
+   "1001122059",
+   "1001369351",
+   "300000177",
+   "402009739",
+   "451506003",
+   "530011364",
+   "600171915",
+   "600500993",
+   "600502590"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 9,
+    "agree": 4,
+    "source": "1001034975",
+    "source_inc": "1.1.1 All[egr]o assai"
+   }
+  ],
+  "life": [
+   1739,
+   1799
+  ],
+  "copy_years": [
+   1755,
+   1832
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "1001302469",
+  "label": "Symphonies–B♭ major; Manuscript copy; E-Mn MP/3174/8",
+  "composer": "Beethoven, Ludwig van (1770-1827)",
+  "matched": [
+   "1.1.1 Andantino"
+  ],
+  "sources": [
+   "1001307118"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Andantino",
+    "notes": 16,
+    "agree": 1,
+    "source": "1001307118",
+    "source_inc": "1.1.1 Adagio Cantabile"
+   }
+  ],
+  "life": [
+   1770,
+   1827
+  ],
+  "copy_years": [
+   1850,
+   1850
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "1001320765",
+  "label": "Symphonies–E♭ major; Manuscript copy; CZ-LIa No 174 hud.",
+  "composer": "Gazzaniga, Giuseppe (1743-1818)",
+  "matched": [
+   "1.3.1 Finale"
+  ],
+  "sources": [
+   "900011035"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 17,
+    "agree": 1,
+    "source": "900011035",
+    "source_inc": "1.1.1 Spiritoso e Staccato"
+   },
+   {
+    "inc": "1.2.1 Andante",
+    "notes": 19,
+    "agree": 1,
+    "source": "900011035",
+    "source_inc": "1.1.1 Spiritoso e Staccato"
+   },
+   {
+    "inc": "1.3.1 Finale",
+    "notes": 10,
+    "agree": 1,
+    "source": "900011035",
+    "source_inc": "1.1.1 Spiritoso e Staccato"
+   }
+  ],
+  "life": [
+   1743,
+   1818
+  ],
+  "copy_years": [
+   1850,
+   1850
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "1001320767",
+  "label": "Symphonies–D minor; Manuscript copy; CZ-LIa No 174 hud.",
+  "composer": "Fodor, Josephus (1751-1828)",
+  "matched": [
+   "1.2.1 Andante"
+  ],
+  "sources": [
+   "450059532"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Adagio",
+    "notes": 4,
+    "agree": 1,
+    "source": "450059532",
+    "source_inc": "1.1.1 Allegro moderato"
+   },
+   {
+    "inc": "1.2.1 Andante",
+    "notes": 12,
+    "agree": 8,
+    "source": "450059532",
+    "source_inc": "1.1.1 Allegro moderato"
+   },
+   {
+    "inc": "1.3.1 Finale",
+    "notes": 15,
+    "agree": 1,
+    "source": "450059532",
+    "source_inc": "1.1.1 Allegro moderato"
+   }
+  ],
+  "life": [
+   1751,
+   1828
+  ],
+  "copy_years": [
+   1850,
+   1850
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "1001356492",
+  "label": "Symphonies–C major; Manuscript copy; D-Rp Ra 41",
+  "composer": "Abel, Carl Friedrich (1723-1787)",
+  "matched": [
+   "1.3.1 Allegro"
+  ],
+  "sources": [
+   "1001110376",
+   "1001111292"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 14,
+    "agree": 12,
+    "source": "1001110376",
+    "source_inc": "1.1.1 Allegro"
+   },
+   {
+    "inc": "1.2.1 Andante",
+    "notes": 13,
+    "agree": 2,
+    "source": "1001110376",
+    "source_inc": "1.2.1 Andante"
+   },
+   {
+    "inc": "1.3.1 Allegro",
+    "notes": 21,
+    "agree": 17,
+    "source": "1001110376",
+    "source_inc": "1.3.1 Allegro ma non troppo"
+   }
+  ],
+  "life": [
+   1723,
+   1787
+  ],
+  "copy_years": [
+   1800,
+   1800
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "strong"
+ },
+ {
+  "anon": "1001374730",
+  "label": "Symphonies–E♭ major; Manuscript copy; PL-MO 917",
+  "composer": "Vanhal, Johann Baptist (1739-1813)",
+  "matched": [
+   "1.2.1 Andante"
+  ],
+  "sources": [
+   "1001380292",
+   "190024516",
+   "190027032",
+   "600501048"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 22,
+    "agree": 1,
+    "source": "1001380292",
+    "source_inc": "1.1.1 [p. 8, at left of the 1st stave:] TRIO III [at left underneath the 1st stave:] Allegro ma non tropo [!]"
+   },
+   {
+    "inc": "1.2.1 Andante",
+    "notes": 17,
+    "agree": 7,
+    "source": "1001380292",
+    "source_inc": "1.1.1 [p. 8, at left of the 1st stave:] TRIO III [at left underneath the 1st stave:] Allegro ma non tropo [!]"
+   },
+   {
+    "inc": "1.3.1 Allegro tempo di Menuetto",
+    "notes": 16,
+    "agree": 1,
+    "source": "1001380292",
+    "source_inc": "1.1.1 [p. 8, at left of the 1st stave:] TRIO III [at left underneath the 1st stave:] Allegro ma non tropo [!]"
+   }
+  ],
+  "life": [
+   1739,
+   1813
+  ],
+  "copy_years": [
+   1750,
+   1799
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "1001376788",
+  "label": "Symphonies–A major; Manuscript copy; CSWV Bm:16, GraunWV D:XII:112; PL-MO 928",
+  "composer": "Schaffrath, Christoph (1709-1763)",
+  "matched": [
+   "1.1.1 Allegro",
+   "1.2.1 Andante Semper Piano",
+   "1.3.1 Allegro"
+  ],
+  "sources": [
+   "701003291"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 22,
+    "agree": 22,
+    "source": "701003291",
+    "source_inc": "1.1.1 Allegro"
+   },
+   {
+    "inc": "1.2.1 Andante Semper Piano",
+    "notes": 21,
+    "agree": 11,
+    "source": "701003291",
+    "source_inc": "1.2.1 Andante"
+   },
+   {
+    "inc": "1.3.1 Allegro",
+    "notes": 19,
+    "agree": 13,
+    "source": "701003291",
+    "source_inc": "1.3.1 Allegro"
+   }
+  ],
+  "life": [
+   1709,
+   1763
+  ],
+  "copy_years": [
+   1750,
+   1759
+  ],
+  "names_composer": true,
+  "catalogue_number_in_title": true,
+  "competitors": [],
+  "class": "known"
+ },
+ {
+  "anon": "1001382619",
+  "label": "Symphonies–G major (Arrangement); Manuscript copy; Hob I:94; D-Mbs Mus.Schott.Ha 17501-2",
+  "composer": "Haydn, Joseph (1732-1809)",
+  "matched": [
+   "1.1.1 Adagio cantabile"
+  ],
+  "sources": [
+   "1001092739",
+   "1001093208",
+   "1001382636",
+   "1001385171",
+   "141076",
+   "200044208",
+   "240002371",
+   "450009721",
+   "450013747",
+   "450024451",
+   "450100726",
+   "452005179",
+   "452005579",
+   "500027033",
+   "600091194",
+   "600263343",
+   "600263344",
+   "702000135",
+   "840017686",
+   "852032413"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Adagio cantabile",
+    "notes": 15,
+    "agree": 15,
+    "source": "1001092739",
+    "source_inc": "1.1.1 Adagio"
+   }
+  ],
+  "life": [
+   1732,
+   1809
+  ],
+  "copy_years": [
+   1859,
+   1861
+  ],
+  "names_composer": true,
+  "catalogue_number_in_title": true,
+  "competitors": [],
+  "class": "known"
+ },
+ {
+  "anon": "1001382626",
+  "label": "Symphonies–E♭ major (Arrangement); Manuscript copy; Hob I:99; D-Mbs Mus.Schott.Ha 17504-2",
+  "composer": "Haydn, Joseph (1732-1809)",
+  "matched": [
+   "1.1.1 Adagio"
+  ],
+  "sources": [
+   "1001048755",
+   "1001093089",
+   "1001093263",
+   "1001241418",
+   "1001318614",
+   "180000104",
+   "702000154",
+   "806252126"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Adagio",
+    "notes": 14,
+    "agree": 14,
+    "source": "1001048755",
+    "source_inc": "1.1.1 Adagio"
+   }
+  ],
+  "life": [
+   1732,
+   1809
+  ],
+  "copy_years": [
+   1859,
+   1859
+  ],
+  "names_composer": true,
+  "catalogue_number_in_title": true,
+  "competitors": [],
+  "class": "known"
+ },
+ {
+  "anon": "1001382636",
+  "label": "Symphonies–G major (Arrangement); Manuscript copy; Hob I:94; D-Mbs Mus.Schott.Ha 17505-2",
+  "composer": "Haydn, Joseph (1732-1809)",
+  "matched": [
+   "1.1.1 Adagio cantabile"
+  ],
+  "sources": [
+   "1001092739",
+   "1001093208",
+   "1001382619",
+   "1001385171",
+   "141076",
+   "200044208",
+   "240002371",
+   "450009721",
+   "450013747",
+   "450024451",
+   "450100726",
+   "452005179",
+   "452005579",
+   "500027033",
+   "600091194",
+   "600263343",
+   "600263344",
+   "702000135",
+   "840017686",
+   "852032413"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Adagio cantabile",
+    "notes": 15,
+    "agree": 15,
+    "source": "1001092739",
+    "source_inc": "1.1.1 Adagio"
+   }
+  ],
+  "life": [
+   1732,
+   1809
+  ],
+  "copy_years": [
+   1859,
+   1859
+  ],
+  "names_composer": true,
+  "catalogue_number_in_title": true,
+  "competitors": [],
+  "class": "known"
+ },
+ {
+  "anon": "120000486",
+  "label": "Symphonies–B♭ major; Manuscript copy; MEX-SCHamp Sa-Sn-04-23",
+  "composer": "Gyrowetz, Adalbert (1763-1850)",
+  "matched": [
+   "1.1.1 Andante"
+  ],
+  "sources": [
+   "1001036367",
+   "1001049770",
+   "1001153466",
+   "1001163821",
+   "280001849",
+   "990024170"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Andante",
+    "notes": 29,
+    "agree": 29,
+    "source": "1001163821",
+    "source_inc": "1.2.1 Andante"
+   }
+  ],
+  "life": [
+   1763,
+   1850
+  ],
+  "copy_years": [
+   1800,
+   1899
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "190001882",
+  "label": "Quartets–B♭ major; Manuscript copy; S-L Saml.Kraus 157",
+  "composer": "Adlgasser, Anton Cajetan (1729-1777)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "1001025319"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 20,
+    "agree": 12,
+    "source": "1001025319",
+    "source_inc": "1.3.1 Allegro assai"
+   }
+  ],
+  "life": [
+   1729,
+   1777
+  ],
+  "copy_years": [
+   1700,
+   1799
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "190004287",
+  "label": "?Concertos?–D major (Excerpts); Manuscript copy; S-HÄ ohne Signatur",
+  "composer": "Knölcke, Baltzar",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "190004524"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 25,
+    "agree": 17,
+    "source": "190004524",
+    "source_inc": "1.1.1"
+   }
+  ],
+  "life": [],
+  "copy_years": [
+   1789,
+   1789
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "190008967",
+  "label": "Symphonies–G major; Manuscript copy; S-SK 491",
+  "composer": "Bernasconi, Andrea (1706-1784)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "170000057"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 16,
+    "agree": 16,
+    "source": "170000057",
+    "source_inc": "1.1.1 Allegro"
+   }
+  ],
+  "life": [
+   1706,
+   1784
+  ],
+  "copy_years": [
+   1700,
+   1749
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "190009622",
+  "label": "Symphonies–E♭ major; Manuscript copy; WarB YC 60, TerB 281/18; S-Skma O-R",
+  "composer": "Pampani, Antonio Gaetano (1706-1775)",
+  "matched": [
+   "1.3.1 Prestissimo"
+  ],
+  "sources": [
+   "117751"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Vivace",
+    "notes": 8,
+    "agree": 3,
+    "source": "117751",
+    "source_inc": "1.2.1 Duetto."
+   },
+   {
+    "inc": "1.2.1 Andante spiritoso",
+    "notes": 16,
+    "agree": 3,
+    "source": "117751",
+    "source_inc": "1.2.1 Duetto."
+   },
+   {
+    "inc": "1.3.1 Prestissimo",
+    "notes": 16,
+    "agree": 8,
+    "source": "117751",
+    "source_inc": "1.1.1 Recitativo."
+   }
+  ],
+  "life": [
+   1706,
+   1775
+  ],
+  "copy_years": [
+   1750,
+   1799
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "190017764",
+  "label": "Symphonies–D major; Manuscript copy; S-Skma Alströmer saml. 173:12",
+  "composer": "Piazza, Gaetano (18.sc)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "450010294"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 14,
+    "agree": 14,
+    "source": "450010294",
+    "source_inc": "1.1.1 Vivace"
+   }
+  ],
+  "life": [],
+  "copy_years": [
+   1731,
+   1782
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "190026991",
+  "label": "?Symphonies?–D major; Manuscript copy; S-Skma Alströmer saml. 173:11",
+  "composer": "Ciampi, Vincenzo Legrenzio (1719-1762)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "850008027"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 15,
+    "agree": 15,
+    "source": "850008027",
+    "source_inc": "1.1.1 Overtura. Allegro"
+   }
+  ],
+  "life": [
+   1719,
+   1762
+  ],
+  "copy_years": [
+   1708,
+   1799
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "190026995",
+  "label": "Symphonies–G major; Manuscript copy; S-Skma O-R",
+  "composer": "Drechsler, František (1803-1878)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "1001332889"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 20,
+    "agree": 1,
+    "source": "1001332889",
+    "source_inc": "1.1.1 Te Deum laudamus All[egr]o vivace"
+   }
+  ],
+  "life": [
+   1803,
+   1878
+  ],
+  "copy_years": [
+   1750,
+   1799
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "date-impossible"
+ },
+ {
+  "anon": "211011811",
+  "label": "Symphonies–C major; Manuscript copy; D-Dl Mus.2-N-5,1",
+  "composer": "Bruni, Antonio Bartolomeo (1759-1821)",
+  "matched": [
+   "1.2.1 Rondò. Andantino",
+   "1.3.1 Allegro assai"
+  ],
+  "sources": [
+   "1001188167",
+   "452524145"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1",
+    "notes": 8,
+    "agree": 2,
+    "source": "1001188167",
+    "source_inc": "1.2.2 DUO IV. All|o maestoso."
+   },
+   {
+    "inc": "1.2.1 Rondò. Andantino",
+    "notes": 9,
+    "agree": 9,
+    "source": "452524145",
+    "source_inc": "1.1.1 No: 5. Allegretto"
+   },
+   {
+    "inc": "1.3.1 Allegro assai",
+    "notes": 4,
+    "agree": 3,
+    "source": "1001188167",
+    "source_inc": "1.2.2 DUO IV. All|o maestoso."
+   }
+  ],
+  "life": [
+   1759,
+   1821
+  ],
+  "copy_years": [
+   1750,
+   1800
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [
+   "Böhme, Oskar (1870-1938)",
+   "Dušek, František Xaver (1731-1799)",
+   "Galuppi, Baldassare (1706-1785)",
+   "Gellert, Joseph (1788-1842)",
+   "Guglielmi, Pietro Alessandro (1728-1804)",
+   "Kuchař, Jan Křtitel (1751-1829)",
+   "Meyer von Schauensee, Franz Joseph Leonti (1720-1789)",
+   "Paisiello, Giovanni (1740-1816)",
+   "Piccinni, Niccolò (1728-1800)",
+   "Rosetti, Antonio (1750c-1792)",
+   "Stumpff, Johann Christian (1737-1801)",
+   "Tischer, Johann Nikolaus (1707-1774)"
+  ],
+  "class": "good"
+ },
+ {
+  "anon": "212001714",
+  "label": "Symphonies–D major; Manuscript copy; D-Dl Mus.2-N-20,19",
+  "composer": "Tartini, Giuseppe (1692-1770)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "190019232"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 20,
+    "agree": 15,
+    "source": "190019232",
+    "source_inc": "1.1.1 Allegro"
+   },
+   {
+    "inc": "1.2.1 Largo",
+    "notes": 2,
+    "agree": 1,
+    "source": "190019232",
+    "source_inc": "1.1.1 Allegro"
+   },
+   {
+    "inc": "1.3.1 Presto",
+    "notes": 14,
+    "agree": 1,
+    "source": "190019232",
+    "source_inc": "1.1.1 Allegro"
+   }
+  ],
+  "life": [
+   1692,
+   1770
+  ],
+  "copy_years": [
+   1720,
+   1773
+  ],
+  "names_composer": true,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "known"
+ },
+ {
+  "anon": "212001714",
+  "label": "Symphonies–D major; Manuscript copy; D-Dl Mus.2-N-20,19",
+  "composer": "Weber, Johann Gottfried (1740-1797)",
+  "matched": [
+   "1.3.1 Presto"
+  ],
+  "sources": [
+   "220012351"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 20,
+    "agree": 1,
+    "source": "220012351",
+    "source_inc": "1.1.1"
+   },
+   {
+    "inc": "1.2.1 Largo",
+    "notes": 2,
+    "agree": 1,
+    "source": "220012351",
+    "source_inc": "1.1.1"
+   },
+   {
+    "inc": "1.3.1 Presto",
+    "notes": 14,
+    "agree": 1,
+    "source": "220012351",
+    "source_inc": "1.1.1"
+   }
+  ],
+  "life": [
+   1740,
+   1797
+  ],
+  "copy_years": [
+   1720,
+   1773
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "220017252",
+  "label": "?Symphonies?–D major; Manuscript copy; D-HER Mus.N 1:13",
+  "composer": "Wolf, Ernst Wilhelm (1735-1792)",
+  "matched": [
+   "1.2.1 Lento",
+   "1.3.1 Presto"
+  ],
+  "sources": [
+   "280000015"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro di molto",
+    "notes": 10,
+    "agree": 10,
+    "source": "280000015",
+    "source_inc": "1.1.1 Allegro di molto"
+   },
+   {
+    "inc": "1.2.1 Lento",
+    "notes": 16,
+    "agree": 16,
+    "source": "280000015",
+    "source_inc": "1.2.1 Lento"
+   },
+   {
+    "inc": "1.3.1 Presto",
+    "notes": 15,
+    "agree": 15,
+    "source": "280000015",
+    "source_inc": "1.3.1 Presto"
+   }
+  ],
+  "life": [
+   1735,
+   1792
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "strong"
+ },
+ {
+  "anon": "220017253",
+  "label": "?Symphonies?–G major; Manuscript copy; D-HER Mus.N 1:14",
+  "composer": "Wolf, Ernst Wilhelm (1735-1792)",
+  "matched": [
+   "1.1.1 Allegro di molto",
+   "1.2.1 Comodetto"
+  ],
+  "sources": [
+   "270003031",
+   "280002206"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro di molto",
+    "notes": 19,
+    "agree": 19,
+    "source": "270003031",
+    "source_inc": "1.1.1 Sinfonia. Allegro di molto"
+   },
+   {
+    "inc": "1.2.1 Comodetto",
+    "notes": 10,
+    "agree": 10,
+    "source": "280002206",
+    "source_inc": "1.2.1 Comodetto"
+   },
+   {
+    "inc": "1.3.1 Allegro",
+    "notes": 21,
+    "agree": 21,
+    "source": "280002206",
+    "source_inc": "1.3.1 Allegro"
+   }
+  ],
+  "life": [
+   1735,
+   1792
+  ],
+  "copy_years": [
+   1800,
+   1833
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "strong"
+ },
+ {
+  "anon": "220032364",
+  "label": "Symphonies–C major; Manuscript copy; D-Z Mu 850",
+  "composer": "Cherubini, Luigi (1760-1842)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "464120749"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 12,
+    "agree": 7,
+    "source": "464120749",
+    "source_inc": "1.1.1 [Chorus]. Allegro un peu moderate."
+   },
+   {
+    "inc": "1.2.1 Andante",
+    "notes": 10,
+    "agree": 1,
+    "source": "464120749",
+    "source_inc": "1.1.1 [Chorus]. Allegro un peu moderate."
+   },
+   {
+    "inc": "1.3.1 Men[uett].",
+    "notes": 12,
+    "agree": 2,
+    "source": "464120749",
+    "source_inc": "1.1.2"
+   },
+   {
+    "inc": "1.5.1",
+    "notes": 15,
+    "agree": 1,
+    "source": "464120749",
+    "source_inc": "1.1.1 [Chorus]. Allegro un peu moderate."
+   }
+  ],
+  "life": [
+   1760,
+   1842
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "240007339",
+  "label": "Symphonies–F major; Manuscript copy; D-SWl Mus.251",
+  "composer": "Fux, Johann Joseph (1660-1741)",
+  "matched": [
+   "1.3.1 Adagio"
+  ],
+  "sources": [
+   "530003180"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 10,
+    "agree": 1,
+    "source": "530003180",
+    "source_inc": "1.1.1 105.."
+   },
+   {
+    "inc": "1.2.1 Andante con sordini",
+    "notes": 10,
+    "agree": 1,
+    "source": "530003180",
+    "source_inc": "1.1.1 105.."
+   },
+   {
+    "inc": "1.3.1 Adagio",
+    "notes": 12,
+    "agree": 1,
+    "source": "530003180",
+    "source_inc": "1.1.1 105.."
+   }
+  ],
+  "life": [
+   1660,
+   1741
+  ],
+  "copy_years": [
+   1750,
+   1812
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "240007339",
+  "label": "Symphonies–F major; Manuscript copy; D-SWl Mus.251",
+  "composer": "Skuherský, František Zdeněk (1830-1892)",
+  "matched": [
+   "1.2.1 Andante con sordini"
+  ],
+  "sources": [
+   "1001267325"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 10,
+    "agree": 1,
+    "source": "1001267325",
+    "source_inc": "1.1.1 Moderato."
+   },
+   {
+    "inc": "1.2.1 Andante con sordini",
+    "notes": 10,
+    "agree": 1,
+    "source": "1001267325",
+    "source_inc": "1.1.1 Moderato."
+   },
+   {
+    "inc": "1.3.1 Adagio",
+    "notes": 12,
+    "agree": 1,
+    "source": "1001267325",
+    "source_inc": "1.1.1 Moderato."
+   }
+  ],
+  "life": [
+   1830,
+   1892
+  ],
+  "copy_years": [
+   1750,
+   1812
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "date-impossible"
+ },
+ {
+  "anon": "240461",
+  "label": "Pieces–B♭ major (Excerpts); Manuscript copy; US-WS SCM [39.3] Salem ms",
+  "composer": "Mozart, Wolfgang Amadeus (1756-1791)",
+  "matched": [
+   "1.1.1 Allo. molto"
+  ],
+  "sources": [
+   "450064032",
+   "455013156",
+   "659000817"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allo. molto",
+    "notes": 12,
+    "agree": 12,
+    "source": "450064032",
+    "source_inc": "1.1.2"
+   },
+   {
+    "inc": "1.2.1 Andante",
+    "notes": 4,
+    "agree": 1,
+    "source": "450064032",
+    "source_inc": "1.1.1 Allegro molto"
+   },
+   {
+    "inc": "1.3.1 Adagio",
+    "notes": 6,
+    "agree": 2,
+    "source": "450064032",
+    "source_inc": "1.1.2"
+   },
+   {
+    "inc": "1.4.1 Alla breve",
+    "notes": 4,
+    "agree": 4,
+    "source": "450064032",
+    "source_inc": "1.5.1 Allabreve"
+   }
+  ],
+  "life": [
+   1756,
+   1791
+  ],
+  "copy_years": [
+   1800,
+   1845
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "250004185",
+  "label": "Symphonies; Manuscript copy; D-WRha Instr.8",
+  "composer": "Gyrowetz, Adalbert (1763-1850)",
+  "matched": [
+   "1.3.1 Menuetto."
+  ],
+  "sources": [
+   "990024171"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro assai",
+    "notes": 6,
+    "agree": 4,
+    "source": "990024171",
+    "source_inc": "1.1.1 Allegro assai"
+   },
+   {
+    "inc": "1.2.1 Andante",
+    "notes": 11,
+    "agree": 1,
+    "source": "990024171",
+    "source_inc": "1.1.1 Allegro assai"
+   },
+   {
+    "inc": "1.3.1 Menuetto.",
+    "notes": 16,
+    "agree": 11,
+    "source": "990024171",
+    "source_inc": "1.3.1 Minuetto Allegro assai"
+   },
+   {
+    "inc": "1.4.1 Finale. Allegretto",
+    "notes": 11,
+    "agree": 1,
+    "source": "990024171",
+    "source_inc": "1.1.1 Allegro assai"
+   }
+  ],
+  "life": [
+   1763,
+   1850
+  ],
+  "copy_years": [
+   1800,
+   1810
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "280002277",
+  "label": "Symphonies–E♭ major; Manuscript copy; D-RUl SH 604",
+  "composer": "Spohr, Louis (1784-1859)",
+  "matched": [
+   "1.1.1 Adagio"
+  ],
+  "sources": [
+   "1001244813"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Adagio",
+    "notes": 27,
+    "agree": 27,
+    "source": "1001244813",
+    "source_inc": "1.1.1 Adagio"
+   },
+   {
+    "inc": "1.1.2 Allegro",
+    "notes": 15,
+    "agree": 1,
+    "source": "1001244813",
+    "source_inc": "1.1.1 Adagio"
+   }
+  ],
+  "life": [
+   1784,
+   1859
+  ],
+  "copy_years": [
+   1800,
+   1833
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "300257516",
+  "label": "Symphonies–C major; Manuscript copy; PL-Kd 288",
+  "composer": "Pichl, Václav (1741-1805)",
+  "matched": [
+   "1.1.1 Allegro con brio"
+  ],
+  "sources": [
+   "1001302071",
+   "1001315916",
+   "220011907",
+   "220017464",
+   "301050695",
+   "400012830",
+   "550500664",
+   "551005012"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro con brio",
+    "notes": 16,
+    "agree": 16,
+    "source": "1001302071",
+    "source_inc": "1.1.1 Allo Con Brio"
+   }
+  ],
+  "life": [
+   1741,
+   1805
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "300257653",
+  "label": "Symphonies; Manuscript copy; PL-BA Rm 10",
+  "composer": "Pichl, Václav (1741-1805)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "550248218",
+   "550270761",
+   "551007628"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 16,
+    "agree": 16,
+    "source": "550248218",
+    "source_inc": "1.1.1 Allegro"
+   }
+  ],
+  "life": [
+   1741,
+   1805
+  ],
+  "copy_years": [
+   1800,
+   1899
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "301002142",
+  "label": "Symphonies–G major; Manuscript copy; PL-WRu 60873 Muz.",
+  "composer": "Graun, Carl Heinrich (1704-1759)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "1001054467",
+   "107640",
+   "212002696",
+   "450060908"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 20,
+    "agree": 20,
+    "source": "1001054467",
+    "source_inc": "1.1.1 Sinfonia. Allegro"
+   },
+   {
+    "inc": "1.2.1 Andante",
+    "notes": 18,
+    "agree": 5,
+    "source": "212002696",
+    "source_inc": "1.2.1 Andante"
+   },
+   {
+    "inc": "1.3.1 Presto",
+    "notes": 10,
+    "agree": 1,
+    "source": "1001054467",
+    "source_inc": "1.1.1 Sinfonia. Allegro"
+   }
+  ],
+  "life": [
+   1704,
+   1759
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "302002415",
+  "label": "Symphonies–G major; Manuscript copy; PL-GD Ms Joh.425",
+  "composer": "Hiller, Johann Adam (1728-1804)",
+  "matched": [
+   "1.1.1 Allegro non troppo. Allegro non troppo",
+   "1.2.1 Allegretto. Allegretto"
+  ],
+  "sources": [
+   "990029378"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro non troppo. Allegro non troppo",
+    "notes": 24,
+    "agree": 24,
+    "source": "990029378",
+    "source_inc": "1.1.1 Sinfonie Allegro non troppo"
+   },
+   {
+    "inc": "1.2.1 Allegretto. Allegretto",
+    "notes": 23,
+    "agree": 17,
+    "source": "990029378",
+    "source_inc": "1.2.1 Allegretto"
+   },
+   {
+    "inc": "1.3.1 Allegro di molto. Allegro di molto",
+    "notes": 13,
+    "agree": 13,
+    "source": "990029378",
+    "source_inc": "1.3.1 Allegro di molto"
+   }
+  ],
+  "life": [
+   1728,
+   1804
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "strong"
+ },
+ {
+  "anon": "400003780",
+  "label": "Symphonies–D major; Manuscript copy; CH-MÜ Ms A 13|4",
+  "composer": "Formichi, Pietro (1829-1913)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "1001223055"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 9,
+    "agree": 1,
+    "source": "1001223055",
+    "source_inc": "1.1.1 Allegro"
+   }
+  ],
+  "life": [
+   1829,
+   1913
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "400003938",
+  "label": "Symphonies–D major; Manuscript copy; CH-EN Ms A 125",
+  "composer": "Pokorný, Franz Xaver (1729-1794)",
+  "matched": [
+   "1.1.1 Allegro assai"
+  ],
+  "sources": [
+   "450010621"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro assai",
+    "notes": 11,
+    "agree": 11,
+    "source": "450010621",
+    "source_inc": "1.1.1 Allegro assai"
+   }
+  ],
+  "life": [
+   1729,
+   1794
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "400003941",
+  "label": "Symphonies–D major; Manuscript copy; CH-EN Ms A 128",
+  "composer": "Cimarosa, Domenico (1749-1801)",
+  "matched": [
+   "1.1.1 Allegro con brio"
+  ],
+  "sources": [
+   "850008382",
+   "858000080"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro con brio",
+    "notes": 12,
+    "agree": 12,
+    "source": "850008382",
+    "source_inc": "1.1.1 Sinfonia. Allegro con brio"
+   }
+  ],
+  "life": [
+   1749,
+   1801
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "400003944",
+  "label": "Symphonies–G major; Manuscript copy; CH-EN Ms A 131",
+  "composer": "Schmittbauer, Joseph Aloys (1718-1809)",
+  "matched": [
+   "1.1.1 Allegro assai"
+  ],
+  "sources": [
+   "454000360"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro assai",
+    "notes": 5,
+    "agree": 4,
+    "source": "454000360",
+    "source_inc": "1.1.1 Allegro assai"
+   }
+  ],
+  "life": [
+   1718,
+   1809
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "400007387",
+  "label": "Symphonies–D major; Manuscript copy; CH-SAf MusSAf.Ms.445",
+  "composer": "Cavalli, Francesco (1602-1676)",
+  "matched": [
+   "1.2.1 Andante"
+  ],
+  "sources": [
+   "850011438"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 19,
+    "agree": 1,
+    "source": "850011438",
+    "source_inc": "1.1.1 Aria."
+   },
+   {
+    "inc": "1.2.1 Andante",
+    "notes": 23,
+    "agree": 9,
+    "source": "850011438",
+    "source_inc": "1.1.1 Aria."
+   },
+   {
+    "inc": "1.3.1 Prestissimo",
+    "notes": 4,
+    "agree": 1,
+    "source": "850011438",
+    "source_inc": "1.1.1 Aria."
+   }
+  ],
+  "life": [
+   1602,
+   1676
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "date-impossible"
+ },
+ {
+  "anon": "400007392",
+  "label": "Symphonies–A major; Manuscript copy; CH-SAf MusSAf.Ms.445",
+  "composer": "Toeschi, Carl Joseph (1731-1788)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "140044"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 13,
+    "agree": 13,
+    "source": "140044",
+    "source_inc": "1.1.1 Allegro"
+   },
+   {
+    "inc": "1.2.1 Andante grazioso",
+    "notes": 10,
+    "agree": 1,
+    "source": "140044",
+    "source_inc": "1.1.1 Allegro"
+   },
+   {
+    "inc": "1.3.1 Presto",
+    "notes": 15,
+    "agree": 1,
+    "source": "140044",
+    "source_inc": "1.1.1 Allegro"
+   }
+  ],
+  "life": [
+   1731,
+   1788
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "400014396",
+  "label": "Symphonies–E♭ major; Manuscript copy; CH-E 199,24|1",
+  "composer": "Risi, Paolo (18.sc)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "850002239"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 16,
+    "agree": 16,
+    "source": "850002239",
+    "source_inc": "1.1.1 Allegro"
+   }
+  ],
+  "life": [],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "400014405",
+  "label": "Symphonies–B♭ major; Manuscript copy; CH-E 21,33",
+  "composer": "Guglielmi, Pietro Alessandro (1728-1804)",
+  "matched": [
+   "1.1.1 Larghetto"
+  ],
+  "sources": [
+   "452022045"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Larghetto",
+    "notes": 11,
+    "agree": 11,
+    "source": "452022045",
+    "source_inc": "1.1.1 Larghetto"
+   }
+  ],
+  "life": [
+   1728,
+   1804
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "400014408",
+  "label": "Symphonies–B♭ major; Manuscript copy; CH-E 11,7",
+  "composer": "Franck",
+  "matched": [
+   "1.1.1 Allegro assai"
+  ],
+  "sources": [
+   "400004036"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro assai",
+    "notes": 19,
+    "agree": 19,
+    "source": "400004036",
+    "source_inc": "1.1.1 Allegro assai"
+   }
+  ],
+  "life": [],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "400014560",
+  "label": "Symphonies–G major; Manuscript copy; CH-SO SJ 2",
+  "composer": "Sarti, Giuseppe (1729-1802)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "1001244108",
+   "131164",
+   "132189",
+   "455027523"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 18,
+    "agree": 18,
+    "source": "131164",
+    "source_inc": "1.1.1 Recitativo. Allegro"
+   }
+  ],
+  "life": [
+   1729,
+   1802
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "400187451",
+  "label": "Symphonies–D major; Manuscript copy; CH-E 11,11",
+  "composer": "Asplmayr, Franz (1728-1786)",
+  "matched": [
+   "1.1.1 Allegro con spirito"
+  ],
+  "sources": [
+   "150201388",
+   "453011435",
+   "650002015"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro con spirito",
+    "notes": 21,
+    "agree": 21,
+    "source": "150201388",
+    "source_inc": "1.1.1 Allegro"
+   }
+  ],
+  "life": [
+   1728,
+   1786
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "400213728",
+  "label": "Symphonies–G major; Manuscript copy; CH-AR Mus Ms A 102",
+  "composer": "Pleyel, Ignace (1757-1831)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "1001098193",
+   "1001352067",
+   "1001352078",
+   "1001352095",
+   "1001362676",
+   "1001362679",
+   "450017882",
+   "450034846",
+   "456010364",
+   "500027463",
+   "540001033",
+   "550508147",
+   "551004143",
+   "702000676",
+   "850023808",
+   "850023903",
+   "850023931",
+   "850652142",
+   "850777340",
+   "850781382",
+   "853001636",
+   "853002504"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 13,
+    "agree": 8,
+    "source": "1001098193",
+    "source_inc": "1.1.1 Allegro"
+   }
+  ],
+  "life": [
+   1757,
+   1831
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "400213960",
+  "label": "Symphonies–D major; Manuscript copy; CH-FF UK 15|5|-|6|,|8|-|1|1",
+  "composer": "Graun, Johann Gottlieb (1702c-1771)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "190010953",
+   "190010954",
+   "190010955",
+   "450016845"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 9,
+    "agree": 9,
+    "source": "190010953",
+    "source_inc": "1.1.1 Allegro"
+   }
+  ],
+  "life": [
+   1702,
+   1771
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "400213964",
+  "label": "Symphonies–G major; Manuscript copy; CH-FF UK 15|5|-|6|,|8|-|1|1",
+  "composer": "Galimberti, Ferdinando (1751+)",
+  "matched": [
+   "1.1.1 Andante"
+  ],
+  "sources": [
+   "400006437"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Andante",
+    "notes": 16,
+    "agree": 15,
+    "source": "400006437",
+    "source_inc": "1.2.1 Largo."
+   }
+  ],
+  "life": [
+   1751
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "408005075",
+  "label": "Symphonies–E♭ major; Manuscript copy; CH-SAf MusSAf.Ms.1361",
+  "composer": "Pichl, Václav (1741-1805)",
+  "matched": [
+   "1.3.1 Allo assai"
+  ],
+  "sources": [
+   "455016633",
+   "455016639",
+   "551005015"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 10,
+    "agree": 6,
+    "source": "455016633",
+    "source_inc": "1.1.1 Allegro"
+   },
+   {
+    "inc": "1.2.1 Rondo Allegro",
+    "notes": 10,
+    "agree": 1,
+    "source": "455016633",
+    "source_inc": "1.1.1 Allegro"
+   },
+   {
+    "inc": "1.3.1 Allo assai",
+    "notes": 13,
+    "agree": 1,
+    "source": "455016633",
+    "source_inc": "1.1.1 Allegro"
+   }
+  ],
+  "life": [
+   1741,
+   1805
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "450003164",
+  "label": "Symphonies–D major; Manuscript copy; D-DS Mus.ms 866/2",
+  "composer": "Polazzi, Bernardo (18.sc)",
+  "matched": [
+   "1.1.1 Allegro molto"
+  ],
+  "sources": [
+   "400006585"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro molto",
+    "notes": 11,
+    "agree": 11,
+    "source": "400006585",
+    "source_inc": "1.1.1 Allegro."
+   }
+  ],
+  "life": [],
+  "copy_years": [
+   1780,
+   1780
+  ],
+  "names_composer": true,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "known"
+ },
+ {
+  "anon": "450004203",
+  "label": "Symphonies–F major; Manuscript copy; D-BAd EB 819-1",
+  "composer": "Küffner, Wilhelm (1727-1797)",
+  "matched": [
+   "1.1.1 Allegro non molto",
+   "1.2.1 Andante"
+  ],
+  "sources": [
+   "1001074840",
+   "1001383642"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro non molto",
+    "notes": 18,
+    "agree": 18,
+    "source": "1001383642",
+    "source_inc": "1.1.1 [p. 7, at left of the 6th stave:] QUARTETTO IV [at left underneath the 6th stave:] Allegro non Molto"
+   },
+   {
+    "inc": "1.2.1 Andante",
+    "notes": 14,
+    "agree": 14,
+    "source": "1001074840",
+    "source_inc": "1.4.2 Andante"
+   },
+   {
+    "inc": "1.3.1 Presto",
+    "notes": 15,
+    "agree": 15,
+    "source": "1001074840",
+    "source_inc": "1.4.3 Presto"
+   }
+  ],
+  "life": [
+   1727,
+   1797
+  ],
+  "copy_years": [
+   1770,
+   1770
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "strong"
+ },
+ {
+  "anon": "450013954",
+  "label": "Symphonies–D major; Manuscript copy; D-KA Don Mus.Ms. 1787",
+  "composer": "Schmidt",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "400187377"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 7,
+    "agree": 4,
+    "source": "400187377",
+    "source_inc": "1.1.1 Allegro"
+   }
+  ],
+  "life": [],
+  "copy_years": [
+   1760,
+   1760
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "450013956",
+  "label": "Symphonies–D major; Manuscript copy; D-KA Don Mus.Ms. 1790",
+  "composer": "Ricci, Francesco Pasquale, OFMConv (1732-1817)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "400012916",
+   "550040745"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 15,
+    "agree": 15,
+    "source": "550040745",
+    "source_inc": "1.1.1 Allegro"
+   }
+  ],
+  "life": [
+   1732,
+   1817
+  ],
+  "copy_years": [
+   1770,
+   1770
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "450013960",
+  "label": "Symphonies–G major; Manuscript copy; D-KA Don Mus.Ms. 1799",
+  "composer": "Belletti, G. C.",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "190009831"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 14,
+    "agree": 14,
+    "source": "190009831",
+    "source_inc": "1.1.1 Allegro"
+   }
+  ],
+  "life": [],
+  "copy_years": [
+   1760,
+   1760
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "450013965",
+  "label": "Symphonies–D major; Manuscript copy; D-KA Don Mus.Ms. 1808",
+  "composer": "Mozart, Leopold (1719-1787)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "651004152"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 9,
+    "agree": 9,
+    "source": "651004152",
+    "source_inc": "1.1.1 Allegro"
+   }
+  ],
+  "life": [
+   1719,
+   1787
+  ],
+  "copy_years": [
+   1750,
+   1750
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "450303558",
+  "label": "Symphonies–D major; Manuscript copy; D-Eu Esl VIII 384",
+  "composer": "Schuster, Joseph (1748-1812)",
+  "matched": [
+   "1.1.1 Allegro con spirito"
+  ],
+  "sources": [
+   "211008487",
+   "270001259"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro con spirito",
+    "notes": 7,
+    "agree": 7,
+    "source": "211008487",
+    "source_inc": "1.1.1 Sinfonia. Allegro con spirito"
+   }
+  ],
+  "life": [
+   1748,
+   1812
+  ],
+  "copy_years": [
+   1785,
+   1795
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "451508718",
+  "label": "?Symphonies?; Manuscript copy; D-W Cod. Guelf. 270 Mus. Hdschr. (Nr. 63)",
+  "composer": "Kücken, Friedrich Wilhelm (1810-1882)",
+  "matched": [
+   "1.1.1"
+  ],
+  "sources": [
+   "301005810"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1",
+    "notes": 7,
+    "agree": 1,
+    "source": "301005810",
+    "source_inc": "1.1.1 Adagio"
+   }
+  ],
+  "life": [
+   1810,
+   1882
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "453002908",
+  "label": "Symphonies–G major; Manuscript copy; RV 303, LaRueS 1988 deest; D-KA Mus. Hs. 1016",
+  "composer": "Vivaldi, Antonio (1678-1741)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "1001386832",
+   "455016163",
+   "455016164",
+   "455016167"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 31,
+    "agree": 23,
+    "source": "1001386832",
+    "source_inc": "1.1.1 Allegro"
+   },
+   {
+    "inc": "1.1.2",
+    "notes": 24,
+    "agree": 1,
+    "source": "1001386832",
+    "source_inc": "1.1.1 Allegro"
+   }
+  ],
+  "life": [
+   1678,
+   1741
+  ],
+  "copy_years": [
+   1750,
+   1996
+  ],
+  "names_composer": true,
+  "catalogue_number_in_title": true,
+  "competitors": [],
+  "class": "known"
+ },
+ {
+  "anon": "454016146",
+  "label": "?Symphonies?–F major; Manuscript copy; D-Mbs Mus.ms. 16183",
+  "composer": "Cibulka, Matouš Alois (1768-1845)",
+  "matched": [
+   "1.2.1 Allegro con brio"
+  ],
+  "sources": [
+   "452500018",
+   "455016303"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Andante maestoso",
+    "notes": 10,
+    "agree": 7,
+    "source": "452500018",
+    "source_inc": "1.5.1"
+   },
+   {
+    "inc": "1.2.1 Allegro con brio",
+    "notes": 12,
+    "agree": 2,
+    "source": "452500018",
+    "source_inc": "1.2.1"
+   }
+  ],
+  "life": [
+   1768,
+   1845
+  ],
+  "copy_years": [
+   1800,
+   1849
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "456006022",
+  "label": "Symphonies–D major; Manuscript copy; D-MHF MHF K5 Mappe 27 (b) (Nr. 10)",
+  "composer": "Dalayrac, Nicolas-Marie (1753-1809)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "452015393"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 12,
+    "agree": 12,
+    "source": "452015393",
+    "source_inc": "1.1.2"
+   }
+  ],
+  "life": [
+   1753,
+   1809
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "456007997",
+  "label": "Symphonies–D major; Manuscript copy; D-KBD KBD/KES K4 Ms011 (Nr. 6)",
+  "composer": "Żebrowski, Marcin Józef, OSPPE (1702-1770)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "300033533"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 9,
+    "agree": 9,
+    "source": "300033533",
+    "source_inc": "1.1.1 Sonata. Andante non molto"
+   }
+  ],
+  "life": [
+   1702,
+   1770
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "456008015",
+  "label": "Symphonies–C major; Manuscript copy; D-UWB UWB K2 AI 16",
+  "composer": "Andreska, Vincenc",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "455040018"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 5,
+    "agree": 5,
+    "source": "455040018",
+    "source_inc": "1.1.1 Allegro molto"
+   }
+  ],
+  "life": [],
+  "copy_years": [
+   1830,
+   1830
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "469190800",
+  "label": "Symphonies–D major; Manuscript copy; D-Bsa SA 1908",
+  "composer": "Benda, Franz (1709-1786)",
+  "matched": [
+   "1.1.1 Allegro assai.",
+   "1.2.1 Larghetto.",
+   "1.3.1 Presto."
+  ],
+  "sources": [
+   "212002745"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro assai.",
+    "notes": 18,
+    "agree": 18,
+    "source": "212002745",
+    "source_inc": "1.1.1 allegro assai"
+   },
+   {
+    "inc": "1.2.1 Larghetto.",
+    "notes": 13,
+    "agree": 13,
+    "source": "212002745",
+    "source_inc": "1.2.1 Larghetto"
+   },
+   {
+    "inc": "1.3.1 Presto.",
+    "notes": 10,
+    "agree": 10,
+    "source": "212002745",
+    "source_inc": "1.3.1 Presto"
+   }
+  ],
+  "life": [
+   1709,
+   1786
+  ],
+  "copy_years": [
+   1752,
+   1770
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "strong"
+ },
+ {
+  "anon": "469191400",
+  "label": "Symphonies–D major; Manuscript copy; D-Bsa SA 1914",
+  "composer": "Willmann, Samuel David (1743c-1813)",
+  "matched": [
+   "1.2.1 Andante."
+  ],
+  "sources": [
+   "452519429"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro di molto.",
+    "notes": 12,
+    "agree": 1,
+    "source": "452519429",
+    "source_inc": "1.1.1 Allegro moderato"
+   },
+   {
+    "inc": "1.2.1 Andante.",
+    "notes": 12,
+    "agree": 1,
+    "source": "452519429",
+    "source_inc": "1.1.1 Allegro moderato"
+   },
+   {
+    "inc": "1.3.1 Allegro.",
+    "notes": 7,
+    "agree": 1,
+    "source": "452519429",
+    "source_inc": "1.1.1 Allegro moderato"
+   }
+  ],
+  "life": [
+   1743,
+   1813
+  ],
+  "copy_years": [
+   1750,
+   1780
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "469359400",
+  "label": "Trios–G major; Manuscript copy; D-Bsa SA 3594",
+  "composer": "Brixi",
+  "matched": [
+   "1.1.1 Allegro."
+  ],
+  "sources": [
+   "551001337"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro.",
+    "notes": 18,
+    "agree": 14,
+    "source": "551001337",
+    "source_inc": "1.3.1 Mater Christi."
+   },
+   {
+    "inc": "1.2.1 Andante.",
+    "notes": 10,
+    "agree": 1,
+    "source": "551001337",
+    "source_inc": "1.1.1 Kyrie. Andante"
+   },
+   {
+    "inc": "1.3.1 Presto.",
+    "notes": 12,
+    "agree": 3,
+    "source": "551001337",
+    "source_inc": "1.1.2"
+   }
+  ],
+  "life": [],
+  "copy_years": [
+   1750,
+   1800
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "469467700",
+  "label": "Symphonies–G major; Manuscript copy; D-Bsa SA 4677",
+  "composer": "Schürer, Johann Georg (1720c-1786)",
+  "matched": [
+   "1.1.1 Allegro assai."
+  ],
+  "sources": [
+   "212009106",
+   "469250400"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro assai.",
+    "notes": 20,
+    "agree": 20,
+    "source": "212009106",
+    "source_inc": "1.16.1 Seconda Parte Sinfonia. Allegro"
+   }
+  ],
+  "life": [
+   1720,
+   1786
+  ],
+  "copy_years": [
+   1738,
+   1816
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "469467900",
+  "label": "Symphonies–G major; Manuscript copy; D-Bsa SA 4679",
+  "composer": "Meisl, Josef Alois (1767-1792p)",
+  "matched": [
+   "1.1.1 Allegro."
+  ],
+  "sources": [
+   "650002144"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro.",
+    "notes": 9,
+    "agree": 1,
+    "source": "650002144",
+    "source_inc": "1.1.1 Moderato"
+   }
+  ],
+  "life": [
+   1767,
+   1792
+  ],
+  "copy_years": [
+   1738,
+   1816
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "500028090",
+  "label": "Symphonies–C major; Manuscript copy; HR-Zha XXXV.R",
+  "composer": "Asplmayr, Franz (1728-1786)",
+  "matched": [
+   "1.1.1 Allegro assai"
+  ],
+  "sources": [
+   "150201388",
+   "170000017",
+   "450023691",
+   "453011435",
+   "454016402",
+   "550266258",
+   "650002015"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro assai",
+    "notes": 14,
+    "agree": 14,
+    "source": "150201388",
+    "source_inc": "1.1.1 Allegro"
+   }
+  ],
+  "life": [
+   1728,
+   1786
+  ],
+  "copy_years": [
+   1780,
+   1780
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "530000729",
+  "label": "Symphonies–C major; Manuscript copy; H-KE 1188",
+  "composer": "Süßmayr, Franz Xaver (1766-1803)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "530003761"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 22,
+    "agree": 12,
+    "source": "530003761",
+    "source_inc": "1.1.1 Allegro"
+   }
+  ],
+  "life": [
+   1766,
+   1803
+  ],
+  "copy_years": [
+   1810,
+   1810
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "530012629",
+  "label": "Symphonies–D major; Manuscript copy; H-Gk AMC, Sinf. 10.",
+  "composer": "Sacchini, Antonio (1730-1786)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "104771",
+   "107777",
+   "135066",
+   "240003886",
+   "400065359",
+   "452008782",
+   "701002129",
+   "800159227",
+   "850604748",
+   "858000503"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 14,
+    "agree": 14,
+    "source": "104771",
+    "source_inc": "1.1.1 Overtura."
+   }
+  ],
+  "life": [
+   1730,
+   1786
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "530012636",
+  "label": "Symphonies–C major; Manuscript copy; H-Gk AMC, Sinf. 17.",
+  "composer": "Richter, Franz Xaver (1709-1789)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "603000365"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 24,
+    "agree": 24,
+    "source": "603000365",
+    "source_inc": "1.1.1 Allegro"
+   }
+  ],
+  "life": [
+   1709,
+   1789
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "530012639",
+  "label": "Symphonies–D major; Manuscript copy; H-Gk AMC, Sinf. 20/1.",
+  "composer": "Wagenseil, Georg Christoph (1715-1777)",
+  "matched": [
+   "1.1.1 Allegro assai"
+  ],
+  "sources": [
+   "706000763"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro assai",
+    "notes": 9,
+    "agree": 9,
+    "source": "706000763",
+    "source_inc": "1.1.1 Allegro assai"
+   }
+  ],
+  "life": [
+   1715,
+   1777
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "553001702",
+  "label": "Symphonies–D major; Manuscript copy; CZ-PELmv 12686",
+  "composer": "Herpol, Homer (1520c-1573c)",
+  "matched": [
+   "1.1.1 Allegro Moderato"
+  ],
+  "sources": [
+   "1001323409"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro Moderato",
+    "notes": 11,
+    "agree": 3,
+    "source": "1001323409",
+    "source_inc": "1.1.1 [Prima pars]"
+   }
+  ],
+  "life": [
+   1520,
+   1573
+  ],
+  "copy_years": [
+   1790,
+   1790
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "date-impossible"
+ },
+ {
+  "anon": "553001704",
+  "label": "Symphonies–F major; Manuscript copy; CZ-PELmv 12688",
+  "composer": "Haydn, Joseph (1732-1809)",
+  "matched": [
+   "1.1.1 Andante sost-to"
+  ],
+  "sources": [
+   "1001097195",
+   "1001098076",
+   "1001385161"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Andante sost-to",
+    "notes": 5,
+    "agree": 1,
+    "source": "1001097195",
+    "source_inc": "1.1.1 Moderato"
+   }
+  ],
+  "life": [
+   1732,
+   1809
+  ],
+  "copy_years": [
+   1800,
+   1800
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "570002608",
+  "label": "Symphonies–D major; Manuscript copy; SK-J H-708",
+  "composer": "Hasse, Johann Adolf (1699-1783)",
+  "matched": [
+   "1.3.1 Presto"
+  ],
+  "sources": [
+   "225001445",
+   "270000769"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro assai",
+    "notes": 13,
+    "agree": 4,
+    "source": "225001445",
+    "source_inc": "1.36.1 Aria. Allegretto"
+   },
+   {
+    "inc": "1.2.1 Andante",
+    "notes": 17,
+    "agree": 2,
+    "source": "225001445",
+    "source_inc": "1.2.1 Atto 1, Scena 1, Coro. Allegro e con spirito ma non troppo presto"
+   },
+   {
+    "inc": "1.3.1 Presto",
+    "notes": 14,
+    "agree": 3,
+    "source": "225001445",
+    "source_inc": "1.50.1 [Aria]. Allegro di molto"
+   }
+  ],
+  "life": [
+   1699,
+   1783
+  ],
+  "copy_years": [
+   1750,
+   1799
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "570005113",
+  "label": "Symphonies–F major; Manuscript copy; SK-J H-614",
+  "composer": "Adam, Johann (1704-1779)",
+  "matched": [
+   "1.1.1 Allegro assai",
+   "1.3.1 Allegro"
+  ],
+  "sources": [
+   "1001057046",
+   "1001296650",
+   "1001376786",
+   "190009385",
+   "190009386"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro assai",
+    "notes": 9,
+    "agree": 9,
+    "source": "1001057046",
+    "source_inc": "1.1.1 Vivace"
+   },
+   {
+    "inc": "1.2.1 Andante",
+    "notes": 10,
+    "agree": 10,
+    "source": "1001376786",
+    "source_inc": "1.2.1 Andante con Sordini"
+   },
+   {
+    "inc": "1.3.1 Allegro",
+    "notes": 14,
+    "agree": 14,
+    "source": "1001296650",
+    "source_inc": "1.3.1 Allegro."
+   }
+  ],
+  "life": [
+   1704,
+   1779
+  ],
+  "copy_years": [
+   1738,
+   1776
+  ],
+  "names_composer": true,
+  "catalogue_number_in_title": false,
+  "competitors": [
+   "Ferrandini, Giovanni (1710-1791)",
+   "Malzat, Ignaz (1757-1804)"
+  ],
+  "class": "known"
+ },
+ {
+  "anon": "570005116",
+  "label": "Symphonies–G major; Manuscript copy; SK-J H-621",
+  "composer": "Anfossi, Pasquale (1727-1797)",
+  "matched": [
+   "1.1.1 Allegro moderato"
+  ],
+  "sources": [
+   "123153"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro moderato",
+    "notes": 12,
+    "agree": 1,
+    "source": "123153",
+    "source_inc": "1.1.1 Andantino grazioso"
+   },
+   {
+    "inc": "1.2.1 Andante",
+    "notes": 15,
+    "agree": 1,
+    "source": "123153",
+    "source_inc": "1.1.1 Andantino grazioso"
+   },
+   {
+    "inc": "1.3.1 Allegro",
+    "notes": 13,
+    "agree": 1,
+    "source": "123153",
+    "source_inc": "1.1.1 Andantino grazioso"
+   }
+  ],
+  "life": [
+   1727,
+   1797
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "570005119",
+  "label": "Symphonies–C major; Manuscript copy; SK-J H-629",
+  "composer": "Naumann, Johann Gottlieb (1741-1801)",
+  "matched": [
+   "1.4.1 Finale. Allegro"
+  ],
+  "sources": [
+   "1001179385",
+   "230006006",
+   "270001204"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 32,
+    "agree": 16,
+    "source": "1001179385",
+    "source_inc": "1.1.2"
+   },
+   {
+    "inc": "1.2.1 Andante",
+    "notes": 12,
+    "agree": 12,
+    "source": "1001179385",
+    "source_inc": "1.2.1 Andante espressivo"
+   },
+   {
+    "inc": "1.3.1 Minuetto.",
+    "notes": 8,
+    "agree": 3,
+    "source": "1001179385",
+    "source_inc": "1.1.1 Ouverture Allegro con spirito"
+   },
+   {
+    "inc": "1.4.1 Finale. Allegro",
+    "notes": 19,
+    "agree": 19,
+    "source": "1001179385",
+    "source_inc": "1.3.1 Allegro"
+   }
+  ],
+  "life": [
+   1741,
+   1801
+  ],
+  "copy_years": [
+   1782,
+   1782
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "strong"
+ },
+ {
+  "anon": "570005126",
+  "label": "Symphonies–D major; Manuscript copy; SK-J H-742",
+  "composer": "Hertel, Johann Wilhelm (1727-1789)",
+  "matched": [
+   "1.3.1 Presto"
+  ],
+  "sources": [
+   "240002462",
+   "704002376"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Spirituoso",
+    "notes": 35,
+    "agree": 1,
+    "source": "240002462",
+    "source_inc": "1.1.1 Intrada. Allegro"
+   },
+   {
+    "inc": "1.2.1 Andante",
+    "notes": 18,
+    "agree": 1,
+    "source": "240002462",
+    "source_inc": "1.1.1 Intrada. Allegro"
+   },
+   {
+    "inc": "1.3.1 Presto",
+    "notes": 12,
+    "agree": 12,
+    "source": "240002462",
+    "source_inc": "1.1.1 Intrada. Allegro"
+   }
+  ],
+  "life": [
+   1727,
+   1789
+  ],
+  "copy_years": [
+   1738,
+   1799
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "600025915",
+  "label": "Symphonies–C major; Manuscript copy; A-SEI V 1023",
+  "composer": "Kospoth, Otto Carl Erdmann (1753-1817)",
+  "matched": [
+   "1.1.1 Grave"
+  ],
+  "sources": [
+   "450012267",
+   "990034157"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Grave",
+    "notes": 11,
+    "agree": 11,
+    "source": "450012267",
+    "source_inc": "1.1.1 Allegro"
+   }
+  ],
+  "life": [
+   1753,
+   1817
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "600025981",
+  "label": "Symphonies–C major; Manuscript copy; A-SEI V 1089",
+  "composer": "Koželuh, Leopold (1747-1818)",
+  "matched": [
+   "1.1.1 Allegro di molto"
+  ],
+  "sources": [
+   "210045950",
+   "450013478"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro di molto",
+    "notes": 10,
+    "agree": 10,
+    "source": "210045950",
+    "source_inc": "1.1.1 Allegro molto"
+   }
+  ],
+  "life": [
+   1747,
+   1818
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "600171568",
+  "label": "Symphonies–B♭ major; Manuscript copy; WarB YC 3, DTB 3/1 deest; A-KR H 31/263",
+  "composer": "Stamitz",
+  "matched": [
+   "1.1.1 Allegro molto"
+  ],
+  "sources": [
+   "650002967"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro molto",
+    "notes": 13,
+    "agree": 13,
+    "source": "650002967",
+    "source_inc": "1.1.1 Allegro molto"
+   }
+  ],
+  "life": [],
+  "copy_years": [
+   1775,
+   1799
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "603000139",
+  "label": "Divertimentos–B♭ major; Manuscript copy; MH 133, MH 104, MH deest; A-LA 329",
+  "composer": "Hafeneder, Joseph (1746-1784)",
+  "matched": [
+   "1.9.1 Finale. All[egr]o assai"
+  ],
+  "sources": [
+   "400003539"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 P[iano] e stacato",
+    "notes": 21,
+    "agree": 1,
+    "source": "400003539",
+    "source_inc": "1.1.1 Moderato Allegro"
+   },
+   {
+    "inc": "1.4.1 Adagio",
+    "notes": 22,
+    "agree": 1,
+    "source": "400003539",
+    "source_inc": "1.1.1 Moderato Allegro"
+   },
+   {
+    "inc": "1.6.1 Menuetto",
+    "notes": 26,
+    "agree": 1,
+    "source": "400003539",
+    "source_inc": "1.1.1 Moderato Allegro"
+   },
+   {
+    "inc": "1.9.1 Finale. All[egr]o assai",
+    "notes": 25,
+    "agree": 11,
+    "source": "400003539",
+    "source_inc": "1.1.1 Moderato Allegro"
+   }
+  ],
+  "life": [
+   1746,
+   1784
+  ],
+  "copy_years": [
+   1768,
+   1799
+  ],
+  "names_composer": true,
+  "catalogue_number_in_title": true,
+  "competitors": [],
+  "class": "known"
+ },
+ {
+  "anon": "603000139",
+  "label": "Divertimentos–B♭ major; Manuscript copy; MH 133, MH 104, MH deest; A-LA 329",
+  "composer": "Haydn, Michael (1737-1806)",
+  "matched": [
+   "1.1.1 P[iano] e stacato"
+  ],
+  "sources": [
+   "530001777"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 P[iano] e stacato",
+    "notes": 21,
+    "agree": 13,
+    "source": "530001777",
+    "source_inc": "1.1.1 Allegro molto"
+   },
+   {
+    "inc": "1.4.1 Adagio",
+    "notes": 22,
+    "agree": 1,
+    "source": "530001777",
+    "source_inc": "1.1.1 Allegro molto"
+   },
+   {
+    "inc": "1.6.1 Menuetto",
+    "notes": 26,
+    "agree": 1,
+    "source": "530001777",
+    "source_inc": "1.1.1 Allegro molto"
+   },
+   {
+    "inc": "1.9.1 Finale. All[egr]o assai",
+    "notes": 25,
+    "agree": 1,
+    "source": "530001777",
+    "source_inc": "1.1.1 Allegro molto"
+   }
+  ],
+  "life": [
+   1737,
+   1806
+  ],
+  "copy_years": [
+   1768,
+   1799
+  ],
+  "names_composer": true,
+  "catalogue_number_in_title": true,
+  "competitors": [],
+  "class": "known"
+ },
+ {
+  "anon": "650003004",
+  "label": "Symphonies–D major; Manuscript copy; Hob I:1; A-ST Mus.ms. 558",
+  "composer": "Benda, Georg (1722-1795)",
+  "matched": [
+   "1.3.2",
+   "1.4.2",
+   "1.4.3"
+  ],
+  "sources": [
+   "453009711"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Presto",
+    "notes": 18,
+    "agree": 1,
+    "source": "453009711",
+    "source_inc": "1.1.1 Coro. Allegro"
+   },
+   {
+    "inc": "1.1.2",
+    "notes": 1,
+    "agree": 1,
+    "source": "453009711",
+    "source_inc": "1.1.1 Coro. Allegro"
+   },
+   {
+    "inc": "1.2.1 Andante",
+    "notes": 16,
+    "agree": 1,
+    "source": "453009711",
+    "source_inc": "1.1.1 Coro. Allegro"
+   },
+   {
+    "inc": "1.3.1 Menuetto.",
+    "notes": 11,
+    "agree": 1,
+    "source": "453009711",
+    "source_inc": "1.1.1 Coro. Allegro"
+   },
+   {
+    "inc": "1.3.2",
+    "notes": 7,
+    "agree": 6,
+    "source": "453009711",
+    "source_inc": "1.1.3"
+   },
+   {
+    "inc": "1.4.1 Trio.",
+    "notes": 11,
+    "agree": 1,
+    "source": "453009711",
+    "source_inc": "1.1.1 Coro. Allegro"
+   },
+   {
+    "inc": "1.4.2",
+    "notes": 6,
+    "agree": 5,
+    "source": "453009711",
+    "source_inc": "1.1.3"
+   },
+   {
+    "inc": "1.4.3",
+    "notes": 7,
+    "agree": 6,
+    "source": "453009711",
+    "source_inc": "1.1.3"
+   },
+   {
+    "inc": "1.5.1 Finale. Presto",
+    "notes": 15,
+    "agree": 2,
+    "source": "453009711",
+    "source_inc": "1.1.1 Coro. Allegro"
+   }
+  ],
+  "life": [
+   1722,
+   1795
+  ],
+  "copy_years": [
+   1770,
+   1770
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": true,
+  "competitors": [],
+  "class": "known"
+ },
+ {
+  "anon": "650003004",
+  "label": "Symphonies–D major; Manuscript copy; Hob I:1; A-ST Mus.ms. 558",
+  "composer": "Bühler, Franz, OSB (1760-1823)",
+  "matched": [
+   "1.3.2",
+   "1.4.2",
+   "1.4.3"
+  ],
+  "sources": [
+   "1001045172",
+   "454016885",
+   "455014164"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Presto",
+    "notes": 18,
+    "agree": 1,
+    "source": "1001045172",
+    "source_inc": "1.1.1 Segen N|o 1 Andante"
+   },
+   {
+    "inc": "1.1.2",
+    "notes": 1,
+    "agree": 1,
+    "source": "1001045172",
+    "source_inc": "1.1.1 Segen N|o 1 Andante"
+   },
+   {
+    "inc": "1.2.1 Andante",
+    "notes": 16,
+    "agree": 1,
+    "source": "1001045172",
+    "source_inc": "1.1.1 Segen N|o 1 Andante"
+   },
+   {
+    "inc": "1.3.1 Menuetto.",
+    "notes": 11,
+    "agree": 1,
+    "source": "1001045172",
+    "source_inc": "1.1.1 Segen N|o 1 Andante"
+   },
+   {
+    "inc": "1.3.2",
+    "notes": 7,
+    "agree": 6,
+    "source": "1001045172",
+    "source_inc": "1.1.1 Segen N|o 1 Andante"
+   },
+   {
+    "inc": "1.4.1 Trio.",
+    "notes": 11,
+    "agree": 1,
+    "source": "1001045172",
+    "source_inc": "1.1.1 Segen N|o 1 Andante"
+   },
+   {
+    "inc": "1.4.2",
+    "notes": 6,
+    "agree": 5,
+    "source": "1001045172",
+    "source_inc": "1.1.1 Segen N|o 1 Andante"
+   },
+   {
+    "inc": "1.4.3",
+    "notes": 7,
+    "agree": 6,
+    "source": "1001045172",
+    "source_inc": "1.1.1 Segen N|o 1 Andante"
+   },
+   {
+    "inc": "1.5.1 Finale. Presto",
+    "notes": 15,
+    "agree": 2,
+    "source": "1001045172",
+    "source_inc": "1.1.1 Segen N|o 1 Andante"
+   }
+  ],
+  "life": [
+   1760,
+   1823
+  ],
+  "copy_years": [
+   1770,
+   1770
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": true,
+  "competitors": [],
+  "class": "known"
+ },
+ {
+  "anon": "650003004",
+  "label": "Symphonies–D major; Manuscript copy; Hob I:1; A-ST Mus.ms. 558",
+  "composer": "Haydn, Joseph (1732-1809)",
+  "matched": [
+   "1.2.1 Andante"
+  ],
+  "sources": [
+   "1001324338",
+   "240002345",
+   "450113907",
+   "550281622"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Presto",
+    "notes": 18,
+    "agree": 11,
+    "source": "1001324338",
+    "source_inc": "1.1.1 Presto"
+   },
+   {
+    "inc": "1.1.2",
+    "notes": 1,
+    "agree": 1,
+    "source": "1001324338",
+    "source_inc": "1.1.1 Presto"
+   },
+   {
+    "inc": "1.2.1 Andante",
+    "notes": 16,
+    "agree": 16,
+    "source": "1001324338",
+    "source_inc": "1.2.1 Andante"
+   },
+   {
+    "inc": "1.3.1 Menuetto.",
+    "notes": 11,
+    "agree": 1,
+    "source": "1001324338",
+    "source_inc": "1.1.1 Presto"
+   },
+   {
+    "inc": "1.3.2",
+    "notes": 7,
+    "agree": 2,
+    "source": "1001324338",
+    "source_inc": "1.3.1 Presto"
+   },
+   {
+    "inc": "1.4.1 Trio.",
+    "notes": 11,
+    "agree": 1,
+    "source": "1001324338",
+    "source_inc": "1.1.1 Presto"
+   },
+   {
+    "inc": "1.4.2",
+    "notes": 6,
+    "agree": 2,
+    "source": "1001324338",
+    "source_inc": "1.3.1 Presto"
+   },
+   {
+    "inc": "1.4.3",
+    "notes": 7,
+    "agree": 2,
+    "source": "1001324338",
+    "source_inc": "1.3.1 Presto"
+   },
+   {
+    "inc": "1.5.1 Finale. Presto",
+    "notes": 15,
+    "agree": 15,
+    "source": "1001324338",
+    "source_inc": "1.3.1 Presto"
+   }
+  ],
+  "life": [
+   1732,
+   1809
+  ],
+  "copy_years": [
+   1770,
+   1770
+  ],
+  "names_composer": true,
+  "catalogue_number_in_title": true,
+  "competitors": [],
+  "class": "known"
+ },
+ {
+  "anon": "650003004",
+  "label": "Symphonies–D major; Manuscript copy; Hob I:1; A-ST Mus.ms. 558",
+  "composer": "Köhler, Johann Hermann (1686-1740)",
+  "matched": [
+   "1.3.2",
+   "1.4.2",
+   "1.4.3"
+  ],
+  "sources": [
+   "453002219"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Presto",
+    "notes": 18,
+    "agree": 1,
+    "source": "453002219",
+    "source_inc": "1.1.1 Allegro non tanto"
+   },
+   {
+    "inc": "1.1.2",
+    "notes": 1,
+    "agree": 1,
+    "source": "453002219",
+    "source_inc": "1.1.1 Allegro non tanto"
+   },
+   {
+    "inc": "1.2.1 Andante",
+    "notes": 16,
+    "agree": 1,
+    "source": "453002219",
+    "source_inc": "1.1.1 Allegro non tanto"
+   },
+   {
+    "inc": "1.3.1 Menuetto.",
+    "notes": 11,
+    "agree": 3,
+    "source": "453002219",
+    "source_inc": "1.1.1 Allegro non tanto"
+   },
+   {
+    "inc": "1.3.2",
+    "notes": 7,
+    "agree": 6,
+    "source": "453002219",
+    "source_inc": "1.1.2"
+   },
+   {
+    "inc": "1.4.1 Trio.",
+    "notes": 11,
+    "agree": 3,
+    "source": "453002219",
+    "source_inc": "1.1.1 Allegro non tanto"
+   },
+   {
+    "inc": "1.4.2",
+    "notes": 6,
+    "agree": 5,
+    "source": "453002219",
+    "source_inc": "1.1.2"
+   },
+   {
+    "inc": "1.4.3",
+    "notes": 7,
+    "agree": 6,
+    "source": "453002219",
+    "source_inc": "1.1.2"
+   },
+   {
+    "inc": "1.5.1 Finale. Presto",
+    "notes": 15,
+    "agree": 2,
+    "source": "453002219",
+    "source_inc": "1.1.2"
+   }
+  ],
+  "life": [
+   1686,
+   1740
+  ],
+  "copy_years": [
+   1770,
+   1770
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": true,
+  "competitors": [],
+  "class": "known"
+ },
+ {
+  "anon": "650003004",
+  "label": "Symphonies–D major; Manuscript copy; Hob I:1; A-ST Mus.ms. 558",
+  "composer": "Molter, Johann Melchior (1696-1765)",
+  "matched": [
+   "1.3.2",
+   "1.4.2",
+   "1.4.3"
+  ],
+  "sources": [
+   "453003104",
+   "453003340"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Presto",
+    "notes": 18,
+    "agree": 2,
+    "source": "453003340",
+    "source_inc": "1.1.1 Largo"
+   },
+   {
+    "inc": "1.1.2",
+    "notes": 1,
+    "agree": 1,
+    "source": "453003104",
+    "source_inc": "1.1.1 Ouverture. Lentement; Viste; Lentement"
+   },
+   {
+    "inc": "1.2.1 Andante",
+    "notes": 16,
+    "agree": 1,
+    "source": "453003104",
+    "source_inc": "1.1.1 Ouverture. Lentement; Viste; Lentement"
+   },
+   {
+    "inc": "1.3.1 Menuetto.",
+    "notes": 11,
+    "agree": 2,
+    "source": "453003104",
+    "source_inc": "1.1.1 Ouverture. Lentement; Viste; Lentement"
+   },
+   {
+    "inc": "1.3.2",
+    "notes": 7,
+    "agree": 6,
+    "source": "453003340",
+    "source_inc": "1.1.2"
+   },
+   {
+    "inc": "1.4.1 Trio.",
+    "notes": 11,
+    "agree": 2,
+    "source": "453003104",
+    "source_inc": "1.1.1 Ouverture. Lentement; Viste; Lentement"
+   },
+   {
+    "inc": "1.4.2",
+    "notes": 6,
+    "agree": 5,
+    "source": "453003104",
+    "source_inc": "1.1.2"
+   },
+   {
+    "inc": "1.4.3",
+    "notes": 7,
+    "agree": 6,
+    "source": "453003340",
+    "source_inc": "1.1.2"
+   },
+   {
+    "inc": "1.5.1 Finale. Presto",
+    "notes": 15,
+    "agree": 2,
+    "source": "453003104",
+    "source_inc": "1.1.2"
+   }
+  ],
+  "life": [
+   1696,
+   1765
+  ],
+  "copy_years": [
+   1770,
+   1770
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": true,
+  "competitors": [],
+  "class": "known"
+ },
+ {
+  "anon": "800000068",
+  "label": "?Symphonies?–D major (Excerpts); Manuscript copy; GB-P O.2",
+  "composer": "Tritto, Giacomo (1733-1824)",
+  "matched": [
+   "1.1.1 Allegro con spirito"
+  ],
+  "sources": [
+   "850009190"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro con spirito",
+    "notes": 12,
+    "agree": 1,
+    "source": "850009190",
+    "source_inc": "1.1.1 [Sinfonia]."
+   }
+  ],
+  "life": [
+   1733,
+   1824
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "800070191",
+  "label": "Symphonies–D major; Manuscript copy; GB-Ge R.d.39",
+  "composer": "Arne, Thomas Augustine (1710-1778)",
+  "matched": [
+   "1.1.1 Grave"
+  ],
+  "sources": [
+   "850032622"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Grave",
+    "notes": 7,
+    "agree": 7,
+    "source": "850032622",
+    "source_inc": "1.1.1 Symphony."
+   }
+  ],
+  "life": [
+   1710,
+   1778
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "800261847",
+  "label": "Symphonies–F major; Manuscript copy; GB-Lbl R.M.21.d.13.",
+  "composer": "Cambini, Giuseppe (1746-1825)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "104650",
+   "990008137"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 12,
+    "agree": 12,
+    "source": "104650",
+    "source_inc": "1.1.1 Allegro"
+   }
+  ],
+  "life": [
+   1746,
+   1825
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "800261901",
+  "label": "Symphonies–D major; Manuscript copy; GB-Lbl R.M.21.d.16.",
+  "composer": "Toeschi, Carl Joseph (1731-1788)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "150203709",
+   "190023270",
+   "190024271",
+   "400006746"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 12,
+    "agree": 12,
+    "source": "150203709",
+    "source_inc": "1.1.1"
+   }
+  ],
+  "life": [
+   1731,
+   1788
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "806252327",
+  "label": "Symphonies–C major; Manuscript copy; GB-Lbl Add. 71539",
+  "composer": "Fritz, Gaspard (1716-1783)",
+  "matched": [
+   "1.1.1 Allegro",
+   "1.2.1 andante",
+   "1.3.1 allegro"
+  ],
+  "sources": [
+   "404000219"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 12,
+    "agree": 12,
+    "source": "404000219",
+    "source_inc": "1.1.1 Allegro"
+   },
+   {
+    "inc": "1.2.1 andante",
+    "notes": 12,
+    "agree": 8,
+    "source": "404000219",
+    "source_inc": "1.2.1 Andante"
+   },
+   {
+    "inc": "1.3.1 allegro",
+    "notes": 17,
+    "agree": 17,
+    "source": "404000219",
+    "source_inc": "1.3.1 Allegro"
+   }
+  ],
+  "life": [
+   1716,
+   1783
+  ],
+  "copy_years": [
+   1751,
+   1799
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "strong"
+ },
+ {
+  "anon": "806252343",
+  "label": "Symphonies–E♭ major; Manuscript copy; GB-Lbl Add. 71539",
+  "composer": "Maschek, Vinzenz (1755-1831)",
+  "matched": [
+   "1.3.1 Allegro"
+  ],
+  "sources": [
+   "551002435"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Andante",
+    "notes": 20,
+    "agree": 2,
+    "source": "551002435",
+    "source_inc": "1.1.1 Thema. Cantabile moderato"
+   },
+   {
+    "inc": "1.1.2 Allegro",
+    "notes": 8,
+    "agree": 1,
+    "source": "551002435",
+    "source_inc": "1.1.1 Thema. Cantabile moderato"
+   },
+   {
+    "inc": "1.2.1 Andante",
+    "notes": 15,
+    "agree": 4,
+    "source": "551002435",
+    "source_inc": "1.8.1 7 Var:"
+   },
+   {
+    "inc": "1.3.1 Allegro",
+    "notes": 15,
+    "agree": 3,
+    "source": "551002435",
+    "source_inc": "1.4.1 3 Var:"
+   }
+  ],
+  "life": [
+   1755,
+   1831
+  ],
+  "copy_years": [
+   1751,
+   1799
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "806426578",
+  "label": "Symphonies–C major; Manuscript copy; GB-Lbl Add. 17785",
+  "composer": "Lully, Jean-Baptiste (1632-1687)",
+  "matched": [
+   "1.1.1"
+  ],
+  "sources": [
+   "1001154660",
+   "450117088",
+   "455037234",
+   "806490057",
+   "900020642",
+   "900021171"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1",
+    "notes": 9,
+    "agree": 9,
+    "source": "1001154660",
+    "source_inc": "1.25.1 Menuet"
+   }
+  ],
+  "life": [
+   1632,
+   1687
+  ],
+  "copy_years": [
+   1730,
+   1800
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "date-impossible"
+ },
+ {
+  "anon": "840002845",
+  "label": "Quartets–D major; Manuscript copy; F-AG 292(1-5)",
+  "composer": "Sammartini, Giovanni Battista (1700c-1775)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "116305",
+   "150201617",
+   "190019057"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 25,
+    "agree": 18,
+    "source": "116305",
+    "source_inc": "1.1.1 Allegro"
+   }
+  ],
+  "life": [
+   1700,
+   1775
+  ],
+  "copy_years": [
+   1766,
+   1770
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "840003125",
+  "label": "Symphonies–D major; Manuscript copy; F-AG 698",
+  "composer": "Perez, Davide (1711-1778)",
+  "matched": [
+   "1.1.1 Presto"
+  ],
+  "sources": [
+   "141483"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Presto",
+    "notes": 17,
+    "agree": 4,
+    "source": "141483",
+    "source_inc": "1.1.1 Presto con brio"
+   }
+  ],
+  "life": [
+   1711,
+   1778
+  ],
+  "copy_years": [
+   1760,
+   1780
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "850002402",
+  "label": "Symphonies–D minor; Manuscript copy; I-MAav Cart.2 n.15",
+  "composer": "Asplmayr, Franz (1728-1786)",
+  "matched": [
+   "1.1.1 Allegro con spirito"
+  ],
+  "sources": [
+   "1001383008",
+   "450009049",
+   "450012685"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro con spirito",
+    "notes": 18,
+    "agree": 7,
+    "source": "450009049",
+    "source_inc": "1.1.1 Overture. Vivace con spirito"
+   },
+   {
+    "inc": "1.1.2 Allegro con spirito",
+    "notes": 18,
+    "agree": 1,
+    "source": "1001383008",
+    "source_inc": "1.1.1 Allegro Con Spiritoso"
+   }
+  ],
+  "life": [
+   1728,
+   1786
+  ],
+  "copy_years": [
+   1750,
+   1799
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "850004869",
+  "label": "Symphonies–D major; Manuscript copy; I-Fn MUS.Mss.Rostirolla.202",
+  "composer": "Crispi, Pietro Maria (1737c-1797)",
+  "matched": [
+   "1.1.1 Allegro con spirito"
+  ],
+  "sources": [
+   "131526",
+   "450012798"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro con spirito",
+    "notes": 11,
+    "agree": 11,
+    "source": "131526",
+    "source_inc": "1.1.1 Allegro con spirito"
+   }
+  ],
+  "life": [
+   1737,
+   1797
+  ],
+  "copy_years": [
+   1761,
+   1790
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "850010403",
+  "label": "Symphonies–B♭ major; Manuscript copy; I-Rc Mss. 5748",
+  "composer": "Davaux, Jean-Baptiste (1742-1822)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "1001348967",
+   "1001381603",
+   "201001936"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 16,
+    "agree": 16,
+    "source": "1001348967",
+    "source_inc": "1.2.1 [p. 4, underneath the 11th stave:] Allegretto"
+   }
+  ],
+  "life": [
+   1742,
+   1822
+  ],
+  "copy_years": [
+   1750,
+   1799
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "850012465",
+  "label": "Symphonies–D major; Manuscript copy; I-Bsp MS.D.1.9",
+  "composer": "Leo, Leonardo (1694-1744)",
+  "matched": [
+   "1.1.1 Allegro e presto"
+  ],
+  "sources": [
+   "603001961"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro e presto",
+    "notes": 10,
+    "agree": 10,
+    "source": "603001961",
+    "source_inc": "1.1.1 Alleg[ro]"
+   }
+  ],
+  "life": [
+   1694,
+   1744
+  ],
+  "copy_years": [
+   1750,
+   1799
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "850025478",
+  "label": "Sonatas–C major; Manuscript copy; I-Vqs MS Cl.VIII.27 (1216)",
+  "composer": "Benevoli, Orazio (1605-1672)",
+  "matched": [
+   "1.1.1 Largo"
+  ],
+  "sources": [
+   "310000314",
+   "310005071",
+   "451012648",
+   "455026822",
+   "850504601"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Largo",
+    "notes": 14,
+    "agree": 14,
+    "source": "310000314",
+    "source_inc": "1.1.1"
+   }
+  ],
+  "life": [
+   1605,
+   1672
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "date-impossible"
+ },
+ {
+  "anon": "850026335",
+  "label": "Symphonies–D major; Manuscript copy; I-Rc Mss. 6209",
+  "composer": "Mysliveček, Josef (1737-1781)",
+  "matched": [
+   "1.1.1 Allegro con spirito"
+  ],
+  "sources": [
+   "400004242",
+   "400012586",
+   "850008755"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro con spirito",
+    "notes": 15,
+    "agree": 15,
+    "source": "400004242",
+    "source_inc": "1.1.1 Allegro con spirito"
+   }
+  ],
+  "life": [
+   1737,
+   1781
+  ],
+  "copy_years": [
+   1790,
+   1799
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "850026336",
+  "label": "Symphonies–D major; Manuscript copy; I-Rc Mss. 6203",
+  "composer": "Davaux, Jean-Baptiste (1742-1822)",
+  "matched": [
+   "1.1.1 Allegro moderato"
+  ],
+  "sources": [
+   "1001348889",
+   "1001379551",
+   "1001381521",
+   "240001379",
+   "400011780",
+   "400011783",
+   "551005498"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro moderato",
+    "notes": 12,
+    "agree": 12,
+    "source": "1001348889",
+    "source_inc": "1.1.1 [p. 6, at left of the 1st stave:] SINFONIA II [above the 1st stave:] All|o moderato"
+   }
+  ],
+  "life": [
+   1742,
+   1822
+  ],
+  "copy_years": [
+   1750,
+   1799
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "850026338",
+  "label": "Symphonies–D major; Manuscript copy; I-Rc Mss. 6245/12",
+  "composer": "Hoffmeister, Franz Anton (1754-1812)",
+  "matched": [
+   "1.1.1 Adagio"
+  ],
+  "sources": [
+   "400173224"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Adagio",
+    "notes": 8,
+    "agree": 6,
+    "source": "400173224",
+    "source_inc": "1.1.1 Adagio"
+   }
+  ],
+  "life": [
+   1754,
+   1812
+  ],
+  "copy_years": [
+   1800,
+   1849
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "850604354",
+  "label": "Symphonies–D major; Manuscript copy; I-OS Mss.Mus.B 3552/1",
+  "composer": "Galuppi, Baldassare (1706-1785)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "1001102886",
+   "230007890",
+   "250000650",
+   "400006906",
+   "400110828",
+   "410004182",
+   "452505237",
+   "466000315",
+   "530011562",
+   "806435726",
+   "850011306",
+   "850012002"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 15,
+    "agree": 15,
+    "source": "1001102886",
+    "source_inc": "1.1.1 All[egr]o assai"
+   }
+  ],
+  "life": [
+   1706,
+   1785
+  ],
+  "copy_years": [
+   1761,
+   1790
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "850604858",
+  "label": "Symphonies–C major; Manuscript copy; I-OS Mss.Mus.B 3854",
+  "composer": "Benatti, Vincenzo (1767-1797)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "850604079"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 16,
+    "agree": 16,
+    "source": "850604079",
+    "source_inc": "1.1.1 All.o"
+   }
+  ],
+  "life": [
+   1767,
+   1797
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "850605102",
+  "label": "Symphonies–C major; Manuscript copy; I-OS Mss.Mus.B 4595",
+  "composer": "Riedt, Friedrich Wilhelm (1710-1783)",
+  "matched": [
+   "1.1.1 All.o Spiritoso - Andantino amoroso"
+  ],
+  "sources": [
+   "240003711"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 All.o Spiritoso - Andantino amoroso",
+    "notes": 8,
+    "agree": 4,
+    "source": "240003711",
+    "source_inc": "1.2.1 Allegro"
+   }
+  ],
+  "life": [
+   1710,
+   1783
+  ],
+  "copy_years": [
+   1791,
+   1810
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "850607316",
+  "label": "Symphonies–G major; Manuscript copy; I-OS Mss.Mus.B 4713",
+  "composer": "Pleyel, Ignace (1757-1831)",
+  "matched": [
+   "1.1.1 All.o"
+  ],
+  "sources": [
+   "201008913",
+   "530002776",
+   "600033684"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 All.o",
+    "notes": 9,
+    "agree": 9,
+    "source": "201008913",
+    "source_inc": "1.1.1 Allegro"
+   }
+  ],
+  "life": [
+   1757,
+   1831
+  ],
+  "copy_years": [
+   1811,
+   1840
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "850607317",
+  "label": "Symphonies–B♭ major; Manuscript copy; I-OS Mss.Mus.B 4714",
+  "composer": "Farinelli, Giuseppe (1769-1836)",
+  "matched": [
+   "1.1.1 And.e Grazioso - All.o con spirito"
+  ],
+  "sources": [
+   "840015171",
+   "850033517",
+   "850610816"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 And.e Grazioso - All.o con spirito",
+    "notes": 15,
+    "agree": 15,
+    "source": "840015171",
+    "source_inc": "1.2.1"
+   }
+  ],
+  "life": [
+   1769,
+   1836
+  ],
+  "copy_years": [
+   1811,
+   1840
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "850607318",
+  "label": "Symphonies–B♭ major; Manuscript copy; I-OS Mss.Mus.B 4715",
+  "composer": "Benatti, Vincenzo (1767-1797)",
+  "matched": [
+   "1.1.1 All.o"
+  ],
+  "sources": [
+   "850601928",
+   "850605404"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 All.o",
+    "notes": 10,
+    "agree": 10,
+    "source": "850601928",
+    "source_inc": "1.1.1 Allegro"
+   }
+  ],
+  "life": [
+   1767,
+   1797
+  ],
+  "copy_years": [
+   1791,
+   1800
+  ],
+  "names_composer": true,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "known"
+ },
+ {
+  "anon": "850607491",
+  "label": "Symphonies–D major; Manuscript copy; I-OS Mss.Mus.B 4704",
+  "composer": "Rolla, Alessandro (1757-1841)",
+  "matched": [
+   "1.1.1 Largo - All.o"
+  ],
+  "sources": [
+   "851002700"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Largo - All.o",
+    "notes": 13,
+    "agree": 13,
+    "source": "851002700",
+    "source_inc": "1.1.1 N. 1:. Largo maestoso"
+   }
+  ],
+  "life": [
+   1757,
+   1841
+  ],
+  "copy_years": [
+   1801,
+   1900
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "850607664",
+  "label": "Symphonies–D major; Manuscript copy; I-OS Mss.Mus.B 4698",
+  "composer": "Cimarosa, Domenico (1749-1801)",
+  "matched": [
+   "1.1.1 All.o con brio"
+  ],
+  "sources": [
+   "850008353"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 All.o con brio",
+    "notes": 11,
+    "agree": 11,
+    "source": "850008353",
+    "source_inc": "1.1.1 Sinfonia. Allegro con molto brio"
+   }
+  ],
+  "life": [
+   1749,
+   1801
+  ],
+  "copy_years": [
+   1811,
+   1840
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "850607665",
+  "label": "Symphonies–D major; Manuscript copy; I-OS Mss.Mus.B 4699",
+  "composer": "Pecháček, Franz Martin (1763-1816)",
+  "matched": [
+   "1.1.1 All.o spiritoso",
+   "1.1.2 All.o spiritoso"
+  ],
+  "sources": [
+   "551006846"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 All.o spiritoso",
+    "notes": 6,
+    "agree": 3,
+    "source": "551006846",
+    "source_inc": "1.9.1"
+   },
+   {
+    "inc": "1.1.2 All.o spiritoso",
+    "notes": 6,
+    "agree": 3,
+    "source": "551006846",
+    "source_inc": "1.9.1"
+   }
+  ],
+  "life": [
+   1763,
+   1816
+  ],
+  "copy_years": [
+   1811,
+   1840
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [
+   "Chelleri, Fortunato (1690-1757)",
+   "Monteverdi, Claudio (1567-1643)"
+  ],
+  "class": "weak"
+ },
+ {
+  "anon": "850607986",
+  "label": "Symphonies–D major; Manuscript copy; I-OS Mss.Mus.B 4692",
+  "composer": "Caruso, Luigi (1754-1822)",
+  "matched": [
+   "1.1.1 All.o"
+  ],
+  "sources": [
+   "850611268"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 All.o",
+    "notes": 10,
+    "agree": 10,
+    "source": "850611268",
+    "source_inc": "1.1.1 Allegro"
+   }
+  ],
+  "life": [
+   1754,
+   1822
+  ],
+  "copy_years": [
+   1811,
+   1840
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "850608132",
+  "label": "Symphonies–C major; Manuscript copy; I-OS Mss.Mus.B 4682",
+  "composer": "Benatti, Vincenzo (1767-1797)",
+  "matched": [
+   "1.1.1"
+  ],
+  "sources": [
+   "850610123"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1",
+    "notes": 6,
+    "agree": 5,
+    "source": "850610123",
+    "source_inc": "1.1.1 Allegro"
+   }
+  ],
+  "life": [
+   1767,
+   1797
+  ],
+  "copy_years": [
+   1791,
+   1810
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "850608133",
+  "label": "Symphonies–C minor; Manuscript copy; I-OS Mss.Mus.B 4683",
+  "composer": "Paër, Ferdinando (1771-1839)",
+  "matched": [
+   "1.1.1 Larghetto Stac.to - All.o"
+  ],
+  "sources": [
+   "850604019"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Larghetto Stac.to - All.o",
+    "notes": 12,
+    "agree": 12,
+    "source": "850604019",
+    "source_inc": "1.1.1 Larghetto staccato"
+   }
+  ],
+  "life": [
+   1771,
+   1839
+  ],
+  "copy_years": [
+   1811,
+   1840
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "850609331",
+  "label": "Symphonies–D major; Manuscript copy; I-OS Mss.Mus.B 4697",
+  "composer": "Mysliveček, Josef (1737-1781)",
+  "matched": [
+   "1.1.1 All.o con spirito"
+  ],
+  "sources": [
+   "400004242",
+   "400012586",
+   "850008755"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 All.o con spirito",
+    "notes": 11,
+    "agree": 11,
+    "source": "400004242",
+    "source_inc": "1.1.1 Allegro con spirito"
+   }
+  ],
+  "life": [
+   1737,
+   1781
+  ],
+  "copy_years": [
+   1701,
+   1800
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "850708125",
+  "label": "Symphonies–D major; Manuscript copy; I-Pl ATVb 77",
+  "composer": "Hönicke, Friedrich (1755-1809)",
+  "matched": [
+   "1.1.1 andante"
+  ],
+  "sources": [
+   "250014259"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 andante",
+    "notes": 13,
+    "agree": 3,
+    "source": "250014259",
+    "source_inc": "1.8.1 Nro 7.. Andantino con giusto"
+   }
+  ],
+  "life": [
+   1755,
+   1809
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "850733911",
+  "label": "Symphonies–D major; Manuscript copy; I-BEc AM.ms79",
+  "composer": "Paisiello, Giovanni (1740-1816)",
+  "matched": [
+   "1.1.1 All:o vivace"
+  ],
+  "sources": [
+   "806435695",
+   "850008786",
+   "850008787",
+   "850008788",
+   "850012049",
+   "850777969",
+   "850781606",
+   "852029667",
+   "853000289"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 All:o vivace",
+    "notes": 10,
+    "agree": 10,
+    "source": "806435695",
+    "source_inc": "1.1.1 Atto Pmo. Sinfonia. Allegro vivace"
+   }
+  ],
+  "life": [
+   1740,
+   1816
+  ],
+  "copy_years": [
+   1791,
+   1810
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "854005377",
+  "label": "Symphonies–G major; Possible autograph manuscript; I-Ria Mss. Vess. 910",
+  "composer": "Davide da Bergamo, OFMRef (1791-1863)",
+  "matched": [
+   "1.1.1 Largo"
+  ],
+  "sources": [
+   "850028226"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Largo",
+    "notes": 7,
+    "agree": 7,
+    "source": "850028226",
+    "source_inc": "1.1.1 Ripieno."
+   }
+  ],
+  "life": [
+   1791,
+   1863
+  ],
+  "copy_years": [
+   1800,
+   1849
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "854005387",
+  "label": "Symphonies–D major; Manuscript copy; I-Ria Mss. Vess. 918",
+  "composer": "Paër, Ferdinando (1771-1839)",
+  "matched": [
+   "1.1.1 Larghetto"
+  ],
+  "sources": [
+   "858000019"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Larghetto",
+    "notes": 21,
+    "agree": 21,
+    "source": "858000019",
+    "source_inc": "1.1.1 [Sinfonia]. Larghetto"
+   }
+  ],
+  "life": [
+   1771,
+   1839
+  ],
+  "copy_years": [
+   1800,
+   1899
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "854005521",
+  "label": "Symphonies–A major; Manuscript copy; I-Ria Mss. Vess. 975",
+  "composer": "Grazioli, Filippo (1774-1840)",
+  "matched": [
+   "1.1.1 Andante"
+  ],
+  "sources": [
+   "854004388"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Andante",
+    "notes": 9,
+    "agree": 9,
+    "source": "854004388",
+    "source_inc": "1.1.1 Maestoso"
+   }
+  ],
+  "life": [
+   1774,
+   1840
+  ],
+  "copy_years": [
+   1800,
+   1849
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "854006142",
+  "label": "Symphonies–D major; Manuscript copy; I-Ria Mss. Vess. 1138",
+  "composer": "Vargas, Urbán de (1606-1656)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "100500068"
+  ],
+  "movements": [
+   {
+    "inc": "1.1.1 Allegro",
+    "notes": 4,
+    "agree": 4,
+    "source": "100500068",
+    "source_inc": "1.2.1 Romance / [Coplas]."
+   }
+  ],
+  "life": [
+   1606,
+   1656
+  ],
+  "copy_years": [
+   1800,
+   1899
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "competitors": [],
+  "class": "date-impossible"
+ }
+]

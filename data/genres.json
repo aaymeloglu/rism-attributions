@@ -1,0 +1,38 @@
+[
+ {
+  "subject": "Symphonies",
+  "slug": "symphonies",
+  "anonymous_with_incipits": 878,
+  "run": "2026-09-26"
+ },
+ {
+  "subject": "Concertos",
+  "slug": "concertos",
+  "anonymous_with_incipits": 899
+ },
+ {
+  "subject": "Sonatas",
+  "slug": "sonatas",
+  "anonymous_with_incipits": 3217
+ },
+ {
+  "subject": "Overtures",
+  "slug": "overtures",
+  "anonymous_with_incipits": 329
+ },
+ {
+  "subject": "Operas",
+  "slug": "operas",
+  "anonymous_with_incipits": 1771
+ },
+ {
+  "subject": "Masses",
+  "slug": "masses",
+  "anonymous_with_incipits": 5853
+ },
+ {
+  "subject": "Arias (voc.)",
+  "slug": "arias",
+  "anonymous_with_incipits": 8299
+ }
+]
