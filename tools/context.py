@@ -164,7 +164,26 @@ def key_label_mismatch(label, first_keysig):
 
 
 def _words(text):
-    return re.findall(r"[a-zà-ÿ]+", (text or "").lower())
+    import unicodedata
+    plain = "".join(c for c in unicodedata.normalize("NFKD", (text or "").lower()) if not unicodedata.combining(c))
+    return re.findall(r"[a-z]+", plain)
+
+
+def work_title(label):
+    """Title of a source label, without key, genre qualifiers or shelfmark: 'Didone abbandonata'."""
+    t = (label or "").split(";")[0].split("–")[0]
+    t = re.sub(r"\((?:excerpts|arrangement|fragments)[^)]*\)", "", t, flags=re.I)
+    return " ".join(_words(t))
+
+
+def same_work_title(a_label, b_label):
+    """The anonymous record's title already names the work of the attributed copy. For a work with
+    one known composer the match then adds little; for a libretto set by many composers
+    (Didone, Artaserse) it decides whose setting this is."""
+    a, b = work_title(a_label), work_title(b_label)
+    generic = {"operas", "arias", "symphonies", "concertos", "sonatas", "overtures", "variations", "songs", "duets",
+               "potpourris", "fantasies", "marches", "waltzes", "dances", "pieces", "divertimentos", "quartets", ""}
+    return bool(a) and a == b and a not in generic
 
 
 def text_agreement(a, b):

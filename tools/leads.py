@@ -138,6 +138,8 @@ def evidence(lead):
             "copy_years": [min(yrs), max(yrs)] if yrs else None,
             "names_composer": lead["composer"].split(",")[0].split(" (")[0] in json.dumps(a, ensure_ascii=False),
             "catalogue_number_in_title": bool(CATNO.search(lead["label"])),
+            "title_names_work": sorted({m["source"] for m in counted
+                                        if context.same_work_title(lead["label"], rism.label(rism.source(m["source"])))}),
             "prior_documentation": [{"source": c, "text": t} for c, t in context.prior_documentation(lead["anon"], a, cand_srcs)],
             "attribution_flags": context.attribution_flags(lead["composer"], cand_srcs),
             "anonymous_record_authorship": context.authorship_notes(a, lead["composer"]),

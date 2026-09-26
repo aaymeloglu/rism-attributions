@@ -234,3 +234,228 @@ concertos,850807553,"Rietz, Julius (1812-1877)",rejected,,,Composer born after t
 concertos,851002699,"Chiesa, Melchiorre (1716-1783)",confirmed,secure,new,The one encoded movement matches Chiesa's symphony in D (RISM 400006391) note for note; RISM catalogues the anonymous copy as a concerto.
 concertos,854005386,"Pleyel, Ignace (1757-1831)",unresolved,secure,new,"Its second incipit (1.1.2) has the melody of the Rondo Allegro (incipit 1.2.1) of a Pleyel quintet arrangement a whole tone higher, the turn written differently; the first incipit is a held G. RISM titles the copy F major, but that first incipit has no key signature."
 concertos,854005778,"Gyrowetz, Adalbert (1763-1850)",probable,secure,new,"The melody of Duo III (incipit 1.3.1, the opening of the third duet) of Gyrowetz's 3 Duets (print), a whole tone higher; RISM catalogues the anonymous copy as a concerto."
+operas,1001030065,"Demantius, Christoph (1567-1643)",rejected,,,Only a fragment of a Magnificat agrees; the composer's dates also rule it out
+operas,1001030070,"Richter, Franz Xaver (1709-1789)",confirmed,secure,anonymous-record,"The Sinfonia matches Richter's symphony BoeR 59, the number the anonymous title already carries."
+operas,1001036244,"Gluck, Christoph Willibald (1714-1787)",rejected,,,"Only short fragments agree, under different words and in other keys"
+operas,1001036244,"Guglielmi, Pietro Alessandro (1728-1804)",rejected,,,"Only a fragment agrees, under different words and in another key"
+operas,1001102497,"Walch, Johann Heinrich (1776-1855)",rejected,,,Only a broken-chord accompaniment figure agrees
+operas,1001122975,Compilations,confirmed,work-only,title-names-work,"Matches no. 10 (incipits 1.13.1 and 1.13.2, 'Einen Koffer wird man se...', same words) of the pasticcio Der Kapellmeister aus Venedig, which RISM catalogues under 'Compilations'; this identifies the number, not a composer. RISM titles the anonymous copy D major, but its first incipit has no key signature."
+operas,1001132289,"Ricci, Luigi (1805-1859)",confirmed,secure,title-names-work,"The Andante matches the Sinfonia of Luigi Ricci's L'Orfanella di Ginevra, which the title already names."
+operas,1001187741,"Litta, Giulio (1822-1891)",confirmed,secure,new,Matches the Cantabile (incipit 1.2.1) of an arrangement from Litta's Bianca di Santafiora over 15 pitches.
+operas,1001215903,"Hasse, Johann Adolf (1699-1783)",confirmed,secure,new,Violin and voice match Hasse's setting of the aria 'Benché spiri a ciel sereno' (the comparator's violin incipit 1.1.1); the title names an aria text others also set.
+operas,1001238252,"Guglielmi, Pietro Carlo (1772-1817)",rejected,,,Only figuration or a short fragment agrees
+operas,1001305374,"Farinelli, Giuseppe (1769-1836)",confirmed,secure,new,"'Al suo dolore e vivo ard...' matches 'Al mio dolce e vivo ardo' (incipit 1.2.2) of Giuseppe Farinelli's I riti d'Efeso over 18 pitches, a variant of the same words, transposed."
+operas,1001318287,"Cocchi, Gioacchino (1712-1796)",probable,uncertain,new,"The aria 'Io sono una ragazza' (incipits 1.8.1, 1.8.2) matches the 'Aria 2da' (incipit 1.1.1) of La maestra, attributed to Cocchi only conjecturally: an insertion aria in this copy of La Cecchina."
+operas,1001318287,"Piccinni, Niccolò (1728-1800)",confirmed,secure,title-names-work,"La Cecchina is the other title of Piccinni's La buona figliuola. Its arias match that opera's arias and cavatinas with the same words in several copies, a tone apart: 'Che piacer che bel diletto' (1.4.1, 1.4.2), 'Quel che d'amore si chiama' (1.5.1, as 1.1.2 of RISM 106468), the Aria di Mengotto (1.5.2, as the Cavatina 1.1.1 of RISM 1001266334), the Aria di Sandrina (1.6.1, 1.6.2, as the Scena IV Cavatina 1.13.1, 1.13.2 of RISM 1001281572), the Aria del Marchese (1.7.1, 1.7.2, as 1.16.2 of RISM 1001280681), an Andantino (1.9.1, 1.9.2, as the Aria 1.1.1 of RISM 1001263265), and the Finale I (1.22.1)."
+operas,1001319606,"Paisiello, Giovanni (1740-1816)",rejected,,,"Only a figure inside an aria, in another key, agrees"
+operas,1001321317,"Lang, Josephine (1815-1880)",rejected,,,Only figuration or a short fragment agrees
+operas,1001330402,"Clement, Johann Georg (1710-1794)",rejected,,,Only fragments inside a motet agree
+operas,1001341125,Compilations,confirmed,work-only,title-names-work,"The song 'Lovely nymph assuage my...' matches, with the same words and a tone apart, another arrangement from Midas, the ballad opera by Kane O'Hara (cross-referenced by the anonymous record) catalogued under 'Compilations'; this identifies the song, not its composer."
+operas,1001356080,"Vanhal, Johann Baptist (1739-1813)",confirmed,secure,new,The theme and variations 1-2 (incipits 1.1.1-1.3.1) match Vanhal's variations in two copies; the anonymous 'Var. 2.' is 'Var.3.' (incipit 1.4.1) of the print.
+operas,1001363895,"Auber, Daniel-François-Esprit (1782-1871)",confirmed,work-only,title-names-work,"Numbers of the quadrille match arrangements from Auber's La Part du diable (incipits 1.9.1, 1.1.1, 1.8.1 and the Romanze 1.2.1 of those copies), the opera the title already names; this identifies the tunes, not the quadrille's arranger (the record notes a pencilled 'Zollner')."
+operas,1001371667,"Mittich, Ferdinand (1772-1840)",rejected,,,Only figuration or a short fragment agrees
+operas,108651,"Campra, André (1660-1744)",confirmed,secure,title-names-work,"'Seuls confidents de mes...' matches, with the same words and transposed, an excerpt from Iphigénie en Tauride attributed to Campra; the title already names the work, with a query."
+operas,115893,"Duni, Egidio Romualdo (1708-1775)",confirmed,secure,title-names-work,"'Voilà la petite laitière' matches, with the same words and a fourth apart, an excerpt from Duni's Les deux chasseurs et la laitière."
+operas,150204785,"Abos, Girolamo (1715-1760)",probable,secure,new,The French air 'Quel eclatans' has the melody of the violin opening of an Abos aria from Alessandro nell'Indie: a parody on his music.
+operas,190001606,"Hasse, Johann Adolf (1699-1783)",probable,secure,new,"The aria 'Rigida sei' has the music of an aria (violin incipit 1.27.1) in Hasse's Cajo Fabricio, transposed: Hasse reusing it, if this Semiramis is his setting."
+operas,190101521,"Favart, Charles Simon (1710-1792)",confirmed,disputed,title-names-work,"'Viens doux vainqueur' matches, with the same words, the Divertissement air (incipit 1.24.1) of the printed Le Prix de Cythère, which the title already names; the print cross-references De Rochet."
+operas,210021818,"Cimarosa, Domenico (1749-1801)",confirmed,secure,new,"The aria 'Idol mio se voi tacete' matches, with the same words, violin and tenor incipits 1.16.1 and 1.16.2 of Cimarosa's I tre amanti."
+operas,212008730,"Schiassi, Gaetano Maria (1698-1754)",rejected,,,Only figuration or a short fragment agrees
+operas,230007311,"Salieri, Antonio (1750-1825)",confirmed,secure,new,"The flute incipit is an arrangement of the aria 'Nato io son nello stato' (incipit 1.1.2) from Salieri's Axur re d'Ormus, transposed."
+operas,240006980,"Oertzen, Karl Ludwig (1801-1871)",confirmed,secure,title-names-work,"The Entre-Act, the duet 'Schlagt zu Gevatter', the Trinkchor and the Schlussgesang match Oertzen's Das Grab des Mufti (incipits 1.7.1, the Duetto 1.9.1 and 1.9.2 with the same words, the chorus 1.10.1 and the Schluss-Gesang 1.12.1)."
+operas,240006980,"Reuling, Ludwig Wilhelm (1802-1879)",rejected,,,Only eight pitches of a chorus agree
+operas,240007037,"Sarti, Giuseppe (1729-1802)",confirmed,secure,new,"'Dammi o sposa un solo amplesso' matches, with the same words, incipits 1.23.1 and 1.23.2 of the print of Sarti's Ciro riconosciuto."
+operas,240007711,"Hasse, Johann Adolf (1699-1783)",confirmed,uncertain,new,"Matches an 'Elephanten-Marsch' attributed to Hasse only conjecturally; the anonymous copy is an arrangement from Solimano, one of several settings, so the match names Hasse's setting if the attribution holds."
+operas,250000159,"Jöpel, Johann Christian (1730c-1808)",rejected,,,"Only fragments inside a chorale setting, in another key, agree"
+operas,250000161,"Henneberg, Johann Baptist (1768-1822)",confirmed,secure,new,"Numbers match Henneberg's Die Waldmänner with the same words: the aria (1.3.1, 1.3.2 as 1.17.1, 1.17.2), Duetto (1.4.1 as 1.18.1), Septetto (1.5.1, 1.5.2 as 1.19.1, 1.19.2), aria (1.6.1 as 1.20.1), recitative (1.7.1 as 1.21.1) and chorus (1.8.1 as 1.22.2). One text differs ('Bleibt zurück ihr feinen Liebchen' against 'Bleibt zurück liebe Weibchen')."
+operas,250003505,"Cherubini, Luigi (1760-1842)",confirmed,secure,title-names-work,The polonaise matches a guitar arrangement from Cherubini's Lodoïska.
+operas,250015901,"Bellini, Vincenzo (1801-1835)",confirmed,work-only,title-names-work,"The horn melody is a tune from Norma, a sixth apart from another arrangement; the title already names the opera, and the record says the potpourri's arranger is unknown."
+operas,250015903,"Beyer, Ferdinand (1803-1863)",rejected,,,"Both copies arrange the same Donizetti tune the anonymous title already names; the match identifies Beyer's variations as another arrangement, not this arranger"
+operas,250015903,"Donizetti, Gaetano (1797-1848)",confirmed,work-only,title-names-work,"The tunes match arrangements from La Fille du régiment ('Salut à la France', incipit 1.2.1 of two copies), which the title already names; the record says the potpourri's arranger is unknown."
+operas,250015993,"Walch, Johann Heinrich (1776-1855)",probable,disputed,new,The dance has the tune of the 'Geschwind Marsch' (incipit 1.10.1) of Walch's Pièces d'harmonie a tone apart; the anonymous record cross-references Nohr.
+operas,270001084,"Pergolesi, Giovanni Battista (1710-1736)",rejected,,,Only figuration or a short fragment agrees
+operas,270002531,"Guglielmi, Pietro Alessandro (1728-1804)",rejected,,,Rhythm and key differ; only a contour agrees
+operas,270002715,"Reichel, Adolf (1816-1896)",rejected,,,Only a fragment inside a modern copy of a sonata agrees
+operas,280000139,"Moniuszko, Stanisław (1819-1872)",rejected,,,Composer born after the copy; only a fragment agrees
+operas,280000408,"Reuß, Heinrich IV. (1821-1894)",rejected,,,Melodies differ; only a few pitches agree
+operas,280001043,"Salieri, Antonio (1750-1825)",confirmed,secure,anonymous-record,The march matches the Finale march (incipit 1.22.1) of Salieri's Axur re d'Ormus; the anonymous record already names Salieri.
+operas,280001054,"Naumann, Johann Gottlieb (1741-1801)",rejected,,,A recitative under different words agrees only in a few pitches with an aria
+operas,280002296,"Cimarosa, Domenico (1749-1801)",probable,uncertain,anonymous-record,The overture's tremolo opening matches a symphony attributed to Cimarosa only conjecturally; the anonymous record already names Cimarosa.
+operas,280004125,"Bellini, Vincenzo (1801-1835)",confirmed,secure,new,The clarinet Andante sostenuto (incipit 1.2.1) is an arrangement of the Quintet from Bellini's La sonnambula (incipit 1.1.1 of RISM 1001235060); the five-bar search also finds other arrangements of the tune.
+operas,400015041,"Winter, Peter von (1754-1825)",confirmed,disputed,title-names-work,"'Cremona holdes Mädchen' and the sextet 'Dies sind Timoneus' Töne' match, with the same words, incipits 1.1.2 and 1.1.1 of other Babylons Pyramiden excerpts; the anonymous record cross-references Mederitsch, who shared the opera."
+operas,400065567,"Händel, Georg Friedrich (1685-1759)",confirmed,disputed,anonymous-record,"Matches an arrangement from Muzio Scevola; the title already carries HWV 13, and the record cross-references Amadei and Bononcini, who wrote the other acts."
+operas,400065578,"Händel, Georg Friedrich (1685-1759)",confirmed,secure,anonymous-record,The Largo matches another Alessandro Severo excerpt; the title already carries HWV A13.
+operas,400066263,"Legrenzi, Giovanni (1626-1690)",rejected,,,Only a fragment inside an aria agrees
+operas,400110745,"Boyce, William (1711-1779)",rejected,,,"Only short fragments agree, under different words, in another key or genre"
+operas,400110745,"Favart, Charles Simon (1710-1792)",unresolved,disputed,new,"Several airs share their tunes, a fourth or fifth apart, with vaudevilles in Favart's opéras-comiques; timbres were reused from work to work, so this shows shared tunes rather than a composer. The anonymous record notes the piece was wrongly attributed to Gluck; the comparators cross-reference Francœur and De Rochet."
+operas,400110745,"Martini, Giovanni Battista, OFMConv (1706-1784)",rejected,,,"Only short fragments agree, under different words, in another key or genre"
+operas,400110745,"Purcell, Henry (1659-1695)",rejected,,,"Only short fragments agree, under different words, in another key or genre"
+operas,400110745,"Reutter, Georg (1708-1772)",rejected,,,"Only short fragments agree, under different words, in another key or genre"
+operas,400110745,"Weiske, Johann Gottfried (1745-1806)",rejected,,,"Only short fragments agree, under different words, in another key or genre"
+operas,402001531,"Leone, Gabriele (1725-1790)",unresolved,uncertain,title-names-work,"The same tune as another Tonnelier arrangement under different words ('Dans un verger Colinette' against 'Où courez-vous ma bergère'); that copy names Leone, with a conjectural cross-reference to Audinot."
+operas,402001678,"Isouard, Nicolas (1775-1818)",confirmed,secure,title-names-work,"'Je suis modeste et soumise' matches, with the same words, incipit 1.1.2 of another arrangement from Isouard's Cendrillon, transposed."
+operas,402002184,"Lechleitner, Wilhelm, CanReg (1779-1827)",rejected,,,Only a transposed fragment inside a sacred work agrees
+operas,402002201,"Gaveaux, Pierre (1760-1825)",confirmed,secure,title-names-work,'Mes chers enfants unissez...' has the music of 'Seid glücklich Kinder' in a German arrangement of Gaveaux's L'Amour filial: the same number with translated words.
+operas,402002273,"Philidor, François-André (1726-1795)",confirmed,secure,title-names-work,'Tôt battez chaud' is the Vaudeville (incipit 1.38.1) of Philidor's Le Maréchal-Ferrant.
+operas,402007148,"Lortzing, Albert (1801-1851)",confirmed,secure,new,"The Introduction (incipits 1.1.1, 1.1.2) matches the Introduction of Lortzing's Hans Sachs (incipit 1.2.1 of the print LoWV 43)."
+operas,402007150,"Fassbaender, Peter (1869-1920)",rejected,,,Only figuration or a short fragment agrees
+operas,402009931,"Vivaldi, Antonio (1678-1741)",rejected,,,Only a fragment deep inside a symphony incipit agrees
+operas,406002769,"Wagenseil, Georg Christoph (1715-1777)",probable,uncertain,new,"'Du moment que l'on aime' has the melody of the aria (incipit 1.3.1) of an oratorio attributed to Wagenseil as alleged, a tone higher: a parody on that aria."
+operas,450011707,"Dalayrac, Nicolas-Marie (1753-1809)",confirmed,secure,new,"The flute piece is the aria 'Je m'unis à ce que j'ai...' from Dalayrac's Léon (print), transposed."
+operas,450029538,"Scarlatti, Alessandro (1660-1725)",probable,secure,anonymous-record,The 'Aria [Love would invade me]' has the music of the aria 'Ondeggiante agitato' (incipit 1.1.1) from Scarlatti's Il prigioniero fortunato under English words; the anonymous record already names Scarlatti.
+operas,450056291,"Meyerbeer, Giacomo (1791-1864)",confirmed,work-only,anonymous-record,"Tunes of the potpourri match Les Huguenots (incipits 1.1.2 and 1.29.2 of the print); its Andantino also agrees partway with a figure in Le Ricordanze (incipit 1.1.1 of RISM 455001012). The anonymous record already names Meyerbeer; this identifies the tunes, not the potpourri's arranger."
+operas,450057076,"Mozart, Wolfgang Amadeus (1756-1791)",confirmed,work-only,anonymous-record,"The theme is 'Das klinget so herrlich' (incipit 1.6.1) from Die Zauberflöte, which the record already names; the variations' composer is not identified."
+operas,450059864,"Meyerbeer, Giacomo (1791-1864)",confirmed,work-only,anonymous-record,A number matches Robert le Diable (incipit 1.5.1 of an arrangement); the Allegro brillante matches a Melodie attributed to Meyerbeer as alleged (incipit 1.1.1 of RISM 1001357041). The record already names Meyerbeer; the potpourri's arranger is not identified.
+operas,450060124,"Moscheles, Ignaz (1794-1870)",confirmed,secure,new,"The Allegro (incipit 1.2.1) matches the Allegretto (incipit 1.2.1) of Moscheles's Fantaisie dramatique, grace notes included."
+operas,450060124,"Rossini, Gioachino (1792-1868)",confirmed,work-only,anonymous-record,The Introduction is 'Una voce poco fa' from Il barbiere di Siviglia; the record cross-references Rossini for the theme of Moscheles's fantasy.
+operas,450060145,"Diabelli, Anton (1781-1858)",rejected,,,Only figuration or a short fragment agrees
+operas,450065499,Grundling,confirmed,name-only,comparator-record,"Comparator 230008400 already documents this copy of the variations on a Paisiello theme, headed only 'Grundling'."
+operas,451025526,"Vierling, Johann Gottfried (1750-1813)",rejected,,,Only a fragment inside a cantata aria agrees
+operas,451026287,"Schindelmeisser, Louis Alexander Balthasar (1811-1864)",confirmed,uncertain,new,The Bacchanale matches Schindelmeisser's Bacchanale (RISM 270001062) note for note; both records cross-reference Gounod.
+operas,451501652,"Weber, Bernhard Anselm (1764-1821)",confirmed,disputed,title-names-work,"The song 'Trink armer Mann der Wein ist gut' matches, with the same words, a copy attributed to B. A. Weber, which cross-references Dalayrac."
+operas,451512024,"Paër, Ferdinando (1771-1839)",rejected,,,Only a scale fragment inside an aria agrees
+operas,451513550,"Salieri, Antonio (1750-1825)",probable,secure,anonymous-record,"The song has the music of the Romance 'Einstens im Römerlande' from Salieri's Axur (German), under different words ('Hört ihr Herrn und laßt euch sagen'); the anonymous record already names Salieri."
+operas,452502351,"Genée, Richard (1823-1895)",confirmed,secure,new,"The recitative 'Hier find' ich euch' matches, with the same words, Genée's autograph recitatives for a German version of Maillart's opera (RISM 1001284143)."
+operas,452502371,"Martín y Soler, Vicente (1754-1806)",confirmed,secure,anonymous-record,"A German version of Una cosa rara: the recitative and aria match no. 8 (incipits 1.26.1 and 1.26.2) and 'Seguir degg'io chi fugge' (incipit 1.9.1), with translated words. The anonymous record already names Martín y Soler."
+operas,452505020,"Mozart, Wolfgang Amadeus (1756-1791)",probable,uncertain,new,"The German scena opens with the violin introduction of Mozart's recitative and aria 'Mia speranza adorata - Ah non sai qual pena' (K. 416) note for note: a German version. The anonymous record cross-references Tuček, whose part (adapter or composer) is not established."
+operas,452515998,"Boieldieu, Adrien (1775-1834)",confirmed,secure,new,Matches a piano arrangement from Boieldieu's Le petit chaperon rouge over 18 pitches.
+operas,452524102,"Rossini, Gioachino (1792-1868)",probable,secure,new,The solo violin incipit (1.1.2) matches Duetto no. 10 (incipit 1.11.1) of a piano arrangement from Rossini's Armida.
+operas,452524103,"Guglielmi, Pietro Alessandro (1728-1804)",probable,secure,new,"A German version: the quartet matches the quartet of Guglielmi's La bella pescatrice (violin incipit 1.15.1), and the soprano's 'Kann mit dir ich Teurer' has the music, with different words, of 'Or che sono a te vicino' (incipit 1.1.2)."
+operas,452524146,"Gyrowetz, Adalbert (1763-1850)",probable,secure,new,"Short matches with numbers of Gyrowetz's Federica ed Adolfo (incipits 1.27.2 and 1.28.1, no. 5 Duetto)."
+operas,453004883,"Neuendorf, Adolf (1843-1897)",confirmed,uncertain,title-names-work,"The zither piece is the song 'Wandern ach wandern' from Der Rattenfänger von Hameln, transposed; the comparators attribute it to Neuendorf only conjecturally, with a cross-reference to Gustav Lange."
+operas,453010366,"Spontini, Gaspare (1774-1851)",probable,work-only,anonymous-record,"The opening matches the first scene of the print of La vestale (incipit 1.2.1) over six pitches; the record already names Spontini, and the potpourri's arranger is not identified."
+operas,453010413,"Cimarosa, Domenico (1749-1801)",rejected,,,Only a transposed fragment inside an aria agrees
+operas,453010622,"Kücken, Friedrich Wilhelm (1810-1882)",confirmed,work-only,anonymous-record,"The potpourri opens with the overture of Kücken's Der Prätendent, transposed; the record already names Kücken, and the potpourri's arranger is not identified."
+operas,453010874,"Meyerbeer, Giacomo (1791-1864)",confirmed,work-only,anonymous-record,"The potpourri opens with the Introduction (incipit 1.2.1) of Meyerbeer's L'Étoile du Nord; the record already names Meyerbeer, and the potpourri's arranger is not identified."
+operas,455008450,"Küffner, Joseph (1776-1856)",confirmed,secure,new,Matches Joseph Küffner's autograph potpourri (RISM 1001059901) over 31 pitches; the anonymous title carries Weber's catalogue number J 277 for the themes.
+operas,455016177,"Chiti, Girolamo (1679-1759)",rejected,,,Only a transposed fragment of a motet agrees
+operas,455018503,"Canthal, August Martin (1804-1881)",confirmed,disputed,new,The Larghetto (incipit 1.2.1) matches no. 23 (incipit 1.1.1) of Canthal's fantasies over 25 pitches. The anonymous record notes attributions to Johann Anton André (Bopp 1930) and others.
+operas,455026202,"Mozart, Wolfgang Amadeus (1756-1791)",rejected,,,No encoded incipit matches
+operas,456011367,"Bononcini, Giovanni (1670-1747)",rejected,,,Only a bass line fragment agrees
+operas,456011398,"Piazza, Gaetano (18.sc)",probable,secure,new,"The Cantabile opening agrees with Gaetano Piazza's setting of L'eroe cinese, but over six pitches of repeated notes only."
+operas,469103503,"Graun, Carl Heinrich (1704-1759)",probable,uncertain,anonymous-record,"The recitative 'E ben oh dei m'arrendo' matches the same words in a Rodelinda copy over six pitches; the anonymous record, a possible autograph, already names Graun and cross-references Zelter."
+operas,469494002,"Giardini, Felice (1716-1796)",confirmed,disputed,anonymous-record,"'Sotto a quel faggio ombroso' matches, with the same words, the Duetto (incipit 1.5.1) of Giardini's 6 Duets; both records cross-reference Naumann."
+operas,500501329,"Müller, Johann Immanuel (1774-1839)",rejected,,,No encoded incipit matches
+operas,550282790,"Hasse, Johann Adolf (1699-1783)",confirmed,secure,new,"A Latin contrafactum: 'Veni mi Jesu care' has the music (violin and voice, aria incipits 1.30.1 and 1.30.2) of 'Non ha ragione ingrato' from Hasse's setting of Didone abbandonata, under different words; the title names a libretto many composers set, and the match identifies Hasse's."
+operas,551001583,"Carulli, Ferdinando (1770-1841)",rejected,,,Composer born after the copy; only a transposed fragment agrees
+operas,551002238,"Bayer, Antonín (1785-1824p)",confirmed,secure,anonymous-record,"The waltzes match Bayer's waltzes (RISM 551002424) note for note, the Trio also as incipit 1.2.1 of RISM 550280026; the anonymous record already names Bayer."
+operas,551005403,"Lully, Jean-Baptiste (1632-1687)",confirmed,secure,anonymous-record,The march headed 'Marche De Thesée [par Lully]' matches La Marche (incipit 1.11.1) of an arrangement from Thésée.
+operas,551005528,"Baumgarten, Gotthilf von (1741-1813)",confirmed,secure,title-names-work,"'Süßes Liebchen' matches, with the same words, incipits 1.4.1 and 1.4.2 of the printed arrangement of Das Grab des Mufti."
+operas,551005529,"Baumgarten, Gotthilf von (1741-1813)",confirmed,secure,title-names-work,"'Lebe wohl, du Land der Knechtschaft' matches, with the same words, incipits 1.29.1 and 1.29.2 of the printed arrangement of Das Grab des Mufti."
+operas,552010264,"Gelinek, Josef, SJ (1758-1825)",confirmed,uncertain,new,"Theme and variations match Gelinek's variations on a Paisiello theme in two copies (the anonymous 'Var 2.' is the theme again, incipit 1.1.1 of RISM 220039395); one copy qualifies Gelinek as alleged."
+operas,552010264,Zelinka,rejected,,,Only a fragment inside a Mass movement agrees
+operas,570001949,"Martín y Soler, Vicente (1754-1806)",confirmed,secure,title-names-work,"No. 8 matches no. 7 (incipit 1.8.1) of another arrangement from L'arbore di Diana, transposed."
+operas,570001956,"Martín y Soler, Vicente (1754-1806)",probable,secure,title-names-work,No. 15 matches the Introduzione (incipit 1.33.1) of L'arbore di Diana over seven pitches.
+operas,600094149,Wiesner,rejected,,,"Only seven pitches, transposed, agree"
+operas,600258378,Bach,rejected,,,Only figuration or a short fragment agrees
+operas,600258378,"Borromeo, Luigi (18.sc)",rejected,,,Only figuration or a short fragment agrees
+operas,600258378,"Breunich, Johann Michael (1699-1755)",rejected,,,Only figuration or a short fragment agrees
+operas,600258378,"Büx, Augustin, OPraem (1702-1751)",rejected,,,Only figuration or a short fragment agrees
+operas,600258378,"Cafaro, Pasquale (1708-1787)",rejected,,,Only figuration or a short fragment agrees
+operas,600258378,"Deller, Florian Johann (1729-1773)",rejected,,,Only figuration or a short fragment agrees
+operas,600258378,"Fasch, Johann Friedrich (1688-1758)",rejected,,,Only figuration or a short fragment agrees
+operas,600258378,"Guglielmi, Pietro Alessandro (1728-1804)",rejected,,,Only figuration or a short fragment agrees
+operas,600258378,"Jommelli, Niccolò (1714-1774)",rejected,,,Only figuration or a short fragment agrees
+operas,600258378,"Locatelli, Pietro Antonio (1695-1764)",rejected,,,Only figuration or a short fragment agrees
+operas,600258378,"Pergolesi, Giovanni Battista (1710-1736)",rejected,,,Only figuration or a short fragment agrees
+operas,600258378,"Quantz, Johann Joachim (1697-1773)",rejected,,,Only figuration or a short fragment agrees
+operas,600258378,"Rathgeber, Johann Valentin, OSB (1682-1750)",rejected,,,Only figuration or a short fragment agrees
+operas,600258378,"Rowaldt, Johann Jacob (1718-1775)",rejected,,,Only figuration or a short fragment agrees
+operas,600258378,"Sabbadini, Narciso (1912-2007)",rejected,,,Composer born after the copy; only figuration agrees
+operas,600258378,"Somis, Giovanni Lorenzo (1688-1775)",rejected,,,Only figuration or a short fragment agrees
+operas,600258378,"Traetta, Tommaso (1727-1779)",rejected,,,Only figuration or a short fragment agrees
+operas,600258378,"Weiss, Silvius Leopold (1686-1750)",rejected,,,No encoded incipit matches
+operas,600258378,"Zimmermann, Wenceslao (18.sc)",rejected,,,Only figuration or a short fragment agrees
+operas,600258862,"Gyrowetz, Adalbert (1763-1850)",rejected,,,Only figuration or a short fragment agrees
+operas,600258870,"Champein, Stanislas (1753-1830)",probable,secure,new,"The melody of the Romance 'Souvent une erreur...' from Champein's Lanval et Viviane, transposed and rebarred from 3/8 to 6/8."
+operas,600500124,"Faber, Franz (18/19)",rejected,,,No encoded incipit matches
+operas,600500479,"Herold, François-Joseph (1755-1802)",probable,secure,new,"A German version: the duet 'Fürwahr diese Glut' (incipits 1.1.1, 1.1.2) has the music, with different words, of 'Jarni son minois' (incipits 1.1.3, 1.1.1) in an arrangement from Les Troqueurs attributed to Herold; the matches are short."
+operas,603000512,"Drobisch, Johann Friedrich (1723-1762)",rejected,,,"Only a fragment, in another key, agrees"
+operas,603000514,"Loos, Karel (1722-1772)",rejected,,,Only a fragment deep inside a wedding song agrees
+operas,700009322,"Saemann, Carl Heinrich (1790-1860)",rejected,,,No encoded incipit matches
+operas,702006152,"Dezède, Nicolas (1745c-1792)",confirmed,secure,title-names-work,"'Sentir avec ardeur' matches, with the same words, another arrangement from L'erreur d'un moment."
+operas,703003382,"Freschi, Domenico (1634-1710)",confirmed,secure,title-names-work,"'Scherzerò con mille vaghi' matches, with the same words, an excerpt from Freschi's setting of Sardanapalo."
+operas,703003396,"Freschi, Domenico (1634-1710)",confirmed,disputed,new,"'Crudo tiranno Amor' matches, with the same words and transposed, an excerpt from Olimpia vendicata attributed to Freschi, which cross-references Sabadini; this names Freschi's setting."
+operas,704003663,"Rameau, Jean-Philippe (1683-1764)",confirmed,secure,new,'C'est assez verser de larmes' matches the violin incipit 1.3.1 of an arrangement from Rameau's Dardanus.
+operas,704003764,"Arcadelt, Jacques (1507-1568)",rejected,,,"Only a common ornamental figure, deep inside an unrelated work, agrees; the composer's dates also rule it out"
+operas,704003764,Besancourt (16.sc),rejected,,,"Only a figure, under different words, agrees"
+operas,704003764,"Bischoff, Kaspar Jakob (1823-1893)",rejected,,,"Only a common ornamental figure, deep inside an unrelated work, agrees; the composer's dates also rule it out"
+operas,704003764,"Bononcini, Giovanni (1670-1747)",rejected,,,Only figuration or a short fragment agrees
+operas,704003764,"Busoni, Ferruccio (1866-1924)",rejected,,,"Only a common ornamental figure, deep inside an unrelated work, agrees; the composer's dates also rule it out"
+operas,704003764,"Dušek, František Xaver (1731-1799)",rejected,,,Only a figure inside a partita movement agrees
+operas,704003764,"Feo, Francesco (1691-1761)",rejected,,,Only figuration or a short fragment agrees
+operas,704003764,"Gianettini, Antonio (1648-1721)",rejected,,,Only figuration or a short fragment agrees
+operas,704003764,"Graun, Carl Heinrich (1704-1759)",rejected,,,Only figuration or a short fragment agrees
+operas,704003764,"Graupner, Christoph (1683-1760)",rejected,,,Only figuration or a short fragment agrees
+operas,704003764,"Guerrero, Francisco (1528-1599)",rejected,,,"Only a common ornamental figure, deep inside an unrelated work, agrees; the composer's dates also rule it out"
+operas,704003764,"Gómez y Olguín, José Antonio (1805-1876)",rejected,,,"Only a common ornamental figure, deep inside an unrelated work, agrees; the composer's dates also rule it out"
+operas,704003764,"Isnardi, Paolo (1536-1596)",rejected,,,"Only a common ornamental figure, deep inside an unrelated work, agrees; the composer's dates also rule it out"
+operas,704003764,"Käfer, Johann Philipp (1672-1728)",rejected,,,Only figuration or a short fragment agrees
+operas,704003764,"Köhler, Siegfried (1927-1984)",rejected,,,"Only a common ornamental figure, deep inside an unrelated work, agrees; the composer's dates also rule it out"
+operas,704003764,"Mascagni, Pietro (1863-1945)",rejected,,,"Only a common ornamental figure, deep inside an unrelated work, agrees; the composer's dates also rule it out"
+operas,704003764,"Obrecht, Jacob (1457c-1505)",rejected,,,"Only a common ornamental figure, deep inside an unrelated work, agrees; the composer's dates also rule it out"
+operas,704003764,"Palestrina, Giovanni Pierluigi da (1525-1594)",rejected,,,"Only a common ornamental figure, deep inside an unrelated work, agrees; the composer's dates also rule it out"
+operas,704003764,"Pepusch, Johann Christoph (1667-1752)",rejected,,,Only figuration or a short fragment agrees
+operas,704003764,"Sarri, Domenico Natale (1679-1744)",rejected,,,Only figuration or a short fragment agrees
+operas,704003764,"Stehle, Johann Gustav Eduard (1839-1915)",rejected,,,"Only a common ornamental figure, deep inside an unrelated work, agrees; the composer's dates also rule it out"
+operas,704003764,"Svendsen, Johan (1840-1911)",rejected,,,"Only a common ornamental figure, deep inside an unrelated work, agrees; the composer's dates also rule it out"
+operas,706000598,"Transchel, Christoph (1721-1800)",rejected,,,Only figuration or a short fragment agrees
+operas,706000603,"Lindpaintner, Peter Josef von (1791-1856)",rejected,,,Only a fragment inside a song agrees
+operas,706001200,"Traetta, Tommaso (1727-1779)",unresolved,secure,new,"'Al tuo sangue io son crudele' agrees, with the same words, with the opening of the aria (incipit 1.1.3) in Siroe excerpts under Traetta's name, but the five-bar search also returns copies under Cacace, Ebhardt, Geisler and Hasse, so whose setting it is stays open."
+operas,706001252,"Pescetti, Giovanni Battista (1704-1766)",probable,secure,new,"The Sinfonia matches an Allegro in the Ezio excerpts attributed to Pescetti: a reused overture, if this Adriano in Siria is his setting."
+operas,706001411,"Stumpff, Carl (1790c+)",rejected,,,Only repeated notes agree
+operas,800087079,"Ariosti, Attilio, OSM (1666-1729)",unresolved,secure,new,The keyboard piece shares its opening with the Andante (incipit 1.2.1) of Ariosti's motet O quam suavis a tone apart; relationship open.
+operas,800159684,"Pallavicino, Carlo (1630c-1688)",rejected,,,Different words; only seven pitches agree
+operas,800238259,"Perez, Davide (1711-1778)",confirmed,secure,new,"'Quando saprai chi sono' matches, with the same words, Perez's setting of La Didone abbandonata. The anonymous record notes the composer's name was cut away from the binding; the matching copy names Perez."
+operas,800238351,"Hertel, Johann Wilhelm (1727-1789)",rejected,,,Only six pitches inside a concerto agree
+operas,800238802,"Sarri, Domenico Natale (1679-1744)",confirmed,secure,new,"'Cadrà fra poco in cenere' matches, with the same words, the aria (incipits 1.89.1 and 1.89.2) of Sarri's Didone abbandonata; the title names a libretto many composers set, and the match identifies Sarri's setting."
+operas,806155833,"Monza, Carlo Ignazio (1680c-1739)",probable,uncertain,new,"The violin and voice (incipits 1.3.1, 1.3.2) have the music of the aria (incipits 1.1.1, 1.1.2) in Il più fedel tra i vassalli, with different words ('Ai trionfali miei vaghi' against 'In questo seno'); that copy gives Monza conjecturally, and the anonymous record cross-references Gasparini and Leo."
+operas,806156916,"Eberle, Erich, OFMCap (1896-1978)",rejected,,,Composer born after the copy; no encoded incipit matches
+operas,806426294,"Caldara, Antonio (1670c-1736)",rejected,,,"Different words, metre and key; only a descending sequence agrees"
+operas,806426376,"Nasolini, Sebastiano (1768c-1799c)",confirmed,secure,new,'Coraggio anima mia' and the duet 'Deh se m'ami' match Nasolini's Il Sesostri (incipits 1.1.1 and 1.2.2) with the same words: Nasolini reused them in Le Feste d'Iside.
+operas,806426580,"Lully, Louis (1664-1734)",confirmed,secure,title-names-work,"'Quoi qu'un juste dépit' matches, with the same words, incipit 1.1.2 of an arrangement from Zéphire et Flore."
+operas,806426581,"Lully, Jean-Louis (1667-1688)",confirmed,disputed,title-names-work,'Venés reconnoissés vôtre...' matches incipit 1.74.2 of the printed Zéphire et Flore; the words differ only in old spelling ('Venez reconnaissez votre'). The print cross-references Louis Lully and Vignon.
+operas,806934787,"Umbreit, Karl Gottlieb (1763-1829)",rejected,,,Composer born after the copy; only a transposed figure agrees
+operas,820000212,"Galuppi, Baldassare (1706-1785)",probable,secure,new,"The Andantino matches the violin incipit of an aria from Galuppi's Enrico: a borrowing between Galuppi's operas, if the Demofoonte copy is his setting."
+operas,840002357,"Venturini, C. M.",confirmed,secure,new,The march matches a march in Venturini's ballets (RISM 451511750) over 11 pitches.
+operas,840002804,"Hasse, Johann Adolf (1699-1783)",rejected,,,Only a fragment deep inside an aria agrees
+operas,840005039,"Vogel, Johann Christoph (1758-1788)",confirmed,secure,title-names-work,'Doux sentiment de la nature' matches the air (incipit 1.17.1) of the printed score of Vogel's Démophon.
+operas,840005041,"Vogel, Johann Christoph (1758-1788)",confirmed,secure,title-names-work,"'Quelle fatalité dans ces lieux' matches, with the same words, the air (incipit 1.13.1) of the printed score of Vogel's Démophon."
+operas,840016287,"Rameau, Jean-Philippe (1683-1764)",probable,secure,anonymous-record,"Pieces match a Contradanza from an arrangement of Hippolyte et Aricie (incipit 1.1.1 of RISM 126696, transposed, one entering partway) and an arrangement from Castor et Pollux (incipit 1.1.1 of RISM 840026871); the record already names Rameau."
+operas,840017240,"Galuppi, Baldassare (1706-1785)",probable,disputed,anonymous-record,"Matches the opening scene (Atto Primo, Scena I, incipit 1.1.1) of another La clemenza di Tito copy under Galuppi's name (RISM 900011017) over seven pitches; the anonymous record calls the Galuppi attribution on the binding false and cross-references Platania."
+operas,840017971,"Hasse, Johann Adolf (1699-1783)",confirmed,secure,comparator-record,Comparator 840018321 already cites this copy. Its pieces match the Sinfonia (incipit 1.1.1) and the aria 'Tornerai nel fido amante' (incipit 1.3.1) of Hasse's Ipermestra.
+operas,840018826,"Salieri, Antonio (1750-1825)",rejected,,,Rhythm and metre differ; only a transposed contour agrees
+operas,840021034,"Auber, Daniel-François-Esprit (1782-1871)",rejected,,,No encoded incipit matches
+operas,840021496,"Grétry, André-Ernest-Modeste (1741-1813)",confirmed,secure,new,The air matches the Allegretto of Grétry's Le Huron over 11 pitches.
+operas,840021497,"Grétry, André-Ernest-Modeste (1741-1813)",confirmed,secure,new,The air matches the Allegro (incipit 1.7.1) of Grétry's L'Ami de la maison over 14 pitches.
+operas,840021498,"Grétry, André-Ernest-Modeste (1741-1813)",confirmed,secure,comparator-record,Comparator 840016153 already cites this copy; the air matches no. 3 (incipit 1.5.1) of Grétry's La Fausse magie.
+operas,840021501,"Moser, Lorenzo (18/19)",rejected,,,Only a fragment inside a solfeggio agrees
+operas,850004045,"Boxberg, Christian Ludwig (1670-1729)",rejected,,,"Only a fragment, transposed, agrees"
+operas,850007501,"Borghi, Giovanni Battista (1738-1796)",rejected,,,Melodies differ; only a transposed contour agrees
+operas,850007502,"Hiller, Johann Adam (1728-1804)",rejected,,,Only figuration or a short fragment agrees
+operas,850007845,"Abos, Girolamo (1715-1760)",rejected,,,Different words and key; only a common dotted figure agrees
+operas,850007948,"Rutini, Giovanni Marco (1723-1797)",confirmed,secure,new,'Quando senz'altro' matches the aria (violin incipit 1.34.1) of Rutini's I matrimoni in maschera.
+operas,850013313,"Gasparini, Francesco (1661-1727)",confirmed,secure,new,'Deh consolati o mio bene' and 'Se tu m'ami o mio diletto' (incipit 1.10.1) match Gasparini's Il Roderico with the same words (incipit 1.1.1 of two copies).
+operas,850013314,"Mozart, Wolfgang Amadeus (1756-1791)",rejected,,,A copy of the 1690s cannot be Mozart; only a transposed contour agrees
+operas,850013525,"Varischino, Giovanni (17.sc)",confirmed,secure,title-names-work,"'So ben io che la bellezza' matches, with the same words, an excerpt from Varischino's setting of L'Odoacre."
+operas,850013795,"Ziani, Marc'Antonio (1653c-1715)",confirmed,secure,title-names-work,"'Amami seguimi pregami' matches, with the same words and transposed, an excerpt from Ziani's setting of Alessandro Magno in Sidone."
+operas,850013813,"Pallavicino, Carlo (1630c-1688)",confirmed,secure,title-names-work,"'Non ti punisco' matches, with the same words and a fifth apart, an excerpt from Pallavicino's setting of Nerone."
+operas,850026372,"Meyerbeer, Giacomo (1791-1864)",confirmed,secure,anonymous-record,'Il piacer la gioia scenda' matches a Meyerbeer divertimento (RISM 850779716) over 14 pitches; the anonymous record already names Meyerbeer.
+operas,850030780,"Huber, Eugen (1909-2004)",rejected,,,Only a fragment inside a modern piano piece agrees
+operas,850030784,"Scarlatti, Alessandro (1660-1725)",confirmed,secure,new,"'Per seguirti idolo mio' matches, with the same words, an excerpt from Alessandro Scarlatti's La Teodora Augusta."
+operas,850658887,"Méhul, Etienne-Nicolas (1763-1817)",confirmed,secure,title-names-work,"Matches an excerpt from Méhul's Les Deux Aveugles de Tolède, which the title already names."
+operas,850678513,"Fröhlich, Friedrich Theodor (1803-1836)",rejected,,,Composer born after the copy; different words and key
+operas,850722965,"Donizetti, Gaetano (1797-1848)",confirmed,secure,title-names-work,"Matches another arrangement from Donizetti's Lucrezia Borgia, transposed."
+operas,850729708,"Millico, Giuseppe (1737-1802)",confirmed,secure,new,"The aria 'Fiumicel che s'ode appena' (incipit 1.2.1) matches, with the same words, a copy of the aria under Millico's name (incipit 1.1.1); it is his aria in this La Semiramide, one of several settings."
+operas,850738985,"Witt, Franz Xaver (1834-1888)",rejected,,,No encoded incipit matches
+operas,850739131,"Dittersdorf, Carl Ditters von (1739-1799)",rejected,,,Only repeated notes agree
+operas,850739136,"Pollarolo, Carlo Francesco (1653c-1723)",confirmed,secure,comparator-record,Comparator 1001248421 already cites this copy; the aria 'Sento che nel mio petto' matches with the same words.
+operas,850739442,"Pollarolo, Carlo Francesco (1653c-1723)",confirmed,disputed,title-names-work,"'Crudo brando empia ferita' matches, with the same words, an excerpt from Pollarolo's setting of Il Roderico. The anonymous record notes a misattribution to Stradella and an attribution discussed by Gianturco and McCrickard."
+operas,850744600,"Cellini, Clemente (17/18)",rejected,,,Only a bass line fragment inside a psalm agrees
+operas,850815501,"Closner, Johann Michael (1786-1860)",rejected,,,"Only eight pitches of a hymn, transposed, agree"
+operas,850815957,"Sarti, Giuseppe (1729-1802)",unresolved,disputed,new,"'Ah che scordar non so' has the melody, under different words and a tone apart, of 'Ah non lasciarmi' (incipit 1.1.2) in a Sarti Didone abbandonata excerpt: a borrowing or a coincidence. The anonymous record cross-references Rispoli and Tarchi."
+operas,850815957,"Tarchi, Angelo (1760c-1814)",unresolved,disputed,anonymous-record,"'Quante pene in tal cimento' has, over nine pitches and under different words, the music of the Rondò 'Ah sol bramo' (incipit 1.2.1) in Il conte di Saldagna excerpts under Tarchi's name, which cross-reference Martín y Soler; the anonymous record cross-references Rispoli and Tarchi."
+operas,852035179,"Manna, Gennaro (1715-1779)",rejected,,,Rhythm differs; only a transposed contour agrees
+operas,900010737,"Jommelli, Niccolò (1714-1774)",probable,secure,new,"The Sinfonia matches the overture to Jommelli's Bajazette over ten pitches: Jommelli reusing an overture, if this Semiramide is his setting."
+operas,900010805,"Rossini, Gioachino (1792-1868)",rejected,,,Recitatives under different words agree only in a few pitches
+operas,992004310,Compilations,confirmed,work-only,title-names-work,"The song 'Lovely nymph assuage my...' matches, with the same words and a tone apart, an arrangement from the ballad opera Midas (Kane O'Hara) catalogued under 'Compilations'; this identifies the song, not its composer."

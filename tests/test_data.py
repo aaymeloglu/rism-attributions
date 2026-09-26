@@ -17,9 +17,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 
-VERDICTS = {"confirmed", "probable", "unresolved", "rejected"}
-ATTRIBUTION = {"secure", "disputed", "uncertain", "name-only", "modern-copy"}
-PRIOR = {"new", "anonymous-record", "comparator-record"}
+import verdict  # noqa: E402  (the vocabularies live in tools/verdict.py)
+
+VERDICTS, ATTRIBUTION, PRIOR = set(verdict.VERDICTS), set(verdict.ATTRIBUTION), set(verdict.PRIOR)
 SHOWN = {"confirmed", "probable", "unresolved"}
 
 
@@ -69,6 +69,14 @@ def test_prior_documentation_is_not_called_new():
             assert r["prior"] != "new", (r["anon_id"], "the anonymous record already names the composer or catalogue number")
 
 
+def test_title_naming_the_work_is_not_new_without_reason():
+    """If the anonymous title already names the matched work, the find is new only when the title
+    is a libretto several composers set, and the note must say whose setting it is."""
+    for r, e in kept():
+        if e.get("title_names_work") and r["prior"] == "new":
+            assert re.search(r"setting", r["note"], re.I), (r["anon_id"], "title already names the work; say why the match adds a composer")
+
+
 def _surname(name):
     return name.split(",")[0].split(" (")[0].strip()
 
@@ -88,7 +96,7 @@ def test_attribution_flags_are_resolved_or_reflected():
         flags = e["attribution_flags"] + [f for f in e.get("anonymous_record_authorship", []) if "(Misattributed)" not in f]
         for flag in flags:
             if "names no identifiable person" in flag:
-                assert r["attribution"] in ("name-only", "disputed"), (r["anon_id"], flag)
+                assert r["attribution"] in ("name-only", "disputed", "work-only"), (r["anon_id"], flag)
             elif "qualified as" in flag:
                 assert r["attribution"] != "secure", (r["anon_id"], flag, "a qualified attribution is not secure")
             elif r["attribution"] == "secure":
