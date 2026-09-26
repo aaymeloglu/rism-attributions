@@ -37,7 +37,9 @@ table.idx th, table.idx td { text-align:left; vertical-align:top; padding:10px 1
 table.idx th { font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
 .where { color:var(--muted); font-size:14px; }
 .badge { display:inline-block; font-size:11.5px; letter-spacing:.08em; text-transform:uppercase; border:1px solid var(--accent); color:var(--accent); padding:3px 8px; border-radius:3px; white-space:nowrap; }
-.badge.probable, .badge.conflicting { opacity:.8; } .badge.unresolved, .badge.known, .badge.rejected, .badge.open { border-color:var(--muted); color:var(--muted); }
+.badge.probable { opacity:.8; } .badge.unresolved, .badge.rejected, .badge.open, .badge.flag { border-color:var(--muted); color:var(--muted); }
+.badges .badge { margin:0 4px 4px 0; }
+ul.flags { font-size:14px; color:var(--muted); }
 .crumbs { font-size:14px; color:var(--muted); margin-bottom:8px; }
 .credit { font-size:13px; color:var(--muted); margin-top:28px; max-width:90ch; }
 .mv { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:10px 0 22px; }
@@ -76,9 +78,11 @@ document.addEventListener('DOMContentLoaded', function() {{
 }});
 </script>"""
 
-LABELS = {"confirmed": "Confirmed", "conflicting": "Conflicting attribution", "probable": "Probable",
-          "unresolved": "Unresolved", "known": "Already identified", "rejected": "Rejected"}
-SHOWN = ("confirmed", "conflicting", "probable", "unresolved")
+LABELS = {"confirmed": "Same music", "probable": "Probably same music", "unresolved": "Unresolved", "rejected": "Rejected"}
+ATTRIBUTION = {"secure": "", "disputed": "Composer disputed", "uncertain": "Attribution uncertain",
+               "name-only": "Surname only", "modern-copy": "Attribution from a modern copy"}
+PRIOR = {"new": "", "anonymous-record": "Already named in the record", "comparator-record": "Already noted by RISM"}
+SHOWN = ("confirmed", "probable", "unresolved")
 
 
 def page(title, body, crumbs="", depth=0):
@@ -96,6 +100,23 @@ def badge(verdict):
     return f'<span class="badge {verdict}">{LABELS[verdict]}</span>'
 
 
+def badges(lead):
+    out = [badge(lead["verdict"])]
+    for text in (ATTRIBUTION.get(lead.get("attribution"), ""), PRIOR.get(lead.get("prior"), "")):
+        if text:
+            out.append(f'<span class="badge flag">{text}</span>')
+    return '<span class="badges">' + "".join(out) + "</span>"
+
+
+def roman(n):
+    out = ""
+    for value, sym in ((40, "XL"), (10, "X"), (9, "IX"), (5, "V"), (4, "IV"), (1, "I")):
+        while n >= value:
+            out += sym
+            n -= value
+    return out
+
+
 def pae_string(p):
     return f"@clef:{p['clef']}\n@keysig:{p['keysig']}\n@timesig:{p['timesig']}\n@data:{p['data']}"
 
@@ -105,18 +126,30 @@ def score(p):
 
 
 def evidence(lead):
-    mv = lead.get("movements", [])
-    hit = sum(1 for m in mv if m.get("match") and m["agree"] >= 6)
-    return f"{hit} of {len(mv)} movement{'s' if len(mv) != 1 else ''}"
+    mv, hit = lead.get("movements", []), lead.get("movements_matched", [])
+    return f"{len(hit)} of {len(mv)} encoded movement{'s' if len(mv) != 1 else ''}"
 
 
 def matched_work(lead):
-    ids = [m["match"]["source"] for m in lead.get("movements", []) if m.get("match")]
+    ids = [p["match"]["source"] for p in lead.get("incipits", []) if p.get("match") and p["counts"]]
     best = max(sorted(set(ids)), key=ids.count) if ids else None
     for s in lead.get("sources", []):
         if s["id"] == best:
             return s
     return lead["sources"][0] if lead.get("sources") else None
+
+
+def pair_caption(p):
+    m = p.get("match")
+    if not m:
+        return "no matching incipit among the attributed copies"
+    where = ""
+    if m["offset"][1]:
+        where = f", starting {m['offset'][1]} pitches into the attributed incipit"
+    elif m["offset"][0]:
+        where = f", the attributed incipit starting {m['offset'][0]} pitches into this one"
+    verdict = "" if p["counts"] else " (too short to count)"
+    return f"{p['overlap']} of {p['notes']} pitches agree{where}{verdict}"
 
 
 def record_page(r):
@@ -126,17 +159,21 @@ def record_page(r):
     for lead in r["leads"]:
         if lead["verdict"] not in SHOWN:
             continue
-        parts.append(f"<h2>{html.escape(lead['composer'])}</h2><p>{badge(lead['verdict'])} "
-                     f"<span class='where'>{html.escape(lead['note'])}</span></p>")
+        parts.append(f"<h2>{html.escape(lead['composer'])}</h2><p>{badges(lead)}</p><p>{html.escape(lead['note'])}</p>")
+        flags = [f"Already noted in RISM {html.escape(d['source'])}" for d in lead["prior_documentation"]]
+        flags += [html.escape(f) for f in lead["attribution_flags"]]
+        if flags:
+            parts.append("<p class='where'>Catalogue flags:</p><ul class='flags'>" + "".join(f"<li>{f}</li>" for f in flags) + "</ul>")
         srcs = "".join(f'<li><a href="{RISM}{s["id"]}">RISM {s["id"]}</a>: {html.escape(s["label"])}</li>' for s in lead["sources"])
-        parts.append(f"<p class='where'>Attributed copies compared:</p><ul class='where'>{srcs}</ul>")
-        for m in lead["movements"]:
-            agree = f"{m['agree']} of {m['notes']} notes agree" if m.get("match") else "no matching incipit among the attributed copies"
-            parts.append(f"<p class='agree'><b>{html.escape(m['movement'])}</b> <span class='where'>· {agree}</span></p>")
-            left = f"<div><h4>Anonymous copy</h4>{score(m['anon'])}</div>"
-            if m.get("match"):
-                right = (f"<div><h4>{html.escape(lead['composer'].split(' (')[0])} · "
-                         f"<a href='{RISM}{m['match']['source']}'>RISM {m['match']['source']}</a> {html.escape(m['match']['movement'])}</h4>{score(m['match'])}</div>")
+        parts.append(f"<p class='where'>Attributed copies compared ({evidence(lead)} match):</p><ul class='where'>{srcs}</ul>")
+        for p in lead["incipits"]:
+            parts.append(f"<p class='agree'><b>Movement {roman(p['movement'])}</b> · {html.escape(p['incipit'])} "
+                         f"<span class='where'>· {pair_caption(p)}</span></p>")
+            left = f"<div><h4>Anonymous copy</h4>{score(p['anon'])}</div>"
+            if p.get("match"):
+                m = p["match"]
+                right = (f"<div><h4>{html.escape(lead['composer'].split(' (')[0])} · <a href='{RISM}{m['source']}'>RISM {m['source']}</a> "
+                         f"movement {roman(m['movement'])} · {html.escape(m['incipit'])}</h4>{score(m)}</div>")
             else:
                 right = "<div><h4>Attributed copies</h4><p class='where'>No encoded incipit matches this movement.</p></div>"
             parts.append(f"<div class='mv'>{left}{right}</div>")
@@ -163,15 +200,21 @@ def build():
                         f'<span class="where">{html.escape(r["label"].split(";")[0])} · <a href="{RISM}{r["id"]}">RISM {r["id"]}</a></span></td>'
                         f'<td><b>{names}</b><br><span class="where">{html.escape(work["label"]) if work else ""}</span></td>'
                         f'<td>{evidence(lead)}</td>'
-                        f'<td data-sort="{SHOWN.index(r["verdict"])}">{badge(r["verdict"])}<br><span class="where">{html.escape(lead["note"])}</span></td></tr>')
+                        f'<td data-sort="{SHOWN.index(r["verdict"])}{lead["attribution"] != "secure":d}{lead["prior"] != "new":d}">{badges(lead)}<br><span class="where">{html.escape(lead["note"])}</span></td></tr>')
         else:
             other.append(f'<tr><td><a href="{RISM}{r["id"]}">{html.escape(r["shelfmark"])}</a></td>'
                          f'<td>{html.escape(lead["composer"])}</td><td>{badge(r["verdict"])}</td><td class="where">{html.escape(lead["note"])}</td></tr>')
-    count = {v: sum(1 for r in data if r["verdict"] == v) for v in LABELS}
+    shown = [r for r in data if r["verdict"] in SHOWN]
+    count = {v: sum(1 for r in shown if r["verdict"] == v) for v in LABELS}
+    same = [r["leads"][0] for r in shown if r["verdict"] == "confirmed"]
+    new_secure = sum(1 for x in same if x["attribution"] == "secure" and x["prior"] == "new")
+    documented = sum(1 for x in same if x["prior"] != "new")
+    multi = sum(1 for x in same if len(x.get("movements_matched", [])) >= 2)
+    qualified = sum(1 for x in same if x["prior"] == "new" and x["attribution"] != "secure")
     burn = []
     for g in genres:
         done = [r for r in data if r["genre"] == g["slug"]]
-        found = sum(1 for r in done if r["verdict"] in ("confirmed", "conflicting", "probable"))
+        found = sum(1 for r in done if r["verdict"] in ("confirmed", "probable"))
         status = (f'<span class="badge confirmed">searched</span> <span class="where">{g["run"]}</span>' if g.get("run")
                   else '<span class="badge open">open</span>')
         burn.append(f'<tr><td>{html.escape(g["subject"])}</td><td data-sort="{g["anonymous_with_incipits"]:07d}">{g["anonymous_with_incipits"]:,}</td>'
@@ -181,12 +224,16 @@ def build():
         '<p class="lede"><a href="https://rism.online/">RISM</a> catalogues about 1.6 million music manuscripts and prints; '
         'about 297,000 of them are listed under “Anonymus”. Most of those carry an incipit, the opening bars of each movement in '
         'Plaine &amp; Easie code. This project searches every anonymous incipit against the attributed ones, keeps matches that no '
-        'other composer shares, and checks each by hand, movement by movement. '
-        f'So far: {count["confirmed"]} confirmed, {count["conflicting"]} with conflicting attributions, {count["probable"]} probable, '
-        f'{count["unresolved"]} unresolved. Each row links to the movements side by side. '
-        'A match means RISM holds an attributed copy of the same music; it does not settle a disputed authorship, and '
-        'the composers’ printed thematic catalogues may already list some of these copies. '
-        f'Research by Claude (an LLM), with every accepted match compared by eye. Method in <a href="{REPO}/blob/main/METHOD.md">METHOD.md</a>.</p>'
+        'other composer shares, and compares every candidate incipit by incipit. '
+        f'So far {count["confirmed"]} anonymous copies are the same music as an attributed copy ({multi} on two or more '
+        f'movements, {count["confirmed"] - multi} on a single movement). Of those, {new_secure} are not noted '
+        f'in RISM and carry a single, unqualified attribution; {qualified} more are new but their composer is disputed, uncertain, '
+        f'a bare surname or known only from a modern copy; {documented} turned out to be noted in RISM already. '
+        f'{count["probable"]} more are probably the same music (transposed, arranged, or only partly encoded) and {count["unresolved"]} are unresolved. '
+        'The automatic score compares pitch contour only, ignoring rhythm; it finds candidates, and the rendered incipits on each '
+        'page are the evidence. A match transfers RISM’s attribution of the other copy, so it cannot settle a disputed authorship, '
+        'and composers’ printed thematic catalogues may already list some copies. '
+        f'Research and incipit comparison by Claude (an LLM); an independent review by Codex (another LLM) led to the current labels. Method in <a href="{REPO}/blob/main/METHOD.md">METHOD.md</a>.</p>'
         "<h2>Results</h2>"
         '<div class="scroll"><table class="idx sortable"><tr><th data-col="0">Anonymous copy</th><th data-col="1">Matches</th>'
         '<th>Movements matching</th><th data-col="3">Verdict</th></tr>' + "".join(rows) + "</table></div>"
@@ -197,17 +244,18 @@ def build():
         '<th>Leads reviewed</th><th>Found</th><th>Status</th></tr>' + "".join(burn) + "</table></div>"
         f'<p class="where">Also: <a href="concordances.html">{len(conc)} anonymous copies matching other anonymous copies</a> '
         'on two or more movements. These group copies of one work without naming its composer.</p>'
-        f'<details><summary>{len(other)} leads reviewed and not kept (already identified or rejected)</summary>'
+        f'<details><summary>{len(other)} anonymous copies whose leads were reviewed and rejected</summary>'
         '<div class="scroll"><table class="idx"><tr><th>Anonymous copy</th><th>Lead</th><th>Verdict</th><th>Reason</th></tr>'
         + "".join(other) + "</table></div></details>" + SORT_JS)
     (DOCS / "index.html").write_text(page("RISM: naming the anonymous", body))
     crows = "".join(
         f'<tr><td><a href="{RISM}{c["a"]}">{html.escape(c["a_label"])}</a></td><td><a href="{RISM}{c["b"]}">{html.escape(c["b_label"])}</a></td>'
-        f'<td>{", ".join(html.escape(m) for m in c["movements"])}</td></tr>' for c in conc)
+        f'<td>{", ".join(f"{roman(m['a'])} = {roman(m['b'])} ({m['pitches']} pitches)" for m in c["movements"])}</td></tr>' for c in conc)
     (DOCS / "concordances.html").write_text(page(
         "Anonymous concordances · RISM attributions",
-        "<h1>Anonymous concordances</h1><p class='lede'>Pairs of anonymous RISM sources whose incipits match on two or more "
-        "movements. Each pair is probably two copies of one work; naming either copy's composer would name both.</p>"
+        "<h1>Anonymous concordances</h1><p class='lede'>Pairs of anonymous RISM sources whose incipits agree on two or more "
+        "distinct movements, at least eight pitches each. Each pair is probably two copies of one work; naming either copy's "
+        "composer would name both. These are search results checked by pitch agreement, not reviewed by eye.</p>"
         '<div class="scroll"><table class="idx"><tr><th>Anonymous copy</th><th>Matches anonymous copy</th><th>Movements</th></tr>'
         + crows + "</table></div>", '<div class="crumbs"><a href="index.html">All results</a></div>'))
     (DOCS / ".nojekyll").write_text("")

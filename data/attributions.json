@@ -8,11 +8,17 @@
    {
     "composer": "Abel, Carl Friedrich (1723-1787)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Movements I, III of 3 encoded match: Symphonies–C major (RISM 1001110376, 1.1.1 Allegro).",
     "class": "strong",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "n",
@@ -20,10 +26,17 @@
        "data": "C2C4C+/C2C4C/C{8.Dt3CD}4E{6,G'CEG}/q4G4.F{6GF}4ED/"
       },
       "notes": 14,
-      "agree": 12,
+      "overlap": 12,
+      "from_start": 12,
+      "counts": true,
       "match": {
        "source": "1001110376",
-       "movement": "1.1.1 Allegro",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "n",
        "timesig": "c",
@@ -31,7 +44,8 @@
       }
      },
      {
-      "movement": "1.2.1 Andante",
+      "incipit": "1.2.1 Andante",
+      "movement": 2,
       "anon": {
        "clef": "G-2",
        "keysig": "n",
@@ -39,10 +53,13 @@
        "data": "''C'AB/AG''C/'F''DC/qC2'B4A/2'G4A/"
       },
       "notes": 13,
-      "agree": 2
+      "overlap": 3,
+      "from_start": 1,
+      "counts": false
      },
      {
-      "movement": "1.3.1 Allegro",
+      "incipit": "1.3.1 Allegro",
+      "movement": 3,
       "anon": {
        "clef": "G-2",
        "keysig": "n",
@@ -50,16 +67,32 @@
        "data": "{8GG}/2''C{8'B''C'B''C}/2G{8GFDF}/{FEDC}{'BA''FD}/{C'BAG}4GG/"
       },
       "notes": 21,
-      "agree": 17,
+      "overlap": 17,
+      "from_start": 17,
+      "counts": true,
       "match": {
        "source": "1001110376",
-       "movement": "1.3.1 Allegro ma non troppo",
+       "incipit": "1.3.1 Allegro ma non troppo",
+       "movement": 3,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "n",
        "timesig": "c",
        "data": "'GG/''2C{'8B''C'B''C}/2G{8GFDF}/{FEDC}{'BA''FD}/"
       }
      }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     1,
+     3
     ],
     "sources": [
      {
@@ -76,6 +109,175 @@
   "verdict": "confirmed"
  },
  {
+  "id": "570005113",
+  "genre": "symphonies",
+  "label": "Symphonies–F major; Manuscript copy; SK-J H-614",
+  "shelfmark": "SK-J H-614",
+  "leads": [
+   {
+    "composer": "Adam, Johann (1704-1779)",
+    "verdict": "confirmed",
+    "attribution": "disputed",
+    "prior": "comparator-record",
+    "note": "Already documented: comparator 1001057046 notes this copy remains anonymous and records attributions to Malzat, Ferrandini and Sammartini as well as Adam (doubtful).",
+    "class": "known",
+    "prior_documentation": [
+     {
+      "source": "1001057046",
+      "text": " Johann Adam (with cross-reference to Sammartini), in RISM ID no. 300000816 to Ignaz Malzat, in RISM ID no. 170000047 to Giovanni Ferrandini and in RISM ID no. 570005113 remains anonymous.\"]}}, {\"labe"
+     },
+     {
+      "source": "1001376786",
+      "text": "190009386 to Johann Adam (with cross-reference to Sammartini), in RISM ID 300000816 to Ignaz Malzat, in RISM ID 170000047 to Giovanni Ferrandini and in RISM ID 570005113 remains anonymous.\", \"[cover t"
+     },
+     {
+      "source": "190009385",
+      "text": " RISM ID no. 1001057046, 190009386 to Johann Adam, in RISM ID no. 300000816 to Ignaz Malzat, in RISM ID no. 170000047 to Giovanni Ferrandini and in RISM ID no. 570005113 remains anonymous.\"]}}, {\"labe"
+     },
+     {
+      "source": "190009386",
+      "text": " RISM ID no. 1001057046, 190009385 to Johann Adam, in RISM ID no. 300000816 to Ignaz Malzat, in RISM ID no. 170000047 to Giovanni Ferrandini and in RISM ID no. 570005113 remains anonymous.\"]}}, {\"labe"
+     }
+    ],
+    "attribution_flags": [
+     "1001057046: composer qualified as Doubtful",
+     "1001057046: cross-reference to Ferrandini, Giovanni (1710-1791)",
+     "1001057046: cross-reference to Malzat, Ignaz (1757-1804)",
+     "1001057046: cross-reference to Sammartini, Giovanni Battista (1700c-1775)",
+     "1001296650: cross-reference to Ferrandini, Giovanni (1710-1791) (Ascertained)",
+     "1001296650: cross-reference to Malzat, Ignaz (1757-1804) (Ascertained)",
+     "1001296650: cross-reference to Sammartini, Giovanni Battista (1700c-1775) (Ascertained)",
+     "1001376786: cross-reference to Ferrandini, Giovanni (1710-1791)",
+     "1001376786: cross-reference to Malzat, Ignaz (1757-1804)",
+     "1001376786: cross-reference to Sammartini, Giovanni Battista (1700c-1775)",
+     "190009385: cross-reference to Ferrandini, Giovanni (1710-1791) (Conjectural)",
+     "190009385: cross-reference to Malzat, Ignaz (1757-1804) (Conjectural)",
+     "190009385: cross-reference to Sammartini, Giovanni Battista (1700c-1775) (Conjectural)",
+     "190009386: cross-reference to Ferrandini, Giovanni (1710-1791) (Conjectural)",
+     "190009386: cross-reference to Malzat, Ignaz (1757-1804) (Conjectural)",
+     "190009386: cross-reference to Sammartini, Giovanni Battista (1700c-1775) (Conjectural)"
+    ],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro assai",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "'2F4C-/8-{FFF}{F6AB}{8''CF}/4EC2-/"
+      },
+      "notes": 9,
+      "overlap": 9,
+      "from_start": 9,
+      "counts": true,
+      "match": {
+       "source": "1001057046",
+       "incipit": "1.1.1 Vivace",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "C-1",
+       "keysig": "bB",
+       "timesig": "c/",
+       "data": "244'FC-/8-{FFF}{866FAB}{8''CF}/4EC2-/8-{CCC}{C6EF}{8G'''D}/"
+      }
+     },
+     {
+      "incipit": "1.2.1 Andante",
+      "movement": 2,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "''4C/'2GF/4E''C'BA/2GF/4E"
+      },
+      "notes": 10,
+      "overlap": 10,
+      "from_start": 10,
+      "counts": true,
+      "match": {
+       "source": "1001376786",
+       "incipit": "1.2.1 Andante con Sordini",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c/",
+       "data": "''C/2'GF/4E''C'BA/2GF/4E''C'BA/G''C'GA/2G4FE/"
+      }
+     },
+     {
+      "incipit": "1.3.1 Allegro",
+      "movement": 3,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "3/4",
+       "data": "''2C'{6BAGF}/''4DCE/FG{8.A6C}/8qC'2B4A/"
+      },
+      "notes": 14,
+      "overlap": 14,
+      "from_start": 14,
+      "counts": true,
+      "match": {
+       "source": "1001296650",
+       "incipit": "1.3.1 Allegro.",
+       "movement": 3,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "C-1",
+       "keysig": "bB",
+       "timesig": "3/4",
+       "data": "''2C{'6BAGF}/''4DCE/FG{8.6AC}/q4C'2B4A/"
+      }
+     }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     1,
+     2,
+     3
+    ],
+    "sources": [
+     {
+      "id": "1001057046",
+      "label": "Symphonies–F major; Manuscript copy; JenS D36; PL-Wu RM 4304"
+     },
+     {
+      "id": "1001296650",
+      "label": "Symphonies–F major (Arrangement); Print; JenS D36"
+     },
+     {
+      "id": "1001376786",
+      "label": "Symphonies–F major; Manuscript copy; JenS D36; PL-MO 928"
+     },
+     {
+      "id": "190009385",
+      "label": "Symphonies–F major; Manuscript copy; JenS D36; S-Skma Alströmer saml. 146:6"
+     },
+     {
+      "id": "190009386",
+      "label": "Symphonies–F major; Manuscript copy; JenS D36; S-Skma O-R"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
   "id": "400187451",
   "genre": "symphonies",
   "label": "Symphonies–D major; Manuscript copy; CH-E 11,11",
@@ -84,11 +286,17 @@
    {
     "composer": "Asplmayr, Franz (1728-1786)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: Symphonies (RISM 150201388, 1.1.1 Allegro).",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro con spirito",
+      "incipit": "1.1.1 Allegro con spirito",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -96,16 +304,29 @@
        "data": "'4D8-{6DC}{8D,A'DF}/4D8-{6FE}{8FDFA}/4F8-{6AG}{8AFA''D}/4'A"
       },
       "notes": 21,
-      "agree": 21,
+      "overlap": 21,
+      "from_start": 21,
+      "counts": true,
       "match": {
        "source": "150201388",
-       "movement": "1.1.1 Allegro",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "4/4",
        "data": "4'D8-6DC8D,A'DF/4D8-6FE8FDFA/4F8-6AG8AFA''D/4'A"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -126,6 +347,90 @@
   "verdict": "confirmed"
  },
  {
+  "id": "850002402",
+  "genre": "symphonies",
+  "label": "Symphonies–D minor; Manuscript copy; I-MAav Cart.2 n.15",
+  "shelfmark": "I-MAav Cart.2 n.15",
+  "leads": [
+   {
+    "composer": "Asplmayr, Franz (1728-1786)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "All four encoded bars of Agamemnon vengé agree, grace notes included; the comparator encodes nothing further.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro con spirito",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c/",
+       "data": "'q6D''1D/,q6A'1A/2.F4E/D,A-'xC/8D,A'FDE,A'AG/4FD-xF/"
+      },
+      "notes": 18,
+      "overlap": 7,
+      "from_start": 7,
+      "counts": true,
+      "match": {
+       "source": "450009049",
+       "incipit": "1.1.1 Overture. Vivace con spirito",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c/",
+       "data": "'q6D''1D/,q6A'1A/2.F4E/D,A-'xC/"
+      }
+     },
+     {
+      "incipit": "1.1.2 Allegro con spirito",
+      "movement": 2,
+      "anon": {
+       "clef": "F-4",
+       "keysig": "bB",
+       "timesig": "c/",
+       "data": ",4D'DDD/,,A,BBB/,,F,FFF/DFAG/FDxC,,A/,DFA'C/"
+      },
+      "notes": 18,
+      "overlap": 2,
+      "from_start": 1,
+      "counts": false
+     }
+    ],
+    "movements": [
+     1,
+     2
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "1001383008",
+      "label": "Agamemnon vengé; Manuscript copy; CZ-K No 152b K II"
+     },
+     {
+      "id": "450009049",
+      "label": "Agamemnon vengé; Manuscript copy; RieA deest; D-Rtt Aspelmayr 4"
+     },
+     {
+      "id": "450012685",
+      "label": "Agamemnon vengé; Manuscript copy; RieA deest; D-KA Don Mus.Ms. 134"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
   "id": "450013960",
   "genre": "symphonies",
   "label": "Symphonies–G major; Manuscript copy; D-KA Don Mus.Ms. 1799",
@@ -134,11 +439,17 @@
    {
     "composer": "Belletti, G. C.",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: Symphonies–G major (RISM 190009831, 1.1.1 Allegro).",
     "class": "plausible",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xF",
@@ -146,16 +457,29 @@
        "data": "''4G8-6{GF}8{G,GB'D}/''4E8-6{GF}8{G,G'CE}/''4G"
       },
       "notes": 14,
-      "agree": 14,
+      "overlap": 14,
+      "from_start": 14,
+      "counts": true,
       "match": {
        "source": "190009831",
-       "movement": "1.1.1 Allegro",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xF",
        "timesig": "c/",
        "data": "''4G8-{6GF}{8G,GB'D}/''4E8-{6GF}{8G,G'CE}/''4G"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -176,11 +500,17 @@
    {
     "composer": "Benatti, Vincenzo (1767-1797)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: Symphonies–C major (RISM 850604079, 1.1.1 All.o).",
     "class": "plausible",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "n",
@@ -188,10 +518,17 @@
        "data": "'4.C{3CDEF}4.G8E/''4.C{3DC'BA}4.G{3BAGF}"
       },
       "notes": 16,
-      "agree": 16,
+      "overlap": 16,
+      "from_start": 16,
+      "counts": true,
       "match": {
        "source": "850604079",
-       "movement": "1.1.1 All.o",
+       "incipit": "1.1.1 All.o",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "n",
        "timesig": "c",
@@ -199,10 +536,81 @@
       }
      }
     ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
     "sources": [
      {
       "id": "850604079",
       "label": "Symphonies–C major; Partial autograph; I-OS Mss.Mus.B 1957"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "850607318",
+  "genre": "symphonies",
+  "label": "Symphonies–B♭ major; Manuscript copy; I-OS Mss.Mus.B 4715",
+  "shelfmark": "I-OS Mss.Mus.B 4715",
+  "leads": [
+   {
+    "composer": "Benatti, Vincenzo (1767-1797)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "anonymous-record",
+    "note": "The anonymous record already names Benatti.",
+    "class": "known",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 All.o",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c/",
+       "data": "''4B-F-/'B8-B{''EDDD}/{GFFF}{ABBB}/4.A"
+      },
+      "notes": 10,
+      "overlap": 10,
+      "from_start": 10,
+      "counts": true,
+      "match": {
+       "source": "850601928",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c/",
+       "data": "''4B-F-/'B8-B{''EDDD}/{GFFF}{ABBB}/!4.A"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "850601928",
+      "label": "Egeria; Partial autograph; I-OS Mss.Mus.B 1953"
+     },
+     {
+      "id": "850605404",
+      "label": "Egeria; Autograph manuscript; I-OS Mss.Mus.Rari B 6"
      }
     ]
    }
@@ -218,11 +626,17 @@
    {
     "composer": "Benda, Franz (1709-1786)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "All 3 encoded movements match: Symphonies–D major (RISM 212002745, 1.1.1 allegro assai).",
     "class": "strong",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro assai.",
+      "incipit": "1.1.1 Allegro assai.",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -230,10 +644,17 @@
        "data": "''4Dq6G{FEFG}8A8-q6G{FEFG}/{8ADB'''C}{D''DFG}/"
       },
       "notes": 18,
-      "agree": 18,
+      "overlap": 18,
+      "from_start": 18,
+      "counts": true,
       "match": {
        "source": "212002745",
-       "movement": "1.1.1 allegro assai",
+       "incipit": "1.1.1 allegro assai",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "c/",
@@ -241,7 +662,8 @@
       }
      },
      {
-      "movement": "1.2.1 Larghetto.",
+      "incipit": "1.2.1 Larghetto.",
+      "movement": 2,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -249,10 +671,17 @@
        "data": "{''8F6GF}4.F8F+/{6FFGF}4.F8F+/{8FB}{6xAEFG}{8G6.F3E}/4D4-4-/"
       },
       "notes": 13,
-      "agree": 13,
+      "overlap": 13,
+      "from_start": 13,
+      "counts": true,
       "match": {
        "source": "212002745",
-       "movement": "1.2.1 Larghetto",
+       "incipit": "1.2.1 Larghetto",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "3/4",
@@ -260,7 +689,8 @@
       }
      },
      {
-      "movement": "1.3.1 Presto.",
+      "incipit": "1.3.1 Presto.",
+      "movement": 3,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -268,16 +698,33 @@
        "data": "'8A/''D4A8F+/F4xD8E+/E4B8G+/G4xE8F/"
       },
       "notes": 10,
-      "agree": 10,
+      "overlap": 10,
+      "from_start": 10,
+      "counts": true,
       "match": {
        "source": "212002745",
-       "movement": "1.3.1 Presto",
+       "incipit": "1.3.1 Presto",
+       "movement": 3,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "2/4",
        "data": "8'A/''D4A8F+/F4xD8E+/E4B8G+/G4xE8F/"
       }
      }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     1,
+     2,
+     3
     ],
     "sources": [
      {
@@ -298,11 +745,17 @@
    {
     "composer": "Bernasconi, Andrea (1706-1784)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: Symphonies–G major (RISM 170000057, 1.1.1 Allegro).",
     "class": "plausible",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xF",
@@ -310,16 +763,29 @@
        "data": "'4GG{6DC,BA}4G/{8B'D}{6GF8G}{6DC,BA}4G/"
       },
       "notes": 16,
-      "agree": 16,
+      "overlap": 16,
+      "from_start": 16,
+      "counts": true,
       "match": {
        "source": "170000057",
-       "movement": "1.1.1 Allegro",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xF",
        "timesig": "c",
        "data": "'4GG6{DC,BA}4G/8{B'D}6{GF8G}6{DC,BA}4G/8{B'D}6{GAB''C}8{D'B}''4G/"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -340,11 +806,17 @@
    {
     "composer": "Cambini, Giuseppe (1746-1825)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: Symphonies concertantes–F major (RISM 104650, 1.1.1 Allegro).",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "bB",
@@ -352,16 +824,29 @@
        "data": "2.''Cq8E{8D6C'B}/8A-G-A-B-/2.''Cq8E{8D6C'B}/"
       },
       "notes": 12,
-      "agree": 12,
+      "overlap": 12,
+      "from_start": 12,
+      "counts": true,
       "match": {
        "source": "104650",
-       "movement": "1.1.1 Allegro",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "bB",
        "timesig": "c",
        "data": "''2.CgE{8D6C'B}/8A-G-A-B-/''2.CgE{8D6C'B}/"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -386,11 +871,17 @@
    {
     "composer": "Caruso, Luigi (1754-1822)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: Jefte (RISM 850611268, 1.1.1 Allegro).",
     "class": "plausible",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 All.o",
+      "incipit": "1.1.1 All.o",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -398,16 +889,29 @@
        "data": "''4.D'8A''4.F8D/4AAF-/4.F8D4.A8F/'''4DD"
       },
       "notes": 10,
-      "agree": 10,
+      "overlap": 10,
+      "from_start": 10,
+      "counts": true,
       "match": {
        "source": "850611268",
-       "movement": "1.1.1 Allegro",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "c",
        "data": "''4.D'8A''4.F8D/4AAF-/4.F8D4.A8F/'''4DD"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -428,11 +932,17 @@
    {
     "composer": "Ciampi, Vincenzo Legrenzio (1719-1762)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: Arsinoe (Excerpts) (RISM 850008027, 1.1.1 Overtura. Allegro).",
     "class": "plausible",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -440,16 +950,29 @@
        "data": "6'D/4D8-6-,A{8.6'D,A}{'D,A}/4'D8-3-{AB''C}{8DEFG}/4A"
       },
       "notes": 15,
-      "agree": 15,
+      "overlap": 15,
+      "from_start": 15,
+      "counts": true,
       "match": {
        "source": "850008027",
-       "movement": "1.1.1 Overtura. Allegro",
+       "incipit": "1.1.1 Overtura. Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "c",
        "data": "'6D/4D8.-,6A8.6{'D,A}{'D,A}/'4D8-3-{AB''C}8{DEFG}/2A"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -470,11 +993,17 @@
    {
     "composer": "Cimarosa, Domenico (1749-1801)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: Giunio Bruto (RISM 850008382, 1.1.1 Sinfonia. Allegro con brio).",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro con brio",
+      "incipit": "1.1.1 Allegro con brio",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -482,16 +1011,29 @@
        "data": "'''2D+8D''6AB8AA/4A4.A6BA8GF/'''4D4.D''6AB8AA/4A4.A"
       },
       "notes": 12,
-      "agree": 12,
+      "overlap": 12,
+      "from_start": 12,
+      "counts": true,
       "match": {
        "source": "850008382",
-       "movement": "1.1.1 Sinfonia. Allegro con brio",
+       "incipit": "1.1.1 Sinfonia. Allegro con brio",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "c",
        "data": "'''2D+{8D''6AB}8{AA}/4A4.A6{BA}8{GF}/'''4D4.D''6{AB}8{AA}/4A4.A6{BA}8{GF}/"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -516,11 +1058,17 @@
    {
     "composer": "Cimarosa, Domenico (1749-1801)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: I matrimoni impensati (RISM 850008353, 1.1.1 Sinfonia. Allegro con molto brio).",
     "class": "plausible",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 All.o con brio",
+      "incipit": "1.1.1 All.o con brio",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -528,16 +1076,29 @@
        "data": "''4FFFgA{8G6FG}/2A4F-/FFFgA{8G6FG}2A4F-/"
       },
       "notes": 11,
-      "agree": 11,
+      "overlap": 11,
+      "from_start": 11,
+      "counts": true,
       "match": {
        "source": "850008353",
-       "movement": "1.1.1 Sinfonia. Allegro con molto brio",
+       "incipit": "1.1.1 Sinfonia. Allegro con molto brio",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "c",
        "data": "''4FFFgA{8G6FG}/2A4F-/FFFgA{8G6FG}/2A4F-/'''2.Dq8D{C''6B'''C}/i/"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -558,11 +1119,17 @@
    {
     "composer": "Crispi, Pietro Maria (1737c-1797)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: Symphonies–D major (RISM 131526, 1.1.1 Allegro con spirito).",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro con spirito",
+      "incipit": "1.1.1 Allegro con spirito",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -570,16 +1137,29 @@
        "data": "'4.D8-2-/''8G-F-B-A-/'4.D8-2-/''8E-D-E-C-/'4.D"
       },
       "notes": 11,
-      "agree": 11,
+      "overlap": 11,
+      "from_start": 11,
+      "counts": true,
       "match": {
        "source": "131526",
-       "movement": "1.1.1 Allegro con spirito",
+       "incipit": "1.1.1 Allegro con spirito",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "c",
        "data": "'4.D8-2-/''8G-F-B-A-/'4.D8-2-/''8E-D-E-C-/'4.D8-2-/"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -604,11 +1184,19 @@
    {
     "composer": "Davaux, Jean-Baptiste (1742-1822)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The encoded incipit, labelled Allegro, matches movement II (Allegretto) of the printed symphonie concertante; the record also lists a separate Allegretto, so the label or movement order differs. Two solo violins fit a symphonie concertante.",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "1->2"
+    ],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "bBE",
@@ -616,16 +1204,29 @@
        "data": "'4.B''6{CD}4ED/GFE-/4.C8E{D'B''FD}/4.C8E"
       },
       "notes": 16,
-      "agree": 16,
+      "overlap": 16,
+      "from_start": 16,
+      "counts": true,
       "match": {
        "source": "1001348967",
-       "movement": "1.2.1 [p. 4, underneath the 11th stave:] Allegretto",
+       "incipit": "1.2.1 [p. 4, underneath the 11th stave:] Allegretto",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "bBE",
        "timesig": "c/",
        "data": "4.'B{6''CD}4ED/GFE-/4.C8E{D'B''FD}/4.C8E{D'B''FD}/"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -654,11 +1255,17 @@
    {
     "composer": "Davaux, Jean-Baptiste (1742-1822)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: Symphonies concertantes–D major (RISM 1001348889, 1.1.1 [p. 6, at left of the 1st stave:] SINFONIA II [above the 1st stave:] All|o moderato).",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro moderato",
+      "incipit": "1.1.1 Allegro moderato",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -666,16 +1273,29 @@
        "data": "2''D'A/{6FE8D}{DD}{DDDD}/{3FG8.A}{8AA}{3FG8.A}8{AA}/4F"
       },
       "notes": 12,
-      "agree": 12,
+      "overlap": 12,
+      "from_start": 12,
+      "counts": true,
       "match": {
        "source": "1001348889",
-       "movement": "1.1.1 [p. 6, at left of the 1st stave:] SINFONIA II [above the 1st stave:] All|o moderato",
+       "incipit": "1.1.1 [p. 6, at left of the 1st stave:] SINFONIA II [above the 1st stave:] All|o moderato",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "c",
        "data": "2''D'A/{6FE8D}{8DD}{DDDD}/{3FG8.A}{8AA}{3FG8.A}{8AA}/{8FG}2.G/"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -720,11 +1340,24 @@
    {
     "composer": "Dittersdorf, Carl Ditters von (1739-1799)",
     "verdict": "confirmed",
-    "note": "",
-    "class": "good",
-    "movements": [
+    "attribution": "secure",
+    "prior": "comparator-record",
+    "note": "Comparator 650002241 already names this anonymous PL-CZ copy. Only movement II matches among the encoded incipits; the comparator records a historical attribution to 'Neimann' (Neumann) in the Paluselli catalogue of 1791.",
+    "class": "known",
+    "prior_documentation": [
      {
-      "movement": "1.1.1",
+      "source": "650002241",
+      "text": "\"Oboe Prima vel Flauto\\\" beziehungsweise \\\"Oboe vel Flauto 2do\\\"\", \"Bei vl 1, 2 und vla jeweils f. 1r nicht rastriert\", \"Vergleiche Kopie der Sinfonie in PL-CZ II-369, dort anonym überliefert\", \"Bei Palusel"
+     }
+    ],
+    "attribution_flags": [
+     "650002241: cross-reference to Neumann (Ascertained)"
+    ],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -732,10 +1365,17 @@
        "data": "2'D4.D8D/4D--8''A-/B-A-'''D-''B-/{8.B3AB}4B2-/'D4.D8D/4D"
       },
       "notes": 9,
-      "agree": 5,
+      "overlap": 5,
+      "from_start": 5,
+      "counts": false,
       "match": {
        "source": "1001369353",
-       "movement": "1.1.1 Vivace",
+       "incipit": "1.1.1 Vivace",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "c",
@@ -743,7 +1383,8 @@
       }
      },
      {
-      "movement": "1.2.1 Andante",
+      "incipit": "1.2.1 Andante",
+      "movement": 2,
       "anon": {
        "clef": "G-2",
        "keysig": "xFCG",
@@ -751,10 +1392,17 @@
        "data": "{6.''E3E/{8.E6C}{FEDC/{8.C6'A}{''DC'BA/8B4A8G/"
       },
       "notes": 14,
-      "agree": 14,
+      "overlap": 14,
+      "from_start": 14,
+      "counts": true,
       "match": {
        "source": "1001369353",
-       "movement": "1.2.1 Andante",
+       "incipit": "1.2.1 Andante",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFCG",
        "timesig": "2/4",
@@ -762,7 +1410,8 @@
       }
      },
      {
-      "movement": "1.3.1 Menuetto",
+      "incipit": "1.3.1 Menuetto",
+      "movement": 3,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -770,10 +1419,17 @@
        "data": "{3AGFE/4D'''DD/C''B{3EDC'B/4A''GG/"
       },
       "notes": 14,
-      "agree": 7,
+      "overlap": 7,
+      "from_start": 7,
+      "counts": false,
       "match": {
        "source": "1001369353",
-       "movement": "1.3.1 Menuetto",
+       "incipit": "1.3.1 Menuetto",
+       "movement": 3,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "3/4",
@@ -781,7 +1437,8 @@
       }
      },
      {
-      "movement": "1.4.1 Presto",
+      "incipit": "1.4.1 Presto",
+      "movement": 4,
       "anon": {
        "clef": "C-3",
        "keysig": "xFC",
@@ -789,8 +1446,19 @@
        "data": "-/=/-D,B'C/,A'C,AB/A'D,AB/A"
       },
       "notes": 12,
-      "agree": 2
+      "overlap": 2,
+      "from_start": 2,
+      "counts": false
      }
+    ],
+    "movements": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "movements_matched": [
+     2
     ],
     "sources": [
      {
@@ -823,11 +1491,17 @@
    {
     "composer": "Farinelli, Giuseppe (1769-1836)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: Pamela (RISM 840015171, 1.2.1).",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 And.e Grazioso - All.o con spirito",
+      "incipit": "1.1.1 And.e Grazioso - All.o con spirito",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "bBE",
@@ -835,16 +1509,29 @@
        "data": "'4DEF/G{8.G6A}{8BA}/{GFEDEF}/4E+{8.E6C}"
       },
       "notes": 15,
-      "agree": 15,
+      "overlap": 15,
+      "from_start": 15,
+      "counts": true,
       "match": {
        "source": "840015171",
-       "movement": "1.2.1",
+       "incipit": "1.2.1",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "bBE",
        "timesig": "3/4",
        "data": "''4DEF/G8.G6A8BA/GFEDEF/4E8.E3C8D-"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -873,11 +1560,19 @@
    {
     "composer": "Franck",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "name-only",
+    "prior": "new",
+    "note": "Matches a copy headed only 'Franck'; which Franck is not established.",
     "class": "plausible",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [
+     "heading 'Franck' names no identifiable person"
+    ],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro assai",
+      "incipit": "1.1.1 Allegro assai",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "bBE",
@@ -885,16 +1580,29 @@
        "data": "''4B'6BAB''C'4B-/6BBBBAAAABBBB''CCCC/DDDDEEEEDDDDCCCC/4B6DCDE4D-/"
       },
       "notes": 19,
-      "agree": 19,
+      "overlap": 19,
+      "from_start": 19,
+      "counts": true,
       "match": {
        "source": "400004036",
-       "movement": "1.1.1 Allegro assai",
+       "incipit": "1.1.1 Allegro assai",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "bBE",
        "timesig": "c",
        "data": "''4B'6BAB''C'2B/6BBBBAAAABBBB''CCCC/DDDDEEEEDDDDCCCC/4B6DCDE2D/"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -915,11 +1623,19 @@
    {
     "composer": "Fritz, Gaspard (1716-1783)",
     "verdict": "confirmed",
-    "note": "Catalogued as a symphony; the attributed copy is a sonata",
+    "attribution": "modern-copy",
+    "prior": "new",
+    "note": "All three movements match a C-major sonata for the same four string parts, but that copy was made and edited by Eugen Huber (1909-2004). The Fritz attribution needs its period source.",
     "class": "strong",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [
+     "404000219: copied or edited by Huber, Eugen (1909-2004); a modern copy, not a period witness"
+    ],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "n",
@@ -927,10 +1643,17 @@
        "data": "''4C{8.C6G8.E6C}/'4G{8.G''6E8.C'6G}/4E{8.E''6C'8.G6E}/"
       },
       "notes": 12,
-      "agree": 12,
+      "overlap": 12,
+      "from_start": 12,
+      "counts": true,
       "match": {
        "source": "404000219",
-       "movement": "1.1.1 Allegro",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "n",
        "timesig": "3/4",
@@ -938,7 +1661,8 @@
       }
      },
      {
-      "movement": "1.2.1 andante",
+      "incipit": "1.2.1 andante",
+      "movement": 2,
       "anon": {
        "clef": "G-2",
        "keysig": "bBE",
@@ -946,10 +1670,17 @@
        "data": "''8C/G4bA8G/{6GnE}q8E4F'8G/{6GtnBBt''D}{6DtFFtbA}/"
       },
       "notes": 12,
-      "agree": 8,
+      "overlap": 8,
+      "from_start": 8,
+      "counts": true,
       "match": {
        "source": "404000219",
-       "movement": "1.2.1 Andante",
+       "incipit": "1.2.1 Andante",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "bBE",
        "timesig": "2/4",
@@ -957,7 +1688,8 @@
       }
      },
      {
-      "movement": "1.3.1 allegro",
+      "incipit": "1.3.1 allegro",
+      "movement": 3,
       "anon": {
        "clef": "G-2",
        "keysig": "n",
@@ -965,16 +1697,33 @@
        "data": "{''8C'''6C''G}{6ECD'B}/''8C'4G8F/{8E'''6C''G}{6ECD'B}/"
       },
       "notes": 17,
-      "agree": 17,
+      "overlap": 17,
+      "from_start": 17,
+      "counts": true,
       "match": {
        "source": "404000219",
-       "movement": "1.3.1 Allegro",
+       "incipit": "1.3.1 Allegro",
+       "movement": 3,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "n",
        "timesig": "2/4",
        "data": "{''8C'''6C''G}{ECD'B}/''8C4'G8F/{8E'''6C''G}{ECD'B}/''8C4'E8D/6{CEG''C}{EDC'B}/{EG''CE}{GFED}/{'G''CEG}8{'''C''E}/{EtD}4-/"
       }
      }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     1,
+     2,
+     3
     ],
     "sources": [
      {
@@ -995,11 +1744,22 @@
    {
     "composer": "Galimberti, Ferdinando (1751+)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "disputed",
+    "prior": "new",
+    "note": "The anonymous Andante matches movement II (Largo) of the comparator; the anonymous Allegro is not encoded. The comparator, a copy by Edgar Refardt (1877-1968), cross-references Lampugnani, under whom the 1762 Breitkopf catalogue lists the work.",
     "class": "plausible",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [
+     "400006437: copied or edited by Refardt, Edgar (1877-1968); a modern copy, not a period witness",
+     "400006437: cross-reference to Lampugnani, Giovanni Battista (1708-1788)"
+    ],
+    "movement_mismatch": [
+     "1->2"
+    ],
+    "incipits": [
      {
-      "movement": "1.1.1 Andante",
+      "incipit": "1.1.1 Andante",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xF",
@@ -1007,16 +1767,29 @@
        "data": "'8G/''6D'BFG,8G-/''6EC'FG,8G-/''6D'BFG,8A-/"
       },
       "notes": 16,
-      "agree": 15,
+      "overlap": 15,
+      "from_start": 15,
+      "counts": true,
       "match": {
        "source": "400006437",
-       "movement": "1.2.1 Largo.",
+       "incipit": "1.2.1 Largo.",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xF",
        "timesig": "2/4",
        "data": "'8G/''6{D'BFG},8G-/''6{EC'FG},8G-/''6{D'BFG},8G-"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -1037,11 +1810,19 @@
    {
     "composer": "Galuppi, Baldassare (1706-1785)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Matches the overture to Il filosofo di campagna in twelve attributed copies; one of them (410004182) is a modern copy by Josef Liebeskind.",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [
+     "410004182: copied or edited by Liebeskind, Josef (1866-1916); a modern copy, not a period witness"
+    ],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -1049,16 +1830,29 @@
        "data": "'4D{6DCDE}{8DD}/{D,A'DFEG}/4F{6FEFG}{8FF}"
       },
       "notes": 15,
-      "agree": 15,
+      "overlap": 15,
+      "from_start": 15,
+      "counts": true,
       "match": {
        "source": "1001102886",
-       "movement": "1.1.1 All[egr]o assai",
+       "incipit": "1.1.1 All[egr]o assai",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "3/4",
        "data": "'4D{6DCDE}{8DD}/{D,A'DFEG}/4F{6FEFG}{8FF}/{FDFAGB}/"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -1123,11 +1917,17 @@
    {
     "composer": "Graun, Carl Heinrich (1704-1759)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Movement I of 3 encoded match: Ifigenia in Aulide (Arrangement) (RISM 1001054467, 1.1.1 Sinfonia. Allegro).",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "C-1",
        "keysig": "xF",
@@ -1135,10 +1935,17 @@
        "data": "{8''Gt3FG}{8DG}{8.Gt3FG}{8DG}/{6FG8A}2.A/{8.A3GA}{8DA}{8.A3GA}{8DA}/"
       },
       "notes": 20,
-      "agree": 20,
+      "overlap": 20,
+      "from_start": 20,
+      "counts": true,
       "match": {
        "source": "1001054467",
-       "movement": "1.1.1 Sinfonia. Allegro",
+       "incipit": "1.1.1 Sinfonia. Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "C-1",
        "keysig": "xF",
        "timesig": "",
@@ -1146,7 +1953,8 @@
       }
      },
      {
-      "movement": "1.2.1 Andante",
+      "incipit": "1.2.1 Andante",
+      "movement": 2,
       "anon": {
        "clef": "C-1",
        "keysig": "n",
@@ -1154,10 +1962,17 @@
        "data": "''4G/{6EGFA}4E+{8EGAE}/q8G4AG4-4'''C/8C4''B8Aq6A{8G6FE}{8FF}/"
       },
       "notes": 18,
-      "agree": 5,
+      "overlap": 5,
+      "from_start": 5,
+      "counts": false,
       "match": {
        "source": "212002696",
-       "movement": "1.2.1 Andante",
+       "incipit": "1.2.1 Andante",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "n",
        "timesig": "c/",
@@ -1165,7 +1980,8 @@
       }
      },
      {
-      "movement": "1.3.1 Presto",
+      "incipit": "1.3.1 Presto",
+      "movement": 3,
       "anon": {
        "clef": "C-1",
        "keysig": "xF",
@@ -1173,8 +1989,18 @@
        "data": "{''8ADC}/q8C4'B8A/{8G''DE}/q8'G4F8G/"
       },
       "notes": 10,
-      "agree": 1
+      "overlap": 2,
+      "from_start": 1,
+      "counts": false
      }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -1207,28 +2033,51 @@
    {
     "composer": "Graun, Johann Gottlieb (1702c-1771)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "disputed",
+    "prior": "new",
+    "note": "The matching copies attribute the work to Graun only conjecturally, and one is headed 'Sinfonie del Sigre Giuseppe Rainino'.",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [
+     "190010953: composer qualified as Conjectural",
+     "190010954: composer qualified as Conjectural",
+     "190010955: cross-reference to Rainino, Giuseppe"
+    ],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "c",
        "data": "''8F-6-{EFG}{8AGFE}/i/8D"
       },
-      "notes": 9,
-      "agree": 9,
+      "notes": 17,
+      "overlap": 17,
+      "from_start": 17,
+      "counts": true,
       "match": {
        "source": "190010953",
-       "movement": "1.1.1 Allegro",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "c",
        "data": "''4F8.-({3EFG}){8AGFE}/i/4D"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -1261,11 +2110,19 @@
    {
     "composer": "Gyrowetz, Adalbert (1763-1850)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "A one-leaf violin part: the B-flat Andante is movement II of the F-major symphony RicG F4 (op. 13/2), not a separate symphony.",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "1->2"
+    ],
+    "incipits": [
      {
-      "movement": "1.1.1 Andante",
+      "incipit": "1.1.1 Andante",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "bBE",
@@ -1273,16 +2130,29 @@
        "data": "''8F-G-/{8.E6C8D}6-'F}/{BA''C'B}{''DCEC}/{'8.B''6C'8A}6-{F}/''{DCED}{FEGE}/{8.D6E8C}-/"
       },
       "notes": 29,
-      "agree": 29,
+      "overlap": 29,
+      "from_start": 29,
+      "counts": true,
       "match": {
        "source": "1001163821",
-       "movement": "1.2.1 Andante",
+       "incipit": "1.2.1 Andante",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "bBE",
        "timesig": "2/4",
        "data": "8''F-G-/{ECD}6-'F/{BA''C'B}{''DCEC}/8.{'B6''C8'A}6-F/{''DCED}{FEGE}/{8.6DE8C}-/"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -1323,11 +2193,17 @@
    {
     "composer": "Gyrowetz, Adalbert (1763-1850)",
     "verdict": "confirmed",
-    "note": "3 of 4 movements agree with print RicG C3 (octave-shifted encodings)",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Movements I-III match the print RicG C3 (movement I differs in one note); the print encodes no finale to compare.",
     "class": "plausible",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro assai",
+      "incipit": "1.1.1 Allegro assai",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "n",
@@ -1335,10 +2211,13 @@
        "data": "''4CCC/C-'''C/''B'''C''B/G--/"
       },
       "notes": 6,
-      "agree": 4
+      "overlap": 4,
+      "from_start": 4,
+      "counts": false
      },
      {
-      "movement": "1.2.1 Andante",
+      "incipit": "1.2.1 Andante",
+      "movement": 2,
       "anon": {
        "clef": "G-2",
        "keysig": "bB",
@@ -1346,10 +2225,13 @@
        "data": "'''{8CCCC}/4''AG/{8FF}{6GBGE}/{8FGA}-/"
       },
       "notes": 11,
-      "agree": 1
+      "overlap": 4,
+      "from_start": 1,
+      "counts": false
      },
      {
-      "movement": "1.3.1 Menuetto.",
+      "incipit": "1.3.1 Menuetto.",
+      "movement": 3,
       "anon": {
        "clef": "G-2",
        "keysig": "n",
@@ -1357,10 +2239,17 @@
        "data": "''4C8{C'B''C'B}/4''C'G''C/ECE/2G{6B'''8.C}/4''GG{6B'''8.C}/"
       },
       "notes": 16,
-      "agree": 11,
+      "overlap": 11,
+      "from_start": 11,
+      "counts": true,
       "match": {
        "source": "990024171",
-       "movement": "1.3.1 Minuetto Allegro assai",
+       "incipit": "1.3.1 Minuetto Allegro assai",
+       "movement": 3,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "n",
        "timesig": "3/4",
@@ -1368,7 +2257,8 @@
       }
      },
      {
-      "movement": "1.4.1 Finale. Allegretto",
+      "incipit": "1.4.1 Finale. Allegretto",
+      "movement": 4,
       "anon": {
        "clef": "G-2",
        "keysig": "n",
@@ -1376,13 +2266,262 @@
        "data": "=13/4-8-''G/{ECEG}/{'''CEG}-/''4B'''C/D-/"
       },
       "notes": 11,
-      "agree": 1
+      "overlap": 2,
+      "from_start": 1,
+      "counts": false
      }
+    ],
+    "movements": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "movements_matched": [
+     3
     ],
     "sources": [
      {
       "id": "990024171",
       "label": "Symphonies–C major; Print; RicG C3"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "1001067396",
+  "genre": "symphonies",
+  "label": "Symphony–D major; Manuscript copy; PL-SA 141/A III 41",
+  "shelfmark": "PL-SA 141/A III 41",
+  "leads": [
+   {
+    "composer": "Hasse, Johann Adolf (1699-1783)",
+    "verdict": "confirmed",
+    "attribution": "disputed",
+    "prior": "new",
+    "note": "The Hasse copy (D-Bsa SA 2219) qualifies its attribution as alleged; the same symphony is attributed to Johann Christian Röllig in D-Bsa SA 3212 and D-Ju.",
+    "class": "strong",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "469221900: composer qualified as Alleged"
+    ],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Synfonia",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "4''F^'A^D{6''AGFE}4D'A/{8F6DE}{8FG}{A,A}8-'A/{6''D'AAA}{AAAA}{''E'AAA}{AAAA}/"
+      },
+      "notes": 19,
+      "overlap": 14,
+      "from_start": 14,
+      "counts": true,
+      "match": {
+       "source": "469221900",
+       "incipit": "1.1.1 Allegro.",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c/",
+       "data": "''4F{6AGFE}4D'A/{'8F6DE}{8FG}{A,A}8-8A/"
+      }
+     },
+     {
+      "incipit": "1.2.1 Andante",
+      "movement": 2,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "2/4",
+       "data": "8''E/{3CD6E}{3DE6F}{8E'A}/{3B6.G8A}4''A/{3'B6.G8A}4''A/4'D^A^''F{3GFED}{6.3CE'B''D}/"
+      },
+      "notes": 26,
+      "overlap": 13,
+      "from_start": 13,
+      "counts": true,
+      "match": {
+       "source": "469221900",
+       "incipit": "1.2.1 Andante.",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "2/4",
+       "data": "''8E/{3CD6E}{3DE6F}{8E'A}/{3B6.G8A}''4A/"
+      }
+     },
+     {
+      "incipit": "1.3.1 Presto",
+      "movement": 3,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "6/8",
+       "data": "{6'AF}/{8DDD}{DDD}/{DFA}4''D{6FD}/4A{6AF}4G{6GE}/{8F6FAGF}4E{6'AF}/"
+      },
+      "notes": 19,
+      "overlap": 8,
+      "from_start": 8,
+      "counts": true,
+      "match": {
+       "source": "469221900",
+       "incipit": "1.3.1 Presto.",
+       "movement": 3,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "6/8",
+       "data": "{6'AF}/{8DDD}{DDD}/{DFA}4''D{6FD}/"
+      }
+     }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     1,
+     2,
+     3
+    ],
+    "sources": [
+     {
+      "id": "469221900",
+      "label": "Symphonies–D major; Manuscript copy; D-Bsa SA 2219"
+     }
+    ]
+   },
+   {
+    "composer": "Röllig, Johann Christian (1716-1780c)",
+    "verdict": "confirmed",
+    "attribution": "disputed",
+    "prior": "new",
+    "note": "Also attributed to Hasse (D-Bsa SA 2219, qualified as alleged). The Röllig copies cross-reference Johann Georg Röllig; RISM 469143100 sets out why the Dresden 'Roellig jun.' material belongs to Johann Christian.",
+    "class": "strong",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "1001287072: cross-reference to Röllig, Johann Georg (1710-1790) (Conjectural)",
+     "469321200: cross-reference to Röllig, Johann Georg (1710-1790)"
+    ],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Synfonia",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "4''F^'A^D{6''AGFE}4D'A/{8F6DE}{8FG}{A,A}8-'A/{6''D'AAA}{AAAA}{''E'AAA}{AAAA}/"
+      },
+      "notes": 19,
+      "overlap": 17,
+      "from_start": 17,
+      "counts": true,
+      "match": {
+       "source": "1001287072",
+       "incipit": "1.1.1",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c/",
+       "data": "''4F6{AGFE}4D'A/{8F6DE}{8FG}{A,A}-'A/''6{D'AAA}{AAAA}"
+      }
+     },
+     {
+      "incipit": "1.2.1 Andante",
+      "movement": 2,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "2/4",
+       "data": "8''E/{3CD6E}{3DE6F}{8E'A}/{3B6.G8A}4''A/{3'B6.G8A}4''A/4'D^A^''F{3GFED}{6.3CE'B''D}/"
+      },
+      "notes": 26,
+      "overlap": 17,
+      "from_start": 17,
+      "counts": true,
+      "match": {
+       "source": "469321200",
+       "incipit": "1.2.1 Andante.",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "2/4",
+       "data": "''8E/{3CD6E}{3DE6F}{8E'A}/{3B6.G8A}4''A/'{3B6.G8A}4''A/"
+      }
+     },
+     {
+      "incipit": "1.3.1 Presto",
+      "movement": 3,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "6/8",
+       "data": "{6'AF}/{8DDD}{DDD}/{DFA}4''D{6FD}/4A{6AF}4G{6GE}/{8F6FAGF}4E{6'AF}/"
+      },
+      "notes": 19,
+      "overlap": 8,
+      "from_start": 8,
+      "counts": true,
+      "match": {
+       "source": "1001287072",
+       "incipit": "1.3.1 Presto",
+       "movement": 3,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "6/8",
+       "data": "'6{AF}/8{DDD}{DDD}/{DFA}''4D{6FD}/4F{6FD}"
+      }
+     }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     1,
+     2,
+     3
+    ],
+    "sources": [
+     {
+      "id": "1001287072",
+      "label": "Symphonies–D major; Manuscript copy; D-Ju Ms.Conc.Acad.75"
+     },
+     {
+      "id": "469321200",
+      "label": "Symphonies–D major; Manuscript copy; D-Bsa SA 3212"
      }
     ]
    }
@@ -1398,11 +2537,17 @@
    {
     "composer": "Hiller, Johann Adam (1728-1804)",
     "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
     "note": "Overture to the opera Der lustige Schuster",
     "class": "strong",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro non troppo. Allegro non troppo",
+      "incipit": "1.1.1 Allegro non troppo. Allegro non troppo",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xF",
@@ -1410,10 +2555,17 @@
        "data": ",8{G'GFEDxC}/{DEDC,BA}/{G'GFEDxC}/{DEDC,BA}/"
       },
       "notes": 24,
-      "agree": 24,
+      "overlap": 24,
+      "from_start": 24,
+      "counts": true,
       "match": {
        "source": "990029378",
-       "movement": "1.1.1 Sinfonie Allegro non troppo",
+       "incipit": "1.1.1 Sinfonie Allegro non troppo",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "C-1",
        "keysig": "xF",
        "timesig": "3/4",
@@ -1421,7 +2573,8 @@
       }
      },
      {
-      "movement": "1.2.1 Allegretto. Allegretto",
+      "incipit": "1.2.1 Allegretto. Allegretto",
+      "movement": 2,
       "anon": {
        "clef": "G-2",
        "keysig": "xF",
@@ -1429,10 +2582,17 @@
        "data": "''8B/{xDE'B}''B/{xDE'B}''G/6{FEFG}{AFGE}/{xDEFE}8'B''B/"
       },
       "notes": 23,
-      "agree": 17,
+      "overlap": 17,
+      "from_start": 17,
+      "counts": true,
       "match": {
        "source": "990029378",
-       "movement": "1.2.1 Allegretto",
+       "incipit": "1.2.1 Allegretto",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "C-1",
        "keysig": "xF",
        "timesig": "2/4",
@@ -1440,7 +2600,8 @@
       }
      },
      {
-      "movement": "1.3.1 Allegro di molto. Allegro di molto",
+      "incipit": "1.3.1 Allegro di molto. Allegro di molto",
+      "movement": 3,
       "anon": {
        "clef": "G-2",
        "keysig": "xF",
@@ -1448,16 +2609,33 @@
        "data": "''4.G/F/A/G/B/A/'''C/''B/'''{8D''6BAB'''C}/"
       },
       "notes": 13,
-      "agree": 13,
+      "overlap": 13,
+      "from_start": 13,
+      "counts": true,
       "match": {
        "source": "990029378",
-       "movement": "1.3.1 Allegro di molto",
+       "incipit": "1.3.1 Allegro di molto",
+       "movement": 3,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "C-1",
        "keysig": "xF",
        "timesig": "3/8",
        "data": "4.''G/4.F/A/G/B/A/'''C/''B/8'''D{6''BAB'''C}/"
       }
      }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     1,
+     2,
+     3
     ],
     "sources": [
      {
@@ -1478,11 +2656,17 @@
    {
     "composer": "Kospoth, Otto Carl Erdmann (1753-1817)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: Symphonies–C major (RISM 450012267, 1.1.1 Allegro).",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Grave",
+      "incipit": "1.1.1 Grave",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "n",
@@ -1490,16 +2674,29 @@
        "data": "'4C''{8.C6C}/'4C''{8GG}/{8G6E3-C}{6GFD'B}/''4C"
       },
       "notes": 11,
-      "agree": 11,
+      "overlap": 11,
+      "from_start": 11,
+      "counts": true,
       "match": {
        "source": "450012267",
-       "movement": "1.1.1 Allegro",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "n",
        "timesig": "2/4",
        "data": "'4C{''8.C6C}/'4C{''8GG}/{G6E3-C}{6GFD'B}/''4C-/"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -1524,11 +2721,17 @@
    {
     "composer": "Koželuh, Leopold (1747-1818)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: Symphonies–C major (RISM 210045950, 1.1.1 Allegro molto).",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro di molto",
+      "incipit": "1.1.1 Allegro di molto",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "n",
@@ -1536,16 +2739,29 @@
        "data": "''4.8C'G''E'B/8{''CCCE}'4G8-xG/4.A8E"
       },
       "notes": 10,
-      "agree": 10,
+      "overlap": 10,
+      "from_start": 10,
+      "counts": true,
       "match": {
        "source": "210045950",
-       "movement": "1.1.1 Allegro molto",
+       "incipit": "1.1.1 Allegro molto",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "n",
        "timesig": "c",
        "data": "''4.C'8G''4.E'8B/{''CCCE}'4G8-xG/4.A8E''4.C'8xG/{AAA''C}4E-/"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -1570,11 +2786,20 @@
    {
     "composer": "Küffner, Wilhelm (1727-1797)",
     "verdict": "confirmed",
-    "note": "Matches Quartetto IV in a printed set",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "All three movements match Quartetto IV, movements X, XI and XII of the printed set; the historical titles differ (quartet, symphony) but the music is the same.",
     "class": "strong",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "2->11",
+     "3->12"
+    ],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro non molto",
+      "incipit": "1.1.1 Allegro non molto",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "bB",
@@ -1582,10 +2807,17 @@
        "data": "{''6C'A}/q8G8F4F{''6C'A}q8G8F4F6-''C/{8C'6.A''3C}{8C'6.A''3C}8(6{CDE};3)8(6{FED};3){8.C6'C}/"
       },
       "notes": 18,
-      "agree": 18,
+      "overlap": 18,
+      "from_start": 18,
+      "counts": true,
       "match": {
        "source": "1001383642",
-       "movement": "1.1.1 [p. 7, at left of the 6th stave:] QUARTETTO IV [at left underneath the 6th stave:] Allegro non Molto",
+       "incipit": "1.1.1 [p. 7, at left of the 6th stave:] QUARTETTO IV [at left underneath the 6th stave:] Allegro non Molto",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "bB",
        "timesig": "c",
@@ -1593,7 +2825,8 @@
       }
      },
      {
-      "movement": "1.2.1 Andante",
+      "incipit": "1.2.1 Andante",
+      "movement": 2,
       "anon": {
        "clef": "G-2",
        "keysig": "bBEAD",
@@ -1601,10 +2834,17 @@
        "data": "4''CAF/4.nE{6FG}4F/4.D{6CD}{8bED}/{'nB''C}2C/"
       },
       "notes": 14,
-      "agree": 14,
+      "overlap": 14,
+      "from_start": 14,
+      "counts": true,
       "match": {
        "source": "1001074840",
-       "movement": "1.4.2 Andante",
+       "incipit": "1.4.2 Andante",
+       "movement": 11,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "bBEAD",
        "timesig": "3/4",
@@ -1612,7 +2852,8 @@
       }
      },
      {
-      "movement": "1.3.1 Presto",
+      "incipit": "1.3.1 Presto",
+      "movement": 3,
       "anon": {
        "clef": "G-2",
        "keysig": "bB",
@@ -1620,16 +2861,33 @@
        "data": "8''C/{FCD'B}/{''C'ABG}/{AF}q6A{8G6FE}/4F-/"
       },
       "notes": 15,
-      "agree": 15,
+      "overlap": 15,
+      "from_start": 15,
+      "counts": true,
       "match": {
        "source": "1001074840",
-       "movement": "1.4.3 Presto",
+       "incipit": "1.4.3 Presto",
+       "movement": 12,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "bB",
        "timesig": "2/4",
        "data": "8''C/{FCD'B}/{''C'ABG}/{AF}{G6FE}/4F"
       }
      }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     1,
+     2,
+     3
     ],
     "sources": [
      {
@@ -1654,11 +2912,22 @@
    {
     "composer": "Mozart, Leopold (1719-1787)",
     "verdict": "confirmed",
-    "note": "",
-    "class": "plausible",
-    "movements": [
+    "attribution": "secure",
+    "prior": "comparator-record",
+    "note": "Comparator 651004152 already lists 'Weitere Kopie in D-DO Mus. Ms. 1808 (anonym)', this copy under its former Donaueschingen shelfmark.",
+    "class": "known",
+    "prior_documentation": [
      {
-      "movement": "1.1.1 Allegro",
+      "source": "651004152",
+      "text": "\\\", Stempel MV 3 und Stempel \\\"Konservatorium der Stadt Innsbruck, Bibliothek\\\"\", \"Gleicher Schreiber wie in A-Ik 651.004.153\", \"Weitere Kopie in D-DO Mus. Ms. 1808 (anonym)\"]}}, {\"label\": {\"en\": [\"Catalo"
+     }
+    ],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -1666,16 +2935,29 @@
        "data": "''4FF6{FDCD}{'A''D'FA}/''4FF2F/"
       },
       "notes": 9,
-      "agree": 9,
+      "overlap": 9,
+      "from_start": 9,
+      "counts": true,
       "match": {
        "source": "651004152",
-       "movement": "1.1.1 Allegro",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "4/4",
        "data": "4''FF6{FDCD}{'A''D'FA}/4''FF2F/"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -1696,11 +2978,17 @@
    {
     "composer": "Mysliveček, Josef (1737-1781)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: La Calliroe (Excerpts) (RISM 400004242, 1.1.1 Allegro con spirito).",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro con spirito",
+      "incipit": "1.1.1 Allegro con spirito",
+      "movement": 1,
       "anon": {
        "clef": "C-3",
        "keysig": "xFC",
@@ -1708,16 +2996,29 @@
        "data": "{6,A3B'C}/4D8.-3{DE}4F8.-3{FG}/4A--6{GFED}/8C-D-E"
       },
       "notes": 15,
-      "agree": 15,
+      "overlap": 15,
+      "from_start": 15,
+      "counts": true,
       "match": {
        "source": "400004242",
-       "movement": "1.1.1 Allegro con spirito",
+       "incipit": "1.1.1 Allegro con spirito",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "c",
        "data": ",6A3B'C/4D8-6DE4F8-6FG/4A--6GFED/8C-D-E-F-/4G"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -1746,11 +3047,17 @@
    {
     "composer": "Mysliveček, Josef (1737-1781)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: La Calliroe (Excerpts) (RISM 400004242, 1.1.1 Allegro con spirito).",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 All.o con spirito",
+      "incipit": "1.1.1 All.o con spirito",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -1758,16 +3065,29 @@
        "data": "{,6A3B'C}/4D8.-{3DE}4F8.-{3FG}/4A--{6GFE}"
       },
       "notes": 11,
-      "agree": 11,
+      "overlap": 11,
+      "from_start": 11,
+      "counts": true,
       "match": {
        "source": "400004242",
-       "movement": "1.1.1 Allegro con spirito",
+       "incipit": "1.1.1 Allegro con spirito",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "c",
        "data": ",6A3B'C/4D8-6DE4F8-6FG/4A--6GFED/8C-D-E-F-/4G"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -1796,11 +3116,19 @@
    {
     "composer": "Naumann, Johann Gottlieb (1741-1801)",
     "verdict": "confirmed",
-    "note": "Overture to La clemenza di Tito, transposed from B-flat to C; three movements agree",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Movements I, II and IV derive from the overture to La clemenza di Tito (its movements I-III), transposed from B-flat to C. The added Minuetto is not identified and is not attributed here.",
     "class": "strong",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "4->3"
+    ],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "n",
@@ -1808,10 +3136,17 @@
        "data": "{''6C'''C''C'''C}{''6C'''C''C'''C}{''6C'''C''C'''C}{''6C'''C''C'''C}/{''6C'''C''C'''C}{''6C'''C''C'''C}{''6C'''C''C'''C}{''6C'''C''C'''C}/4C-"
       },
       "notes": 32,
-      "agree": 16,
+      "overlap": 16,
+      "from_start": 16,
+      "counts": true,
       "match": {
        "source": "1001179385",
-       "movement": "1.1.2",
+       "incipit": "1.1.2",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "bBE",
        "timesig": "c",
@@ -1819,7 +3154,8 @@
       }
      },
      {
-      "movement": "1.2.1 Andante",
+      "incipit": "1.2.1 Andante",
+      "movement": 2,
       "anon": {
        "clef": "G-2",
        "keysig": "bB",
@@ -1827,10 +3163,17 @@
        "data": "''4At8G/4Bt8A/4Gt8F/4'''Dt8C/''4Bt8A/4Gt8F/"
       },
       "notes": 12,
-      "agree": 12,
+      "overlap": 12,
+      "from_start": 12,
+      "counts": true,
       "match": {
        "source": "1001179385",
-       "movement": "1.2.1 Andante espressivo",
+       "incipit": "1.2.1 Andante espressivo",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "bBEA",
        "timesig": "3/8",
@@ -1838,7 +3181,8 @@
       }
      },
      {
-      "movement": "1.3.1 Minuetto.",
+      "incipit": "1.3.1 Minuetto.",
+      "movement": 3,
       "anon": {
        "clef": "G-2",
        "keysig": "bB",
@@ -1846,10 +3190,26 @@
        "data": "'4FA''C/2C{8DE}/4.F8G4A/"
       },
       "notes": 8,
-      "agree": 3
+      "overlap": 5,
+      "from_start": 1,
+      "counts": false,
+      "match": {
+       "source": "1001179385",
+       "incipit": "1.28.2",
+       "movement": 14,
+       "offset": [
+        2,
+        0
+       ],
+       "clef": "C-1",
+       "keysig": "xF",
+       "timesig": "3/4",
+       "data": "=35/'2.G/2A({8B''CD})/qD4C'BA/qA2B4-/"
+      }
      },
      {
-      "movement": "1.4.1 Finale. Allegro",
+      "incipit": "1.4.1 Finale. Allegro",
+      "movement": 4,
       "anon": {
        "clef": "G-2",
        "keysig": "n",
@@ -1857,16 +3217,34 @@
        "data": "''{6CDEC}{DEFD}/{EFGE}{FGAB}/'''{C''GAA}"
       },
       "notes": 19,
-      "agree": 19,
+      "overlap": 19,
+      "from_start": 19,
+      "counts": true,
       "match": {
        "source": "1001179385",
-       "movement": "1.3.1 Allegro",
+       "incipit": "1.3.1 Allegro",
+       "movement": 3,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "bBE",
        "timesig": "2/4",
        "data": "'{6B''CD'B}{''CDEC}/{DEFD}{EFGA}/{BFGG}{GEFF}/"
       }
      }
+    ],
+    "movements": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "movements_matched": [
+     1,
+     2,
+     4
     ],
     "sources": [
      {
@@ -1895,11 +3273,17 @@
    {
     "composer": "Paisiello, Giovanni (1740-1816)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: I giuochi d'Agrigento (Excerpts, Arrangement) (RISM 806435695, 1.1.1 Atto Pmo. Sinfonia. Allegro vivace).",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 All:o vivace",
+      "incipit": "1.1.1 All:o vivace",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -1907,16 +3291,29 @@
        "data": "''2D+4D{8.A6F}/2D+4D{8.A6F}/2DgD8{C'B''C}"
       },
       "notes": 10,
-      "agree": 10,
+      "overlap": 10,
+      "from_start": 10,
+      "counts": true,
       "match": {
        "source": "806435695",
-       "movement": "1.1.1 Atto Pmo. Sinfonia. Allegro vivace",
+       "incipit": "1.1.1 Atto Pmo. Sinfonia. Allegro vivace",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "c",
        "data": "''2.D{8.A6F}/''2.D{8.A6F}/2Dq8D8{C'B''CE}/"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -1969,11 +3366,17 @@
    {
     "composer": "Paër, Ferdinando (1771-1839)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: Symphonies–C minor (RISM 850604019, 1.1.1 Larghetto staccato).",
     "class": "plausible",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Larghetto Stac.to - All.o",
+      "incipit": "1.1.1 Larghetto Stac.to - All.o",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "bBEA",
@@ -1981,16 +3384,29 @@
        "data": "'4C8-6-{5CDEF}{8.G6E}/4DA-/,G+{6G3nAnB'C}"
       },
       "notes": 12,
-      "agree": 12,
+      "overlap": 12,
+      "from_start": 12,
+      "counts": true,
       "match": {
        "source": "850604019",
-       "movement": "1.1.1 Larghetto staccato",
+       "incipit": "1.1.1 Larghetto staccato",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "bBEA",
        "timesig": "3/4",
        "data": "'4C8-{3CDEF}{8.G6E}/4DA-/,4G+{6G3nAnB'CD}"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -2011,11 +3427,17 @@
    {
     "composer": "Paër, Ferdinando (1771-1839)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: La virtù al cimento (RISM 858000019, 1.1.1 [Sinfonia]. Larghetto).",
     "class": "plausible",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Larghetto",
+      "incipit": "1.1.1 Larghetto",
+      "movement": 1,
       "anon": {
        "clef": "F-4",
        "keysig": "xFC",
@@ -2023,16 +3445,29 @@
        "data": ",4D8-(3-{'3DC,BAG};6){8.6FDEF}/4G8-({3BAGFED};6){8.6C,,AB,C}/"
       },
       "notes": 21,
-      "agree": 21,
+      "overlap": 21,
+      "from_start": 21,
+      "counts": true,
       "match": {
        "source": "858000019",
-       "movement": "1.1.1 [Sinfonia]. Larghetto",
+       "incipit": "1.1.1 [Sinfonia]. Larghetto",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "4/4",
        "data": "4''D^,D8-6-({'''DC''BAG};6){8.F6D8.E6F}/4G8-6({BAGFED};6){8.C6'A8.B6''C}/4D^,D-2-/"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -2053,11 +3488,17 @@
    {
     "composer": "Piazza, Gaetano (18.sc)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: Overtures–D major (RISM 450010294, 1.1.1 Vivace).",
     "class": "plausible",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -2065,16 +3506,29 @@
        "data": "8''D-6qE{DCDE}{8D'A}D-/''F-8qG6{FEFG}{8FD}'8D-/"
       },
       "notes": 14,
-      "agree": 14,
+      "overlap": 14,
+      "from_start": 14,
+      "counts": true,
       "match": {
        "source": "450010294",
-       "movement": "1.1.1 Vivace",
+       "incipit": "1.1.1 Vivace",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "c",
        "data": "''8D-q6E{DCDE}{8D'A}D-/''F-q6G{FEFG}{8FD}'D-/"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -2095,11 +3549,17 @@
    {
     "composer": "Pichl, Václav (1741-1805)",
     "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
     "note": "Anonymous copy encodes opening chords bottom-up, which lowers the automatic note count",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -2107,10 +3567,17 @@
        "data": "4D^A^''F'8{DF}{EG}{,A'C}/4DD^A^''A'A^''G'A^''E/'4D^A^''F8({'DEF})8({'EFG})8({,AB'C})/"
       },
       "notes": 17,
-      "agree": 7,
+      "overlap": 7,
+      "from_start": 7,
+      "counts": false,
       "match": {
        "source": "455016140",
-       "movement": "1.1.2",
+       "incipit": "1.1.2",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "F-4",
        "keysig": "xFC",
        "timesig": "c",
@@ -2118,7 +3585,8 @@
       }
      },
      {
-      "movement": "1.2.1 Andantino",
+      "incipit": "1.2.1 Andantino",
+      "movement": 2,
       "anon": {
        "clef": "G-2",
        "keysig": "xFCG",
@@ -2126,10 +3594,13 @@
        "data": "8.''{E6E}{EEEE}/{ExDExD}4E/{6DFGA}{GFED}/"
       },
       "notes": 13,
-      "agree": 1
+      "overlap": 3,
+      "from_start": 1,
+      "counts": false
      },
      {
-      "movement": "1.3.1 Menuetto",
+      "incipit": "1.3.1 Menuetto",
+      "movement": 3,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -2137,10 +3608,13 @@
        "data": "4'DF^''D'F^''D/'2F^''D{6C'BAG}/4'FD^'B'D^'B/'2D^'B{6AGFE}/4D"
       },
       "notes": 13,
-      "agree": 2
+      "overlap": 3,
+      "from_start": 1,
+      "counts": false
      },
      {
-      "movement": "1.4.1 Trio",
+      "incipit": "1.4.1 Trio",
+      "movement": 4,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -2148,16 +3622,32 @@
        "data": "4A/''2A{6AGnFE}/4D'AA/2.bB/2A4A/"
       },
       "notes": 9,
-      "agree": 9,
+      "overlap": 9,
+      "from_start": 9,
+      "counts": true,
       "match": {
        "source": "1001113755",
-       "movement": "1.4.1 Trio",
+       "incipit": "1.4.1 Trio",
+       "movement": 4,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "bB",
        "timesig": "3/4",
        "data": "4'A/''2A{6AGnFE}/4D'AA/2.B/2A4A/"
       }
      }
+    ],
+    "movements": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "movements_matched": [
+     4
     ],
     "sources": [
      {
@@ -2202,11 +3692,17 @@
    {
     "composer": "Pichl, Václav (1741-1805)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: Symphonies (RISM 1001302071, 1.1.1 Allo Con Brio).",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro con brio",
+      "incipit": "1.1.1 Allegro con brio",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "n",
@@ -2214,16 +3710,29 @@
        "data": "'4C8-{3CDEF}4G8.-({3GAB})/''{8CC'BA}4G-/,A8-{3AB'CD}4E"
       },
       "notes": 16,
-      "agree": 16,
+      "overlap": 16,
+      "from_start": 16,
+      "counts": true,
       "match": {
        "source": "1001302071",
-       "movement": "1.1.1 Allo Con Brio",
+       "incipit": "1.1.1 Allo Con Brio",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "n",
        "timesig": "c",
        "data": "'4C8-{3'CDEF}4G8.-3{GAB}/{''8CC'BA}4G4-/,4A8-{3AB'CD}'4E8.-3{EFG}/"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -2272,11 +3781,17 @@
    {
     "composer": "Pichl, Václav (1741-1805)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: Symphonies–F major (RISM 550248218, 1.1.1 Allegro).",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "bB",
@@ -2284,16 +3799,29 @@
        "data": "''2F4CD/'{8.A6B}''4C-D/{8C'BAB}4G''C/{'8.A6B}''4C"
       },
       "notes": 16,
-      "agree": 16,
+      "overlap": 16,
+      "from_start": 16,
+      "counts": true,
       "match": {
        "source": "550248218",
-       "movement": "1.1.1 Allegro",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "bB",
        "timesig": "c",
        "data": "2''F4CD/{8.'A6B}4''C-D/8{C'BAB}4G''C/{8.'A6B}4''C-"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -2322,11 +3850,19 @@
    {
     "composer": "Pokorný, Franz Xaver (1729-1794)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Matches a Pokorný autograph (AngP D62) in the Eisenmann collection, which cross-references Angelus Anton Eisenmann.",
     "class": "plausible",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [
+     "450010621: cross-reference to Eisenmann, Angelus Anton (18.sc) (Ascertained)"
+    ],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro assai",
+      "incipit": "1.1.1 Allegro assai",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -2334,10 +3870,17 @@
        "data": "''4F8-6AG8FFFE/4F8-6AG8FFFC/4D"
       },
       "notes": 11,
-      "agree": 11,
+      "overlap": 11,
+      "from_start": 11,
+      "counts": true,
       "match": {
        "source": "450010621",
-       "movement": "1.1.1 Allegro assai",
+       "incipit": "1.1.1 Allegro assai",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "c",
@@ -2345,10 +3888,79 @@
       }
      }
     ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
     "sources": [
      {
       "id": "450010621",
       "label": "Symphonies–D major; Autograph manuscript; AngP D62; D-Rtt Eisenmann 2"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "450003164",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; D-DS Mus.ms 866/2",
+  "shelfmark": "D-DS Mus.ms 866/2",
+  "leads": [
+   {
+    "composer": "Polazzi, Bernardo (18.sc)",
+    "verdict": "confirmed",
+    "attribution": "uncertain",
+    "prior": "anonymous-record",
+    "note": "The anonymous record already names Polazzi; the comparator's attribution is qualified as doubtful.",
+    "class": "known",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "400006585: composer qualified as Doubtful"
+    ],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro molto",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "3/4",
+       "data": "'{8D6AF}{8DDDD}/i/{8E6GF}{,8A'GFE}/"
+      },
+      "notes": 14,
+      "overlap": 14,
+      "from_start": 14,
+      "counts": true,
+      "match": {
+       "source": "400006585",
+       "incipit": "1.1.1 Allegro.",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "3/4",
+       "data": "{'8D6AF}{8DDDD}/i/{8E6GF}{,8A'GFE}/{6FDFA}{''DAFD}'4D"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "400006585",
+      "label": "Overtures–D major; Manuscript copy; CH-Bu kr IV 252"
      }
     ]
    }
@@ -2364,11 +3976,17 @@
    {
     "composer": "Ricci, Francesco Pasquale, OFMConv (1732-1817)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: Overtures–D major (RISM 400012916, 1.1.1 Allegro).",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -2376,16 +3994,29 @@
        "data": "''4F8-A4F8-A/86.3{F'DE}{DFG}{FAB}8{A''F}/"
       },
       "notes": 15,
-      "agree": 15,
+      "overlap": 15,
+      "from_start": 15,
+      "counts": true,
       "match": {
-       "source": "550040745",
-       "movement": "1.1.1 Allegro",
+       "source": "400012916",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "c",
-       "data": "''4F8-A4F8-A/{8F'6.D3E}{8D6.F3G}{8F6.A3B}8{A''F}/4G"
+       "data": "!''4F8-A!f/8F'6.D3E8D6.F3G8F6.A3B8A''F/"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -2410,11 +4041,17 @@
    {
     "composer": "Richter, Franz Xaver (1709-1789)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: Symphonies–C major (RISM 603000365, 1.1.1 Allegro).",
     "class": "plausible",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "n",
@@ -2422,16 +4059,29 @@
        "data": "{''8C6CC}{8CC}{6C'CDE}{FGAB}/{''C'EFG}{AB''CD}{E'GAB}{''CDEF}//"
       },
       "notes": 24,
-      "agree": 24,
+      "overlap": 24,
+      "from_start": 24,
+      "counts": true,
       "match": {
        "source": "603000365",
-       "movement": "1.1.1 Allegro",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "n",
        "timesig": "4/4",
        "data": "''{8C6CC}{8CC}{6C'CDE}{FGAB}/''{C'EFG}{AB''CD}{E'GAB}''{CDEF}/{GCDE}{FGAB}'''{8C''C}"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -2452,11 +4102,17 @@
    {
     "composer": "Risi, Paolo (18.sc)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: Symphonies–E♭ major (RISM 850002239, 1.1.1 Allegro).",
     "class": "plausible",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "bBEA",
@@ -2464,16 +4120,29 @@
        "data": "'4.E{6BG}{8AF}/{E''E}'{GB}{DF}/4.E{6BG}{8AF}/"
       },
       "notes": 16,
-      "agree": 16,
+      "overlap": 16,
+      "from_start": 16,
+      "counts": true,
       "match": {
        "source": "850002239",
-       "movement": "1.1.1 Allegro",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "bBEA",
        "timesig": "3/4",
        "data": "'4.E{6BG}{8AF}/{E''E}{'GB}{DF}/4.E{6BG}{8AF}/{E''E}{'GB}{DF}/{E''E}-EqE(8{EDE})/{FA}-{FAF}/"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -2494,11 +4163,17 @@
    {
     "composer": "Rolla, Alessandro (1757-1841)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: Ballets (RISM 851002700, 1.1.1 N. 1:. Largo maestoso).",
     "class": "plausible",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Largo - All.o",
+      "incipit": "1.1.1 Largo - All.o",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -2506,16 +4181,29 @@
        "data": "{,6A3B'C}/4.D8F4CD/2(E)4-8-{,3AB'CD}/4.E"
       },
       "notes": 13,
-      "agree": 13,
+      "overlap": 13,
+      "from_start": 13,
+      "counts": true,
       "match": {
        "source": "851002700",
-       "movement": "1.1.1 N. 1:. Largo maestoso",
+       "incipit": "1.1.1 N. 1:. Largo maestoso",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "c",
        "data": "{6,A3B'C}/4D8.-6F8C-D-/2E4-8-3{,AB'CD}/4E8.-"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -2536,11 +4224,19 @@
    {
     "composer": "Rosetti, Antonio (1750c-1792)",
     "verdict": "confirmed",
-    "note": "First movement metre encoded as c in the anonymous copy, 3/4 in the Rosetti copy; notes agree",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "All four movements match MurR A44. RISM titles the anonymous copy 'B major' but the encoding has two flats: it is in B-flat, like the Rosetti copy. First-movement metre is encoded as c against 3/4. The comparator cross-references Zobl.",
     "class": "strong",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [
+     "570004449: cross-reference to Zobl"
+    ],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "bBE",
@@ -2548,10 +4244,17 @@
        "data": "F/FBB/B''DD/q8''D4C8q8D{C'B}4''C/"
       },
       "notes": 6,
-      "agree": 6,
+      "overlap": 6,
+      "from_start": 6,
+      "counts": true,
       "match": {
        "source": "570004449",
-       "movement": "1.1.1 Synphonia. Allegro",
+       "incipit": "1.1.1 Synphonia. Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "bBE",
        "timesig": "3/4",
@@ -2559,7 +4262,8 @@
       }
      },
      {
-      "movement": "1.1.2 Andante",
+      "incipit": "1.1.2 Andante",
+      "movement": 2,
       "anon": {
        "clef": "G-2",
        "keysig": "bB",
@@ -2567,10 +4271,17 @@
        "data": "{''8.C6C}/q8xC4D{8nC'BAG}/4.''C{6DC}{'BAGF}/"
       },
       "notes": 13,
-      "agree": 13,
+      "overlap": 13,
+      "from_start": 13,
+      "counts": true,
       "match": {
        "source": "570004449",
-       "movement": "1.2.1 Andante",
+       "incipit": "1.2.1 Andante",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "bB",
        "timesig": "3/4",
@@ -2578,7 +4289,8 @@
       }
      },
      {
-      "movement": "1.1.3 Menuetto",
+      "incipit": "1.1.3 Menuetto",
+      "movement": 3,
       "anon": {
        "clef": "G-2",
        "keysig": "bBE",
@@ -2586,10 +4298,17 @@
        "data": "{8F6nEF}/2B4''D/'B''D'F/''CE'A/B8-"
       },
       "notes": 12,
-      "agree": 12,
+      "overlap": 12,
+      "from_start": 12,
+      "counts": true,
       "match": {
        "source": "570004449",
-       "movement": "1.3.1 Menuet.",
+       "incipit": "1.3.1 Menuet.",
+       "movement": 3,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "bBE",
        "timesig": "3/4",
@@ -2597,7 +4316,8 @@
       }
      },
      {
-      "movement": "1.1.4 Finale Allegro",
+      "incipit": "1.1.4 Finale Allegro",
+      "movement": 4,
       "anon": {
        "clef": "G-2",
        "keysig": "bBE",
@@ -2605,16 +4325,35 @@
        "data": "8F/{DB}{F''D}/{'B''FDB/{A'''C}"
       },
       "notes": 11,
-      "agree": 11,
+      "overlap": 11,
+      "from_start": 11,
+      "counts": true,
       "match": {
        "source": "570004449",
-       "movement": "1.4.1 Allegro",
+       "incipit": "1.4.1 Allegro",
+       "movement": 4,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "bBE",
        "timesig": "2/4",
        "data": "8'F/{DBF''D}/{'B''FDB}/{A'''C''CE}/"
       }
      }
+    ],
+    "movements": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "movements_matched": [
+     1,
+     2,
+     3,
+     4
     ],
     "sources": [
      {
@@ -2635,11 +4374,17 @@
    {
     "composer": "Sacchini, Antonio (1730-1786)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: Lucio Vero (RISM 104771, 1.1.1 Overtura.).",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -2647,16 +4392,29 @@
        "data": "''4FAF8.-{,3AB'C}/4D8.- {,3AB'C}/4D8.- {,3AB'C}//"
       },
       "notes": 14,
-      "agree": 14,
+      "overlap": 14,
+      "from_start": 14,
+      "counts": true,
       "match": {
        "source": "104771",
-       "movement": "1.1.1 Overtura.",
+       "incipit": "1.1.1 Overtura.",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "c",
        "data": "''4FAF8-3-{,AB'C}/8D6-{,AB'C}8D3-{,AB'C}{8DEFG}/"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -2705,53 +4463,314 @@
   "verdict": "confirmed"
  },
  {
-  "id": "400014560",
+  "id": "840002845",
   "genre": "symphonies",
-  "label": "Symphonies–G major; Manuscript copy; CH-SO SJ 2",
-  "shelfmark": "CH-SO SJ 2",
+  "label": "Quartets–D major; Manuscript copy; F-AG 292(1-5)",
+  "shelfmark": "F-AG 292(1-5)",
   "leads": [
    {
-    "composer": "Sarti, Giuseppe (1729-1802)",
+    "composer": "Sammartini, Giovanni Battista (1700c-1775)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "RISM heads the anonymous record Quartets, but its own description points to a symphonic piece; four string parts do not by themselves show an arrangement.",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
-       "keysig": "n",
-       "timesig": "4/4",
-       "data": "'2D+4D8E8(3xFGAB''xC;5)/8D4A'''D''A8xF/4G4.G6xFG8AG/xF"
+       "keysig": "xFC",
+       "timesig": "3/4",
+       "data": "4'DDD/{8D,A'DFAF}/{EGEC,A'C}/{D,A'DFAF}/{EGEC,A'C}/4D"
       },
-      "notes": 18,
-      "agree": 18,
+      "notes": 25,
+      "overlap": 18,
+      "from_start": 18,
+      "counts": true,
       "match": {
-       "source": "131164",
-       "movement": "1.1.1 Recitativo. Allegro",
+       "source": "116305",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
-       "keysig": "n",
-       "timesig": "c",
-       "data": "'2D+{8D6ExF}{GAB''xC}/8D4A'''D''A8xF/4G^'B^D''4.G{6xFG}{8AG}/xF4A'''D''A8F/4G^'B^D"
+       "keysig": "xFC",
+       "timesig": "3/4",
+       "data": "'4DDD/{8D,A'DFAF}/{EGEC,A'C}/{D,A'DFAF}/"
       }
      }
     ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
     "sources": [
      {
-      "id": "1001244108",
-      "label": "Ifigenia in Aulide (Excerpts); Manuscript copy; D-Mbs Mus.Schott.As 3264"
+      "id": "116305",
+      "label": "Symphonies–D major; Manuscript copy; JenS 10; US-BEm MS 600 A-F"
      },
      {
-      "id": "131164",
-      "label": "Ifigenia (Excerpts); Manuscript copy; US-Wc M1505.A1 (205)"
+      "id": "150201617",
+      "label": "Symphonies–D major; Manuscript copy; JenS 10; DK-Kk (mu 7305.2936)"
      },
      {
-      "id": "132189",
-      "label": "Ifigenia (Excerpts); Manuscript copy; US-R M1613.3 S249"
+      "id": "190019057",
+      "label": "Symphonies–D major; Manuscript copy; JenS 10; S-Skma Od-R"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "1001376788",
+  "genre": "symphonies",
+  "label": "Symphonies–A major; Manuscript copy; CSWV Bm:16, GraunWV D:XII:112; PL-MO 928",
+  "shelfmark": "PL-MO 928",
+  "leads": [
+   {
+    "composer": "Schaffrath, Christoph (1709-1763)",
+    "verdict": "confirmed",
+    "attribution": "disputed",
+    "prior": "anonymous-record",
+    "note": "The anonymous record already carries CSWV and GraunWV numbers; the comparator attributes it to Schaffrath conjecturally, with a cross-reference to Graun.",
+    "class": "known",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "701003291: composer qualified as Conjectural",
+     "701003291: cross-reference to Graun (Conjectural)"
+    ],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "c",
+       "data": "A{6''C'B''CD}{8E'A''AF}/4FtE-8-E/4B{6AGFE}4BD/{6C'B''CD}4E-8-"
+      },
+      "notes": 22,
+      "overlap": 22,
+      "from_start": 22,
+      "counts": true,
+      "match": {
+       "source": "701003291",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "c",
+       "data": "4'A{6''C'B''CD}{8E'A}{''AF}/4FEt-8-E/4B{6AGFE}4BD/{6C'B''CD}4E"
+      }
      },
      {
-      "id": "455027523",
-      "label": "Un amante sventurato (Excerpts); Manuscript copy; D-B Mus.ms. 30128"
+      "incipit": "1.2.1 Andante Semper Piano",
+      "movement": 2,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "2/4",
+       "data": "8''E4E8A/{6FE}4E8A/{6FE}4E8D/{6.C3'B8A}4-/''E4E8A/{6FE}4E8A/{6FE}4E8D/{C'B}4-/"
+      },
+      "notes": 21,
+      "overlap": 11,
+      "from_start": 11,
+      "counts": true,
+      "match": {
+       "source": "701003291",
+       "incipit": "1.2.1 Andante",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "2/4",
+       "data": "8''E4E8A/{6FE}4E8A/{6FE}4E8D/{6.Ct3'B8A}4-/"
+      }
+     },
+     {
+      "incipit": "1.3.1 Allegro",
+      "movement": 3,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "3/8",
+       "data": "{8AAA}/{6A''C'BA8''E}/{DC'B}/{6A''C'BA8''E}/{DC'B}/{6.B3''D}{8C'G}/"
+      },
+      "notes": 19,
+      "overlap": 13,
+      "from_start": 13,
+      "counts": true,
+      "match": {
+       "source": "701003291",
+       "incipit": "1.3.1 Allegro",
+       "movement": 3,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "3/8",
+       "data": "{8'AAA}/{6A''C'BA8''E}/{DC'B}/{6A''C'BA8''E}/"
+      }
+     }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     1,
+     2,
+     3
+    ],
+    "sources": [
+     {
+      "id": "701003291",
+      "label": "Symphonies–A major; Manuscript copy; CSWV Bm:16, GraunWV D:XII:112; B-Bc 7878/3"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "450013954",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; D-KA Don Mus.Ms. 1787",
+  "shelfmark": "D-KA Don Mus.Ms. 1787",
+  "leads": [
+   {
+    "composer": "Schmidt",
+    "verdict": "confirmed",
+    "attribution": "name-only",
+    "prior": "new",
+    "note": "Identical once the measure repeat is expanded (the earlier parser dropped it); the copy is headed only 'Schmidt', so which Schmidt is not established.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "heading 'Schmidt' names no identifiable person"
+    ],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''4FF8{FAGF}/i/4.B6{GE}"
+      },
+      "notes": 10,
+      "overlap": 10,
+      "from_start": 10,
+      "counts": true,
+      "match": {
+       "source": "400187377",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "4''FF{8FAGF}/4FF{8FAGF}/4.B{6GE}4.A{6FD}/4.G8E{CD}4-/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "400187377",
+      "label": "Symphonies–D major; Manuscript copy; CH-E 819,1|3"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "400003944",
+  "genre": "symphonies",
+  "label": "Symphonies–G major; Manuscript copy; CH-EN Ms A 131",
+  "shelfmark": "CH-EN Ms A 131",
+  "leads": [
+   {
+    "composer": "Schmittbauer, Joseph Aloys (1718-1809)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Identical once the repeated group (!...!f) is expanded; the earlier parser dropped it.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro assai",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "''8GDDDDDDD/!4DgF8ED!f/8G"
+      },
+      "notes": 7,
+      "overlap": 7,
+      "from_start": 7,
+      "counts": true,
+      "match": {
+       "source": "454000360",
+       "incipit": "1.1.1 Allegro assai",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "{8''GDDD}{DDDD}/4Dq8F{ED}4Dq8F{ED}/{G'B}"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "454000360",
+      "label": "Symphonies–G major; Manuscript copy; D-WWW K 3 Nr.42"
      }
     ]
    }
@@ -2767,11 +4786,17 @@
    {
     "composer": "Schuster, Joseph (1748-1812)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: L'idolo cinese (RISM 211008487, 1.1.1 Sinfonia. Allegro con spirito).",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro con spirito",
+      "incipit": "1.1.1 Allegro con spirito",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -2779,16 +4804,29 @@
        "data": "2D4-{8.F6D}/4AAA{8.F6D}/{8AAAA}"
       },
       "notes": 7,
-      "agree": 7,
+      "overlap": 7,
+      "from_start": 7,
+      "counts": true,
       "match": {
        "source": "211008487",
-       "movement": "1.1.1 Sinfonia. Allegro con spirito",
+       "incipit": "1.1.1 Sinfonia. Allegro con spirito",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "c",
        "data": "2'D4-{8.F6D}/4AAA{8.F6D}/{8AAAA}4A{8.F6D}/4A{8.F6D}4A{8.F6D}/4A-2-/"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -2813,11 +4851,19 @@
    {
     "composer": "Schürer, Johann Georg (1720c-1786)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Matches the sinfonia to Part Two of La Galatea (movement XVI of the excerpt collection), not the opening sinfonia.",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "1->16"
+    ],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro assai.",
+      "incipit": "1.1.1 Allegro assai.",
+      "movement": 1,
       "anon": {
        "clef": "C-1",
        "keysig": "xF",
@@ -2825,16 +4871,29 @@
        "data": "{8''GDGB}{6''AGFE}{8''D'''D}/{8''GDGB}{6''AGFE}{8''D'''D}"
       },
       "notes": 20,
-      "agree": 20,
+      "overlap": 20,
+      "from_start": 20,
+      "counts": true,
       "match": {
        "source": "212009106",
-       "movement": "1.16.1 Seconda Parte Sinfonia. Allegro",
+       "incipit": "1.16.1 Seconda Parte Sinfonia. Allegro",
+       "movement": 16,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xF",
        "timesig": "c",
        "data": "{8''GDGB}{6AGFE}{8D'''D}/{8''GDGB}{6AGFE}{8D'''D}/"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -2859,11 +4918,17 @@
    {
     "composer": "Spohr, Louis (1784-1859)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Movement I of 2 encoded match: Symphonies–E♭ major (RISM 1001244813, 1.1.1 Adagio).",
     "class": "plausible",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Adagio",
+      "incipit": "1.1.1 Adagio",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "bBEA",
@@ -2871,10 +4936,17 @@
        "data": "=2/4.'A+3{A5B''CDEFG}4AA+/8{AGxFG}4G-/=1/4.'E+3{E5FGAB''CD}8{E6DC}{C'BAG}/8{GFnEF}"
       },
       "notes": 27,
-      "agree": 27,
+      "overlap": 27,
+      "from_start": 27,
+      "counts": true,
       "match": {
        "source": "1001244813",
-       "movement": "1.1.1 Adagio",
+       "incipit": "1.1.1 Adagio",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "bBEA",
        "timesig": "c",
@@ -2882,7 +4954,8 @@
       }
      },
      {
-      "movement": "1.1.2 Allegro",
+      "incipit": "1.1.2 Allegro",
+      "movement": 2,
       "anon": {
        "clef": "G-2",
        "keysig": "bBEA",
@@ -2890,8 +4963,17 @@
        "data": "4'B/''E'G''C/'nA8{BEFG}/4Bq6B8{AGAB}/4G"
       },
       "notes": 15,
-      "agree": 1
+      "overlap": 3,
+      "from_start": 1,
+      "counts": false
      }
+    ],
+    "movements": [
+     1,
+     2
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -2912,11 +4994,25 @@
    {
     "composer": "Stamitz",
     "verdict": "confirmed",
-    "note": "",
-    "class": "plausible",
-    "movements": [
+    "attribution": "disputed",
+    "prior": "comparator-record",
+    "note": "Comparator 650002967 already cites this copy (there headed 'Bach'). The work has been attributed to Bach, Hoffmann, Holzbauer, Malzat, Stamitz and Wagenseil; Wolf rejects Johann Stamitz and the heading reflects the name 'Steinmiz' on the manuscript. Composer unknown.",
+    "class": "known",
+    "prior_documentation": [
      {
-      "movement": "1.1.1 Allegro molto",
+      "source": "650002967",
+      "text": "s Wagenseil), doch stamme sie sicher nicht von Johann Stamitz (viele italienische Opera buffa-Elemente)\", \"Vergleiche Kopie (ca. 1780) in A-KR H 31/263 (ID no. 600171568), Autor dort \\\"Bach\\\", Besetzu"
+     }
+    ],
+    "attribution_flags": [
+     "650002967: cross-reference to Wagenseil, Georg Christoph (1715-1777) (Conjectural)",
+     "heading 'Stamitz' names no identifiable person"
+    ],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro molto",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "bBE",
@@ -2924,16 +5020,29 @@
        "data": "'4B{,8.B6B}4BB/4.B({'3DC,B})'4CE/4.D({3FED})4EG/"
       },
       "notes": 13,
-      "agree": 13,
+      "overlap": 13,
+      "from_start": 13,
+      "counts": true,
       "match": {
        "source": "650002967",
-       "movement": "1.1.1 Allegro molto",
+       "incipit": "1.1.1 Allegro molto",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "bBE",
        "timesig": "c",
        "data": "4'B{8.,B6B}4BB/4.B{6'D3C,B}4'CE/4.D{6F3ED}4EG/8F-{8.Bt3AB}8A-{8.''Ct3'B''C}/8'B-"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -2954,11 +5063,17 @@
    {
     "composer": "Süßmayr, Franz Xaver (1766-1803)",
     "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
     "note": "Only the first movement is encoded; movement plan and scoring also agree",
     "class": "plausible",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "n",
@@ -2966,16 +5081,29 @@
        "data": "''8GGAGE/4C8CC4D8DD/4E8CGGAGE/68.AFGEFDEC/4E8D"
       },
       "notes": 22,
-      "agree": 12,
+      "overlap": 12,
+      "from_start": 12,
+      "counts": true,
       "match": {
        "source": "530003761",
-       "movement": "1.1.1 Allegro",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "n",
        "timesig": "c",
        "data": "8''G{GAGE}/4C8{CC}4D8{DD}/4E8{CG}{GAGE}/"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -2996,11 +5124,17 @@
    {
     "composer": "Toeschi, Carl Joseph (1731-1788)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Movement I of 3 encoded match: Symphonies–A major (RISM 140044, 1.1.1 Allegro).",
     "class": "plausible",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFCG",
@@ -3008,10 +5142,17 @@
        "data": "'4A8.A6A,8A'A''q8C'B6AB/''4C8.C6C,8A''Cq8ED6CD/E"
       },
       "notes": 13,
-      "agree": 13,
+      "overlap": 13,
+      "from_start": 13,
+      "counts": true,
       "match": {
        "source": "140044",
-       "movement": "1.1.1 Allegro",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFCG",
        "timesig": "c",
@@ -3019,7 +5160,8 @@
       }
      },
      {
-      "movement": "1.2.1 Andante grazioso",
+      "incipit": "1.2.1 Andante grazioso",
+      "movement": 2,
       "anon": {
        "clef": "G-2",
        "keysig": "xFCGD",
@@ -3027,10 +5169,13 @@
        "data": "'4E,B'{8.G6B}/{8.B6A}4G''{8.E6C}/'4B''C"
       },
       "notes": 10,
-      "agree": 1
+      "overlap": 2,
+      "from_start": 1,
+      "counts": false
      },
      {
-      "movement": "1.3.1 Presto",
+      "incipit": "1.3.1 Presto",
+      "movement": 3,
       "anon": {
        "clef": "G-2",
        "keysig": "xFCG",
@@ -3038,8 +5183,18 @@
        "data": "'4A{8EA}/''{CD'BG}/4A{8E''C}/{EFD'B}/''4C"
       },
       "notes": 15,
-      "agree": 1
+      "overlap": 2,
+      "from_start": 1,
+      "counts": false
      }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -3060,11 +5215,17 @@
    {
     "composer": "Toeschi, Carl Joseph (1731-1788)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: Symphonies–D major (RISM 150203709, 1.1.1).",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -3072,16 +5233,29 @@
        "data": "2'''D4.8''AF/4D{8.6D'A}4F{8.6AF}/1D/q6G{8Ft6EF}"
       },
       "notes": 12,
-      "agree": 12,
+      "overlap": 12,
+      "from_start": 12,
+      "counts": true,
       "match": {
        "source": "150203709",
-       "movement": "1.1.1",
+       "incipit": "1.1.1",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "4/4",
        "data": "'''2D''4.A8F/4D{8D'A}4F{8.A6F}/1D/q6G{8.Ft3EF}8D-"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -3114,11 +5288,17 @@
    {
     "composer": "Vanhal, Johann Baptist (1739-1813)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: Symphonies–D major (RISM 280002186, 1.1.1 Allegro con brio).",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -3126,16 +5306,29 @@
        "data": "A/''D2D8{FD}/4G2G{8EC}/4D2D{8FD}/"
       },
       "notes": 10,
-      "agree": 10,
+      "overlap": 10,
+      "from_start": 10,
+      "counts": true,
       "match": {
        "source": "280002186",
-       "movement": "1.1.1 Allegro con brio",
+       "incipit": "1.1.1 Allegro con brio",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "c",
        "data": "4'A/''D2D8{FD}/4G2G8{EC}/4D2D8{FD}/4G2G8{EC}/D"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -3168,6 +5361,98 @@
   "verdict": "confirmed"
  },
  {
+  "id": "453002908",
+  "genre": "symphonies",
+  "label": "Symphonies–G major; Manuscript copy; RV 303, LaRueS 1988 deest; D-KA Mus. Hs. 1016",
+  "shelfmark": "D-KA Mus. Hs. 1016",
+  "leads": [
+   {
+    "composer": "Vivaldi, Antonio (1678-1741)",
+    "verdict": "confirmed",
+    "attribution": "disputed",
+    "prior": "anonymous-record",
+    "note": "The title already carries RV 303; several comparators cross-reference Tartini.",
+    "class": "known",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "1001386832: cross-reference to Tartini, Giuseppe (1692-1770) (Alleged)",
+     "455016163: cross-reference to Tartini, Giuseppe (1692-1770) (Ascertained)",
+     "455016164: cross-reference to Tartini, Giuseppe (1692-1770) (Ascertained)",
+     "455016167: cross-reference to Tartini, Giuseppe (1692-1770) (Ascertained)"
+    ],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "{8'G,GG'G}{G6AB}{''CDEF}/{8GD'BG}{G,GG'G}/{G6AB}{''CDEF}4G-/{8D'DD''D}{D6EF}{GAB'''xC}/"
+      },
+      "notes": 31,
+      "overlap": 23,
+      "from_start": 23,
+      "counts": true,
+      "match": {
+       "source": "1001386832",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "{8'G,GG'G}{G6AB}{''CDEF}/{8GD'BG}{G,GG'G}/{G6AB}{''CDEF}{8GD'BG}/4D-2-/"
+      }
+     },
+     {
+      "incipit": "1.1.2",
+      "movement": 1,
+      "anon": {
+       "clef": "F-4",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "{8,,G,G,,G,G}{8,,G,G,,G,G}/{8,,G,G,,G,G}{8,,G,G,,G,G}/{8,,G,G,,G,G}{,,G6GA}{8BG}/"
+      },
+      "notes": 24,
+      "overlap": 3,
+      "from_start": 1,
+      "counts": false
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "1001386832",
+      "label": "Concertos–G major; Manuscript copy; RV 303, DouT deest, CapT deest; D-Mbs Mus.ms. 5705"
+     },
+     {
+      "id": "455016163",
+      "label": "Concertos–G major; Manuscript copy; RV 303, DouT deest, CapT deest; D-Mbs Mus.ms. 3643"
+     },
+     {
+      "id": "455016164",
+      "label": "Concertos–G major; Manuscript copy; RV 303, DouT deest, CapT deest; D-Mbs Mus.ms. 3644"
+     },
+     {
+      "id": "455016167",
+      "label": "Concertos–G major; Manuscript copy; DouT deest, CapT deest, RV 303; D-Mbs Mus.ms. 5705"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
   "id": "530012639",
   "genre": "symphonies",
   "label": "Symphonies–D major; Manuscript copy; H-Gk AMC, Sinf. 20/1.",
@@ -3176,11 +5461,17 @@
    {
     "composer": "Wagenseil, Georg Christoph (1715-1777)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches: Symphonies–D major (RISM 706000763, 1.1.1 Allegro assai).",
     "class": "plausible",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro assai",
+      "incipit": "1.1.1 Allegro assai",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -3188,16 +5479,29 @@
        "data": "{''8DD}q6E{3DC8.D}{8DD}q6E{3DC8.D}/4.A8F4.A8F//"
       },
       "notes": 9,
-      "agree": 9,
+      "overlap": 9,
+      "from_start": 9,
+      "counts": true,
       "match": {
        "source": "706000763",
-       "movement": "1.1.1 Allegro assai",
+       "incipit": "1.1.1 Allegro assai",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "c",
        "data": "{''8DD}gE{3DC8.D}{8DD}gE{3DC8.D}/4.A8F4.A8F/"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -3218,11 +5522,17 @@
    {
     "composer": "Wolf, Ernst Wilhelm (1735-1792)",
     "verdict": "confirmed",
-    "note": "",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "All 3 encoded movements match: Symphonies–D major (RISM 280000015, 1.1.1 Allegro di molto).",
     "class": "strong",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro di molto",
+      "incipit": "1.1.1 Allegro di molto",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -3230,10 +5540,17 @@
        "data": "6'D/48.6D-AA-''D/2D4D{6D3EFGAB'''C}/4.D8D4.D8D/"
       },
       "notes": 10,
-      "agree": 10,
+      "overlap": 10,
+      "from_start": 10,
+      "counts": true,
       "match": {
        "source": "280000015",
-       "movement": "1.1.1 Allegro di molto",
+       "incipit": "1.1.1 Allegro di molto",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "c/",
@@ -3241,7 +5558,8 @@
       }
      },
      {
-      "movement": "1.2.1 Lento",
+      "incipit": "1.2.1 Lento",
+      "movement": 2,
       "anon": {
        "clef": "G-2",
        "keysig": "bB",
@@ -3249,10 +5567,17 @@
        "data": "4.3333''D{DEFG}A{AnB'''xC''A}/8{'''DD}q6C{8''B6qA8xG}qG4.A{3ABAB}/8{'''CC}"
       },
       "notes": 16,
-      "agree": 16,
+      "overlap": 16,
+      "from_start": 16,
+      "counts": true,
       "match": {
        "source": "280000015",
-       "movement": "1.2.1 Lento",
+       "incipit": "1.2.1 Lento",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "bB",
        "timesig": "c",
@@ -3260,7 +5585,8 @@
       }
      },
      {
-      "movement": "1.3.1 Presto",
+      "incipit": "1.3.1 Presto",
+      "movement": 3,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -3268,16 +5594,33 @@
        "data": "8,A/4'D8D{D6EDCD}/8{EEE}48E,A/'EE{8E6FEDE}/{8FDD}"
       },
       "notes": 15,
-      "agree": 15,
+      "overlap": 15,
+      "from_start": 15,
+      "counts": true,
       "match": {
        "source": "280000015",
-       "movement": "1.3.1 Presto",
+       "incipit": "1.3.1 Presto",
+       "movement": 3,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "6/8",
        "data": ",8A/'4D8D{D6EDCD}/8{EEE}4E8,A/4'E8E{E6FEDE}/8{FDD}4D"
       }
      }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     1,
+     2,
+     3
     ],
     "sources": [
      {
@@ -3298,11 +5641,17 @@
    {
     "composer": "Wolf, Ernst Wilhelm (1735-1792)",
     "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
     "note": "Overture to Le monde de la lune",
     "class": "strong",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro di molto",
+      "incipit": "1.1.1 Allegro di molto",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xF",
@@ -3310,10 +5659,17 @@
        "data": "4.'''D8''B{'''D''B'''D''B}/4'''D8.{''Bt3AB}4'''C{8.''At3GA}/4.B8B{'''D''B'''D''B}/"
       },
       "notes": 19,
-      "agree": 19,
+      "overlap": 19,
+      "from_start": 19,
+      "counts": true,
       "match": {
        "source": "270003031",
-       "movement": "1.1.1 Sinfonia. Allegro di molto",
+       "incipit": "1.1.1 Sinfonia. Allegro di molto",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xF",
        "timesig": "c",
@@ -3321,7 +5677,8 @@
       }
      },
      {
-      "movement": "1.2.1 Comodetto",
+      "incipit": "1.2.1 Comodetto",
+      "movement": 2,
       "anon": {
        "clef": "G-2",
        "keysig": "xF",
@@ -3329,10 +5686,17 @@
        "data": "4.''E'B/q6''C{'BAB''C'B''C}{8'BBB}/4.''C'G/"
       },
       "notes": 10,
-      "agree": 10,
+      "overlap": 10,
+      "from_start": 10,
+      "counts": true,
       "match": {
        "source": "280002206",
-       "movement": "1.2.1 Comodetto",
+       "incipit": "1.2.1 Comodetto",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xF",
        "timesig": "6/8",
@@ -3340,7 +5704,8 @@
       }
      },
      {
-      "movement": "1.3.1 Allegro",
+      "incipit": "1.3.1 Allegro",
+      "movement": 3,
       "anon": {
        "clef": "G-2",
        "keysig": "xF",
@@ -3348,16 +5713,33 @@
        "data": "{8.'''D6C}/4''BAGF/EDC'B/{(8A''C'B)}{(A''CE)}{(EDC)}{('BAG)}/"
       },
       "notes": 21,
-      "agree": 21,
+      "overlap": 21,
+      "from_start": 21,
+      "counts": true,
       "match": {
        "source": "280002206",
-       "movement": "1.3.1 Allegro",
+       "incipit": "1.3.1 Allegro",
+       "movement": 3,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xF",
        "timesig": "c/",
        "data": "8.{'''D6C}/4''BAGF/EDC'B/8{(A''C'B)}{(A''CE)}{(EDC)}{('BAG)}/F"
       }
      }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     1,
+     2,
+     3
     ],
     "sources": [
      {
@@ -3374,159 +5756,67 @@
   "verdict": "confirmed"
  },
  {
-  "id": "1001067396",
+  "id": "456008015",
   "genre": "symphonies",
-  "label": "Symphony–D major; Manuscript copy; PL-SA 141/A III 41",
-  "shelfmark": "PL-SA 141/A III 41",
+  "label": "Symphonies–C major; Manuscript copy; D-UWB UWB K2 AI 16",
+  "shelfmark": "D-UWB UWB K2 AI 16",
   "leads": [
    {
-    "composer": "Hasse, Johann Adolf (1699-1783)",
-    "verdict": "conflicting",
-    "note": "Same symphony is attributed to Röllig in other RISM copies",
-    "class": "strong",
-    "movements": [
+    "composer": "Andreska, Vincenc",
+    "verdict": "probable",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The opening four bars agree with an excerpt copy of a symphony attributed to Andreska (qualified as alleged), repeats included; the figure is common, and the copies diverge in how often the bar repeats.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "455040018: composer qualified as Alleged"
+    ],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Synfonia",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
-       "keysig": "xFC",
-       "timesig": "c",
-       "data": "4''F^'A^D{6''AGFE}4D'A/{8F6DE}{8FG}{A,A}8-'A/{6''D'AAA}{AAAA}{''E'AAA}{AAAA}/"
+       "keysig": "n",
+       "timesig": "3/4",
+       "data": "4''CCC/C-8'G6AB/i/4''C"
       },
-      "notes": 19,
-      "agree": 14,
+      "notes": 9,
+      "overlap": 9,
+      "from_start": 9,
+      "counts": true,
       "match": {
-       "source": "469221900",
-       "movement": "1.1.1 Allegro.",
+       "source": "455040018",
+       "incipit": "1.1.1 Allegro molto",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
-       "keysig": "xFC",
-       "timesig": "c/",
-       "data": "''4F{6AGFE}4D'A/{'8F6DE}{8FG}{A,A}8-8A/"
-      }
-     },
-     {
-      "movement": "1.2.1 Andante",
-      "anon": {
-       "clef": "G-2",
-       "keysig": "xFCG",
-       "timesig": "2/4",
-       "data": "8''E/{3CD6E}{3DE6F}{8E'A}/{3B6.G8A}4''A/{3'B6.G8A}4''A/4'D^A^''F{3GFED}{6.3CE'B''D}/"
-      },
-      "notes": 26,
-      "agree": 13,
-      "match": {
-       "source": "469221900",
-       "movement": "1.2.1 Andante.",
-       "clef": "G-2",
-       "keysig": "xFCG",
-       "timesig": "2/4",
-       "data": "''8E/{3CD6E}{3DE6F}{8E'A}/{3B6.G8A}''4A/"
-      }
-     },
-     {
-      "movement": "1.3.1 Presto",
-      "anon": {
-       "clef": "G-2",
-       "keysig": "xFC",
-       "timesig": "6/8",
-       "data": "{6'AF}/{8DDD}{DDD}/{DFA}4''D{6FD}/4A{6AF}4G{6GE}/{8F6FAGF}4E{6'AF}/"
-      },
-      "notes": 19,
-      "agree": 8,
-      "match": {
-       "source": "469221900",
-       "movement": "1.3.1 Presto.",
-       "clef": "G-2",
-       "keysig": "xFC",
-       "timesig": "6/8",
-       "data": "{6'AF}/{8DDD}{DDD}/{DFA}4''D{6FD}/"
+       "keysig": "n",
+       "timesig": "3/4",
+       "data": "4''CCC/4C4-{8'G6AB}/i/i/4''CGA/4.G{8FD'B}/4''C{8C'B''CD}/"
       }
      }
     ],
-    "sources": [
-     {
-      "id": "469221900",
-      "label": "Symphonies–D major; Manuscript copy; D-Bsa SA 2219"
-     }
-    ]
-   },
-   {
-    "composer": "Röllig, Johann Christian (1716-1780c)",
-    "verdict": "conflicting",
-    "note": "Same symphony is attributed to Hasse in other RISM copies",
-    "class": "strong",
     "movements": [
-     {
-      "movement": "1.1.1 Synfonia",
-      "anon": {
-       "clef": "G-2",
-       "keysig": "xFC",
-       "timesig": "c",
-       "data": "4''F^'A^D{6''AGFE}4D'A/{8F6DE}{8FG}{A,A}8-'A/{6''D'AAA}{AAAA}{''E'AAA}{AAAA}/"
-      },
-      "notes": 19,
-      "agree": 17,
-      "match": {
-       "source": "1001287072",
-       "movement": "1.1.1",
-       "clef": "G-2",
-       "keysig": "xFC",
-       "timesig": "c/",
-       "data": "''4F6{AGFE}4D'A/{8F6DE}{8FG}{A,A}-'A/''6{D'AAA}{AAAA}"
-      }
-     },
-     {
-      "movement": "1.2.1 Andante",
-      "anon": {
-       "clef": "G-2",
-       "keysig": "xFCG",
-       "timesig": "2/4",
-       "data": "8''E/{3CD6E}{3DE6F}{8E'A}/{3B6.G8A}4''A/{3'B6.G8A}4''A/4'D^A^''F{3GFED}{6.3CE'B''D}/"
-      },
-      "notes": 26,
-      "agree": 17,
-      "match": {
-       "source": "469321200",
-       "movement": "1.2.1 Andante.",
-       "clef": "G-2",
-       "keysig": "xFCG",
-       "timesig": "2/4",
-       "data": "''8E/{3CD6E}{3DE6F}{8E'A}/{3B6.G8A}4''A/'{3B6.G8A}4''A/"
-      }
-     },
-     {
-      "movement": "1.3.1 Presto",
-      "anon": {
-       "clef": "G-2",
-       "keysig": "xFC",
-       "timesig": "6/8",
-       "data": "{6'AF}/{8DDD}{DDD}/{DFA}4''D{6FD}/4A{6AF}4G{6GE}/{8F6FAGF}4E{6'AF}/"
-      },
-      "notes": 19,
-      "agree": 8,
-      "match": {
-       "source": "1001287072",
-       "movement": "1.3.1 Presto",
-       "clef": "G-2",
-       "keysig": "xFC",
-       "timesig": "6/8",
-       "data": "'6{AF}/8{DDD}{DDD}/{DFA}''4D{6FD}/4F{6FD}"
-      }
-     }
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
-      "id": "1001287072",
-      "label": "Symphonies–D major; Manuscript copy; D-Ju Ms.Conc.Acad.75"
-     },
-     {
-      "id": "469321200",
-      "label": "Symphonies–D major; Manuscript copy; D-Bsa SA 3212"
+      "id": "455040018",
+      "label": "Symphonies–C major (Excerpts); Manuscript copy; D-BAd GW 18/2"
      }
     ]
    }
   ],
-  "verdict": "conflicting"
+  "verdict": "probable"
  },
  {
   "id": "500028090",
@@ -3537,11 +5827,17 @@
    {
     "composer": "Asplmayr, Franz (1728-1786)",
     "verdict": "probable",
+    "attribution": "secure",
+    "prior": "new",
     "note": "Transposed copy (C major) of D major symphony",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro assai",
+      "incipit": "1.1.1 Allegro assai",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "n",
@@ -3549,16 +5845,29 @@
        "data": "'4C8-{6C,B}{8'C,G'CE}/4C8-{6ED}{8ECEG}/4E"
       },
       "notes": 14,
-      "agree": 14,
+      "overlap": 14,
+      "from_start": 14,
+      "counts": true,
       "match": {
        "source": "150201388",
-       "movement": "1.1.1 Allegro",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "4/4",
        "data": "4'D8-6DC8D,A'DF/4D8-6FE8FDFA/4F8-6AG8AFA''D/4'A"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -3595,6 +5904,67 @@
   "verdict": "probable"
  },
  {
+  "id": "456006022",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; D-MHF MHF K5 Mappe 27 (b) (Nr. 10)",
+  "shelfmark": "D-MHF MHF K5 Mappe 27 (b) (Nr. 10)",
+  "leads": [
+   {
+    "composer": "Dalayrac, Nicolas-Marie (1753-1809)",
+    "verdict": "probable",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Same melody, grace group included, a fourth higher and in halved note values, as an excerpt from Philippe et Georgette: an arrangement.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "2''F8{EBGE}/2D6qqEDr4CD/EFGA/"
+      },
+      "notes": 12,
+      "overlap": 12,
+      "from_start": 12,
+      "counts": true,
+      "match": {
+       "source": "452015393",
+       "incipit": "1.1.2",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "2/4",
+       "data": "=1/'4B{6A''EC}'A/4Gqq6AGr8FG/AB''CD/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "452015393",
+      "label": "Philippe et Georgette (Excerpts, Arrangement); Manuscript copy; D-B Mus.ms. 4880/8"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
   "id": "1001043738",
   "genre": "symphonies",
   "label": "Symphonies–D major; Manuscript copy; CZ-K 417",
@@ -3603,11 +5973,21 @@
    {
     "composer": "Dittersdorf, Carl Ditters von (1739-1799)",
     "verdict": "probable",
-    "note": "Transposed copy (D) of KreD 24 in E-flat",
-    "class": "weak",
-    "movements": [
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Transposed copy in D of KreD 24 in E-flat; anonymous movement II matches movement IV of the comparator. One comparator cross-references Dušek (alleged).",
+    "class": "strong",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "455020576: cross-reference to Dušek, František Xaver (1731-1799) (Alleged)"
+    ],
+    "movement_mismatch": [
+     "2->4"
+    ],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -3615,10 +5995,17 @@
        "data": "4.A8B4A''D/2'AG/q8G4F8{EF}{AGFE}/"
       },
       "notes": 13,
-      "agree": 9,
+      "overlap": 9,
+      "from_start": 9,
+      "counts": true,
       "match": {
        "source": "211007144",
-       "movement": "1.1.1",
+       "incipit": "1.1.1",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "bBEA",
        "timesig": "c",
@@ -3626,7 +6013,8 @@
       }
      },
      {
-      "movement": "1.2.1 Presto",
+      "incipit": "1.2.1 Presto",
+      "movement": 2,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -3634,8 +6022,31 @@
        "data": "''DD/4.Dq8BA/{ABAG}/4GF/"
       },
       "notes": 6,
-      "agree": 1
+      "overlap": 6,
+      "from_start": 1,
+      "counts": true,
+      "match": {
+       "source": "211007144",
+       "incipit": "1.4.1 Vivace; Adagio; Vivace; Adagio; Vivace",
+       "movement": 4,
+       "offset": [
+        0,
+        4
+       ],
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "2/4",
+       "data": "'{8E,B'E,B}/4.'E8B/{B''C'BA}/4AG/{8E,B'E,B}/4.8'EG/{8GAGF}/4FE"
+      }
      }
+    ],
+    "movements": [
+     1,
+     2
+    ],
+    "movements_matched": [
+     1,
+     2
     ],
     "sources": [
      {
@@ -3676,6 +6087,67 @@
   "verdict": "probable"
  },
  {
+  "id": "854005521",
+  "genre": "symphonies",
+  "label": "Symphonies–A major; Manuscript copy; I-Ria Mss. Vess. 975",
+  "shelfmark": "I-Ria Mss. Vess. 975",
+  "leads": [
+   {
+    "composer": "Grazioli, Filippo (1774-1840)",
+    "verdict": "probable",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Same melody and rhythm a whole step higher than an excerpt from Il barone di Montesecco: a transposed copy or arrangement. RISM titles the anonymous copy A major, but its encoded opening (an Andante, likely a slow introduction) has two sharps.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Andante",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "({,3AB'C})/2D8F-A-/,2B4-8.-({3B'CxD})/"
+      },
+      "notes": 9,
+      "overlap": 9,
+      "from_start": 9,
+      "counts": true,
+      "match": {
+       "source": "854004388",
+       "incipit": "1.1.1 Maestoso",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": ",{3GAB}/'2C8E-G-/,2A4-8-3-{AB'xC}/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "854004388",
+      "label": "Il barone di Montesecco (Excerpts); Manuscript copy; I-Ria Mss. Vess. 482"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
   "id": "400014405",
   "genre": "symphonies",
   "label": "Symphonies–B♭ major; Manuscript copy; CH-E 21,33",
@@ -3684,11 +6156,17 @@
    {
     "composer": "Guglielmi, Pietro Alessandro (1728-1804)",
     "verdict": "probable",
+    "attribution": "secure",
+    "prior": "new",
     "note": "Instrumental version of aria \"Priva di te mio bene\"",
     "class": "plausible",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Larghetto",
+      "incipit": "1.1.1 Larghetto",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "bBE",
@@ -3696,10 +6174,17 @@
        "data": "''6F/{8.F6D}'{8B''D}gD{C'6BA}/{AB''ED}4D8-F/"
       },
       "notes": 11,
-      "agree": 11,
+      "overlap": 11,
+      "from_start": 11,
+      "counts": true,
       "match": {
        "source": "452022045",
-       "movement": "1.1.1 Larghetto",
+       "incipit": "1.1.1 Larghetto",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "bBE",
        "timesig": "3/4",
@@ -3707,10 +6192,160 @@
       }
      }
     ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
     "sources": [
      {
       "id": "452022045",
       "label": "Priva di te mio bene–B♭ major; Manuscript copy; D-B Mus.ms. 8832"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
+  "id": "850026338",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; I-Rc Mss. 6245/12",
+  "shelfmark": "I-Rc Mss. 6245/12",
+  "leads": [
+   {
+    "composer": "Hoffmeister, Franz Anton (1754-1812)",
+    "verdict": "probable",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Identical over the comparator's four encoded bars once its repeated group is expanded; the comparator is a keyboard sonata, so the relationship (arrangement or shared material) is open.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Adagio",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "4'''D-2-/4E-2-/4-''DFxG/AAAA/{8A3-AB'''C}"
+      },
+      "notes": 8,
+      "overlap": 6,
+      "from_start": 6,
+      "counts": true,
+      "match": {
+       "source": "400173224",
+       "incipit": "1.1.1 Adagio",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "'''4D-2-/4E-2-/4-''DFxG/!{8AAAA}!f/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "400173224",
+      "label": "Sonatas–D major; Manuscript copy; CH-Zz Mus Ms A 436"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
+  "id": "806426578",
+  "genre": "symphonies",
+  "label": "Symphonies–C major; Manuscript copy; GB-Lbl Add. 17785",
+  "shelfmark": "GB-Lbl Add. 17785",
+  "leads": [
+   {
+    "composer": "Lully, Jean-Baptiste (1632-1687)",
+    "verdict": "probable",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Matches movement XXV of an arrangement of excerpts from Lully's Isis note for note; an eighteenth-century copy of a Lully piece is plausible despite the 'symphony' heading.",
+    "class": "date-early",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "1->25"
+    ],
+    "incipits": [
+     {
+      "incipit": "1.1.1",
+      "movement": 1,
+      "anon": {
+       "clef": "G-1",
+       "keysig": "n",
+       "timesig": "3",
+       "data": "''4G4.G6{FG}/4.A8bB4A/FDG/"
+      },
+      "notes": 9,
+      "overlap": 9,
+      "from_start": 9,
+      "counts": true,
+      "match": {
+       "source": "1001154660",
+       "incipit": "1.25.1 Menuet",
+       "movement": 25,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-1",
+       "keysig": "n",
+       "timesig": "3",
+       "data": "''G4.G{6FG}/4.A8bB4A/FDG/{8EFED}4C/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "1001154660",
+      "label": "Isis (Excerpts, Arrangement); Manuscript copy; LWV 54; D-ROu Mus. Saec. XVII.18-25"
+     },
+     {
+      "id": "450117088",
+      "label": "Isis–C major (Excerpts, Arrangement); Manuscript copy; LWV 54/45; D-HVl Ms IV, 416"
+     },
+     {
+      "id": "455037234",
+      "label": "Isis (Excerpts, Arrangement); Manuscript copy; LWV 54/45; D-B Mus.ms. 30363 (8)"
+     },
+     {
+      "id": "806490057",
+      "label": "Isis (Excerpts); Manuscript copy; LWV 54/45; GB-Lbl Add. 17853"
+     },
+     {
+      "id": "900020642",
+      "label": "Isis (Excerpts, Arrangement); Manuscript copy; LWV 54/45; US-CAward M1505.L94 O6 1700"
+     },
+     {
+      "id": "900021171",
+      "label": "Isis (Excerpts, Arrangement); Manuscript copy; LWV 54/45; US-CAward M1500.L95 O6 1700"
      }
     ]
    }
@@ -3726,11 +6361,17 @@
    {
     "composer": "Mozart, Wolfgang Amadeus (1756-1791)",
     "verdict": "probable",
-    "note": "Instrumental excerpts of Litany KV 125",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Only the first section matches: the bass opening of the Kyrie of the Litany K. 125, including its partial-autograph parts. The other three sections are not identified.",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allo. molto",
+      "incipit": "1.1.1 Allo. molto",
+      "movement": 1,
       "anon": {
        "clef": "F-4",
        "keysig": "bBE",
@@ -3738,10 +6379,17 @@
        "data": ",,{8B,B'D,B}{AGAF}/{BBBB}{DDDD}/{EEEE}{FFFF}/"
       },
       "notes": 12,
-      "agree": 12,
+      "overlap": 12,
+      "from_start": 12,
+      "counts": true,
       "match": {
        "source": "450064032",
-       "movement": "1.1.2",
+       "incipit": "1.1.2",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "F-4",
        "keysig": "bBE",
        "timesig": "c",
@@ -3749,7 +6397,8 @@
       }
      },
      {
-      "movement": "1.2.1 Andante",
+      "incipit": "1.2.1 Andante",
+      "movement": 2,
       "anon": {
        "clef": "F-4",
        "keysig": "bBEA",
@@ -3757,10 +6406,13 @@
        "data": "{8,EE}E8-4-/{8EE}E8-4-/{8EE}{EFGA}/"
       },
       "notes": 4,
-      "agree": 1
+      "overlap": 2,
+      "from_start": 1,
+      "counts": false
      },
      {
-      "movement": "1.3.1 Adagio",
+      "incipit": "1.3.1 Adagio",
+      "movement": 3,
       "anon": {
        "clef": "F-4",
        "keysig": "bBEADG",
@@ -3768,10 +6420,13 @@
        "data": ",,{6BBBBBBBB}{BBBBBBBB}/{BBBBBBBB}4B8-,B/{bGGGF}{nEEEE}/"
       },
       "notes": 6,
-      "agree": 2
+      "overlap": 2,
+      "from_start": 2,
+      "counts": false
      },
      {
-      "movement": "1.4.1 Alla breve",
+      "incipit": "1.4.1 Alla breve",
+      "movement": 4,
       "anon": {
        "clef": "F-4",
        "keysig": "bBE",
@@ -3779,8 +6434,19 @@
        "data": ",2B4BB/2B,,B/4-,BBB/4.B8,,B2B/"
       },
       "notes": 4,
-      "agree": 4
+      "overlap": 4,
+      "from_start": 4,
+      "counts": false
      }
+    ],
+    "movements": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -3801,6 +6467,67 @@
   "verdict": "probable"
  },
  {
+  "id": "840003125",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; F-AG 698",
+  "shelfmark": "F-AG 698",
+  "leads": [
+   {
+    "composer": "Perez, Davide (1711-1778)",
+    "verdict": "probable",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Identical over 17 pitches with the opening of 'Posson ben le stagion'; whether the anonymous symphony is the opera's sinfonia or an arrangement of the aria is open.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Presto",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c/",
+       "data": "4''Fq6E{8D6CD}q6E{8D6CD}{8FA}/4Fq6E{8D6CD}q6E{8D6CD}{8GB}/4G"
+      },
+      "notes": 17,
+      "overlap": 17,
+      "from_start": 17,
+      "counts": true,
+      "match": {
+       "source": "141483",
+       "incipit": "1.1.1 Presto con brio",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''4F^'A^D!g''E{8D6CD}!f{8F^'A^D''A}/4F^'A^D!g''E{8D6CD}!f{8G^'B^D''B}/4G^'B^D!g''E{8D6CD}!f{8G^'B^D''B}/4F^'A"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "141483",
+      "label": "Posson ben le stagion; Manuscript copy; US-Wc M1528.A2 P44"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
   "id": "408005075",
   "genre": "symphonies",
   "label": "Symphonies–E♭ major; Manuscript copy; CH-SAf MusSAf.Ms.1361",
@@ -3809,11 +6536,19 @@
    {
     "composer": "Pichl, Václav (1741-1805)",
     "verdict": "probable",
-    "note": "Transposed copy (E-flat) of ZakP 24 in D",
-    "class": "weak",
-    "movements": [
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Clarinet and horn parts in E-flat. Movements II and III match Pichl op. 1/6 (ZakP 24), which Zakin and Breitkopf give in E-flat; the finale matches after four bars' rest. The comparators also record a historical Rosetti attribution (MurR A58S). Wind parts need checking against the corresponding parts.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "455016639: cross-reference to Rosetti, Antonio (1750c-1792) (Ascertained)"
+    ],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "bBEA",
@@ -3821,10 +6556,17 @@
        "data": "''4A{8.A6A}{8AEAE}/4A'''EEE/2E{8EDCD}/2D4C-/"
       },
       "notes": 10,
-      "agree": 6,
+      "overlap": 6,
+      "from_start": 6,
+      "counts": false,
       "match": {
        "source": "455016633",
-       "movement": "1.1.1 Allegro",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "c",
@@ -3832,7 +6574,8 @@
       }
      },
      {
-      "movement": "1.2.1 Rondo Allegro",
+      "incipit": "1.2.1 Rondo Allegro",
+      "movement": 2,
       "anon": {
        "clef": "G-2",
        "keysig": "bBEA",
@@ -3840,10 +6583,13 @@
        "data": "2-/=1/2-'''{8.E6D}4D/{8.C''6F}4F{8ACFE}/4D'B"
       },
       "notes": 10,
-      "agree": 1
+      "overlap": 3,
+      "from_start": 1,
+      "counts": false
      },
      {
-      "movement": "1.3.1 Allo assai",
+      "incipit": "1.3.1 Allo assai",
+      "movement": 3,
       "anon": {
        "clef": "G-2",
        "keysig": "bBEA",
@@ -3851,8 +6597,31 @@
        "data": "=4/''GF/AG/{6FGFE}{DC'BnA}/4B-/=1/"
       },
       "notes": 13,
-      "agree": 1
+      "overlap": 13,
+      "from_start": 1,
+      "counts": true,
+      "match": {
+       "source": "455016633",
+       "incipit": "1.3.1 Allegro assai",
+       "movement": 3,
+       "offset": [
+        0,
+        10
+       ],
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "2/4",
+       "data": "{8.6'A''D8'AA}/A4F8G/A4D8E/{F-D}-/4''FE/GF/{6EFED}{C'BAxG}/4A-/"
+      }
      }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     3
     ],
     "sources": [
      {
@@ -3881,11 +6650,17 @@
    {
     "composer": "Pleyel, Ignace (1757-1831)",
     "verdict": "probable",
-    "note": "Arrangement of quartet BenP 305",
-    "class": "weak",
-    "movements": [
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Opens like the Pleyel quartet BenP 305. RISM titles the anonymous copy G major but its incipit is encoded without the F-sharp, so the copies appear to part where it has F natural. Whether it is an arrangement of the quartet or a symphony sharing its opening is open.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "F-4",
        "keysig": "n",
@@ -3893,16 +6668,29 @@
        "data": "'4D/,BBxGE/4.A8B'4CC/,AAFD/4.G8A4B-/"
       },
       "notes": 13,
-      "agree": 8,
+      "overlap": 8,
+      "from_start": 8,
+      "counts": true,
       "match": {
        "source": "1001098193",
-       "movement": "1.1.1 Allegro",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xF",
        "timesig": "c",
        "data": "4''D/'BBxGE/4.A8B4''CC/'AAFD/4.nG8A4B''G/"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -3959,50 +6747,179 @@
   "verdict": "probable"
  },
  {
-  "id": "840002845",
+  "id": "400014560",
   "genre": "symphonies",
-  "label": "Quartets–D major; Manuscript copy; F-AG 292(1-5)",
-  "shelfmark": "F-AG 292(1-5)",
+  "label": "Symphonies–G major; Manuscript copy; CH-SO SJ 2",
+  "shelfmark": "CH-SO SJ 2",
   "leads": [
    {
-    "composer": "Sammartini, Giovanni Battista (1700c-1775)",
+    "composer": "Sarti, Giuseppe (1729-1802)",
     "verdict": "probable",
-    "note": "Quartet arrangement of symphony JenS 10",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Matches the orchestral opening of the recitative 'Io tradir l'idol mio' in Ifigenia, linked to the rondò 'Un amante sventurato', not the overture. The anonymous source's other sections are not encoded. RISM titles the anonymous copy G major, but its incipit is encoded without a key signature, as is the Sarti copy's.",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
-       "keysig": "xFC",
-       "timesig": "3/4",
-       "data": "4'DDD/{8D,A'DFAF}/{EGEC,A'C}/{D,A'DFAF}/{EGEC,A'C}/4D"
+       "keysig": "n",
+       "timesig": "4/4",
+       "data": "'2D+4D8E8(3xFGAB''xC;5)/8D4A'''D''A8xF/4G4.G6xFG8AG/xF"
       },
-      "notes": 25,
-      "agree": 18,
+      "notes": 18,
+      "overlap": 18,
+      "from_start": 18,
+      "counts": true,
       "match": {
-       "source": "116305",
-       "movement": "1.1.1 Allegro",
+       "source": "131164",
+       "incipit": "1.1.1 Recitativo. Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
-       "keysig": "xFC",
-       "timesig": "3/4",
-       "data": "'4DDD/{8D,A'DFAF}/{EGEC,A'C}/{D,A'DFAF}/"
+       "keysig": "n",
+       "timesig": "c",
+       "data": "'2D+{8D6ExF}{GAB''xC}/8D4A'''D''A8xF/4G^'B^D''4.G{6xFG}{8AG}/xF4A'''D''A8F/4G^'B^D"
       }
      }
     ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
     "sources": [
      {
-      "id": "116305",
-      "label": "Symphonies–D major; Manuscript copy; JenS 10; US-BEm MS 600 A-F"
+      "id": "1001244108",
+      "label": "Ifigenia in Aulide (Excerpts); Manuscript copy; D-Mbs Mus.Schott.As 3264"
      },
      {
-      "id": "150201617",
-      "label": "Symphonies–D major; Manuscript copy; JenS 10; DK-Kk (mu 7305.2936)"
+      "id": "131164",
+      "label": "Ifigenia (Excerpts); Manuscript copy; US-Wc M1505.A1 (205)"
      },
      {
-      "id": "190019057",
-      "label": "Symphonies–D major; Manuscript copy; JenS 10; S-Skma Od-R"
+      "id": "132189",
+      "label": "Ifigenia (Excerpts); Manuscript copy; US-R M1613.3 S249"
+     },
+     {
+      "id": "455027523",
+      "label": "Un amante sventurato (Excerpts); Manuscript copy; D-B Mus.ms. 30128"
      }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
+  "id": "212001714",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; D-Dl Mus.2-N-20,19",
+  "shelfmark": "D-Dl Mus.2-N-20,19",
+  "leads": [
+   {
+    "composer": "Tartini, Giuseppe (1692-1770)",
+    "verdict": "probable",
+    "attribution": "uncertain",
+    "prior": "anonymous-record",
+    "note": "The anonymous record already names Tartini; one movement of three matches, and the comparator's Tartini attribution is conjectural.",
+    "class": "known",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "190019232: composer qualified as Conjectural"
+    ],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "6'D/4D8-6-F4F6-{3DEFGAB''C}/8{D'FE''C}{D'D}4-/8{''FA}-F{EA}-"
+      },
+      "notes": 20,
+      "overlap": 15,
+      "from_start": 15,
+      "counts": true,
+      "match": {
+       "source": "190019232",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "6'D/4D8-6-F4F3-{DEFGAB''C}/{8D'FE''C}{D'D}4-/{6D''D'AF}{D''D'AF}4''FF/{6'A''AEC}"
+      }
+     },
+     {
+      "incipit": "1.2.1 Largo",
+      "movement": 2,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "8''{FFFF}4F-/8{FFFF}4F-/8{EEEE}4E-/"
+      },
+      "notes": 2,
+      "overlap": 2,
+      "from_start": 1,
+      "counts": false
+     },
+     {
+      "incipit": "1.3.1 Presto",
+      "movement": 3,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "3/8",
+       "data": "6''{DE8FE}/6{D'AB''CDE}/{FG8AG}/"
+      },
+      "notes": 14,
+      "overlap": 3,
+      "from_start": 1,
+      "counts": false
+     }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "190019232",
+      "label": "Symphonies–D major; Manuscript copy; CapT deest; S-Skma Alströmer saml. 168:24"
+     }
+    ]
+   },
+   {
+    "composer": "Weber, Johann Gottfried (1740-1797)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only a common scale or arpeggio fragment agrees on inspection",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "3->1"
     ]
    }
   ],
@@ -4017,11 +6934,19 @@
    {
     "composer": "Adlgasser, Anton Cajetan (1729-1777)",
     "verdict": "unresolved",
-    "note": "Same pitches as the Adlgasser sacred work, rebarred from 3/8 to 2/4; a quartet borrowing a vocal piece needs the images",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The anonymous 'Sinphonia ... a 4' opens with the pitch sequence of the third instrumental section (movement III) before the first recitative of Pietas in Deum, rebarred from 3/8 to 2/4, and diverges afterwards.",
     "class": "plausible",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "1->3"
+    ],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "bBE",
@@ -4029,16 +6954,29 @@
        "data": "'8B''4D8C/'B4F8D/''D4F8E/D'4B8F/{''6BFFF}{FFFF}/{'FA''CF}{EEEE}/{DDDD}{DDDD}/"
       },
       "notes": 20,
-      "agree": 12,
+      "overlap": 12,
+      "from_start": 12,
+      "counts": true,
       "match": {
        "source": "1001025319",
-       "movement": "1.3.1 Allegro assai",
+       "incipit": "1.3.1 Allegro assai",
+       "movement": 3,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "bBE",
        "timesig": "3/8",
        "data": "'8{B''DC}/'{BFD}/''{DFE}/{D'BF}/''6{FFFFFF}/{FFFFFF}/{FGABAB}/4F"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -4059,11 +6997,17 @@
    {
     "composer": "Arne, Thomas Augustine (1710-1778)",
     "verdict": "unresolved",
-    "note": "Opening matches a Mass in D attributed to Arne in a Rome copy; a symphony quoting a Mass opening is odd, needs the images",
+    "attribution": "uncertain",
+    "prior": "new",
+    "note": "Matches directly, rhythm included, the opening labelled 'Symphony' of a Mass in D catalogued under Arne (I-Rama); a separately transmitted instrumental introduction is plausible. The Mass is absent from Parkinson's Arne catalogue, so the attribution itself is uncertain.",
     "class": "plausible",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Grave",
+      "incipit": "1.1.1 Grave",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -4071,16 +7015,29 @@
        "data": "''4FAF8-F/{AAAA}4D8-D/{GGGG}4C8-"
       },
       "notes": 7,
-      "agree": 7,
+      "overlap": 7,
+      "from_start": 7,
+      "counts": true,
       "match": {
        "source": "850032622",
-       "movement": "1.1.1 Symphony.",
+       "incipit": "1.1.1 Symphony.",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFC",
        "timesig": "c",
        "data": "4''FAF8-F/{AAAA}4D8-D/{GGGG}4C8-E/{AAAE}"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -4101,11 +7058,17 @@
    {
     "composer": "Knölcke, Baltzar",
     "verdict": "unresolved",
+    "attribution": "secure",
+    "prior": "new",
     "note": "Same pitches as Knölcke's \"Railleri\" in a different metre; both copies are obscure",
     "class": "plausible",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 Allegro",
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xFC",
@@ -4113,16 +7076,29 @@
        "data": "''{8DDDD}/{6D'AB''C}{DEFG}/{8FDDD}/{6D'AB''C}{DEFG}/8F4A{6GF}/{8E'AA''G}/F"
       },
       "notes": 25,
-      "agree": 17,
+      "overlap": 17,
+      "from_start": 17,
+      "counts": true,
       "match": {
        "source": "190004524",
-       "movement": "1.1.1",
+       "incipit": "1.1.1",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "C-1",
        "keysig": "xFC",
        "timesig": "c",
        "data": "''{8DDDD}{6D'AB''C}{DEFG}/{FDDD}{D'AB''C}{DEFG}"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -4143,11 +7119,17 @@
    {
     "composer": "Pleyel, Ignace (1757-1831)",
     "verdict": "unresolved",
+    "attribution": "secure",
+    "prior": "new",
     "note": "Anonymous opening equals bars 3-4 of the Pleyel symphonie concertante a step lower; needs the full parts",
     "class": "good",
-    "movements": [
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
      {
-      "movement": "1.1.1 All.o",
+      "incipit": "1.1.1 All.o",
+      "movement": 1,
       "anon": {
        "clef": "G-2",
        "keysig": "xF",
@@ -4155,16 +7137,29 @@
        "data": "''2D'4.B8A/gB{AG}4.G{8GAB}/''2C'4.A8G/G"
       },
       "notes": 9,
-      "agree": 9,
+      "overlap": 9,
+      "from_start": 9,
+      "counts": true,
       "match": {
        "source": "201008913",
-       "movement": "1.1.1 Allegro",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
        "clef": "G-2",
        "keysig": "xFCG",
        "timesig": "c",
        "data": "''2E4.C'8B/''qC{'BA}4.A{8AB''C}/2D'4.B8A/{AG}4.G"
       }
      }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
     ],
     "sources": [
      {
@@ -4185,220 +7180,65 @@
   "verdict": "unresolved"
  },
  {
-  "id": "570005113",
+  "id": "800000068",
   "genre": "symphonies",
-  "label": "Symphonies–F major; Manuscript copy; SK-J H-614",
-  "shelfmark": "SK-J H-614",
+  "label": "?Symphonies?–D major (Excerpts); Manuscript copy; GB-P O.2",
+  "shelfmark": "GB-P O.2",
   "leads": [
    {
-    "composer": "Adam, Johann (1704-1779)",
-    "verdict": "known",
-    "note": "Record already names Adam",
-    "class": "known"
+    "composer": "Tritto, Giacomo (1733-1824)",
+    "verdict": "unresolved",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Same tonic-arpeggio pattern a fourth apart as an excerpt from La fedeltà in amore; too generic to decide without more of the music.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro con spirito",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c/",
+       "data": "'4DDDD/8{D,A'DF}{E,A'EG}/{FDFA}"
+      },
+      "notes": 12,
+      "overlap": 12,
+      "from_start": 1,
+      "counts": true,
+      "match": {
+       "source": "850009190",
+       "incipit": "1.1.1 [Sinfonia].",
+       "movement": 1,
+       "offset": [
+        0,
+        1
+       ],
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "'8C/!{FFFF}!f/{FCFA}{GCGB}/{AFA''C}{'BGEC}/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "850009190",
+      "label": "La fedeltà in amore (Excerpts); Autograph manuscript; I-Nc Rari 2.5.19"
+     }
+    ]
    }
   ],
-  "verdict": "known"
- },
- {
-  "id": "850607318",
-  "genre": "symphonies",
-  "label": "Symphonies–B♭ major; Manuscript copy; I-OS Mss.Mus.B 4715",
-  "shelfmark": "I-OS Mss.Mus.B 4715",
-  "leads": [
-   {
-    "composer": "Benatti, Vincenzo (1767-1797)",
-    "verdict": "known",
-    "note": "Record already names the composer or catalogue number",
-    "class": "known"
-   }
-  ],
-  "verdict": "known"
- },
- {
-  "id": "603000139",
-  "genre": "symphonies",
-  "label": "Divertimentos–B♭ major; Manuscript copy; MH 133, MH 104, MH deest; A-LA 329",
-  "shelfmark": "A-LA 329",
-  "leads": [
-   {
-    "composer": "Hafeneder, Joseph (1746-1784)",
-    "verdict": "known",
-    "note": "Record already names the composer or catalogue number",
-    "class": "known"
-   },
-   {
-    "composer": "Haydn, Michael (1737-1806)",
-    "verdict": "known",
-    "note": "Record already names the composer or catalogue number",
-    "class": "known"
-   }
-  ],
-  "verdict": "known"
- },
- {
-  "id": "1001382619",
-  "genre": "symphonies",
-  "label": "Symphonies–G major (Arrangement); Manuscript copy; Hob I:94; D-Mbs Mus.Schott.Ha 17501-2",
-  "shelfmark": "D-Mbs Mus.Schott.Ha 17501-2",
-  "leads": [
-   {
-    "composer": "Haydn, Joseph (1732-1809)",
-    "verdict": "known",
-    "note": "Record already names the composer or catalogue number",
-    "class": "known"
-   }
-  ],
-  "verdict": "known"
- },
- {
-  "id": "1001382626",
-  "genre": "symphonies",
-  "label": "Symphonies–E♭ major (Arrangement); Manuscript copy; Hob I:99; D-Mbs Mus.Schott.Ha 17504-2",
-  "shelfmark": "D-Mbs Mus.Schott.Ha 17504-2",
-  "leads": [
-   {
-    "composer": "Haydn, Joseph (1732-1809)",
-    "verdict": "known",
-    "note": "Record already names the composer or catalogue number",
-    "class": "known"
-   }
-  ],
-  "verdict": "known"
- },
- {
-  "id": "1001382636",
-  "genre": "symphonies",
-  "label": "Symphonies–G major (Arrangement); Manuscript copy; Hob I:94; D-Mbs Mus.Schott.Ha 17505-2",
-  "shelfmark": "D-Mbs Mus.Schott.Ha 17505-2",
-  "leads": [
-   {
-    "composer": "Haydn, Joseph (1732-1809)",
-    "verdict": "known",
-    "note": "Record already names the composer or catalogue number",
-    "class": "known"
-   }
-  ],
-  "verdict": "known"
- },
- {
-  "id": "650003004",
-  "genre": "symphonies",
-  "label": "Symphonies–D major; Manuscript copy; Hob I:1; A-ST Mus.ms. 558",
-  "shelfmark": "A-ST Mus.ms. 558",
-  "leads": [
-   {
-    "composer": "Haydn, Joseph (1732-1809)",
-    "verdict": "known",
-    "note": "Title already carries Hob. I:1",
-    "class": "known"
-   },
-   {
-    "composer": "Benda, Georg (1722-1795)",
-    "verdict": "rejected",
-    "note": "Competing weaker match; work is Haydn Hob. I:1",
-    "class": "known"
-   },
-   {
-    "composer": "Bühler, Franz, OSB (1760-1823)",
-    "verdict": "rejected",
-    "note": "Competing weaker match; work is Haydn Hob. I:1",
-    "class": "known"
-   },
-   {
-    "composer": "Köhler, Johann Hermann (1686-1740)",
-    "verdict": "rejected",
-    "note": "Competing weaker match; work is Haydn Hob. I:1",
-    "class": "known"
-   },
-   {
-    "composer": "Molter, Johann Melchior (1696-1765)",
-    "verdict": "rejected",
-    "note": "Competing weaker match; work is Haydn Hob. I:1",
-    "class": "known"
-   }
-  ],
-  "verdict": "known"
- },
- {
-  "id": "450003164",
-  "genre": "symphonies",
-  "label": "Symphonies–D major; Manuscript copy; D-DS Mus.ms 866/2",
-  "shelfmark": "D-DS Mus.ms 866/2",
-  "leads": [
-   {
-    "composer": "Polazzi, Bernardo (18.sc)",
-    "verdict": "known",
-    "note": "Record already names the composer or catalogue number",
-    "class": "known"
-   }
-  ],
-  "verdict": "known"
- },
- {
-  "id": "1001376788",
-  "genre": "symphonies",
-  "label": "Symphonies–A major; Manuscript copy; CSWV Bm:16, GraunWV D:XII:112; PL-MO 928",
-  "shelfmark": "PL-MO 928",
-  "leads": [
-   {
-    "composer": "Schaffrath, Christoph (1709-1763)",
-    "verdict": "known",
-    "note": "Title already carries CSWV/GraunWV numbers",
-    "class": "known"
-   }
-  ],
-  "verdict": "known"
- },
- {
-  "id": "212001714",
-  "genre": "symphonies",
-  "label": "Symphonies–D major; Manuscript copy; D-Dl Mus.2-N-20,19",
-  "shelfmark": "D-Dl Mus.2-N-20,19",
-  "leads": [
-   {
-    "composer": "Tartini, Giuseppe (1692-1770)",
-    "verdict": "known",
-    "note": "Record already names the composer or catalogue number",
-    "class": "known"
-   },
-   {
-    "composer": "Weber, Johann Gottfried (1740-1797)",
-    "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
-   }
-  ],
-  "verdict": "known"
- },
- {
-  "id": "453002908",
-  "genre": "symphonies",
-  "label": "Symphonies–G major; Manuscript copy; RV 303, LaRueS 1988 deest; D-KA Mus. Hs. 1016",
-  "shelfmark": "D-KA Mus. Hs. 1016",
-  "leads": [
-   {
-    "composer": "Vivaldi, Antonio (1678-1741)",
-    "verdict": "known",
-    "note": "Record already names the composer or catalogue number",
-    "class": "known"
-   }
-  ],
-  "verdict": "known"
- },
- {
-  "id": "456008015",
-  "genre": "symphonies",
-  "label": "Symphonies–C major; Manuscript copy; D-UWB UWB K2 AI 16",
-  "shelfmark": "D-UWB UWB K2 AI 16",
-  "leads": [
-   {
-    "composer": "Andreska, Vincenc",
-    "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
-   }
-  ],
-  "verdict": "rejected"
+  "verdict": "unresolved"
  },
  {
   "id": "570005116",
@@ -4409,23 +7249,13 @@
    {
     "composer": "Anfossi, Pasquale (1727-1797)",
     "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
-   }
-  ],
-  "verdict": "rejected"
- },
- {
-  "id": "850002402",
-  "genre": "symphonies",
-  "label": "Symphonies–D minor; Manuscript copy; I-MAav Cart.2 n.15",
-  "shelfmark": "I-MAav Cart.2 n.15",
-  "leads": [
-   {
-    "composer": "Asplmayr, Franz (1728-1786)",
-    "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
+    "attribution": "",
+    "prior": "",
+    "note": "Only a common scale or arpeggio fragment agrees on inspection",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
    }
   ],
   "verdict": "rejected"
@@ -4439,8 +7269,13 @@
    {
     "composer": "Beethoven, Ludwig van (1770-1827)",
     "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
+    "attribution": "",
+    "prior": "",
+    "note": "Only a common scale or arpeggio fragment agrees on inspection",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
    }
   ],
   "verdict": "rejected"
@@ -4454,8 +7289,13 @@
    {
     "composer": "Benatti, Vincenzo (1767-1797)",
     "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
+    "attribution": "",
+    "prior": "",
+    "note": "Fewer than six pitches agree, from the start or with one incipit entering partway into the other",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
    }
   ],
   "verdict": "rejected"
@@ -4469,8 +7309,13 @@
    {
     "composer": "Benevoli, Orazio (1605-1672)",
     "verdict": "rejected",
-    "note": "Composer's dates impossible for this copy or genre",
-    "class": "date-impossible"
+    "attribution": "",
+    "prior": "",
+    "note": "Rhythm and melody differ; only a contour fragment agrees; not rejected on the composer's dates alone.",
+    "class": "date-early",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
    }
   ],
   "verdict": "rejected"
@@ -4484,8 +7329,17 @@
    {
     "composer": "Brixi",
     "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
     "note": "Hand review: melodies differ beyond the opening figure",
-    "class": "plausible"
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "heading 'Brixi' names no identifiable person"
+    ],
+    "movement_mismatch": [
+     "1->3"
+    ]
    }
   ],
   "verdict": "rejected"
@@ -4499,8 +7353,15 @@
    {
     "composer": "Bruni, Antonio Bartolomeo (1759-1821)",
     "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
     "note": "Hand review: melodies differ",
-    "class": "good"
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "2->1"
+    ]
    }
   ],
   "verdict": "rejected"
@@ -4514,8 +7375,15 @@
    {
     "composer": "Cavalli, Francesco (1602-1676)",
     "verdict": "rejected",
-    "note": "Composer's dates impossible for this copy or genre",
-    "class": "date-impossible"
+    "attribution": "",
+    "prior": "",
+    "note": "Only a contour fragment agrees, in a different metre; not rejected on the composer's dates alone.",
+    "class": "date-early",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "2->1"
+    ]
    }
   ],
   "verdict": "rejected"
@@ -4529,8 +7397,13 @@
    {
     "composer": "Cherubini, Luigi (1760-1842)",
     "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
+    "attribution": "",
+    "prior": "",
+    "note": "Fewer than six pitches agree, from the start or with one incipit entering partway into the other",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
    }
   ],
   "verdict": "rejected"
@@ -4544,23 +7417,15 @@
    {
     "composer": "Cibulka, Matouš Alois (1768-1845)",
     "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
     "note": "Hand review: melodies differ beyond the opening figure",
-    "class": "weak"
-   }
-  ],
-  "verdict": "rejected"
- },
- {
-  "id": "456006022",
-  "genre": "symphonies",
-  "label": "Symphonies–D major; Manuscript copy; D-MHF MHF K5 Mappe 27 (b) (Nr. 10)",
-  "shelfmark": "D-MHF MHF K5 Mappe 27 (b) (Nr. 10)",
-  "leads": [
-   {
-    "composer": "Dalayrac, Nicolas-Marie (1753-1809)",
-    "verdict": "rejected",
-    "note": "Hand review: melodies differ beyond the opening figure",
-    "class": "plausible"
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "2->14"
+    ]
    }
   ],
   "verdict": "rejected"
@@ -4574,8 +7439,13 @@
    {
     "composer": "Davide da Bergamo, OFMRef (1791-1863)",
     "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
     "note": "Hand review: melodies differ beyond the opening figure",
-    "class": "plausible"
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
    }
   ],
   "verdict": "rejected"
@@ -4589,8 +7459,13 @@
    {
     "composer": "Dittersdorf, Carl Ditters von (1739-1799)",
     "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
+    "attribution": "",
+    "prior": "",
+    "note": "Fewer than six pitches agree, from the start or with one incipit entering partway into the other",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
    }
   ],
   "verdict": "rejected"
@@ -4604,8 +7479,17 @@
    {
     "composer": "Drechsler, František (1803-1878)",
     "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
     "note": "Composer's dates impossible for this copy or genre",
-    "class": "date-impossible"
+    "class": "date-impossible",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "1001332889: composer qualified as Alleged"
+    ],
+    "movement_mismatch": [
+     "1->6"
+    ]
    }
   ],
   "verdict": "rejected"
@@ -4619,8 +7503,15 @@
    {
     "composer": "Fodor, Josephus (1751-1828)",
     "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
+    "attribution": "",
+    "prior": "",
+    "note": "Only a common scale or arpeggio fragment agrees on inspection",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "2->1"
+    ]
    }
   ],
   "verdict": "rejected"
@@ -4634,8 +7525,13 @@
    {
     "composer": "Formichi, Pietro (1829-1913)",
     "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
+    "attribution": "",
+    "prior": "",
+    "note": "Fewer than six pitches agree, from the start or with one incipit entering partway into the other",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
    }
   ],
   "verdict": "rejected"
@@ -4649,14 +7545,28 @@
    {
     "composer": "Fux, Johann Joseph (1660-1741)",
     "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
+    "attribution": "",
+    "prior": "",
+    "note": "Only a common scale or arpeggio fragment agrees on inspection",
+    "class": "strong",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "3->1"
+    ]
    },
    {
     "composer": "Skuherský, František Zdeněk (1830-1892)",
     "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
     "note": "Composer's dates impossible for this copy or genre",
-    "class": "date-impossible"
+    "class": "date-impossible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "2->1"
+    ]
    }
   ],
   "verdict": "rejected"
@@ -4670,23 +7580,15 @@
    {
     "composer": "Gazzaniga, Giuseppe (1743-1818)",
     "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
-   }
-  ],
-  "verdict": "rejected"
- },
- {
-  "id": "854005521",
-  "genre": "symphonies",
-  "label": "Symphonies–A major; Manuscript copy; I-Ria Mss. Vess. 975",
-  "shelfmark": "I-Ria Mss. Vess. 975",
-  "leads": [
-   {
-    "composer": "Grazioli, Filippo (1774-1840)",
-    "verdict": "rejected",
-    "note": "Hand review: melodies differ beyond the opening figure",
-    "class": "plausible"
+    "attribution": "",
+    "prior": "",
+    "note": "Only a common scale or arpeggio fragment agrees on inspection",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "3->1"
+    ]
    }
   ],
   "verdict": "rejected"
@@ -4700,8 +7602,15 @@
    {
     "composer": "Gyrowetz, Adalbert (1763-1850)",
     "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
+    "attribution": "",
+    "prior": "",
+    "note": "Only a common scale or arpeggio fragment agrees on inspection",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "1->3"
+    ]
    }
   ],
   "verdict": "rejected"
@@ -4715,8 +7624,13 @@
    {
     "composer": "Hasse, Johann Adolf (1699-1783)",
     "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
+    "attribution": "",
+    "prior": "",
+    "note": "Fewer than six pitches agree, from the start or with one incipit entering partway into the other",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
    }
   ],
   "verdict": "rejected"
@@ -4730,8 +7644,13 @@
    {
     "composer": "Haydn, Joseph (1732-1809)",
     "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
+    "attribution": "",
+    "prior": "",
+    "note": "Fewer than six pitches agree, from the start or with one incipit entering partway into the other",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
    }
   ],
   "verdict": "rejected"
@@ -4745,8 +7664,13 @@
    {
     "composer": "Herpol, Homer (1520c-1573c)",
     "verdict": "rejected",
-    "note": "Composer's dates impossible for this copy or genre",
-    "class": "date-impossible"
+    "attribution": "",
+    "prior": "",
+    "note": "No encoded incipit matches; not rejected on the composer's dates alone.",
+    "class": "date-early",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
    }
   ],
   "verdict": "rejected"
@@ -4760,23 +7684,15 @@
    {
     "composer": "Hertel, Johann Wilhelm (1727-1789)",
     "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
     "note": "Hand review: melodies differ beyond the opening figure",
-    "class": "good"
-   }
-  ],
-  "verdict": "rejected"
- },
- {
-  "id": "850026338",
-  "genre": "symphonies",
-  "label": "Symphonies–D major; Manuscript copy; I-Rc Mss. 6245/12",
-  "shelfmark": "I-Rc Mss. 6245/12",
-  "leads": [
-   {
-    "composer": "Hoffmeister, Franz Anton (1754-1812)",
-    "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "3->1"
+    ]
    }
   ],
   "verdict": "rejected"
@@ -4790,8 +7706,15 @@
    {
     "composer": "Hönicke, Friedrich (1755-1809)",
     "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
+    "attribution": "",
+    "prior": "",
+    "note": "Only a common scale or arpeggio fragment agrees on inspection",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "1->11"
+    ]
    }
   ],
   "verdict": "rejected"
@@ -4805,8 +7728,13 @@
    {
     "composer": "Kücken, Friedrich Wilhelm (1810-1882)",
     "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
+    "attribution": "",
+    "prior": "",
+    "note": "Only a common scale or arpeggio fragment agrees on inspection",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
    }
   ],
   "verdict": "rejected"
@@ -4820,23 +7748,15 @@
    {
     "composer": "Leo, Leonardo (1694-1744)",
     "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
     "note": "Hand review: melodies differ beyond the opening figure",
-    "class": "plausible"
-   }
-  ],
-  "verdict": "rejected"
- },
- {
-  "id": "806426578",
-  "genre": "symphonies",
-  "label": "Symphonies–C major; Manuscript copy; GB-Lbl Add. 17785",
-  "shelfmark": "GB-Lbl Add. 17785",
-  "leads": [
-   {
-    "composer": "Lully, Jean-Baptiste (1632-1687)",
-    "verdict": "rejected",
-    "note": "Composer's dates impossible for this copy or genre",
-    "class": "date-impossible"
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "603001961: composer qualified as Conjectural"
+    ],
+    "movement_mismatch": []
    }
   ],
   "verdict": "rejected"
@@ -4850,8 +7770,15 @@
    {
     "composer": "Maschek, Vinzenz (1755-1831)",
     "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
+    "attribution": "",
+    "prior": "",
+    "note": "Only a common scale or arpeggio fragment agrees on inspection",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "4->7"
+    ]
    }
   ],
   "verdict": "rejected"
@@ -4865,8 +7792,13 @@
    {
     "composer": "Meisl, Josef Alois (1767-1792p)",
     "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
+    "attribution": "",
+    "prior": "",
+    "note": "Only a common scale or arpeggio fragment agrees on inspection",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
    }
   ],
   "verdict": "rejected"
@@ -4880,8 +7812,15 @@
    {
     "composer": "Pampani, Antonio Gaetano (1706-1775)",
     "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
+    "attribution": "",
+    "prior": "",
+    "note": "Only a common scale or arpeggio fragment agrees on inspection",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "3->1"
+    ]
    }
   ],
   "verdict": "rejected"
@@ -4895,23 +7834,16 @@
    {
     "composer": "Pecháček, Franz Martin (1763-1816)",
     "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
     "note": "Hand review: melodies differ",
-    "class": "weak"
-   }
-  ],
-  "verdict": "rejected"
- },
- {
-  "id": "840003125",
-  "genre": "symphonies",
-  "label": "Symphonies–D major; Manuscript copy; F-AG 698",
-  "shelfmark": "F-AG 698",
-  "leads": [
-   {
-    "composer": "Perez, Davide (1711-1778)",
-    "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
+    "class": "strong",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "1->10",
+     "2->10"
+    ]
    }
   ],
   "verdict": "rejected"
@@ -4925,38 +7857,15 @@
    {
     "composer": "Riedt, Friedrich Wilhelm (1710-1783)",
     "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
-   }
-  ],
-  "verdict": "rejected"
- },
- {
-  "id": "450013954",
-  "genre": "symphonies",
-  "label": "Symphonies–D major; Manuscript copy; D-KA Don Mus.Ms. 1787",
-  "shelfmark": "D-KA Don Mus.Ms. 1787",
-  "leads": [
-   {
-    "composer": "Schmidt",
-    "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
-   }
-  ],
-  "verdict": "rejected"
- },
- {
-  "id": "400003944",
-  "genre": "symphonies",
-  "label": "Symphonies–G major; Manuscript copy; CH-EN Ms A 131",
-  "shelfmark": "CH-EN Ms A 131",
-  "leads": [
-   {
-    "composer": "Schmittbauer, Joseph Aloys (1718-1809)",
-    "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
+    "attribution": "",
+    "prior": "",
+    "note": "Only a common scale or arpeggio fragment agrees on inspection",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "1->2"
+    ]
    }
   ],
   "verdict": "rejected"
@@ -4970,23 +7879,13 @@
    {
     "composer": "Schuster, Joseph (1748-1812)",
     "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
-   }
-  ],
-  "verdict": "rejected"
- },
- {
-  "id": "800000068",
-  "genre": "symphonies",
-  "label": "?Symphonies?–D major (Excerpts); Manuscript copy; GB-P O.2",
-  "shelfmark": "GB-P O.2",
-  "leads": [
-   {
-    "composer": "Tritto, Giacomo (1733-1824)",
-    "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
+    "attribution": "",
+    "prior": "",
+    "note": "Fewer than six pitches agree, from the start or with one incipit entering partway into the other",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
    }
   ],
   "verdict": "rejected"
@@ -5000,8 +7899,15 @@
    {
     "composer": "Vanhal, Johann Baptist (1739-1813)",
     "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
     "note": "Hand review: melodies differ beyond the opening figure",
-    "class": "weak"
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "2->1"
+    ]
    }
   ],
   "verdict": "rejected"
@@ -5015,8 +7921,15 @@
    {
     "composer": "Vargas, Urbán de (1606-1656)",
     "verdict": "rejected",
-    "note": "Composer's dates impossible for this copy or genre",
-    "class": "date-impossible"
+    "attribution": "",
+    "prior": "",
+    "note": "Only repeated notes agree; not rejected on the composer's dates alone.",
+    "class": "date-early",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "1->2"
+    ]
    }
   ],
   "verdict": "rejected"
@@ -5030,8 +7943,15 @@
    {
     "composer": "Willmann, Samuel David (1743c-1813)",
     "verdict": "rejected",
-    "note": "Fewer than six notes agree",
-    "class": "weak"
+    "attribution": "",
+    "prior": "",
+    "note": "Only a common scale or arpeggio fragment agrees on inspection",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "2->1"
+    ]
    }
   ],
   "verdict": "rejected"
@@ -5045,8 +7965,13 @@
    {
     "composer": "Żebrowski, Marcin Józef, OSPPE (1702-1770)",
     "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
     "note": "Hand review: melodies differ beyond the opening figure",
-    "class": "plausible"
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
    }
   ],
   "verdict": "rejected"
