@@ -73,37 +73,44 @@ def _surname(name):
     return name.split(",")[0].split(" (")[0].strip()
 
 
-def test_attribution_flags_are_reflected():
-    """A flagged attribution is not 'secure' unless the note names what was flagged."""
+def resolutions():
+    with open(ROOT / "data" / "attribution_resolutions.csv") as f:
+        return {(r["anon_id"], r["composer"], r["flag"]): r["reason"] for r in csv.DictReader(f)}
+
+
+def test_attribution_flags_are_resolved_or_reflected():
+    """'secure' means one unqualified composer. A qualified attribution (conjectural, alleged,
+    doubtful) is never secure; a bare surname is name-only or disputed; every other flag, on the
+    attributed copies or in the anonymous record's own authorship notes, needs a written
+    resolution in data/attribution_resolutions.csv. Mentioning a flag is not resolving it."""
+    res = resolutions()
     for r, e in kept():
-        for flag in e["attribution_flags"]:
+        flags = e["attribution_flags"] + [f for f in e.get("anonymous_record_authorship", []) if "(Misattributed)" not in f]
+        for flag in flags:
             if "names no identifiable person" in flag:
                 assert r["attribution"] in ("name-only", "disputed"), (r["anon_id"], flag)
-                continue
-            if r["attribution"] != "secure":
-                continue
-            if "cross-reference to" in flag:
-                name = flag.split("cross-reference to ", 1)[1].split(" (")[0]
-                assert _surname(name) in r["note"], (r["anon_id"], flag, "note must mention the cross-referenced composer")
-            elif "copied or edited by" in flag:
-                name = flag.split("copied or edited by ", 1)[1].split(";")[0]
-                assert _surname(name) in r["note"], (r["anon_id"], flag, "note must mention the modern copy")
             elif "qualified as" in flag:
-                q = flag.rsplit(" ", 1)[1].lower()
-                assert q in r["note"].lower(), (r["anon_id"], flag, "a qualified attribution is not secure")
+                assert r["attribution"] != "secure", (r["anon_id"], flag, "a qualified attribution is not secure")
+            elif r["attribution"] == "secure":
+                reason = res.get((r["anon_id"], r["composer"], flag), "")
+                assert len(reason) >= 40, (r["anon_id"], flag, "resolve in data/attribution_resolutions.csv or change the attribution")
 
-
-def test_movement_mismatch_is_described():
-    """When the anonymous movement matches a different movement of the attributed copy, the note
-    must name that movement (as a roman or arabic number), not describe the match as the work."""
-    from pae import roman
+def test_internal_matches_cite_the_incipit():
+    """When the anonymous incipit matches an attributed incipit with a different RISM number
+    (anonymous 1.1.1 against 1.2.1), the note must cite that incipit by RISM's own identifier and
+    describe it from the record, since RISM numbering mixes movements, sections, parts and pieces."""
     for r, e in kept():
         if r["verdict"] not in ("confirmed", "probable"):
             continue
-        for mm in e["movement_mismatch"]:
-            b = int(mm.split("->")[1])
-            assert re.search(rf"\b({roman(b)}|{b})\b", r["note"]), (r["anon_id"], mm, "name the attributed copy's movement")
+        for im in e["internal_matches"]:
+            ident = im.split(" -> ")[1].split(" ")[1]
+            assert ident in r["note"], (r["anon_id"], im, "cite the attributed copy's incipit identifier")
 
+
+def test_no_computed_movement_numbers():
+    """Movement numbers computed from incipit positions have been wrong; notes use RISM's labels."""
+    for r in verdict_rows():
+        assert not re.search(r"\bmovements? [IVXL]+\b", r["note"]), (r["anon_id"], r["note"][:80])
 
 def test_vocal_matches_are_described():
     """A match with an incipit labelled Recitativo, Aria, Kyrie... is not an overture or a symphony
@@ -113,6 +120,13 @@ def test_vocal_matches_are_described():
         for vm in e["vocal_matches"]:
             word = context.vocal_label(vm)
             assert word.lower()[:6] in r["note"].lower(), (r["anon_id"], vm, "say which vocal number matched")
+
+
+def test_text_mismatch_is_described():
+    """The same melody under different words is a contrafactum or a coincidence; the note must say so."""
+    for r, e in kept():
+        if e.get("text_mismatch") and r["verdict"] in ("confirmed", "probable"):
+            assert re.search(r"\btext|\bwords|contrafact", r["note"], re.I), (r["anon_id"], e["text_mismatch"], "say the words differ")
 
 
 def test_transposition_claims_match_the_evidence():
@@ -141,18 +155,22 @@ def test_attributions_match_verdicts():
                 assert lead[f] == rows[key][f], (key, f, "re-run tools/export.py")
             if lead["verdict"] == "confirmed":
                 assert any(p["counts"] for p in lead["incipits"]), (key, "confirmed needs at least one agreeing incipit")
+            if lead["attribution"] == "secure":
+                assert not any("qualified as" in f for f in lead["attribution_flags"]), key
         assert rec["verdict"] == min((x["verdict"] for x in rec["leads"]), key=order.index)
     assert seen == set(rows), "attributions.json is stale; re-run tools/export.py"
 
 
-def test_concordances_are_multi_movement():
+def test_concordances_are_reviewed():
+    """Every automatic candidate needs a verdict, so a rejected pair cannot reappear on regeneration."""
     for c in json.loads((ROOT / "data" / "anonymous_concordances.json").read_text()):
-        assert len({m["a"] for m in c["movements"]}) >= 2 and len({m["b"] for m in c["movements"]}) >= 2, c
-        assert all(m["pitches"] >= 8 for m in c["movements"]), c
+        assert c["verdict"] in ("same", "probable", "rejected"), (c["a"], c["b"], "add to data/concordance_verdicts.csv")
+        assert len({m["a"].split(" ")[0].rsplit(".", 1)[0] for m in c["incipits"]}) >= 2, c
+        assert all(m["pitches"] >= 8 for m in c["incipits"]), c
 
 
 def test_pae_parser():
-    from pae import anchored, movement_ordinals, pitches, sim
+    from pae import anchored, pitches, sim
     a = pitches("''8GGAGE/4C8CC4D8DD/4E8CGGAGE", "n")
     b = pitches("8''G{GAGE}/4C8{CC}4D8{DD}/4E8{CG}{GAGE}/", "n")
     assert a[:5] == [79, 79, 81, 79, 76]
@@ -166,8 +184,6 @@ def test_pae_parser():
     late = pitches("=4/''GF/AG/{6FGFE}{DC'BnA}/4B-/", "bBEA")
     full = pitches("{8.6'B''E8'BB}/B4G8A/B4E8F/{G-E}-/4''GF/AG/{6FGFE}{DC'BnA}/4", "bBEA")
     assert sim(late, full) < 3 and anchored(late, full)[0] >= 12, "a part entering after rests still matches"
-    assert movement_ordinals(["1.1.1 Allegro", "1.1.2 Andante", "1.1.3 Menuetto"]) == {"1.1.1 Allegro": 1, "1.1.2 Andante": 2, "1.1.3 Menuetto": 3}
-    assert movement_ordinals(["1.3.1 Menuetto.", "1.3.2", "1.4.1 Trio.", "1.4.2"]) == {"1.3.1 Menuetto.": 1, "1.3.2": 1, "1.4.1 Trio.": 2, "1.4.2": 2}
 
 
 def test_no_local_paths_or_secrets():

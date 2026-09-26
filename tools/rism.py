@@ -60,8 +60,16 @@ def incipits(src):
         if not enc:
             continue
         d = enc[0]["data"]
+        text = voice = ""
+        for x in it.get("summary", []):
+            lab = (x.get("label") or {}).get("en", [""])[0]
+            val = (x.get("value") or {}).get("none", [""])
+            if lab == "Text incipit":
+                text = val[0] if val else ""
+            elif lab == "Voice/instrument":
+                voice = val[0] if val else ""
         out.append({"inc": it["label"]["none"][0], "clef": d.get("clef", ""), "keysig": d.get("keysig", ""),
-                    "timesig": d.get("timesig", ""), "data": d.get("data", "")})
+                    "timesig": d.get("timesig", ""), "data": d.get("data", ""), "text": text, "voice": voice})
     return out
 
 
