@@ -278,6 +278,128 @@
   "verdict": "confirmed"
  },
  {
+  "id": "600236792",
+  "genre": "concertos",
+  "label": "Concertos; Manuscript copy; A-Wn E. M. 156a",
+  "shelfmark": "A-Wn E. M. 156a",
+  "leads": [
+   {
+    "composer": "Alberti, Giuseppe Matteo (1685-1751)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Movements I and III match the Alberti concerto RISM 1001244317 note for note.",
+    "class": "strong",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro spiritoso",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "'''4C''B{8'''C''GAE}/{FDG'G}{''C'GAE}/"
+      },
+      "notes": 14,
+      "overlap": 14,
+      "from_start": 14,
+      "counts": true,
+      "match": {
+       "source": "1001244317",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "4'''C''B8{'''C''GAE}/{FDG'G}{''C'GAE}/{FDG,G}6{'C''GGG}{GGGG}/"
+      }
+     },
+     {
+      "incipit": "1.2.1 Grave e spicco",
+      "movement": 2,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "8-6-{''bE8.E6E}2E/8-6-{bE8.E6D}2D/"
+      },
+      "notes": 5,
+      "overlap": 5,
+      "from_start": 5,
+      "counts": false,
+      "match": {
+       "source": "1001244317",
+       "incipit": "1.2.1 Adagio",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "6-''bE{8.E6E}2E/8-6-bE{8.E6D}2D/8-6-C{8.C6'bB}2B/"
+      }
+     },
+     {
+      "incipit": "1.3.1 Allegro assai",
+      "movement": 3,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "12/8",
+       "data": "''4.C'GEC/''CG'''C{8''GEC}/{AFD}{'B''DG}{EDC}"
+      },
+      "notes": 19,
+      "overlap": 19,
+      "from_start": 19,
+      "counts": true,
+      "match": {
+       "source": "1001244317",
+       "incipit": "1.3.1 Allegro assai",
+       "movement": 3,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "12/8",
+       "data": "''4.C'GEC/''CG'''C''8{GEC}/{AFD}{'B''DG}{EDC}4-8-/"
+      }
+     }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     1,
+     3
+    ],
+    "sources": [
+     {
+      "id": "1001244317",
+      "label": "Concertos–C major; Manuscript copy; TalA 22; D-Dl Mus.2404-O-8a"
+     },
+     {
+      "id": "212001450",
+      "label": "Concertos–C major; Manuscript copy; TalA 22; D-Dl Mus.2404-O-1"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
   "id": "400187451",
   "genre": "symphonies",
   "label": "Symphonies–D major; Manuscript copy; CH-E 11,11",
@@ -924,6 +1046,67 @@
   "verdict": "confirmed"
  },
  {
+  "id": "851002699",
+  "genre": "concertos",
+  "label": "Concertos–D major; Manuscript copy; I-Mdemicheli MSS.Mus 114",
+  "shelfmark": "I-Mdemicheli MSS.Mus 114",
+  "leads": [
+   {
+    "composer": "Chiesa, Melchiorre (1716-1783)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches Chiesa's symphony in D (RISM 400006391) note for note; RISM catalogues the anonymous copy as a concerto.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 [Ripresa]. Allegro",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "4''FFFF/F8-6{AF}8{D'AFD}/4''F8-6{AF}8{D'AFD}/4''G"
+      },
+      "notes": 15,
+      "overlap": 15,
+      "from_start": 15,
+      "counts": true,
+      "match": {
+       "source": "400006391",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''4FFFF/F8-6{AF}8{D'A}{FD}/''4F8-6{AF}8{D'A}{FD}/''4G8-"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "400006391",
+      "label": "Symphonies–D major; Manuscript copy; CH-Bu kr IV 56"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
   "id": "190026991",
   "genre": "symphonies",
   "label": "?Symphonies?–D major; Manuscript copy; S-Skma Alströmer saml. 173:11",
@@ -1332,6 +1515,145 @@
   "verdict": "confirmed"
  },
  {
+  "id": "240007366",
+  "genre": "concertos",
+  "label": "Adagio and Rondo–E♭ major; Manuscript copy; D-SWl Mus.313",
+  "shelfmark": "D-SWl Mus.313",
+  "leads": [
+   {
+    "composer": "Dieter, Christian Ludwig (1757-1822)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Movement II matches movement III of Dieter's concerto in F (RISM 250014266) note for note.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "2->3"
+    ],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Adagio",
+      "movement": 1,
+      "anon": {
+       "clef": "F-4",
+       "keysig": "bBEA",
+       "timesig": "3/4",
+       "data": "2.,B/'C/D/q6F{8.E3DC}{8,BBBB}/"
+      },
+      "notes": 7,
+      "overlap": 4,
+      "from_start": 4,
+      "counts": false
+     },
+     {
+      "incipit": "1.2.1 Rondo. Alla polacca",
+      "movement": 2,
+      "anon": {
+       "clef": "F-4",
+       "keysig": "bBE",
+       "timesig": "3/4",
+       "data": "4.,F{6'D3CD}{8,BB}/{3'D6.E3D6.E}4Cq,B{8A6GF}/"
+      },
+      "notes": 14,
+      "overlap": 14,
+      "from_start": 14,
+      "counts": true,
+      "match": {
+       "source": "250014266",
+       "incipit": "1.3.1 Rondo alla pollacka. Andante",
+       "movement": 3,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "F-4",
+       "keysig": "bBE",
+       "timesig": "3/4",
+       "data": "4.,F{6'Dt3CD}{8,BB}/{36.'DEDE}4Cq6,B{8A6GF}/4.F{6'Dt3CD}{8,BB}/{6A'FnEF}{GFEF}8,F-/"
+      }
+     }
+    ],
+    "movements": [
+     1,
+     2
+    ],
+    "movements_matched": [
+     2
+    ],
+    "sources": [
+     {
+      "id": "250014266",
+      "label": "Concertos–F major; Manuscript copy; D-GOl Mus. 4˚ 33d/3"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "121088",
+  "genre": "concertos",
+  "label": "Concertos–F major; Manuscript copy; US-AAu M1010.C74 17--",
+  "shelfmark": "US-AAu M1010.C74 17--",
+  "leads": [
+   {
+    "composer": "Dimler, Franz Anton (1753-1827)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches a Dimler concerto (RISM 840011592) note for note.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro molto",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "''8C/4.C{6DE}{8FFFF}/{EFGF}4A8-D/4.D{6ExF}{8GGGG}/{xFGBG}4E-/"
+      },
+      "notes": 18,
+      "overlap": 12,
+      "from_start": 12,
+      "counts": true,
+      "match": {
+       "source": "840011592",
+       "incipit": "1.1.1",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "4/4",
+       "data": "'8C/4.C6DE8FFFF/EFGF4A8-D/4.D6ExF"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "840011592",
+      "label": "Concertos–F major; Manuscript copy; F-Pn MS-9281 (4)"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
   "id": "1001012618",
   "genre": "symphonies",
   "label": "Symphonies–D major; Manuscript copy; PL-CZ II-369",
@@ -1545,6 +1867,142 @@
      {
       "id": "850610816",
       "label": "Pamela; Manuscript copy; I-OS Mss.Mus.B 243"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "450013911",
+  "genre": "concertos",
+  "label": "Concertos–C major; Manuscript copy; Hob V:C6; D-KA Don Mus.Ms. 1057",
+  "shelfmark": "D-KA Don Mus.Ms. 1057",
+  "leads": [
+   {
+    "composer": "Fils, Anton (1733-1760)",
+    "verdict": "confirmed",
+    "attribution": "disputed",
+    "prior": "anonymous-record",
+    "note": "The anonymous record already carries Hob. V:C6, a work listed under Haydn; its opening matches movement II of a Fils sonata (FuhM) note for note, so both names are in play.",
+    "class": "known",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "1->2"
+    ],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro moderato",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "{''8.Ct'3BA}8{GA}{8.At3GA}{8G''6.C3C}/{8.Ct'3B''C}q6E4({6DC'BAGF};6)"
+      },
+      "notes": 18,
+      "overlap": 18,
+      "from_start": 18,
+      "counts": true,
+      "match": {
+       "source": "124413",
+       "incipit": "1.1.2 Allegro",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "{''8.C'3BA}{8GA}{8.A3GA}{8G''6.C3C}/{8C'6B''C}q8E4({6DC'BAGF};6)4F{8E''6.C3C}/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "124413",
+      "label": "Sonatas–C major; Manuscript copy; FuhM 12.3; US-LOu Profana 60"
+     },
+     {
+      "id": "450016732",
+      "label": "Sonatas–C major (Arrangement); Manuscript copy; FuhM 12.3, Hob V:C6; D-RH Ms 847"
+     },
+     {
+      "id": "450019664",
+      "label": "Sonatas–C major; Manuscript copy; FuhM 12.3 C4; D-EUl Mh 7"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "850779370",
+  "genre": "concertos",
+  "label": "Concertos–F major; Manuscript copy; I-PAc Borb.2164/I-V",
+  "shelfmark": "I-PAc Borb.2164/I-V",
+  "leads": [
+   {
+    "composer": "Fortunati, Gian Francesco (1746-1821)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches a Fortunati concerto in the same library note for note.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "6'F/4F8-6-A4A8-6-''C/{8.C6'A}4F8-{6''AG}{8A'''C}/{8''B6BA}{8BG}"
+      },
+      "notes": 13,
+      "overlap": 13,
+      "from_start": 13,
+      "counts": true,
+      "match": {
+       "source": "850779164",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "6'F/4F8-6-A4A8-6-''C/{8.C6'A}4F8-{6''AG}{8A'''C}/{8''B6BA}{8BG}{E6'BA}{8BG}/4E-"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "850779164",
+      "label": "Concertos–F major; Manuscript copy; I-PAc Borb.2149/I-II"
+     },
+     {
+      "id": "850779176",
+      "label": "Concertos–F major; Manuscript copy; I-PAc Borb.2150"
      }
     ]
    }
@@ -1909,6 +2367,173 @@
   "verdict": "confirmed"
  },
  {
+  "id": "450014316",
+  "genre": "concertos",
+  "label": "Concertos–C major; Manuscript copy; D-KA Don Mus.Ms. 1017|1",
+  "shelfmark": "D-KA Don Mus.Ms. 1017|1",
+  "leads": [
+   {
+    "composer": "Gonelli, Giuseppe (1666-1745)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches a Gonelli sonata (RISM 703004085), ornament groups included.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "qq''6EFr{8GCCC}qq'6B''Cr{8DC}-C/686{CDE+}{EFE}"
+      },
+      "notes": 12,
+      "overlap": 12,
+      "from_start": 12,
+      "counts": true,
+      "match": {
+       "source": "703004085",
+       "incipit": "1.1.1",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "qq3''EFr{8GCCC}qq3'B''Cr{8DC}6-{C8C+}/{6C8D6E+}{6E8F6E}"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "703004085",
+      "label": "Sonatas–C major; Manuscript copy; B-Bc 15138"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "240007379",
+  "genre": "concertos",
+  "label": "Concertos–G major; Manuscript copy; D-SWl Mus.291",
+  "shelfmark": "D-SWl Mus.291",
+  "leads": [
+   {
+    "composer": "Graun",
+    "verdict": "confirmed",
+    "attribution": "name-only",
+    "prior": "new",
+    "note": "Movement III matches a concerto headed only 'Graun' in the same library (RISM 240007380); which Graun is not established.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "heading 'Graun' names no identifiable person"
+    ],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Concerto. Allegro",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "4'G8-G4B8-B/4''D8-G{BGD'B}/"
+      },
+      "notes": 8,
+      "overlap": 5,
+      "from_start": 5,
+      "counts": false,
+      "match": {
+       "source": "240007380",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c/",
+       "data": "4'G/4.Bt8''D4GB/AtG-D/4.Et{6DC}"
+      }
+     },
+     {
+      "incipit": "1.2.1 Romance.",
+      "movement": 2,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c/",
+       "data": "2''D4.F8xG/{BA}4.A{8AB'''C}/2D"
+      },
+      "notes": 8,
+      "overlap": 2,
+      "from_start": 2,
+      "counts": false
+     },
+     {
+      "incipit": "1.3.1 Rondo.",
+      "movement": 3,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c/",
+       "data": "4''D/GGAA/{8B'''C''BA}4G{8GxG}/"
+      },
+      "notes": 9,
+      "overlap": 9,
+      "from_start": 9,
+      "counts": true,
+      "match": {
+       "source": "240007380",
+       "incipit": "1.3.1 Allegro assai",
+       "movement": 3,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "4''D/GGAA/{8B'''C''BA}4G{8GxG}/"
+      }
+     }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     3
+    ],
+    "sources": [
+     {
+      "id": "240007380",
+      "label": "Concertos–G major; Manuscript copy; GraunWV C:XIII:85; D-SWl Mus.2169/1"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
   "id": "301002142",
   "genre": "symphonies",
   "label": "Symphonies–G major; Manuscript copy; PL-WRu 60873 Muz.",
@@ -2018,6 +2643,67 @@
      {
       "id": "450060908",
       "label": "Ifigenia in Aulide; Manuscript copy; GraunWV B:I:18; D-KNh R 647"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "452506142",
+  "genre": "concertos",
+  "label": "Concertos–G major; Manuscript copy; D-B Am.B 485 (6)",
+  "shelfmark": "D-B Am.B 485 (6)",
+  "leads": [
+   {
+    "composer": "Graun, Carl Heinrich (1704-1759)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches a C. H. Graun concerto (RISM 452019425) note for note.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1",
+      "movement": 1,
+      "anon": {
+       "clef": "C-1",
+       "keysig": "xF",
+       "timesig": "c/",
+       "data": "''4GD4.G8B/{6AGFE}{8DC}{Ct'B}-B/{6A''C'8B}{6A''C'8B}A''4F"
+      },
+      "notes": 19,
+      "overlap": 19,
+      "from_start": 19,
+      "counts": true,
+      "match": {
+       "source": "452019425",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "4''GD4.G8B/{6AGFE}{8DC}{C'B}-B/{6A''C8'B}{6A''C8'B}A4''F8G/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "452019425",
+      "label": "Concertos–G major; Manuscript copy; WilG 43; D-B Mus.ms. 8271/3"
      }
     ]
    }
@@ -2529,6 +3215,176 @@
   "verdict": "confirmed"
  },
  {
+  "id": "190011252",
+  "genre": "concertos",
+  "label": "Concertos–D major; Manuscript copy; S-Skma FbO-R",
+  "shelfmark": "S-Skma FbO-R",
+  "leads": [
+   {
+    "composer": "Hasse, Johann Adolf (1699-1783)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches a Hasse concerto (RISM 701001563) note for note over its sequence.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c/",
+       "data": "{''8D'DD''D}4C'B/{8A,AA'A}4GF/{''8E'EE''E}4DC/{8B'BB''B}4AG/{8FFED}{CC'BA}/G''4GG"
+      },
+      "notes": 28,
+      "overlap": 15,
+      "from_start": 15,
+      "counts": true,
+      "match": {
+       "source": "701001563",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "8{''D'DD''D}4C'B/{8A,AA'A}4GF/{8''E'EE''E}4DC/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "701001563",
+      "label": "Concertos–D major; Manuscript copy; GroF 209; B-Bc 5556/II"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "600236796",
+  "genre": "concertos",
+  "label": "Concertos; Manuscript copy; A-Wn E. M. 156e",
+  "shelfmark": "A-Wn E. M. 156e",
+  "leads": [
+   {
+    "composer": "Heinichen, Johann David (1683-1729)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Movements I and III match Heinichen's concerto HauH 1.13 in two copies; the five-bar search also returns a copy under Lechleitner.",
+    "class": "strong",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c/",
+       "data": "''4D'A/{8F6ED}{8AA}/''4D'A/{8F6ED}4A/"
+      },
+      "notes": 12,
+      "overlap": 12,
+      "from_start": 12,
+      "counts": true,
+      "match": {
+       "source": "450002599",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c/",
+       "data": "''4D'A/8F6ED8AA/''4D'A/8F6ED4A/"
+      }
+     },
+     {
+      "incipit": "1.2.1 Affettuoso",
+      "movement": 2,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "'4F8-''D4D8-F/{D'B}-''D{EC'A''A}/{FD}-"
+      },
+      "notes": 12,
+      "overlap": 2,
+      "from_start": 2,
+      "counts": false
+     },
+     {
+      "incipit": "1.3.1 Presto",
+      "movement": 3,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "3/8",
+       "data": "''{8D6C'BAG}/{8''F6EDC'B}/{8''A6GFED}/8C4'A/"
+      },
+      "notes": 17,
+      "overlap": 17,
+      "from_start": 17,
+      "counts": true,
+      "match": {
+       "source": "455002332",
+       "incipit": "1.3.1 Presto",
+       "movement": 3,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "3/8",
+       "data": "{8''D6C'BAG}/{8''F6EDC'B}/{8''A6GFED}/8C4'A/{6F''D'D''D'E''D}/i/{8'F6GFED}/8A4,A/"
+      }
+     }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     1,
+     3
+    ],
+    "sources": [
+     {
+      "id": "450002599",
+      "label": "Concertos–D major; Manuscript copy; HauH 1.13; D-DS Mus.ms 240/11"
+     },
+     {
+      "id": "455002332",
+      "label": "Concertos–D major; Manuscript copy; HauH 1.13; D-F Mus Hs 1269"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
   "id": "302002415",
   "genre": "symphonies",
   "label": "Symphonies–G major; Manuscript copy; PL-GD Ms Joh.425",
@@ -2641,6 +3497,158 @@
      {
       "id": "990029378",
       "label": "Der lustige Schuster (Arrangement); Print"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "469274900",
+  "genre": "concertos",
+  "label": "Concertos–B♭ major; Autograph manuscript; LanD deest, KreD deest; D-Bsa SA 2749",
+  "shelfmark": "D-Bsa SA 2749",
+  "leads": [
+   {
+    "composer": "Hofmann, Leopold (1738-1793)",
+    "verdict": "confirmed",
+    "attribution": "disputed",
+    "prior": "comparator-record",
+    "note": "Comparator 550500620 already cites this autograph; it cross-references Dittersdorf. The one encoded movement matches note for note.",
+    "class": "known",
+    "prior_documentation": [
+     {
+      "source": "550500620",
+      "text": "fmark \\\"N|r|o: II.|d|o\\\" at the left top corner of the cover front page.\", \"At the heading of the cover title page music incipit (vl princ, b).\", \"Cf. D-Bsa SA 2749 (Anon., score).\"]}}, {\"label\": {\"de\": ["
+     }
+    ],
+    "attribution_flags": [
+     "550500620: cross-reference to Dittersdorf, Carl Ditters von (1739-1799) (Ascertained)"
+    ],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Concerto. Allegro.",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "4'B{6,B'CDE}4.F8E/{DFB''D}4.'F8E/"
+      },
+      "notes": 13,
+      "overlap": 13,
+      "from_start": 13,
+      "counts": true,
+      "match": {
+       "source": "550500620",
+       "incipit": "1.1.1 All[egr]o molto",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "'4B{6,B'CDE}4.F8E/{DF}{B''D}'4.F8E/{DF}{B''D}2F/gF{8E6DC}'2G4A/''gC{'8B6AG}4.F{8B''DF}/"
+      }
+     },
+     {
+      "incipit": "1.1.2",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "=32/2'B{8''EDCt'B}/{''GF}2F{8BD}/{DC}2C{8G'B}/"
+      },
+      "notes": 12,
+      "overlap": 2,
+      "from_start": 1,
+      "counts": false
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "550500620",
+      "label": "Concertos–B♭ major; Manuscript copy; CZ-Pu 59 R 3581"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "190100289",
+  "genre": "concertos",
+  "label": "Concertos–E major; Manuscript copy; HWV Anh. B 318; S-Skma C1-R",
+  "shelfmark": "S-Skma C1-R",
+  "leads": [
+   {
+    "composer": "Händel, Georg Friedrich (1685-1759)",
+    "verdict": "confirmed",
+    "attribution": "uncertain",
+    "prior": "comparator-record",
+    "note": "The anonymous record already carries HWV Anh. B 3, and comparator 453011722 already cites this copy. Its one encoded movement matches movement II of that copy, where the Handel attribution is qualified as alleged.",
+    "class": "known",
+    "prior_documentation": [
+     {
+      "source": "453011722",
+      "text": " \"en\": [\"General note\"], \"it\": [\"Nota generale\"]}, \"value\": {\"none\": [\"Der 2. Satz stimmt überein mit einem anonymen unbezeichneten Satz für vl und b in S-Skma C1-R (RISM A/II: 190.100.289); der 3. Satz s"
+     }
+    ],
+    "attribution_flags": [
+     "453011722: composer qualified as Alleged"
+    ],
+    "movement_mismatch": [
+     "1->2"
+    ],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFCGD",
+       "timesig": "c/",
+       "data": "''{8EGB'B}{''E'E}-B/{''EEEE}{ED}-'B/{''C'AE''C}{'BGEB}/{BAAG}''{F'A}-''F/"
+      },
+      "notes": 23,
+      "overlap": 18,
+      "from_start": 18,
+      "counts": true,
+      "match": {
+       "source": "453011722",
+       "incipit": "1.2.1 Allegro",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFCGD",
+       "timesig": "c/",
+       "data": "{8''EGB'B}{''E'E}-B/{''EEEE}{ED}-'B/{''C'AE''C}{'BGEB}/{''C'AE''C}{'BGEB}/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "453011722",
+      "label": "Concertos–E major; Manuscript copy; HWV Anh. B 318, HWV deest; D-Mbs Mus.ms. 1166"
      }
     ]
    }
@@ -2771,6 +3779,86 @@
      {
       "id": "450013478",
       "label": "Symphonies–C major; Manuscript copy; PosK I:9; D-KA Don Mus.Ms. 1101"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "540001102",
+  "genre": "concertos",
+  "label": "Concertos–A major; Manuscript copy; SI-Nf Ms. mus. 457",
+  "shelfmark": "SI-Nf Ms. mus. 457",
+  "leads": [
+   {
+    "composer": "Krommer, Franz (1759-1831)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches a Krommer concerto in A (RISM 551002432); the comparator writes the turn in bar 2 as grace notes, which the automatic comparison drops.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Concerto. Allegro",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "c",
+       "data": "4'E/4.A8''C4.E8C/4D{6EDC}8E{8FEDC}/"
+      },
+      "notes": 14,
+      "overlap": 14,
+      "from_start": 14,
+      "counts": true,
+      "match": {
+       "source": "551002432",
+       "incipit": "1.1.1 Moderato",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "c",
+       "data": "'4E/4.A''8C4.E8C/4.Dqq6{EDC}r8E{FEDC}/'4.B8E''4.D'8B/4.8''CD{8EDC'B}/4.8AF"
+      }
+     },
+     {
+      "incipit": "1.2.1 Adagio",
+      "movement": 2,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "'4B/''{8E6-'EE6-E}{E-EE-E}/"
+      },
+      "notes": 3,
+      "overlap": 3,
+      "from_start": 3,
+      "counts": false
+     }
+    ],
+    "movements": [
+     1,
+     2
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "551002432",
+      "label": "Concertos–A major; Manuscript copy; PadK III:1; CZ-Pu 59 R 1226"
+     },
+     {
+      "id": "600026045",
+      "label": "Concertos–A major; Manuscript copy; PadK 3.1; A-SEI V 1258b"
      }
     ]
    }
@@ -2963,6 +4051,83 @@
      {
       "id": "651004152",
       "label": "Symphonies–D major; Manuscript copy; LMV VII:D20; A-Ik ohne Signatur"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "850777456",
+  "genre": "concertos",
+  "label": "Concertos–D major; Manuscript copy; I-PAc Borb.911/I-X",
+  "shelfmark": "I-PAc Borb.911/I-X",
+  "leads": [
+   {
+    "composer": "Mozart, Wolfgang Amadeus (1756-1791)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Movement I matches Mozart's Concerto in D, K. 175 (the comparator is an arrangement).",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 All.o",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "4.''D{6Dt3CD}{8EDEC}/4.D{6Ft3EF}{8GFGE}/"
+      },
+      "notes": 15,
+      "overlap": 15,
+      "from_start": 15,
+      "counts": true,
+      "match": {
+       "source": "211010918",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "4.''D{6.Dt5CD}{8EDEC}/4.D{6.Ft5EF}{8GFGE}/4.F{6.At5GA}{8BAB'''C}/4D''D8-{DFA}/{8.6BG}4B8-{DGB}/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "211010918",
+      "label": "Concertos–D major (Arrangement); Manuscript copy; KV 175; D-Dl Mus.3972-O-3"
+     },
+     {
+      "id": "455005972",
+      "label": "Concertos–D major (Excerpts); Manuscript copy; KV 175; D-FUl M 4 (123)"
+     },
+     {
+      "id": "530001184",
+      "label": "Concertos–D major (Excerpts, Arrangement); Manuscript copy; KV 175/1; H-VEs Ouvert.46"
+     },
+     {
+      "id": "551001167",
+      "label": "Concertos–D major (Excerpts, Arrangement); Manuscript copy; KV 175; CZ-Pnm XL A 335"
+     },
+     {
+      "id": "600503137",
+      "label": "Concertos–D major; Manuscript copy; KV 175; A-SCH 52"
      }
     ]
    }
@@ -3264,6 +4429,67 @@
   "verdict": "confirmed"
  },
  {
+  "id": "150201913",
+  "genre": "concertos",
+  "label": "Concertos–G minor; Manuscript copy; DK-Kc (R324)",
+  "shelfmark": "DK-Kc (R324)",
+  "leads": [
+   {
+    "composer": "Paisiello, Giovanni (1740-1816)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches Paisiello's autograph concerto in G minor (RISM 852029682).",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "4/4",
+       "data": "'6G/4G8.-''6B4B6-'{DnE}xF/4G6-{DnE}xF"
+      },
+      "notes": 9,
+      "overlap": 9,
+      "from_start": 9,
+      "counts": true,
+      "match": {
+       "source": "852029682",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "'6G/4G8.-''6B4B6-{'DnExF}/4G6-{6DnExF}{6GDEF}{GDEF}/8G-"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "852029682",
+      "label": "Concertos–G minor; Autograph manuscript; RobP 8.16; I-MC 7-E-17"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
   "id": "850733911",
   "genre": "symphonies",
   "label": "Symphonies–D major; Manuscript copy; I-BEc AM.ms79",
@@ -3472,6 +4698,128 @@
      {
       "id": "858000019",
       "label": "La virtù al cimento; Manuscript copy; PaWV 18; I-Rmassimo [without shelfmark]"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "850613684",
+  "genre": "concertos",
+  "label": "Concertos–D major; Manuscript copy; V-CVbav Chigi Q VIII 196,10",
+  "shelfmark": "V-CVbav Chigi Q VIII 196,10",
+  "leads": [
+   {
+    "composer": "Pellegrini, Ferdinando (1715c-1766c)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches a Pellegrini concerto (RISM 500052924) note for note over 22 pitches.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 allegro",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "=24/''4F{6A'A''G'A}{''6F'A''G'A}{''6F'A''E'A}/''4F{6A'A''G'A}{''6F'A''G'A}"
+      },
+      "notes": 22,
+      "overlap": 22,
+      "from_start": 22,
+      "counts": true,
+      "match": {
+       "source": "500052924",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''4F{6A'A''G'A}{''F'A''G'A}{''F'A''E'A}/i/''F"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "500052924",
+      "label": "Concertos–D major; Manuscript copy; HR-Dsmb 24/764"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "850777458",
+  "genre": "concertos",
+  "label": "Concertos–C major; Manuscript copy; I-PAc Borb.914/I-XVI",
+  "shelfmark": "I-PAc Borb.914/I-XVI",
+  "leads": [
+   {
+    "composer": "Pfeiffer, Johann Michael (1750c*)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches a Pfeiffer concerto in the same library, grace note included.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 All.o Spiritoso",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "4''CgF{6EDEF}{8.G6'''C8.''E6G}/{8CC}2C"
+      },
+      "notes": 11,
+      "overlap": 11,
+      "from_start": 11,
+      "counts": true,
+      "match": {
+       "source": "850777130",
+       "incipit": "1.1.1 All.o Spir.so",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "4''CgF{6EDEF}{8.G6'''C8.''E6G}/{8CC}2C"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "850777130",
+      "label": "Concertos–C major; Manuscript copy; I-PAc Borb.1850"
      }
     ]
    }
@@ -3834,6 +5182,113 @@
      {
       "id": "551007628",
       "label": "Symphonies–F major; Manuscript copy; ZakP 5; CZ-Pnm XLII E 307"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "212003238",
+  "genre": "concertos",
+  "label": "Concertos–E minor; Manuscript copy; PW Anh. 4:e1; D-Dl Mus.2-O-1,41a",
+  "shelfmark": "D-Dl Mus.2-O-1,41a",
+  "leads": [
+   {
+    "composer": "Pisendel, Johann Georg (1687-1755)",
+    "verdict": "confirmed",
+    "attribution": "uncertain",
+    "prior": "anonymous-record",
+    "note": "Movements I and II match a Pisendel autograph concerto in E minor (RISM 212003237), whose attribution RISM qualifies as conjectural; the anonymous record already carries PW Anh. 4:e1.",
+    "class": "known",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "212003237: composer qualified as Conjectural"
+    ],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Adagio",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "{8'EEEE}4E-/{8''EEEE}4E-/{8AA}{6.A3'''C6.''B3A}{8G6.F3E}{8'''CC}/"
+      },
+      "notes": 10,
+      "overlap": 10,
+      "from_start": 10,
+      "counts": true,
+      "match": {
+       "source": "212003237",
+       "incipit": "1.1.1 adagio",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "{8'EEEE}4E-/{8''EEEE}4E-/{AA}{6.A3'''C6.''B3A}{8G6.F3E}{8'''CC}/"
+      }
+     },
+     {
+      "incipit": "1.2.1 Allegro",
+      "movement": 2,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "8-{6''B'''C}{8''BB}{B6EF}{8EE}/{xD6B'''C}{8''BB}{B6EF}{8EE}/"
+      },
+      "notes": 13,
+      "overlap": 13,
+      "from_start": 13,
+      "counts": true,
+      "match": {
+       "source": "212003237",
+       "incipit": "1.2.1 all[egr]o",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "8-{6''B'''C}{8''BB}{B6EF}{8EE}/{xD6B'''C}{8''BB}{B6EF}{8EE}/"
+      }
+     },
+     {
+      "incipit": "1.3.1 Allegro",
+      "movement": 3,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "2/4",
+       "data": "{6''B'''xCxD}/4E''B/{8GEF'B}/{''GEF'B}/"
+      },
+      "notes": 13,
+      "overlap": 3,
+      "from_start": 1,
+      "counts": false
+     }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     1,
+     2
+    ],
+    "sources": [
+     {
+      "id": "212003237",
+      "label": "Concertos–E minor; Autograph manuscript; PW Anh. 4:e1; D-Dl Mus.2421-O-15"
      }
     ]
    }
@@ -4365,6 +5820,129 @@
   "verdict": "confirmed"
  },
  {
+  "id": "553004821",
+  "genre": "concertos",
+  "label": "Concertos–F major; Manuscript copy; CZ-Bm A56738",
+  "shelfmark": "CZ-Bm A56738",
+  "leads": [
+   {
+    "composer": "Rosetti, Antonio (1750c-1792)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "All three movements match Rosetti's clarinet concerto MurR C62 in E-flat; the anonymous incipits are a whole tone higher, as written for B-flat clarinet. The finale is an instrumental Rondo.",
+    "class": "strong",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro assai",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "{8'FA}/{''CCCC}{CCCC}/4.C{6DC}{8CCDE}/F-4-2-/"
+      },
+      "notes": 8,
+      "overlap": 8,
+      "from_start": 8,
+      "counts": true,
+      "match": {
+       "source": "211007199",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "c/",
+       "data": "{'8EG}/{BBBB}{BBBB}/4.B''q6D{6C'B}{8BB''CD}/{E'BBB}{BBBB}/"
+      }
+     },
+     {
+      "incipit": "1.2.1 Romance",
+      "movement": 2,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c/",
+       "data": "''2G{8AGFE}/4D2D4E/{8GF}4.F{6ED}{8GF}/2F{8EDEF}/"
+      },
+      "notes": 17,
+      "overlap": 10,
+      "from_start": 10,
+      "counts": true,
+      "match": {
+       "source": "211007199",
+       "incipit": "1.2.1 Romance.",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c/",
+       "data": "''2F{8GFED}/8qD4C2C4D/{8FE}4.E{6DE}{8FE}/qq3DEFr2E{8DCDE}/"
+      }
+     },
+     {
+      "incipit": "1.3.1 Allegro molto",
+      "movement": 3,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "6/8",
+       "data": "''8C/4F{6GA}4F{6GA}/{8FF6GA}{8FF6GA}/{8BBB}{AAA}/"
+      },
+      "notes": 15,
+      "overlap": 15,
+      "from_start": 15,
+      "counts": true,
+      "match": {
+       "source": "211007199",
+       "incipit": "1.3.1 Rondo.",
+       "movement": 3,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "6/8",
+       "data": "'8B/''4E{6FG}4E{6FG}/{8EE6FG}{8EE6FG}/{8AAA}{GGG}/{GFE}{ED'B}/"
+      }
+     }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     1,
+     2,
+     3
+    ],
+    "sources": [
+     {
+      "id": "211007199",
+      "label": "Concertos–E♭ major; Manuscript copy; MurR C62; D-Dl Mus.3795-O-3"
+     },
+     {
+      "id": "552000409",
+      "label": "Concertos–E♭ major; Manuscript copy; MurR C62; CZ-Pu 59 R 3314"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
   "id": "530012629",
   "genre": "symphonies",
   "label": "Symphonies–D major; Manuscript copy; H-Gk AMC, Sinf. 10.",
@@ -4524,6 +6102,266 @@
      {
       "id": "190019057",
       "label": "Symphonies–D major; Manuscript copy; JenS 10; S-Skma Od-R"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "800247349",
+  "genre": "concertos",
+  "label": "Concertos–D major; Manuscript copy; GB-Lbl R.M.21.c.10-15.",
+  "shelfmark": "GB-Lbl R.M.21.c.10-15.",
+  "leads": [
+   {
+    "composer": "Sammartini, Giuseppe (1695-1750)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches a Giuseppe Sammartini concerto in the same R.M. collection note for note.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Andante",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "{8'A6.3FG}{8AB}{BA}4''G+/{8GFED}"
+      },
+      "notes": 10,
+      "overlap": 10,
+      "from_start": 10,
+      "counts": true,
+      "match": {
+       "source": "800190014",
+       "incipit": "1.1.1 Andante",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "{'8A6.F3G}{8AB}{BA}''4G+/{8GFED}"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "800190014",
+      "label": "Concertos–D major; Manuscript copy; GB-Lbl R.M.23.b.8.(1.)"
+     },
+     {
+      "id": "800226002",
+      "label": "Quartets–D major; Manuscript copy; GB-Lbl R.M.23.b.9."
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "800247350",
+  "genre": "concertos",
+  "label": "Concertos–B♭ major; Manuscript copy; GB-Lbl R.M.21.c.10-15.",
+  "shelfmark": "GB-Lbl R.M.21.c.10-15.",
+  "leads": [
+   {
+    "composer": "Sammartini, Giuseppe (1695-1750)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches a Giuseppe Sammartini concerto in the same R.M. collection note for note.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Andante",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "8'F/{B6.3''DE}{8FF}{F'F}4-/{8G6.3B''C}"
+      },
+      "notes": 9,
+      "overlap": 9,
+      "from_start": 9,
+      "counts": true,
+      "match": {
+       "source": "800190015",
+       "incipit": "1.1.1",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "'8F/{B6''DE}{8FF}{F'F}4-/{8G6B''C}{8DD}"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "800190015",
+      "label": "Concertos–B♭ major; Manuscript copy; GB-Lbl R.M.23.b.8.(2.)"
+     },
+     {
+      "id": "800226003",
+      "label": "Quartets–B♭ major; Manuscript copy; GB-Lbl R.M.23.b.10."
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "800247352",
+  "genre": "concertos",
+  "label": "Concertos–A major; Manuscript copy; GB-Lbl R.M.21.c.10-15.",
+  "shelfmark": "GB-Lbl R.M.21.c.10-15.",
+  "leads": [
+   {
+    "composer": "Sammartini, Giuseppe (1695-1750)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches a Giuseppe Sammartini concerto in the same R.M. collection note for note.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 29; 486",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "3/8",
+       "data": "8'A/8.68{BB''E}/{CEA}/{8'B''CD}/"
+      },
+      "notes": 9,
+      "overlap": 9,
+      "from_start": 9,
+      "counts": true,
+      "match": {
+       "source": "800190017",
+       "incipit": "1.1.1 Andante staccato",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "3/8",
+       "data": "'8A/{8.B6B''8E}/{8.C6E8A}/{'8B''CD}/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "800190017",
+      "label": "Concertos–A major; Manuscript copy; GB-Lbl R.M.23.b.8.(4.)"
+     },
+     {
+      "id": "800226005",
+      "label": "Quartets–A major; Manuscript copy; GB-Lbl R.M.23.b.12."
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "800247358",
+  "genre": "concertos",
+  "label": "Concertos–A major; Manuscript copy; GB-Lbl R.M.21.c.10-15.",
+  "shelfmark": "GB-Lbl R.M.21.c.10-15.",
+  "leads": [
+   {
+    "composer": "Sammartini, Giuseppe (1695-1750)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches a Giuseppe Sammartini concerto in the same R.M. collection note for note.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "2/4",
+       "data": "4''A{8.6GtF}/{8E'A}{,A''F}/4ED/"
+      },
+      "notes": 9,
+      "overlap": 9,
+      "from_start": 9,
+      "counts": true,
+      "match": {
+       "source": "800190023",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "2/4",
+       "data": "''4A{8.G6F}/{8E'A}{,A''F}/4ED/{8C'E}"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "800190023",
+      "label": "Concertos–A major; Manuscript copy; GB-Lbl R.M.23.b.8.(10.)"
+     },
+     {
+      "id": "800226011",
+      "label": "Concertos–A major; Manuscript copy; GB-Lbl R.M.23.b.18."
      }
     ]
    }
@@ -4716,6 +6554,156 @@
   "verdict": "confirmed"
  },
  {
+  "id": "1001198167",
+  "genre": "concertos",
+  "label": "Concertos–E♭ major; Manuscript copy; PL-Kc 100607 III",
+  "shelfmark": "PL-Kc 100607 III",
+  "leads": [
+   {
+    "composer": "Schröter, Johann Samuel (1752c-1788)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches a Schröter concerto in E-flat (RISM 400004943).",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro spiritoso",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "c",
+       "data": "2E{8EEFG}/{GAnEF}4F-/2F{8FFGA}"
+      },
+      "notes": 8,
+      "overlap": 8,
+      "from_start": 8,
+      "counts": true,
+      "match": {
+       "source": "400004943",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "c/",
+       "data": "'2E{8EEFG}/{GAnEF}4F-/2F{8FFGA}/{ABxFG}4G-/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "400004943",
+      "label": "Concertos–E♭ major; Manuscript copy; CH-SAf MusSAf.Ms.1080"
+     },
+     {
+      "id": "850779832",
+      "label": "Concertos–E♭ major; Manuscript copy; I-PAc Borb.2165.f"
+     },
+     {
+      "id": "850782549",
+      "label": "Concertos–E♭ major; Manuscript copy; I-PAc Borb.3155"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "850023629",
+  "genre": "concertos",
+  "label": "?Sonatas?–B♭ major; Manuscript copy; I-Tf 12 II 2-39",
+  "shelfmark": "I-Tf 12 II 2-39",
+  "leads": [
+   {
+    "composer": "Schröter, Johann Samuel (1752c-1788)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches a Schröter concerto (RISM 124898) note for note.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "2/4",
+       "data": "'8F/{B''gC'3BAB''C}{'6BB''DF}/{FE8E+}{E6DC}/{C'B}4B"
+      },
+      "notes": 14,
+      "overlap": 14,
+      "from_start": 14,
+      "counts": true,
+      "match": {
+       "source": "124898",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "2/4",
+       "data": "'8F/{Bg''C'3BAB''C}{'6BB''DF}/{FE8E+}{E6DC}/{C'B+}4B{''6C'A}/{8.B''3CD}{8C'F}"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "124898",
+      "label": "Concertos–B♭ major; Manuscript copy; US-LOu Profana 256 b/1"
+     },
+     {
+      "id": "400004941",
+      "label": "Concertos–B♭ major; Manuscript copy; CH-SAf MusSAf.Ms.1080"
+     },
+     {
+      "id": "452508396",
+      "label": "Concertos–B♭ major; Manuscript copy; D-B Mus.ms. 20195/2"
+     },
+     {
+      "id": "455001024",
+      "label": "Concertos–B♭ major; Manuscript copy; D-F Mus Hs 635"
+     },
+     {
+      "id": "530004386",
+      "label": "Concertos–B♭ major; Manuscript copy; H-SFm 1127"
+     },
+     {
+      "id": "850780933",
+      "label": "Concertos–B♭ major; Manuscript copy; I-PAc Borb.3155"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
   "id": "450303558",
   "genre": "symphonies",
   "label": "Symphonies–D major; Manuscript copy; D-Eu Esl VIII 384",
@@ -4841,6 +6829,216 @@
      {
       "id": "469250400",
       "label": "La Galatea–G major (Excerpts, Arrangement); Manuscript copy; D-Bsa SA 2504"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "540001081",
+  "genre": "concertos",
+  "label": "Concertos–C major (Fragments); Manuscript copy; SI-Nf Ms. mus. 486",
+  "shelfmark": "SI-Nf Ms. mus. 486",
+  "leads": [
+   {
+    "composer": "Senfft, Giuseppe (18.sc)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Movements I and II match the Senfft concerto RISM 540001035 note for note.",
+    "class": "strong",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Concerto. Allegro moderato",
+      "movement": 1,
+      "anon": {
+       "clef": "F-4",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "8-/,{C'EDC},{BAGF}/{E6CD}{8ExF}{GD}{,,BG}/"
+      },
+      "notes": 17,
+      "overlap": 17,
+      "from_start": 17,
+      "counts": true,
+      "match": {
+       "source": "540001035",
+       "incipit": "1.1.2",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "F-4",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "8-/{,C'EDC},{BAGF}/{E6CD}{8ExF}{GD}{,,BG}/"
+      }
+     },
+     {
+      "incipit": "1.2.1 Andante",
+      "movement": 2,
+      "anon": {
+       "clef": "F-4",
+       "keysig": "xF",
+       "timesig": "3/4",
+       "data": "4,GAB/DEF/GEC/G,,DG/"
+      },
+      "notes": 12,
+      "overlap": 9,
+      "from_start": 9,
+      "counts": true,
+      "match": {
+       "source": "540001035",
+       "incipit": "1.2.1 Andante",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "F-4",
+       "keysig": "xF",
+       "timesig": "3/4",
+       "data": "4,GAB/DEF/GEC/D,,DG/"
+      }
+     },
+     {
+      "incipit": "1.3.1 Vivace",
+      "movement": 3,
+      "anon": {
+       "clef": "F-4",
+       "keysig": "n",
+       "timesig": "2/4",
+       "data": "{,8CCCC}/{CCCC}/{CCCC}/"
+      },
+      "notes": 1,
+      "overlap": 1,
+      "from_start": 1,
+      "counts": false
+     }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     1,
+     2
+    ],
+    "sources": [
+     {
+      "id": "540001035",
+      "label": "Concertos–C major; Manuscript copy; SI-Nf Ms. mus. 287"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "469303700",
+  "genre": "concertos",
+  "label": "Concertos–D major; Manuscript copy; D-Bsa SA 3037",
+  "shelfmark": "D-Bsa SA 3037",
+  "leads": [
+   {
+    "composer": "Seyffarth, Johann Gabriel (1711-1796)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Movements I and II match Seyffarth's concerto in D-Bsa SA 2957 note for note; the five-bar search also finds the stock opening figure under other composers.",
+    "class": "strong",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Concerto. Allegro.",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "4.''D{6C'B}4AB/AD2-/{8DFA''D}4.Dt{6C'B}/"
+      },
+      "notes": 12,
+      "overlap": 12,
+      "from_start": 12,
+      "counts": true,
+      "match": {
+       "source": "469295700",
+       "incipit": "1.1.1 Concerto. Allegro.",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "4.''Dt{6C'B}4AB/AD2-/{8DFA''D}4.Dt{6C'B}/"
+      }
+     },
+     {
+      "incipit": "1.2.1 Adagio.",
+      "movement": 2,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "3/4",
+       "data": "4''Aq6G4Fq6E4D/DbExF+/FGB/xCD-/"
+      },
+      "notes": 12,
+      "overlap": 12,
+      "from_start": 12,
+      "counts": true,
+      "match": {
+       "source": "469295700",
+       "incipit": "1.2.1 Adagio.",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "3/4",
+       "data": "4''Aq6G4Fq6E4D/DbExF+/FGB/xCD-/"
+      }
+     },
+     {
+      "incipit": "1.3.1 Allegro.",
+      "movement": 3,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "3/4",
+       "data": "4''D'AF/{6DDDD}{DDDD}{DDDD}/"
+      },
+      "notes": 4,
+      "overlap": 4,
+      "from_start": 4,
+      "counts": false
+     }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     1,
+     2
+    ],
+    "sources": [
+     {
+      "id": "469295700",
+      "label": "Concertos–D major; Manuscript copy; D-Bsa SA 2957"
      }
     ]
    }
@@ -4993,6 +7191,136 @@
   "verdict": "confirmed"
  },
  {
+  "id": "702000574",
+  "genre": "concertos",
+  "label": "Concertos–B♭ major; Manuscript copy; B-Bc 73132",
+  "shelfmark": "B-Bc 73132",
+  "leads": [
+   {
+    "composer": "Stamitz, Anton (1750-1809a)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "anonymous-record",
+    "note": "The one encoded movement matches an Anton Stamitz concerto (RISM 1001198035) note for note; the anonymous record already names Stamitz.",
+    "class": "known",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "'4B,B''D,B/A''C'F''E/D'BGA/B"
+      },
+      "notes": 13,
+      "overlap": 13,
+      "from_start": 13,
+      "counts": true,
+      "match": {
+       "source": "1001198035",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "4'B,B''D,B/A''C'F''E/D'BGA/B''DC'F/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "1001198035",
+      "label": "Concertos–B♭ major; Manuscript copy; D-Mbs Mus.ms. 24808"
+     },
+     {
+      "id": "190007059",
+      "label": "Concertos–B♭ major; Manuscript copy; S-HÄ ohne Signatur"
+     },
+     {
+      "id": "500027563",
+      "label": "Concertos–B♭ major; Manuscript copy; HR-Zha XXXIII.T"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "400014083",
+  "genre": "concertos",
+  "label": "Concertos–D major; Manuscript copy; CH-E 1057,32",
+  "shelfmark": "CH-E 1057,32",
+  "leads": [
+   {
+    "composer": "Stamitz, Carl (1745-1801)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "anonymous-record",
+    "note": "The one encoded movement matches a Carl Stamitz concerto (RISM 400013124) note for note; the anonymous record already names Stamitz.",
+    "class": "known",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro con spirito",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''4D8DE4F8FG/2A4F8-A/4B8GB'''4D''B/2B4A-/"
+      },
+      "notes": 13,
+      "overlap": 13,
+      "from_start": 13,
+      "counts": true,
+      "match": {
+       "source": "400013124",
+       "incipit": "1.1.1 Allegro spiritoso",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''4D8DE4F8FG/2A4F8-A/4B8GB'''4D''B/2B4A-/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "400013124",
+      "label": "Concertos–D major; Manuscript copy; CH-E 19,31"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
   "id": "530000729",
   "genre": "symphonies",
   "label": "Symphonies–C major; Manuscript copy; H-KE 1188",
@@ -5047,6 +7375,139 @@
      {
       "id": "530003761",
       "label": "Symphonies–C major; Manuscript copy; SmWV 404; H-Bn Ms.mus IV.41"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "800252412",
+  "genre": "concertos",
+  "label": "Concertos–F major; Manuscript copy; GB-Lbl R.M.22.c.28.",
+  "shelfmark": "GB-Lbl R.M.22.c.28.",
+  "leads": [
+   {
+    "composer": "Tartini, Giuseppe (1692-1770)",
+    "verdict": "confirmed",
+    "attribution": "disputed",
+    "prior": "comparator-record",
+    "note": "Comparator 806550013 already cites this copy; one comparator cross-references Visconti. The one encoded movement matches, though encoded in c against 3/4.",
+    "class": "known",
+    "prior_documentation": [
+     {
+      "source": "806550013",
+      "text": " [\"Nota generale\"]}, \"value\": {\"none\": [\"[S.l.], [s.n.], 18th century\", \"Title from basso part\", \"Wanting the violino 4 part, which is now preserved at GB-Lbl, R.M.22.c.28\", \"Allegro e spicco-Adagio e staccato-A"
+     }
+    ],
+    "attribution_flags": [
+     "1001152132: cross-reference to Visconti, Gasparo (1683-1713c)"
+    ],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro e spicco",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "{8''FC'F''C}{FC'F''C}/{F6GF}{8ED}4C'C/"
+      },
+      "notes": 15,
+      "overlap": 15,
+      "from_start": 15,
+      "counts": true,
+      "match": {
+       "source": "1001152132",
+       "incipit": "1.1.1 Allegro e spicco",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "3/4",
+       "data": "{8''FC}{'F''C}{8''FC}{'F''C}/{''F6GF}{8ED}4C'C/{8''C'GCG}{8''C'GCG}/{8''C6DC}{8'BA}4G,G"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "1001152132",
+      "label": "Concertos–F major; Print; GT 1.F14"
+     },
+     {
+      "id": "806550013",
+      "label": "Concertos–F major; Manuscript copy; GT 1.F14; GB-Mp Ms. 580Ct51 vv.7-9, 11, 13"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "800273642",
+  "genre": "concertos",
+  "label": "?Sonatas?; Manuscript copy; GB-Ob Ms. Mus. e.36",
+  "shelfmark": "GB-Ob Ms. Mus. e.36",
+  "leads": [
+   {
+    "composer": "Telemann, Georg Philipp (1681-1767)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches movement I of Telemann's Die Satyren in Arcadien (RISM 452513485) note for note.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c/",
+       "data": "''4GC{'8BAGF}/{E''CFE}{EtD}4-/"
+      },
+      "notes": 11,
+      "overlap": 11,
+      "from_start": 11,
+      "counts": true,
+      "match": {
+       "source": "452513485",
+       "incipit": "1.1.1 Concerto.",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "''4GC{'8BAGF}/{E''C}{FE}{ED}4-/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "452513485",
+      "label": "Die Satyren in Arcadien; Manuscript copy; TVWV 21:8; D-B Mus.ms. 21775"
      }
     ]
    }
@@ -5211,6 +7672,71 @@
      {
       "id": "400006746",
       "label": "Symphonies–D major; Manuscript copy; MünT 27; CH-Bu kr II 77"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "400187877",
+  "genre": "concertos",
+  "label": "Concertos–D major; Manuscript copy; CH-EN Ms A 120",
+  "shelfmark": "CH-EN Ms A 120",
+  "leads": [
+   {
+    "composer": "Valentini, Giuseppe (1681-1753)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches a Valentini concerto (catalogued as A major, but its incipit is in D like this copy).",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Adagio andante",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "{8'AAAA}2''F+/{8FEED}2C+/{8C'BBA}4xGA/AG"
+      },
+      "notes": 10,
+      "overlap": 9,
+      "from_start": 9,
+      "counts": true,
+      "match": {
+       "source": "212001333",
+       "incipit": "1.1.1 Adagio andante",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "8'{AAAA}2''F+/8{FEED}2C+/8{C'BBA}4xGA+/AxG"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "212001333",
+      "label": "Concertos–A major; Manuscript copy; D-Dl Mus.2387-O-4"
+     },
+     {
+      "id": "212001742",
+      "label": "Concertos–A major; Manuscript copy; D-Dl Mus.2387-O-4a"
      }
     ]
    }
@@ -5391,6 +7917,133 @@
   "verdict": "confirmed"
  },
  {
+  "id": "800252419",
+  "genre": "concertos",
+  "label": "Concertos–G major; Manuscript copy; GB-Lbl R.M.22.c.28.",
+  "shelfmark": "GB-Lbl R.M.22.c.28.",
+  "leads": [
+   {
+    "composer": "Vivaldi, Antonio (1678-1741)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches a Vivaldi concerto (RISM 850030009) note for note, measure repeat included.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "8''D/{GFGF}{GD'BG}/i/''C-'B-4A-/"
+      },
+      "notes": 20,
+      "overlap": 17,
+      "from_start": 17,
+      "counts": true,
+      "match": {
+       "source": "850030009",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "8''D/{8GFGF}{GD'BG}/i/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "850030009",
+      "label": "Concertos–G major; Manuscript copy; RV 314, RV 314a; I-Vc Torrefranca Ms.A. 63"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "450026357",
+  "genre": "concertos",
+  "label": "?Overtures?–E♭ major; Manuscript copy; D-Hs M B/2463",
+  "shelfmark": "D-Hs M B/2463",
+  "leads": [
+   {
+    "composer": "Vogel",
+    "verdict": "confirmed",
+    "attribution": "name-only",
+    "prior": "new",
+    "note": "The one encoded movement matches movement III of a concerto headed only 'Vogel' (RISM 190021287), where the attribution is qualified as conjectural.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "190021287: composer qualified as Conjectural",
+     "heading 'Vogel' names no identifiable person"
+    ],
+    "movement_mismatch": [
+     "1->3"
+    ],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro moderato",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "2/4",
+       "data": "'8B/{''E6GF}{8EE}/{6EFGA}{8BD}/"
+      },
+      "notes": 10,
+      "overlap": 10,
+      "from_start": 10,
+      "counts": true,
+      "match": {
+       "source": "190021287",
+       "incipit": "1.2.1 Allegro",
+       "movement": 3,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "bBE[A]",
+       "timesig": "2/4",
+       "data": "8'B/{''E6GF}{8EE}/{6EFGbA}{8BD}/{E6DE}{8'BA}/{6GEGB}{''E'B''EF}/{G'BAB}"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "190021287",
+      "label": "Concertos–E♭ major; Manuscript copy; S-Skma Alströmer saml. 151:26"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
   "id": "530012639",
   "genre": "symphonies",
   "label": "Symphonies–D major; Manuscript copy; H-Gk AMC, Sinf. 20/1.",
@@ -5445,6 +8098,492 @@
      {
       "id": "706000763",
       "label": "Symphonies–D major; Manuscript copy; KucW 17, MicWka 370; B-Bc 7946 XXII"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "650005260",
+  "genre": "concertos",
+  "label": "Concertos–C major; Manuscript copy; MicWka deest; A-ST Mus.ms. 2482",
+  "shelfmark": "A-ST Mus.ms. 2482",
+  "leads": [
+   {
+    "composer": "Wagenseil, Georg Christoph (1715-1777)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "anonymous-record",
+    "note": "Movements I-III match Wagenseil divertimentos in two copies note for note; the anonymous record already carries 'MicWka deest'.",
+    "class": "known",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "2/4",
+       "data": "8-'E4E/8{''FEED}/8-'E4E/8{''FEED}/-'E4E/8-{DEF}/"
+      },
+      "notes": 12,
+      "overlap": 2,
+      "from_start": 1,
+      "counts": false
+     },
+     {
+      "incipit": "1.1.2",
+      "movement": 1,
+      "anon": {
+       "clef": "F-4",
+       "keysig": "n",
+       "timesig": "2/4",
+       "data": "8-,C4C/,,GG/8-,C4C/,,GG/8-,C4C/8-{GGG}/"
+      },
+      "notes": 6,
+      "overlap": 3,
+      "from_start": 1,
+      "counts": false
+     },
+     {
+      "incipit": "1.1.3",
+      "movement": 1,
+      "anon": {
+       "clef": "C-1",
+       "keysig": "n",
+       "timesig": "2/4",
+       "data": "4''C(6-{CDEFG};6)/8{FtE}{EtD}/{6.Ct3'B8''C}4(6-{CDEFG};6)/8{FtE}{EtD}/{6.Ct3'B8''C}-"
+      },
+      "notes": 21,
+      "overlap": 21,
+      "from_start": 21,
+      "counts": true,
+      "match": {
+       "source": "1001021122",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "C-1",
+       "keysig": "n",
+       "timesig": "2/4",
+       "data": "4''Ct4(6-{CDEFG};6)/8{FtE}{EtD}/{6.Ct3'B8''C}4(6-{CDEFG};6)/8{FtE}{EtD}/{6.Ct3'B8''C}6-'{G''CE}/8{D'D}{EF}/"
+      }
+     },
+     {
+      "incipit": "1.2.1 Largo",
+      "movement": 2,
+      "anon": {
+       "clef": "C-1",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "8''F6(-{AG})4(6{FEDC'BA};6)8{BtA}{8.''C5FEDxC}/8{6.D(5'B''CD;3)}{6.C5'(AB''C)}4'BtA-/"
+      },
+      "notes": 26,
+      "overlap": 26,
+      "from_start": 26,
+      "counts": true,
+      "match": {
+       "source": "301003432",
+       "incipit": "1.2.1 Andante",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "C-1",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "8''Ft(6-{6AG})4({6FEDC'BA};6){8BtA}{8.''C5FEDxC}/{6.D(5'B''CD)}{6.C5'(AB''C)}4'BA4-/"
+      }
+     },
+     {
+      "incipit": "1.3.1 Menuet",
+      "movement": 3,
+      "anon": {
+       "clef": "C-1",
+       "keysig": "n",
+       "timesig": "3/4",
+       "data": "2''G4Ft/E8{('''C''BA)}{(GFE)}/{(AGF)}4EDt/C'G-/"
+      },
+      "notes": 16,
+      "overlap": 14,
+      "from_start": 14,
+      "counts": true,
+      "match": {
+       "source": "301003432",
+       "incipit": "1.3.1 Menuet / Trio.",
+       "movement": 3,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "C-1",
+       "keysig": "n",
+       "timesig": "3/4",
+       "data": "2''G4Ft/4E2({8'''C''BAGFE};6)/({8AGF})4ED/"
+      }
+     },
+     {
+      "incipit": "1.4.1 Trio",
+      "movement": 4,
+      "anon": {
+       "clef": "C-1",
+       "keysig": "n",
+       "timesig": "3/4",
+       "data": "(8-{'A''C})(8-{'A''C})(8-{'A''C})/i/(8-{'A''C})({'B''CD})({'xGAB})/"
+      },
+      "notes": 20,
+      "overlap": 2,
+      "from_start": 1,
+      "counts": false
+     },
+     {
+      "incipit": "1.4.2",
+      "movement": 4,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "3/4",
+       "data": "2.''C+/C+/4C'BxG/A--/"
+      },
+      "notes": 4,
+      "overlap": 2,
+      "from_start": 1,
+      "counts": false
+     }
+    ],
+    "movements": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "movements_matched": [
+     1,
+     2,
+     3
+    ],
+    "sources": [
+     {
+      "id": "1001021122",
+      "label": "Divertimentos–C major (Fragments); Manuscript copy; D-B Mus.ms.autogr. Wagenseil, G. C. 2"
+     },
+     {
+      "id": "150203481",
+      "label": "Divertimentos–C major; Manuscript copy; MicWkl 3; DK-Kc (R334)"
+     },
+     {
+      "id": "301003432",
+      "label": "Divertimentos–C major; Manuscript copy; MicWkl 3; PL-WRu 60484 Muz."
+     },
+     {
+      "id": "450000217",
+      "label": "Divertimentos–C major (Excerpts); Manuscript copy; MicWkl 3/3; D-BFb K-la 89"
+     },
+     {
+      "id": "450036362",
+      "label": "Divertimentos–C major (Excerpts); Manuscript copy; MicWkl 3; D-KA Don Mus.Ms. 1974"
+     },
+     {
+      "id": "455022446",
+      "label": "Divertimentos–C major; Manuscript copy; MicWkl 3; D-Mbs Mus.ms. 12608"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "1001150759",
+  "genre": "concertos",
+  "label": "Clarinet concertos–E♭ major; Manuscript copy; CZ-K 1346/a",
+  "shelfmark": "CZ-K 1346/a",
+  "leads": [
+   {
+    "composer": "Weber, Carl Maria von (1786-1826)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Movements I and II match Weber's Clarinet Concertino, J. 109; the second movement's comparator is a whole tone lower, a concert-pitch against B-flat-clarinet difference.",
+    "class": "strong",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Adagio ma non troppo",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "3/4",
+       "data": "'''2C{8.''C6C}/4C{8.'G''6C}4Ct/D{8EnEFA}/'4C8,nB-4-/'nE8F-4-/"
+      },
+      "notes": 13,
+      "overlap": 11,
+      "from_start": 11,
+      "counts": true,
+      "match": {
+       "source": "1001090507",
+       "incipit": "1.1.1 Adagio ma non troppo",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "3/4",
+       "data": "'''2C''{8.6CC}/4C{8.6'G''C}4Ct/D{8EnEFA}/'4C,8nB-4-/"
+      }
+     },
+     {
+      "incipit": "1.2.1 Andante",
+      "movement": 2,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "2''F8C-4A/2''A8D-4G/C4.'''C{8''BGE}/4.F8A{CxCDE}/"
+      },
+      "notes": 16,
+      "overlap": 16,
+      "from_start": 16,
+      "counts": true,
+      "match": {
+       "source": "1001010113",
+       "incipit": "1.2.1 Andante",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "c/",
+       "data": "2''E8'B-4''G/2G8C-4F/'B4.''B8{AFD/4.E8G{'BnB''CD}/"
+      }
+     },
+     {
+      "incipit": "1.3.1 Allegro",
+      "movement": 3,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "6/8",
+       "data": "8-{8nB''C}-{FA}/-{AD}-{AB}/-{'nB''C}-{nB'''C+}/{C6''bBAGF}{EDC'nB''D'B}/"
+      },
+      "notes": 21,
+      "overlap": 7,
+      "from_start": 7,
+      "counts": false,
+      "match": {
+       "source": "1001010113",
+       "incipit": "1.3.1 cl solo",
+       "movement": 3,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "6/8",
+       "data": "8-{'nAB}-{''EG}/-{GC}-{GA}/-{'nB''C}-[''nAB+}/{B6AGFE}{DC'BnA''C'A}/8B"
+      }
+     }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     1,
+     2
+    ],
+    "sources": [
+     {
+      "id": "1001010113",
+      "label": "Concertinos–C minor; Manuscript copy; J 109, WeV N.10; D-Dl Mus.4689-M-1"
+     },
+     {
+      "id": "1001090507",
+      "label": "Concertinos–E♭ major; Manuscript copy; J 109, WeV N.10; D-Bhm RH 0900"
+     },
+     {
+      "id": "1001254592",
+      "label": "Concertinos–E♭ major; Autograph manuscript; WeV N.10, J 109; D-B Mus.ms.autogr. Weber, C. M. v., WFN 13"
+     },
+     {
+      "id": "550504372",
+      "label": "Concertino–C minor (Arrangement); Manuscript copy; J 109; CZ-Pu 59 R 4973"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "400196182",
+  "genre": "concertos",
+  "label": "Concertos–B♭ major; Manuscript copy; CH-Gpu Ms.mus.436",
+  "shelfmark": "CH-Gpu Ms.mus.436",
+  "leads": [
+   {
+    "composer": "Winter, Peter von (1754-1825)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement matches a Winter concerto in B-flat (RISM 240005358) note for note.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro moderato",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": ",4B'D,B8-'B/4FD,B-/2'E4D-/2A4B-/"
+      },
+      "notes": 11,
+      "overlap": 11,
+      "from_start": 11,
+      "counts": true,
+      "match": {
+       "source": "240005358",
+       "incipit": "1.1.1 Allegro moderato",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "4,B'D,B8-'B/4FD,B-/2'E4D-/2A4B-/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "240005358",
+      "label": "Concertos–B♭ major; Manuscript copy; D-SWl Mus.5737/4"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "1001083393",
+  "genre": "concertos",
+  "label": "Concertos–E♭ major; Print",
+  "shelfmark": "Print",
+  "leads": [
+   {
+    "composer": "Woelfl, Joseph (1773-1812)",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Movement I matches Woelfl's Concerto da camera (HaiW WoO 97) note for note; movements II and III find no encoded match.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 ALLEGRO MODERATO",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "c",
+       "data": "4.''E8D{FEGE}/'4.B8nA{''C'B''E'B}/'4G{8.6GG}4GA/"
+      },
+      "notes": 14,
+      "overlap": 14,
+      "from_start": 14,
+      "counts": true,
+      "match": {
+       "source": "1001088002",
+       "incipit": "1.1.1 Allegro Moderato",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "c",
+       "data": "4.''E8D8{FEGE}/'4.B8nA{''C'B''E'B}/4G{8.G6G}4GA/8{''C'BnAB}4B4-/"
+      }
+     },
+     {
+      "incipit": "1.2.1 ROMANCE | ANDANTINO",
+      "movement": 2,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "6/8",
+       "data": "=7/48--8-{FF}/48FF{6FAB''DDF}/{FnEFGbEF}8D6-{3BA}{GFED}/"
+      },
+      "notes": 17,
+      "overlap": 4,
+      "from_start": 1,
+      "counts": false
+     },
+     {
+      "incipit": "1.3.1 FINALE | ALLEGRO MODERATO",
+      "movement": 3,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "3/4",
+       "data": "8-/=7/4--8-B/B''4A{6GF}{AGFE}/{8DB}{BBBB}/"
+      },
+      "notes": 10,
+      "overlap": 2,
+      "from_start": 1,
+      "counts": false
+     }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "1001088002",
+      "label": "Concerto da camera; Print; HaiW WoO 97"
+     },
+     {
+      "id": "991007003",
+      "label": "Concerto da camera–E♭ major; Print; HaiW WoO 97"
+     },
+     {
+      "id": "991007004",
+      "label": "Concerto da camera–E♭ major; Print; HaiW WoO 97"
      }
     ]
    }
@@ -5841,6 +8980,132 @@
   "verdict": "probable"
  },
  {
+  "id": "469473100",
+  "genre": "concertos",
+  "label": "Concertos–D major; Manuscript copy; Wq deest, HelB deest; D-Bsa SA 4731",
+  "shelfmark": "D-Bsa SA 4731",
+  "leads": [
+   {
+    "composer": "Bach, Carl Philipp Emanuel (1714-1788)",
+    "verdict": "probable",
+    "attribution": "secure",
+    "prior": "anonymous-record",
+    "note": "The anonymous record already carries 'Wq deest'; its opening matches a C. P. E. Bach concerto in E-flat a semitone lower.",
+    "class": "known",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro.",
+      "movement": 1,
+      "anon": {
+       "clef": "C-1",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "=22/{8.''D3''C'B}{8'AA}{8.'A3''C'B}4'A/8-{8''DEF}{8.''F3''AG}4''F/4'A{6'GFED}2'A"
+      },
+      "notes": 19,
+      "overlap": 13,
+      "from_start": 13,
+      "counts": true,
+      "match": {
+       "source": "703000219",
+       "incipit": "1.1.1 Allegro ma non troppo",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "C-1",
+       "keysig": "bBEA",
+       "timesig": "c",
+       "data": "=22/''{8.E3DC}{8'BB}{8.B3''DC}4'B/8-{''EFG}{8.G3BA}4G/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "703000219",
+      "label": "Concertos–E♭ major; Manuscript copy; HelB 446, Wq 35; B-Bc 5887 (30)"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
+  "id": "450026094",
+  "genre": "concertos",
+  "label": "Concertos–D major; Manuscript copy; BEEV 103; D-HR III 4 1/2 4|o 367",
+  "shelfmark": "D-HR III 4 1/2 4|o 367",
+  "leads": [
+   {
+    "composer": "Beecke, Ignaz von (1733-1803)",
+    "verdict": "probable",
+    "attribution": "secure",
+    "prior": "anonymous-record",
+    "note": "The anonymous record already carries BEEV 103; its opening matches a Beecke sonata in G a fourth lower and in doubled note values.",
+    "class": "known",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''6D/{8.6CD}'8D6-''F{8.6xEF}'8F6-''A/{8xGA}2A"
+      },
+      "notes": 11,
+      "overlap": 11,
+      "from_start": 11,
+      "counts": true,
+      "match": {
+       "source": "1001343886",
+       "incipit": "1.1.1 Poco adagio",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "''3G/{6.F3G}'6G3-''3B{6.xA3B'6B}3-'''3D{6xCD8D+}{8D3nC''BAG}/{6GF8F}"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "1001343886",
+      "label": "Sonatas–G major; Manuscript copy; MunB 1Aa.18, BEEV 33; D-Sl Cod. mus. II 2° 298"
+     },
+     {
+      "id": "452004508",
+      "label": "Sonatas–G major; Manuscript copy; BEEV 33, MunB 1Aa.18; D-B Mus.ms. 1231"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
   "id": "850608132",
   "genre": "symphonies",
   "label": "Symphonies–C major; Manuscript copy; I-OS Mss.Mus.B 4682",
@@ -5895,6 +9160,69 @@
      {
       "id": "850610123",
       "label": "Allegro–C major; Manuscript copy; I-OS Mss.Mus.B 3050"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
+  "id": "600026020",
+  "genre": "concertos",
+  "label": "Concertos–D major; Manuscript copy; A-SEI V 1235",
+  "shelfmark": "A-SEI V 1235",
+  "leads": [
+   {
+    "composer": "Boroni, Antonio (1738-1792)",
+    "verdict": "probable",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Movement I has the melody of an aria (movement XX) of La notte critica, ornaments included, a whole tone lower: an arrangement or shared material.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "1->20"
+    ],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Andante",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c/",
+       "data": "''2.D4A/q6G{8F6EF}4.D{'8A''DF}/6{FExDE}4E-"
+      },
+      "notes": 13,
+      "overlap": 13,
+      "from_start": 13,
+      "counts": true,
+      "match": {
+       "source": "270001185",
+       "incipit": "1.50.1 Aria. Lento",
+       "movement": 20,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "c/",
+       "data": "2.''E4B/q6A{8G6FG}4.E{8'B''EG}/{6GFnEF}4F-"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "270001185",
+      "label": "La notte critica; Manuscript copy; D-Dl Mus.3406-F-500"
      }
     ]
    }
@@ -6182,6 +9510,519 @@
   "verdict": "probable"
  },
  {
+  "id": "451509888",
+  "genre": "concertos",
+  "label": "Concertos; Manuscript copy; D-MÜs SANT Hs 4112 (Nr. 5)",
+  "shelfmark": "D-MÜs SANT Hs 4112 (Nr. 5)",
+  "leads": [
+   {
+    "composer": "Feo, Francesco (1691-1761)",
+    "verdict": "probable",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Movement II has the melody of the aria 'In un mar tempestoso' after its introduction (movement I of that copy), rebarred from 2/4 to 3/8.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1",
+      "movement": 1,
+      "anon": {
+       "clef": "g-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "=7/2-4-8-6,B'C/8DDDD6DC,BA8G6AB/8'C6DC"
+      },
+      "notes": 12,
+      "overlap": 5,
+      "from_start": 1,
+      "counts": false,
+      "match": {
+       "source": "800265562",
+       "incipit": "1.1.1 Rec:|v|o.",
+       "movement": 1,
+       "offset": [
+        6,
+        0
+       ],
+       "clef": "C-3",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "8-6'DE8F6GA4AE/8-668EEE"
+      }
+     },
+     {
+      "incipit": "1.2.1",
+      "movement": 2,
+      "anon": {
+       "clef": "g-2",
+       "keysig": "xF",
+       "timesig": "3/8",
+       "data": "8,G6BA8G/i/8A6B'CDC/,B'C,BA8G/"
+      },
+      "notes": 17,
+      "overlap": 12,
+      "from_start": 1,
+      "counts": true,
+      "match": {
+       "source": "800265562",
+       "incipit": "1.2.2",
+       "movement": 2,
+       "offset": [
+        0,
+        1
+       ],
+       "clef": "C-3",
+       "keysig": "xF",
+       "timesig": "2/4",
+       "data": "8-/=13/4-8-'D/G{BA}G/i/{8A6B''C}8DC/"
+      }
+     }
+    ],
+    "movements": [
+     1,
+     2
+    ],
+    "movements_matched": [
+     2
+    ],
+    "sources": [
+     {
+      "id": "800265562",
+      "label": "In un mar tempestoso; Manuscript copy; GB-Lbl Add. 14148"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
+  "id": "551004768",
+  "genre": "concertos",
+  "label": "Concertos–D major; Possible autograph manuscript; CZ-Pnm XLII A 132",
+  "shelfmark": "CZ-Pnm XLII A 132",
+  "leads": [
+   {
+    "composer": "Fränzl, Ferdinand (1767-1833)",
+    "verdict": "probable",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Movement III opens like a polonaise attributed to Fränzl (movement I of RISM 456008961) for 13 pitches.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "3->1"
+    ],
+    "incipits": [
+     {
+      "incipit": "1.1.1 N 1: Polonese.",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "3/4",
+       "data": "'''8{D3'DEFE}{8D,A'DF}/8{E3EFGF}8E-4-/{8E3EFGF}{8E,A'EG}/{F3FGAG}8F-4-/{''6DF8.A}6{xGBA}"
+      },
+      "notes": 32,
+      "overlap": 3,
+      "from_start": 1,
+      "counts": false
+     },
+     {
+      "incipit": "1.2.1 Trio.",
+      "movement": 2,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "3/4",
+       "data": "4.''A{6FGA}{B'''CD''B}/{AB'''CD}{CDEF}{GECE}4./D{6''AB'''C}{DEFD}/{CEGE}{C''AGE}{CE8'A}/4.''A"
+      },
+      "notes": 40,
+      "overlap": 3,
+      "from_start": 1,
+      "counts": false
+     },
+     {
+      "incipit": "1.3.1 N 2.",
+      "movement": 3,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "3/4",
+       "data": "B''D{8FD}/{EDCD}4C/'A''C{8EC}/{DCDE}4D/8'B''4B{6AB}{'''C''BAG}84/xFG{6FG}{AGFG}/{EDC'nB}"
+      },
+      "notes": 38,
+      "overlap": 13,
+      "from_start": 13,
+      "counts": true,
+      "match": {
+       "source": "456008961",
+       "incipit": "1.1.1",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "3/4",
+       "data": "8'B''D4.F8D/{EDCD}C-/'A''C4.8EC/"
+      }
+     },
+     {
+      "incipit": "1.4.1 Trio.",
+      "movement": 4,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "3/4",
+       "data": "'''8qC4.''B{6AB}'''{C''BAB}/8{B'''D}4.8FD/{6FEC''A}8{FF}{6FA'''CE}/{''6BF'''D''F'''}{F''F'''D''F}'''{8.6FD}/{6FEC''A}{8FF}"
+      },
+      "notes": 33,
+      "overlap": 4,
+      "from_start": 1,
+      "counts": false
+     },
+     {
+      "incipit": "1.5.1 N 3.",
+      "movement": 5,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "3/4",
+       "data": "{8EG}{GG}{AA}/{GE}2G/{8EG}{GGAA}/{GE}4.8FB/''{8.33CEG}'''{6C''BAG}{8'''CC}848/''B'''D''B{6GFED}/8.33{CEG}"
+      },
+      "notes": 31,
+      "overlap": 3,
+      "from_start": 1,
+      "counts": false
+     },
+     {
+      "incipit": "1.6.1 Trio.",
+      "movement": 6,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "3/4",
+       "data": "{6''E'''C6qqDC''Br8'''C}{EC''GE}/{6GF}4'''D{6''B'''C}8{D''B}/8''qB'''{8CE}8''qB{8'''C''G}8qB{8'''CE}6''/B{'''DC''B}'''6F{DC''B}'''D{''BGF}/{6''E'''C6qqDC''Br8'''C}"
+      },
+      "notes": 33,
+      "overlap": 2,
+      "from_start": 1,
+      "counts": false
+     },
+     {
+      "incipit": "1.8.1 N 4.",
+      "movement": 7,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "3/4",
+       "data": "4.''D{8'A''DF}/{DF}2A/{8'''DCDC}4D/{8CDC''B}4A/{8''EC}4'A{8AB}/{''CD'B''C}{6'AB''CD}/{ECEC}{8'AAAB}/"
+      },
+      "notes": 35,
+      "overlap": 3,
+      "from_start": 1,
+      "counts": false
+     },
+     {
+      "incipit": "1.9.1 Trio.",
+      "movement": 8,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "3/4",
+       "data": "8''qF4.8'''FD{8DxD}/{E6EnD}{DCC''B}{8.6BA}/{6FA'''D''A}{6'''FEDC}''{BAGF}4/A--/3qq''FGAB'''CDEr4.8FD{8DxD}/"
+      },
+      "notes": 24,
+      "overlap": 1,
+      "from_start": 1,
+      "counts": false
+     },
+     {
+      "incipit": "1.10.1 N 5.",
+      "movement": 9,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "3/4",
+       "data": "4.8''GE{6DC'B''C}/{8AF}4D{6DFEG}4./F{6DC}{8'BB}/''{8CE}4G-/2.G/2A{8FE}/24DF/{8EF}-F4E://"
+      },
+      "notes": 27,
+      "overlap": 3,
+      "from_start": 1,
+      "counts": false
+     },
+     {
+      "incipit": "1.11.1 Trio.",
+      "movement": 10,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "3/4",
+       "data": "4.''G{'''6CE}{DC''B'''C}/{EDxCD}4F{6FEDC}4./''B{6'''ED}{C''BAG}/{FGAB}8qB2'''C://{8'G'''D''BGFD}4/bE8-"
+      },
+      "notes": 34,
+      "overlap": 2,
+      "from_start": 1,
+      "counts": false
+     },
+     {
+      "incipit": "1.12.1 N 6.",
+      "movement": 11,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "3/4",
+       "data": "{8.6E,B}4'G8-G/{8.6GE}48B-{6GE}8/{D,B}4'F8-F/8.6{FD}48A-{6FD}/8-{EGB''EG}/8.6{AF}4D-/8-{BGE'BG}8.6/"
+      },
+      "notes": 27,
+      "overlap": 3,
+      "from_start": 1,
+      "counts": false
+     },
+     {
+      "incipit": "1.13.1 Trio.",
+      "movement": 12,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "3/4",
+       "data": "4.''F{6GF}{EG'''C''B}/{A'''C''AF}{EGEC}{'nB''CDE}4./F{6GF}{6EG'''C''B}/{A'''C''AF}{EGEC}4F://"
+      },
+      "notes": 35,
+      "overlap": 3,
+      "from_start": 1,
+      "counts": false
+     }
+    ],
+    "movements": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "movements_matched": [
+     3
+    ],
+    "sources": [
+     {
+      "id": "456008961",
+      "label": "Polonaises–B♭ major; Manuscript copy; D-Mbs Mus.ms. 21769"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
+  "id": "450011856",
+  "genre": "concertos",
+  "label": "Concertos–E major; Manuscript copy; GroF 148; D-Rtt Inc. IIb/3",
+  "shelfmark": "D-Rtt Inc. IIb/3",
+  "leads": [
+   {
+    "composer": "Gasparini, Quirino (1721-1778)",
+    "verdict": "probable",
+    "attribution": "uncertain",
+    "prior": "new",
+    "note": "Same melody a fourth apart as an Andantino attributed conjecturally to Quirino Gasparini (RISM 1001138783), in halved note values with the appoggiaturas written out; another copy cross-references Francesco Gasparini.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "1001138783: composer qualified as Conjectural",
+     "552002016: composer qualified as Conjectural",
+     "552002016: cross-reference to Gasparini, Francesco (1661-1727) (Conjectural)"
+    ],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro non molto",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFCGD",
+       "timesig": "c",
+       "data": "{'6BG}/q8F4.E{''6C'A}q8G4.F{''6FE}/{EDDC}{C'BBA}"
+      },
+      "notes": 14,
+      "overlap": 14,
+      "from_start": 14,
+      "counts": true,
+      "match": {
+       "source": "1001138783",
+       "incipit": "1.1.1 Andantino",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "2/4",
+       "data": "{6''EC}/{8'BA}8-{6''FD}/{8C'B}-{6''BA}/{AGGF}{FEED}/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "1001138783",
+      "label": "Sonatas–A major; Manuscript copy; D-B 55 MS 10212 (46)"
+     },
+     {
+      "id": "552002016",
+      "label": "Trios–A major; Manuscript copy; CZ-Pu 59 R 5467"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
+  "id": "1001386047",
+  "genre": "concertos",
+  "label": "Wind music–F major; Manuscript copy; UA-Knbuv Rozum 120757",
+  "shelfmark": "UA-Knbuv Rozum 120757",
+  "leads": [
+   {
+    "composer": "Giornovichi, Giovanni (1747-1804)",
+    "verdict": "probable",
+    "attribution": "secure",
+    "prior": "anonymous-record",
+    "note": "All three movements match Giornovichi's violin concerto ŠčeJ 149 in A, a major third lower: an arrangement as wind music. The anonymous record already names Giornovichi.",
+    "class": "known",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 [f. 1v, at left of the 1st stave:] Concerto | Allegro",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "2'FG/{8AFBG}2''C/4DD{8FEGF}/{C'BBG}4A-/"
+      },
+      "notes": 16,
+      "overlap": 16,
+      "from_start": 16,
+      "counts": true,
+      "match": {
+       "source": "1001381475",
+       "incipit": "1.1.1 [p. 2, caption title at left:] Del: Signore GIORNOWICK [at left of the 1st stave:] CONCERTO | XIV. [at left above the 1st stave:] Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "c",
+       "data": "2'AB/{8''C'A''D'B}2''E/4FF{8AGBA}/{EDD'B}4''C-/"
+      }
+     },
+     {
+      "incipit": "1.2.1 [f. 3r, at left of the 2nd stave:] Amoroso",
+      "movement": 2,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBEAD",
+       "timesig": "2/4",
+       "data": "4'FG/q8B4A{8GA}/{F''FnEF}/4.Cq8E8D/{C'BAG}/4F-/"
+      },
+      "notes": 18,
+      "overlap": 18,
+      "from_start": 18,
+      "counts": true,
+      "match": {
+       "source": "1001381475",
+       "incipit": "1.2.1 [p. 6, at left of the 1st stave:] Amoroso | con espressione",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "2/4",
+       "data": "4'AB/q8''D4C{8'B''C}/{'A''AxGA}/4.Eq8G8F/{EDC'B}/4A-/"
+      }
+     },
+     {
+      "incipit": "1.3.1 [f. 3v, at left of the 1st stave:] Rondo",
+      "movement": 3,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c/",
+       "data": "4''C'A/B{8''C'B}4A''C/'G''C'GA/2.F"
+      },
+      "notes": 12,
+      "overlap": 12,
+      "from_start": 12,
+      "counts": true,
+      "match": {
+       "source": "1001381475",
+       "incipit": "1.3.1 [at left of the 11th stave:] Rondo | a la Russe",
+       "movement": 3,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "c",
+       "data": "4''EC/D{8ED}4CE/'B''E'B''C/2.'A{8B''C}/4D{8'B''D}4C'A/"
+      }
+     }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     1,
+     2,
+     3
+    ],
+    "sources": [
+     {
+      "id": "1001381475",
+      "label": "Concertos–A major; Print; ŠčeJ 149"
+     },
+     {
+      "id": "550031893",
+      "label": "Concertos–A major; Manuscript copy; ŠčeJ 149; CZ-CH S-40-81-1435"
+     },
+     {
+      "id": "990021534",
+      "label": "Concertos–A major; Print; ŠčeJ 149"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
   "id": "854005521",
   "genre": "symphonies",
   "label": "Symphonies–A major; Manuscript copy; I-Ria Mss. Vess. 975",
@@ -6304,6 +10145,109 @@
   "verdict": "probable"
  },
  {
+  "id": "854005778",
+  "genre": "concertos",
+  "label": "Concertos–B♭ major; Manuscript copy; I-Ria Mss. Vess. 1054",
+  "shelfmark": "I-Ria Mss. Vess. 1054",
+  "leads": [
+   {
+    "composer": "Gyrowetz, Adalbert (1763-1850)",
+    "verdict": "probable",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The melody of movement III of Gyrowetz's 3 Duets (print), a whole tone higher; RISM catalogues the anonymous copy as a concerto.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "1->3"
+    ],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "'2.B4''D/2F4DB/GECF/D-"
+      },
+      "notes": 10,
+      "overlap": 10,
+      "from_start": 2,
+      "counts": true,
+      "match": {
+       "source": "1001004676",
+       "incipit": "1.3.1 Duo III All[egr]o con spirito",
+       "movement": 3,
+       "offset": [
+        0,
+        2
+       ],
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "4''C/2E4CE/2G4E'''C/''AFDG/E--{6FEDC}/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "1001004676",
+      "label": "3 Duets; Print"
+     },
+     {
+      "id": "400007248",
+      "label": "Trios–C major (Arrangement); Manuscript copy; CH-SAf MusSAf.Ms.1251"
+     },
+     {
+      "id": "400007475",
+      "label": "Sonatas–C major; Manuscript copy; CH-E 966,33"
+     },
+     {
+      "id": "402013291",
+      "label": "Sonatas–C major; Print"
+     },
+     {
+      "id": "410001188",
+      "label": "Duets–C major; Manuscript copy; CH-Lz Mus. 335"
+     },
+     {
+      "id": "530000333",
+      "label": "Trios–C major; Manuscript copy; H-KE 2244"
+     },
+     {
+      "id": "550508338",
+      "label": "Duets–C major; Manuscript copy; CZ-Pu 59 R 2465"
+     },
+     {
+      "id": "600172810",
+      "label": "Trios–C major; Manuscript copy; A-KR H 125/28"
+     },
+     {
+      "id": "850611515",
+      "label": "Quartets–C major; Manuscript copy; I-OS Mss.Mus.B 2619"
+     },
+     {
+      "id": "850623465",
+      "label": "Sonatas–C major; Manuscript copy; I-Bsf M.G.I-4"
+     },
+     {
+      "id": "850776844",
+      "label": "Sonatas–C major; Manuscript copy; I-PAc Borb.310/I-III"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
   "id": "850026338",
   "genre": "symphonies",
   "label": "Symphonies–D major; Manuscript copy; I-Rc Mss. 6245/12",
@@ -6358,6 +10302,234 @@
      {
       "id": "400173224",
       "label": "Sonatas–D major; Manuscript copy; CH-Zz Mus Ms A 436"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
+  "id": "300511594",
+  "genre": "concertos",
+  "label": "Concertos–D major; Manuscript copy; PL-Wu RM 5631",
+  "shelfmark": "PL-Wu RM 5631",
+  "leads": [
+   {
+    "composer": "Händel, Georg Friedrich (1685-1759)",
+    "verdict": "probable",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Movement IV has the melody of an excerpt from Admeto (movement I of that excerpt print), a minor third lower in F; the concerto finale and the opera number share material, relationship open. One Admeto copy cross-references Porpora.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "201009379: cross-reference to Porpora, Nicola (1686-1768) (Ascertained)"
+    ],
+    "movement_mismatch": [
+     "4->1"
+    ],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Adagio",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "3/2",
+       "data": "2''A-A/A-A/GGG/F-F/E-E/1E2-/-EE/2.F//"
+      },
+      "notes": 5,
+      "overlap": 5,
+      "from_start": 3,
+      "counts": false,
+      "match": {
+       "source": "201009378",
+       "incipit": "1.13.1 [Aria]. Allegro",
+       "movement": 13,
+       "offset": [
+        0,
+        11
+       ],
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "8''C/{6 C'B8A}{6' ''C'B8A}B4 ''G8G/{6GFED}{C'BAG}8A4''A8A/{6AG8F}{6AG8F}'8B4''B8B/B4A{6GF}{EF8G}-"
+      }
+     },
+     {
+      "incipit": "1.2.1 Allegro",
+      "movement": 2,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "{6'DD''DD}{'AAFF}4D-/{6'DD''DD}{'AAFF}4'D8-A/"
+      },
+      "notes": 10,
+      "overlap": 3,
+      "from_start": 1,
+      "counts": false
+     },
+     {
+      "incipit": "1.3.1 Largo",
+      "movement": 3,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "8''F-'B-4B-/''8G-C-4C-/8F-xG-A-F-/"
+      },
+      "notes": 8,
+      "overlap": 4,
+      "from_start": 1,
+      "counts": false
+     },
+     {
+      "incipit": "1.4.1 Allegro",
+      "movement": 4,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "3/4",
+       "data": "8-'A''{DFEG}/{FEDFEG}/{FEDFEG}/4F--/"
+      },
+      "notes": 18,
+      "overlap": 18,
+      "from_start": 18,
+      "counts": true,
+      "match": {
+       "source": "1001225573",
+       "incipit": "1.1.1",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "3/4",
+       "data": "''4C/4.F{8AGB}/{AGFAGB}/{AGFAGB}/{8.A6G}4F"
+      }
+     }
+    ],
+    "movements": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "movements_matched": [
+     4
+    ],
+    "sources": [
+     {
+      "id": "1001225573",
+      "label": "Admeto re di Tessaglia (Excerpts); Print; HWV 22/12"
+     },
+     {
+      "id": "1001312240",
+      "label": "Admeto re di Tessaglia–F major (Excerpts, Arrangement); Manuscript copy; HWV 22; GB-MTdro D2375/F/P/4/2/3"
+     },
+     {
+      "id": "142735",
+      "label": "Admeto re di Tessaglia (Excerpts); Manuscript copy; HWV 22; US-CPpa M2.1.M2"
+     },
+     {
+      "id": "201009378",
+      "label": "Admeto re di Tessaglia (Excerpts); Manuscript copy; HWV 22; D-MEIr Ed 129m"
+     },
+     {
+      "id": "201009379",
+      "label": "Giulio Cesare in Egitto (Excerpts, Arrangement); Manuscript copy; HWV 17, HWV 19, HWV 22, HelN 11; D-MEIr Ed 129n"
+     },
+     {
+      "id": "240002007",
+      "label": "Admeto re di Tessaglia (Excerpts); Manuscript copy; HWV 22/12; D-SWl Mus.2407"
+     },
+     {
+      "id": "800262206",
+      "label": "Admeto re di Tessaglia (Excerpts); Manuscript copy; HWV 22/12; GB-Lam MS 139"
+     },
+     {
+      "id": "806130644",
+      "label": "Admeto re di Tessaglia (Excerpts, Arrangement); Manuscript copy; HWV 22/12; GB-Lgc G Mus. 362 (Vol. III)"
+     },
+     {
+      "id": "806149508",
+      "label": "Admeto re di Tessaglia (Excerpts); Manuscript copy; HWV 22; GB-Lbl Add. 38002"
+     },
+     {
+      "id": "806157079",
+      "label": "Admeto re di Tessaglia (Excerpts, Arrangement); Manuscript copy; HWV 22/12; GB-Lgc G Mus. 362 (vol. III)"
+     },
+     {
+      "id": "806932118",
+      "label": "Admeto re di Tessaglia–F major (Excerpts); Manuscript copy; HWV 22/12; GB-Lfom Accession Number 325"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
+  "id": "600026060",
+  "genre": "concertos",
+  "label": "Concertos–C major; Manuscript copy; A-SEI V 1265",
+  "shelfmark": "A-SEI V 1265",
+  "leads": [
+   {
+    "composer": "Koželuh, Leopold (1747-1818)",
+    "verdict": "probable",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The opening matches Koželuh's Symphony in C (PosK I:9), but only seven pitches are encoded and RISM catalogues the anonymous copy as a concerto.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro di molto",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "''4.C'8G''4.E'8B/{''CCCE}'4G8-"
+      },
+      "notes": 7,
+      "overlap": 7,
+      "from_start": 7,
+      "counts": true,
+      "match": {
+       "source": "210045950",
+       "incipit": "1.1.1 Allegro molto",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "''4.C'8G''4.E'8B/{''CCCE}'4G8-xG/4.A8E''4.C'8xG/{AAA''C}4E-/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "210045950",
+      "label": "Symphonies–C major; Manuscript copy; PosK I:9; D-Dl Mus.3540-N-1"
+     },
+     {
+      "id": "450013478",
+      "label": "Symphonies–C major; Manuscript copy; PosK I:9; D-KA Don Mus.Ms. 1101"
      }
     ]
    }
@@ -6976,6 +11148,65 @@
   "verdict": "probable"
  },
  {
+  "id": "850727507",
+  "genre": "concertos",
+  "label": "Concertos–A major; Manuscript copy; I-VEas ms.n.8/b",
+  "shelfmark": "I-VEas ms.n.8/b",
+  "leads": [
+   {
+    "composer": "Stratico, Michele (1728-1783)",
+    "verdict": "probable",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Identical opening to a Stratico concerto in A (RISM 138045), trills aside, but only five distinct pitches are encoded.",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 allegro",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "3/4",
+       "data": "''4EEE/E'2A/''4FA'''C/"
+      },
+      "notes": 5,
+      "overlap": 5,
+      "from_start": 5,
+      "counts": false,
+      "match": {
+       "source": "138045",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "3/4",
+       "data": "''4EEE/Et'2A/''4FtAt'''C/q''8E2xDt4E/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [],
+    "sources": [
+     {
+      "id": "138045",
+      "label": "Concertos–A major; Manuscript copy; US-BEm Italian MS 671"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
   "id": "212001714",
   "genre": "symphonies",
   "label": "Symphonies–D major; Manuscript copy; D-Dl Mus.2-N-20,19",
@@ -7076,6 +11307,284 @@
     "attribution_flags": [],
     "movement_mismatch": [
      "3->1"
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
+  "id": "1001377007",
+  "genre": "concertos",
+  "label": "Concertos–A major; Manuscript copy; D-GZsa Mus. 29f",
+  "shelfmark": "D-GZsa Mus. 29f",
+  "leads": [
+   {
+    "composer": "Tessarini, Carlo (1690c-1766p)",
+    "verdict": "probable",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The same repeated-note figure as a Tessarini concerto, but the anonymous copy begins with what is the comparator's second bar; too little melody to call it the same music outright.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "2/4",
+       "data": "'{8AC,BA}/{'AAAA}/{AC,BA}/{'AAAA}/{A6AG}{8AF}/"
+      },
+      "notes": 12,
+      "overlap": 9,
+      "from_start": 9,
+      "counts": true,
+      "match": {
+       "source": "170000080",
+       "incipit": "1.1.1",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xFCG",
+       "timesig": "2/4",
+       "data": "{'8AAAA}/{AC,BA}/{'8AAAA}/{AC,BA}/{'A6AB}8{''CD}/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "170000080",
+      "label": "Concertos–A major; Manuscript copy; N-T XM 136"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
+  "id": "190004880",
+  "genre": "concertos",
+  "label": "Concertos–G major; Manuscript copy; S-Uu Instr. mus. i hs. 63:7",
+  "shelfmark": "S-Uu Instr. mus. i hs. 63:7",
+  "leads": [
+   {
+    "composer": "Tessarini, Carlo (1690c-1766p)",
+    "verdict": "probable",
+    "attribution": "secure",
+    "prior": "anonymous-record",
+    "note": "Movement II matches movement I of an aria arrangement (RISM 136107) attributed to Tessarini; the anonymous record already names Tessarini.",
+    "class": "known",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "2->1"
+    ],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "'8G''4D'8F{G6FE}{8DC}/{,BAG'G}{6AFED}{AFED}/"
+      },
+      "notes": 20,
+      "overlap": 1,
+      "from_start": 1,
+      "counts": false
+     },
+     {
+      "incipit": "1.2.1 Largo",
+      "movement": 2,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "3/4",
+       "data": "'4G8-{6B''C}{8D'G}/{A''D}-D{D6EF}/{8G'G}-''B{B6AG}/{8FD}{'AF}4D/"
+      },
+      "notes": 19,
+      "overlap": 19,
+      "from_start": 19,
+      "counts": true,
+      "match": {
+       "source": "136107",
+       "incipit": "1.1.1 Aria.",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "3/4",
+       "data": "'4.G{6B''C}{8D'G}/{A''D}-D{D6EF}/{8G'G}-''B{B6AG}/{8FD}{'AF}4D/"
+      }
+     },
+     {
+      "incipit": "1.3.1 Allegro",
+      "movement": 3,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "3/8",
+       "data": "8''{GD}'{BG}''{GB}/{AF}{D'A}{F''A}/{BG}{D'B}"
+      },
+      "notes": 16,
+      "overlap": 4,
+      "from_start": 1,
+      "counts": false
+     }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     2
+    ],
+    "sources": [
+     {
+      "id": "136107",
+      "label": "Arias–G major (Arrangement); Manuscript copy; US-PHu Ms. Codex 14"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
+  "id": "400187870",
+  "genre": "concertos",
+  "label": "Concertos–G major; Manuscript copy; CH-EN Ms A 120",
+  "shelfmark": "CH-EN Ms A 120",
+  "leads": [
+   {
+    "composer": "Valentini, Giuseppe (1681-1753)",
+    "verdict": "probable",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Identical rhythm and descending repeated-note sequence to a Valentini concerto in G (RISM 806549972), but only five distinct pitches; a companion copy in the same collection (400187877) matches another Valentini concerto.",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "{8''DD}-D{DD}-D/{DC}-C{C'B}-B/{BA}-A{AG}-G/"
+      },
+      "notes": 5,
+      "overlap": 5,
+      "from_start": 5,
+      "counts": false,
+      "match": {
+       "source": "806549972",
+       "incipit": "1.1.1 Concerto Grosso. Largo staccato",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "''{8DD}8-D{DD}8-D/{DC}8-C{C'B}8-B/{BA}8-A{AG}8-G/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [],
+    "sources": [
+     {
+      "id": "806549972",
+      "label": "Concertos–G major; Manuscript copy; GB-Mp Ms. 580Ct51 vv.1-2, 6"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
+  "id": "800261899",
+  "genre": "concertos",
+  "label": "Concertos–F major; Manuscript copy; GB-Lbl R.M.21.d.16.",
+  "shelfmark": "GB-Lbl R.M.21.d.16.",
+  "leads": [
+   {
+    "composer": "Winter, Peter von (1754-1825)",
+    "verdict": "probable",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The one encoded movement has the melody of Winter's concerto in E-flat (RISM 450000625) a whole tone higher, perhaps a part for a transposing instrument; the instrumentation needs checking.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro moderato",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c/",
+       "data": "2.''F{8AF}/2.4CF/4bEEEE/{8xCD}"
+      },
+      "notes": 9,
+      "overlap": 9,
+      "from_start": 9,
+      "counts": true,
+      "match": {
+       "source": "450000625",
+       "incipit": "1.1.1",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "c/",
+       "data": "''2.E8GE/'2.B''4E/bDDDD/'8nB''C4C2-/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "450000625",
+      "label": "Concertos–E♭ major; Manuscript copy; D-BFb W-in 92"
+     },
+     {
+      "id": "850777862",
+      "label": "Concertos–F major; Manuscript copy; I-PAc Borb.1024/I-IX"
+     }
     ]
    }
   ],
@@ -7336,6 +11845,280 @@
   "verdict": "unresolved"
  },
  {
+  "id": "854005386",
+  "genre": "concertos",
+  "label": "Concertos–F major; Manuscript copy; I-Ria Mss. Vess. 917",
+  "shelfmark": "I-Ria Mss. Vess. 917",
+  "leads": [
+   {
+    "composer": "Pleyel, Ignace (1757-1831)",
+    "verdict": "unresolved",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Its second incipit has the melody of the Rondo (movement II) of a Pleyel quintet arrangement a whole tone higher, the turn written differently; the first incipit is a held G. RISM titles the copy F major, but that first incipit has no key signature.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "1->2"
+    ],
+    "incipits": [
+     {
+      "incipit": "1.1.1",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c/",
+       "data": "6-/1'G/G/G/2G4G-/=4/1G/4-''DD-/'1G/4-''DD-/"
+      },
+      "notes": 4,
+      "overlap": 2,
+      "from_start": 1,
+      "counts": false
+     },
+     {
+      "incipit": "1.1.2",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c/",
+       "data": "'{8.6CC}/2F+{8.F3GF}{8EF}/gxF2G4-{8.6CC}/"
+      },
+      "notes": 9,
+      "overlap": 9,
+      "from_start": 9,
+      "counts": true,
+      "match": {
+       "source": "1001352962",
+       "incipit": "1.2.1 Rondo Allegro",
+       "movement": 2,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "2/4",
+       "data": "{8BB}/4''E{6qqFEr}{8DE}/{nEF}{'BB}/4''F{6qqGFr}{8EF}/{xFG}{EE}/4A{8.6GA}/8qG4F{8EE}/4A"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "1001352962",
+      "label": "Quintets–E♭ major (Arrangement); Print; BenP 271/i, BenP 271/iii"
+     }
+    ]
+   }
+  ],
+  "verdict": "unresolved"
+ },
+ {
+  "id": "240007354",
+  "genre": "concertos",
+  "label": "Concertos–C major; Manuscript copy; D-SWl Mus.295",
+  "shelfmark": "D-SWl Mus.295",
+  "leads": [
+   {
+    "composer": "Schubarth, Johann Kaspar (1756-1810)",
+    "verdict": "unresolved",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Movement II's opening agrees for seven pitches with movement V of Schubarth's cantata 'Frohlocket ihr Christen', with a slightly different rhythm; too short to decide.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "2->5"
+    ],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro moderato",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c/",
+       "data": "2''C4.C8C/2C4-{8.G6E}/4.A8F{CCFA}/"
+      },
+      "notes": 8,
+      "overlap": 2,
+      "from_start": 2,
+      "counts": false
+     },
+     {
+      "incipit": "1.1.2",
+      "movement": 1,
+      "anon": {
+       "clef": "F-4",
+       "keysig": "n",
+       "timesig": "c/",
+       "data": "{8,C'CEC}{,G'C,EG}/{C6DE}"
+      },
+      "notes": 11,
+      "overlap": 3,
+      "from_start": 1,
+      "counts": false
+     },
+     {
+      "incipit": "1.2.1 Andante",
+      "movement": 2,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "3/4",
+       "data": "{8,B'DGBAF}/{GD,B'D,GB}/"
+      },
+      "notes": 12,
+      "overlap": 3,
+      "from_start": 1,
+      "counts": false
+     },
+     {
+      "incipit": "1.2.2",
+      "movement": 2,
+      "anon": {
+       "clef": "F-4",
+       "keysig": "xF",
+       "timesig": "3/4",
+       "data": "2,Bq6B{8A6GA}/q8A2G{8B'D}/2D"
+      },
+      "notes": 7,
+      "overlap": 7,
+      "from_start": 1,
+      "counts": true,
+      "match": {
+       "source": "1001031724",
+       "incipit": "1.6.2",
+       "movement": 5,
+       "offset": [
+        0,
+        1
+       ],
+       "clef": "C-1",
+       "keysig": "xF",
+       "timesig": "3/4",
+       "data": "=7/4--{8GB}/2Bq6B{8A6GA}/4AG{8B''D}/2Dq6D{8C6'B''C}/4C'B{8D'B}/2B4A/A''C{8'B''D}/{8.D3ED}4C'B/BA"
+      }
+     },
+     {
+      "incipit": "1.3.1 Rondo.",
+      "movement": 3,
+      "anon": {
+       "clef": "F-4",
+       "keysig": "n",
+       "timesig": "6/8",
+       "data": "8,G/4'C8Cq6D{8C,B'C}/4D8E{C,,C}"
+      },
+      "notes": 8,
+      "overlap": 2,
+      "from_start": 2,
+      "counts": false
+     }
+    ],
+    "movements": [
+     1,
+     2,
+     3
+    ],
+    "movements_matched": [
+     2
+    ],
+    "sources": [
+     {
+      "id": "1001031724",
+      "label": "Frohlocket ihr Christen und jauchzet–D major; Manuscript copy; D-WRha Bad Tabarz 52 (score)"
+     },
+     {
+      "id": "1001031795",
+      "label": "Frohlocket ihr Christen und jauchzet–D major; Manuscript copy; D-WRha Bad Tabarz 52 (parts)"
+     }
+    ]
+   },
+   {
+    "composer": "Boroni, Antonio (1738-1792)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only a fragment inside a Credidi agrees",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
+   }
+  ],
+  "verdict": "unresolved"
+ },
+ {
+  "id": "706001606",
+  "genre": "concertos",
+  "label": "Concertos–B♭ major; Manuscript copy; B-Nimep Ms 73",
+  "shelfmark": "B-Nimep Ms 73",
+  "leads": [
+   {
+    "composer": "Tobi, F.",
+    "verdict": "unresolved",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The same rising-arpeggio figure and rhythm as Tobi's concerto in G, a major third lower; RISM titles the anonymous copy B-flat major but its incipit has three flats, and the figure is generic.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro moderato",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "c",
+       "data": "{3,B'CD}/8E-G-B-G-/E-,B-4-8-{3B'CDE}/8F"
+      },
+      "notes": 13,
+      "overlap": 13,
+      "from_start": 13,
+      "counts": true,
+      "match": {
+       "source": "1001384292",
+       "incipit": "1.1.1 Allegro maestoso",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "'{3DEF}/8G-B-''D-'B-/G-D-4-{6DEFG}/8A-F-"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "1001384292",
+      "label": "Concertos–G major; Manuscript copy; D-DEsa Mus. B 304"
+     }
+    ]
+   }
+  ],
+  "verdict": "unresolved"
+ },
+ {
   "id": "800000068",
   "genre": "symphonies",
   "label": "?Symphonies?–D major (Excerpts); Manuscript copy; GB-P O.2",
@@ -7397,6 +12180,67 @@
   "verdict": "unresolved"
  },
  {
+  "id": "530003269",
+  "genre": "concertos",
+  "label": "Concertos–C major; Manuscript copy; H-PH Mus.Jes. 34",
+  "shelfmark": "H-PH Mus.Jes. 34",
+  "leads": [
+   {
+    "composer": "Ullinger, Augustin (1746-1781)",
+    "verdict": "unresolved",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The opening (repeated Cs and a C-major arpeggio) agrees with an Ullinger symphony, but the figure is common and the rhythm differs slightly.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "''4CCC8-,8G/{'C,G'EC}{GE}-"
+      },
+      "notes": 8,
+      "overlap": 8,
+      "from_start": 8,
+      "counts": true,
+      "match": {
+       "source": "452514585",
+       "incipit": "1.1.1 Allegro assai",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "''4CCC8-6-,G/{'8.C,6G'8.E6C}4G8-6-E/{8.F6D8.G6B}''4C"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "452514585",
+      "label": "Symphonies–C major; Manuscript copy; D-B Mus.ms. 22144"
+     }
+    ]
+   }
+  ],
+  "verdict": "unresolved"
+ },
+ {
   "id": "570005116",
   "genre": "symphonies",
   "label": "Symphonies–G major; Manuscript copy; SK-J H-621",
@@ -7409,6 +12253,250 @@
     "prior": "",
     "note": "Only a common scale or arpeggio fragment agrees on inspection",
     "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "1001118376",
+  "genre": "concertos",
+  "label": "Concertos–E♭ major; Manuscript copy; PL-Wb M.R.0762",
+  "shelfmark": "PL-Wb M.R.0762",
+  "leads": [
+   {
+    "composer": "Bach, Carl Philipp Emanuel (1714-1788)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only broken-chord accompaniment figuration agrees",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
+   },
+   {
+    "composer": "Bonno, Giuseppe (1711-1788)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only broken-chord accompaniment figuration agrees",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "300510949: cross-reference to Hasse, Johann Adolf (1699-1783) (Ascertained)"
+    ],
+    "movement_mismatch": []
+   },
+   {
+    "composer": "Celli, Giovanni",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only broken-chord accompaniment figuration agrees",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
+   },
+   {
+    "composer": "Compilations",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only broken-chord accompaniment figuration agrees",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "heading 'Compilations' names no identifiable person"
+    ],
+    "movement_mismatch": []
+   },
+   {
+    "composer": "Eichner, Ernst (1740-1777)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only broken-chord accompaniment figuration agrees",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
+   },
+   {
+    "composer": "Guglielmi, Pietro Alessandro (1728-1804)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only broken-chord accompaniment figuration agrees",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
+   },
+   {
+    "composer": "Harsch und Almendingen, Ferdinand Ludwig von (1737-1800c)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only broken-chord accompaniment figuration agrees",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "603001889: composer qualified as Alleged"
+    ],
+    "movement_mismatch": []
+   },
+   {
+    "composer": "Hoffmeister, Franz Anton (1754-1812)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only broken-chord accompaniment figuration agrees",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
+   },
+   {
+    "composer": "Leo, Leonardo (1694-1744)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only broken-chord accompaniment figuration agrees",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
+   },
+   {
+    "composer": "Matuschka",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only broken-chord accompaniment figuration agrees",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "250012916: cross-reference to Mattuschka, Joseph von (Conjectural)",
+     "heading 'Matuschka' names no identifiable person"
+    ],
+    "movement_mismatch": []
+   },
+   {
+    "composer": "Mele, Giovanni Battista (1701-1752p)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only broken-chord accompaniment figuration agrees",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
+   },
+   {
+    "composer": "Pernsteiner, Matthias (1795-1851)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only broken-chord accompaniment figuration agrees",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "655001348: composer qualified as Conjectural"
+    ],
+    "movement_mismatch": []
+   },
+   {
+    "composer": "Righini, Vincenzo (1756-1812)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only broken-chord accompaniment figuration agrees",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
+   },
+   {
+    "composer": "Rode, Pierre (1774-1830)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only broken-chord accompaniment figuration agrees",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
+   },
+   {
+    "composer": "Sellitto, Giuseppe (1700-1777)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only broken-chord accompaniment figuration agrees",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "212001669: cross-reference to Leo, Leonardo (1694-1744) (Ascertained)",
+     "212001669: cross-reference to Mancini, Francesco (1672-1737) (Ascertained)",
+     "212001669: cross-reference to Sarri, Domenico Natale (1679-1744) (Ascertained)"
+    ],
+    "movement_mismatch": [
+     "1->10"
+    ]
+   },
+   {
+    "composer": "Sterkel, Johann Franz Xaver (1750-1817)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only broken-chord accompaniment figuration agrees",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "455008510",
+  "genre": "concertos",
+  "label": "Concertos–C major; Manuscript copy; D-F Mus Hs 2346",
+  "shelfmark": "D-F Mus Hs 2346",
+  "leads": [
+   {
+    "composer": "Bach, Johann Sebastian (1685-1750)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only figuration inside a chorale cantata movement agrees",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "3->1"
+    ]
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "190004899",
+  "genre": "concertos",
+  "label": "Concertos–B♭ major; Manuscript copy; S-Uu Instr. mus. i hs. 63:12",
+  "shelfmark": "S-Uu Instr. mus. i hs. 63:12",
+  "leads": [
+   {
+    "composer": "Baltzar, Thomas (1630c-1663)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "No encoded incipit matches; not rejected on the composer's dates alone",
+    "class": "date-early",
     "prior_documentation": [],
     "attribution_flags": [],
     "movement_mismatch": []
@@ -7545,6 +12633,28 @@
   "verdict": "rejected"
  },
  {
+  "id": "600241003",
+  "genre": "concertos",
+  "label": "Concertos; Manuscript copy; A-Wn E. M. 156m",
+  "shelfmark": "A-Wn E. M. 156m",
+  "leads": [
+   {
+    "composer": "Cherubini, Luigi (1760-1842)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only arpeggio figuration inside a Requiem movement agrees",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "3->5"
+    ]
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
   "id": "454016146",
   "genre": "symphonies",
   "label": "?Symphonies?–F major; Manuscript copy; D-Mbs Mus.ms. 16183",
@@ -7562,6 +12672,46 @@
     "movement_mismatch": [
      "2->14"
     ]
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "450012658",
+  "genre": "concertos",
+  "label": "Concertos–B♭ major; Manuscript copy; D-WEY 681",
+  "shelfmark": "D-WEY 681",
+  "leads": [
+   {
+    "composer": "Concialini, Michele (1857p+)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Composer's dates impossible for this copy; only a fragment agrees",
+    "class": "date-impossible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "212003595",
+  "genre": "concertos",
+  "label": "Concertos–B♭ major; Manuscript copy; D-Dl Mus.2-O-1,19",
+  "shelfmark": "D-Dl Mus.2-O-1,19",
+  "leads": [
+   {
+    "composer": "Dall'Oglio, Domenico (1700c-1764)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only the first three bars agree, a tone apart, before the melodies part",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
    }
   ],
   "verdict": "rejected"
@@ -7611,6 +12761,26 @@
   "verdict": "rejected"
  },
  {
+  "id": "570004580",
+  "genre": "concertos",
+  "label": "Concertos–F major; Manuscript copy; SK-J H-717",
+  "shelfmark": "SK-J H-717",
+  "leads": [
+   {
+    "composer": "Eberwein, Carl (1786-1868)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only a fragment inside a Singspiel agrees",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
   "id": "1001320767",
   "genre": "symphonies",
   "label": "Symphonies–D minor; Manuscript copy; CZ-LIa No 174 hud.",
@@ -7653,6 +12823,30 @@
   "verdict": "rejected"
  },
  {
+  "id": "400061304",
+  "genre": "concertos",
+  "label": "Concertos–D major; Manuscript copy; CH-Sa Rz 221/2",
+  "shelfmark": "CH-Sa Rz 221/2",
+  "leads": [
+   {
+    "composer": "Franz, Jacob",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only a fragment inside a Mass Gloria agrees",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "1001276280: composer qualified as Alleged"
+    ],
+    "movement_mismatch": [
+     "1->2"
+    ]
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
   "id": "240007339",
   "genre": "symphonies",
   "label": "Symphonies–F major; Manuscript copy; D-SWl Mus.251",
@@ -7688,6 +12882,28 @@
   "verdict": "rejected"
  },
  {
+  "id": "600241007",
+  "genre": "concertos",
+  "label": "Concertos; Manuscript copy; A-Wn E. M. 156q",
+  "shelfmark": "A-Wn E. M. 156q",
+  "leads": [
+   {
+    "composer": "Führer, Robert (1807-1861)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only a fragment inside a Mass movement agrees",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "4->2"
+    ]
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
   "id": "1001320765",
   "genre": "symphonies",
   "label": "Symphonies–E♭ major; Manuscript copy; CZ-LIa No 174 hud.",
@@ -7704,6 +12920,72 @@
     "attribution_flags": [],
     "movement_mismatch": [
      "3->1"
+    ]
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "850605742",
+  "genre": "concertos",
+  "label": "Concertos–E♭ major; Manuscript copy; I-OS Mss.Mus.B 4667",
+  "shelfmark": "I-OS Mss.Mus.B 4667",
+  "leads": [
+   {
+    "composer": "Gerold, Julius Viktor (1808-1876)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only six pitches, inside a dance, agree",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "1001011669",
+  "genre": "concertos",
+  "label": "Concertos–F major; Manuscript copy; PL-CZ III-928",
+  "shelfmark": "PL-CZ III-928",
+  "leads": [
+   {
+    "composer": "Graun, Carl Heinrich (1704-1759)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only a short cadential figure agrees, inside an aria in another key",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "2->5"
+    ]
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "469304100",
+  "genre": "concertos",
+  "label": "Concertos–D major; Manuscript copy; D-Bsa SA 3041",
+  "shelfmark": "D-Bsa SA 3041",
+  "leads": [
+   {
+    "composer": "Gronau, Daniel Magnus (1700c-1747)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only a transposed fragment of a contrapuntal study agrees",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "302005518: composer qualified as Conjectural"
+    ],
+    "movement_mismatch": [
+     "2->1"
     ]
    }
   ],
@@ -7730,6 +13012,28 @@
   "verdict": "rejected"
  },
  {
+  "id": "190015610",
+  "genre": "concertos",
+  "label": "?Concertos?–A major; Manuscript copy; S-Uu Instr. mus. i hs. 62:4",
+  "shelfmark": "S-Uu Instr. mus. i hs. 62:4",
+  "leads": [
+   {
+    "composer": "Hasse, Johann Adolf (1699-1783)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only six pitches agree, inside an aria from Ezio in another key",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "1->27"
+    ]
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
   "id": "570002608",
   "genre": "symphonies",
   "label": "Symphonies–D major; Manuscript copy; SK-J H-708",
@@ -7746,6 +13050,28 @@
     "attribution_flags": [],
     "movement_mismatch": [
      "3->18"
+    ]
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "600241001",
+  "genre": "concertos",
+  "label": "Concertos; Manuscript copy; A-Wn E. M. 156k",
+  "shelfmark": "A-Wn E. M. 156k",
+  "leads": [
+   {
+    "composer": "Haueisen, Wolfgang Nicolaus (1740-1804)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Melodies differ; only a transposed fragment of an aria agrees",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "2->1"
     ]
    }
   ],
@@ -7816,6 +13142,48 @@
   "verdict": "rejected"
  },
  {
+  "id": "450203600",
+  "genre": "concertos",
+  "label": "Concertos–G major (Excerpts); Manuscript copy; D-Eu Esl VIII 711",
+  "shelfmark": "D-Eu Esl VIII 711",
+  "leads": [
+   {
+    "composer": "Holzbauer, Ignaz (1711-1783)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Melodies differ",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "1->4"
+    ]
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "453001018",
+  "genre": "concertos",
+  "label": "Concertos–F major; Manuscript copy; D-Gs 8|o Cod. Ms. philos. 84|e: Anon. 15b",
+  "shelfmark": "D-Gs 8|o Cod. Ms. philos. 84|e: Anon. 15b",
+  "leads": [
+   {
+    "composer": "Händel, Georg Friedrich (1685-1759)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only repeated notes and a triad agree",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
   "id": "850708125",
   "genre": "symphonies",
   "label": "Symphonies–D major; Manuscript copy; I-Pl ATVb 77",
@@ -7833,6 +13201,26 @@
     "movement_mismatch": [
      "1->11"
     ]
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "454009597",
+  "genre": "concertos",
+  "label": "Concertos–G major; Manuscript copy; D-MT Mus.ms. 227",
+  "shelfmark": "D-MT Mus.ms. 227",
+  "leads": [
+   {
+    "composer": "Kempter, Karl (1819-1871)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Composer born after the copy; no encoded incipit matches",
+    "class": "date-impossible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
    }
   ],
   "verdict": "rejected"
@@ -7858,11 +13246,44 @@
   "verdict": "rejected"
  },
  {
+  "id": "212003573",
+  "genre": "concertos",
+  "label": "Concertos–G major; Manuscript copy; D-Dl Mus.2-O-1,17",
+  "shelfmark": "D-Dl Mus.2-O-1,17",
+  "leads": [
+   {
+    "composer": "Lalande, Michel-Richard de (1657-1726)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only a few pitches of a Credidi agree",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
   "id": "850012465",
-  "genre": "symphonies",
+  "genre": "concertos",
   "label": "Symphonies–D major; Manuscript copy; I-Bsp MS.D.1.9",
   "shelfmark": "I-Bsp MS.D.1.9",
   "leads": [
+   {
+    "composer": "Leo, Leonardo (1694-1744)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Hand review: melodies differ beyond the opening figure",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "603001961: composer qualified as Conjectural"
+    ],
+    "movement_mismatch": []
+   },
    {
     "composer": "Leo, Leonardo (1694-1744)",
     "verdict": "rejected",
@@ -7902,6 +13323,26 @@
   "verdict": "rejected"
  },
  {
+  "id": "190011118",
+  "genre": "concertos",
+  "label": "Concertos–C major; Manuscript copy; S-Skma PO-R",
+  "shelfmark": "S-Skma PO-R",
+  "leads": [
+   {
+    "composer": "Meerts, Lambert-Joseph (1800-1863)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Composer born after the copy; only a transposed étude figure agrees",
+    "class": "date-impossible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
   "id": "469467900",
   "genre": "symphonies",
   "label": "Symphonies–G major; Manuscript copy; D-Bsa SA 4679",
@@ -7913,6 +13354,132 @@
     "attribution": "",
     "prior": "",
     "note": "Only a common scale or arpeggio fragment agrees on inspection",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "1001296431",
+  "genre": "concertos",
+  "label": "Concertos–G major; Manuscript copy; D-ROu Mus. Saec. XVIII-63.8",
+  "shelfmark": "D-ROu Mus. Saec. XVIII-63.8",
+  "leads": [
+   {
+    "composer": "Mergner, Friedrich (1818-1891)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Composer born a century after the copy; only a fragment agrees",
+    "class": "date-impossible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "3->1"
+    ]
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "400014094",
+  "genre": "concertos",
+  "label": "Concertos–F major; Manuscript copy; CH-E 21,22",
+  "shelfmark": "CH-E 21,22",
+  "leads": [
+   {
+    "composer": "Methfessel, Albert (1785-1869)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Melodies differ; only a transposed fragment agrees",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "806549977",
+  "genre": "concertos",
+  "label": "Concertos–F major; Manuscript copy; GB-Mp Ms. 580Ct51 vv.1-6",
+  "shelfmark": "GB-Mp Ms. 580Ct51 vv.1-6",
+  "leads": [
+   {
+    "composer": "Miseroca, Bastiano (16/17)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only a bass figure agrees",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "240007370",
+  "genre": "concertos",
+  "label": "Concertos–E major; Manuscript copy; D-SWl Mus.316",
+  "shelfmark": "D-SWl Mus.316",
+  "leads": [
+   {
+    "composer": "Moniuszko, Stanisław (1819-1872)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Composer born after the copy; only a fragment agrees",
+    "class": "date-impossible",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "1001183979: copied or edited by Rzepko, Władysław (1854-1932); a modern copy, not a period witness"
+    ],
+    "movement_mismatch": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "850027204",
+  "genre": "concertos",
+  "label": "Concertos–C major; Manuscript copy; I-COLbarcella 31@b",
+  "shelfmark": "I-COLbarcella 31@b",
+  "leads": [
+   {
+    "composer": "Müller, Wenzel (1759-1835)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only a fragment of movement II of a Singspiel, in another key and metre, agrees",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "1->2"
+    ]
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "453001017",
+  "genre": "concertos",
+  "label": "Concertos–B♭ major; Manuscript copy; D-Gs 8|o Cod. Ms. philos. 84|e: Anon. 15a",
+  "shelfmark": "D-Gs 8|o Cod. Ms. philos. 84|e: Anon. 15a",
+  "leads": [
+   {
+    "composer": "Orlandini, Giuseppe Maria (1676-1760)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only repeated notes agree",
     "class": "plausible",
     "prior_documentation": [],
     "attribution_flags": [],
@@ -7966,6 +13533,94 @@
   "verdict": "rejected"
  },
  {
+  "id": "850003939",
+  "genre": "concertos",
+  "label": "Concertos–C major; Manuscript copy; I-Nc Musica Strumentale 34-39",
+  "shelfmark": "I-Nc Musica Strumentale 34-39",
+  "leads": [
+   {
+    "composer": "Pistocchi, Francesco Antonio (1659-1726)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "The same ornamented stepwise rise as an aria, but metre and rhythm differ",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "1->4"
+    ]
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "453002236",
+  "genre": "concertos",
+  "label": "Concertos–G major; Manuscript copy; GroF 744; D-KA Mus. Hs. 266",
+  "shelfmark": "D-KA Mus. Hs. 266",
+  "leads": [
+   {
+    "composer": "Plá, Juan Bautista (1720-1773)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only a descending line of repeated notes agrees",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "1001019395: composer qualified as Conjectural"
+    ],
+    "movement_mismatch": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "240007362",
+  "genre": "concertos",
+  "label": "Concertos–C major; Manuscript copy; D-SWl Mus.293",
+  "shelfmark": "D-SWl Mus.293",
+  "leads": [
+   {
+    "composer": "Rauzzini, Venanzio (1746-1810)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only fragments inside a sonata in another key agree",
+    "class": "strong",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "2->1"
+    ]
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "1001225027",
+  "genre": "concertos",
+  "label": "Concertos–F major; Manuscript copy; D-Mbs Mus.Schott.As 938",
+  "shelfmark": "D-Mbs Mus.Schott.As 938",
+  "leads": [
+   {
+    "composer": "Resch, L. György",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only a transposed fragment inside an Ave Maria agrees",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "2->1"
+    ]
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
   "id": "850605102",
   "genre": "symphonies",
   "label": "Symphonies–C major; Manuscript copy; I-OS Mss.Mus.B 4595",
@@ -7988,6 +13643,70 @@
   "verdict": "rejected"
  },
  {
+  "id": "850807553",
+  "genre": "concertos",
+  "label": "Concertos–C major; Manuscript copy; I-MTc A47",
+  "shelfmark": "I-MTc A47",
+  "leads": [
+   {
+    "composer": "Rietz, Julius (1812-1877)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Composer born after the copy; no encoded incipit matches",
+    "class": "date-impossible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "340000399",
+  "genre": "concertos",
+  "label": "Concertos–C minor; Manuscript copy; J-Tk S13-178",
+  "shelfmark": "J-Tk S13-178",
+  "leads": [
+   {
+    "composer": "Rungger, Joseph (1846+)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only seven pitches, in another key and metre, agree",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "1->2"
+    ]
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "806549975",
+  "genre": "concertos",
+  "label": "Concertos–D major; Manuscript copy; GB-Mp Ms. 580Ct51 vv.1-6",
+  "shelfmark": "GB-Mp Ms. 580Ct51 vv.1-6",
+  "leads": [
+   {
+    "composer": "Sacchini, Antonio (1730-1786)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Melodies and rhythm differ on inspection",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "4->2"
+    ]
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
   "id": "1001109262",
   "genre": "symphonies",
   "label": "Symphony–G major; Manuscript copy; PL-SA 524.1/A IX 4",
@@ -8003,6 +13722,50 @@
     "prior_documentation": [],
     "attribution_flags": [],
     "movement_mismatch": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "400014095",
+  "genre": "concertos",
+  "label": "Concertos–G major; Manuscript copy; CH-E 21,24",
+  "shelfmark": "CH-E 21,24",
+  "leads": [
+   {
+    "composer": "Seidel, Franz",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only a transposed fragment of a vocal piece in another metre agrees",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "1->3"
+    ]
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "240007386",
+  "genre": "concertos",
+  "label": "Concertos–D major; Manuscript copy; D-SWl Mus.301",
+  "shelfmark": "D-SWl Mus.301",
+  "leads": [
+   {
+    "composer": "Telemann, Georg Philipp (1681-1767)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only a generic figure agrees with an aria in another key",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [
+     "1->2"
+    ]
    }
   ],
   "verdict": "rejected"
@@ -8047,6 +13810,86 @@
     "movement_mismatch": [
      "1->2"
     ]
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "600241015",
+  "genre": "concertos",
+  "label": "Concertos–E minor; Manuscript copy; A-Wn E. M. 157g",
+  "shelfmark": "A-Wn E. M. 157g",
+  "leads": [
+   {
+    "composer": "Verdú y Landívar, José (19/20)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only repeated notes agree",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "150204727",
+  "genre": "concertos",
+  "label": "Concertos; Manuscript copy; DK-Kk (mu 7501.2335)",
+  "shelfmark": "DK-Kk (mu 7501.2335)",
+  "leads": [
+   {
+    "composer": "Vinci, Leonardo (1696c-1730)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only a descending scale in repeated notes agrees, inside an excerpt in another key",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "240004852",
+  "genre": "concertos",
+  "label": "Concertos–D major; Manuscript copy; D-SWl Mus.5321/1",
+  "shelfmark": "D-SWl Mus.5321/1",
+  "leads": [
+   {
+    "composer": "Vivaldi, Antonio (1678-1741)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only a scale and arpeggio fragment, transposed, agrees",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "806250192",
+  "genre": "concertos",
+  "label": "Concertos–C major; Manuscript copy; Hob XVIII:5; GB-Lbl Add. 50138",
+  "shelfmark": "GB-Lbl Add. 50138",
+  "leads": [
+   {
+    "composer": "Vivaldi, Antonio (1678-1741)",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only five pitches agree",
+    "class": "known",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": []
    }
   ],
   "verdict": "rejected"
