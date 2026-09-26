@@ -176,14 +176,58 @@ def work_title(label):
     return " ".join(_words(t))
 
 
-def same_work_title(a_label, b_label):
-    """The anonymous record's title already names the work of the attributed copy. For a work with
-    one known composer the match then adds little; for a libretto set by many composers
-    (Didone, Artaserse) it decides whose setting this is."""
-    a, b = work_title(a_label), work_title(b_label)
-    generic = {"operas", "arias", "symphonies", "concertos", "sonatas", "overtures", "variations", "songs", "duets",
-               "potpourris", "fantasies", "marches", "waltzes", "dances", "pieces", "divertimentos", "quartets", ""}
-    return bool(a) and a == b and a not in generic
+ARTICLES = {"le", "la", "les", "l", "il", "lo", "i", "gli", "der", "die", "das", "the", "a", "an", "un", "une"}
+GENERIC = {"operas", "arias", "symphonies", "concertos", "sonatas", "overtures", "variations", "songs", "duets",
+           "potpourris", "fantasies", "marches", "waltzes", "dances", "pieces", "divertimentos", "quartets", ""}
+
+
+def _core(title):
+    words = work_title(title).split()
+    while words and words[0] in ARTICLES:
+        words = words[1:]
+    return " ".join(words)
+
+
+def source_titles(src):
+    """The record's display title, standardized title, title on source and additional titles."""
+    out = [rism.label(src)]
+    for item in (src.get("contents") or {}).get("summary", []):
+        if (item.get("label") or {}).get("en", [""])[0] in ("Standardized title", "Title on source", "Additional title"):
+            out += (item.get("value") or {}).get("none", []) or []
+    return out
+
+
+def _aliases():
+    import csv
+    import os
+    path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "work_aliases.csv")
+    groups = {}
+    if os.path.exists(path):
+        with open(path) as f:
+            for r in csv.DictReader(f):
+                a, b = _core(r["title"]), _core(r["same_as"])
+                g = groups.get(a) or groups.get(b) or {a, b}
+                g |= {a, b}
+                for t in g:
+                    groups[t] = g
+    return groups
+
+
+def same_work_title(anon_src, comp_src):
+    """Does the anonymous record's title already name the attributed copy's work? Compares the
+    anonymous title with every title the attributed record carries (standardized, as written on
+    the source, additional), and with the reviewed alternative titles in data/work_aliases.csv.
+    This prompts a review; it does not by itself settle that the work has one composer."""
+    a = _core(rism.label(anon_src).split(";")[0])
+    if not a or a in GENERIC:
+        return False
+    aliases = _aliases().get(a, {a})
+    for t in source_titles(comp_src):
+        core = _core(t.split(";")[0]) if ";" in t else " ".join(_words(t))
+        padded = f" {core} "
+        if any(x == core or f" {x} " in padded for x in aliases if x):
+            return True
+    return False
 
 
 def text_agreement(a, b):

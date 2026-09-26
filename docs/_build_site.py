@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {{
 </script>"""
 
 LABELS = {"confirmed": "Same music", "probable": "Probably same music", "unresolved": "Unresolved", "rejected": "Rejected"}
-ATTRIBUTION = {"secure": "", "disputed": "Composer disputed", "uncertain": "Attribution uncertain",
+ATTRIBUTION = {"secure": "", "shared": "Work by several composers", "disputed": "Composer disputed", "uncertain": "Attribution uncertain",
                "name-only": "Surname only", "modern-copy": "Attribution from a modern copy"}
 PRIOR = {"new": "", "anonymous-record": "Already named in the record", "comparator-record": "Already noted by RISM"}
 SHOWN = ("confirmed", "probable", "unresolved")
@@ -150,7 +150,10 @@ def record_page(r):
     for lead in r["leads"]:
         if lead["verdict"] not in SHOWN:
             continue
-        parts.append(f"<h2>{html.escape(lead['composer'])}</h2><p>{badges(lead)}</p><p>{html.escape(lead['note'])}</p>")
+        heading = html.escape(lead.get("identity") or lead["composer"])
+        if lead.get("identity"):
+            heading += f" <span class='where'>(RISM heading: {html.escape(lead['composer'])})</span>"
+        parts.append(f"<h2>{heading}</h2><p>{badges(lead)}</p><p>{html.escape(lead['note'])}</p>")
         flags = [f"Already noted in RISM {html.escape(d['source'])}" for d in lead["prior_documentation"]]
         flags += [html.escape(f) for f in lead["attribution_flags"]]
         flags += [f"Anonymous record: {html.escape(f)}" for f in lead.get("anonymous_record_authorship", [])]
@@ -191,7 +194,7 @@ def build():
         if r["verdict"] in SHOWN:
             (DOCS / "r" / f"{r['id']}.html").write_text(record_page(r))
             work = matched_work(lead)
-            names = " / ".join(html.escape(x["composer"]) for x in r["leads"] if x["verdict"] == r["verdict"])
+            names = " / ".join(html.escape(x.get("identity") or x["composer"]) for x in r["leads"] if x["verdict"] == r["verdict"])
             rows.append("<tr>"
                         f'<td><a href="r/{r["id"]}.html"><b>{html.escape(r["shelfmark"])}</b></a><br>'
                         f'<span class="where">{html.escape(r["label"].split(";")[0])} · <a href="{RISM}{r["id"]}">RISM {r["id"]}</a></span></td>'
@@ -240,6 +243,7 @@ def build():
         '<div class="scroll"><table class="idx sortable"><tr><th data-col="0">Subject</th><th data-col="1">Anonymous with incipits</th>'
         '<th>Leads reviewed</th><th>Found</th><th>Status</th></tr>' + "".join(burn) + "</table></div>"
         f'<p class="where">Also: <a href="concordances.html">{sum(1 for c in conc if c["verdict"] in ("same", "probable"))} pairs of anonymous copies</a> '
+        f'({sum(1 for c in conc if c["verdict"] in ("same", "probable") and not c.get("already_documented"))} not yet linked in RISM) '
         'that agree with each other on two or more incipits, reviewed by eye. These group copies of one work without naming its composer.</p>'
         f'<details><summary>{len(other)} anonymous copies whose leads were reviewed and rejected</summary>'
         '<div class="scroll"><table class="idx"><tr><th>Anonymous copy</th><th>Lead</th><th>Verdict</th><th>Reason</th></tr>'
@@ -250,6 +254,7 @@ def build():
         f'<tr><td><a href="{RISM}{c["a"]}">{html.escape(c["a_label"])}</a></td><td><a href="{RISM}{c["b"]}">{html.escape(c["b_label"])}</a></td>'
         f'<td>{"; ".join(html.escape(m["a"].split(" ")[0] + " = " + m["b"].split(" ")[0]) for m in c["incipits"][:6])}</td>'
         f'<td><span class="badge {"confirmed" if c["verdict"] == "same" else "probable"}">{"Same music" if c["verdict"] == "same" else "Probably same music"}</span>'
+        f'{" <span class=\"badge flag\">Already linked in RISM</span>" if c.get("already_documented") else ""}'
         f'<br><span class="where">{html.escape(c["note"])}</span></td></tr>' for c in shown_conc)
     (DOCS / "concordances.html").write_text(page(
         "Anonymous concordances · RISM attributions",

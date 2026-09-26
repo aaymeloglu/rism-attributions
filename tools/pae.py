@@ -30,15 +30,19 @@ def expand_groups(data):
 
 def measures(data, ks="", graces=False):
     """Pitches (MIDI numbers) per measure, with `i` measure repeats expanded. Grace notes are
-    dropped unless graces=True (one copy may write out an ornament another writes as graces)."""
-    km, oc, out, cur = keymap(ks), 4, [], []
+    dropped unless graces=True (one copy may write out an ornament another writes as graces).
+
+    An accidental holds for the same pitch letter in the same octave until the end of the measure
+    (https://plaine-and-easie.info/v2/#accidentals); a barline or a key-signature change clears it.
+    """
+    km, oc, out, cur, bar = keymap(ks), 4, [], [], {}
     acc, grace, ingroup, chord = None, False, False, False
     s, i = expand_groups(data), 0
     while i < len(s):
         ch = s[i]
         if ch == "/":
             out.append(cur)
-            cur = []
+            cur, bar = [], {}
             while i < len(s) and s[i] in "/:":
                 i += 1
             continue
@@ -56,7 +60,7 @@ def measures(data, ks="", graces=False):
         if ch in "%$@":  # clef, key signature or time signature change
             m = CHANGE[ch].match(s, i)
             if ch == "$" and m:
-                km = keymap(m.group(0)[1:])
+                km, bar = keymap(m.group(0)[1:]), {}
             i = m.end() if m else i + 1
             continue
         if ch == "x":
@@ -92,7 +96,9 @@ def measures(data, ks="", graces=False):
             i += 1
             continue
         if ch in STEP:
-            a = acc if acc is not None else km.get(ch, 0)
+            if acc is not None:
+                bar[(ch, oc)] = acc
+            a = bar.get((ch, oc), km.get(ch, 0))
             if (graces or not (grace or ingroup)) and not chord:
                 cur.append(12 * (oc + 1) + STEP[ch] + a)
             grace = chord = False

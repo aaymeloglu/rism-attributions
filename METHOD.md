@@ -21,7 +21,9 @@ Anonymus count; RISM's Anonymus list also contains records that merely cross-ref
    that no other named composer matches, provided two or more of the composer's copies match or
    the search returned at most two hits. For each lead the script records:
    - per incipit, every attributed incipit that agrees with it, best first, both from the start
-     and with one incipit starting partway into the other (a part entering after rests); among
+     and with one incipit starting partway into the other (a part entering after rests). The
+     reported match is the best witness that counts, so a longer agreement that fails the
+     figuration test cannot hide a shorter one that passes; failing witnesses stay listed. Among
      equally long agreements a same-key, same-instrument witness ranks first;
    - each incipit by RISM's own label, instrument and text incipit. No movement numbers are
      computed: RISM's numbering mixes movements, sections, instrumental parts and separate
@@ -32,7 +34,9 @@ Anonymus count; RISM's Anonymus list also contains records that merely cross-ref
      whether the attribution is qualified (conjectural, alleged, doubtful), cross-referenced to
      other composers, a bare surname, or carried only by a modern copy; what the anonymous
      record itself says about authorship; whether the matched incipit is labelled as a vocal
-     number; whether the text incipits differ (a contrafactum); whether any match is in a
+     number; whether the text incipits differ (a contrafactum); whether the anonymous title already names the
+     attributed copy's work, checked against every title the attributed record carries (standardized,
+     on the source, additional) and the sourced alternative titles in `data/work_aliases.csv`; whether any match is in a
      different key; whether RISM's title key disagrees with the encoded key signature;
    - the composer's dates against the copy's, and which other composers a five-bar re-search
      returns.
@@ -50,7 +54,7 @@ Anonymus count; RISM's Anonymus list also contains records that merely cross-ref
 
 `tools/pae.py` reduces an incipit to a pitch sequence: rhythm, rests, ties, grace notes and all
 but the first note of a chord are dropped, measure repeats (`i`) and repeated groups (`!...!f`)
-are expanded, repeated pitches are collapsed, and sequences are compared by interval so a
+are expanded, an accidental holds for that pitch and octave to the end of the measure, repeated pitches are collapsed, and sequences are compared by interval so a
 transposed copy still agrees. Each pair is compared with grace notes dropped and kept, since one
 copy may write out an ornament that another writes as graces. A stretch that is mostly
 broken-chord or tremolo figuration (runs of four or more same-size intervals alternating in
@@ -82,6 +86,7 @@ finding are different questions.
 | uncertain | The attribution is qualified (conjectural, doubtful) or itself unverified. |
 | name-only | The attributed copy gives only a surname. |
 | modern-copy | The attribution rests on a copy made after 1850. |
+| shared | The work had several composers (acts or sections by different hands); the match identifies the work, and the note says whether the number's own composer is settled. |
 | work-only | The match identifies the work or number (a pasticcio or ballad opera catalogued under "Compilations"), not a composer. |
 
 **prior** (is the concordance new?)
@@ -92,6 +97,9 @@ finding are different questions.
 | anonymous-record | The anonymous record already names the composer or the catalogue number. |
 | comparator-record | An attributed copy's record already cites the anonymous copy. |
 | title-names-work | The anonymous title already names the work, and that work has one known composer. When the title is a libretto set by many composers, the find stays new and the note says whose setting it is. |
+
+When RISM's heading on the attributed copy names the wrong person (a father for his son), the
+reviewed composer goes in `identity`; `composer` keeps RISM's heading, and the site shows both.
 
 The note says what matched, in the records' own terms: which incipits, which incipit of the
 attributed copy (by RISM number and title), and what that is (an overture, an aria, a keyboard
@@ -115,7 +123,9 @@ existed.
 Pairs of anonymous sources whose incipits agree, both from the start, on two or more
 differently numbered incipits are candidates. Each gets a verdict in
 `data/concordance_verdicts.csv` (same, probable, rejected) after comparison by eye; only same
-and probable pairs are published, and a rejected pair stays rejected on regeneration.
+and probable pairs are published, and a rejected pair stays rejected on regeneration. Pairs whose records already point at each other
+(RISM's related-source links, or a note citing the other copy) are marked as already linked:
+verified, not new.
 
 ## Limits
 

@@ -7,6 +7,7 @@ attribution counted as secure, and a match with a different movement described a
 """
 import csv
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -188,10 +189,78 @@ def test_pae_parser():
     assert len(pitches("'4ABAG/i/i/", "n")) == len(pitches("'4ABAG/ABAG/ABAG/", "n")) == 12, "measure repeat"
     assert pitches("!{6'B''B}!ff/", "bBE") == [70, 82] * 3, "repeated group: once plus one per f"
     assert pitches("'4Dqq6{EDC}r8E", "xFC") == [62, 64] and pitches("'4Dqq6{EDC}r8E", "xFC", graces=True) == [62, 64, 62, 61, 64]
+    assert pitches("'4xFF/F", "n") == [66, 66, 65], "an accidental holds to the end of the measure"
+    assert pitches("'4xFF''F", "n") == [66, 66, 77], "only in the same octave"
+    assert pitches("'4nBB/B", "bBE") == [71, 71, 70] and pitches("'4xF$bBE F", "n") == [66, 65]
     assert pitches("@3/4 %C-1'4CDE", "n") == [60, 62, 64] and pitches("$bBE'4B", "n") == [70]
     late = pitches("=4/''GF/AG/{6FGFE}{DC'BnA}/4B-/", "bBEA")
     full = pitches("{8.6'B''E8'BB}/B4G8A/B4E8F/{G-E}-/4''GF/AG/{6FGFE}{DC'BnA}/4", "bBEA")
     assert sim(late, full) < 3 and anchored(late, full)[0] >= 12, "a part entering after rests still matches"
+
+
+def test_best_eligible_witness_wins():
+    """A longer agreement that fails the figuration test must not hide a shorter one that passes."""
+    from leads import compare, matches
+    anon = {"inc": "1.1.1", "voice": "vl 1", "keysig": "n", "timesig": "c", "text": "",
+            "data": "''8CECE/CECE/CECE/CECE/DGAB/''C'BAG/FEDC"}
+    tremolo = ("1", [{"inc": "1.1.1", "voice": "vl 1", "keysig": "n", "timesig": "c", "text": "",
+                      "data": "''8CECE/CECE/CECE/CECE/CECE/CECE/CECE"}])
+    melody = ("2", [{"inc": "1.1.1", "voice": "vl 1", "keysig": "n", "timesig": "c", "text": "",
+                     "data": "''8E/DGAB/''C'BAG/FEDC/"}])
+    best = compare(anon, [tremolo, melody])
+    assert best["source"] == "2" and matches(best), best
+    assert any(w["source"] == "1" for w in best.get("failed_witnesses", [])), "failing witness stays visible"
+
+
+def test_verdict_helper_instances_do_not_clobber(tmp_path):
+    """Two Verdicts instances saving in turn must keep both sets of edits."""
+    import shutil
+    from verdict import Verdicts
+    path = tmp_path / "v.csv"
+    shutil.copy(ROOT / "data" / "verdicts.csv", path)
+    cwd = os.getcwd()
+    os.chdir(ROOT)
+    try:
+        a, b = Verdicts("symphonies", str(path)), Verdicts("concertos", str(path))
+        ka, kb = next(iter(a.rows)), next(k for k, r in b.rows.items() if r["genre"] == "concertos")
+        a.set(ka[0], ka[1], "rejected", "edit A")
+        b.set(kb[0], kb[1], "rejected", "edit B")
+        a.save()
+        b.save()
+        with open(path) as f:
+            notes = {(r["anon_id"], r["composer"]): r["note"] for r in csv.DictReader(f)}
+        assert notes[ka] == "edit A" and notes[kb] == "edit B"
+    finally:
+        os.chdir(cwd)
+
+
+def test_identity_corrections_are_explained():
+    for r in verdict_rows():
+        if r["identity"]:
+            assert r["identity"] != r["composer"], r["anon_id"]
+            assert re.search(r"heading", r["note"], re.I), (r["anon_id"], "say that RISM's heading is wrong and why")
+
+
+def test_title_naming_a_work_set_by_several_composers():
+    """'title-names-work' means the title names a work with one known composer. If the dataset
+    itself matches that title to two composers, the category cannot apply to it. Leads marked
+    'shared' (a joint work, e.g. by two brothers) are not competing settings and are left out."""
+    import context
+    L = leads()
+    by_title = {}
+    for r, e in kept():
+        if e.get("title_names_work") and r["attribution"] != "shared":
+            by_title.setdefault(context._core(e["label"].split(";")[0]), set()).add(r["identity"] or r["composer"])
+    for r, e in kept():
+        if e.get("title_names_work") and r["prior"] == "title-names-work":
+            composers = by_title.get(context._core(e["label"].split(";")[0]), set())
+            assert len(composers) <= 1, (r["anon_id"], composers, "several composers set this title")
+
+
+def test_documented_concordances_say_so():
+    for c in json.loads((ROOT / "data" / "anonymous_concordances.json").read_text()):
+        if c.get("already_documented") and c["verdict"] != "rejected":
+            assert re.search(r"already|cross-referenc", c["note"], re.I), (c["a"], c["b"], "the records already point at each other")
 
 
 def test_no_local_paths_or_secrets():

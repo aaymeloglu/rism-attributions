@@ -76,7 +76,10 @@ def concordance_candidates():
                 nums_a = {m["a"].split(" ")[0].rsplit(".", 1)[0] for m in agree}
                 nums_b = {m["b"].split(" ")[0].rsplit(".", 1)[0] for m in agree}
                 if len(nums_a) >= 2 and len(nums_b) >= 2:
-                    pairs[key] = {"a": key[0], "a_label": rism.label(a), "b": key[1], "b_label": rism.label(b), "incipits": agree}
+                    documented = [t for _, t in context.prior_documentation(key[0], a, [(key[1], b)])]
+                    documented += [t for _, t in context.prior_documentation(key[1], b, [(key[0], a)])]
+                    pairs[key] = {"a": key[0], "a_label": rism.label(a), "b": key[1], "b_label": rism.label(b),
+                                  "incipits": agree, "already_documented": bool(documented)}
     return [pairs[k] for k in sorted(pairs)]
 
 
@@ -98,7 +101,7 @@ def main():
             rec = records.setdefault(lead["anon"], {
                 "id": lead["anon"], "genre": slug, "label": rism.label(src),
                 "shelfmark": rism.label(src).split(";")[-1].strip(), "leads": []})
-            entry = {"composer": lead["composer"], "verdict": v["verdict"], "attribution": v["attribution"],
+            entry = {"composer": lead["composer"], "identity": v.get("identity", ""), "verdict": v["verdict"], "attribution": v["attribution"],
                      "prior": v["prior"], "note": v["note"], "class": lead["class"],
                      "prior_documentation": lead["prior_documentation"], "attribution_flags": lead["attribution_flags"],
                      "internal_matches": lead["internal_matches"],
@@ -118,6 +121,7 @@ def main():
     for c in concordance_candidates():
         v = cv.get((c["a"], c["b"]))
         conc.append({**c, "verdict": v["verdict"] if v else "unreviewed", "note": v["note"] if v else ""})
+    # A pair RISM already links is a verified concordance, not a new one; the site says which.
     with open("data/anonymous_concordances.json", "w") as f:
         json.dump(conc, f, ensure_ascii=False, indent=1)
     counts = {v: sum(1 for r in out if r["verdict"] == v) for v in VERDICTS}
