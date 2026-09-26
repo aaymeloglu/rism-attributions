@@ -82,6 +82,7 @@ finding are different questions.
 | uncertain | The attribution is qualified (conjectural, doubtful) or itself unverified. |
 | name-only | The attributed copy gives only a surname. |
 | modern-copy | The attribution rests on a copy made after 1850. |
+| work-only | The match identifies the work or number (a pasticcio or ballad opera catalogued under "Compilations"), not a composer. |
 
 **prior** (is the concordance new?)
 
@@ -90,6 +91,7 @@ finding are different questions.
 | new | Neither record notes the other copy. |
 | anonymous-record | The anonymous record already names the composer or the catalogue number. |
 | comparator-record | An attributed copy's record already cites the anonymous copy. |
+| title-names-work | The anonymous title already names the work, and that work has one known composer. When the title is a libretto set by many composers, the find stays new and the note says whose setting it is. |
 
 The note says what matched, in the records' own terms: which incipits, which incipit of the
 attributed copy (by RISM number and title), and what that is (an overture, an aria, a keyboard

@@ -10,28 +10,32 @@ The results, with each anonymous copy's movements rendered next to the attribute
 
 ## Results so far (26 September 2026)
 
-| | Symphonies | Concertos |
-|---|---|---|
-| Anonymous sources with incipits searched | 878 | 899 |
-| Anonymous sources with a lead, reviewed | 119 | 97 |
-| Same music as an attributed copy | 66 | 39 |
-| of which new, with a single unqualified attribution | 52 | 29 |
-| of which new, but the composer is disputed, uncertain, a bare surname or known only from a modern copy | 6 | 2 |
-| of which already noted in RISM | 8 | 8 |
-| Probably the same music (transposed, arranged, partial, or part of a vocal work) | 17 | 15 |
-| Unresolved | 5 | 4 |
-| Rejected | 31 | 39 |
+| | Symphonies | Concertos | Operas |
+|---|---|---|---|
+| Anonymous sources with incipits searched | 878 | 899 | 1,771 |
+| Anonymous sources with a lead, reviewed | 119 | 97 | 174 |
+| Same music as an attributed copy | 66 | 39 | 84 |
+| of which new, with a single unqualified attribution | 52 | 29 | 27 |
+| of which new, but the composer is disputed, uncertain, a bare surname, a modern copy or a compilation | 6 | 2 | 5 |
+| of which the anonymous title already names the work (one known composer) | 0 | 0 | 34 |
+| of which already noted in RISM | 8 | 8 | 18 |
+| Probably the same music (transposed, arranged, partial, or part of a vocal work) | 17 | 15 | 23 |
+| Unresolved | 5 | 4 | 5 |
+| Rejected | 31 | 39 | 62 |
 
-A source with leads in both genres is counted once, under concertos. Eleven symphony and eight
+A source with leads in more than one genre is counted once. Eleven symphony and eight
 concerto matches agree on two or more incipits that RISM numbers differently; the rest rest on a
 single encoded incipit. Many
 anonymous "symphonies" turn out to be opera overtures (Galuppi, Sacchini, Mysliveček, Cimarosa,
 Paisiello, Naumann's *La clemenza di Tito*), single movements of larger works, or arrangements.
 The concertos include Weber's Clarinet Concertino and Rosetti's clarinet concerto MurR C62 (both
 written for B-flat clarinet, a whole tone above concert pitch), Mozart's K. 175 and a run of
-Giuseppe Sammartini concertos in the British Library's Royal Music collection. Twenty-six pairs
+Giuseppe Sammartini concertos in the British Library's Royal Music collection. Among the operas,
+many anonymous arias turn out to be one composer's setting of a much-set libretto (Hasse's
+*Didone abbandonata*, Sarri's, Perez's), German or Latin versions of Italian numbers (*Una cosa rara*,
+a Hasse aria with the Latin words "Veni mi Jesu care"), or arias a composer reused in another opera. Twenty-eight pairs
 of anonymous copies agree with each other from the start of two or more differently numbered
-incipits; each was compared by eye (23 same music, 3 probable) and they are listed on the site as
+incipits; each was compared by eye (25 same music, 3 probable) and they are listed on the site as
 [anonymous concordances](https://aaymeloglu.github.io/rism-attributions/concordances.html).
 
 A match means RISM holds an attributed copy of the same music. It does not settle a disputed

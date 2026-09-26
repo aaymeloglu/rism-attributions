@@ -145,6 +145,76 @@
   "note": "The encoded incipits agree on 3 sections. Both copies are in the same library, perhaps catalogued together there."
  },
  {
+  "a": "1001319606",
+  "a_label": "Atala (Arrangement); Manuscript copy; I-Rig MS MUS Rost 299 a",
+  "b": "1001319719",
+  "b_label": "Atala (Excerpts, Arrangement); Possible autograph manuscript; I-Rig MS MUS Rost 299 b",
+  "incipits": [
+   {
+    "a": "1.8.1 Atto 2.do Preludio | And.te un poco mosso e molto mesto",
+    "b": "1.1.1 Atto II | (Preludio) | Andante un poco mosso e mesto molto",
+    "pitches": 16
+   },
+   {
+    "a": "1.9.1 Scena 1.ma Preghiera",
+    "b": "1.2.1 Pablo | Scena Prima | Preghiera | Andante Religioso poco mosso",
+    "pitches": 15
+   },
+   {
+    "a": "1.10.1 Scena III [sic] | Pablo Solo",
+    "b": "1.3.1 Scena III [sic] | Pablo Solo | Andante Maestoso",
+    "pitches": 12
+   },
+   {
+    "a": "1.12.1 Parte 2.da Scena 1.a [sic] | Preludio | And.te mosso agitato | quasi All.o mod.to",
+    "b": "1.5.1 Parte 2.da Scena 1.a [sic] | Atto II Preludio | And.te mosso agitato | quasi Allegro moderato",
+    "pitches": 12
+   },
+   {
+    "a": "1.13.1 Barcarola",
+    "b": "1.6.1 Barcarola",
+    "pitches": 21
+   },
+   {
+    "a": "1.14.1 Canzone dell'Esiliato | And.no",
+    "b": "1.7.1 Canzone dell'Esiliato | Andantino",
+    "pitches": 15
+   },
+   {
+    "a": "1.14.1 Canzone dell'Esiliato | And.no",
+    "b": "1.7.2",
+    "pitches": 8
+   },
+   {
+    "a": "1.14.2",
+    "b": "1.7.1 Canzone dell'Esiliato | Andantino",
+    "pitches": 8
+   },
+   {
+    "a": "1.14.2",
+    "b": "1.7.2",
+    "pitches": 12
+   },
+   {
+    "a": "1.15.1 Duetto d'Amore | And.te mosso molto espressivo",
+    "b": "1.8.1 Duetto d'Amore | Andante mosso molto espressivo",
+    "pitches": 12
+   },
+   {
+    "a": "1.16.2",
+    "b": "1.3.1 Scena III [sic] | Pablo Solo | Andante Maestoso",
+    "pitches": 10
+   },
+   {
+    "a": "1.17.1 Aria drammatica | And.te mosso quasi All.o",
+    "b": "1.5.1 Parte 2.da Scena 1.a [sic] | Atto II Preludio | And.te mosso agitato | quasi Allegro moderato",
+    "pitches": 12
+   }
+  ],
+  "verdict": "same",
+  "note": "The encoded incipits agree on 5 sections. Both copies are in the same library; one is a possible autograph."
+ },
+ {
   "a": "1001364687",
   "a_label": "Symphonies–E♭ major; Manuscript copy; PL-CZ III-984",
   "b": "300000470",
@@ -653,5 +723,25 @@
   ],
   "verdict": "probable",
   "note": "Incipits 1.2.1 and 1.3.1 agree; one copy is catalogued as a concerto, the other as a sonata in D minor."
+ },
+ {
+  "a": "600500059",
+  "a_label": "Huldigungsfestspiel; Manuscript copy; A-Wn Mus. Hs. 1069",
+  "b": "600500441",
+  "b_label": "Operas; Manuscript copy; A-Wn Mus. Hs. 1066",
+  "incipits": [
+   {
+    "a": "1.1.1 Sinfonia. Allegro assai e staccato",
+    "b": "1.1.1 Sinfonia. Allegro assai e staccato",
+    "pitches": 8
+   },
+   {
+    "a": "1.2.2 Allegro",
+    "b": "1.2.2 Allegro",
+    "pitches": 9
+   }
+  ],
+  "verdict": "same",
+  "note": "The encoded incipits agree on 2 sections. Both copies are in the same library."
  }
 ]
