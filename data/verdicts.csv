@@ -8,7 +8,7 @@ symphonies,1001067396,"Röllig, Johann Christian (1716-1780c)",confirmed,dispute
 symphonies,1001109262,"Schuster, Joseph (1748-1812)",rejected,,,"Fewer than six pitches agree, from the start or with one incipit entering partway into the other"
 symphonies,1001220449,"Pichl, Václav (1741-1805)",confirmed,secure,new,"Anonymous copy encodes opening chords bottom-up, which lowers the automatic note count"
 symphonies,1001247888,"Vanhal, Johann Baptist (1739-1813)",confirmed,secure,new,"The one encoded movement matches: Symphonies–D major (RISM 280002186, 1.1.1 Allegro con brio)."
-symphonies,1001247889,"Dittersdorf, Carl Ditters von (1739-1799)",rejected,,,"Fewer than six pitches agree, from the start or with one incipit entering partway into the other"
+symphonies,1001247889,"Dittersdorf, Carl Ditters von (1739-1799)",probable,secure,new,"Same melody a whole tone higher than a Dittersdorf symphony in C (RISM 1001034975), with its grace note written out: a transposed copy."
 symphonies,1001302469,"Beethoven, Ludwig van (1770-1827)",rejected,,,Only a common scale or arpeggio fragment agrees on inspection
 symphonies,1001320765,"Gazzaniga, Giuseppe (1743-1818)",rejected,,,Only a common scale or arpeggio fragment agrees on inspection
 symphonies,1001320767,"Fodor, Josephus (1751-1828)",rejected,,,Only a common scale or arpeggio fragment agrees on inspection
@@ -38,10 +38,10 @@ symphonies,300257516,"Pichl, Václav (1741-1805)",confirmed,secure,new,"The one 
 symphonies,300257653,"Pichl, Václav (1741-1805)",confirmed,secure,new,"The one encoded movement matches: Symphonies–F major (RISM 550248218, 1.1.1 Allegro)."
 symphonies,301002142,"Graun, Carl Heinrich (1704-1759)",confirmed,secure,new,"Movement I of 3 encoded match: Ifigenia in Aulide (Arrangement) (RISM 1001054467, 1.1.1 Sinfonia. Allegro)."
 symphonies,302002415,"Hiller, Johann Adam (1728-1804)",confirmed,secure,new,Overture to the opera Der lustige Schuster
-symphonies,400003780,"Formichi, Pietro (1829-1913)",rejected,,,"Fewer than six pitches agree, from the start or with one incipit entering partway into the other"
+symphonies,400003780,"Formichi, Pietro (1829-1913)",rejected,,,"Only a descending D-major arpeggio agrees, inside a much later incipit"
 symphonies,400003938,"Pokorný, Franz Xaver (1729-1794)",confirmed,secure,new,"Matches a Pokorný autograph (AngP D62) in the Eisenmann collection, which cross-references Angelus Anton Eisenmann."
 symphonies,400003941,"Cimarosa, Domenico (1749-1801)",confirmed,secure,new,"The one encoded movement matches: Giunio Bruto (RISM 850008382, 1.1.1 Sinfonia. Allegro con brio)."
-symphonies,400003944,"Schmittbauer, Joseph Aloys (1718-1809)",confirmed,secure,new,Identical once the repeated group (!...!f) is expanded; the earlier parser dropped it.
+symphonies,400003944,"Schmittbauer, Joseph Aloys (1718-1809)",probable,secure,new,"Identical in rhythm and grace notes once the repeated group is expanded, but the opening is repeated Ds with a neighbour-note figure, too little melody to count as the same music on its own."
 symphonies,400007387,"Cavalli, Francesco (1602-1676)",rejected,,,"Only a contour fragment agrees, in a different metre; not rejected on the composer's dates alone."
 symphonies,400007392,"Toeschi, Carl Joseph (1731-1788)",confirmed,secure,new,"Movement I of 3 encoded match: Symphonies–A major (RISM 140044, 1.1.1 Allegro)."
 symphonies,400014396,"Risi, Paolo (18.sc)",confirmed,secure,new,"The one encoded movement matches: Symphonies–E♭ major (RISM 850002239, 1.1.1 Allegro)."
@@ -77,8 +77,8 @@ symphonies,530012629,"Sacchini, Antonio (1730-1786)",confirmed,secure,new,"The o
 symphonies,530012636,"Richter, Franz Xaver (1709-1789)",confirmed,secure,new,"The one encoded movement matches: Symphonies–C major (RISM 603000365, 1.1.1 Allegro)."
 symphonies,530012639,"Wagenseil, Georg Christoph (1715-1777)",confirmed,secure,new,"The one encoded movement matches: Symphonies–D major (RISM 706000763, 1.1.1 Allegro assai)."
 symphonies,553001702,"Herpol, Homer (1520c-1573c)",rejected,,,No encoded incipit matches; not rejected on the composer's dates alone.
-symphonies,553001704,"Haydn, Joseph (1732-1809)",rejected,,,"Fewer than six pitches agree, from the start or with one incipit entering partway into the other"
-symphonies,570002608,"Hasse, Johann Adolf (1699-1783)",rejected,,,"Fewer than six pitches agree, from the start or with one incipit entering partway into the other"
+symphonies,553001704,"Haydn, Joseph (1732-1809)",rejected,,,Only a repeated neighbour-note figure agrees
+symphonies,570002608,"Hasse, Johann Adolf (1699-1783)",rejected,,,Melodies differ; only a fragment agrees once grace notes are read
 symphonies,570005113,"Adam, Johann (1704-1779)",confirmed,disputed,comparator-record,"Already documented: comparator 1001057046 notes this copy remains anonymous and records attributions to Malzat, Ferrandini and Sammartini as well as Adam (doubtful)."
 symphonies,570005116,"Anfossi, Pasquale (1727-1797)",rejected,,,Only a common scale or arpeggio fragment agrees on inspection
 symphonies,570005119,"Naumann, Johann Gottlieb (1741-1801)",confirmed,secure,new,"Movements I, II and IV derive from the overture to La clemenza di Tito (its movements I-III), transposed from B-flat to C. The added Minuetto is not identified and is not attributed here."
@@ -113,7 +113,7 @@ symphonies,850607491,"Rolla, Alessandro (1757-1841)",confirmed,secure,new,"The o
 symphonies,850607664,"Cimarosa, Domenico (1749-1801)",confirmed,secure,new,"The one encoded movement matches: I matrimoni impensati (RISM 850008353, 1.1.1 Sinfonia. Allegro con molto brio)."
 symphonies,850607665,"Pecháček, Franz Martin (1763-1816)",rejected,,,Hand review: melodies differ
 symphonies,850607986,"Caruso, Luigi (1754-1822)",confirmed,secure,new,"The one encoded movement matches: Jefte (RISM 850611268, 1.1.1 Allegro)."
-symphonies,850608132,"Benatti, Vincenzo (1767-1797)",rejected,,,"Fewer than six pitches agree, from the start or with one incipit entering partway into the other"
+symphonies,850608132,"Benatti, Vincenzo (1767-1797)",probable,secure,new,"Identical to a Benatti symphony in the same library (RISM 850610123) over its short encoded opening, ornament included, except the last note."
 symphonies,850608133,"Paër, Ferdinando (1771-1839)",confirmed,secure,new,"The one encoded movement matches: Symphonies–C minor (RISM 850604019, 1.1.1 Larghetto staccato)."
 symphonies,850609331,"Mysliveček, Josef (1737-1781)",confirmed,secure,new,"The one encoded movement matches: La Calliroe (Excerpts) (RISM 400004242, 1.1.1 Allegro con spirito)."
 symphonies,850708125,"Hönicke, Friedrich (1755-1809)",rejected,,,Only a common scale or arpeggio fragment agrees on inspection

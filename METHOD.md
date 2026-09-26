@@ -47,7 +47,11 @@ Anonymus count; RISM's Anonymus list also contains records that merely cross-ref
 `tools/pae.py` reduces an incipit to a pitch sequence: rhythm, rests, ties, grace notes and all
 but the first note of a chord are dropped, measure repeats (`i`) and repeated groups (`!...!f`)
 are expanded, repeated pitches are collapsed, and sequences are compared by interval so a
-transposed copy still agrees. It is a pitch-contour comparison. It finds candidates and
+transposed copy still agrees. Each pair is compared with grace notes dropped and kept, since one
+copy may write out an ornament that another writes as graces. A stretch that is mostly
+broken-chord or tremolo figuration (runs of four or more same-size intervals alternating in
+direction, as in E-G-E-G) does not count as a match: accompaniment figures agree with countless
+unrelated pieces, which the concerto run made obvious. It is a pitch-contour comparison. It finds candidates and
 rejects obvious non-matches; a common scale or arpeggio can agree by chance, so the verdict
 rests on reading the incipits, not on the number.
 

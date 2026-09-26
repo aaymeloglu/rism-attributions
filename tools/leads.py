@@ -26,15 +26,21 @@ from concurrent.futures import ThreadPoolExecutor
 sys.path.insert(0, os.path.dirname(__file__))
 import context  # noqa: E402
 import rism  # noqa: E402
-from pae import anchored, dedup, movement_ordinals, pitches, sim  # noqa: E402
+from pae import anchored, figuration, dedup, movement_ordinals, pitches, sim  # noqa: E402
 
 CATNO = re.compile(r"\b(Hob|RV|MH|KV|WoO|BWV|LaRue|ZakP|MurR|SmWV|LeeB|GraunWV|CSWV)\b")
 
 
+MAX_FIGURATION = 0.5
+
+
 def matches(m):
     """Does one incipit comparison count as the same music? Eight agreeing pitches, or six covering
-    nearly all of a short incipit."""
+    nearly all of a short incipit, and the agreeing stretch must not be mostly broken-chord
+    or tremolo figuration (see pae.figuration)."""
     n = m["overlap"]
+    if m.get("figuration", 0) > MAX_FIGURATION:
+        return False
     return n >= 8 or (n >= 6 and n >= 0.8 * min(m["notes"], m["comparator_notes"]))
 
 
@@ -63,18 +69,22 @@ def build_leads(results):
 
 
 def compare(inc, ordinal, cands):
-    p = pitches(inc["data"], inc["keysig"])
-    best = {"inc": inc["inc"], "movement": ordinal, "notes": len(dedup(p)),
+    """Best agreement of one anonymous incipit with the composer's incipits. Each pair is compared
+    with grace notes dropped and kept, on both sides, and the better reading counts."""
+    readings = [pitches(inc["data"], inc["keysig"]), pitches(inc["data"], inc["keysig"], graces=True)]
+    best = {"inc": inc["inc"], "movement": ordinal, "notes": len(dedup(readings[0])),
             "agree": 0, "overlap": 0, "source": None}
     for cid, cincs in cands:
         cord = movement_ordinals([ci["inc"] for ci in cincs])
         for ci in cincs:
-            q = pitches(ci["data"], ci["keysig"])
-            n, i, j = anchored(p, q)
-            key = (n, sim(p, q))
-            if key > (best["overlap"], best["agree"]):
-                best.update(agree=key[1], overlap=n, offset=[i, j], source=cid, source_inc=ci["inc"],
-                            source_movement=cord[ci["inc"]], comparator_notes=len(dedup(q)))
+            for p in readings:
+                for q in (pitches(ci["data"], ci["keysig"]), pitches(ci["data"], ci["keysig"], graces=True)):
+                    n, i, j = anchored(p, q)
+                    key = (n, sim(p, q))
+                    if key > (best["overlap"], best["agree"]):
+                        best.update(agree=key[1], overlap=n, offset=[i, j], source=cid, source_inc=ci["inc"],
+                                    figuration=round(figuration(p, i, n), 2), notes=len(dedup(p)),
+                                    source_movement=cord[ci["inc"]], comparator_notes=len(dedup(q)))
     return best
 
 

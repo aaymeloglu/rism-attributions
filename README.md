@@ -15,15 +15,15 @@ The results, with each anonymous copy's movements rendered next to the attribute
 
 | | Sources |
 |---|---|
-| Same music as an attributed copy | 67 |
-| of which new, with a single unqualified attribution | 53 |
+| Same music as an attributed copy | 66 |
+| of which new, with a single unqualified attribution | 52 |
 | of which new, but the composer is disputed, uncertain, a bare surname or known only from a modern copy | 6 |
 | of which already noted in RISM | 8 |
-| Probably the same music (transposed, arranged, partial, or part of a vocal work) | 14 |
+| Probably the same music (transposed, arranged, partial, or part of a vocal work) | 17 |
 | Unresolved | 5 |
-| Rejected | 34 |
+| Rejected | 32 |
 
-Twelve of the 67 matches cover two or more movements; the other 55 rest on a single encoded
+12 of the 66 matches cover two or more movements; the other 54 rest on a single encoded
 movement. Many anonymous "symphonies" turn out to be opera overtures (Galuppi, Sacchini,
 Mysliveček, Cimarosa, Paisiello, Naumann's *La clemenza di Tito*), single movements of larger
 works, or arrangements. Eleven pairs of anonymous copies agree with each other on two or more

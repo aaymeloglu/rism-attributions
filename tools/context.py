@@ -124,7 +124,7 @@ def anonymous_creator(src):
     return rism.creator(src) == "Anonymus"
 
 
-VOCAL = re.compile(r"\b(recitativ\w*|aria|arietta|coro|chorus|duett\w*|terzett\w*|cavatina|rond[oò]|kyrie|gloria|credo|"
+VOCAL = re.compile(r"\b(recitativ\w*|aria|arietta|coro|chorus|duett\w*|terzett\w*|cavatina|rondò|kyrie|gloria|credo|"
                    r"sanctus|agnus|magnificat|dixit|lied|scena)\b", re.I)
 
 

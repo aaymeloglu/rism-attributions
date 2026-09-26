@@ -372,9 +372,9 @@
        "timesig": "c/",
        "data": "'q6D''1D/,q6A'1A/2.F4E/D,A-'xC/8D,A'FDE,A'AG/4FD-xF/"
       },
-      "notes": 18,
-      "overlap": 7,
-      "from_start": 7,
+      "notes": 20,
+      "overlap": 9,
+      "from_start": 9,
       "counts": true,
       "match": {
        "source": "450009049",
@@ -400,8 +400,8 @@
        "data": ",4D'DDD/,,A,BBB/,,F,FFF/DFAG/FDxC,,A/,DFA'C/"
       },
       "notes": 18,
-      "overlap": 2,
-      "from_start": 1,
+      "overlap": 3,
+      "from_start": 3,
       "counts": false
      }
     ],
@@ -643,9 +643,9 @@
        "timesig": "c",
        "data": "''4Dq6G{FEFG}8A8-q6G{FEFG}/{8ADB'''C}{D''DFG}/"
       },
-      "notes": 18,
-      "overlap": 18,
-      "from_start": 18,
+      "notes": 20,
+      "overlap": 20,
+      "from_start": 20,
       "counts": true,
       "match": {
        "source": "212002745",
@@ -823,9 +823,9 @@
        "timesig": "c",
        "data": "2.''Cq8E{8D6C'B}/8A-G-A-B-/2.''Cq8E{8D6C'B}/"
       },
-      "notes": 12,
-      "overlap": 12,
-      "from_start": 12,
+      "notes": 14,
+      "overlap": 14,
+      "from_start": 14,
       "counts": true,
       "match": {
        "source": "104650",
@@ -1075,9 +1075,9 @@
        "timesig": "c",
        "data": "''4FFFgA{8G6FG}/2A4F-/FFFgA{8G6FG}2A4F-/"
       },
-      "notes": 11,
-      "overlap": 11,
-      "from_start": 11,
+      "notes": 13,
+      "overlap": 13,
+      "from_start": 13,
       "counts": true,
       "match": {
        "source": "850008353",
@@ -1988,8 +1988,8 @@
        "timesig": "3/8",
        "data": "{''8ADC}/q8C4'B8A/{8G''DE}/q8'G4F8G/"
       },
-      "notes": 10,
-      "overlap": 2,
+      "notes": 11,
+      "overlap": 3,
       "from_start": 1,
       "counts": false
      }
@@ -2806,9 +2806,9 @@
        "timesig": "c",
        "data": "{''6C'A}/q8G8F4F{''6C'A}q8G8F4F6-''C/{8C'6.A''3C}{8C'6.A''3C}8(6{CDE};3)8(6{FED};3){8.C6'C}/"
       },
-      "notes": 18,
-      "overlap": 18,
-      "from_start": 18,
+      "notes": 20,
+      "overlap": 20,
+      "from_start": 20,
       "counts": true,
       "match": {
        "source": "1001383642",
@@ -3138,7 +3138,7 @@
       "notes": 32,
       "overlap": 16,
       "from_start": 16,
-      "counts": true,
+      "counts": false,
       "match": {
        "source": "1001179385",
        "incipit": "1.1.2",
@@ -3242,7 +3242,6 @@
      4
     ],
     "movements_matched": [
-     1,
      2,
      4
     ],
@@ -3505,9 +3504,9 @@
        "timesig": "c",
        "data": "8''D-6qE{DCDE}{8D'A}D-/''F-8qG6{FEFG}{8FD}'8D-/"
       },
-      "notes": 14,
-      "overlap": 14,
-      "from_start": 14,
+      "notes": 18,
+      "overlap": 18,
+      "from_start": 18,
       "counts": true,
       "match": {
        "source": "450010294",
@@ -4270,9 +4269,9 @@
        "timesig": "3/4",
        "data": "{''8.C6C}/q8xC4D{8nC'BAG}/4.''C{6DC}{'BAGF}/"
       },
-      "notes": 13,
-      "overlap": 13,
-      "from_start": 13,
+      "notes": 14,
+      "overlap": 14,
+      "from_start": 14,
       "counts": true,
       "match": {
        "source": "570004449",
@@ -4717,67 +4716,6 @@
   "verdict": "confirmed"
  },
  {
-  "id": "400003944",
-  "genre": "symphonies",
-  "label": "Symphonies–G major; Manuscript copy; CH-EN Ms A 131",
-  "shelfmark": "CH-EN Ms A 131",
-  "leads": [
-   {
-    "composer": "Schmittbauer, Joseph Aloys (1718-1809)",
-    "verdict": "confirmed",
-    "attribution": "secure",
-    "prior": "new",
-    "note": "Identical once the repeated group (!...!f) is expanded; the earlier parser dropped it.",
-    "class": "plausible",
-    "prior_documentation": [],
-    "attribution_flags": [],
-    "movement_mismatch": [],
-    "incipits": [
-     {
-      "incipit": "1.1.1 Allegro assai",
-      "movement": 1,
-      "anon": {
-       "clef": "G-2",
-       "keysig": "xF",
-       "timesig": "c",
-       "data": "''8GDDDDDDD/!4DgF8ED!f/8G"
-      },
-      "notes": 7,
-      "overlap": 7,
-      "from_start": 7,
-      "counts": true,
-      "match": {
-       "source": "454000360",
-       "incipit": "1.1.1 Allegro assai",
-       "movement": 1,
-       "offset": [
-        0,
-        0
-       ],
-       "clef": "G-2",
-       "keysig": "xF",
-       "timesig": "c",
-       "data": "{8''GDDD}{DDDD}/4Dq8F{ED}4Dq8F{ED}/{G'B}"
-      }
-     }
-    ],
-    "movements": [
-     1
-    ],
-    "movements_matched": [
-     1
-    ],
-    "sources": [
-     {
-      "id": "454000360",
-      "label": "Symphonies–G major; Manuscript copy; D-WWW K 3 Nr.42"
-     }
-    ]
-   }
-  ],
-  "verdict": "confirmed"
- },
- {
   "id": "450303558",
   "genre": "symphonies",
   "label": "Symphonies–D major; Manuscript copy; D-Eu Esl VIII 384",
@@ -5141,9 +5079,9 @@
        "timesig": "c",
        "data": "'4A8.A6A,8A'A''q8C'B6AB/''4C8.C6C,8A''Cq8ED6CD/E"
       },
-      "notes": 13,
-      "overlap": 13,
-      "from_start": 13,
+      "notes": 15,
+      "overlap": 15,
+      "from_start": 15,
       "counts": true,
       "match": {
        "source": "140044",
@@ -5232,9 +5170,9 @@
        "timesig": "c",
        "data": "2'''D4.8''AF/4D{8.6D'A}4F{8.6AF}/1D/q6G{8Ft6EF}"
       },
-      "notes": 12,
-      "overlap": 12,
-      "from_start": 12,
+      "notes": 13,
+      "overlap": 13,
+      "from_start": 13,
       "counts": true,
       "match": {
        "source": "150203709",
@@ -5478,9 +5416,9 @@
        "timesig": "c",
        "data": "{''8DD}q6E{3DC8.D}{8DD}q6E{3DC8.D}/4.A8F4.A8F//"
       },
-      "notes": 9,
-      "overlap": 9,
-      "from_start": 9,
+      "notes": 13,
+      "overlap": 13,
+      "from_start": 13,
       "counts": true,
       "match": {
        "source": "706000763",
@@ -5566,9 +5504,9 @@
        "timesig": "c/",
        "data": "4.3333''D{DEFG}A{AnB'''xC''A}/8{'''DD}q6C{8''B6qA8xG}qG4.A{3ABAB}/8{'''CC}"
       },
-      "notes": 16,
-      "overlap": 16,
-      "from_start": 16,
+      "notes": 19,
+      "overlap": 19,
+      "from_start": 19,
       "counts": true,
       "match": {
        "source": "280000015",
@@ -5661,7 +5599,7 @@
       "notes": 19,
       "overlap": 19,
       "from_start": 19,
-      "counts": true,
+      "counts": false,
       "match": {
        "source": "270003031",
        "incipit": "1.1.1 Sinfonia. Allegro di molto",
@@ -5685,9 +5623,9 @@
        "timesig": "6/8",
        "data": "4.''E'B/q6''C{'BAB''C'B''C}{8'BBB}/4.''C'G/"
       },
-      "notes": 10,
-      "overlap": 10,
-      "from_start": 10,
+      "notes": 12,
+      "overlap": 12,
+      "from_start": 12,
       "counts": true,
       "match": {
        "source": "280002206",
@@ -5737,7 +5675,6 @@
      3
     ],
     "movements_matched": [
-     1,
      2,
      3
     ],
@@ -5904,6 +5841,67 @@
   "verdict": "probable"
  },
  {
+  "id": "850608132",
+  "genre": "symphonies",
+  "label": "Symphonies–C major; Manuscript copy; I-OS Mss.Mus.B 4682",
+  "shelfmark": "I-OS Mss.Mus.B 4682",
+  "leads": [
+   {
+    "composer": "Benatti, Vincenzo (1767-1797)",
+    "verdict": "probable",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Identical to a Benatti symphony in the same library (RISM 850610123) over its short encoded opening, ornament included, except the last note.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "''6C/4CCCq6D{8C'6B''C}/'4G--8.-6C/{8C,G}"
+      },
+      "notes": 8,
+      "overlap": 7,
+      "from_start": 7,
+      "counts": true,
+      "match": {
+       "source": "850610123",
+       "incipit": "1.1.1 Allegro",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "''6C/4CCCq6D{8C'6B''C}/'4G--8.-6C/{8C,B}"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "850610123",
+      "label": "Allegro–C major; Manuscript copy; I-OS Mss.Mus.B 3050"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
   "id": "456006022",
   "genre": "symphonies",
   "label": "Symphonies–D major; Manuscript copy; D-MHF MHF K5 Mappe 27 (b) (Nr. 10)",
@@ -5929,9 +5927,9 @@
        "timesig": "c",
        "data": "2''F8{EBGE}/2D6qqEDr4CD/EFGA/"
       },
-      "notes": 12,
-      "overlap": 12,
-      "from_start": 12,
+      "notes": 14,
+      "overlap": 14,
+      "from_start": 14,
       "counts": true,
       "match": {
        "source": "452015393",
@@ -5995,8 +5993,8 @@
        "data": "4.A8B4A''D/2'AG/q8G4F8{EF}{AGFE}/"
       },
       "notes": 13,
-      "overlap": 9,
-      "from_start": 9,
+      "overlap": 13,
+      "from_start": 13,
       "counts": true,
       "match": {
        "source": "211007144",
@@ -6080,6 +6078,103 @@
      {
       "id": "850028982",
       "label": "Symphonies–E♭ major; Manuscript copy; KreD 24, GraDi E|b15; I-BGc N.C.10.1"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
+  "id": "1001247889",
+  "genre": "symphonies",
+  "label": "Symphonies–D major; Manuscript copy; CZ-K 418",
+  "shelfmark": "CZ-K 418",
+  "leads": [
+   {
+    "composer": "Dittersdorf, Carl Ditters von (1739-1799)",
+    "verdict": "probable",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Same melody a whole tone higher than a Dittersdorf symphony in C (RISM 1001034975), with its grace note written out: a transposed copy.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "1D/2FA/8{''DqE6FE}{8DD}{DDDD}/4BA2-/"
+      },
+      "notes": 10,
+      "overlap": 10,
+      "from_start": 10,
+      "counts": true,
+      "match": {
+       "source": "1001034975",
+       "incipit": "1.1.1 All[egr]o assai",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c/",
+       "data": "1'C/2EG/6{''CDED}8{CC}{CCCC}/4A^CG^C2-/1'C/2EG/"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "1001034975",
+      "label": "Symphonies–C major; Manuscript copy; KreD 32, GraDi C7; PL-SA 1/A I 1"
+     },
+     {
+      "id": "1001122059",
+      "label": "Symphonies–C major; Manuscript copy; GraD C7, KreD 32; D-ERP ERP 128"
+     },
+     {
+      "id": "1001369351",
+      "label": "Symphonies–C major; Manuscript copy; KreD 32, GraDi C7; CZ-Pnm XXII C 9"
+     },
+     {
+      "id": "300000177",
+      "label": "Symphonies–C major; Manuscript copy; KreD 32, GraDi C7; PL-CZ III-132"
+     },
+     {
+      "id": "402009739",
+      "label": "Symphonies–C major; Manuscript copy; KreD 32; CH-BEl SLA-Mus-JL MLHs 62/1"
+     },
+     {
+      "id": "451506003",
+      "label": "Symphonies–C major; Manuscript copy; KreD 32, GraDi C7; D-W Cod. Guelf. 52 Mus. Hdschr."
+     },
+     {
+      "id": "530011364",
+      "label": "Symphonies–C major; Manuscript copy; H-Gk AMC, D. 30."
+     },
+     {
+      "id": "600171915",
+      "label": "Symphonies–C major; Manuscript copy; KreD 32, GraDi C7; A-KR H 34/316"
+     },
+     {
+      "id": "600500993",
+      "label": "Symphonies–C major; Manuscript copy; KreD 32, GraDi C7; A-SCH ohne Signatur"
+     },
+     {
+      "id": "600502590",
+      "label": "Symphonies–C major; Manuscript copy; A-SCH 383"
      }
     ]
    }
@@ -6492,9 +6587,9 @@
        "timesig": "c/",
        "data": "4''Fq6E{8D6CD}q6E{8D6CD}{8FA}/4Fq6E{8D6CD}q6E{8D6CD}{8GB}/4G"
       },
-      "notes": 17,
-      "overlap": 17,
-      "from_start": 17,
+      "notes": 23,
+      "overlap": 23,
+      "from_start": 23,
       "counts": true,
       "match": {
        "source": "141483",
@@ -6820,6 +6915,67 @@
   "verdict": "probable"
  },
  {
+  "id": "400003944",
+  "genre": "symphonies",
+  "label": "Symphonies–G major; Manuscript copy; CH-EN Ms A 131",
+  "shelfmark": "CH-EN Ms A 131",
+  "leads": [
+   {
+    "composer": "Schmittbauer, Joseph Aloys (1718-1809)",
+    "verdict": "probable",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Identical in rhythm and grace notes once the repeated group is expanded, but the opening is repeated Ds with a neighbour-note figure, too little melody to count as the same music on its own.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "movement_mismatch": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro assai",
+      "movement": 1,
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "''8GDDDDDDD/!4DgF8ED!f/8G"
+      },
+      "notes": 9,
+      "overlap": 9,
+      "from_start": 9,
+      "counts": true,
+      "match": {
+       "source": "454000360",
+       "incipit": "1.1.1 Allegro assai",
+       "movement": 1,
+       "offset": [
+        0,
+        0
+       ],
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "{8''GDDD}{DDDD}/4Dq8F{ED}4Dq8F{ED}/{G'B}"
+      }
+     }
+    ],
+    "movements": [
+     1
+    ],
+    "movements_matched": [
+     1
+    ],
+    "sources": [
+     {
+      "id": "454000360",
+      "label": "Symphonies–G major; Manuscript copy; D-WWW K 3 Nr.42"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
   "id": "212001714",
   "genre": "symphonies",
   "label": "Symphonies–D major; Manuscript copy; D-Dl Mus.2-N-20,19",
@@ -7136,9 +7292,9 @@
        "timesig": "c",
        "data": "''2D'4.B8A/gB{AG}4.G{8GAB}/''2C'4.A8G/G"
       },
-      "notes": 9,
-      "overlap": 9,
-      "from_start": 9,
+      "notes": 11,
+      "overlap": 11,
+      "from_start": 11,
       "counts": true,
       "match": {
        "source": "201008913",
@@ -7273,26 +7429,6 @@
     "prior": "",
     "note": "Only a common scale or arpeggio fragment agrees on inspection",
     "class": "plausible",
-    "prior_documentation": [],
-    "attribution_flags": [],
-    "movement_mismatch": []
-   }
-  ],
-  "verdict": "rejected"
- },
- {
-  "id": "850608132",
-  "genre": "symphonies",
-  "label": "Symphonies–C major; Manuscript copy; I-OS Mss.Mus.B 4682",
-  "shelfmark": "I-OS Mss.Mus.B 4682",
-  "leads": [
-   {
-    "composer": "Benatti, Vincenzo (1767-1797)",
-    "verdict": "rejected",
-    "attribution": "",
-    "prior": "",
-    "note": "Fewer than six pitches agree, from the start or with one incipit entering partway into the other",
-    "class": "weak",
     "prior_documentation": [],
     "attribution_flags": [],
     "movement_mismatch": []
@@ -7451,26 +7587,6 @@
   "verdict": "rejected"
  },
  {
-  "id": "1001247889",
-  "genre": "symphonies",
-  "label": "Symphonies–D major; Manuscript copy; CZ-K 418",
-  "shelfmark": "CZ-K 418",
-  "leads": [
-   {
-    "composer": "Dittersdorf, Carl Ditters von (1739-1799)",
-    "verdict": "rejected",
-    "attribution": "",
-    "prior": "",
-    "note": "Fewer than six pitches agree, from the start or with one incipit entering partway into the other",
-    "class": "weak",
-    "prior_documentation": [],
-    "attribution_flags": [],
-    "movement_mismatch": []
-   }
-  ],
-  "verdict": "rejected"
- },
- {
   "id": "190026995",
   "genre": "symphonies",
   "label": "Symphonies–G major; Manuscript copy; S-Skma O-R",
@@ -7527,8 +7643,8 @@
     "verdict": "rejected",
     "attribution": "",
     "prior": "",
-    "note": "Fewer than six pitches agree, from the start or with one incipit entering partway into the other",
-    "class": "weak",
+    "note": "Only a descending D-major arpeggio agrees, inside a much later incipit",
+    "class": "plausible",
     "prior_documentation": [],
     "attribution_flags": [],
     "movement_mismatch": []
@@ -7605,12 +7721,10 @@
     "attribution": "",
     "prior": "",
     "note": "Only a common scale or arpeggio fragment agrees on inspection",
-    "class": "plausible",
+    "class": "weak",
     "prior_documentation": [],
     "attribution_flags": [],
-    "movement_mismatch": [
-     "1->3"
-    ]
+    "movement_mismatch": []
    }
   ],
   "verdict": "rejected"
@@ -7626,11 +7740,13 @@
     "verdict": "rejected",
     "attribution": "",
     "prior": "",
-    "note": "Fewer than six pitches agree, from the start or with one incipit entering partway into the other",
-    "class": "weak",
+    "note": "Melodies differ; only a fragment agrees once grace notes are read",
+    "class": "good",
     "prior_documentation": [],
     "attribution_flags": [],
-    "movement_mismatch": []
+    "movement_mismatch": [
+     "3->18"
+    ]
    }
   ],
   "verdict": "rejected"
@@ -7646,11 +7762,13 @@
     "verdict": "rejected",
     "attribution": "",
     "prior": "",
-    "note": "Fewer than six pitches agree, from the start or with one incipit entering partway into the other",
-    "class": "weak",
+    "note": "Only a repeated neighbour-note figure agrees",
+    "class": "good",
     "prior_documentation": [],
     "attribution_flags": [],
-    "movement_mismatch": []
+    "movement_mismatch": [
+     "1->6"
+    ]
    }
   ],
   "verdict": "rejected"
@@ -7841,8 +7959,7 @@
     "prior_documentation": [],
     "attribution_flags": [],
     "movement_mismatch": [
-     "1->10",
-     "2->10"
+     "2->1"
     ]
    }
   ],

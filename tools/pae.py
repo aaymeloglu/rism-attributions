@@ -28,8 +28,9 @@ def expand_groups(data):
     return re.sub(r"!([^!]*)!(f+)", lambda m: m.group(1) * (1 + len(m.group(2))), data)
 
 
-def measures(data, ks=""):
-    """Pitches (MIDI numbers) per measure, with `i` measure repeats expanded."""
+def measures(data, ks="", graces=False):
+    """Pitches (MIDI numbers) per measure, with `i` measure repeats expanded. Grace notes are
+    dropped unless graces=True (one copy may write out an ornament another writes as graces)."""
     km, oc, out, cur = keymap(ks), 4, [], []
     acc, grace, ingroup, chord = None, False, False, False
     s, i = expand_groups(data), 0
@@ -92,7 +93,7 @@ def measures(data, ks=""):
             continue
         if ch in STEP:
             a = acc if acc is not None else km.get(ch, 0)
-            if not grace and not ingroup and not chord:
+            if (graces or not (grace or ingroup)) and not chord:
                 cur.append(12 * (oc + 1) + STEP[ch] + a)
             grace = chord = False
             acc = None
@@ -104,8 +105,8 @@ def measures(data, ks=""):
     return out
 
 
-def pitches(data, ks=""):
-    return [p for m in measures(data, ks) for p in m]
+def pitches(data, ks="", graces=False):
+    return [p for m in measures(data, ks, graces) for p in m]
 
 
 def intervals(p):
@@ -174,6 +175,24 @@ def anchored(p1, p2):
             best = (n, i, 0)
     n, i, j = best
     return (n + 1 if (a or b) and dedup(p1) and dedup(p2) else 0, i, j)
+
+
+def figuration(p, start, length):
+    """Share of an agreeing stretch (collapsed-sequence indices) taken up by broken-chord or
+    tremolo figuration: runs of four or more intervals of one size alternating in direction
+    (+4 -4 +4 -4, as in E-G-E-G). Such figures agree with countless unrelated pieces; a motif
+    that alternates in twos or threes with changing sizes (D-C-D-A-D-F) does not count.
+    """
+    seq = intervals(dedup(p))[start:start + max(length - 1, 0)]
+    covered, k = set(), 0
+    while k < len(seq):
+        j = k
+        while j + 1 < len(seq) and seq[j + 1] == -seq[j]:
+            j += 1
+        if j - k + 1 >= 4:
+            covered.update(range(k, j + 1))
+        k = j + 1
+    return len(covered) / len(seq) if seq else 0.0
 
 
 def movement_ordinals(labels):

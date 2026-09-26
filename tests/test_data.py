@@ -161,6 +161,7 @@ def test_pae_parser():
     assert pitches("'4B", "bBE") == [70] and pitches("'4nB", "bBE") == [71]
     assert len(pitches("'4ABAG/i/i/", "n")) == len(pitches("'4ABAG/ABAG/ABAG/", "n")) == 12, "measure repeat"
     assert pitches("!{6'B''B}!ff/", "bBE") == [70, 82] * 3, "repeated group: once plus one per f"
+    assert pitches("'4Dqq6{EDC}r8E", "xFC") == [62, 64] and pitches("'4Dqq6{EDC}r8E", "xFC", graces=True) == [62, 64, 62, 61, 64]
     assert pitches("@3/4 %C-1'4CDE", "n") == [60, 62, 64] and pitches("$bBE'4B", "n") == [70]
     late = pitches("=4/''GF/AG/{6FGFE}{DC'BnA}/4B-/", "bBEA")
     full = pitches("{8.6'B''E8'BB}/B4G8A/B4E8F/{G-E}-/4''GF/AG/{6FGFE}{DC'BnA}/4", "bBEA")

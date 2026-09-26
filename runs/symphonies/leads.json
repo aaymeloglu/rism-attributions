@@ -25,6 +25,7 @@
      0
     ],
     "source_inc": "1.1.1 Vivace",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 6,
     "source_label": "Symphonies–D major; Manuscript copy; KreD 39, GraDi D5; CZ-Pnm XXII C 10",
@@ -43,6 +44,7 @@
      0
     ],
     "source_inc": "1.2.1 Andante",
+    "figuration": 0.0,
     "source_movement": 2,
     "comparator_notes": 14,
     "source_label": "Symphonies–D major; Manuscript copy; KreD 39, GraDi D5; CZ-Pnm XXII C 10",
@@ -61,6 +63,7 @@
      0
     ],
     "source_inc": "1.3.1 Menuetto",
+    "figuration": 0.0,
     "source_movement": 3,
     "comparator_notes": 13,
     "source_label": "Symphonies–D major; Manuscript copy; KreD 39, GraDi D5; CZ-Pnm XXII C 10",
@@ -79,6 +82,7 @@
      0
     ],
     "source_inc": "1.2.1 Andante",
+    "figuration": 0.0,
     "source_movement": 2,
     "comparator_notes": 14,
     "source_label": "Symphonies–D major; Manuscript copy; KreD 39, GraDi D5; CZ-Pnm XXII C 10",
@@ -144,6 +148,7 @@
      0
     ],
     "source_inc": "1.3.1 Allegro",
+    "figuration": 0.93,
     "source_movement": 3,
     "comparator_notes": 25,
     "source_label": "Sonatas–F major; Manuscript copy; D-LEm Poel.mus.Ms.104",
@@ -152,17 +157,13 @@
    }
   ],
   "vocal_matches": [],
-  "transposed": true,
+  "transposed": false,
   "key_label_mismatch": false,
   "movements": [
    1
   ],
-  "movements_matched": [
-   1
-  ],
-  "movement_mismatch": [
-   "1->3"
-  ],
+  "movements_matched": [],
+  "movement_mismatch": [],
   "life": [
    1763,
    1850
@@ -173,7 +174,7 @@
   "prior_documentation": [],
   "attribution_flags": [],
   "competitors": [],
-  "class": "plausible"
+  "class": "weak"
  },
  {
   "anon": "1001043738",
@@ -197,16 +198,17 @@
     "inc": "1.1.1 Allegro",
     "movement": 1,
     "notes": 13,
-    "agree": 9,
-    "overlap": 9,
+    "agree": 13,
+    "overlap": 13,
     "source": "211007144",
     "offset": [
      0,
      0
     ],
     "source_inc": "1.1.1",
+    "figuration": 0.0,
     "source_movement": 1,
-    "comparator_notes": 14,
+    "comparator_notes": 15,
     "source_label": "Symphonies–E♭ major; Manuscript copy; KreD 24, KreD 96; D-Dl Mus.3411-N-2,8",
     "source_keysig": "bBEA",
     "keysig": "xFC"
@@ -223,6 +225,7 @@
      4
     ],
     "source_inc": "1.4.1 Vivace; Adagio; Vivace; Adagio; Vivace",
+    "figuration": 0.0,
     "source_movement": 4,
     "comparator_notes": 20,
     "source_label": "Symphonies–E♭ major; Manuscript copy; KreD 24, KreD 96; D-Dl Mus.3411-N-2,8",
@@ -285,6 +288,7 @@
      0
     ],
     "source_inc": "1.1.1 Synphonia. Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 6,
     "source_label": "Symphonies–B♭ major; Manuscript copy; MurR A44; SK-J H-709",
@@ -294,17 +298,18 @@
    {
     "inc": "1.1.2 Andante",
     "movement": 2,
-    "notes": 13,
-    "agree": 13,
-    "overlap": 13,
+    "notes": 14,
+    "agree": 14,
+    "overlap": 14,
     "source": "570004449",
     "offset": [
      0,
      0
     ],
     "source_inc": "1.2.1 Andante",
+    "figuration": 0.0,
     "source_movement": 2,
-    "comparator_notes": 13,
+    "comparator_notes": 14,
     "source_label": "Symphonies–B♭ major; Manuscript copy; MurR A44; SK-J H-709",
     "source_keysig": "bB",
     "keysig": "bB"
@@ -321,6 +326,7 @@
      0
     ],
     "source_inc": "1.3.1 Menuet.",
+    "figuration": 0.0,
     "source_movement": 3,
     "comparator_notes": 13,
     "source_label": "Symphonies–B♭ major; Manuscript copy; MurR A44; SK-J H-709",
@@ -339,6 +345,7 @@
      0
     ],
     "source_inc": "1.4.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 4,
     "comparator_notes": 13,
     "source_label": "Symphonies–B♭ major; Manuscript copy; MurR A44; SK-J H-709",
@@ -403,6 +410,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro.",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 14,
     "source_label": "Symphonies–D major; Manuscript copy; D-Bsa SA 2219",
@@ -421,6 +429,7 @@
      0
     ],
     "source_inc": "1.2.1 Andante.",
+    "figuration": 0.0,
     "source_movement": 2,
     "comparator_notes": 13,
     "source_label": "Symphonies–D major; Manuscript copy; D-Bsa SA 2219",
@@ -439,6 +448,7 @@
      0
     ],
     "source_inc": "1.3.1 Presto.",
+    "figuration": 0.0,
     "source_movement": 3,
     "comparator_notes": 8,
     "source_label": "Symphonies–D major; Manuscript copy; D-Bsa SA 2219",
@@ -502,6 +512,7 @@
      0
     ],
     "source_inc": "1.1.1",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 17,
     "source_label": "Symphonies–D major; Manuscript copy; D-Ju Ms.Conc.Acad.75",
@@ -520,6 +531,7 @@
      0
     ],
     "source_inc": "1.2.1 Andante.",
+    "figuration": 0.0,
     "source_movement": 2,
     "comparator_notes": 17,
     "source_label": "Symphonies–D major; Manuscript copy; D-Bsa SA 3212",
@@ -538,6 +550,7 @@
      0
     ],
     "source_inc": "1.3.1 Presto",
+    "figuration": 0.0,
     "source_movement": 3,
     "comparator_notes": 10,
     "source_label": "Symphonies–D major; Manuscript copy; D-Ju Ms.Conc.Acad.75",
@@ -601,6 +614,7 @@
      0
     ],
     "source_inc": "1.3.1 Credo. Allegro moderato",
+    "figuration": 0.0,
     "source_movement": 3,
     "comparator_notes": 17,
     "source_label": "Masses–E minor; Manuscript copy; D-Dl Mus.3549-D-8",
@@ -619,6 +633,7 @@
      0
     ],
     "source_inc": "1.4.1 Sanctus. Andante",
+    "figuration": 0.0,
     "source_movement": 4,
     "comparator_notes": 4,
     "source_label": "Masses–E minor; Manuscript copy; D-Dl Mus.3549-D-8",
@@ -630,15 +645,16 @@
     "movement": 3,
     "notes": 8,
     "agree": 1,
-    "overlap": 3,
+    "overlap": 4,
     "source": "212003712",
     "offset": [
      0,
-     1
+     3
     ],
-    "source_inc": "1.1.1 Kyrie. Adagio",
-    "source_movement": 1,
-    "comparator_notes": 6,
+    "source_inc": "1.4.2",
+    "figuration": 0.0,
+    "source_movement": 4,
+    "comparator_notes": 7,
     "source_label": "Masses–E minor; Manuscript copy; D-Dl Mus.3549-D-8",
     "source_keysig": "xF",
     "keysig": "xF"
@@ -700,6 +716,7 @@
      0
     ],
     "source_inc": "1.1.2",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 15,
     "source_label": "Symphonies–D major; Manuscript copy; ZakP 4; D-Tl X 43",
@@ -718,6 +735,7 @@
      2
     ],
     "source_inc": "1.2.1 Andantino moderato.",
+    "figuration": 0.0,
     "source_movement": 2,
     "comparator_notes": 20,
     "source_label": "Symphonies–D major; Manuscript copy; ZakP 4; SK-Nb 15",
@@ -736,6 +754,7 @@
      0
     ],
     "source_inc": "1.5.1 Finale. Presto.",
+    "figuration": 0.0,
     "source_movement": 5,
     "comparator_notes": 14,
     "source_label": "Symphonies–D major; Manuscript copy; ZakP 4; SK-Nb 15",
@@ -754,6 +773,7 @@
      0
     ],
     "source_inc": "1.4.1 Trio",
+    "figuration": 0.0,
     "source_movement": 4,
     "comparator_notes": 9,
     "source_label": "Symphonies–D major; Manuscript copy; ZakP 4; SK-Nb 15",
@@ -824,6 +844,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro con brio",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 14,
     "source_label": "Symphonies–D major; Manuscript copy; BryVa D 3; D-RUl SH 515",
@@ -879,15 +900,16 @@
    {
     "inc": "1.1.1 Allegro",
     "movement": 1,
-    "notes": 9,
-    "agree": 4,
-    "overlap": 4,
+    "notes": 10,
+    "agree": 10,
+    "overlap": 10,
     "source": "1001034975",
     "offset": [
      0,
      0
     ],
     "source_inc": "1.1.1 All[egr]o assai",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 13,
     "source_label": "Symphonies–C major; Manuscript copy; KreD 32, GraDi C7; PL-SA 1/A I 1",
@@ -896,12 +918,14 @@
    }
   ],
   "vocal_matches": [],
-  "transposed": false,
+  "transposed": true,
   "key_label_mismatch": false,
   "movements": [
    1
   ],
-  "movements_matched": [],
+  "movements_matched": [
+   1
+  ],
   "movement_mismatch": [],
   "life": [
    1739,
@@ -916,7 +940,7 @@
   "prior_documentation": [],
   "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "good"
  },
  {
   "anon": "1001302469",
@@ -941,6 +965,7 @@
      8
     ],
     "source_inc": "1.1.1 Adagio Cantabile",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 17,
     "source_label": "Ave Maria–A♭ major (Arrangement); Manuscript copy; E-Mn MP/5357/5",
@@ -996,6 +1021,7 @@
      3
     ],
     "source_inc": "1.1.1 Spiritoso e Staccato",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 20,
     "source_label": "Il serraglio di Osmano; Manuscript copy; US-Wc M1500.G29 S3",
@@ -1014,6 +1040,7 @@
      0
     ],
     "source_inc": "1.1.1 Spiritoso e Staccato",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 20,
     "source_label": "Il serraglio di Osmano; Manuscript copy; US-Wc M1500.G29 S3",
@@ -1032,6 +1059,7 @@
      3
     ],
     "source_inc": "1.1.1 Spiritoso e Staccato",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 20,
     "source_label": "Il serraglio di Osmano; Manuscript copy; US-Wc M1500.G29 S3",
@@ -1091,6 +1119,7 @@
      4
     ],
     "source_inc": "1.1.1 Allegro moderato",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 13,
     "source_label": "Duets–B♭ major; Manuscript copy; D-KNmi F 592 R",
@@ -1109,6 +1138,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro moderato",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 13,
     "source_label": "Duets–B♭ major; Manuscript copy; D-KNmi F 592 R",
@@ -1127,6 +1157,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro moderato",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 13,
     "source_label": "Duets–B♭ major; Manuscript copy; D-KNmi F 592 R",
@@ -1187,6 +1218,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 12,
     "source_label": "Symphonies–C major; Print; AbelWV E25",
@@ -1205,6 +1237,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 12,
     "source_label": "Symphonies–C major; Print; AbelWV E25",
@@ -1223,6 +1256,7 @@
      0
     ],
     "source_inc": "1.3.1 Allegro ma non troppo",
+    "figuration": 0.25,
     "source_movement": 3,
     "comparator_notes": 17,
     "source_label": "Symphonies–C major; Print; AbelWV E25",
@@ -1284,6 +1318,7 @@
      13
     ],
     "source_inc": "1.2.1 [at left underneath the 12th stave:] Adagio",
+    "figuration": 0.0,
     "source_movement": 2,
     "comparator_notes": 15,
     "source_label": "Trios–F minor; Print",
@@ -1302,6 +1337,7 @@
      0
     ],
     "source_inc": "1.1.1 [p. 8, at left of the 1st stave:] TRIO III [at left underneath the 1st stave:] Allegro ma non tropo [!]",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 8,
     "source_label": "Trios–F minor; Print",
@@ -1320,6 +1356,7 @@
      2
     ],
     "source_inc": "1.1.1 [p. 8, at left of the 1st stave:] TRIO III [at left underneath the 1st stave:] Allegro ma non tropo [!]",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 8,
     "source_label": "Trios–F minor; Print",
@@ -1381,6 +1418,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 22,
     "source_label": "Symphonies–A major; Manuscript copy; CSWV Bm:16, GraunWV D:XII:112; B-Bc 7878/3",
@@ -1399,6 +1437,7 @@
      0
     ],
     "source_inc": "1.2.1 Andante",
+    "figuration": 0.0,
     "source_movement": 2,
     "comparator_notes": 11,
     "source_label": "Symphonies–A major; Manuscript copy; CSWV Bm:16, GraunWV D:XII:112; B-Bc 7878/3",
@@ -1417,6 +1456,7 @@
      0
     ],
     "source_inc": "1.3.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 3,
     "comparator_notes": 13,
     "source_label": "Symphonies–A major; Manuscript copy; CSWV Bm:16, GraunWV D:XII:112; B-Bc 7878/3",
@@ -1484,6 +1524,7 @@
      0
     ],
     "source_inc": "1.2.1 Andante",
+    "figuration": 0.0,
     "source_movement": 2,
     "comparator_notes": 29,
     "source_label": "Symphonies–F major; Manuscript copy; RicG F4; D-WRha Wechmar 79",
@@ -1541,6 +1582,7 @@
      0
     ],
     "source_inc": "1.3.1 Allegro assai",
+    "figuration": 0.0,
     "source_movement": 3,
     "comparator_notes": 19,
     "source_label": "Pietas in Deum–B♭ major; Manuscript copy; CatAd 10.14; A-LA 1959",
@@ -1598,6 +1640,7 @@
      0
     ],
     "source_inc": "1.1.1",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 17,
     "source_label": "Railleri–D major; Manuscript copy; S-HÄ ohne Signatur",
@@ -1650,6 +1693,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 25,
     "source_label": "Symphonies–G major; Manuscript copy; N-T XM 54",
@@ -1696,15 +1740,16 @@
    {
     "inc": "1.1.1 Vivace",
     "movement": 1,
-    "notes": 8,
-    "agree": 3,
-    "overlap": 3,
+    "notes": 9,
+    "agree": 1,
+    "overlap": 4,
     "source": "117751",
     "offset": [
      0,
-     0
+     8
     ],
     "source_inc": "1.2.1 Duetto.",
+    "figuration": 0.0,
     "source_movement": 2,
     "comparator_notes": 14,
     "source_label": "?Eurione? (Excerpts); Manuscript copy; US-SFsc *M2.1 M384",
@@ -1714,15 +1759,16 @@
    {
     "inc": "1.2.1 Andante spiritoso",
     "movement": 2,
-    "notes": 16,
-    "agree": 3,
-    "overlap": 3,
+    "notes": 19,
+    "agree": 1,
+    "overlap": 4,
     "source": "117751",
     "offset": [
      0,
-     0
+     8
     ],
     "source_inc": "1.2.1 Duetto.",
+    "figuration": 0.0,
     "source_movement": 2,
     "comparator_notes": 14,
     "source_label": "?Eurione? (Excerpts); Manuscript copy; US-SFsc *M2.1 M384",
@@ -1732,17 +1778,18 @@
    {
     "inc": "1.3.1 Prestissimo",
     "movement": 3,
-    "notes": 16,
-    "agree": 8,
-    "overlap": 8,
+    "notes": 18,
+    "agree": 9,
+    "overlap": 9,
     "source": "117751",
     "offset": [
      0,
      0
     ],
     "source_inc": "1.1.1 Recitativo.",
+    "figuration": 0.0,
     "source_movement": 1,
-    "comparator_notes": 12,
+    "comparator_notes": 13,
     "source_label": "?Eurione? (Excerpts); Manuscript copy; US-SFsc *M2.1 M384",
     "source_keysig": "n",
     "keysig": "bBEA"
@@ -1793,17 +1840,18 @@
    {
     "inc": "1.1.1 Allegro",
     "movement": 1,
-    "notes": 14,
-    "agree": 14,
-    "overlap": 14,
+    "notes": 18,
+    "agree": 18,
+    "overlap": 18,
     "source": "450010294",
     "offset": [
      0,
      0
     ],
     "source_inc": "1.1.1 Vivace",
+    "figuration": 0.0,
     "source_movement": 1,
-    "comparator_notes": 14,
+    "comparator_notes": 18,
     "source_label": "Overtures–D major; Manuscript copy; D-Rtt Piazza 1",
     "source_keysig": "xFC",
     "keysig": "xFC"
@@ -1854,6 +1902,7 @@
      0
     ],
     "source_inc": "1.1.1 Overtura. Allegro",
+    "figuration": 0.43,
     "source_movement": 1,
     "comparator_notes": 15,
     "source_label": "Arsinoe (Excerpts); Manuscript copy; I-Tf 1 I 3",
@@ -1909,6 +1958,7 @@
      7
     ],
     "source_inc": "1.3.1 [Et rege eos]",
+    "figuration": 0.0,
     "source_movement": 6,
     "comparator_notes": 18,
     "source_label": "Te Deum laudamus–C major; Manuscript copy; CZ-TEk [without shelfmark]",
@@ -1970,6 +2020,7 @@
      0
     ],
     "source_inc": "1.1.1 No: 5. Allegretto",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 19,
     "source_label": "La Rencontre en voyage–A major (Excerpts, Arrangement); Manuscript copy; D-B Mus.ms.anon. 197",
@@ -1988,6 +2039,7 @@
      0
     ],
     "source_inc": "1.1.1 No: 5. Allegretto",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 19,
     "source_label": "La Rencontre en voyage–A major (Excerpts, Arrangement); Manuscript copy; D-B Mus.ms.anon. 197",
@@ -2006,6 +2058,7 @@
      4
     ],
     "source_inc": "1.1.1 DUO IV. All|o maestoso.",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 13,
     "source_label": "Duets; Print",
@@ -2078,6 +2131,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 27,
     "source_label": "Symphonies–D major; Manuscript copy; CapT deest; S-Skma Alströmer saml. 168:24",
@@ -2096,6 +2150,7 @@
      10
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 27,
     "source_label": "Symphonies–D major; Manuscript copy; CapT deest; S-Skma Alströmer saml. 168:24",
@@ -2114,6 +2169,7 @@
      2
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 27,
     "source_label": "Symphonies–D major; Manuscript copy; CapT deest; S-Skma Alströmer saml. 168:24",
@@ -2173,6 +2229,7 @@
      0
     ],
     "source_inc": "1.1.1",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 20,
     "source_label": "Der Friedefürst kommt–C major; Autograph manuscript; D-HER Mus.A 15:20",
@@ -2191,6 +2248,7 @@
      3
     ],
     "source_inc": "1.1.1",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 20,
     "source_label": "Der Friedefürst kommt–C major; Autograph manuscript; D-HER Mus.A 15:20",
@@ -2209,6 +2267,7 @@
      1
     ],
     "source_inc": "1.1.1",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 20,
     "source_label": "Der Friedefürst kommt–C major; Autograph manuscript; D-HER Mus.A 15:20",
@@ -2269,6 +2328,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro di molto",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 11,
     "source_label": "Symphonies–D major; Manuscript copy; D-WRha DNT i 30",
@@ -2278,17 +2338,18 @@
    {
     "inc": "1.2.1 Lento",
     "movement": 2,
-    "notes": 16,
-    "agree": 16,
-    "overlap": 16,
+    "notes": 19,
+    "agree": 19,
+    "overlap": 19,
     "source": "280000015",
     "offset": [
      0,
      0
     ],
     "source_inc": "1.2.1 Lento",
+    "figuration": 0.0,
     "source_movement": 2,
-    "comparator_notes": 19,
+    "comparator_notes": 24,
     "source_label": "Symphonies–D major; Manuscript copy; D-WRha DNT i 30",
     "source_keysig": "bB",
     "keysig": "bB"
@@ -2305,6 +2366,7 @@
      0
     ],
     "source_inc": "1.3.1 Presto",
+    "figuration": 0.0,
     "source_movement": 3,
     "comparator_notes": 15,
     "source_label": "Symphonies–D major; Manuscript copy; D-WRha DNT i 30",
@@ -2363,6 +2425,7 @@
      0
     ],
     "source_inc": "1.1.1 Sinfonia. Allegro di molto",
+    "figuration": 0.61,
     "source_movement": 1,
     "comparator_notes": 19,
     "source_label": "Le monde de la lune; Manuscript copy; D-Dl Mus.3388-F-3",
@@ -2372,17 +2435,18 @@
    {
     "inc": "1.2.1 Comodetto",
     "movement": 2,
-    "notes": 10,
-    "agree": 10,
-    "overlap": 10,
+    "notes": 12,
+    "agree": 12,
+    "overlap": 12,
     "source": "280002206",
     "offset": [
      0,
      0
     ],
     "source_inc": "1.2.1 Comodetto",
+    "figuration": 0.45,
     "source_movement": 2,
-    "comparator_notes": 19,
+    "comparator_notes": 23,
     "source_label": "Symphonies–G major; Manuscript copy; D-RUl SH 535",
     "source_keysig": "xF",
     "keysig": "xF"
@@ -2399,6 +2463,7 @@
      0
     ],
     "source_inc": "1.3.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 3,
     "comparator_notes": 22,
     "source_label": "Symphonies–G major; Manuscript copy; D-RUl SH 535",
@@ -2415,7 +2480,6 @@
    3
   ],
   "movements_matched": [
-   1,
    2,
    3
   ],
@@ -2458,6 +2522,7 @@
      0
     ],
     "source_inc": "1.1.1 [Chorus]. Allegro un peu moderate.",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 13,
     "source_label": "Ange d'amour et d'espérance; Autograph manuscript; D-B Mus.ms.autogr. Cherubini, L. 173",
@@ -2476,6 +2541,7 @@
      11
     ],
     "source_inc": "1.1.1 [Chorus]. Allegro un peu moderate.",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 13,
     "source_label": "Ange d'amour et d'espérance; Autograph manuscript; D-B Mus.ms.autogr. Cherubini, L. 173",
@@ -2494,6 +2560,7 @@
      0
     ],
     "source_inc": "1.1.2",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 6,
     "source_label": "Ange d'amour et d'espérance; Autograph manuscript; D-B Mus.ms.autogr. Cherubini, L. 173",
@@ -2512,6 +2579,7 @@
      4
     ],
     "source_inc": "1.1.2",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 6,
     "source_label": "Ange d'amour et d'espérance; Autograph manuscript; D-B Mus.ms.autogr. Cherubini, L. 173",
@@ -2565,6 +2633,7 @@
      9
     ],
     "source_inc": "1.1.1 105..",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 20,
     "source_label": "Exercises; Manuscript copy; KöcF deest; H-GGn Ms 107",
@@ -2583,6 +2652,7 @@
      6
     ],
     "source_inc": "1.1.2",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 18,
     "source_label": "Exercises; Manuscript copy; KöcF deest; H-GGn Ms 107",
@@ -2601,6 +2671,7 @@
      3
     ],
     "source_inc": "1.1.2",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 18,
     "source_label": "Exercises; Manuscript copy; KöcF deest; H-GGn Ms 107",
@@ -2661,6 +2732,7 @@
      3
     ],
     "source_inc": "1.1.1 Moderato.",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 20,
     "source_label": "Sanctificavit Moyses–D major; Autograph manuscript; CZ-Pk 3265",
@@ -2679,6 +2751,7 @@
      8
     ],
     "source_inc": "1.1.1 Moderato.",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 20,
     "source_label": "Sanctificavit Moyses–D major; Autograph manuscript; CZ-Pk 3265",
@@ -2697,6 +2770,7 @@
      5
     ],
     "source_inc": "1.1.1 Moderato.",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 20,
     "source_label": "Sanctificavit Moyses–D major; Autograph manuscript; CZ-Pk 3265",
@@ -2758,6 +2832,7 @@
      0
     ],
     "source_inc": "1.1.2",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 12,
     "source_label": "Litanies–B♭ major (Excerpts, Arrangement); Manuscript copy; KV B125; D-BNu Ec 128.7",
@@ -2776,6 +2851,7 @@
      9
     ],
     "source_inc": "1.1.1 Allegro molto",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 18,
     "source_label": "Litanies–B♭ major (Excerpts, Arrangement); Manuscript copy; KV B125; D-BNu Ec 128.7",
@@ -2794,6 +2870,7 @@
      0
     ],
     "source_inc": "1.1.2",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 12,
     "source_label": "Litanies–B♭ major (Excerpts, Arrangement); Manuscript copy; KV B125; D-BNu Ec 128.7",
@@ -2812,6 +2889,7 @@
      0
     ],
     "source_inc": "1.5.1 Allabreve",
+    "figuration": 0.0,
     "source_movement": 5,
     "comparator_notes": 13,
     "source_label": "Litanies–B♭ major (Excerpts, Arrangement); Manuscript copy; KV B125; D-BNu Ec 128.7",
@@ -2870,6 +2948,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro assai",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 8,
     "source_label": "Symphonies–C major; Print; RicG C3",
@@ -2888,6 +2967,7 @@
      1
     ],
     "source_inc": "1.4.1 Finale Allegretto",
+    "figuration": 0.0,
     "source_movement": 4,
     "comparator_notes": 9,
     "source_label": "Symphonies–C major; Print; RicG C3",
@@ -2906,6 +2986,7 @@
      0
     ],
     "source_inc": "1.3.1 Minuetto Allegro assai",
+    "figuration": 0.4,
     "source_movement": 3,
     "comparator_notes": 11,
     "source_label": "Symphonies–C major; Print; RicG C3",
@@ -2924,6 +3005,7 @@
      3
     ],
     "source_inc": "1.1.1 Allegro assai",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 8,
     "source_label": "Symphonies–C major; Print; RicG C3",
@@ -2982,6 +3064,7 @@
      0
     ],
     "source_inc": "1.1.1 Adagio",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 27,
     "source_label": "Symphonies–E♭ major; Print; GötS 20",
@@ -3000,6 +3083,7 @@
      0
     ],
     "source_inc": "1.1.1 Adagio",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 27,
     "source_label": "Symphonies–E♭ major; Print; GötS 20",
@@ -3063,6 +3147,7 @@
      0
     ],
     "source_inc": "1.1.1 Allo Con Brio",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 18,
     "source_label": "Symphonies; Manuscript copy; ZakP 21; PL-Kk Kk.I.726",
@@ -3117,6 +3202,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 16,
     "source_label": "Symphonies–F major; Manuscript copy; ZakP 5; CZ-K 18 K II",
@@ -3175,6 +3261,7 @@
      0
     ],
     "source_inc": "1.1.1 Sinfonia. Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 23,
     "source_label": "Ifigenia in Aulide (Arrangement); Manuscript copy; GraunWV B:I:18; D-AAst Kf 6046 a",
@@ -3193,6 +3280,7 @@
      0
     ],
     "source_inc": "1.2.1 Andante",
+    "figuration": 0.0,
     "source_movement": 2,
     "comparator_notes": 18,
     "source_label": "Ifigenia in Aulide (Excerpts); Manuscript copy; GraunWV B:I:18; D-Dl Mus.2953-F-1a",
@@ -3202,15 +3290,16 @@
    {
     "inc": "1.3.1 Presto",
     "movement": 3,
-    "notes": 10,
+    "notes": 11,
     "agree": 1,
-    "overlap": 2,
+    "overlap": 3,
     "source": "1001054467",
     "offset": [
-     0,
-     13
+     8,
+     0
     ],
     "source_inc": "1.1.1 Sinfonia. Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 23,
     "source_label": "Ifigenia in Aulide (Arrangement); Manuscript copy; GraunWV B:I:18; D-AAst Kf 6046 a",
@@ -3266,6 +3355,7 @@
      0
     ],
     "source_inc": "1.1.1 Sinfonie Allegro non troppo",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 24,
     "source_label": "Der lustige Schuster (Arrangement); Print",
@@ -3284,6 +3374,7 @@
      0
     ],
     "source_inc": "1.2.1 Allegretto",
+    "figuration": 0.0,
     "source_movement": 2,
     "comparator_notes": 17,
     "source_label": "Der lustige Schuster (Arrangement); Print",
@@ -3302,6 +3393,7 @@
      0
     ],
     "source_inc": "1.3.1 Allegro di molto",
+    "figuration": 0.0,
     "source_movement": 3,
     "comparator_notes": 13,
     "source_label": "Der lustige Schuster (Arrangement); Print",
@@ -3351,15 +3443,16 @@
     "movement": 1,
     "notes": 9,
     "agree": 1,
-    "overlap": 6,
+    "overlap": 9,
     "source": "1001223055",
     "offset": [
      0,
      9
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
-    "comparator_notes": 16,
+    "comparator_notes": 18,
     "source_label": "Alleluja ... Assumpta est Maria–D major; Autograph manuscript; I-Sd 2818/10",
     "source_keysig": "xFC",
     "keysig": "xFC"
@@ -3371,7 +3464,9 @@
   "movements": [
    1
   ],
-  "movements_matched": [],
+  "movements_matched": [
+   1
+  ],
   "movement_mismatch": [],
   "life": [
    1829,
@@ -3383,7 +3478,7 @@
   "prior_documentation": [],
   "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "plausible"
  },
  {
   "anon": "400003938",
@@ -3408,6 +3503,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro assai",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 13,
     "source_label": "Symphonies–D major; Autograph manuscript; AngP D62; D-Rtt Eisenmann 2",
@@ -3463,6 +3559,7 @@
      0
     ],
     "source_inc": "1.1.1 Sinfonia. Allegro con brio",
+    "figuration": 0.36,
     "source_movement": 1,
     "comparator_notes": 16,
     "source_label": "Giunio Bruto; Partial autograph; I-Nc Rari 1.3.6-7",
@@ -3506,17 +3603,18 @@
    {
     "inc": "1.1.1 Allegro assai",
     "movement": 1,
-    "notes": 7,
-    "agree": 7,
-    "overlap": 7,
+    "notes": 9,
+    "agree": 9,
+    "overlap": 9,
     "source": "454000360",
     "offset": [
      0,
      0
     ],
     "source_inc": "1.1.1 Allegro assai",
+    "figuration": 0.0,
     "source_movement": 1,
-    "comparator_notes": 8,
+    "comparator_notes": 10,
     "source_label": "Symphonies–G major; Manuscript copy; D-WWW K 3 Nr.42",
     "source_keysig": "xF",
     "keysig": "xF"
@@ -3567,6 +3665,7 @@
      3
     ],
     "source_inc": "1.1.1 Aria.",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 11,
     "source_label": "Servire a più d'una–D minor; Manuscript copy; I-Vlevi CF.D.20@1",
@@ -3585,6 +3684,7 @@
      0
     ],
     "source_inc": "1.1.1 Aria.",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 11,
     "source_label": "Servire a più d'una–D minor; Manuscript copy; I-Vlevi CF.D.20@1",
@@ -3603,6 +3703,7 @@
      0
     ],
     "source_inc": "1.1.1 Aria.",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 11,
     "source_label": "Servire a più d'una–D minor; Manuscript copy; I-Vlevi CF.D.20@1",
@@ -3652,17 +3753,18 @@
    {
     "inc": "1.1.1 Allegro",
     "movement": 1,
-    "notes": 13,
-    "agree": 13,
-    "overlap": 13,
+    "notes": 15,
+    "agree": 15,
+    "overlap": 15,
     "source": "140044",
     "offset": [
      0,
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
-    "comparator_notes": 28,
+    "comparator_notes": 30,
     "source_label": "Symphonies–A major; Manuscript copy; MünT 21; US-Wc M1001.T64P Op. III/iv",
     "source_keysig": "xFCG",
     "keysig": "xFCG"
@@ -3679,6 +3781,7 @@
      24
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 28,
     "source_label": "Symphonies–A major; Manuscript copy; MünT 21; US-Wc M1001.T64P Op. III/iv",
@@ -3697,6 +3800,7 @@
      24
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 28,
     "source_label": "Symphonies–A major; Manuscript copy; MünT 21; US-Wc M1001.T64P Op. III/iv",
@@ -3751,6 +3855,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 31,
     "source_label": "Symphonies–E♭ major; Manuscript copy; I-MAav Cart.15/2 n.16",
@@ -3800,6 +3905,7 @@
      0
     ],
     "source_inc": "1.1.1 Larghetto",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 15,
     "source_label": "Priva di te mio bene–B♭ major; Manuscript copy; D-B Mus.ms. 8832",
@@ -3852,6 +3958,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro assai",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 19,
     "source_label": "Symphonies–B♭ major; Manuscript copy; CH-EN Ms A 284",
@@ -3906,6 +4013,7 @@
      0
     ],
     "source_inc": "1.1.1 Recitativo. Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 23,
     "source_label": "Ifigenia (Excerpts); Manuscript copy; US-Wc M1505.A1 (205)",
@@ -3962,6 +4070,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 21,
     "source_label": "Symphonies; Manuscript copy; RieA deest; DK-Kk (mu 7302.2540)",
@@ -4035,6 +4144,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 14,
     "source_label": "Quartets–G major; Manuscript copy; BenP 305; PL-Wb M.R.0425",
@@ -4090,6 +4200,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.25,
     "source_movement": 1,
     "comparator_notes": 17,
     "source_label": "Symphonies–D major; Manuscript copy; GraunWV D:XII:97, MenH 6.65; S-Skma Alströmer saml. 155:14",
@@ -4146,6 +4257,7 @@
      0
     ],
     "source_inc": "1.2.1 Largo.",
+    "figuration": 0.0,
     "source_movement": 2,
     "comparator_notes": 16,
     "source_label": "Symphonies–D major; Manuscript copy; CH-Bu kr IV 90",
@@ -4204,6 +4316,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.8,
     "source_movement": 1,
     "comparator_notes": 10,
     "source_label": "Symphonies–D major; Manuscript copy; ZakP 24; D-Mbs Mus.ms. 3719",
@@ -4219,13 +4332,14 @@
     "source": "455016633",
     "offset": [
      0,
-     12
+     15
     ],
-    "source_inc": "1.3.1 Allegro assai",
-    "source_movement": 3,
-    "comparator_notes": 23,
+    "source_inc": "1.2.1 Rondeau. Andante",
+    "figuration": 0.0,
+    "source_movement": 2,
+    "comparator_notes": 21,
     "source_label": "Symphonies–D major; Manuscript copy; ZakP 24; D-Mbs Mus.ms. 3719",
-    "source_keysig": "xFC",
+    "source_keysig": "xFCG",
     "keysig": "bBEA"
    },
    {
@@ -4240,6 +4354,7 @@
      10
     ],
     "source_inc": "1.3.1 Allegro assai",
+    "figuration": 0.0,
     "source_movement": 3,
     "comparator_notes": 23,
     "source_label": "Symphonies–D major; Manuscript copy; ZakP 24; D-Mbs Mus.ms. 3719",
@@ -4296,6 +4411,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro.",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 23,
     "source_label": "Overtures–D major; Manuscript copy; CH-Bu kr IV 252",
@@ -4343,17 +4459,18 @@
    {
     "inc": "1.1.1 Allegro non molto",
     "movement": 1,
-    "notes": 18,
-    "agree": 18,
-    "overlap": 18,
+    "notes": 20,
+    "agree": 20,
+    "overlap": 20,
     "source": "1001383642",
     "offset": [
      0,
      0
     ],
     "source_inc": "1.1.1 [p. 7, at left of the 6th stave:] QUARTETTO IV [at left underneath the 6th stave:] Allegro non Molto",
+    "figuration": 0.21,
     "source_movement": 1,
-    "comparator_notes": 18,
+    "comparator_notes": 20,
     "source_label": "Quartets–F major; Print",
     "source_keysig": "bB",
     "keysig": "bB"
@@ -4370,6 +4487,7 @@
      0
     ],
     "source_inc": "1.4.2 Andante",
+    "figuration": 0.0,
     "source_movement": 11,
     "comparator_notes": 14,
     "source_label": "6 Quartets; Manuscript copy; US-NHub Osborn Music MS 5",
@@ -4388,6 +4506,7 @@
      0
     ],
     "source_inc": "1.4.3 Presto",
+    "figuration": 0.0,
     "source_movement": 12,
     "comparator_notes": 15,
     "source_label": "6 Quartets; Manuscript copy; US-NHub Osborn Music MS 5",
@@ -4450,6 +4569,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 17,
     "source_label": "Symphonies–D major; Manuscript copy; CH-E 819,1|3",
@@ -4505,6 +4625,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.29,
     "source_movement": 1,
     "comparator_notes": 15,
     "source_label": "Overtures–D major; Manuscript copy; CH-E 13,3",
@@ -4560,6 +4681,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 14,
     "source_label": "Symphonies–G major; Manuscript copy; S-Skma Alströmer saml. 148:6",
@@ -4612,6 +4734,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 9,
     "source_label": "Symphonies–D major; Manuscript copy; LMV VII:D20; A-Ik ohne Signatur",
@@ -4673,6 +4796,7 @@
      0
     ],
     "source_inc": "1.1.1 Sinfonia. Allegro con spirito",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 16,
     "source_label": "L'idolo cinese; Manuscript copy; D-Dl Mus.3549-F-4",
@@ -4728,6 +4852,7 @@
      4
     ],
     "source_inc": "1.1.1 Adagio",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 10,
     "source_label": "Ave Maria–E♭ major; Manuscript copy; PL-WRu 60540 Muz.",
@@ -4783,6 +4908,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 26,
     "source_label": "Concertos–G major; Manuscript copy; RV 303, DouT deest, CapT deest; D-Mbs Mus.ms. 5705",
@@ -4801,6 +4927,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 26,
     "source_label": "Concertos–G major; Manuscript copy; RV 303, DouT deest, CapT deest; D-Mbs Mus.ms. 5705",
@@ -4862,6 +4989,7 @@
      0
     ],
     "source_inc": "1.5.1",
+    "figuration": 0.0,
     "source_movement": 5,
     "comparator_notes": 16,
     "source_label": "Deutsche Tänze–C major; Manuscript copy; D-B Mus.ms. 3620/3",
@@ -4880,6 +5008,7 @@
      4
     ],
     "source_inc": "1.14.1",
+    "figuration": 0.36,
     "source_movement": 14,
     "comparator_notes": 16,
     "source_label": "Deutsche Tänze–C major; Manuscript copy; D-B Mus.ms. 3620/3",
@@ -4929,17 +5058,18 @@
    {
     "inc": "1.1.1 Allegro",
     "movement": 1,
-    "notes": 12,
-    "agree": 12,
-    "overlap": 12,
+    "notes": 14,
+    "agree": 14,
+    "overlap": 14,
     "source": "452015393",
     "offset": [
      0,
      0
     ],
     "source_inc": "1.1.2",
+    "figuration": 0.0,
     "source_movement": 1,
-    "comparator_notes": 12,
+    "comparator_notes": 14,
     "source_label": "Philippe et Georgette (Excerpts, Arrangement); Manuscript copy; D-B Mus.ms. 4880/8",
     "source_keysig": "xF",
     "keysig": "xFC"
@@ -4990,6 +5120,7 @@
      0
     ],
     "source_inc": "1.1.1 Sonata. Andante non molto",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 16,
     "source_label": "Sonatas–E♭ major; Manuscript copy; PL-CZ III-752",
@@ -5042,6 +5173,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro molto",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 23,
     "source_label": "Symphonies–C major (Excerpts); Manuscript copy; D-BAd GW 18/2",
@@ -5089,17 +5221,18 @@
    {
     "inc": "1.1.1 Allegro assai.",
     "movement": 1,
-    "notes": 18,
-    "agree": 18,
-    "overlap": 18,
+    "notes": 20,
+    "agree": 20,
+    "overlap": 20,
     "source": "212002745",
     "offset": [
      0,
      0
     ],
     "source_inc": "1.1.1 allegro assai",
+    "figuration": 0.0,
     "source_movement": 1,
-    "comparator_notes": 24,
+    "comparator_notes": 26,
     "source_label": "Symphonies–D major; Manuscript copy; LeeB 1.4; D-Dl Mus.2981-N-2",
     "source_keysig": "xFC",
     "keysig": "xFC"
@@ -5116,6 +5249,7 @@
      0
     ],
     "source_inc": "1.2.1 Larghetto",
+    "figuration": 0.33,
     "source_movement": 2,
     "comparator_notes": 13,
     "source_label": "Symphonies–D major; Manuscript copy; LeeB 1.4; D-Dl Mus.2981-N-2",
@@ -5134,6 +5268,7 @@
      0
     ],
     "source_inc": "1.3.1 Presto",
+    "figuration": 0.0,
     "source_movement": 3,
     "comparator_notes": 10,
     "source_label": "Symphonies–D major; Manuscript copy; LeeB 1.4; D-Dl Mus.2981-N-2",
@@ -5186,15 +5321,16 @@
     "movement": 1,
     "notes": 12,
     "agree": 1,
-    "overlap": 2,
+    "overlap": 3,
     "source": "452519429",
     "offset": [
      0,
-     4
+     1
     ],
     "source_inc": "1.1.1 Allegro moderato",
+    "figuration": 0.0,
     "source_movement": 1,
-    "comparator_notes": 20,
+    "comparator_notes": 24,
     "source_label": "Quartets–C major; Manuscript copy; D-B Mus.ms. 23120",
     "source_keysig": "n",
     "keysig": "xFC"
@@ -5211,6 +5347,7 @@
      1
     ],
     "source_inc": "1.1.1 Allegro moderato",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 20,
     "source_label": "Quartets–C major; Manuscript copy; D-B Mus.ms. 23120",
@@ -5222,15 +5359,16 @@
     "movement": 3,
     "notes": 7,
     "agree": 1,
-    "overlap": 2,
+    "overlap": 3,
     "source": "452519429",
     "offset": [
      0,
-     4
+     1
     ],
     "source_inc": "1.1.1 Allegro moderato",
+    "figuration": 0.0,
     "source_movement": 1,
-    "comparator_notes": 20,
+    "comparator_notes": 24,
     "source_label": "Quartets–C major; Manuscript copy; D-B Mus.ms. 23120",
     "source_keysig": "n",
     "keysig": "xFC"
@@ -5288,6 +5426,7 @@
      0
     ],
     "source_inc": "1.3.1 Mater Christi.",
+    "figuration": 0.0,
     "source_movement": 3,
     "comparator_notes": 31,
     "source_label": "Litanies–F major; Manuscript copy; NovB Nov. XIXa:li1b.3; CZ-Pnm XL B 24",
@@ -5306,6 +5445,7 @@
      13
     ],
     "source_inc": "1.1.1 Kyrie. Andante",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 31,
     "source_label": "Litanies–F major; Manuscript copy; NovB Nov. XIXa:li1b.3; CZ-Pnm XL B 24",
@@ -5315,19 +5455,20 @@
    {
     "inc": "1.3.1 Presto.",
     "movement": 3,
-    "notes": 12,
-    "agree": 3,
-    "overlap": 3,
+    "notes": 14,
+    "agree": 1,
+    "overlap": 4,
     "source": "551001337",
     "offset": [
-     0,
+     6,
      0
     ],
-    "source_inc": "1.1.2",
-    "source_movement": 1,
-    "comparator_notes": 5,
+    "source_inc": "1.4.2",
+    "figuration": 0.0,
+    "source_movement": 4,
+    "comparator_notes": 22,
     "source_label": "Litanies–F major; Manuscript copy; NovB Nov. XIXa:li1b.3; CZ-Pnm XL B 24",
-    "source_keysig": "bB",
+    "source_keysig": "xF",
     "keysig": "xF"
    }
   ],
@@ -5383,6 +5524,7 @@
      0
     ],
     "source_inc": "1.16.1 Seconda Parte Sinfonia. Allegro",
+    "figuration": 0.0,
     "source_movement": 16,
     "comparator_notes": 20,
     "source_label": "La Galatea (Excerpts); Manuscript copy; D-Dl Mus.3096-F-2",
@@ -5440,6 +5582,7 @@
      4
     ],
     "source_inc": "1.1.1 Moderato",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 17,
     "source_label": "Tantum ergo–C major; Manuscript copy; A-ST Mus.ms. 946",
@@ -5501,6 +5644,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 21,
     "source_label": "Symphonies; Manuscript copy; RieA deest; DK-Kk (mu 7302.2540)",
@@ -5556,6 +5700,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 12,
     "source_label": "Symphonies–C major; Manuscript copy; SmWV 404; H-Bn Ms.mus IV.41",
@@ -5620,6 +5765,7 @@
      0
     ],
     "source_inc": "1.1.1 Overtura.",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 18,
     "source_label": "Lucio Vero; Manuscript copy; US-R M1500.S119L",
@@ -5672,6 +5818,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 34,
     "source_label": "Symphonies–C major; Manuscript copy; BoeR 10; A-LA 241",
@@ -5715,17 +5862,18 @@
    {
     "inc": "1.1.1 Allegro assai",
     "movement": 1,
-    "notes": 9,
-    "agree": 9,
-    "overlap": 9,
+    "notes": 13,
+    "agree": 13,
+    "overlap": 13,
     "source": "706000763",
     "offset": [
      0,
      0
     ],
     "source_inc": "1.1.1 Allegro assai",
+    "figuration": 0.0,
     "source_movement": 1,
-    "comparator_notes": 9,
+    "comparator_notes": 13,
     "source_label": "Symphonies–D major; Manuscript copy; KucW 17, MicWka 370; B-Bc 7946 XXII",
     "source_keysig": "xFC",
     "keysig": "xFC"
@@ -5767,15 +5915,16 @@
    {
     "inc": "1.1.1 Allegro Moderato",
     "movement": 1,
-    "notes": 11,
-    "agree": 3,
-    "overlap": 3,
+    "notes": 13,
+    "agree": 11,
+    "overlap": 11,
     "source": "1001323409",
     "offset": [
      0,
      0
     ],
     "source_inc": "1.1.1 [Prima pars]",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 12,
     "source_label": "Cum ingrederetur Jesus–Mode: 2t – Hypodorian; Print",
@@ -5784,12 +5933,14 @@
    }
   ],
   "vocal_matches": [],
-  "transposed": false,
+  "transposed": true,
   "key_label_mismatch": false,
   "movements": [
    1
   ],
-  "movements_matched": [],
+  "movements_matched": [
+   1
+  ],
   "movement_mismatch": [],
   "life": [
    1520,
@@ -5822,30 +5973,35 @@
    {
     "inc": "1.1.1 Andante sost-to",
     "movement": 1,
-    "notes": 5,
+    "notes": 7,
     "agree": 1,
-    "overlap": 1,
+    "overlap": 7,
     "source": "1001097195",
     "offset": [
      0,
-     0
+     2
     ],
-    "source_inc": "1.1.1 Moderato",
-    "source_movement": 1,
-    "comparator_notes": 24,
+    "source_inc": "1.6.1 All.|o molto",
+    "figuration": 0.0,
+    "source_movement": 6,
+    "comparator_notes": 11,
     "source_label": "Quartets–E♭ major; Print; Hob III:20",
     "source_keysig": "bBEA",
     "keysig": "bB"
    }
   ],
   "vocal_matches": [],
-  "transposed": false,
+  "transposed": true,
   "key_label_mismatch": false,
   "movements": [
    1
   ],
-  "movements_matched": [],
-  "movement_mismatch": [],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [
+   "1->6"
+  ],
   "life": [
    1732,
    1809
@@ -5859,7 +6015,7 @@
   "prior_documentation": [],
   "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "good"
  },
  {
   "anon": "570002608",
@@ -5877,67 +6033,76 @@
     "inc": "1.1.1 Allegro assai",
     "movement": 1,
     "notes": 13,
-    "agree": 4,
-    "overlap": 4,
-    "source": "225001445",
+    "agree": 1,
+    "overlap": 7,
+    "source": "270000769",
     "offset": [
      0,
-     0
+     3
     ],
-    "source_inc": "1.36.1 Aria. Allegretto",
-    "source_movement": 15,
-    "comparator_notes": 19,
-    "source_label": "Achille in Sciro; Manuscript copy; D-LEu N.I.10298a-c",
-    "source_keysig": "bBEAD",
+    "source_inc": "1.15.1 Aria [= Arioso]. Un poco lento ed amoroso",
+    "figuration": 0.0,
+    "source_movement": 7,
+    "comparator_notes": 20,
+    "source_label": "Achille in Sciro; Manuscript copy; D-Dl Mus.2477-F-89",
+    "source_keysig": "bB",
     "keysig": "xFC"
    },
    {
     "inc": "1.2.1 Andante",
     "movement": 2,
     "notes": 17,
-    "agree": 1,
+    "agree": 3,
     "overlap": 3,
     "source": "225001445",
     "offset": [
      0,
-     9
+     0
     ],
-    "source_inc": "1.44.1 Aria. Un poco lento; Allegretto",
-    "source_movement": 19,
-    "comparator_notes": 20,
+    "source_inc": "1.56.2",
+    "figuration": 0.0,
+    "source_movement": 24,
+    "comparator_notes": 21,
     "source_label": "Achille in Sciro; Manuscript copy; D-LEu N.I.10298a-c",
-    "source_keysig": "n",
+    "source_keysig": "xF",
     "keysig": "xF"
    },
    {
     "inc": "1.3.1 Presto",
     "movement": 3,
-    "notes": 14,
+    "notes": 18,
     "agree": 1,
-    "overlap": 4,
+    "overlap": 11,
     "source": "225001445",
     "offset": [
-     6,
-     0
+     0,
+     7
     ],
-    "source_inc": "1.20.1 Aria. Allegro",
-    "source_movement": 8,
-    "comparator_notes": 18,
+    "source_inc": "1.41.1 Arietta col Coro. Allegretto",
+    "figuration": 0.0,
+    "source_movement": 18,
+    "comparator_notes": 22,
     "source_label": "Achille in Sciro; Manuscript copy; D-LEu N.I.10298a-c",
-    "source_keysig": "n",
+    "source_keysig": "xF",
     "keysig": "xFC"
    }
   ],
-  "vocal_matches": [],
-  "transposed": false,
+  "vocal_matches": [
+   "225001445 1.41.1 Arietta col Coro. Allegretto"
+  ],
+  "transposed": true,
   "key_label_mismatch": false,
   "movements": [
    1,
    2,
    3
   ],
-  "movements_matched": [],
-  "movement_mismatch": [],
+  "movements_matched": [
+   3
+  ],
+  "movement_mismatch": [
+   "3->18"
+  ],
   "life": [
    1699,
    1783
@@ -5951,7 +6116,7 @@
   "prior_documentation": [],
   "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "good"
  },
  {
   "anon": "570005113",
@@ -5981,6 +6146,7 @@
      0
     ],
     "source_inc": "1.1.1 Vivace",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 13,
     "source_label": "Symphonies–F major; Manuscript copy; JenS D36; PL-Wu RM 4304",
@@ -5999,6 +6165,7 @@
      0
     ],
     "source_inc": "1.2.1 Andante con Sordini",
+    "figuration": 0.0,
     "source_movement": 2,
     "comparator_notes": 20,
     "source_label": "Symphonies–F major; Manuscript copy; JenS D36; PL-MO 928",
@@ -6017,6 +6184,7 @@
      0
     ],
     "source_inc": "1.3.1 Allegro.",
+    "figuration": 0.0,
     "source_movement": 3,
     "comparator_notes": 14,
     "source_label": "Symphonies–F major (Arrangement); Print; JenS D36",
@@ -6113,6 +6281,7 @@
      8
     ],
     "source_inc": "1.1.1 Andantino grazioso",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 20,
     "source_label": "L’incognita perseguitata (Excerpts); Manuscript copy; US-BEm MS 106",
@@ -6131,6 +6300,7 @@
      0
     ],
     "source_inc": "1.1.1 Andantino grazioso",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 20,
     "source_label": "L’incognita perseguitata (Excerpts); Manuscript copy; US-BEm MS 106",
@@ -6149,6 +6319,7 @@
      15
     ],
     "source_inc": "1.1.1 Andantino grazioso",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 20,
     "source_label": "L’incognita perseguitata (Excerpts); Manuscript copy; US-BEm MS 106",
@@ -6205,6 +6376,7 @@
      0
     ],
     "source_inc": "1.1.2",
+    "figuration": 1.0,
     "source_movement": 1,
     "comparator_notes": 22,
     "source_label": "La clemenza di Tito; Manuscript copy; D-Dl Mus.3480-F-4",
@@ -6223,6 +6395,7 @@
      0
     ],
     "source_inc": "1.2.1 Andante espressivo",
+    "figuration": 0.0,
     "source_movement": 2,
     "comparator_notes": 12,
     "source_label": "La clemenza di Tito; Manuscript copy; D-Dl Mus.3480-F-4",
@@ -6241,6 +6414,7 @@
      0
     ],
     "source_inc": "1.28.2",
+    "figuration": 0.0,
     "source_movement": 14,
     "comparator_notes": 9,
     "source_label": "La clemenza di Tito; Manuscript copy; D-Dl Mus.3480-F-4",
@@ -6259,6 +6433,7 @@
      0
     ],
     "source_inc": "1.3.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 3,
     "comparator_notes": 21,
     "source_label": "La clemenza di Tito; Manuscript copy; D-Dl Mus.3480-F-4",
@@ -6276,7 +6451,6 @@
    4
   ],
   "movements_matched": [
-   1,
    2,
    4
   ],
@@ -6322,6 +6496,7 @@
      2
     ],
     "source_inc": "1.1.1 Intrada. Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 12,
     "source_label": "O schönstes Glück das dieser Tag verspricht; Manuscript copy; DieH p. 96-97; D-SWl Mus.2706",
@@ -6340,6 +6515,7 @@
      0
     ],
     "source_inc": "1.1.1 Intrada. Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 12,
     "source_label": "O schönstes Glück das dieser Tag verspricht; Manuscript copy; DieH p. 96-97; D-SWl Mus.2706",
@@ -6358,6 +6534,7 @@
      0
     ],
     "source_inc": "1.1.1 Intrada. Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 12,
     "source_label": "O schönstes Glück das dieser Tag verspricht; Manuscript copy; DieH p. 96-97; D-SWl Mus.2706",
@@ -6418,6 +6595,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 11,
     "source_label": "Symphonies–C major; Manuscript copy; D-WEY 613",
@@ -6471,6 +6649,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro molto",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 15,
     "source_label": "Symphonies–C major; Manuscript copy; PosK I:9; D-Dl Mus.3540-N-1",
@@ -6523,6 +6702,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro molto",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 22,
     "source_label": "Symphonies–B♭ major; Manuscript copy; WolS III.QS-31, MicWka 435, KucW 73, WarB YC 3; A-ST Mus.ms. 2153",
@@ -6583,6 +6763,7 @@
      1
     ],
     "source_inc": "1.1.1 [Sinfonia].",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 17,
     "source_label": "La fedeltà in amore (Excerpts); Autograph manuscript; I-Nc Rari 2.5.19",
@@ -6635,6 +6816,7 @@
      0
     ],
     "source_inc": "1.1.1 Symphony.",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 10,
     "source_label": "Masses–D major; Manuscript copy; I-Rama A.Ms.2663",
@@ -6679,17 +6861,18 @@
    {
     "inc": "1.1.1 Allegro",
     "movement": 1,
-    "notes": 12,
-    "agree": 12,
-    "overlap": 12,
+    "notes": 14,
+    "agree": 14,
+    "overlap": 14,
     "source": "104650",
     "offset": [
      0,
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
-    "comparator_notes": 12,
+    "comparator_notes": 14,
     "source_label": "Symphonies concertantes–F major; Autograph manuscript; US-NYp Mus. Res. *MNZ",
     "source_keysig": "bB",
     "keysig": "bB"
@@ -6734,17 +6917,18 @@
    {
     "inc": "1.1.1 Allegro",
     "movement": 1,
-    "notes": 12,
-    "agree": 12,
-    "overlap": 12,
+    "notes": 13,
+    "agree": 13,
+    "overlap": 13,
     "source": "150203709",
     "offset": [
      0,
      0
     ],
     "source_inc": "1.1.1",
+    "figuration": 0.0,
     "source_movement": 1,
-    "comparator_notes": 13,
+    "comparator_notes": 14,
     "source_label": "Symphonies–D major; Manuscript copy; MünT 27; DK-Kk (mu 7308.2137)",
     "source_keysig": "xFC",
     "keysig": "xFC"
@@ -6797,6 +6981,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 15,
     "source_label": "Sonatas–C major; Manuscript copy; CH-BEl SLA-Mus-EH A-08-d-15/1",
@@ -6815,6 +7000,7 @@
      0
     ],
     "source_inc": "1.2.1 Andante",
+    "figuration": 0.0,
     "source_movement": 2,
     "comparator_notes": 16,
     "source_label": "Sonatas–C major; Manuscript copy; CH-BEl SLA-Mus-EH A-08-d-15/1",
@@ -6833,6 +7019,7 @@
      0
     ],
     "source_inc": "1.3.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 3,
     "comparator_notes": 43,
     "source_label": "Sonatas–C major; Manuscript copy; CH-BEl SLA-Mus-EH A-08-d-15/1",
@@ -6894,6 +7081,7 @@
      5
     ],
     "source_inc": "1.7.1 6 Var:",
+    "figuration": 0.0,
     "source_movement": 7,
     "comparator_notes": 44,
     "source_label": "Variations–B♭ major; Manuscript copy; CZ-Pu 59 R 1228",
@@ -6909,11 +7097,12 @@
     "source": "551002435",
     "offset": [
      0,
-     5
+     14
     ],
-    "source_inc": "1.2.1 1 Var:",
-    "source_movement": 2,
-    "comparator_notes": 29,
+    "source_inc": "1.1.1 Thema. Cantabile moderato",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 23,
     "source_label": "Variations–B♭ major; Manuscript copy; CZ-Pu 59 R 1228",
     "source_keysig": "bBE",
     "keysig": "bBEA"
@@ -6930,6 +7119,7 @@
      11
     ],
     "source_inc": "1.3.1 2 Var:",
+    "figuration": 0.0,
     "source_movement": 3,
     "comparator_notes": 40,
     "source_label": "Variations–B♭ major; Manuscript copy; CZ-Pu 59 R 1228",
@@ -6948,6 +7138,7 @@
      2
     ],
     "source_inc": "1.7.1 6 Var:",
+    "figuration": 0.0,
     "source_movement": 7,
     "comparator_notes": 44,
     "source_label": "Variations–B♭ major; Manuscript copy; CZ-Pu 59 R 1228",
@@ -7013,6 +7204,7 @@
      0
     ],
     "source_inc": "1.25.1 Menuet",
+    "figuration": 0.0,
     "source_movement": 25,
     "comparator_notes": 14,
     "source_label": "Isis (Excerpts, Arrangement); Manuscript copy; LWV 54; D-ROu Mus. Saec. XVII.18-25",
@@ -7072,6 +7264,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 18,
     "source_label": "Symphonies–D major; Manuscript copy; JenS 10; US-BEm MS 600 A-F",
@@ -7118,17 +7311,18 @@
    {
     "inc": "1.1.1 Presto",
     "movement": 1,
-    "notes": 17,
-    "agree": 17,
-    "overlap": 17,
+    "notes": 23,
+    "agree": 23,
+    "overlap": 23,
     "source": "141483",
     "offset": [
      0,
      0
     ],
     "source_inc": "1.1.1 Presto con brio",
+    "figuration": 0.0,
     "source_movement": 1,
-    "comparator_notes": 25,
+    "comparator_notes": 34,
     "source_label": "Posson ben le stagion; Manuscript copy; US-Wc M1528.A2 P44",
     "source_keysig": "xFC",
     "keysig": "xFC"
@@ -7175,17 +7369,18 @@
    {
     "inc": "1.1.1 Allegro con spirito",
     "movement": 1,
-    "notes": 18,
-    "agree": 7,
-    "overlap": 7,
+    "notes": 20,
+    "agree": 9,
+    "overlap": 9,
     "source": "450009049",
     "offset": [
      0,
      0
     ],
     "source_inc": "1.1.1 Overture. Vivace con spirito",
+    "figuration": 0.0,
     "source_movement": 1,
-    "comparator_notes": 7,
+    "comparator_notes": 9,
     "source_label": "Agamemnon vengé; Manuscript copy; RieA deest; D-Rtt Aspelmayr 4",
     "source_keysig": "bB",
     "keysig": "bB"
@@ -7194,16 +7389,17 @@
     "inc": "1.1.2 Allegro con spirito",
     "movement": 2,
     "notes": 18,
-    "agree": 1,
-    "overlap": 2,
+    "agree": 3,
+    "overlap": 3,
     "source": "1001383008",
     "offset": [
      0,
-     11
+     0
     ],
     "source_inc": "1.1.1 Allegro Con Spiritoso",
+    "figuration": 0.0,
     "source_movement": 1,
-    "comparator_notes": 24,
+    "comparator_notes": 26,
     "source_label": "Agamemnon vengé; Manuscript copy; CZ-K No 152b K II",
     "source_keysig": "bB",
     "keysig": "bB"
@@ -7259,6 +7455,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro con spirito",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 11,
     "source_label": "Symphonies–D major; Manuscript copy; LippmannD 1968 155/6; US-BEm MS 829 A-D",
@@ -7316,6 +7513,7 @@
      0
     ],
     "source_inc": "1.2.1 [p. 4, underneath the 11th stave:] Allegretto",
+    "figuration": 0.0,
     "source_movement": 2,
     "comparator_notes": 20,
     "source_label": "Symphonies concertantes–B♭ major; Print",
@@ -7373,6 +7571,7 @@
      0
     ],
     "source_inc": "1.1.1 Alleg[ro]",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 17,
     "source_label": "Huc ad plausus omnes gentes–F major; Manuscript copy; A-LA 725",
@@ -7434,6 +7633,7 @@
      0
     ],
     "source_inc": "1.1.1",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 18,
     "source_label": "Regna terrae; Manuscript copy; RUS-Mk XI-358",
@@ -7488,6 +7688,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro con spirito",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 17,
     "source_label": "La Calliroe (Excerpts); Manuscript copy; EvaM 10., D22; CH-EN Ms A 489",
@@ -7549,6 +7750,7 @@
      0
     ],
     "source_inc": "1.1.1 [p. 6, at left of the 1st stave:] SINFONIA II [above the 1st stave:] All|o moderato",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 13,
     "source_label": "Symphonies concertantes–D major; Print",
@@ -7604,6 +7806,7 @@
      0
     ],
     "source_inc": "1.1.1 Adagio",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 6,
     "source_label": "Sonatas–D major; Manuscript copy; CH-Zz Mus Ms A 436",
@@ -7670,6 +7873,7 @@
      0
     ],
     "source_inc": "1.1.1 All[egr]o assai",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 20,
     "source_label": "Il filosofo di campagna–D major (Excerpts); Manuscript copy; SK-Nb 1",
@@ -7727,6 +7931,7 @@
      0
     ],
     "source_inc": "1.1.1 All.o",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 16,
     "source_label": "Symphonies–C major; Partial autograph; I-OS Mss.Mus.B 1957",
@@ -7779,6 +7984,7 @@
      4
     ],
     "source_inc": "1.2.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 2,
     "comparator_notes": 13,
     "source_label": "Sonatas–G major; Possible autograph manuscript; D-SWl Mus.4467",
@@ -7829,17 +8035,18 @@
    {
     "inc": "1.1.1 All.o",
     "movement": 1,
-    "notes": 9,
-    "agree": 9,
-    "overlap": 9,
+    "notes": 11,
+    "agree": 11,
+    "overlap": 11,
     "source": "201008913",
     "offset": [
      0,
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
-    "comparator_notes": 10,
+    "comparator_notes": 12,
     "source_label": "Symphonies concertantes–A major; Manuscript copy; BenP 114; D-Zsch 10636,23",
     "source_keysig": "xFCG",
     "keysig": "xF"
@@ -7895,6 +8102,7 @@
      0
     ],
     "source_inc": "1.2.1",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 16,
     "source_label": "Pamela; Manuscript copy; F-Pn D-3891",
@@ -7951,6 +8159,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 10,
     "source_label": "Egeria; Partial autograph; I-OS Mss.Mus.B 1953",
@@ -8006,6 +8215,7 @@
      0
     ],
     "source_inc": "1.1.1 N. 1:. Largo maestoso",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 13,
     "source_label": "Ballets; Manuscript copy; I-Mdemicheli MSS.Mus 115",
@@ -8052,17 +8262,18 @@
    {
     "inc": "1.1.1 All.o con brio",
     "movement": 1,
-    "notes": 11,
-    "agree": 11,
-    "overlap": 11,
+    "notes": 13,
+    "agree": 13,
+    "overlap": 13,
     "source": "850008353",
     "offset": [
      0,
      0
     ],
     "source_inc": "1.1.1 Sinfonia. Allegro con molto brio",
+    "figuration": 0.0,
     "source_movement": 1,
-    "comparator_notes": 19,
+    "comparator_notes": 21,
     "source_label": "I matrimoni impensati; Autograph manuscript; I-Nc Rari 1.1.20-21",
     "source_keysig": "xFC",
     "keysig": "xFC"
@@ -8114,13 +8325,14 @@
     "source": "551006846",
     "offset": [
      0,
-     9
+     3
     ],
-    "source_inc": "1.10.1",
-    "source_movement": 10,
-    "comparator_notes": 18,
+    "source_inc": "1.1.1",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 31,
     "source_label": "Ländler (Arrangement); Print; CZ-Pnm XLII C 285",
-    "source_keysig": "xF",
+    "source_keysig": "n",
     "keysig": "xFC"
    },
    {
@@ -8132,13 +8344,14 @@
     "source": "551006846",
     "offset": [
      0,
-     9
+     3
     ],
-    "source_inc": "1.10.1",
-    "source_movement": 10,
-    "comparator_notes": 18,
+    "source_inc": "1.1.1",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 31,
     "source_label": "Ländler (Arrangement); Print; CZ-Pnm XLII C 285",
-    "source_keysig": "xF",
+    "source_keysig": "n",
     "keysig": "xFC"
    }
   ],
@@ -8154,8 +8367,7 @@
    2
   ],
   "movement_mismatch": [
-   "1->10",
-   "2->10"
+   "2->1"
   ],
   "life": [
    1763,
@@ -8198,6 +8410,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 10,
     "source_label": "Jefte; Manuscript copy; I-OS Mss.Mus.B 119/1-2",
@@ -8244,17 +8457,18 @@
    {
     "inc": "1.1.1",
     "movement": 1,
-    "notes": 6,
-    "agree": 5,
-    "overlap": 5,
+    "notes": 8,
+    "agree": 7,
+    "overlap": 7,
     "source": "850610123",
     "offset": [
      0,
      0
     ],
     "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
     "source_movement": 1,
-    "comparator_notes": 6,
+    "comparator_notes": 8,
     "source_label": "Allegro–C major; Manuscript copy; I-OS Mss.Mus.B 3050",
     "source_keysig": "n",
     "keysig": "n"
@@ -8266,7 +8480,9 @@
   "movements": [
    1
   ],
-  "movements_matched": [],
+  "movements_matched": [
+   1
+  ],
   "movement_mismatch": [],
   "life": [
    1767,
@@ -8281,7 +8497,7 @@
   "prior_documentation": [],
   "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "plausible"
  },
  {
   "anon": "850608133",
@@ -8306,6 +8522,7 @@
      0
     ],
     "source_inc": "1.1.1 Larghetto staccato",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 13,
     "source_label": "Symphonies–C minor; Manuscript copy; I-OS Mss.Mus.B 1228",
@@ -8363,6 +8580,7 @@
      0
     ],
     "source_inc": "1.1.1 Allegro con spirito",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 17,
     "source_label": "La Calliroe (Excerpts); Manuscript copy; EvaM 10., D22; CH-EN Ms A 489",
@@ -8418,6 +8636,7 @@
      24
     ],
     "source_inc": "1.11.1 Nro 10. Duetto. Allegro assai",
+    "figuration": 0.0,
     "source_movement": 11,
     "comparator_notes": 46,
     "source_label": "Heirat aus Liebe; Manuscript copy; D-GOl Mus. 4˚ 47b/1(1-2)",
@@ -8482,6 +8701,7 @@
      0
     ],
     "source_inc": "1.1.1 Atto Pmo. Sinfonia. Allegro vivace",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 11,
     "source_label": "I giuochi d'Agrigento (Excerpts, Arrangement); Manuscript copy; RobP 1.84; GB-Lbl Add. 16090",
@@ -8537,6 +8757,7 @@
      0
     ],
     "source_inc": "1.1.1 Ripieno.",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 7,
     "source_label": "Sonatas–B♭ major; Manuscript copy; I-BGc N.C.2.3",
@@ -8592,6 +8813,7 @@
      0
     ],
     "source_inc": "1.1.1 [Sinfonia]. Larghetto",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 22,
     "source_label": "La virtù al cimento; Manuscript copy; PaWV 18; I-Rmassimo [without shelfmark]",
@@ -8647,6 +8869,7 @@
      0
     ],
     "source_inc": "1.1.1 Maestoso",
+    "figuration": 0.0,
     "source_movement": 1,
     "comparator_notes": 9,
     "source_label": "Il barone di Montesecco (Excerpts); Manuscript copy; I-Ria Mss. Vess. 482",
@@ -8702,6 +8925,7 @@
      0
     ],
     "source_inc": "1.2.1 Romance / [Coplas].",
+    "figuration": 0.0,
     "source_movement": 2,
     "comparator_notes": 8,
     "source_label": "Afuera cielos que sale–Mode: 11t – Ionian; Manuscript copy; E-Zac B-3/49",
