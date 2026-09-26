@@ -3,48 +3,54 @@
 [RISM](https://rism.online/) (Répertoire International des Sources Musicales) catalogues about
 1.6 million music manuscripts and prints. About 297,000 are listed under "Anonymus", and most
 of those carry incipits, the encoded opening bars of each movement. This repository searches
-those incipits against the attributed ones and checks every match by hand, one genre at a time.
+those incipits against the attributed ones and compares every candidate incipit by incipit, one genre at a time.
 
 The results, with each anonymous copy's movements rendered next to the attributed copy's, are at
 **https://aaymeloglu.github.io/rism-attributions/**.
 
-## Results so far (symphonies, 26 September 2026)
+## Results so far (26 September 2026)
 
-878 anonymous symphonies with incipits were searched. 133 leads were reviewed covering 125
-anonymous sources:
+| | Symphonies | Concertos |
+|---|---|---|
+| Anonymous sources with incipits searched | 878 | 899 |
+| Anonymous sources with a lead, reviewed | 119 | 97 |
+| Same music as an attributed copy | 66 | 39 |
+| of which new, with a single unqualified attribution | 52 | 29 |
+| of which new, but the composer is disputed, uncertain, a bare surname or known only from a modern copy | 6 | 2 |
+| of which already noted in RISM | 8 | 8 |
+| Probably the same music (transposed, arranged, partial, or part of a vocal work) | 17 | 15 |
+| Unresolved | 5 | 4 |
+| Rejected | 31 | 39 |
 
-| Verdict | Sources |
-|---|---|
-| confirmed | 58 |
-| conflicting attribution | 1 |
-| probable | 7 |
-| unresolved | 4 |
-| already identified in the record | 11 |
-| rejected | 44 |
-
-Many anonymous "symphonies" turn out to be opera overtures (Galuppi, Sacchini, Mysliveček,
-Cimarosa, Paisiello, Sarti, Naumann's *La clemenza di Tito*), or arrangements of quartets and
-sonatas. One symphony (PL-SA 141/A III 41) matches copies attributed both to Hasse and to
-Röllig. A further 12 pairs of anonymous copies match each other on two or more movements; they
-are listed on the site as [anonymous concordances](https://aaymeloglu.github.io/rism-attributions/concordances.html).
+A source with leads in both genres is counted once, under concertos. Twelve symphony and eight
+concerto matches cover two or more movements; the rest rest on a single encoded movement. Many
+anonymous "symphonies" turn out to be opera overtures (Galuppi, Sacchini, Mysliveček, Cimarosa,
+Paisiello, Naumann's *La clemenza di Tito*), single movements of larger works, or arrangements.
+The concertos include Weber's Clarinet Concertino and Rosetti's clarinet concerto MurR C62 (both
+written for B-flat clarinet, a whole tone above concert pitch), Mozart's K. 175 and a run of
+Giuseppe Sammartini concertos in the British Library's Royal Music collection. Twenty-seven pairs
+of anonymous copies agree with each other on two or more movements; they are listed on the site
+as [anonymous concordances](https://aaymeloglu.github.io/rism-attributions/concordances.html).
 
 A match means RISM holds an attributed copy of the same music. It does not settle a disputed
-authorship, and the composers' printed thematic catalogues may already list some of these
-copies. Nothing has been reported to RISM yet. See [METHOD.md](METHOD.md) for the pipeline,
-what each verdict means and the limits. The research was done by Claude (an LLM).
+authorship, and composers' printed thematic catalogues may already list some of these copies.
+Nothing has been reported to RISM yet. See [METHOD.md](METHOD.md) for the pipeline, what each
+verdict means, the checks, and the limits. The research was done by Claude (an LLM); an
+independent review by Codex (another LLM) led to the current three-part verdicts and checks.
 
 ## Layout
 
 ```
-data/verdicts.csv                 hand verdict and note for every lead (the source of truth)
+data/verdicts.csv                 verdict, attribution, prior documentation and note for every lead (the source of truth)
 data/attributions.json            generated: verdicts joined with RISM records and incipits (what the site shows)
 data/anonymous_concordances.json  generated: anonymous copies matching each other on 2+ movements
 data/genres.json                  burndown: anonymous sources with incipits per RISM subject
 runs/<genre>/results.json         search hits per anonymous source
 runs/<genre>/leads.json           graded leads with evidence
-tools/                            rism.py (cached API client), pae.py (Plaine & Easie pitches), discover/leads/export/genres
+tools/                            rism.py (cached API client), pae.py (Plaine & Easie pitches), context.py (catalogue checks),
+                                  discover/leads/review/export/genres
 docs/                             the site; python3 docs/_build_site.py regenerates it (stdlib only)
-tests/                            data/site consistency; CI fails if docs/ is stale
+tests/                            verdicts vs catalogue flags, parser, data/site consistency; CI fails if docs/ is stale
 ```
 
 ## Data

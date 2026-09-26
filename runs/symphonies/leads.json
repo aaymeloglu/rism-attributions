@@ -12,36 +12,97 @@
    "551001555",
    "650002241"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1",
+    "movement": 1,
     "notes": 9,
     "agree": 5,
+    "overlap": 5,
     "source": "1001369353",
-    "source_inc": "1.1.1 Vivace"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Vivace",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 6,
+    "source_label": "Symphonies–D major; Manuscript copy; KreD 39, GraDi D5; CZ-Pnm XXII C 10",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    },
    {
     "inc": "1.2.1 Andante",
+    "movement": 2,
     "notes": 14,
     "agree": 14,
+    "overlap": 14,
     "source": "1001369353",
-    "source_inc": "1.2.1 Andante"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.2.1 Andante",
+    "figuration": 0.0,
+    "source_movement": 2,
+    "comparator_notes": 14,
+    "source_label": "Symphonies–D major; Manuscript copy; KreD 39, GraDi D5; CZ-Pnm XXII C 10",
+    "source_keysig": "xFCG",
+    "keysig": "xFCG"
    },
    {
     "inc": "1.3.1 Menuetto",
+    "movement": 3,
     "notes": 14,
     "agree": 7,
+    "overlap": 7,
     "source": "1001369353",
-    "source_inc": "1.3.1 Menuetto"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.3.1 Menuetto",
+    "figuration": 0.0,
+    "source_movement": 3,
+    "comparator_notes": 13,
+    "source_label": "Symphonies–D major; Manuscript copy; KreD 39, GraDi D5; CZ-Pnm XXII C 10",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    },
    {
     "inc": "1.4.1 Presto",
+    "movement": 4,
     "notes": 12,
     "agree": 2,
+    "overlap": 2,
     "source": "1001369353",
-    "source_inc": "1.2.1 Andante"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.2.1 Andante",
+    "figuration": 0.0,
+    "source_movement": 2,
+    "comparator_notes": 14,
+    "source_label": "Symphonies–D major; Manuscript copy; KreD 39, GraDi D5; CZ-Pnm XXII C 10",
+    "source_keysig": "xFCG",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "movements_matched": [
+   2
+  ],
+  "movement_mismatch": [],
   "life": [
    1739,
    1799
@@ -52,8 +113,17 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [
+   {
+    "source": "650002241",
+    "text": "\"Oboe Prima vel Flauto\\\" beziehungsweise \\\"Oboe vel Flauto 2do\\\"\", \"Bei vl 1, 2 und vla jeweils f. 1r nicht rastriert\", \"Vergleiche Kopie der Sinfonie in PL-CZ II-369, dort anonym überliefert\", \"Bei Palusel"
+   }
+  ],
+  "attribution_flags": [
+   "650002241: cross-reference to Neumann (Ascertained)"
+  ],
   "competitors": [],
-  "class": "good"
+  "class": "known"
  },
  {
   "anon": "1001035351",
@@ -65,15 +135,35 @@
   "sources": [
    "230005753"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 II.",
+    "movement": 1,
     "notes": 15,
-    "agree": 5,
+    "agree": 15,
+    "overlap": 15,
     "source": "230005753",
-    "source_inc": "1.3.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.3.1 Allegro",
+    "figuration": 0.93,
+    "source_movement": 3,
+    "comparator_notes": 25,
+    "source_label": "Sonatas–F major; Manuscript copy; D-LEm Poel.mus.Ms.104",
+    "source_keysig": "bB",
+    "keysig": "xF"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [],
+  "movement_mismatch": [],
   "life": [
    1763,
    1850
@@ -81,6 +171,8 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "weak"
  },
@@ -101,21 +193,59 @@
    "603000076",
    "850028982"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 13,
-    "agree": 9,
+    "agree": 13,
+    "overlap": 13,
     "source": "211007144",
-    "source_inc": "1.1.1"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 15,
+    "source_label": "Symphonies–E♭ major; Manuscript copy; KreD 24, KreD 96; D-Dl Mus.3411-N-2,8",
+    "source_keysig": "bBEA",
+    "keysig": "xFC"
    },
    {
     "inc": "1.2.1 Presto",
+    "movement": 2,
     "notes": 6,
     "agree": 1,
+    "overlap": 6,
     "source": "211007144",
-    "source_inc": "1.1.1"
+    "offset": [
+     0,
+     4
+    ],
+    "source_inc": "1.4.1 Vivace; Adagio; Vivace; Adagio; Vivace",
+    "figuration": 0.0,
+    "source_movement": 4,
+    "comparator_notes": 20,
+    "source_label": "Symphonies–E♭ major; Manuscript copy; KreD 24, KreD 96; D-Dl Mus.3411-N-2,8",
+    "source_keysig": "bBEA",
+    "keysig": "xFC"
    }
+  ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2
+  ],
+  "movements_matched": [
+   1,
+   2
+  ],
+  "movement_mismatch": [
+   "2->4"
   ],
   "life": [
    1739,
@@ -127,8 +257,12 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [
+   "455020576: cross-reference to Dušek, František Xaver (1731-1799) (Alleged)"
+  ],
   "competitors": [],
-  "class": "weak"
+  "class": "strong"
  },
  {
   "anon": "1001043744",
@@ -141,36 +275,100 @@
   "sources": [
    "570004449"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 6,
     "agree": 6,
+    "overlap": 6,
     "source": "570004449",
-    "source_inc": "1.1.1 Synphonia. Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Synphonia. Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 6,
+    "source_label": "Symphonies–B♭ major; Manuscript copy; MurR A44; SK-J H-709",
+    "source_keysig": "bBE",
+    "keysig": "bBE"
    },
    {
     "inc": "1.1.2 Andante",
-    "notes": 13,
-    "agree": 13,
+    "movement": 2,
+    "notes": 14,
+    "agree": 14,
+    "overlap": 14,
     "source": "570004449",
-    "source_inc": "1.2.1 Andante"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.2.1 Andante",
+    "figuration": 0.0,
+    "source_movement": 2,
+    "comparator_notes": 14,
+    "source_label": "Symphonies–B♭ major; Manuscript copy; MurR A44; SK-J H-709",
+    "source_keysig": "bB",
+    "keysig": "bB"
    },
    {
     "inc": "1.1.3 Menuetto",
+    "movement": 3,
     "notes": 12,
     "agree": 12,
+    "overlap": 12,
     "source": "570004449",
-    "source_inc": "1.3.1 Menuet."
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.3.1 Menuet.",
+    "figuration": 0.0,
+    "source_movement": 3,
+    "comparator_notes": 13,
+    "source_label": "Symphonies–B♭ major; Manuscript copy; MurR A44; SK-J H-709",
+    "source_keysig": "bBE",
+    "keysig": "bBE"
    },
    {
     "inc": "1.1.4 Finale Allegro",
+    "movement": 4,
     "notes": 11,
     "agree": 11,
+    "overlap": 11,
     "source": "570004449",
-    "source_inc": "1.4.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.4.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 4,
+    "comparator_notes": 13,
+    "source_label": "Symphonies–B♭ major; Manuscript copy; MurR A44; SK-J H-709",
+    "source_keysig": "bBE",
+    "keysig": "bBE"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": true,
+  "movements": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "movements_matched": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "movement_mismatch": [],
   "life": [
    1750,
    1792
@@ -181,6 +379,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [
+   "570004449: cross-reference to Zobl"
+  ],
   "competitors": [],
   "class": "strong"
  },
@@ -195,29 +397,79 @@
   "sources": [
    "469221900"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Synfonia",
+    "movement": 1,
     "notes": 19,
     "agree": 14,
+    "overlap": 14,
     "source": "469221900",
-    "source_inc": "1.1.1 Allegro."
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro.",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 14,
+    "source_label": "Symphonies–D major; Manuscript copy; D-Bsa SA 2219",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    },
    {
     "inc": "1.2.1 Andante",
+    "movement": 2,
     "notes": 26,
     "agree": 13,
+    "overlap": 13,
     "source": "469221900",
-    "source_inc": "1.2.1 Andante."
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.2.1 Andante.",
+    "figuration": 0.0,
+    "source_movement": 2,
+    "comparator_notes": 13,
+    "source_label": "Symphonies–D major; Manuscript copy; D-Bsa SA 2219",
+    "source_keysig": "xFCG",
+    "keysig": "xFCG"
    },
    {
     "inc": "1.3.1 Presto",
+    "movement": 3,
     "notes": 19,
     "agree": 8,
+    "overlap": 8,
     "source": "469221900",
-    "source_inc": "1.3.1 Presto."
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.3.1 Presto.",
+    "figuration": 0.0,
+    "source_movement": 3,
+    "comparator_notes": 8,
+    "source_label": "Symphonies–D major; Manuscript copy; D-Bsa SA 2219",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   1,
+   2,
+   3
+  ],
+  "movement_mismatch": [],
   "life": [
    1699,
    1783
@@ -228,6 +480,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [
+   "469221900: composer qualified as Alleged"
+  ],
   "competitors": [],
   "class": "strong"
  },
@@ -243,29 +499,79 @@
    "1001287072",
    "469321200"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Synfonia",
+    "movement": 1,
     "notes": 19,
     "agree": 17,
+    "overlap": 17,
     "source": "1001287072",
-    "source_inc": "1.1.1"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 17,
+    "source_label": "Symphonies–D major; Manuscript copy; D-Ju Ms.Conc.Acad.75",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    },
    {
     "inc": "1.2.1 Andante",
+    "movement": 2,
     "notes": 26,
     "agree": 17,
+    "overlap": 17,
     "source": "469321200",
-    "source_inc": "1.2.1 Andante."
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.2.1 Andante.",
+    "figuration": 0.0,
+    "source_movement": 2,
+    "comparator_notes": 17,
+    "source_label": "Symphonies–D major; Manuscript copy; D-Bsa SA 3212",
+    "source_keysig": "xFCG",
+    "keysig": "xFCG"
    },
    {
     "inc": "1.3.1 Presto",
+    "movement": 3,
     "notes": 19,
     "agree": 8,
+    "overlap": 8,
     "source": "1001287072",
-    "source_inc": "1.3.1 Presto"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.3.1 Presto",
+    "figuration": 0.0,
+    "source_movement": 3,
+    "comparator_notes": 10,
+    "source_label": "Symphonies–D major; Manuscript copy; D-Ju Ms.Conc.Acad.75",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   1,
+   2,
+   3
+  ],
+  "movement_mismatch": [],
   "life": [
    1716,
    1780
@@ -276,6 +582,11 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [
+   "1001287072: cross-reference to Röllig, Johann Georg (1710-1790) (Conjectural)",
+   "469321200: cross-reference to Röllig, Johann Georg (1710-1790)"
+  ],
   "competitors": [],
   "class": "strong"
  },
@@ -290,29 +601,75 @@
    "212003712",
    "464001483"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1",
+    "movement": 1,
     "notes": 18,
     "agree": 1,
+    "overlap": 4,
     "source": "212003712",
-    "source_inc": "1.1.1 Kyrie. Adagio"
+    "offset": [
+     13,
+     0
+    ],
+    "source_inc": "1.3.1 Credo. Allegro moderato",
+    "figuration": 0.0,
+    "source_movement": 3,
+    "comparator_notes": 17,
+    "source_label": "Masses–E minor; Manuscript copy; D-Dl Mus.3549-D-8",
+    "source_keysig": "xFC",
+    "keysig": "xF"
    },
    {
     "inc": "1.2.1 Andante",
+    "movement": 2,
     "notes": 6,
     "agree": 3,
+    "overlap": 3,
     "source": "212003712",
-    "source_inc": "1.4.1 Sanctus. Andante"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.4.1 Sanctus. Andante",
+    "figuration": 0.0,
+    "source_movement": 4,
+    "comparator_notes": 4,
+    "source_label": "Masses–E minor; Manuscript copy; D-Dl Mus.3549-D-8",
+    "source_keysig": "xF",
+    "keysig": "xF"
    },
    {
     "inc": "1.3.1 Allabreve",
+    "movement": 3,
     "notes": 8,
-    "agree": 2,
+    "agree": 1,
+    "overlap": 4,
     "source": "212003712",
-    "source_inc": "1.3.2"
+    "offset": [
+     0,
+     3
+    ],
+    "source_inc": "1.4.2",
+    "figuration": 0.0,
+    "source_movement": 4,
+    "comparator_notes": 7,
+    "source_label": "Masses–E minor; Manuscript copy; D-Dl Mus.3549-D-8",
+    "source_keysig": "xF",
+    "keysig": "xF"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [],
+  "movement_mismatch": [],
   "life": [
    1748,
    1812
@@ -323,6 +680,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "weak"
  },
@@ -344,36 +703,97 @@
    "570002761",
    "600177827"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 17,
     "agree": 7,
+    "overlap": 7,
     "source": "455016140",
-    "source_inc": "1.1.2"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.2",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 15,
+    "source_label": "Symphonies–D major; Manuscript copy; ZakP 4; D-Tl X 43",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    },
    {
     "inc": "1.2.1 Andantino",
+    "movement": 2,
     "notes": 13,
     "agree": 1,
+    "overlap": 3,
     "source": "1001113755",
-    "source_inc": "1.1.1 All[eg]ro assai."
+    "offset": [
+     0,
+     2
+    ],
+    "source_inc": "1.2.1 Andantino moderato.",
+    "figuration": 0.0,
+    "source_movement": 2,
+    "comparator_notes": 20,
+    "source_label": "Symphonies–D major; Manuscript copy; ZakP 4; SK-Nb 15",
+    "source_keysig": "xFCG",
+    "keysig": "xFCG"
    },
    {
     "inc": "1.3.1 Menuetto",
+    "movement": 3,
     "notes": 13,
-    "agree": 2,
-    "source": "455016140",
-    "source_inc": "1.1.2"
+    "agree": 1,
+    "overlap": 3,
+    "source": "1001113755",
+    "offset": [
+     4,
+     0
+    ],
+    "source_inc": "1.5.1 Finale. Presto.",
+    "figuration": 0.0,
+    "source_movement": 5,
+    "comparator_notes": 14,
+    "source_label": "Symphonies–D major; Manuscript copy; ZakP 4; SK-Nb 15",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    },
    {
     "inc": "1.4.1 Trio",
+    "movement": 4,
     "notes": 9,
     "agree": 9,
+    "overlap": 9,
     "source": "1001113755",
-    "source_inc": "1.4.1 Trio"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.4.1 Trio",
+    "figuration": 0.0,
+    "source_movement": 4,
+    "comparator_notes": 9,
+    "source_label": "Symphonies–D major; Manuscript copy; ZakP 4; SK-Nb 15",
+    "source_keysig": "bB",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "movements_matched": [
+   4
+  ],
+  "movement_mismatch": [],
   "life": [
    1741,
    1805
@@ -384,6 +804,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [
    "Baridone",
    "Kobrich, Johann Anton (1714-1791)",
@@ -409,15 +831,37 @@
    "550248285",
    "551007540"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 10,
     "agree": 10,
+    "overlap": 10,
     "source": "280002186",
-    "source_inc": "1.1.1 Allegro con brio"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro con brio",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 14,
+    "source_label": "Symphonies–D major; Manuscript copy; BryVa D 3; D-RUl SH 515",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1739,
    1813
@@ -428,6 +872,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -450,15 +896,37 @@
    "600500993",
    "600502590"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
-    "notes": 9,
-    "agree": 4,
+    "movement": 1,
+    "notes": 10,
+    "agree": 10,
+    "overlap": 10,
     "source": "1001034975",
-    "source_inc": "1.1.1 All[egr]o assai"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 All[egr]o assai",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 13,
+    "source_label": "Symphonies–C major; Manuscript copy; KreD 32, GraDi C7; PL-SA 1/A I 1",
+    "source_keysig": "n",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1739,
    1799
@@ -469,8 +937,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "good"
  },
  {
   "anon": "1001302469",
@@ -482,15 +952,37 @@
   "sources": [
    "1001307118"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Andantino",
+    "movement": 1,
     "notes": 16,
     "agree": 1,
+    "overlap": 9,
     "source": "1001307118",
-    "source_inc": "1.1.1 Adagio Cantabile"
+    "offset": [
+     0,
+     8
+    ],
+    "source_inc": "1.1.1 Adagio Cantabile",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 17,
+    "source_label": "Ave Maria–A♭ major (Arrangement); Manuscript copy; E-Mn MP/5357/5",
+    "source_keysig": "bBEAD",
+    "keysig": "n"
    }
   ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": true,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1770,
    1827
@@ -501,8 +993,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "plausible"
  },
  {
   "anon": "1001320765",
@@ -514,28 +1008,78 @@
   "sources": [
    "900011035"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 17,
     "agree": 1,
+    "overlap": 2,
     "source": "900011035",
-    "source_inc": "1.1.1 Spiritoso e Staccato"
+    "offset": [
+     0,
+     3
+    ],
+    "source_inc": "1.1.1 Spiritoso e Staccato",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 20,
+    "source_label": "Il serraglio di Osmano; Manuscript copy; US-Wc M1500.G29 S3",
+    "source_keysig": "xFC",
+    "keysig": "bBEA"
    },
    {
     "inc": "1.2.1 Andante",
+    "movement": 2,
     "notes": 19,
     "agree": 1,
+    "overlap": 2,
     "source": "900011035",
-    "source_inc": "1.1.1 Spiritoso e Staccato"
+    "offset": [
+     5,
+     0
+    ],
+    "source_inc": "1.1.1 Spiritoso e Staccato",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 20,
+    "source_label": "Il serraglio di Osmano; Manuscript copy; US-Wc M1500.G29 S3",
+    "source_keysig": "xFC",
+    "keysig": "bBE"
    },
    {
     "inc": "1.3.1 Finale",
-    "notes": 10,
+    "movement": 3,
+    "notes": 14,
     "agree": 1,
+    "overlap": 14,
     "source": "900011035",
-    "source_inc": "1.1.1 Spiritoso e Staccato"
+    "offset": [
+     0,
+     3
+    ],
+    "source_inc": "1.1.1 Spiritoso e Staccato",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 20,
+    "source_label": "Il serraglio di Osmano; Manuscript copy; US-Wc M1500.G29 S3",
+    "source_keysig": "xFC",
+    "keysig": "bBEA"
    }
+  ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   3
+  ],
+  "movement_mismatch": [
+   "3->1"
   ],
   "life": [
    1743,
@@ -547,8 +1091,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "plausible"
  },
  {
   "anon": "1001320767",
@@ -560,28 +1106,78 @@
   "sources": [
    "450059532"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Adagio",
+    "movement": 1,
     "notes": 4,
     "agree": 1,
+    "overlap": 2,
     "source": "450059532",
-    "source_inc": "1.1.1 Allegro moderato"
+    "offset": [
+     0,
+     4
+    ],
+    "source_inc": "1.1.1 Allegro moderato",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 13,
+    "source_label": "Duets–B♭ major; Manuscript copy; D-KNmi F 592 R",
+    "source_keysig": "bBE",
+    "keysig": "bB"
    },
    {
     "inc": "1.2.1 Andante",
+    "movement": 2,
     "notes": 12,
     "agree": 8,
+    "overlap": 8,
     "source": "450059532",
-    "source_inc": "1.1.1 Allegro moderato"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro moderato",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 13,
+    "source_label": "Duets–B♭ major; Manuscript copy; D-KNmi F 592 R",
+    "source_keysig": "bBE",
+    "keysig": "xFCG"
    },
    {
     "inc": "1.3.1 Finale",
+    "movement": 3,
     "notes": 15,
     "agree": 1,
+    "overlap": 2,
     "source": "450059532",
-    "source_inc": "1.1.1 Allegro moderato"
+    "offset": [
+     4,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro moderato",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 13,
+    "source_label": "Duets–B♭ major; Manuscript copy; D-KNmi F 592 R",
+    "source_keysig": "bBE",
+    "keysig": "xFC"
    }
+  ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   2
+  ],
+  "movement_mismatch": [
+   "2->1"
   ],
   "life": [
    1751,
@@ -593,8 +1189,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "plausible"
  },
  {
   "anon": "1001356492",
@@ -607,29 +1205,78 @@
    "1001110376",
    "1001111292"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 14,
     "agree": 12,
+    "overlap": 12,
     "source": "1001110376",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 12,
+    "source_label": "Symphonies–C major; Print; AbelWV E25",
+    "source_keysig": "n",
+    "keysig": "n"
    },
    {
     "inc": "1.2.1 Andante",
+    "movement": 2,
     "notes": 13,
-    "agree": 2,
+    "agree": 1,
+    "overlap": 3,
     "source": "1001110376",
-    "source_inc": "1.2.1 Andante"
+    "offset": [
+     1,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 12,
+    "source_label": "Symphonies–C major; Print; AbelWV E25",
+    "source_keysig": "n",
+    "keysig": "n"
    },
    {
     "inc": "1.3.1 Allegro",
+    "movement": 3,
     "notes": 21,
     "agree": 17,
+    "overlap": 17,
     "source": "1001110376",
-    "source_inc": "1.3.1 Allegro ma non troppo"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.3.1 Allegro ma non troppo",
+    "figuration": 0.25,
+    "source_movement": 3,
+    "comparator_notes": 17,
+    "source_label": "Symphonies–C major; Print; AbelWV E25",
+    "source_keysig": "n",
+    "keysig": "n"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   1,
+   3
+  ],
+  "movement_mismatch": [],
   "life": [
    1723,
    1787
@@ -640,6 +1287,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "strong"
  },
@@ -656,28 +1305,78 @@
    "190027032",
    "600501048"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 22,
     "agree": 1,
+    "overlap": 2,
     "source": "1001380292",
-    "source_inc": "1.1.1 [p. 8, at left of the 1st stave:] TRIO III [at left underneath the 1st stave:] Allegro ma non tropo [!]"
+    "offset": [
+     0,
+     13
+    ],
+    "source_inc": "1.2.1 [at left underneath the 12th stave:] Adagio",
+    "figuration": 0.0,
+    "source_movement": 2,
+    "comparator_notes": 15,
+    "source_label": "Trios–F minor; Print",
+    "source_keysig": "bBEAD",
+    "keysig": "bBEA"
    },
    {
     "inc": "1.2.1 Andante",
+    "movement": 2,
     "notes": 17,
     "agree": 7,
+    "overlap": 7,
     "source": "1001380292",
-    "source_inc": "1.1.1 [p. 8, at left of the 1st stave:] TRIO III [at left underneath the 1st stave:] Allegro ma non tropo [!]"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 [p. 8, at left of the 1st stave:] TRIO III [at left underneath the 1st stave:] Allegro ma non tropo [!]",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 8,
+    "source_label": "Trios–F minor; Print",
+    "source_keysig": "bBEAD",
+    "keysig": "bBEA"
    },
    {
     "inc": "1.3.1 Allegro tempo di Menuetto",
+    "movement": 3,
     "notes": 16,
     "agree": 1,
+    "overlap": 2,
     "source": "1001380292",
-    "source_inc": "1.1.1 [p. 8, at left of the 1st stave:] TRIO III [at left underneath the 1st stave:] Allegro ma non tropo [!]"
+    "offset": [
+     0,
+     2
+    ],
+    "source_inc": "1.1.1 [p. 8, at left of the 1st stave:] TRIO III [at left underneath the 1st stave:] Allegro ma non tropo [!]",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 8,
+    "source_label": "Trios–F minor; Print",
+    "source_keysig": "bBEAD",
+    "keysig": "bBEA"
    }
+  ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   2
+  ],
+  "movement_mismatch": [
+   "2->1"
   ],
   "life": [
    1739,
@@ -689,8 +1388,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "good"
  },
  {
   "anon": "1001376788",
@@ -704,29 +1405,79 @@
   "sources": [
    "701003291"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 22,
     "agree": 22,
+    "overlap": 22,
     "source": "701003291",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 22,
+    "source_label": "Symphonies–A major; Manuscript copy; CSWV Bm:16, GraunWV D:XII:112; B-Bc 7878/3",
+    "source_keysig": "xFCG",
+    "keysig": "xFCG"
    },
    {
     "inc": "1.2.1 Andante Semper Piano",
+    "movement": 2,
     "notes": 21,
     "agree": 11,
+    "overlap": 11,
     "source": "701003291",
-    "source_inc": "1.2.1 Andante"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.2.1 Andante",
+    "figuration": 0.0,
+    "source_movement": 2,
+    "comparator_notes": 11,
+    "source_label": "Symphonies–A major; Manuscript copy; CSWV Bm:16, GraunWV D:XII:112; B-Bc 7878/3",
+    "source_keysig": "n",
+    "keysig": "n"
    },
    {
     "inc": "1.3.1 Allegro",
+    "movement": 3,
     "notes": 19,
     "agree": 13,
+    "overlap": 13,
     "source": "701003291",
-    "source_inc": "1.3.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.3.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 3,
+    "comparator_notes": 13,
+    "source_label": "Symphonies–A major; Manuscript copy; CSWV Bm:16, GraunWV D:XII:112; B-Bc 7878/3",
+    "source_keysig": "xFCG",
+    "keysig": "xFCG"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   1,
+   2,
+   3
+  ],
+  "movement_mismatch": [],
   "life": [
    1709,
    1763
@@ -737,147 +1488,11 @@
   ],
   "names_composer": true,
   "catalogue_number_in_title": true,
-  "competitors": [],
-  "class": "known"
- },
- {
-  "anon": "1001382619",
-  "label": "Symphonies–G major (Arrangement); Manuscript copy; Hob I:94; D-Mbs Mus.Schott.Ha 17501-2",
-  "composer": "Haydn, Joseph (1732-1809)",
-  "matched": [
-   "1.1.1 Adagio cantabile"
+  "prior_documentation": [],
+  "attribution_flags": [
+   "701003291: composer qualified as Conjectural",
+   "701003291: cross-reference to Graun (Conjectural)"
   ],
-  "sources": [
-   "1001092739",
-   "1001093208",
-   "1001382636",
-   "1001385171",
-   "141076",
-   "200044208",
-   "240002371",
-   "450009721",
-   "450013747",
-   "450024451",
-   "450100726",
-   "452005179",
-   "452005579",
-   "500027033",
-   "600091194",
-   "600263343",
-   "600263344",
-   "702000135",
-   "840017686",
-   "852032413"
-  ],
-  "movements": [
-   {
-    "inc": "1.1.1 Adagio cantabile",
-    "notes": 15,
-    "agree": 15,
-    "source": "1001092739",
-    "source_inc": "1.1.1 Adagio"
-   }
-  ],
-  "life": [
-   1732,
-   1809
-  ],
-  "copy_years": [
-   1859,
-   1861
-  ],
-  "names_composer": true,
-  "catalogue_number_in_title": true,
-  "competitors": [],
-  "class": "known"
- },
- {
-  "anon": "1001382626",
-  "label": "Symphonies–E♭ major (Arrangement); Manuscript copy; Hob I:99; D-Mbs Mus.Schott.Ha 17504-2",
-  "composer": "Haydn, Joseph (1732-1809)",
-  "matched": [
-   "1.1.1 Adagio"
-  ],
-  "sources": [
-   "1001048755",
-   "1001093089",
-   "1001093263",
-   "1001241418",
-   "1001318614",
-   "180000104",
-   "702000154",
-   "806252126"
-  ],
-  "movements": [
-   {
-    "inc": "1.1.1 Adagio",
-    "notes": 14,
-    "agree": 14,
-    "source": "1001048755",
-    "source_inc": "1.1.1 Adagio"
-   }
-  ],
-  "life": [
-   1732,
-   1809
-  ],
-  "copy_years": [
-   1859,
-   1859
-  ],
-  "names_composer": true,
-  "catalogue_number_in_title": true,
-  "competitors": [],
-  "class": "known"
- },
- {
-  "anon": "1001382636",
-  "label": "Symphonies–G major (Arrangement); Manuscript copy; Hob I:94; D-Mbs Mus.Schott.Ha 17505-2",
-  "composer": "Haydn, Joseph (1732-1809)",
-  "matched": [
-   "1.1.1 Adagio cantabile"
-  ],
-  "sources": [
-   "1001092739",
-   "1001093208",
-   "1001382619",
-   "1001385171",
-   "141076",
-   "200044208",
-   "240002371",
-   "450009721",
-   "450013747",
-   "450024451",
-   "450100726",
-   "452005179",
-   "452005579",
-   "500027033",
-   "600091194",
-   "600263343",
-   "600263344",
-   "702000135",
-   "840017686",
-   "852032413"
-  ],
-  "movements": [
-   {
-    "inc": "1.1.1 Adagio cantabile",
-    "notes": 15,
-    "agree": 15,
-    "source": "1001092739",
-    "source_inc": "1.1.1 Adagio"
-   }
-  ],
-  "life": [
-   1732,
-   1809
-  ],
-  "copy_years": [
-   1859,
-   1859
-  ],
-  "names_composer": true,
-  "catalogue_number_in_title": true,
   "competitors": [],
   "class": "known"
  },
@@ -896,14 +1511,38 @@
    "280001849",
    "990024170"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Andante",
+    "movement": 1,
     "notes": 29,
     "agree": 29,
+    "overlap": 29,
     "source": "1001163821",
-    "source_inc": "1.2.1 Andante"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.2.1 Andante",
+    "figuration": 0.0,
+    "source_movement": 2,
+    "comparator_notes": 29,
+    "source_label": "Symphonies–F major; Manuscript copy; RicG F4; D-WRha Wechmar 79",
+    "source_keysig": "bBE",
+    "keysig": "bBE"
    }
+  ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [
+   "1->2"
   ],
   "life": [
    1763,
@@ -915,6 +1554,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -928,14 +1569,38 @@
   "sources": [
    "1001025319"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 20,
     "agree": 12,
+    "overlap": 12,
     "source": "1001025319",
-    "source_inc": "1.3.1 Allegro assai"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.3.1 Allegro assai",
+    "figuration": 0.0,
+    "source_movement": 3,
+    "comparator_notes": 19,
+    "source_label": "Pietas in Deum–B♭ major; Manuscript copy; CatAd 10.14; A-LA 1959",
+    "source_keysig": "bBE",
+    "keysig": "bBE"
    }
+  ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [
+   "1->3"
   ],
   "life": [
    1729,
@@ -947,6 +1612,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "plausible"
  },
@@ -960,15 +1627,37 @@
   "sources": [
    "190004524"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 25,
     "agree": 17,
+    "overlap": 17,
     "source": "190004524",
-    "source_inc": "1.1.1"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 17,
+    "source_label": "Railleri–D major; Manuscript copy; S-HÄ ohne Signatur",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [],
   "copy_years": [
    1789,
@@ -976,6 +1665,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "plausible"
  },
@@ -989,15 +1680,37 @@
   "sources": [
    "170000057"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 16,
     "agree": 16,
+    "overlap": 16,
     "source": "170000057",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 25,
+    "source_label": "Symphonies–G major; Manuscript copy; N-T XM 54",
+    "source_keysig": "xF",
+    "keysig": "xF"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1706,
    1784
@@ -1008,6 +1721,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "plausible"
  },
@@ -1021,28 +1736,80 @@
   "sources": [
    "117751"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Vivace",
-    "notes": 8,
-    "agree": 3,
+    "movement": 1,
+    "notes": 9,
+    "agree": 1,
+    "overlap": 4,
     "source": "117751",
-    "source_inc": "1.2.1 Duetto."
+    "offset": [
+     0,
+     8
+    ],
+    "source_inc": "1.2.1 Duetto.",
+    "figuration": 0.0,
+    "source_movement": 2,
+    "comparator_notes": 14,
+    "source_label": "?Eurione? (Excerpts); Manuscript copy; US-SFsc *M2.1 M384",
+    "source_keysig": "xF",
+    "keysig": "bBEA"
    },
    {
     "inc": "1.2.1 Andante spiritoso",
-    "notes": 16,
-    "agree": 3,
+    "movement": 2,
+    "notes": 19,
+    "agree": 1,
+    "overlap": 4,
     "source": "117751",
-    "source_inc": "1.2.1 Duetto."
+    "offset": [
+     0,
+     8
+    ],
+    "source_inc": "1.2.1 Duetto.",
+    "figuration": 0.0,
+    "source_movement": 2,
+    "comparator_notes": 14,
+    "source_label": "?Eurione? (Excerpts); Manuscript copy; US-SFsc *M2.1 M384",
+    "source_keysig": "xF",
+    "keysig": "bBE"
    },
    {
     "inc": "1.3.1 Prestissimo",
-    "notes": 16,
-    "agree": 8,
+    "movement": 3,
+    "notes": 18,
+    "agree": 9,
+    "overlap": 9,
     "source": "117751",
-    "source_inc": "1.1.1 Recitativo."
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Recitativo.",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 13,
+    "source_label": "?Eurione? (Excerpts); Manuscript copy; US-SFsc *M2.1 M384",
+    "source_keysig": "n",
+    "keysig": "bBEA"
    }
+  ],
+  "vocal_matches": [
+   "117751 1.1.1 Recitativo."
+  ],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   3
+  ],
+  "movement_mismatch": [
+   "3->1"
   ],
   "life": [
    1706,
@@ -1054,8 +1821,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "plausible"
  },
  {
   "anon": "190017764",
@@ -1067,15 +1836,37 @@
   "sources": [
    "450010294"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
-    "notes": 14,
-    "agree": 14,
+    "movement": 1,
+    "notes": 18,
+    "agree": 18,
+    "overlap": 18,
     "source": "450010294",
-    "source_inc": "1.1.1 Vivace"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Vivace",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 18,
+    "source_label": "Overtures–D major; Manuscript copy; D-Rtt Piazza 1",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [],
   "copy_years": [
    1731,
@@ -1083,6 +1874,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "plausible"
  },
@@ -1096,15 +1889,37 @@
   "sources": [
    "850008027"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 15,
     "agree": 15,
+    "overlap": 15,
     "source": "850008027",
-    "source_inc": "1.1.1 Overtura. Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Overtura. Allegro",
+    "figuration": 0.43,
+    "source_movement": 1,
+    "comparator_notes": 15,
+    "source_label": "Arsinoe (Excerpts); Manuscript copy; I-Tf 1 I 3",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1719,
    1762
@@ -1115,6 +1930,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "plausible"
  },
@@ -1128,14 +1945,38 @@
   "sources": [
    "1001332889"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 20,
     "agree": 1,
+    "overlap": 9,
     "source": "1001332889",
-    "source_inc": "1.1.1 Te Deum laudamus All[egr]o vivace"
+    "offset": [
+     0,
+     7
+    ],
+    "source_inc": "1.3.1 [Et rege eos]",
+    "figuration": 0.0,
+    "source_movement": 6,
+    "comparator_notes": 18,
+    "source_label": "Te Deum laudamus–C major; Manuscript copy; CZ-TEk [without shelfmark]",
+    "source_keysig": "n",
+    "keysig": "xF"
    }
+  ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [
+   "1->6"
   ],
   "life": [
    1803,
@@ -1147,6 +1988,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [
+   "1001332889: composer qualified as Alleged"
+  ],
   "competitors": [],
   "class": "date-impossible"
  },
@@ -1162,28 +2007,78 @@
    "1001188167",
    "452524145"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1",
+    "movement": 1,
     "notes": 8,
-    "agree": 2,
-    "source": "1001188167",
-    "source_inc": "1.2.2 DUO IV. All|o maestoso."
+    "agree": 1,
+    "overlap": 3,
+    "source": "452524145",
+    "offset": [
+     2,
+     0
+    ],
+    "source_inc": "1.1.1 No: 5. Allegretto",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 19,
+    "source_label": "La Rencontre en voyage–A major (Excerpts, Arrangement); Manuscript copy; D-B Mus.ms.anon. 197",
+    "source_keysig": "xFCG",
+    "keysig": "n"
    },
    {
     "inc": "1.2.1 Rondò. Andantino",
+    "movement": 2,
     "notes": 9,
     "agree": 9,
+    "overlap": 9,
     "source": "452524145",
-    "source_inc": "1.1.1 No: 5. Allegretto"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 No: 5. Allegretto",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 19,
+    "source_label": "La Rencontre en voyage–A major (Excerpts, Arrangement); Manuscript copy; D-B Mus.ms.anon. 197",
+    "source_keysig": "xFCG",
+    "keysig": "bB"
    },
    {
     "inc": "1.3.1 Allegro assai",
+    "movement": 3,
     "notes": 4,
-    "agree": 3,
+    "agree": 1,
+    "overlap": 4,
     "source": "1001188167",
-    "source_inc": "1.2.2 DUO IV. All|o maestoso."
+    "offset": [
+     0,
+     4
+    ],
+    "source_inc": "1.1.1 DUO IV. All|o maestoso.",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 13,
+    "source_label": "Duets; Print",
+    "source_keysig": "xFC",
+    "keysig": "n"
    }
+  ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   2
+  ],
+  "movement_mismatch": [
+   "2->1"
   ],
   "life": [
    1759,
@@ -1195,6 +2090,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [
    "Böhme, Oskar (1870-1938)",
    "Dušek, František Xaver (1731-1799)",
@@ -1221,29 +2118,77 @@
   "sources": [
    "190019232"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 20,
     "agree": 15,
+    "overlap": 15,
     "source": "190019232",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 27,
+    "source_label": "Symphonies–D major; Manuscript copy; CapT deest; S-Skma Alströmer saml. 168:24",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    },
    {
     "inc": "1.2.1 Largo",
+    "movement": 2,
     "notes": 2,
     "agree": 1,
+    "overlap": 2,
     "source": "190019232",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     10
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 27,
+    "source_label": "Symphonies–D major; Manuscript copy; CapT deest; S-Skma Alströmer saml. 168:24",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    },
    {
     "inc": "1.3.1 Presto",
+    "movement": 3,
     "notes": 14,
     "agree": 1,
+    "overlap": 3,
     "source": "190019232",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     2
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 27,
+    "source_label": "Symphonies–D major; Manuscript copy; CapT deest; S-Skma Alströmer saml. 168:24",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1692,
    1770
@@ -1254,6 +2199,10 @@
   ],
   "names_composer": true,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [
+   "190019232: composer qualified as Conjectural"
+  ],
   "competitors": [],
   "class": "known"
  },
@@ -1267,28 +2216,78 @@
   "sources": [
    "220012351"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 20,
     "agree": 1,
+    "overlap": 2,
     "source": "220012351",
-    "source_inc": "1.1.1"
+    "offset": [
+     18,
+     0
+    ],
+    "source_inc": "1.1.1",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 20,
+    "source_label": "Der Friedefürst kommt–C major; Autograph manuscript; D-HER Mus.A 15:20",
+    "source_keysig": "n",
+    "keysig": "xFC"
    },
    {
     "inc": "1.2.1 Largo",
+    "movement": 2,
     "notes": 2,
     "agree": 1,
+    "overlap": 2,
     "source": "220012351",
-    "source_inc": "1.1.1"
+    "offset": [
+     0,
+     3
+    ],
+    "source_inc": "1.1.1",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 20,
+    "source_label": "Der Friedefürst kommt–C major; Autograph manuscript; D-HER Mus.A 15:20",
+    "source_keysig": "n",
+    "keysig": "xFC"
    },
    {
     "inc": "1.3.1 Presto",
+    "movement": 3,
     "notes": 14,
     "agree": 1,
+    "overlap": 14,
     "source": "220012351",
-    "source_inc": "1.1.1"
+    "offset": [
+     0,
+     1
+    ],
+    "source_inc": "1.1.1",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 20,
+    "source_label": "Der Friedefürst kommt–C major; Autograph manuscript; D-HER Mus.A 15:20",
+    "source_keysig": "n",
+    "keysig": "xFC"
    }
+  ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   3
+  ],
+  "movement_mismatch": [
+   "3->1"
   ],
   "life": [
    1740,
@@ -1300,8 +2299,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "plausible"
  },
  {
   "anon": "220017252",
@@ -1314,29 +2315,79 @@
   "sources": [
    "280000015"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro di molto",
+    "movement": 1,
     "notes": 10,
     "agree": 10,
+    "overlap": 10,
     "source": "280000015",
-    "source_inc": "1.1.1 Allegro di molto"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro di molto",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 11,
+    "source_label": "Symphonies–D major; Manuscript copy; D-WRha DNT i 30",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    },
    {
     "inc": "1.2.1 Lento",
-    "notes": 16,
-    "agree": 16,
+    "movement": 2,
+    "notes": 19,
+    "agree": 19,
+    "overlap": 19,
     "source": "280000015",
-    "source_inc": "1.2.1 Lento"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.2.1 Lento",
+    "figuration": 0.0,
+    "source_movement": 2,
+    "comparator_notes": 24,
+    "source_label": "Symphonies–D major; Manuscript copy; D-WRha DNT i 30",
+    "source_keysig": "bB",
+    "keysig": "bB"
    },
    {
     "inc": "1.3.1 Presto",
+    "movement": 3,
     "notes": 15,
     "agree": 15,
+    "overlap": 15,
     "source": "280000015",
-    "source_inc": "1.3.1 Presto"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.3.1 Presto",
+    "figuration": 0.0,
+    "source_movement": 3,
+    "comparator_notes": 15,
+    "source_label": "Symphonies–D major; Manuscript copy; D-WRha DNT i 30",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   1,
+   2,
+   3
+  ],
+  "movement_mismatch": [],
   "life": [
    1735,
    1792
@@ -1344,6 +2395,8 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "strong"
  },
@@ -1359,29 +2412,78 @@
    "270003031",
    "280002206"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro di molto",
+    "movement": 1,
     "notes": 19,
     "agree": 19,
+    "overlap": 19,
     "source": "270003031",
-    "source_inc": "1.1.1 Sinfonia. Allegro di molto"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Sinfonia. Allegro di molto",
+    "figuration": 0.61,
+    "source_movement": 1,
+    "comparator_notes": 19,
+    "source_label": "Le monde de la lune; Manuscript copy; D-Dl Mus.3388-F-3",
+    "source_keysig": "xF",
+    "keysig": "xF"
    },
    {
     "inc": "1.2.1 Comodetto",
-    "notes": 10,
-    "agree": 10,
+    "movement": 2,
+    "notes": 12,
+    "agree": 12,
+    "overlap": 12,
     "source": "280002206",
-    "source_inc": "1.2.1 Comodetto"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.2.1 Comodetto",
+    "figuration": 0.45,
+    "source_movement": 2,
+    "comparator_notes": 23,
+    "source_label": "Symphonies–G major; Manuscript copy; D-RUl SH 535",
+    "source_keysig": "xF",
+    "keysig": "xF"
    },
    {
     "inc": "1.3.1 Allegro",
+    "movement": 3,
     "notes": 21,
     "agree": 21,
+    "overlap": 21,
     "source": "280002206",
-    "source_inc": "1.3.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.3.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 3,
+    "comparator_notes": 22,
+    "source_label": "Symphonies–G major; Manuscript copy; D-RUl SH 535",
+    "source_keysig": "xF",
+    "keysig": "xF"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   2,
+   3
+  ],
+  "movement_mismatch": [],
   "life": [
    1735,
    1792
@@ -1392,6 +2494,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "strong"
  },
@@ -1405,36 +2509,95 @@
   "sources": [
    "464120749"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 12,
     "agree": 7,
+    "overlap": 7,
     "source": "464120749",
-    "source_inc": "1.1.1 [Chorus]. Allegro un peu moderate."
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 [Chorus]. Allegro un peu moderate.",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 13,
+    "source_label": "Ange d'amour et d'espérance; Autograph manuscript; D-B Mus.ms.autogr. Cherubini, L. 173",
+    "source_keysig": "xFC",
+    "keysig": "n"
    },
    {
     "inc": "1.2.1 Andante",
+    "movement": 2,
     "notes": 10,
     "agree": 1,
+    "overlap": 2,
     "source": "464120749",
-    "source_inc": "1.1.1 [Chorus]. Allegro un peu moderate."
+    "offset": [
+     0,
+     11
+    ],
+    "source_inc": "1.1.1 [Chorus]. Allegro un peu moderate.",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 13,
+    "source_label": "Ange d'amour et d'espérance; Autograph manuscript; D-B Mus.ms.autogr. Cherubini, L. 173",
+    "source_keysig": "xFC",
+    "keysig": "bB"
    },
    {
     "inc": "1.3.1 Men[uett].",
+    "movement": 3,
     "notes": 12,
     "agree": 2,
+    "overlap": 2,
     "source": "464120749",
-    "source_inc": "1.1.2"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.2",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 6,
+    "source_label": "Ange d'amour et d'espérance; Autograph manuscript; D-B Mus.ms.autogr. Cherubini, L. 173",
+    "source_keysig": "xFC",
+    "keysig": "n"
    },
    {
     "inc": "1.5.1",
+    "movement": 4,
     "notes": 15,
     "agree": 1,
+    "overlap": 2,
     "source": "464120749",
-    "source_inc": "1.1.1 [Chorus]. Allegro un peu moderate."
+    "offset": [
+     0,
+     4
+    ],
+    "source_inc": "1.1.2",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 6,
+    "source_label": "Ange d'amour et d'espérance; Autograph manuscript; D-B Mus.ms.autogr. Cherubini, L. 173",
+    "source_keysig": "xFC",
+    "keysig": "n"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "movements_matched": [],
+  "movement_mismatch": [],
   "life": [
    1760,
    1842
@@ -1442,6 +2605,8 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "weak"
  },
@@ -1455,28 +2620,79 @@
   "sources": [
    "530003180"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 10,
     "agree": 1,
+    "overlap": 9,
     "source": "530003180",
-    "source_inc": "1.1.1 105.."
+    "offset": [
+     0,
+     9
+    ],
+    "source_inc": "1.1.1 105..",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 20,
+    "source_label": "Exercises; Manuscript copy; KöcF deest; H-GGn Ms 107",
+    "source_keysig": "xFC",
+    "keysig": "bB"
    },
    {
     "inc": "1.2.1 Andante con sordini",
+    "movement": 2,
     "notes": 10,
     "agree": 1,
+    "overlap": 2,
     "source": "530003180",
-    "source_inc": "1.1.1 105.."
+    "offset": [
+     0,
+     6
+    ],
+    "source_inc": "1.1.2",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 18,
+    "source_label": "Exercises; Manuscript copy; KöcF deest; H-GGn Ms 107",
+    "source_keysig": "xFC",
+    "keysig": "bBE"
    },
    {
     "inc": "1.3.1 Adagio",
+    "movement": 3,
     "notes": 12,
     "agree": 1,
+    "overlap": 12,
     "source": "530003180",
-    "source_inc": "1.1.1 105.."
+    "offset": [
+     0,
+     3
+    ],
+    "source_inc": "1.1.2",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 18,
+    "source_label": "Exercises; Manuscript copy; KöcF deest; H-GGn Ms 107",
+    "source_keysig": "xFC",
+    "keysig": "bB"
    }
+  ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   1,
+   3
+  ],
+  "movement_mismatch": [
+   "3->1"
   ],
   "life": [
    1660,
@@ -1488,8 +2704,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "strong"
  },
  {
   "anon": "240007339",
@@ -1501,28 +2719,78 @@
   "sources": [
    "1001267325"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 10,
     "agree": 1,
+    "overlap": 6,
     "source": "1001267325",
-    "source_inc": "1.1.1 Moderato."
+    "offset": [
+     0,
+     3
+    ],
+    "source_inc": "1.1.1 Moderato.",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 20,
+    "source_label": "Sanctificavit Moyses–D major; Autograph manuscript; CZ-Pk 3265",
+    "source_keysig": "xFC",
+    "keysig": "bB"
    },
    {
     "inc": "1.2.1 Andante con sordini",
+    "movement": 2,
     "notes": 10,
     "agree": 1,
+    "overlap": 10,
     "source": "1001267325",
-    "source_inc": "1.1.1 Moderato."
+    "offset": [
+     0,
+     8
+    ],
+    "source_inc": "1.1.1 Moderato.",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 20,
+    "source_label": "Sanctificavit Moyses–D major; Autograph manuscript; CZ-Pk 3265",
+    "source_keysig": "xFC",
+    "keysig": "bBE"
    },
    {
     "inc": "1.3.1 Adagio",
+    "movement": 3,
     "notes": 12,
     "agree": 1,
+    "overlap": 3,
     "source": "1001267325",
-    "source_inc": "1.1.1 Moderato."
+    "offset": [
+     0,
+     5
+    ],
+    "source_inc": "1.1.1 Moderato.",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 20,
+    "source_label": "Sanctificavit Moyses–D major; Autograph manuscript; CZ-Pk 3265",
+    "source_keysig": "xFC",
+    "keysig": "bB"
    }
+  ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   2
+  ],
+  "movement_mismatch": [
+   "2->1"
   ],
   "life": [
    1830,
@@ -1534,6 +2802,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "date-impossible"
  },
@@ -1549,36 +2819,97 @@
    "455013156",
    "659000817"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allo. molto",
+    "movement": 1,
     "notes": 12,
     "agree": 12,
+    "overlap": 12,
     "source": "450064032",
-    "source_inc": "1.1.2"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.2",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 12,
+    "source_label": "Litanies–B♭ major (Excerpts, Arrangement); Manuscript copy; KV B125; D-BNu Ec 128.7",
+    "source_keysig": "bBE",
+    "keysig": "bBE"
    },
    {
     "inc": "1.2.1 Andante",
+    "movement": 2,
     "notes": 4,
     "agree": 1,
+    "overlap": 2,
     "source": "450064032",
-    "source_inc": "1.1.1 Allegro molto"
+    "offset": [
+     0,
+     9
+    ],
+    "source_inc": "1.1.1 Allegro molto",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 18,
+    "source_label": "Litanies–B♭ major (Excerpts, Arrangement); Manuscript copy; KV B125; D-BNu Ec 128.7",
+    "source_keysig": "bBE",
+    "keysig": "bBEA"
    },
    {
     "inc": "1.3.1 Adagio",
+    "movement": 3,
     "notes": 6,
     "agree": 2,
+    "overlap": 2,
     "source": "450064032",
-    "source_inc": "1.1.2"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.2",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 12,
+    "source_label": "Litanies–B♭ major (Excerpts, Arrangement); Manuscript copy; KV B125; D-BNu Ec 128.7",
+    "source_keysig": "bBE",
+    "keysig": "bBEADG"
    },
    {
     "inc": "1.4.1 Alla breve",
+    "movement": 4,
     "notes": 4,
     "agree": 4,
+    "overlap": 4,
     "source": "450064032",
-    "source_inc": "1.5.1 Allabreve"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.5.1 Allabreve",
+    "figuration": 0.0,
+    "source_movement": 5,
+    "comparator_notes": 13,
+    "source_label": "Litanies–B♭ major (Excerpts, Arrangement); Manuscript copy; KV B125; D-BNu Ec 128.7",
+    "source_keysig": "bBE",
+    "keysig": "bBE"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1756,
    1791
@@ -1589,6 +2920,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -1602,36 +2935,97 @@
   "sources": [
    "990024171"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro assai",
+    "movement": 1,
     "notes": 6,
     "agree": 4,
+    "overlap": 4,
     "source": "990024171",
-    "source_inc": "1.1.1 Allegro assai"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro assai",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 8,
+    "source_label": "Symphonies–C major; Print; RicG C3",
+    "source_keysig": "n",
+    "keysig": "n"
    },
    {
     "inc": "1.2.1 Andante",
+    "movement": 2,
     "notes": 11,
     "agree": 1,
+    "overlap": 4,
     "source": "990024171",
-    "source_inc": "1.1.1 Allegro assai"
+    "offset": [
+     0,
+     1
+    ],
+    "source_inc": "1.4.1 Finale Allegretto",
+    "figuration": 0.0,
+    "source_movement": 4,
+    "comparator_notes": 9,
+    "source_label": "Symphonies–C major; Print; RicG C3",
+    "source_keysig": "n",
+    "keysig": "bB"
    },
    {
     "inc": "1.3.1 Menuetto.",
+    "movement": 3,
     "notes": 16,
     "agree": 11,
+    "overlap": 11,
     "source": "990024171",
-    "source_inc": "1.3.1 Minuetto Allegro assai"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.3.1 Minuetto Allegro assai",
+    "figuration": 0.4,
+    "source_movement": 3,
+    "comparator_notes": 11,
+    "source_label": "Symphonies–C major; Print; RicG C3",
+    "source_keysig": "n",
+    "keysig": "n"
    },
    {
     "inc": "1.4.1 Finale. Allegretto",
+    "movement": 4,
     "notes": 11,
     "agree": 1,
+    "overlap": 2,
     "source": "990024171",
-    "source_inc": "1.1.1 Allegro assai"
+    "offset": [
+     0,
+     3
+    ],
+    "source_inc": "1.1.1 Allegro assai",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 8,
+    "source_label": "Symphonies–C major; Print; RicG C3",
+    "source_keysig": "n",
+    "keysig": "n"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "movements_matched": [
+   3
+  ],
+  "movement_mismatch": [],
   "life": [
    1763,
    1850
@@ -1642,6 +3036,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "plausible"
  },
@@ -1655,22 +3051,57 @@
   "sources": [
    "1001244813"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Adagio",
+    "movement": 1,
     "notes": 27,
     "agree": 27,
+    "overlap": 27,
     "source": "1001244813",
-    "source_inc": "1.1.1 Adagio"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Adagio",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 27,
+    "source_label": "Symphonies–E♭ major; Print; GötS 20",
+    "source_keysig": "bBEA",
+    "keysig": "bBEA"
    },
    {
     "inc": "1.1.2 Allegro",
+    "movement": 2,
     "notes": 15,
     "agree": 1,
+    "overlap": 3,
     "source": "1001244813",
-    "source_inc": "1.1.1 Adagio"
+    "offset": [
+     6,
+     0
+    ],
+    "source_inc": "1.1.1 Adagio",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 27,
+    "source_label": "Symphonies–E♭ major; Print; GötS 20",
+    "source_keysig": "bBEA",
+    "keysig": "bBEA"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1784,
    1859
@@ -1681,6 +3112,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "plausible"
  },
@@ -1701,15 +3134,37 @@
    "550500664",
    "551005012"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro con brio",
+    "movement": 1,
     "notes": 16,
     "agree": 16,
+    "overlap": 16,
     "source": "1001302071",
-    "source_inc": "1.1.1 Allo Con Brio"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allo Con Brio",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 18,
+    "source_label": "Symphonies; Manuscript copy; ZakP 21; PL-Kk Kk.I.726",
+    "source_keysig": "n",
+    "keysig": "n"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1741,
    1805
@@ -1717,6 +3172,8 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -1732,15 +3189,37 @@
    "550270761",
    "551007628"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 16,
     "agree": 16,
+    "overlap": 16,
     "source": "550248218",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 16,
+    "source_label": "Symphonies–F major; Manuscript copy; ZakP 5; CZ-K 18 K II",
+    "source_keysig": "bB",
+    "keysig": "bB"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1741,
    1805
@@ -1751,6 +3230,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -1767,29 +3248,77 @@
    "212002696",
    "450060908"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 20,
     "agree": 20,
+    "overlap": 20,
     "source": "1001054467",
-    "source_inc": "1.1.1 Sinfonia. Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Sinfonia. Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 23,
+    "source_label": "Ifigenia in Aulide (Arrangement); Manuscript copy; GraunWV B:I:18; D-AAst Kf 6046 a",
+    "source_keysig": "xF",
+    "keysig": "xF"
    },
    {
     "inc": "1.2.1 Andante",
+    "movement": 2,
     "notes": 18,
     "agree": 5,
+    "overlap": 5,
     "source": "212002696",
-    "source_inc": "1.2.1 Andante"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.2.1 Andante",
+    "figuration": 0.0,
+    "source_movement": 2,
+    "comparator_notes": 18,
+    "source_label": "Ifigenia in Aulide (Excerpts); Manuscript copy; GraunWV B:I:18; D-Dl Mus.2953-F-1a",
+    "source_keysig": "n",
+    "keysig": "n"
    },
    {
     "inc": "1.3.1 Presto",
-    "notes": 10,
+    "movement": 3,
+    "notes": 11,
     "agree": 1,
+    "overlap": 3,
     "source": "1001054467",
-    "source_inc": "1.1.1 Sinfonia. Allegro"
+    "offset": [
+     8,
+     0
+    ],
+    "source_inc": "1.1.1 Sinfonia. Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 23,
+    "source_label": "Ifigenia in Aulide (Arrangement); Manuscript copy; GraunWV B:I:18; D-AAst Kf 6046 a",
+    "source_keysig": "xF",
+    "keysig": "xF"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1704,
    1759
@@ -1797,6 +3326,8 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -1811,29 +3342,79 @@
   "sources": [
    "990029378"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro non troppo. Allegro non troppo",
+    "movement": 1,
     "notes": 24,
     "agree": 24,
+    "overlap": 24,
     "source": "990029378",
-    "source_inc": "1.1.1 Sinfonie Allegro non troppo"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Sinfonie Allegro non troppo",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 24,
+    "source_label": "Der lustige Schuster (Arrangement); Print",
+    "source_keysig": "xF",
+    "keysig": "xF"
    },
    {
     "inc": "1.2.1 Allegretto. Allegretto",
+    "movement": 2,
     "notes": 23,
     "agree": 17,
+    "overlap": 17,
     "source": "990029378",
-    "source_inc": "1.2.1 Allegretto"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.2.1 Allegretto",
+    "figuration": 0.0,
+    "source_movement": 2,
+    "comparator_notes": 17,
+    "source_label": "Der lustige Schuster (Arrangement); Print",
+    "source_keysig": "xF",
+    "keysig": "xF"
    },
    {
     "inc": "1.3.1 Allegro di molto. Allegro di molto",
+    "movement": 3,
     "notes": 13,
     "agree": 13,
+    "overlap": 13,
     "source": "990029378",
-    "source_inc": "1.3.1 Allegro di molto"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.3.1 Allegro di molto",
+    "figuration": 0.0,
+    "source_movement": 3,
+    "comparator_notes": 13,
+    "source_label": "Der lustige Schuster (Arrangement); Print",
+    "source_keysig": "xF",
+    "keysig": "xF"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   1,
+   2,
+   3
+  ],
+  "movement_mismatch": [],
   "life": [
    1728,
    1804
@@ -1841,6 +3422,8 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "strong"
  },
@@ -1854,15 +3437,37 @@
   "sources": [
    "1001223055"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 9,
     "agree": 1,
+    "overlap": 9,
     "source": "1001223055",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     9
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 18,
+    "source_label": "Alleluja ... Assumpta est Maria–D major; Autograph manuscript; I-Sd 2818/10",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1829,
    1913
@@ -1870,8 +3475,10 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "plausible"
  },
  {
   "anon": "400003938",
@@ -1883,15 +3490,37 @@
   "sources": [
    "450010621"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro assai",
+    "movement": 1,
     "notes": 11,
     "agree": 11,
+    "overlap": 11,
     "source": "450010621",
-    "source_inc": "1.1.1 Allegro assai"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro assai",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 13,
+    "source_label": "Symphonies–D major; Autograph manuscript; AngP D62; D-Rtt Eisenmann 2",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1729,
    1794
@@ -1899,6 +3528,10 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [
+   "450010621: cross-reference to Eisenmann, Angelus Anton (18.sc) (Ascertained)"
+  ],
   "competitors": [],
   "class": "plausible"
  },
@@ -1913,15 +3546,37 @@
    "850008382",
    "858000080"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro con brio",
+    "movement": 1,
     "notes": 12,
     "agree": 12,
+    "overlap": 12,
     "source": "850008382",
-    "source_inc": "1.1.1 Sinfonia. Allegro con brio"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Sinfonia. Allegro con brio",
+    "figuration": 0.36,
+    "source_movement": 1,
+    "comparator_notes": 16,
+    "source_label": "Giunio Bruto; Partial autograph; I-Nc Rari 1.3.6-7",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1749,
    1801
@@ -1929,6 +3584,8 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -1942,15 +3599,37 @@
   "sources": [
    "454000360"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro assai",
-    "notes": 5,
-    "agree": 4,
+    "movement": 1,
+    "notes": 9,
+    "agree": 9,
+    "overlap": 9,
     "source": "454000360",
-    "source_inc": "1.1.1 Allegro assai"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro assai",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 10,
+    "source_label": "Symphonies–G major; Manuscript copy; D-WWW K 3 Nr.42",
+    "source_keysig": "xF",
+    "keysig": "xF"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1718,
    1809
@@ -1958,8 +3637,10 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "plausible"
  },
  {
   "anon": "400007387",
@@ -1971,28 +3652,80 @@
   "sources": [
    "850011438"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 19,
     "agree": 1,
+    "overlap": 2,
     "source": "850011438",
-    "source_inc": "1.1.1 Aria."
+    "offset": [
+     0,
+     3
+    ],
+    "source_inc": "1.1.1 Aria.",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 11,
+    "source_label": "Servire a più d'una–D minor; Manuscript copy; I-Vlevi CF.D.20@1",
+    "source_keysig": "bB",
+    "keysig": "xFC"
    },
    {
     "inc": "1.2.1 Andante",
+    "movement": 2,
     "notes": 23,
     "agree": 9,
+    "overlap": 9,
     "source": "850011438",
-    "source_inc": "1.1.1 Aria."
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Aria.",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 11,
+    "source_label": "Servire a più d'una–D minor; Manuscript copy; I-Vlevi CF.D.20@1",
+    "source_keysig": "bB",
+    "keysig": "bB"
    },
    {
     "inc": "1.3.1 Prestissimo",
+    "movement": 3,
     "notes": 4,
     "agree": 1,
+    "overlap": 1,
     "source": "850011438",
-    "source_inc": "1.1.1 Aria."
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Aria.",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 11,
+    "source_label": "Servire a più d'una–D minor; Manuscript copy; I-Vlevi CF.D.20@1",
+    "source_keysig": "bB",
+    "keysig": "xFC"
    }
+  ],
+  "vocal_matches": [
+   "850011438 1.1.1 Aria."
+  ],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   2
+  ],
+  "movement_mismatch": [
+   "2->1"
   ],
   "life": [
    1602,
@@ -2001,8 +3734,10 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "date-impossible"
+  "class": "date-early"
  },
  {
   "anon": "400007392",
@@ -2014,29 +3749,77 @@
   "sources": [
    "140044"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
-    "notes": 13,
-    "agree": 13,
+    "movement": 1,
+    "notes": 15,
+    "agree": 15,
+    "overlap": 15,
     "source": "140044",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 30,
+    "source_label": "Symphonies–A major; Manuscript copy; MünT 21; US-Wc M1001.T64P Op. III/iv",
+    "source_keysig": "xFCG",
+    "keysig": "xFCG"
    },
    {
     "inc": "1.2.1 Andante grazioso",
+    "movement": 2,
     "notes": 10,
     "agree": 1,
+    "overlap": 2,
     "source": "140044",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     24
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 28,
+    "source_label": "Symphonies–A major; Manuscript copy; MünT 21; US-Wc M1001.T64P Op. III/iv",
+    "source_keysig": "xFCG",
+    "keysig": "xFCGD"
    },
    {
     "inc": "1.3.1 Presto",
+    "movement": 3,
     "notes": 15,
     "agree": 1,
+    "overlap": 2,
     "source": "140044",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     24
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 28,
+    "source_label": "Symphonies–A major; Manuscript copy; MünT 21; US-Wc M1001.T64P Op. III/iv",
+    "source_keysig": "xFCG",
+    "keysig": "xFCG"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1731,
    1788
@@ -2044,6 +3827,8 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "plausible"
  },
@@ -2057,19 +3842,43 @@
   "sources": [
    "850002239"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 16,
     "agree": 16,
+    "overlap": 16,
     "source": "850002239",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 31,
+    "source_label": "Symphonies–E♭ major; Manuscript copy; I-MAav Cart.15/2 n.16",
+    "source_keysig": "bBEA",
+    "keysig": "bBEA"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [],
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "plausible"
  },
@@ -2083,15 +3892,37 @@
   "sources": [
    "452022045"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Larghetto",
+    "movement": 1,
     "notes": 11,
     "agree": 11,
+    "overlap": 11,
     "source": "452022045",
-    "source_inc": "1.1.1 Larghetto"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Larghetto",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 15,
+    "source_label": "Priva di te mio bene–B♭ major; Manuscript copy; D-B Mus.ms. 8832",
+    "source_keysig": "bBE",
+    "keysig": "bBE"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1728,
    1804
@@ -2099,6 +3930,8 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "plausible"
  },
@@ -2112,19 +3945,45 @@
   "sources": [
    "400004036"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro assai",
+    "movement": 1,
     "notes": 19,
     "agree": 19,
+    "overlap": 19,
     "source": "400004036",
-    "source_inc": "1.1.1 Allegro assai"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro assai",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 19,
+    "source_label": "Symphonies–B♭ major; Manuscript copy; CH-EN Ms A 284",
+    "source_keysig": "bBE",
+    "keysig": "bBE"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [],
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [
+   "heading 'Franck' names no identifiable person"
+  ],
   "competitors": [],
   "class": "plausible"
  },
@@ -2141,15 +4000,39 @@
    "132189",
    "455027523"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 18,
     "agree": 18,
+    "overlap": 18,
     "source": "131164",
-    "source_inc": "1.1.1 Recitativo. Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Recitativo. Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 23,
+    "source_label": "Ifigenia (Excerpts); Manuscript copy; US-Wc M1505.A1 (205)",
+    "source_keysig": "n",
+    "keysig": "n"
    }
   ],
+  "vocal_matches": [
+   "131164 1.1.1 Recitativo. Allegro"
+  ],
+  "transposed": false,
+  "key_label_mismatch": true,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1729,
    1802
@@ -2157,6 +4040,8 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -2172,15 +4057,37 @@
    "453011435",
    "650002015"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro con spirito",
+    "movement": 1,
     "notes": 21,
     "agree": 21,
+    "overlap": 21,
     "source": "150201388",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 21,
+    "source_label": "Symphonies; Manuscript copy; RieA deest; DK-Kk (mu 7302.2540)",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1728,
    1786
@@ -2188,6 +4095,8 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -2222,15 +4131,37 @@
    "853001636",
    "853002504"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 13,
     "agree": 8,
+    "overlap": 8,
     "source": "1001098193",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 14,
+    "source_label": "Quartets–G major; Manuscript copy; BenP 305; PL-Wb M.R.0425",
+    "source_keysig": "xF",
+    "keysig": "n"
    }
   ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": true,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1757,
    1831
@@ -2238,8 +4169,10 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "good"
  },
  {
   "anon": "400213960",
@@ -2254,15 +4187,37 @@
    "190010955",
    "450016845"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
-    "notes": 9,
-    "agree": 9,
+    "movement": 1,
+    "notes": 17,
+    "agree": 17,
+    "overlap": 17,
     "source": "190010953",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.25,
+    "source_movement": 1,
+    "comparator_notes": 17,
+    "source_label": "Symphonies–D major; Manuscript copy; GraunWV D:XII:97, MenH 6.65; S-Skma Alströmer saml. 155:14",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1702,
    1771
@@ -2270,6 +4225,12 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [
+   "190010953: composer qualified as Conjectural",
+   "190010954: composer qualified as Conjectural",
+   "190010955: cross-reference to Rainino, Giuseppe"
+  ],
   "competitors": [],
   "class": "good"
  },
@@ -2283,14 +4244,38 @@
   "sources": [
    "400006437"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Andante",
+    "movement": 1,
     "notes": 16,
     "agree": 15,
+    "overlap": 15,
     "source": "400006437",
-    "source_inc": "1.2.1 Largo."
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.2.1 Largo.",
+    "figuration": 0.0,
+    "source_movement": 2,
+    "comparator_notes": 16,
+    "source_label": "Symphonies–D major; Manuscript copy; CH-Bu kr IV 90",
+    "source_keysig": "xF",
+    "keysig": "xF"
    }
+  ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [
+   "1->2"
   ],
   "life": [
    1751
@@ -2298,6 +4283,11 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [
+   "400006437: copied or edited by Refardt, Edgar (1877-1968); a modern copy, not a period witness",
+   "400006437: cross-reference to Lampugnani, Giovanni Battista (1708-1788)"
+  ],
   "competitors": [],
   "class": "plausible"
  },
@@ -2313,29 +4303,77 @@
    "455016639",
    "551005015"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 10,
     "agree": 6,
+    "overlap": 6,
     "source": "455016633",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.8,
+    "source_movement": 1,
+    "comparator_notes": 10,
+    "source_label": "Symphonies–D major; Manuscript copy; ZakP 24; D-Mbs Mus.ms. 3719",
+    "source_keysig": "xFC",
+    "keysig": "bBEA"
    },
    {
     "inc": "1.2.1 Rondo Allegro",
+    "movement": 2,
     "notes": 10,
     "agree": 1,
+    "overlap": 3,
     "source": "455016633",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     15
+    ],
+    "source_inc": "1.2.1 Rondeau. Andante",
+    "figuration": 0.0,
+    "source_movement": 2,
+    "comparator_notes": 21,
+    "source_label": "Symphonies–D major; Manuscript copy; ZakP 24; D-Mbs Mus.ms. 3719",
+    "source_keysig": "xFCG",
+    "keysig": "bBEA"
    },
    {
     "inc": "1.3.1 Allo assai",
+    "movement": 3,
     "notes": 13,
     "agree": 1,
+    "overlap": 13,
     "source": "455016633",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     10
+    ],
+    "source_inc": "1.3.1 Allegro assai",
+    "figuration": 0.0,
+    "source_movement": 3,
+    "comparator_notes": 23,
+    "source_label": "Symphonies–D major; Manuscript copy; ZakP 24; D-Mbs Mus.ms. 3719",
+    "source_keysig": "xFC",
+    "keysig": "bBEA"
    }
   ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   3
+  ],
+  "movement_mismatch": [],
   "life": [
    1741,
    1805
@@ -2343,8 +4381,12 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [
+   "455016639: cross-reference to Rosetti, Antonio (1750c-1792) (Ascertained)"
+  ],
   "competitors": [],
-  "class": "weak"
+  "class": "good"
  },
  {
   "anon": "450003164",
@@ -2356,15 +4398,37 @@
   "sources": [
    "400006585"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro molto",
-    "notes": 11,
-    "agree": 11,
+    "movement": 1,
+    "notes": 14,
+    "agree": 14,
+    "overlap": 14,
     "source": "400006585",
-    "source_inc": "1.1.1 Allegro."
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro.",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 23,
+    "source_label": "Overtures–D major; Manuscript copy; CH-Bu kr IV 252",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [],
   "copy_years": [
    1780,
@@ -2372,6 +4436,10 @@
   ],
   "names_composer": true,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [
+   "400006585: composer qualified as Doubtful"
+  ],
   "competitors": [],
   "class": "known"
  },
@@ -2387,28 +4455,81 @@
    "1001074840",
    "1001383642"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro non molto",
-    "notes": 18,
-    "agree": 18,
+    "movement": 1,
+    "notes": 20,
+    "agree": 20,
+    "overlap": 20,
     "source": "1001383642",
-    "source_inc": "1.1.1 [p. 7, at left of the 6th stave:] QUARTETTO IV [at left underneath the 6th stave:] Allegro non Molto"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 [p. 7, at left of the 6th stave:] QUARTETTO IV [at left underneath the 6th stave:] Allegro non Molto",
+    "figuration": 0.21,
+    "source_movement": 1,
+    "comparator_notes": 20,
+    "source_label": "Quartets–F major; Print",
+    "source_keysig": "bB",
+    "keysig": "bB"
    },
    {
     "inc": "1.2.1 Andante",
+    "movement": 2,
     "notes": 14,
     "agree": 14,
+    "overlap": 14,
     "source": "1001074840",
-    "source_inc": "1.4.2 Andante"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.4.2 Andante",
+    "figuration": 0.0,
+    "source_movement": 11,
+    "comparator_notes": 14,
+    "source_label": "6 Quartets; Manuscript copy; US-NHub Osborn Music MS 5",
+    "source_keysig": "bBEAD",
+    "keysig": "bBEAD"
    },
    {
     "inc": "1.3.1 Presto",
+    "movement": 3,
     "notes": 15,
     "agree": 15,
+    "overlap": 15,
     "source": "1001074840",
-    "source_inc": "1.4.3 Presto"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.4.3 Presto",
+    "figuration": 0.0,
+    "source_movement": 12,
+    "comparator_notes": 15,
+    "source_label": "6 Quartets; Manuscript copy; US-NHub Osborn Music MS 5",
+    "source_keysig": "bB",
+    "keysig": "bB"
    }
+  ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   1,
+   2,
+   3
+  ],
+  "movement_mismatch": [
+   "2->11",
+   "3->12"
   ],
   "life": [
    1727,
@@ -2420,6 +4541,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "strong"
  },
@@ -2433,15 +4556,37 @@
   "sources": [
    "400187377"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
-    "notes": 7,
-    "agree": 4,
+    "movement": 1,
+    "notes": 10,
+    "agree": 10,
+    "overlap": 10,
     "source": "400187377",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 17,
+    "source_label": "Symphonies–D major; Manuscript copy; CH-E 819,1|3",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [],
   "copy_years": [
    1760,
@@ -2449,8 +4594,12 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [
+   "heading 'Schmidt' names no identifiable person"
+  ],
   "competitors": [],
-  "class": "weak"
+  "class": "plausible"
  },
  {
   "anon": "450013956",
@@ -2463,15 +4612,37 @@
    "400012916",
    "550040745"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 15,
     "agree": 15,
-    "source": "550040745",
-    "source_inc": "1.1.1 Allegro"
+    "overlap": 15,
+    "source": "400012916",
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.29,
+    "source_movement": 1,
+    "comparator_notes": 15,
+    "source_label": "Overtures–D major; Manuscript copy; CH-E 13,3",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1732,
    1817
@@ -2482,6 +4653,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -2495,15 +4668,37 @@
   "sources": [
    "190009831"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 14,
     "agree": 14,
+    "overlap": 14,
     "source": "190009831",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 14,
+    "source_label": "Symphonies–G major; Manuscript copy; S-Skma Alströmer saml. 148:6",
+    "source_keysig": "xF",
+    "keysig": "xF"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [],
   "copy_years": [
    1760,
@@ -2511,6 +4706,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "plausible"
  },
@@ -2524,15 +4721,37 @@
   "sources": [
    "651004152"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 9,
     "agree": 9,
+    "overlap": 9,
     "source": "651004152",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 9,
+    "source_label": "Symphonies–D major; Manuscript copy; LMV VII:D20; A-Ik ohne Signatur",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1719,
    1787
@@ -2543,8 +4762,15 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [
+   {
+    "source": "651004152",
+    "text": "\\\", Stempel MV 3 und Stempel \\\"Konservatorium der Stadt Innsbruck, Bibliothek\\\"\", \"Gleicher Schreiber wie in A-Ik 651.004.153\", \"Weitere Kopie in D-DO Mus. Ms. 1808 (anonym)\"]}}, {\"label\": {\"en\": [\"Catalo"
+   }
+  ],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "plausible"
+  "class": "known"
  },
  {
   "anon": "450303558",
@@ -2557,15 +4783,37 @@
    "211008487",
    "270001259"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro con spirito",
+    "movement": 1,
     "notes": 7,
     "agree": 7,
+    "overlap": 7,
     "source": "211008487",
-    "source_inc": "1.1.1 Sinfonia. Allegro con spirito"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Sinfonia. Allegro con spirito",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 16,
+    "source_label": "L'idolo cinese; Manuscript copy; D-Dl Mus.3549-F-4",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1748,
    1812
@@ -2576,6 +4824,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -2589,15 +4839,37 @@
   "sources": [
    "301005810"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1",
+    "movement": 1,
     "notes": 7,
     "agree": 1,
+    "overlap": 6,
     "source": "301005810",
-    "source_inc": "1.1.1 Adagio"
+    "offset": [
+     0,
+     4
+    ],
+    "source_inc": "1.1.1 Adagio",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 10,
+    "source_label": "Ave Maria–E♭ major; Manuscript copy; PL-WRu 60540 Muz.",
+    "source_keysig": "bBEA",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1810,
    1882
@@ -2605,8 +4877,10 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "plausible"
  },
  {
   "anon": "453002908",
@@ -2621,22 +4895,56 @@
    "455016164",
    "455016167"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 31,
     "agree": 23,
+    "overlap": 23,
     "source": "1001386832",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 26,
+    "source_label": "Concertos–G major; Manuscript copy; RV 303, DouT deest, CapT deest; D-Mbs Mus.ms. 5705",
+    "source_keysig": "xF",
+    "keysig": "xF"
    },
    {
     "inc": "1.1.2",
+    "movement": 1,
     "notes": 24,
     "agree": 1,
+    "overlap": 3,
     "source": "1001386832",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     1,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 26,
+    "source_label": "Concertos–G major; Manuscript copy; RV 303, DouT deest, CapT deest; D-Mbs Mus.ms. 5705",
+    "source_keysig": "xF",
+    "keysig": "xF"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1678,
    1741
@@ -2647,6 +4955,13 @@
   ],
   "names_composer": true,
   "catalogue_number_in_title": true,
+  "prior_documentation": [],
+  "attribution_flags": [
+   "1001386832: cross-reference to Tartini, Giuseppe (1692-1770) (Alleged)",
+   "455016163: cross-reference to Tartini, Giuseppe (1692-1770) (Ascertained)",
+   "455016164: cross-reference to Tartini, Giuseppe (1692-1770) (Ascertained)",
+   "455016167: cross-reference to Tartini, Giuseppe (1692-1770) (Ascertained)"
+  ],
   "competitors": [],
   "class": "known"
  },
@@ -2661,21 +4976,58 @@
    "452500018",
    "455016303"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Andante maestoso",
+    "movement": 1,
     "notes": 10,
     "agree": 7,
+    "overlap": 7,
     "source": "452500018",
-    "source_inc": "1.5.1"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.5.1",
+    "figuration": 0.0,
+    "source_movement": 5,
+    "comparator_notes": 16,
+    "source_label": "Deutsche Tänze–C major; Manuscript copy; D-B Mus.ms. 3620/3",
+    "source_keysig": "bBE",
+    "keysig": "bB"
    },
    {
     "inc": "1.2.1 Allegro con brio",
+    "movement": 2,
     "notes": 12,
-    "agree": 2,
+    "agree": 1,
+    "overlap": 12,
     "source": "452500018",
-    "source_inc": "1.2.1"
+    "offset": [
+     0,
+     4
+    ],
+    "source_inc": "1.14.1",
+    "figuration": 0.36,
+    "source_movement": 14,
+    "comparator_notes": 16,
+    "source_label": "Deutsche Tänze–C major; Manuscript copy; D-B Mus.ms. 3620/3",
+    "source_keysig": "xF",
+    "keysig": "bB"
    }
+  ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2
+  ],
+  "movements_matched": [
+   2
+  ],
+  "movement_mismatch": [
+   "2->14"
   ],
   "life": [
    1768,
@@ -2687,8 +5039,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "good"
  },
  {
   "anon": "456006022",
@@ -2700,15 +5054,37 @@
   "sources": [
    "452015393"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
-    "notes": 12,
-    "agree": 12,
+    "movement": 1,
+    "notes": 14,
+    "agree": 14,
+    "overlap": 14,
     "source": "452015393",
-    "source_inc": "1.1.2"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.2",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 14,
+    "source_label": "Philippe et Georgette (Excerpts, Arrangement); Manuscript copy; D-B Mus.ms. 4880/8",
+    "source_keysig": "xF",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1753,
    1809
@@ -2716,6 +5092,8 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "plausible"
  },
@@ -2729,15 +5107,37 @@
   "sources": [
    "300033533"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 9,
     "agree": 9,
+    "overlap": 9,
     "source": "300033533",
-    "source_inc": "1.1.1 Sonata. Andante non molto"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Sonata. Andante non molto",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 16,
+    "source_label": "Sonatas–E♭ major; Manuscript copy; PL-CZ III-752",
+    "source_keysig": "bBEA",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1702,
    1770
@@ -2745,6 +5145,8 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "plausible"
  },
@@ -2758,15 +5160,37 @@
   "sources": [
    "455040018"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
-    "notes": 5,
-    "agree": 5,
+    "movement": 1,
+    "notes": 9,
+    "agree": 9,
+    "overlap": 9,
     "source": "455040018",
-    "source_inc": "1.1.1 Allegro molto"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro molto",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 23,
+    "source_label": "Symphonies–C major (Excerpts); Manuscript copy; D-BAd GW 18/2",
+    "source_keysig": "n",
+    "keysig": "n"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [],
   "copy_years": [
    1830,
@@ -2774,8 +5198,12 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [
+   "455040018: composer qualified as Alleged"
+  ],
   "competitors": [],
-  "class": "weak"
+  "class": "plausible"
  },
  {
   "anon": "469190800",
@@ -2789,29 +5217,79 @@
   "sources": [
    "212002745"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro assai.",
-    "notes": 18,
-    "agree": 18,
+    "movement": 1,
+    "notes": 20,
+    "agree": 20,
+    "overlap": 20,
     "source": "212002745",
-    "source_inc": "1.1.1 allegro assai"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 allegro assai",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 26,
+    "source_label": "Symphonies–D major; Manuscript copy; LeeB 1.4; D-Dl Mus.2981-N-2",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    },
    {
     "inc": "1.2.1 Larghetto.",
+    "movement": 2,
     "notes": 13,
     "agree": 13,
+    "overlap": 13,
     "source": "212002745",
-    "source_inc": "1.2.1 Larghetto"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.2.1 Larghetto",
+    "figuration": 0.33,
+    "source_movement": 2,
+    "comparator_notes": 13,
+    "source_label": "Symphonies–D major; Manuscript copy; LeeB 1.4; D-Dl Mus.2981-N-2",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    },
    {
     "inc": "1.3.1 Presto.",
+    "movement": 3,
     "notes": 10,
     "agree": 10,
+    "overlap": 10,
     "source": "212002745",
-    "source_inc": "1.3.1 Presto"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.3.1 Presto",
+    "figuration": 0.0,
+    "source_movement": 3,
+    "comparator_notes": 10,
+    "source_label": "Symphonies–D major; Manuscript copy; LeeB 1.4; D-Dl Mus.2981-N-2",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   1,
+   2,
+   3
+  ],
+  "movement_mismatch": [],
   "life": [
    1709,
    1786
@@ -2822,6 +5300,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "strong"
  },
@@ -2835,28 +5315,78 @@
   "sources": [
    "452519429"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro di molto.",
+    "movement": 1,
     "notes": 12,
     "agree": 1,
+    "overlap": 3,
     "source": "452519429",
-    "source_inc": "1.1.1 Allegro moderato"
+    "offset": [
+     0,
+     1
+    ],
+    "source_inc": "1.1.1 Allegro moderato",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 24,
+    "source_label": "Quartets–C major; Manuscript copy; D-B Mus.ms. 23120",
+    "source_keysig": "n",
+    "keysig": "xFC"
    },
    {
     "inc": "1.2.1 Andante.",
+    "movement": 2,
     "notes": 12,
     "agree": 1,
+    "overlap": 12,
     "source": "452519429",
-    "source_inc": "1.1.1 Allegro moderato"
+    "offset": [
+     0,
+     1
+    ],
+    "source_inc": "1.1.1 Allegro moderato",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 20,
+    "source_label": "Quartets–C major; Manuscript copy; D-B Mus.ms. 23120",
+    "source_keysig": "n",
+    "keysig": "xF"
    },
    {
     "inc": "1.3.1 Allegro.",
+    "movement": 3,
     "notes": 7,
     "agree": 1,
+    "overlap": 3,
     "source": "452519429",
-    "source_inc": "1.1.1 Allegro moderato"
+    "offset": [
+     0,
+     1
+    ],
+    "source_inc": "1.1.1 Allegro moderato",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 24,
+    "source_label": "Quartets–C major; Manuscript copy; D-B Mus.ms. 23120",
+    "source_keysig": "n",
+    "keysig": "xFC"
    }
+  ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   2
+  ],
+  "movement_mismatch": [
+   "2->1"
   ],
   "life": [
    1743,
@@ -2868,8 +5398,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "plausible"
  },
  {
   "anon": "469359400",
@@ -2881,28 +5413,78 @@
   "sources": [
    "551001337"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro.",
+    "movement": 1,
     "notes": 18,
     "agree": 14,
+    "overlap": 14,
     "source": "551001337",
-    "source_inc": "1.3.1 Mater Christi."
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.3.1 Mater Christi.",
+    "figuration": 0.0,
+    "source_movement": 3,
+    "comparator_notes": 31,
+    "source_label": "Litanies–F major; Manuscript copy; NovB Nov. XIXa:li1b.3; CZ-Pnm XL B 24",
+    "source_keysig": "n",
+    "keysig": "xF"
    },
    {
     "inc": "1.2.1 Andante.",
+    "movement": 2,
     "notes": 10,
     "agree": 1,
+    "overlap": 3,
     "source": "551001337",
-    "source_inc": "1.1.1 Kyrie. Andante"
+    "offset": [
+     0,
+     13
+    ],
+    "source_inc": "1.1.1 Kyrie. Andante",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 31,
+    "source_label": "Litanies–F major; Manuscript copy; NovB Nov. XIXa:li1b.3; CZ-Pnm XL B 24",
+    "source_keysig": "bB",
+    "keysig": "xF"
    },
    {
     "inc": "1.3.1 Presto.",
-    "notes": 12,
-    "agree": 3,
+    "movement": 3,
+    "notes": 14,
+    "agree": 1,
+    "overlap": 4,
     "source": "551001337",
-    "source_inc": "1.1.2"
+    "offset": [
+     6,
+     0
+    ],
+    "source_inc": "1.4.2",
+    "figuration": 0.0,
+    "source_movement": 4,
+    "comparator_notes": 22,
+    "source_label": "Litanies–F major; Manuscript copy; NovB Nov. XIXa:li1b.3; CZ-Pnm XL B 24",
+    "source_keysig": "xF",
+    "keysig": "xF"
    }
+  ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [
+   "1->3"
   ],
   "life": [],
   "copy_years": [
@@ -2911,6 +5493,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [
+   "heading 'Brixi' names no identifiable person"
+  ],
   "competitors": [],
   "class": "plausible"
  },
@@ -2925,14 +5511,38 @@
    "212009106",
    "469250400"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro assai.",
+    "movement": 1,
     "notes": 20,
     "agree": 20,
+    "overlap": 20,
     "source": "212009106",
-    "source_inc": "1.16.1 Seconda Parte Sinfonia. Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.16.1 Seconda Parte Sinfonia. Allegro",
+    "figuration": 0.0,
+    "source_movement": 16,
+    "comparator_notes": 20,
+    "source_label": "La Galatea (Excerpts); Manuscript copy; D-Dl Mus.3096-F-2",
+    "source_keysig": "xF",
+    "keysig": "xF"
    }
+  ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [
+   "1->16"
   ],
   "life": [
    1720,
@@ -2944,6 +5554,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -2957,15 +5569,37 @@
   "sources": [
    "650002144"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro.",
+    "movement": 1,
     "notes": 9,
     "agree": 1,
+    "overlap": 8,
     "source": "650002144",
-    "source_inc": "1.1.1 Moderato"
+    "offset": [
+     0,
+     4
+    ],
+    "source_inc": "1.1.1 Moderato",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 17,
+    "source_label": "Tantum ergo–C major; Manuscript copy; A-ST Mus.ms. 946",
+    "source_keysig": "n",
+    "keysig": "xF"
    }
   ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1767,
    1792
@@ -2976,8 +5610,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "plausible"
  },
  {
   "anon": "500028090",
@@ -2995,15 +5631,37 @@
    "550266258",
    "650002015"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro assai",
+    "movement": 1,
     "notes": 14,
     "agree": 14,
+    "overlap": 14,
     "source": "150201388",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 21,
+    "source_label": "Symphonies; Manuscript copy; RieA deest; DK-Kk (mu 7302.2540)",
+    "source_keysig": "xFC",
+    "keysig": "n"
    }
   ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1728,
    1786
@@ -3014,6 +5672,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -3027,15 +5687,37 @@
   "sources": [
    "530003761"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 22,
     "agree": 12,
+    "overlap": 12,
     "source": "530003761",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 12,
+    "source_label": "Symphonies–C major; Manuscript copy; SmWV 404; H-Bn Ms.mus IV.41",
+    "source_keysig": "n",
+    "keysig": "n"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1766,
    1803
@@ -3046,6 +5728,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "plausible"
  },
@@ -3068,15 +5752,37 @@
    "850604748",
    "858000503"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 14,
     "agree": 14,
+    "overlap": 14,
     "source": "104771",
-    "source_inc": "1.1.1 Overtura."
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Overtura.",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 18,
+    "source_label": "Lucio Vero; Manuscript copy; US-R M1500.S119L",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1730,
    1786
@@ -3084,6 +5790,8 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -3097,15 +5805,37 @@
   "sources": [
    "603000365"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 24,
     "agree": 24,
+    "overlap": 24,
     "source": "603000365",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 34,
+    "source_label": "Symphonies–C major; Manuscript copy; BoeR 10; A-LA 241",
+    "source_keysig": "n",
+    "keysig": "n"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1709,
    1789
@@ -3113,6 +5843,8 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "plausible"
  },
@@ -3126,15 +5858,37 @@
   "sources": [
    "706000763"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro assai",
-    "notes": 9,
-    "agree": 9,
+    "movement": 1,
+    "notes": 13,
+    "agree": 13,
+    "overlap": 13,
     "source": "706000763",
-    "source_inc": "1.1.1 Allegro assai"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro assai",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 13,
+    "source_label": "Symphonies–D major; Manuscript copy; KucW 17, MicWka 370; B-Bc 7946 XXII",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1715,
    1777
@@ -3142,6 +5896,8 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "plausible"
  },
@@ -3155,15 +5911,37 @@
   "sources": [
    "1001323409"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro Moderato",
-    "notes": 11,
-    "agree": 3,
+    "movement": 1,
+    "notes": 13,
+    "agree": 11,
+    "overlap": 11,
     "source": "1001323409",
-    "source_inc": "1.1.1 [Prima pars]"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 [Prima pars]",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 12,
+    "source_label": "Cum ingrederetur Jesus–Mode: 2t – Hypodorian; Print",
+    "source_keysig": "bB",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1520,
    1573
@@ -3174,8 +5952,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "date-impossible"
+  "class": "date-early"
  },
  {
   "anon": "553001704",
@@ -3189,14 +5969,38 @@
    "1001098076",
    "1001385161"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Andante sost-to",
-    "notes": 5,
+    "movement": 1,
+    "notes": 7,
     "agree": 1,
+    "overlap": 7,
     "source": "1001097195",
-    "source_inc": "1.1.1 Moderato"
+    "offset": [
+     0,
+     2
+    ],
+    "source_inc": "1.6.1 All.|o molto",
+    "figuration": 0.0,
+    "source_movement": 6,
+    "comparator_notes": 11,
+    "source_label": "Quartets–E♭ major; Print; Hob III:20",
+    "source_keysig": "bBEA",
+    "keysig": "bB"
    }
+  ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [
+   "1->6"
   ],
   "life": [
    1732,
@@ -3208,8 +6012,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "good"
  },
  {
   "anon": "570002608",
@@ -3222,28 +6028,80 @@
    "225001445",
    "270000769"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro assai",
+    "movement": 1,
     "notes": 13,
-    "agree": 4,
-    "source": "225001445",
-    "source_inc": "1.36.1 Aria. Allegretto"
+    "agree": 1,
+    "overlap": 7,
+    "source": "270000769",
+    "offset": [
+     0,
+     3
+    ],
+    "source_inc": "1.15.1 Aria [= Arioso]. Un poco lento ed amoroso",
+    "figuration": 0.0,
+    "source_movement": 7,
+    "comparator_notes": 20,
+    "source_label": "Achille in Sciro; Manuscript copy; D-Dl Mus.2477-F-89",
+    "source_keysig": "bB",
+    "keysig": "xFC"
    },
    {
     "inc": "1.2.1 Andante",
+    "movement": 2,
     "notes": 17,
-    "agree": 2,
+    "agree": 3,
+    "overlap": 3,
     "source": "225001445",
-    "source_inc": "1.2.1 Atto 1, Scena 1, Coro. Allegro e con spirito ma non troppo presto"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.56.2",
+    "figuration": 0.0,
+    "source_movement": 24,
+    "comparator_notes": 21,
+    "source_label": "Achille in Sciro; Manuscript copy; D-LEu N.I.10298a-c",
+    "source_keysig": "xF",
+    "keysig": "xF"
    },
    {
     "inc": "1.3.1 Presto",
-    "notes": 14,
-    "agree": 3,
+    "movement": 3,
+    "notes": 18,
+    "agree": 1,
+    "overlap": 11,
     "source": "225001445",
-    "source_inc": "1.50.1 [Aria]. Allegro di molto"
+    "offset": [
+     0,
+     7
+    ],
+    "source_inc": "1.41.1 Arietta col Coro. Allegretto",
+    "figuration": 0.0,
+    "source_movement": 18,
+    "comparator_notes": 22,
+    "source_label": "Achille in Sciro; Manuscript copy; D-LEu N.I.10298a-c",
+    "source_keysig": "xF",
+    "keysig": "xFC"
    }
+  ],
+  "vocal_matches": [
+   "225001445 1.41.1 Arietta col Coro. Allegretto"
+  ],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   3
+  ],
+  "movement_mismatch": [
+   "3->18"
   ],
   "life": [
    1699,
@@ -3255,8 +6113,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "good"
  },
  {
   "anon": "570005113",
@@ -3273,29 +6133,79 @@
    "190009385",
    "190009386"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro assai",
+    "movement": 1,
     "notes": 9,
     "agree": 9,
+    "overlap": 9,
     "source": "1001057046",
-    "source_inc": "1.1.1 Vivace"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Vivace",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 13,
+    "source_label": "Symphonies–F major; Manuscript copy; JenS D36; PL-Wu RM 4304",
+    "source_keysig": "bB",
+    "keysig": "bB"
    },
    {
     "inc": "1.2.1 Andante",
+    "movement": 2,
     "notes": 10,
     "agree": 10,
+    "overlap": 10,
     "source": "1001376786",
-    "source_inc": "1.2.1 Andante con Sordini"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.2.1 Andante con Sordini",
+    "figuration": 0.0,
+    "source_movement": 2,
+    "comparator_notes": 20,
+    "source_label": "Symphonies–F major; Manuscript copy; JenS D36; PL-MO 928",
+    "source_keysig": "n",
+    "keysig": "n"
    },
    {
     "inc": "1.3.1 Allegro",
+    "movement": 3,
     "notes": 14,
     "agree": 14,
+    "overlap": 14,
     "source": "1001296650",
-    "source_inc": "1.3.1 Allegro."
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.3.1 Allegro.",
+    "figuration": 0.0,
+    "source_movement": 3,
+    "comparator_notes": 14,
+    "source_label": "Symphonies–F major (Arrangement); Print; JenS D36",
+    "source_keysig": "bB",
+    "keysig": "bB"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   1,
+   2,
+   3
+  ],
+  "movement_mismatch": [],
   "life": [
    1704,
    1779
@@ -3306,6 +6216,42 @@
   ],
   "names_composer": true,
   "catalogue_number_in_title": false,
+  "prior_documentation": [
+   {
+    "source": "1001057046",
+    "text": " Johann Adam (with cross-reference to Sammartini), in RISM ID no. 300000816 to Ignaz Malzat, in RISM ID no. 170000047 to Giovanni Ferrandini and in RISM ID no. 570005113 remains anonymous.\"]}}, {\"labe"
+   },
+   {
+    "source": "1001376786",
+    "text": "190009386 to Johann Adam (with cross-reference to Sammartini), in RISM ID 300000816 to Ignaz Malzat, in RISM ID 170000047 to Giovanni Ferrandini and in RISM ID 570005113 remains anonymous.\", \"[cover t"
+   },
+   {
+    "source": "190009385",
+    "text": " RISM ID no. 1001057046, 190009386 to Johann Adam, in RISM ID no. 300000816 to Ignaz Malzat, in RISM ID no. 170000047 to Giovanni Ferrandini and in RISM ID no. 570005113 remains anonymous.\"]}}, {\"labe"
+   },
+   {
+    "source": "190009386",
+    "text": " RISM ID no. 1001057046, 190009385 to Johann Adam, in RISM ID no. 300000816 to Ignaz Malzat, in RISM ID no. 170000047 to Giovanni Ferrandini and in RISM ID no. 570005113 remains anonymous.\"]}}, {\"labe"
+   }
+  ],
+  "attribution_flags": [
+   "1001057046: composer qualified as Doubtful",
+   "1001057046: cross-reference to Ferrandini, Giovanni (1710-1791)",
+   "1001057046: cross-reference to Malzat, Ignaz (1757-1804)",
+   "1001057046: cross-reference to Sammartini, Giovanni Battista (1700c-1775)",
+   "1001296650: cross-reference to Ferrandini, Giovanni (1710-1791) (Ascertained)",
+   "1001296650: cross-reference to Malzat, Ignaz (1757-1804) (Ascertained)",
+   "1001296650: cross-reference to Sammartini, Giovanni Battista (1700c-1775) (Ascertained)",
+   "1001376786: cross-reference to Ferrandini, Giovanni (1710-1791)",
+   "1001376786: cross-reference to Malzat, Ignaz (1757-1804)",
+   "1001376786: cross-reference to Sammartini, Giovanni Battista (1700c-1775)",
+   "190009385: cross-reference to Ferrandini, Giovanni (1710-1791) (Conjectural)",
+   "190009385: cross-reference to Malzat, Ignaz (1757-1804) (Conjectural)",
+   "190009385: cross-reference to Sammartini, Giovanni Battista (1700c-1775) (Conjectural)",
+   "190009386: cross-reference to Ferrandini, Giovanni (1710-1791) (Conjectural)",
+   "190009386: cross-reference to Malzat, Ignaz (1757-1804) (Conjectural)",
+   "190009386: cross-reference to Sammartini, Giovanni Battista (1700c-1775) (Conjectural)"
+  ],
   "competitors": [
    "Ferrandini, Giovanni (1710-1791)",
    "Malzat, Ignaz (1757-1804)"
@@ -3322,29 +6268,77 @@
   "sources": [
    "123153"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro moderato",
+    "movement": 1,
     "notes": 12,
     "agree": 1,
+    "overlap": 12,
     "source": "123153",
-    "source_inc": "1.1.1 Andantino grazioso"
+    "offset": [
+     0,
+     8
+    ],
+    "source_inc": "1.1.1 Andantino grazioso",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 20,
+    "source_label": "L’incognita perseguitata (Excerpts); Manuscript copy; US-BEm MS 106",
+    "source_keysig": "xFCG",
+    "keysig": "xF"
    },
    {
     "inc": "1.2.1 Andante",
+    "movement": 2,
     "notes": 15,
     "agree": 1,
+    "overlap": 2,
     "source": "123153",
-    "source_inc": "1.1.1 Andantino grazioso"
+    "offset": [
+     10,
+     0
+    ],
+    "source_inc": "1.1.1 Andantino grazioso",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 20,
+    "source_label": "L’incognita perseguitata (Excerpts); Manuscript copy; US-BEm MS 106",
+    "source_keysig": "xFCG",
+    "keysig": "n"
    },
    {
     "inc": "1.3.1 Allegro",
+    "movement": 3,
     "notes": 13,
     "agree": 1,
+    "overlap": 2,
     "source": "123153",
-    "source_inc": "1.1.1 Andantino grazioso"
+    "offset": [
+     0,
+     15
+    ],
+    "source_inc": "1.1.1 Andantino grazioso",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 20,
+    "source_label": "L’incognita perseguitata (Excerpts); Manuscript copy; US-BEm MS 106",
+    "source_keysig": "xFCG",
+    "keysig": "xF"
    }
   ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1727,
    1797
@@ -3352,8 +6346,10 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "plausible"
  },
  {
   "anon": "570005119",
@@ -3367,35 +6363,99 @@
    "230006006",
    "270001204"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 32,
     "agree": 16,
+    "overlap": 16,
     "source": "1001179385",
-    "source_inc": "1.1.2"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.2",
+    "figuration": 1.0,
+    "source_movement": 1,
+    "comparator_notes": 22,
+    "source_label": "La clemenza di Tito; Manuscript copy; D-Dl Mus.3480-F-4",
+    "source_keysig": "bBE",
+    "keysig": "n"
    },
    {
     "inc": "1.2.1 Andante",
+    "movement": 2,
     "notes": 12,
     "agree": 12,
+    "overlap": 12,
     "source": "1001179385",
-    "source_inc": "1.2.1 Andante espressivo"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.2.1 Andante espressivo",
+    "figuration": 0.0,
+    "source_movement": 2,
+    "comparator_notes": 12,
+    "source_label": "La clemenza di Tito; Manuscript copy; D-Dl Mus.3480-F-4",
+    "source_keysig": "bBEA",
+    "keysig": "bB"
    },
    {
     "inc": "1.3.1 Minuetto.",
+    "movement": 3,
     "notes": 8,
-    "agree": 3,
+    "agree": 1,
+    "overlap": 5,
     "source": "1001179385",
-    "source_inc": "1.1.1 Ouverture Allegro con spirito"
+    "offset": [
+     2,
+     0
+    ],
+    "source_inc": "1.28.2",
+    "figuration": 0.0,
+    "source_movement": 14,
+    "comparator_notes": 9,
+    "source_label": "La clemenza di Tito; Manuscript copy; D-Dl Mus.3480-F-4",
+    "source_keysig": "xF",
+    "keysig": "bB"
    },
    {
     "inc": "1.4.1 Finale. Allegro",
+    "movement": 4,
     "notes": 19,
     "agree": 19,
+    "overlap": 19,
     "source": "1001179385",
-    "source_inc": "1.3.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.3.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 3,
+    "comparator_notes": 21,
+    "source_label": "La clemenza di Tito; Manuscript copy; D-Dl Mus.3480-F-4",
+    "source_keysig": "bBE",
+    "keysig": "n"
    }
+  ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "movements_matched": [
+   2,
+   4
+  ],
+  "movement_mismatch": [
+   "4->3"
   ],
   "life": [
    1741,
@@ -3407,6 +6467,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "strong"
  },
@@ -3421,28 +6483,78 @@
    "240002462",
    "704002376"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Spirituoso",
+    "movement": 1,
     "notes": 35,
     "agree": 1,
+    "overlap": 2,
     "source": "240002462",
-    "source_inc": "1.1.1 Intrada. Allegro"
+    "offset": [
+     0,
+     2
+    ],
+    "source_inc": "1.1.1 Intrada. Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 12,
+    "source_label": "O schönstes Glück das dieser Tag verspricht; Manuscript copy; DieH p. 96-97; D-SWl Mus.2706",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    },
    {
     "inc": "1.2.1 Andante",
+    "movement": 2,
     "notes": 18,
     "agree": 1,
+    "overlap": 1,
     "source": "240002462",
-    "source_inc": "1.1.1 Intrada. Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Intrada. Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 12,
+    "source_label": "O schönstes Glück das dieser Tag verspricht; Manuscript copy; DieH p. 96-97; D-SWl Mus.2706",
+    "source_keysig": "xFC",
+    "keysig": "xF"
    },
    {
     "inc": "1.3.1 Presto",
+    "movement": 3,
     "notes": 12,
     "agree": 12,
+    "overlap": 12,
     "source": "240002462",
-    "source_inc": "1.1.1 Intrada. Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Intrada. Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 12,
+    "source_label": "O schönstes Glück das dieser Tag verspricht; Manuscript copy; DieH p. 96-97; D-SWl Mus.2706",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
+  ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   3
+  ],
+  "movement_mismatch": [
+   "3->1"
   ],
   "life": [
    1727,
@@ -3454,6 +6566,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -3468,15 +6582,37 @@
    "450012267",
    "990034157"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Grave",
+    "movement": 1,
     "notes": 11,
     "agree": 11,
+    "overlap": 11,
     "source": "450012267",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 11,
+    "source_label": "Symphonies–C major; Manuscript copy; D-WEY 613",
+    "source_keysig": "n",
+    "keysig": "n"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1753,
    1817
@@ -3484,6 +6620,8 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -3498,15 +6636,37 @@
    "210045950",
    "450013478"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro di molto",
+    "movement": 1,
     "notes": 10,
     "agree": 10,
+    "overlap": 10,
     "source": "210045950",
-    "source_inc": "1.1.1 Allegro molto"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro molto",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 15,
+    "source_label": "Symphonies–C major; Manuscript copy; PosK I:9; D-Dl Mus.3540-N-1",
+    "source_keysig": "n",
+    "keysig": "n"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1747,
    1818
@@ -3514,6 +6674,8 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -3527,15 +6689,37 @@
   "sources": [
    "650002967"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro molto",
+    "movement": 1,
     "notes": 13,
     "agree": 13,
+    "overlap": 13,
     "source": "650002967",
-    "source_inc": "1.1.1 Allegro molto"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro molto",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 22,
+    "source_label": "Symphonies–B♭ major; Manuscript copy; WolS III.QS-31, MicWka 435, KucW 73, WarB YC 3; A-ST Mus.ms. 2153",
+    "source_keysig": "bBE",
+    "keysig": "bBE"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [],
   "copy_years": [
    1775,
@@ -3543,566 +6727,16 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
-  "competitors": [],
-  "class": "plausible"
- },
- {
-  "anon": "603000139",
-  "label": "Divertimentos–B♭ major; Manuscript copy; MH 133, MH 104, MH deest; A-LA 329",
-  "composer": "Hafeneder, Joseph (1746-1784)",
-  "matched": [
-   "1.9.1 Finale. All[egr]o assai"
-  ],
-  "sources": [
-   "400003539"
-  ],
-  "movements": [
+  "prior_documentation": [
    {
-    "inc": "1.1.1 P[iano] e stacato",
-    "notes": 21,
-    "agree": 1,
-    "source": "400003539",
-    "source_inc": "1.1.1 Moderato Allegro"
-   },
-   {
-    "inc": "1.4.1 Adagio",
-    "notes": 22,
-    "agree": 1,
-    "source": "400003539",
-    "source_inc": "1.1.1 Moderato Allegro"
-   },
-   {
-    "inc": "1.6.1 Menuetto",
-    "notes": 26,
-    "agree": 1,
-    "source": "400003539",
-    "source_inc": "1.1.1 Moderato Allegro"
-   },
-   {
-    "inc": "1.9.1 Finale. All[egr]o assai",
-    "notes": 25,
-    "agree": 11,
-    "source": "400003539",
-    "source_inc": "1.1.1 Moderato Allegro"
+    "source": "650002967",
+    "text": "s Wagenseil), doch stamme sie sicher nicht von Johann Stamitz (viele italienische Opera buffa-Elemente)\", \"Vergleiche Kopie (ca. 1780) in A-KR H 31/263 (ID no. 600171568), Autor dort \\\"Bach\\\", Besetzu"
    }
   ],
-  "life": [
-   1746,
-   1784
+  "attribution_flags": [
+   "650002967: cross-reference to Wagenseil, Georg Christoph (1715-1777) (Conjectural)",
+   "heading 'Stamitz' names no identifiable person"
   ],
-  "copy_years": [
-   1768,
-   1799
-  ],
-  "names_composer": true,
-  "catalogue_number_in_title": true,
-  "competitors": [],
-  "class": "known"
- },
- {
-  "anon": "603000139",
-  "label": "Divertimentos–B♭ major; Manuscript copy; MH 133, MH 104, MH deest; A-LA 329",
-  "composer": "Haydn, Michael (1737-1806)",
-  "matched": [
-   "1.1.1 P[iano] e stacato"
-  ],
-  "sources": [
-   "530001777"
-  ],
-  "movements": [
-   {
-    "inc": "1.1.1 P[iano] e stacato",
-    "notes": 21,
-    "agree": 13,
-    "source": "530001777",
-    "source_inc": "1.1.1 Allegro molto"
-   },
-   {
-    "inc": "1.4.1 Adagio",
-    "notes": 22,
-    "agree": 1,
-    "source": "530001777",
-    "source_inc": "1.1.1 Allegro molto"
-   },
-   {
-    "inc": "1.6.1 Menuetto",
-    "notes": 26,
-    "agree": 1,
-    "source": "530001777",
-    "source_inc": "1.1.1 Allegro molto"
-   },
-   {
-    "inc": "1.9.1 Finale. All[egr]o assai",
-    "notes": 25,
-    "agree": 1,
-    "source": "530001777",
-    "source_inc": "1.1.1 Allegro molto"
-   }
-  ],
-  "life": [
-   1737,
-   1806
-  ],
-  "copy_years": [
-   1768,
-   1799
-  ],
-  "names_composer": true,
-  "catalogue_number_in_title": true,
-  "competitors": [],
-  "class": "known"
- },
- {
-  "anon": "650003004",
-  "label": "Symphonies–D major; Manuscript copy; Hob I:1; A-ST Mus.ms. 558",
-  "composer": "Benda, Georg (1722-1795)",
-  "matched": [
-   "1.3.2",
-   "1.4.2",
-   "1.4.3"
-  ],
-  "sources": [
-   "453009711"
-  ],
-  "movements": [
-   {
-    "inc": "1.1.1 Presto",
-    "notes": 18,
-    "agree": 1,
-    "source": "453009711",
-    "source_inc": "1.1.1 Coro. Allegro"
-   },
-   {
-    "inc": "1.1.2",
-    "notes": 1,
-    "agree": 1,
-    "source": "453009711",
-    "source_inc": "1.1.1 Coro. Allegro"
-   },
-   {
-    "inc": "1.2.1 Andante",
-    "notes": 16,
-    "agree": 1,
-    "source": "453009711",
-    "source_inc": "1.1.1 Coro. Allegro"
-   },
-   {
-    "inc": "1.3.1 Menuetto.",
-    "notes": 11,
-    "agree": 1,
-    "source": "453009711",
-    "source_inc": "1.1.1 Coro. Allegro"
-   },
-   {
-    "inc": "1.3.2",
-    "notes": 7,
-    "agree": 6,
-    "source": "453009711",
-    "source_inc": "1.1.3"
-   },
-   {
-    "inc": "1.4.1 Trio.",
-    "notes": 11,
-    "agree": 1,
-    "source": "453009711",
-    "source_inc": "1.1.1 Coro. Allegro"
-   },
-   {
-    "inc": "1.4.2",
-    "notes": 6,
-    "agree": 5,
-    "source": "453009711",
-    "source_inc": "1.1.3"
-   },
-   {
-    "inc": "1.4.3",
-    "notes": 7,
-    "agree": 6,
-    "source": "453009711",
-    "source_inc": "1.1.3"
-   },
-   {
-    "inc": "1.5.1 Finale. Presto",
-    "notes": 15,
-    "agree": 2,
-    "source": "453009711",
-    "source_inc": "1.1.1 Coro. Allegro"
-   }
-  ],
-  "life": [
-   1722,
-   1795
-  ],
-  "copy_years": [
-   1770,
-   1770
-  ],
-  "names_composer": false,
-  "catalogue_number_in_title": true,
-  "competitors": [],
-  "class": "known"
- },
- {
-  "anon": "650003004",
-  "label": "Symphonies–D major; Manuscript copy; Hob I:1; A-ST Mus.ms. 558",
-  "composer": "Bühler, Franz, OSB (1760-1823)",
-  "matched": [
-   "1.3.2",
-   "1.4.2",
-   "1.4.3"
-  ],
-  "sources": [
-   "1001045172",
-   "454016885",
-   "455014164"
-  ],
-  "movements": [
-   {
-    "inc": "1.1.1 Presto",
-    "notes": 18,
-    "agree": 1,
-    "source": "1001045172",
-    "source_inc": "1.1.1 Segen N|o 1 Andante"
-   },
-   {
-    "inc": "1.1.2",
-    "notes": 1,
-    "agree": 1,
-    "source": "1001045172",
-    "source_inc": "1.1.1 Segen N|o 1 Andante"
-   },
-   {
-    "inc": "1.2.1 Andante",
-    "notes": 16,
-    "agree": 1,
-    "source": "1001045172",
-    "source_inc": "1.1.1 Segen N|o 1 Andante"
-   },
-   {
-    "inc": "1.3.1 Menuetto.",
-    "notes": 11,
-    "agree": 1,
-    "source": "1001045172",
-    "source_inc": "1.1.1 Segen N|o 1 Andante"
-   },
-   {
-    "inc": "1.3.2",
-    "notes": 7,
-    "agree": 6,
-    "source": "1001045172",
-    "source_inc": "1.1.1 Segen N|o 1 Andante"
-   },
-   {
-    "inc": "1.4.1 Trio.",
-    "notes": 11,
-    "agree": 1,
-    "source": "1001045172",
-    "source_inc": "1.1.1 Segen N|o 1 Andante"
-   },
-   {
-    "inc": "1.4.2",
-    "notes": 6,
-    "agree": 5,
-    "source": "1001045172",
-    "source_inc": "1.1.1 Segen N|o 1 Andante"
-   },
-   {
-    "inc": "1.4.3",
-    "notes": 7,
-    "agree": 6,
-    "source": "1001045172",
-    "source_inc": "1.1.1 Segen N|o 1 Andante"
-   },
-   {
-    "inc": "1.5.1 Finale. Presto",
-    "notes": 15,
-    "agree": 2,
-    "source": "1001045172",
-    "source_inc": "1.1.1 Segen N|o 1 Andante"
-   }
-  ],
-  "life": [
-   1760,
-   1823
-  ],
-  "copy_years": [
-   1770,
-   1770
-  ],
-  "names_composer": false,
-  "catalogue_number_in_title": true,
-  "competitors": [],
-  "class": "known"
- },
- {
-  "anon": "650003004",
-  "label": "Symphonies–D major; Manuscript copy; Hob I:1; A-ST Mus.ms. 558",
-  "composer": "Haydn, Joseph (1732-1809)",
-  "matched": [
-   "1.2.1 Andante"
-  ],
-  "sources": [
-   "1001324338",
-   "240002345",
-   "450113907",
-   "550281622"
-  ],
-  "movements": [
-   {
-    "inc": "1.1.1 Presto",
-    "notes": 18,
-    "agree": 11,
-    "source": "1001324338",
-    "source_inc": "1.1.1 Presto"
-   },
-   {
-    "inc": "1.1.2",
-    "notes": 1,
-    "agree": 1,
-    "source": "1001324338",
-    "source_inc": "1.1.1 Presto"
-   },
-   {
-    "inc": "1.2.1 Andante",
-    "notes": 16,
-    "agree": 16,
-    "source": "1001324338",
-    "source_inc": "1.2.1 Andante"
-   },
-   {
-    "inc": "1.3.1 Menuetto.",
-    "notes": 11,
-    "agree": 1,
-    "source": "1001324338",
-    "source_inc": "1.1.1 Presto"
-   },
-   {
-    "inc": "1.3.2",
-    "notes": 7,
-    "agree": 2,
-    "source": "1001324338",
-    "source_inc": "1.3.1 Presto"
-   },
-   {
-    "inc": "1.4.1 Trio.",
-    "notes": 11,
-    "agree": 1,
-    "source": "1001324338",
-    "source_inc": "1.1.1 Presto"
-   },
-   {
-    "inc": "1.4.2",
-    "notes": 6,
-    "agree": 2,
-    "source": "1001324338",
-    "source_inc": "1.3.1 Presto"
-   },
-   {
-    "inc": "1.4.3",
-    "notes": 7,
-    "agree": 2,
-    "source": "1001324338",
-    "source_inc": "1.3.1 Presto"
-   },
-   {
-    "inc": "1.5.1 Finale. Presto",
-    "notes": 15,
-    "agree": 15,
-    "source": "1001324338",
-    "source_inc": "1.3.1 Presto"
-   }
-  ],
-  "life": [
-   1732,
-   1809
-  ],
-  "copy_years": [
-   1770,
-   1770
-  ],
-  "names_composer": true,
-  "catalogue_number_in_title": true,
-  "competitors": [],
-  "class": "known"
- },
- {
-  "anon": "650003004",
-  "label": "Symphonies–D major; Manuscript copy; Hob I:1; A-ST Mus.ms. 558",
-  "composer": "Köhler, Johann Hermann (1686-1740)",
-  "matched": [
-   "1.3.2",
-   "1.4.2",
-   "1.4.3"
-  ],
-  "sources": [
-   "453002219"
-  ],
-  "movements": [
-   {
-    "inc": "1.1.1 Presto",
-    "notes": 18,
-    "agree": 1,
-    "source": "453002219",
-    "source_inc": "1.1.1 Allegro non tanto"
-   },
-   {
-    "inc": "1.1.2",
-    "notes": 1,
-    "agree": 1,
-    "source": "453002219",
-    "source_inc": "1.1.1 Allegro non tanto"
-   },
-   {
-    "inc": "1.2.1 Andante",
-    "notes": 16,
-    "agree": 1,
-    "source": "453002219",
-    "source_inc": "1.1.1 Allegro non tanto"
-   },
-   {
-    "inc": "1.3.1 Menuetto.",
-    "notes": 11,
-    "agree": 3,
-    "source": "453002219",
-    "source_inc": "1.1.1 Allegro non tanto"
-   },
-   {
-    "inc": "1.3.2",
-    "notes": 7,
-    "agree": 6,
-    "source": "453002219",
-    "source_inc": "1.1.2"
-   },
-   {
-    "inc": "1.4.1 Trio.",
-    "notes": 11,
-    "agree": 3,
-    "source": "453002219",
-    "source_inc": "1.1.1 Allegro non tanto"
-   },
-   {
-    "inc": "1.4.2",
-    "notes": 6,
-    "agree": 5,
-    "source": "453002219",
-    "source_inc": "1.1.2"
-   },
-   {
-    "inc": "1.4.3",
-    "notes": 7,
-    "agree": 6,
-    "source": "453002219",
-    "source_inc": "1.1.2"
-   },
-   {
-    "inc": "1.5.1 Finale. Presto",
-    "notes": 15,
-    "agree": 2,
-    "source": "453002219",
-    "source_inc": "1.1.2"
-   }
-  ],
-  "life": [
-   1686,
-   1740
-  ],
-  "copy_years": [
-   1770,
-   1770
-  ],
-  "names_composer": false,
-  "catalogue_number_in_title": true,
-  "competitors": [],
-  "class": "known"
- },
- {
-  "anon": "650003004",
-  "label": "Symphonies–D major; Manuscript copy; Hob I:1; A-ST Mus.ms. 558",
-  "composer": "Molter, Johann Melchior (1696-1765)",
-  "matched": [
-   "1.3.2",
-   "1.4.2",
-   "1.4.3"
-  ],
-  "sources": [
-   "453003104",
-   "453003340"
-  ],
-  "movements": [
-   {
-    "inc": "1.1.1 Presto",
-    "notes": 18,
-    "agree": 2,
-    "source": "453003340",
-    "source_inc": "1.1.1 Largo"
-   },
-   {
-    "inc": "1.1.2",
-    "notes": 1,
-    "agree": 1,
-    "source": "453003104",
-    "source_inc": "1.1.1 Ouverture. Lentement; Viste; Lentement"
-   },
-   {
-    "inc": "1.2.1 Andante",
-    "notes": 16,
-    "agree": 1,
-    "source": "453003104",
-    "source_inc": "1.1.1 Ouverture. Lentement; Viste; Lentement"
-   },
-   {
-    "inc": "1.3.1 Menuetto.",
-    "notes": 11,
-    "agree": 2,
-    "source": "453003104",
-    "source_inc": "1.1.1 Ouverture. Lentement; Viste; Lentement"
-   },
-   {
-    "inc": "1.3.2",
-    "notes": 7,
-    "agree": 6,
-    "source": "453003340",
-    "source_inc": "1.1.2"
-   },
-   {
-    "inc": "1.4.1 Trio.",
-    "notes": 11,
-    "agree": 2,
-    "source": "453003104",
-    "source_inc": "1.1.1 Ouverture. Lentement; Viste; Lentement"
-   },
-   {
-    "inc": "1.4.2",
-    "notes": 6,
-    "agree": 5,
-    "source": "453003104",
-    "source_inc": "1.1.2"
-   },
-   {
-    "inc": "1.4.3",
-    "notes": 7,
-    "agree": 6,
-    "source": "453003340",
-    "source_inc": "1.1.2"
-   },
-   {
-    "inc": "1.5.1 Finale. Presto",
-    "notes": 15,
-    "agree": 2,
-    "source": "453003104",
-    "source_inc": "1.1.2"
-   }
-  ],
-  "life": [
-   1696,
-   1765
-  ],
-  "copy_years": [
-   1770,
-   1770
-  ],
-  "names_composer": false,
-  "catalogue_number_in_title": true,
   "competitors": [],
   "class": "known"
  },
@@ -4116,15 +6750,37 @@
   "sources": [
    "850009190"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro con spirito",
+    "movement": 1,
     "notes": 12,
     "agree": 1,
+    "overlap": 12,
     "source": "850009190",
-    "source_inc": "1.1.1 [Sinfonia]."
+    "offset": [
+     0,
+     1
+    ],
+    "source_inc": "1.1.1 [Sinfonia].",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 17,
+    "source_label": "La fedeltà in amore (Excerpts); Autograph manuscript; I-Nc Rari 2.5.19",
+    "source_keysig": "bB",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1733,
    1824
@@ -4132,8 +6788,10 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "plausible"
  },
  {
   "anon": "800070191",
@@ -4145,15 +6803,37 @@
   "sources": [
    "850032622"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Grave",
+    "movement": 1,
     "notes": 7,
     "agree": 7,
+    "overlap": 7,
     "source": "850032622",
-    "source_inc": "1.1.1 Symphony."
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Symphony.",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 10,
+    "source_label": "Masses–D major; Manuscript copy; I-Rama A.Ms.2663",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1710,
    1778
@@ -4161,6 +6841,8 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "plausible"
  },
@@ -4175,15 +6857,37 @@
    "104650",
    "990008137"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
-    "notes": 12,
-    "agree": 12,
+    "movement": 1,
+    "notes": 14,
+    "agree": 14,
+    "overlap": 14,
     "source": "104650",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 14,
+    "source_label": "Symphonies concertantes–F major; Autograph manuscript; US-NYp Mus. Res. *MNZ",
+    "source_keysig": "bB",
+    "keysig": "bB"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1746,
    1825
@@ -4191,6 +6895,8 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -4207,15 +6913,37 @@
    "190024271",
    "400006746"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
-    "notes": 12,
-    "agree": 12,
+    "movement": 1,
+    "notes": 13,
+    "agree": 13,
+    "overlap": 13,
     "source": "150203709",
-    "source_inc": "1.1.1"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 14,
+    "source_label": "Symphonies–D major; Manuscript copy; MünT 27; DK-Kk (mu 7308.2137)",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1731,
    1788
@@ -4223,6 +6951,8 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -4238,29 +6968,79 @@
   "sources": [
    "404000219"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 12,
     "agree": 12,
+    "overlap": 12,
     "source": "404000219",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 15,
+    "source_label": "Sonatas–C major; Manuscript copy; CH-BEl SLA-Mus-EH A-08-d-15/1",
+    "source_keysig": "n",
+    "keysig": "n"
    },
    {
     "inc": "1.2.1 andante",
+    "movement": 2,
     "notes": 12,
     "agree": 8,
+    "overlap": 8,
     "source": "404000219",
-    "source_inc": "1.2.1 Andante"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.2.1 Andante",
+    "figuration": 0.0,
+    "source_movement": 2,
+    "comparator_notes": 16,
+    "source_label": "Sonatas–C major; Manuscript copy; CH-BEl SLA-Mus-EH A-08-d-15/1",
+    "source_keysig": "bBE",
+    "keysig": "bBE"
    },
    {
     "inc": "1.3.1 allegro",
+    "movement": 3,
     "notes": 17,
     "agree": 17,
+    "overlap": 17,
     "source": "404000219",
-    "source_inc": "1.3.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.3.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 3,
+    "comparator_notes": 43,
+    "source_label": "Sonatas–C major; Manuscript copy; CH-BEl SLA-Mus-EH A-08-d-15/1",
+    "source_keysig": "n",
+    "keysig": "n"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3
+  ],
+  "movements_matched": [
+   1,
+   2,
+   3
+  ],
+  "movement_mismatch": [],
   "life": [
    1716,
    1783
@@ -4271,6 +7051,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [
+   "404000219: copied or edited by Huber, Eugen (1909-2004); a modern copy, not a period witness"
+  ],
   "competitors": [],
   "class": "strong"
  },
@@ -4284,35 +7068,98 @@
   "sources": [
    "551002435"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Andante",
+    "movement": 1,
     "notes": 20,
     "agree": 2,
+    "overlap": 4,
     "source": "551002435",
-    "source_inc": "1.1.1 Thema. Cantabile moderato"
+    "offset": [
+     0,
+     5
+    ],
+    "source_inc": "1.7.1 6 Var:",
+    "figuration": 0.0,
+    "source_movement": 7,
+    "comparator_notes": 44,
+    "source_label": "Variations–B♭ major; Manuscript copy; CZ-Pu 59 R 1228",
+    "source_keysig": "bBE",
+    "keysig": "bBEA"
    },
    {
     "inc": "1.1.2 Allegro",
+    "movement": 2,
     "notes": 8,
     "agree": 1,
+    "overlap": 2,
     "source": "551002435",
-    "source_inc": "1.1.1 Thema. Cantabile moderato"
+    "offset": [
+     0,
+     14
+    ],
+    "source_inc": "1.1.1 Thema. Cantabile moderato",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 23,
+    "source_label": "Variations–B♭ major; Manuscript copy; CZ-Pu 59 R 1228",
+    "source_keysig": "bBE",
+    "keysig": "bBEA"
    },
    {
     "inc": "1.2.1 Andante",
+    "movement": 3,
     "notes": 15,
-    "agree": 4,
+    "agree": 1,
+    "overlap": 5,
     "source": "551002435",
-    "source_inc": "1.8.1 7 Var:"
+    "offset": [
+     0,
+     11
+    ],
+    "source_inc": "1.3.1 2 Var:",
+    "figuration": 0.0,
+    "source_movement": 3,
+    "comparator_notes": 40,
+    "source_label": "Variations–B♭ major; Manuscript copy; CZ-Pu 59 R 1228",
+    "source_keysig": "bBE",
+    "keysig": "bBEA"
    },
    {
     "inc": "1.3.1 Allegro",
+    "movement": 4,
     "notes": 15,
-    "agree": 3,
+    "agree": 1,
+    "overlap": 15,
     "source": "551002435",
-    "source_inc": "1.4.1 3 Var:"
+    "offset": [
+     0,
+     2
+    ],
+    "source_inc": "1.7.1 6 Var:",
+    "figuration": 0.0,
+    "source_movement": 7,
+    "comparator_notes": 44,
+    "source_label": "Variations–B♭ major; Manuscript copy; CZ-Pu 59 R 1228",
+    "source_keysig": "bBE",
+    "keysig": "bBEA"
    }
+  ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "movements_matched": [
+   4
+  ],
+  "movement_mismatch": [
+   "4->7"
   ],
   "life": [
    1755,
@@ -4324,8 +7171,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "plausible"
  },
  {
   "anon": "806426578",
@@ -4342,14 +7191,38 @@
    "900020642",
    "900021171"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1",
+    "movement": 1,
     "notes": 9,
     "agree": 9,
+    "overlap": 9,
     "source": "1001154660",
-    "source_inc": "1.25.1 Menuet"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.25.1 Menuet",
+    "figuration": 0.0,
+    "source_movement": 25,
+    "comparator_notes": 14,
+    "source_label": "Isis (Excerpts, Arrangement); Manuscript copy; LWV 54; D-ROu Mus. Saec. XVII.18-25",
+    "source_keysig": "n",
+    "keysig": "n"
    }
+  ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [
+   "1->25"
   ],
   "life": [
    1632,
@@ -4361,8 +7234,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "date-impossible"
+  "class": "date-early"
  },
  {
   "anon": "840002845",
@@ -4376,15 +7251,37 @@
    "150201617",
    "190019057"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 25,
     "agree": 18,
+    "overlap": 18,
     "source": "116305",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 18,
+    "source_label": "Symphonies–D major; Manuscript copy; JenS 10; US-BEm MS 600 A-F",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1700,
    1775
@@ -4395,6 +7292,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -4408,15 +7307,37 @@
   "sources": [
    "141483"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Presto",
-    "notes": 17,
-    "agree": 4,
+    "movement": 1,
+    "notes": 23,
+    "agree": 23,
+    "overlap": 23,
     "source": "141483",
-    "source_inc": "1.1.1 Presto con brio"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Presto con brio",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 34,
+    "source_label": "Posson ben le stagion; Manuscript copy; US-Wc M1528.A2 P44",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1711,
    1778
@@ -4427,8 +7348,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "plausible"
  },
  {
   "anon": "850002402",
@@ -4442,22 +7365,57 @@
    "450009049",
    "450012685"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro con spirito",
-    "notes": 18,
-    "agree": 7,
+    "movement": 1,
+    "notes": 20,
+    "agree": 9,
+    "overlap": 9,
     "source": "450009049",
-    "source_inc": "1.1.1 Overture. Vivace con spirito"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Overture. Vivace con spirito",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 9,
+    "source_label": "Agamemnon vengé; Manuscript copy; RieA deest; D-Rtt Aspelmayr 4",
+    "source_keysig": "bB",
+    "keysig": "bB"
    },
    {
     "inc": "1.1.2 Allegro con spirito",
+    "movement": 2,
     "notes": 18,
-    "agree": 1,
+    "agree": 3,
+    "overlap": 3,
     "source": "1001383008",
-    "source_inc": "1.1.1 Allegro Con Spiritoso"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro Con Spiritoso",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 26,
+    "source_label": "Agamemnon vengé; Manuscript copy; CZ-K No 152b K II",
+    "source_keysig": "bB",
+    "keysig": "bB"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1728,
    1786
@@ -4468,8 +7426,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "good"
  },
  {
   "anon": "850004869",
@@ -4482,15 +7442,37 @@
    "131526",
    "450012798"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro con spirito",
+    "movement": 1,
     "notes": 11,
     "agree": 11,
+    "overlap": 11,
     "source": "131526",
-    "source_inc": "1.1.1 Allegro con spirito"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro con spirito",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 11,
+    "source_label": "Symphonies–D major; Manuscript copy; LippmannD 1968 155/6; US-BEm MS 829 A-D",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1737,
    1797
@@ -4501,6 +7483,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -4516,14 +7500,38 @@
    "1001381603",
    "201001936"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 16,
     "agree": 16,
+    "overlap": 16,
     "source": "1001348967",
-    "source_inc": "1.2.1 [p. 4, underneath the 11th stave:] Allegretto"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.2.1 [p. 4, underneath the 11th stave:] Allegretto",
+    "figuration": 0.0,
+    "source_movement": 2,
+    "comparator_notes": 20,
+    "source_label": "Symphonies concertantes–B♭ major; Print",
+    "source_keysig": "bBE",
+    "keysig": "bBE"
    }
+  ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [
+   "1->2"
   ],
   "life": [
    1742,
@@ -4535,6 +7543,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -4548,15 +7558,37 @@
   "sources": [
    "603001961"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro e presto",
+    "movement": 1,
     "notes": 10,
     "agree": 10,
+    "overlap": 10,
     "source": "603001961",
-    "source_inc": "1.1.1 Alleg[ro]"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Alleg[ro]",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 17,
+    "source_label": "Huc ad plausus omnes gentes–F major; Manuscript copy; A-LA 725",
+    "source_keysig": "bB",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1694,
    1744
@@ -4567,6 +7599,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [
+   "603001961: composer qualified as Conjectural"
+  ],
   "competitors": [],
   "class": "plausible"
  },
@@ -4584,15 +7620,37 @@
    "455026822",
    "850504601"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Largo",
+    "movement": 1,
     "notes": 14,
     "agree": 14,
+    "overlap": 14,
     "source": "310000314",
-    "source_inc": "1.1.1"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 18,
+    "source_label": "Regna terrae; Manuscript copy; RUS-Mk XI-358",
+    "source_keysig": "n",
+    "keysig": "n"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1605,
    1672
@@ -4600,8 +7658,10 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "date-impossible"
+  "class": "date-early"
  },
  {
   "anon": "850026335",
@@ -4615,15 +7675,37 @@
    "400012586",
    "850008755"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro con spirito",
+    "movement": 1,
     "notes": 15,
     "agree": 15,
+    "overlap": 15,
     "source": "400004242",
-    "source_inc": "1.1.1 Allegro con spirito"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro con spirito",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 17,
+    "source_label": "La Calliroe (Excerpts); Manuscript copy; EvaM 10., D22; CH-EN Ms A 489",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1737,
    1781
@@ -4634,6 +7716,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -4653,15 +7737,37 @@
    "400011783",
    "551005498"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro moderato",
+    "movement": 1,
     "notes": 12,
     "agree": 12,
+    "overlap": 12,
     "source": "1001348889",
-    "source_inc": "1.1.1 [p. 6, at left of the 1st stave:] SINFONIA II [above the 1st stave:] All|o moderato"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 [p. 6, at left of the 1st stave:] SINFONIA II [above the 1st stave:] All|o moderato",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 13,
+    "source_label": "Symphonies concertantes–D major; Print",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1742,
    1822
@@ -4672,6 +7778,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -4685,15 +7793,37 @@
   "sources": [
    "400173224"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Adagio",
+    "movement": 1,
     "notes": 8,
     "agree": 6,
+    "overlap": 6,
     "source": "400173224",
-    "source_inc": "1.1.1 Adagio"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Adagio",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 6,
+    "source_label": "Sonatas–D major; Manuscript copy; CH-Zz Mus Ms A 436",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1754,
    1812
@@ -4704,8 +7834,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "plausible"
  },
  {
   "anon": "850604354",
@@ -4728,15 +7860,37 @@
    "850011306",
    "850012002"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 15,
     "agree": 15,
+    "overlap": 15,
     "source": "1001102886",
-    "source_inc": "1.1.1 All[egr]o assai"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 All[egr]o assai",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 20,
+    "source_label": "Il filosofo di campagna–D major (Excerpts); Manuscript copy; SK-Nb 1",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1706,
    1785
@@ -4747,6 +7901,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [
+   "410004182: copied or edited by Liebeskind, Josef (1866-1916); a modern copy, not a period witness"
+  ],
   "competitors": [],
   "class": "good"
  },
@@ -4760,15 +7918,37 @@
   "sources": [
    "850604079"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
+    "movement": 1,
     "notes": 16,
     "agree": 16,
+    "overlap": 16,
     "source": "850604079",
-    "source_inc": "1.1.1 All.o"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 All.o",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 16,
+    "source_label": "Symphonies–C major; Partial autograph; I-OS Mss.Mus.B 1957",
+    "source_keysig": "n",
+    "keysig": "n"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1767,
    1797
@@ -4776,6 +7956,8 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "plausible"
  },
@@ -4789,14 +7971,38 @@
   "sources": [
    "240003711"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 All.o Spiritoso - Andantino amoroso",
+    "movement": 1,
     "notes": 8,
     "agree": 4,
+    "overlap": 8,
     "source": "240003711",
-    "source_inc": "1.2.1 Allegro"
+    "offset": [
+     0,
+     4
+    ],
+    "source_inc": "1.2.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 2,
+    "comparator_notes": 13,
+    "source_label": "Sonatas–G major; Possible autograph manuscript; D-SWl Mus.4467",
+    "source_keysig": "xF",
+    "keysig": "n"
    }
+  ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [
+   "1->2"
   ],
   "life": [
    1710,
@@ -4808,8 +8014,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "plausible"
  },
  {
   "anon": "850607316",
@@ -4823,15 +8031,37 @@
    "530002776",
    "600033684"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 All.o",
-    "notes": 9,
-    "agree": 9,
+    "movement": 1,
+    "notes": 11,
+    "agree": 11,
+    "overlap": 11,
     "source": "201008913",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 12,
+    "source_label": "Symphonies concertantes–A major; Manuscript copy; BenP 114; D-Zsch 10636,23",
+    "source_keysig": "xFCG",
+    "keysig": "xF"
    }
   ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1757,
    1831
@@ -4842,6 +8072,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -4857,15 +8089,37 @@
    "850033517",
    "850610816"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 And.e Grazioso - All.o con spirito",
+    "movement": 1,
     "notes": 15,
     "agree": 15,
+    "overlap": 15,
     "source": "840015171",
-    "source_inc": "1.2.1"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.2.1",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 16,
+    "source_label": "Pamela; Manuscript copy; F-Pn D-3891",
+    "source_keysig": "bBE",
+    "keysig": "bBE"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1769,
    1836
@@ -4876,6 +8130,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -4890,15 +8146,37 @@
    "850601928",
    "850605404"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 All.o",
+    "movement": 1,
     "notes": 10,
     "agree": 10,
+    "overlap": 10,
     "source": "850601928",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 10,
+    "source_label": "Egeria; Partial autograph; I-OS Mss.Mus.B 1953",
+    "source_keysig": "bBE",
+    "keysig": "bBE"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1767,
    1797
@@ -4909,6 +8187,8 @@
   ],
   "names_composer": true,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "known"
  },
@@ -4922,15 +8202,37 @@
   "sources": [
    "851002700"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Largo - All.o",
+    "movement": 1,
     "notes": 13,
     "agree": 13,
+    "overlap": 13,
     "source": "851002700",
-    "source_inc": "1.1.1 N. 1:. Largo maestoso"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 N. 1:. Largo maestoso",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 13,
+    "source_label": "Ballets; Manuscript copy; I-Mdemicheli MSS.Mus 115",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1757,
    1841
@@ -4941,6 +8243,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "plausible"
  },
@@ -4954,15 +8258,37 @@
   "sources": [
    "850008353"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 All.o con brio",
-    "notes": 11,
-    "agree": 11,
+    "movement": 1,
+    "notes": 13,
+    "agree": 13,
+    "overlap": 13,
     "source": "850008353",
-    "source_inc": "1.1.1 Sinfonia. Allegro con molto brio"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Sinfonia. Allegro con molto brio",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 21,
+    "source_label": "I matrimoni impensati; Autograph manuscript; I-Nc Rari 1.1.20-21",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1749,
    1801
@@ -4973,6 +8299,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "plausible"
  },
@@ -4987,21 +8315,59 @@
   "sources": [
    "551006846"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 All.o spiritoso",
+    "movement": 1,
     "notes": 6,
-    "agree": 3,
+    "agree": 1,
+    "overlap": 6,
     "source": "551006846",
-    "source_inc": "1.9.1"
+    "offset": [
+     0,
+     3
+    ],
+    "source_inc": "1.1.1",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 31,
+    "source_label": "Ländler (Arrangement); Print; CZ-Pnm XLII C 285",
+    "source_keysig": "n",
+    "keysig": "xFC"
    },
    {
     "inc": "1.1.2 All.o spiritoso",
+    "movement": 2,
     "notes": 6,
-    "agree": 3,
+    "agree": 1,
+    "overlap": 6,
     "source": "551006846",
-    "source_inc": "1.9.1"
+    "offset": [
+     0,
+     3
+    ],
+    "source_inc": "1.1.1",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 31,
+    "source_label": "Ländler (Arrangement); Print; CZ-Pnm XLII C 285",
+    "source_keysig": "n",
+    "keysig": "xFC"
    }
+  ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1,
+   2
+  ],
+  "movements_matched": [
+   1,
+   2
+  ],
+  "movement_mismatch": [
+   "2->1"
   ],
   "life": [
    1763,
@@ -5013,11 +8379,13 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [
    "Chelleri, Fortunato (1690-1757)",
    "Monteverdi, Claudio (1567-1643)"
   ],
-  "class": "weak"
+  "class": "strong"
  },
  {
   "anon": "850607986",
@@ -5029,15 +8397,37 @@
   "sources": [
    "850611268"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 All.o",
+    "movement": 1,
     "notes": 10,
     "agree": 10,
+    "overlap": 10,
     "source": "850611268",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 10,
+    "source_label": "Jefte; Manuscript copy; I-OS Mss.Mus.B 119/1-2",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1754,
    1822
@@ -5048,6 +8438,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "plausible"
  },
@@ -5061,15 +8453,37 @@
   "sources": [
    "850610123"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1",
-    "notes": 6,
-    "agree": 5,
+    "movement": 1,
+    "notes": 8,
+    "agree": 7,
+    "overlap": 7,
     "source": "850610123",
-    "source_inc": "1.1.1 Allegro"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 8,
+    "source_label": "Allegro–C major; Manuscript copy; I-OS Mss.Mus.B 3050",
+    "source_keysig": "n",
+    "keysig": "n"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1767,
    1797
@@ -5080,8 +8494,10 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "plausible"
  },
  {
   "anon": "850608133",
@@ -5093,15 +8509,37 @@
   "sources": [
    "850604019"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Larghetto Stac.to - All.o",
+    "movement": 1,
     "notes": 12,
     "agree": 12,
+    "overlap": 12,
     "source": "850604019",
-    "source_inc": "1.1.1 Larghetto staccato"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Larghetto staccato",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 13,
+    "source_label": "Symphonies–C minor; Manuscript copy; I-OS Mss.Mus.B 1228",
+    "source_keysig": "bBEA",
+    "keysig": "bBEA"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1771,
    1839
@@ -5112,6 +8550,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "plausible"
  },
@@ -5127,15 +8567,37 @@
    "400012586",
    "850008755"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 All.o con spirito",
+    "movement": 1,
     "notes": 11,
     "agree": 11,
+    "overlap": 11,
     "source": "400004242",
-    "source_inc": "1.1.1 Allegro con spirito"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Allegro con spirito",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 17,
+    "source_label": "La Calliroe (Excerpts); Manuscript copy; EvaM 10., D22; CH-EN Ms A 489",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1737,
    1781
@@ -5146,6 +8608,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -5159,14 +8623,40 @@
   "sources": [
    "250014259"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 andante",
+    "movement": 1,
     "notes": 13,
-    "agree": 3,
+    "agree": 1,
+    "overlap": 11,
     "source": "250014259",
-    "source_inc": "1.8.1 Nro 7.. Andantino con giusto"
+    "offset": [
+     0,
+     24
+    ],
+    "source_inc": "1.11.1 Nro 10. Duetto. Allegro assai",
+    "figuration": 0.0,
+    "source_movement": 11,
+    "comparator_notes": 46,
+    "source_label": "Heirat aus Liebe; Manuscript copy; D-GOl Mus. 4˚ 47b/1(1-2)",
+    "source_keysig": "bBE",
+    "keysig": "xFC"
    }
+  ],
+  "vocal_matches": [
+   "250014259 1.11.1 Nro 10. Duetto. Allegro assai"
+  ],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [
+   "1->11"
   ],
   "life": [
    1755,
@@ -5175,8 +8665,10 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "weak"
+  "class": "plausible"
  },
  {
   "anon": "850733911",
@@ -5196,15 +8688,37 @@
    "852029667",
    "853000289"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 All:o vivace",
+    "movement": 1,
     "notes": 10,
     "agree": 10,
+    "overlap": 10,
     "source": "806435695",
-    "source_inc": "1.1.1 Atto Pmo. Sinfonia. Allegro vivace"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Atto Pmo. Sinfonia. Allegro vivace",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 11,
+    "source_label": "I giuochi d'Agrigento (Excerpts, Arrangement); Manuscript copy; RobP 1.84; GB-Lbl Add. 16090",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1740,
    1816
@@ -5215,6 +8729,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "good"
  },
@@ -5228,15 +8744,37 @@
   "sources": [
    "850028226"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Largo",
+    "movement": 1,
     "notes": 7,
     "agree": 7,
+    "overlap": 7,
     "source": "850028226",
-    "source_inc": "1.1.1 Ripieno."
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Ripieno.",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 7,
+    "source_label": "Sonatas–B♭ major; Manuscript copy; I-BGc N.C.2.3",
+    "source_keysig": "bBE",
+    "keysig": "xF"
    }
   ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1791,
    1863
@@ -5247,6 +8785,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "plausible"
  },
@@ -5260,15 +8800,37 @@
   "sources": [
    "858000019"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Larghetto",
+    "movement": 1,
     "notes": 21,
     "agree": 21,
+    "overlap": 21,
     "source": "858000019",
-    "source_inc": "1.1.1 [Sinfonia]. Larghetto"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 [Sinfonia]. Larghetto",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 22,
+    "source_label": "La virtù al cimento; Manuscript copy; PaWV 18; I-Rmassimo [without shelfmark]",
+    "source_keysig": "xFC",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1771,
    1839
@@ -5279,6 +8841,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "plausible"
  },
@@ -5292,15 +8856,37 @@
   "sources": [
    "854004388"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Andante",
+    "movement": 1,
     "notes": 9,
     "agree": 9,
+    "overlap": 9,
     "source": "854004388",
-    "source_inc": "1.1.1 Maestoso"
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.1.1 Maestoso",
+    "figuration": 0.0,
+    "source_movement": 1,
+    "comparator_notes": 9,
+    "source_label": "Il barone di Montesecco (Excerpts); Manuscript copy; I-Ria Mss. Vess. 482",
+    "source_keysig": "n",
+    "keysig": "xFC"
    }
   ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": true,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [],
   "life": [
    1774,
    1840
@@ -5311,6 +8897,8 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
   "class": "plausible"
  },
@@ -5324,14 +8912,38 @@
   "sources": [
    "100500068"
   ],
-  "movements": [
+  "incipits": [
    {
     "inc": "1.1.1 Allegro",
-    "notes": 4,
-    "agree": 4,
+    "movement": 1,
+    "notes": 8,
+    "agree": 8,
+    "overlap": 8,
     "source": "100500068",
-    "source_inc": "1.2.1 Romance / [Coplas]."
+    "offset": [
+     0,
+     0
+    ],
+    "source_inc": "1.2.1 Romance / [Coplas].",
+    "figuration": 0.0,
+    "source_movement": 2,
+    "comparator_notes": 8,
+    "source_label": "Afuera cielos que sale–Mode: 11t – Ionian; Manuscript copy; E-Zac B-3/49",
+    "source_keysig": "bB",
+    "keysig": "xFC"
    }
+  ],
+  "vocal_matches": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "movements": [
+   1
+  ],
+  "movements_matched": [
+   1
+  ],
+  "movement_mismatch": [
+   "1->2"
   ],
   "life": [
    1606,
@@ -5343,7 +8955,9 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "prior_documentation": [],
+  "attribution_flags": [],
   "competitors": [],
-  "class": "date-impossible"
+  "class": "date-early"
  }
 ]

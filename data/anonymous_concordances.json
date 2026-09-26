@@ -5,39 +5,80 @@
   "b": "1001012610",
   "b_label": "Symphonies; Manuscript copy; PL-CZ I-240",
   "movements": [
-   "1.1.1 Allegro moderato",
-   "1.3.1 Presto"
+   {
+    "a": 1,
+    "b": 1,
+    "pitches": 13
+   },
+   {
+    "a": 3,
+    "b": 2,
+    "pitches": 19
+   },
+   {
+    "a": 4,
+    "b": 3,
+    "pitches": 12
+   }
   ]
  },
  {
-  "a": "1001012913",
-  "a_label": "Symphonies–E♭ major; Manuscript copy; PL-CZ III-324",
-  "b": "1001364687",
-  "b_label": "Symphonies–E♭ major; Manuscript copy; PL-CZ III-984",
+  "a": "1001364687",
+  "a_label": "Symphonies–E♭ major; Manuscript copy; PL-CZ III-984",
+  "b": "1001012913",
+  "b_label": "Symphonies–E♭ major; Manuscript copy; PL-CZ III-324",
   "movements": [
-   "1.1.1 Allegro",
-   "1.4.1 Presto"
+   {
+    "a": 1,
+    "b": 1,
+    "pitches": 20
+   },
+   {
+    "a": 2,
+    "b": 4,
+    "pitches": 16
+   }
   ]
  },
  {
-  "a": "1001012913",
-  "a_label": "Symphonies–E♭ major; Manuscript copy; PL-CZ III-324",
-  "b": "300000470",
-  "b_label": "Symphonies–E♭ minor; Manuscript copy; PL-CZ III-321",
+  "a": "300000470",
+  "a_label": "Symphonies–E♭ minor; Manuscript copy; PL-CZ III-321",
+  "b": "1001012913",
+  "b_label": "Symphonies–E♭ major; Manuscript copy; PL-CZ III-324",
   "movements": [
-   "1.1.1 Allegro",
-   "1.2.1 Presto"
+   {
+    "a": 1,
+    "b": 1,
+    "pitches": 9
+   },
+   {
+    "a": 2,
+    "b": 4,
+    "pitches": 12
+   }
   ]
  },
  {
-  "a": "1001012913",
-  "a_label": "Symphonies–E♭ major; Manuscript copy; PL-CZ III-324",
-  "b": "300234095",
-  "b_label": "Symphonies–E♭ major; Manuscript copy; PL-Pa Muz GR V/39",
+  "a": "300234095",
+  "a_label": "Symphonies–E♭ major; Manuscript copy; PL-Pa Muz GR V/39",
+  "b": "1001012913",
+  "b_label": "Symphonies–E♭ major; Manuscript copy; PL-CZ III-324",
   "movements": [
-   "1.1.1 Allegro assai",
-   "1.2.1 Andante",
-   "1.3.1 Presto"
+   {
+    "a": 1,
+    "b": 1,
+    "pitches": 17
+   },
+   {
+    "a": 2,
+    "b": 2,
+    "pitches": 21
+   },
+   {
+    "a": 3,
+    "b": 4,
+    "pitches": 16
+   }
   ]
  },
  {
@@ -46,39 +87,149 @@
   "b": "250000077",
   "b_label": "Symphonies–B♭ major; Manuscript copy; D-WRl HMA 3823",
   "movements": [
-   "1.1.1 Allegro",
-   "1.2.1 Andante moderato"
+   {
+    "a": 1,
+    "b": 1,
+    "pitches": 12
+   },
+   {
+    "a": 2,
+    "b": 2,
+    "pitches": 15
+   },
+   {
+    "a": 3,
+    "b": 3,
+    "pitches": 19
+   }
   ]
  },
  {
-  "a": "1001220613",
-  "a_label": "Quintets–C major; Manuscript copy; GB-Cmc F.4.35",
-  "b": "650003004",
-  "b_label": "Symphonies–D major; Manuscript copy; Hob I:1; A-ST Mus.ms. 558",
+  "a": "300511428",
+  "a_label": "Concertos–G major; Manuscript copy; PL-Wu RM 5896",
+  "b": "1001063059",
+  "b_label": "Concertos–G major; Manuscript copy; PL-Wu RM 10167",
   "movements": [
-   "1.3.2",
-   "1.4.2",
-   "1.4.3"
+   {
+    "a": 1,
+    "b": 1,
+    "pitches": 9
+   },
+   {
+    "a": 2,
+    "b": 2,
+    "pitches": 12
+   },
+   {
+    "a": 3,
+    "b": 3,
+    "pitches": 13
+   }
   ]
  },
  {
-  "a": "1001364687",
-  "a_label": "Symphonies–E♭ major; Manuscript copy; PL-CZ III-984",
-  "b": "300000470",
-  "b_label": "Symphonies–E♭ minor; Manuscript copy; PL-CZ III-321",
+  "a": "300000470",
+  "a_label": "Symphonies–E♭ minor; Manuscript copy; PL-CZ III-321",
+  "b": "1001364687",
+  "b_label": "Symphonies–E♭ major; Manuscript copy; PL-CZ III-984",
   "movements": [
-   "1.1.1 Allegro",
-   "1.2.1 Presto"
+   {
+    "a": 1,
+    "b": 1,
+    "pitches": 9
+   },
+   {
+    "a": 2,
+    "b": 2,
+    "pitches": 12
+   }
   ]
  },
  {
-  "a": "1001364687",
-  "a_label": "Symphonies–E♭ major; Manuscript copy; PL-CZ III-984",
-  "b": "300234095",
-  "b_label": "Symphonies–E♭ major; Manuscript copy; PL-Pa Muz GR V/39",
+  "a": "300234095",
+  "a_label": "Symphonies–E♭ major; Manuscript copy; PL-Pa Muz GR V/39",
+  "b": "1001364687",
+  "b_label": "Symphonies–E♭ major; Manuscript copy; PL-CZ III-984",
   "movements": [
-   "1.1.1 Allegro assai",
-   "1.3.1 Presto"
+   {
+    "a": 1,
+    "b": 1,
+    "pitches": 17
+   },
+   {
+    "a": 3,
+    "b": 2,
+    "pitches": 16
+   }
+  ]
+ },
+ {
+  "a": "570005129",
+  "a_label": "Symphonies–G major; Manuscript copy; SK-J H-752",
+  "b": "1001376566",
+  "b_label": "Symphonies–G major; Manuscript copy; PL-MO 925",
+  "movements": [
+   {
+    "a": 1,
+    "b": 1,
+    "pitches": 15
+   },
+   {
+    "a": 2,
+    "b": 2,
+    "pitches": 8
+   },
+   {
+    "a": 4,
+    "b": 4,
+    "pitches": 9
+   }
+  ]
+ },
+ {
+  "a": "212002089",
+  "a_label": "Concertos–G major; Manuscript copy; D-Dl Mus.2-O-1,24",
+  "b": "212001983",
+  "b_label": "Concertos–G major; Manuscript copy; D-Dl Mus.2-R-8,62b",
+  "movements": [
+   {
+    "a": 1,
+    "b": 1,
+    "pitches": 12
+   },
+   {
+    "a": 2,
+    "b": 2,
+    "pitches": 17
+   },
+   {
+    "a": 3,
+    "b": 3,
+    "pitches": 13
+   }
+  ]
+ },
+ {
+  "a": "212002090",
+  "a_label": "Concertos–G major; Manuscript copy; D-Dl Mus.2-O-1,24a",
+  "b": "212001983",
+  "b_label": "Concertos–G major; Manuscript copy; D-Dl Mus.2-R-8,62b",
+  "movements": [
+   {
+    "a": 1,
+    "b": 1,
+    "pitches": 12
+   },
+   {
+    "a": 2,
+    "b": 2,
+    "pitches": 17
+   },
+   {
+    "a": 3,
+    "b": 3,
+    "pitches": 13
+   }
   ]
  },
  {
@@ -87,19 +238,264 @@
   "b": "212002077",
   "b_label": "Symphonies–D major; Manuscript copy; D-Dl Mus.2-N-20,7",
   "movements": [
-   "1.1.1",
-   "1.2.1 Allegretto",
-   "1.3.1 Allegro assai e alternativ"
+   {
+    "a": 1,
+    "b": 1,
+    "pitches": 11
+   },
+   {
+    "a": 2,
+    "b": 2,
+    "pitches": 14
+   },
+   {
+    "a": 3,
+    "b": 3,
+    "pitches": 17
+   },
+   {
+    "a": 4,
+    "b": 4,
+    "pitches": 12
+   }
   ]
  },
  {
-  "a": "300000470",
-  "a_label": "Symphonies–E♭ minor; Manuscript copy; PL-CZ III-321",
-  "b": "300234095",
-  "b_label": "Symphonies–E♭ major; Manuscript copy; PL-Pa Muz GR V/39",
+  "a": "212002089",
+  "a_label": "Concertos–G major; Manuscript copy; D-Dl Mus.2-O-1,24",
+  "b": "212002090",
+  "b_label": "Concertos–G major; Manuscript copy; D-Dl Mus.2-O-1,24a",
   "movements": [
-   "1.1.1 Allegro",
-   "1.2.1 Presto"
+   {
+    "a": 1,
+    "b": 1,
+    "pitches": 12
+   },
+   {
+    "a": 2,
+    "b": 2,
+    "pitches": 17
+   },
+   {
+    "a": 3,
+    "b": 3,
+    "pitches": 13
+   }
+  ]
+ },
+ {
+  "a": "212003416",
+  "a_label": "Concertos–A major; Manuscript copy; D-Dl Mus.2-O-7b",
+  "b": "212003585",
+  "b_label": "Concertos–A major; Manuscript copy; D-Dl Mus.2-O-7c",
+  "movements": [
+   {
+    "a": 1,
+    "b": 1,
+    "pitches": 15
+   },
+   {
+    "a": 2,
+    "b": 2,
+    "pitches": 9
+   },
+   {
+    "a": 3,
+    "b": 3,
+    "pitches": 16
+   }
+  ]
+ },
+ {
+  "a": "212003416",
+  "a_label": "Concertos–A major; Manuscript copy; D-Dl Mus.2-O-7b",
+  "b": "212003586",
+  "b_label": "Concertos–A major; Manuscript copy; D-Dl Mus.2-O-7a",
+  "movements": [
+   {
+    "a": 1,
+    "b": 1,
+    "pitches": 15
+   },
+   {
+    "a": 2,
+    "b": 2,
+    "pitches": 9
+   },
+   {
+    "a": 3,
+    "b": 3,
+    "pitches": 16
+   }
+  ]
+ },
+ {
+  "a": "212003541",
+  "a_label": "Concertos–C major; Manuscript copy; D-Dl Mus.2-O-1,59b",
+  "b": "212003540",
+  "b_label": "Concertos–C major; Manuscript copy; D-Dl Mus.2-O-1,59a",
+  "movements": [
+   {
+    "a": 1,
+    "b": 1,
+    "pitches": 22
+   },
+   {
+    "a": 2,
+    "b": 2,
+    "pitches": 13
+   },
+   {
+    "a": 3,
+    "b": 3,
+    "pitches": 19
+   }
+  ]
+ },
+ {
+  "a": "212003553",
+  "a_label": "Concertos–G minor; Manuscript copy; D-Dl Mus.2-O-14",
+  "b": "212003554",
+  "b_label": "Concertos–G minor; Manuscript copy; D-Dl Mus.2-O-14a",
+  "movements": [
+   {
+    "a": 1,
+    "b": 1,
+    "pitches": 28
+   },
+   {
+    "a": 2,
+    "b": 2,
+    "pitches": 30
+   },
+   {
+    "a": 3,
+    "b": 3,
+    "pitches": 9
+   }
+  ]
+ },
+ {
+  "a": "212003558",
+  "a_label": "Concertos–G major; Manuscript copy; D-Dl Mus.2-O-1,7",
+  "b": "212003559",
+  "b_label": "Concertos–G major; Manuscript copy; D-Dl Mus.2-O-1,7a",
+  "movements": [
+   {
+    "a": 1,
+    "b": 1,
+    "pitches": 19
+   },
+   {
+    "a": 2,
+    "b": 2,
+    "pitches": 11
+   }
+  ]
+ },
+ {
+  "a": "212003585",
+  "a_label": "Concertos–A major; Manuscript copy; D-Dl Mus.2-O-7c",
+  "b": "212003586",
+  "b_label": "Concertos–A major; Manuscript copy; D-Dl Mus.2-O-7a",
+  "movements": [
+   {
+    "a": 1,
+    "b": 1,
+    "pitches": 21
+   },
+   {
+    "a": 2,
+    "b": 2,
+    "pitches": 16
+   },
+   {
+    "a": 3,
+    "b": 3,
+    "pitches": 16
+   }
+  ]
+ },
+ {
+  "a": "212003591",
+  "a_label": "Concertos–D major; Manuscript copy; D-Dl Mus.2-O-1,30",
+  "b": "212003590",
+  "b_label": "Concertos–D major; Manuscript copy; D-Dl Mus.2-O-1,30a",
+  "movements": [
+   {
+    "a": 1,
+    "b": 1,
+    "pitches": 10
+   },
+   {
+    "a": 2,
+    "b": 2,
+    "pitches": 16
+   },
+   {
+    "a": 3,
+    "b": 3,
+    "pitches": 12
+   }
+  ]
+ },
+ {
+  "a": "212003596",
+  "a_label": "Concertos–G minor; Manuscript copy; D-Dl Mus.2-O-1,36",
+  "b": "212003597",
+  "b_label": "Concertos–G minor; Manuscript copy; D-Dl Mus.2-O-1,36a",
+  "movements": [
+   {
+    "a": 1,
+    "b": 1,
+    "pitches": 20
+   },
+   {
+    "a": 2,
+    "b": 2,
+    "pitches": 17
+   },
+   {
+    "a": 3,
+    "b": 3,
+    "pitches": 16
+   }
+  ]
+ },
+ {
+  "a": "212003598",
+  "a_label": "Concertos–A major; Manuscript copy; D-Dl Mus.2-O-8,6",
+  "b": "551005983",
+  "b_label": "Parthia–D major; Manuscript copy; CZ-Pnm XLII B 110",
+  "movements": [
+   {
+    "a": 1,
+    "b": 3,
+    "pitches": 8
+   },
+   {
+    "a": 3,
+    "b": 1,
+    "pitches": 10
+   }
+  ]
+ },
+ {
+  "a": "300234095",
+  "a_label": "Symphonies–E♭ major; Manuscript copy; PL-Pa Muz GR V/39",
+  "b": "300000470",
+  "b_label": "Symphonies–E♭ minor; Manuscript copy; PL-CZ III-321",
+  "movements": [
+   {
+    "a": 1,
+    "b": 1,
+    "pitches": 9
+   },
+   {
+    "a": 3,
+    "b": 2,
+    "pitches": 12
+   }
   ]
  },
  {
@@ -108,20 +504,95 @@
   "b": "300234104",
   "b_label": "Symphonies–E♭ major; Manuscript copy; PL-Pa Muz GR V/43",
   "movements": [
-   "1.2.1 Andante",
-   "1.3.1 Menuet.",
-   "1.4.1 Rondo.. Moderato"
+   {
+    "a": 1,
+    "b": 1,
+    "pitches": 11
+   },
+   {
+    "a": 2,
+    "b": 2,
+    "pitches": 12
+   },
+   {
+    "a": 3,
+    "b": 3,
+    "pitches": 8
+   },
+   {
+    "a": 4,
+    "b": 4,
+    "pitches": 16
+   }
   ]
  },
  {
-  "a": "650003004",
-  "a_label": "Symphonies–D major; Manuscript copy; Hob I:1; A-ST Mus.ms. 558",
-  "b": "850003660",
-  "b_label": "Dixit Dominus–D major; Manuscript copy; I-BGc 299.11",
+  "a": "300511197",
+  "a_label": "Concertos–C major; Manuscript copy; PL-Wu RM 5636",
+  "b": "300511198",
+  "b_label": "Concertos–B♭ major; Manuscript copy; PL-Wu RM 5629",
   "movements": [
-   "1.3.2",
-   "1.4.2",
-   "1.4.3"
+   {
+    "a": 1,
+    "b": 1,
+    "pitches": 10
+   },
+   {
+    "a": 2,
+    "b": 2,
+    "pitches": 19
+   },
+   {
+    "a": 3,
+    "b": 4,
+    "pitches": 20
+   },
+   {
+    "a": 4,
+    "b": 5,
+    "pitches": 20
+   }
+  ]
+ },
+ {
+  "a": "400110586",
+  "a_label": "Concertos–G major; Manuscript copy; CH-BEl SLA-Mus-JL MLHs 30/1",
+  "b": "400110762",
+  "b_label": "Concertos–G major; Manuscript copy; CH-BEl SLA-Mus-JL MLHs 40/8",
+  "movements": [
+   {
+    "a": 1,
+    "b": 2,
+    "pitches": 18
+   },
+   {
+    "a": 2,
+    "b": 3,
+    "pitches": 16
+   },
+   {
+    "a": 3,
+    "b": 4,
+    "pitches": 10
+   }
+  ]
+ },
+ {
+  "a": "600236799",
+  "a_label": "Concertos; Manuscript copy; A-Wn E. M. 156h",
+  "b": "702000332",
+  "b_label": "Sonatas–D minor; Manuscript copy; B-LVu P206 (54)",
+  "movements": [
+   {
+    "a": 2,
+    "b": 2,
+    "pitches": 8
+   },
+   {
+    "a": 3,
+    "b": 3,
+    "pitches": 13
+   }
   ]
  }
 ]

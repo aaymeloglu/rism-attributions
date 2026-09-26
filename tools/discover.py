@@ -23,7 +23,7 @@ def fragment(pae, bars):
 
 def search_source(sid):
     s = rism.get(sid)
-    out = {"id": rism.rid(sid), "label": rism.label(s), "movements": [], "candidates": {}}
+    out = {"id": rism.rid(sid), "label": rism.label(s), "creator": rism.creator(s), "movements": [], "candidates": {}}
     for inc in rism.incipits(s):
         frag = fragment(inc["data"], 3)
         if len(frag.replace("/", "")) < 12:

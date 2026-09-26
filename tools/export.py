@@ -1,12 +1,13 @@
-"""Step 3: join hand verdicts with RISM data into data/attributions.json (what the site shows).
+"""Step 3: join hand verdicts with lead evidence into data/attributions.json (what the site shows).
 
     python tools/export.py
 
-One entry per anonymous source that has at least one lead. For each lead: the composer, the
-verdict and note from data/verdicts.csv, and every movement paired with its best-matching
-incipit among the composer's copies, with the Plaine & Easie code of both so the site can
-render them side by side. Reads RISM through the local cache; needs the network only for
-records not yet cached.
+One entry per anonymous source with at least one lead. Each lead carries the hand verdict,
+attribution status, prior documentation and note from data/verdicts.csv, the automatic
+catalogue flags from tools/leads.py, and every encoded incipit of the anonymous copy paired
+with its best-matching incipit among the composer's copies (with the Plaine & Easie code of
+both, so the site can render them side by side). Also writes data/anonymous_concordances.json.
+Reads RISM through the local cache; needs the network only for records not yet cached.
 """
 import csv
 import json
@@ -14,11 +15,13 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
+import context  # noqa: E402
 import rism  # noqa: E402
-from pae import dedup, pitches, sim  # noqa: E402
+from leads import matches  # noqa: E402
+from pae import anchored, movement_ordinals, pitches  # noqa: E402
 
-VERDICTS = ["confirmed", "conflicting", "probable", "unresolved", "known", "rejected"]
-SHOWN = {"confirmed", "conflicting", "probable", "unresolved"}
+VERDICTS = ["confirmed", "probable", "unresolved", "rejected"]
+SHOWN = {"confirmed", "probable", "unresolved"}
 
 
 def pae(inc):
@@ -26,40 +29,55 @@ def pae(inc):
 
 
 def lead_detail(anon_src, lead):
-    cands = [(cid, rism.source(cid)) for cid in lead["sources"][:12]]
-    movements = []
-    for inc in rism.incipits(anon_src):
-        p = pitches(inc["data"], inc["keysig"])
-        best = (0, None, None)
-        for cid, cs in cands:
-            for ci in rism.incipits(cs):
-                v = sim(p, pitches(ci["data"], ci["keysig"]))
-                if v > best[0]:
-                    best = (v, cid, ci)
-        m = {"movement": inc["inc"], "anon": pae(inc), "notes": len(dedup(p)), "agree": best[0]}
-        if best[0] >= 5:
-            m["match"] = {"source": best[1], "movement": best[2]["inc"], **pae(best[2])}
-        movements.append(m)
-    return {"composer": lead["composer"], "movements": movements,
-            "sources": [{"id": cid, "label": rism.label(cs)} for cid, cs in cands]}
+    anon = {i["inc"]: i for i in rism.incipits(anon_src)}
+    pairs = []
+    for m in lead["incipits"]:
+        pair = {"incipit": m["inc"], "movement": m["movement"], "anon": pae(anon[m["inc"]]), "notes": m["notes"],
+                "overlap": m["overlap"], "from_start": m["agree"], "counts": bool(m["source"] and matches(m))}
+        if m["source"] and m["overlap"] >= 5:
+            ci = {x["inc"]: x for x in rism.incipits(rism.source(m["source"]))}[m["source_inc"]]
+            pair["match"] = {"source": m["source"], "incipit": m["source_inc"], "movement": m["source_movement"],
+                             "offset": m["offset"], **pae(ci)}
+        pairs.append(pair)
+    return {"incipits": pairs, "movements": lead["movements"], "movements_matched": lead["movements_matched"],
+            "sources": [{"id": cid, "label": rism.label(rism.source(cid))} for cid in lead["sources"][:12]]}
 
 
 def concordances():
-    """Anonymous sources matching another anonymous source on two or more movements."""
+    """Anonymous sources whose incipits agree with another anonymous source's on two or more
+    movements: at least eight agreeing pitches each, distinct movements on both sides (counted by
+    pae.movement_ordinals), and Anonymus as the main creator of both records."""
     pairs = {}
     for slug in sorted(os.listdir("runs")):
         path = f"runs/{slug}/results.json"
         if not os.path.exists(path):
             continue
         with open(path) as f:
-            for r in json.load(f):
-                for c in r["candidates"]:
-                    if c["composer"] == "Anonymus" and len(c["movements"]) >= 2:
-                        key = tuple(sorted((r["id"], c["id"])))
-                        if key not in pairs:
-                            a, b = (rism.source(k) for k in key)
-                            pairs[key] = {"a": key[0], "a_label": rism.label(a), "b": key[1], "b_label": rism.label(b),
-                                          "movements": c["movements"]}
+            results = json.load(f)
+        for r in results:
+            for c in r["candidates"]:
+                if c["composer"] != "Anonymus":
+                    continue
+                key = tuple(sorted((r["id"], c["id"])))
+                if key in pairs:
+                    continue
+                a, b = rism.source(r["id"]), rism.source(c["id"])
+                if not (context.anonymous_creator(a) and context.anonymous_creator(b)):
+                    continue
+                ai, bi = rism.incipits(a), rism.incipits(b)
+                aord = movement_ordinals([i["inc"] for i in ai])
+                bord = movement_ordinals([i["inc"] for i in bi])
+                agree = {}
+                for x in ai:
+                    for y in bi:
+                        p, q = pitches(x["data"], x["keysig"]), pitches(y["data"], y["keysig"])
+                        n, _, _ = anchored(p, q)
+                        if n >= 8:
+                            agree[aord[x["inc"]]] = max(agree.get(aord[x["inc"]], (0, 0)), (n, bord[y["inc"]]))
+                if len(agree) >= 2 and len({v[1] for v in agree.values()}) >= 2:
+                    first, second = (r["id"], c["id"])
+                    pairs[key] = {"a": first, "a_label": rism.label(a), "b": second, "b_label": rism.label(b),
+                                  "movements": [{"a": mv, "b": agree[mv][1], "pitches": agree[mv][0]} for mv in sorted(agree)]}
     return [pairs[k] for k in sorted(pairs)]
 
 
@@ -81,7 +99,10 @@ def main():
             rec = records.setdefault(lead["anon"], {
                 "id": lead["anon"], "genre": slug, "label": rism.label(src),
                 "shelfmark": rism.label(src).split(";")[-1].strip(), "leads": []})
-            entry = {"composer": lead["composer"], "verdict": v["verdict"], "note": v["note"], "class": lead["class"]}
+            entry = {"composer": lead["composer"], "verdict": v["verdict"], "attribution": v["attribution"],
+                     "prior": v["prior"], "note": v["note"], "class": lead["class"],
+                     "prior_documentation": lead["prior_documentation"], "attribution_flags": lead["attribution_flags"],
+                     "movement_mismatch": lead["movement_mismatch"]}
             if v["verdict"] in SHOWN:
                 entry.update(lead_detail(src, lead))
             rec["leads"].append(entry)
