@@ -16,15 +16,15 @@ The results, with each anonymous copy's movements rendered next to the attribute
 | Anonymous sources with a lead, reviewed | 119 | 97 | 174 |
 | Same music as an attributed copy | 66 | 39 | 84 |
 | of which new, with a single unqualified attribution | 52 | 29 | 27 |
-| of which new, but the composer is disputed, uncertain, a bare surname, a modern copy or a compilation | 6 | 2 | 5 |
-| of which the anonymous title already names the work (one known composer) | 0 | 0 | 34 |
-| of which already noted in RISM | 8 | 8 | 18 |
+| of which new, but the composer is disputed, uncertain, shared, a bare surname, a modern copy or a compilation | 6 | 2 | 4 |
+| of which the anonymous title already names the work (one known composer) | 0 | 0 | 33 |
+| of which already noted in RISM | 8 | 8 | 20 |
 | Probably the same music (transposed, arranged, partial, or part of a vocal work) | 17 | 15 | 23 |
 | Unresolved | 5 | 4 | 5 |
 | Rejected | 31 | 39 | 62 |
 
-A source with leads in more than one genre is counted once. Eleven symphony and eight
-concerto matches agree on two or more incipits that RISM numbers differently; the rest rest on a
+A source with leads in more than one genre is counted once. 12 symphony, 8 concerto and 15 opera
+matches agree on two or more incipits that RISM numbers differently; the others rest on a
 single encoded incipit. Many
 anonymous "symphonies" turn out to be opera overtures (Galuppi, Sacchini, Mysliveček, Cimarosa,
 Paisiello, Naumann's *La clemenza di Tito*), single movements of larger works, or arrangements.
@@ -35,7 +35,7 @@ many anonymous arias turn out to be one composer's setting of a much-set librett
 *Didone abbandonata*, Sarri's, Perez's), German or Latin versions of Italian numbers (*Una cosa rara*,
 a Hasse aria with the Latin words "Veni mi Jesu care"), or arias a composer reused in another opera. Twenty-eight pairs
 of anonymous copies agree with each other from the start of two or more differently numbered
-incipits; each was compared by eye (25 same music, 3 probable) and they are listed on the site as
+incipits; each was compared by eye (25 same music, 3 probable), and RISM already links 19 of them and they are listed on the site as
 [anonymous concordances](https://aaymeloglu.github.io/rism-attributions/concordances.html).
 
 A match means RISM holds an attributed copy of the same music. It does not settle a disputed
@@ -50,6 +50,7 @@ independent reviews by Codex (another LLM) led to the current verdicts, checks a
 data/verdicts.csv                 verdict, attribution, prior documentation and note for every lead (the source of truth)
 data/attribution_resolutions.csv  written reasons why a flagged attribution is still secure
 data/concordance_verdicts.csv     verdict for every automatic anonymous-to-anonymous candidate
+data/work_aliases.csv             sourced alternative titles (Rosalieb = Le petit chaperon rouge) for the title check
 data/attributions.json            generated: verdicts joined with RISM records and incipits (what the site shows)
 data/anonymous_concordances.json  generated: anonymous copies matching each other on 2+ movements
 data/genres.json                  burndown: anonymous sources with incipits per RISM subject

@@ -24,9 +24,9 @@ import json
 import os
 
 VERDICTS = ("confirmed", "probable", "unresolved", "rejected")
-ATTRIBUTION = ("secure", "disputed", "uncertain", "name-only", "modern-copy", "work-only")
+ATTRIBUTION = ("secure", "disputed", "uncertain", "name-only", "modern-copy", "work-only", "shared")
 PRIOR = ("new", "anonymous-record", "comparator-record", "title-names-work")
-FIELDS = ["genre", "anon_id", "composer", "verdict", "attribution", "prior", "note"]
+FIELDS = ["genre", "anon_id", "composer", "identity", "verdict", "attribution", "prior", "note"]
 GENRE_ORDER = ["symphonies", "concertos", "operas", "sonatas", "overtures", "masses", "arias"]
 
 
@@ -35,10 +35,10 @@ class Verdicts:
         self.slug, self.path = slug, path
         with open(f"runs/{slug}/leads.json") as f:
             self.leads = json.load(f)
-        self.rows = {}
+        self.rows, self.dirty = {}, set()
         if os.path.exists(path):
             with open(path) as f:
-                self.rows = {(r["anon_id"], r["composer"]): r for r in csv.DictReader(f)}
+                self.rows = {(r["anon_id"], r["composer"]): {k: r.get(k, "") for k in FIELDS} for r in csv.DictReader(f)}
 
     def _leads(self, anon, composer):
         hit = [e for e in self.leads if e["anon"] == anon and e["composer"].startswith(composer)]
@@ -46,7 +46,9 @@ class Verdicts:
             raise SystemExit(f"no {self.slug} lead for {anon} / {composer}")
         return hit
 
-    def set(self, anon, composer, verdict, note, attribution="secure", prior="new"):
+    def set(self, anon, composer, verdict, note, attribution="secure", prior="new", identity=""):
+        """identity: the reviewed composer when RISM's heading on the attributed copy is wrong (e.g.
+        father for son); the heading stays in `composer`, which is how the lead is keyed."""
         if verdict not in VERDICTS:
             raise SystemExit(f"verdict must be one of {VERDICTS}")
         if verdict != "rejected" and (attribution not in ATTRIBUTION or prior not in PRIOR):
@@ -54,8 +56,9 @@ class Verdicts:
         if not note:
             raise SystemExit("every verdict needs a note")
         for e in self._leads(anon, composer):
+            self.dirty.add((anon, e["composer"]))
             self.rows[(anon, e["composer"])] = {
-                "genre": self.slug, "anon_id": anon, "composer": e["composer"], "verdict": verdict,
+                "genre": self.slug, "anon_id": anon, "composer": e["composer"], "identity": identity, "verdict": verdict,
                 "attribution": "" if verdict == "rejected" else attribution,
                 "prior": "" if verdict == "rejected" else prior, "note": note}
 
@@ -70,6 +73,15 @@ class Verdicts:
             self.reject(e["anon"], e["composer"], note)
 
     def save(self):
+        """Write back only the rows this instance changed, on top of a fresh read of the file, so two
+        instances (say, one per genre) cannot overwrite each other's edits."""
+        current = {}
+        if os.path.exists(self.path):
+            with open(self.path) as f:
+                current = {(r["anon_id"], r["composer"]): {k: r.get(k, "") for k in FIELDS} for r in csv.DictReader(f)}
+        for key in self.dirty:
+            current[key] = self.rows[key]
+        self.rows, self.dirty = current, set()
         order = {g: i for i, g in enumerate(GENRE_ORDER)}
         out = sorted(self.rows.values(), key=lambda r: (order.get(r["genre"], 99), r["genre"], r["anon_id"], r["composer"]))
         with open(self.path, "w", newline="") as f:
@@ -89,6 +101,7 @@ def main():
         s.add_argument(arg)
     s.add_argument("--attribution", default="secure")
     s.add_argument("--prior", default="new")
+    s.add_argument("--identity", default="", help="reviewed composer when RISM's heading is wrong")
     s.add_argument("--note", required=True)
     r = sub.add_parser("reject")
     for arg in ("slug", "anon", "composer"):
@@ -105,7 +118,7 @@ def main():
         print(len(v.todo()), "without a verdict")
         return
     if a.cmd == "set":
-        v.set(a.anon, a.composer, a.verdict, a.note, a.attribution, a.prior)
+        v.set(a.anon, a.composer, a.verdict, a.note, a.attribution, a.prior, a.identity)
     elif a.cmd == "reject":
         v.reject(a.anon, a.composer, a.note)
     elif a.cmd == "reject-rest":

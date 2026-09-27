@@ -103,13 +103,18 @@ def compare(inc, cands):
                               "figuration": round(figuration(p, i, n), 2), "notes": len(dedup(p)),
                               "comparator_notes": len(dedup(q)),
                               "same_key": ci["keysig"] == inc["keysig"], "same_voice": bool(ci["voice"]) and ci["voice"] == inc["voice"]})
-    witnesses.sort(key=lambda w: (-w["overlap"], -w["same_key"], -w["same_voice"], -w["agree"], w["source"], w["source_inc"]))
+    for w in witnesses:
+        w["eligible"] = matches(w)
+    # The reported match is the best witness that counts (matches()); a longer agreement that fails
+    # the figuration test must not hide a shorter one that passes. Failing candidates stay listed.
+    witnesses.sort(key=lambda w: (-w["eligible"], -w["overlap"], -w["same_key"], -w["same_voice"], -w["agree"], w["source"], w["source_inc"]))
     base = {"inc": inc["inc"], "voice": inc["voice"], "keysig": inc["keysig"], "text": inc["text"],
             "notes": len(dedup(readings[0])), "agree": 0, "overlap": 0, "source": None}
     if witnesses:
         base.update({k: v for k, v in witnesses[0].items()})
-        base["witnesses"] = [{k: w[k] for k in ("source", "source_inc", "source_voice", "overlap", "same_key", "same_voice")}
-                             for w in witnesses[1:] if matches(w)][:8]
+        keep = ("source", "source_inc", "source_voice", "overlap", "agree", "offset", "figuration", "same_key", "same_voice", "eligible")
+        base["witnesses"] = [{k: w[k] for k in keep} for w in witnesses[1:] if w["eligible"]][:8]
+        base["failed_witnesses"] = [{k: w[k] for k in keep} for w in witnesses[1:] if not w["eligible"] and w["overlap"] >= 8][:4]
     return base
 
 
@@ -139,7 +144,7 @@ def evidence(lead):
             "names_composer": lead["composer"].split(",")[0].split(" (")[0] in json.dumps(a, ensure_ascii=False),
             "catalogue_number_in_title": bool(CATNO.search(lead["label"])),
             "title_names_work": sorted({m["source"] for m in counted
-                                        if context.same_work_title(lead["label"], rism.label(rism.source(m["source"])))}),
+                                        if context.same_work_title(a, rism.source(m["source"]))}),
             "prior_documentation": [{"source": c, "text": t} for c, t in context.prior_documentation(lead["anon"], a, cand_srcs)],
             "attribution_flags": context.attribution_flags(lead["composer"], cand_srcs),
             "anonymous_record_authorship": context.authorship_notes(a, lead["composer"]),

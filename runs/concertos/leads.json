@@ -33,7 +33,9 @@
     "comparator_notes": 18,
     "same_key": true,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -52,22 +54,31 @@
     "source_text": "Vidi io stessa ah dei",
     "offset": [
      0,
-     12
+     11
     ],
     "figuration": 0.0,
-    "comparator_notes": 23,
+    "comparator_notes": 22,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "212009099",
       "source_inc": "1.8.2",
       "source_voice": "S",
       "overlap": 8,
+      "agree": 1,
+      "offset": [
+       0,
+       11
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -92,7 +103,9 @@
     "comparator_notes": 14,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -119,6 +132,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -160,24 +174,40 @@
     "comparator_notes": 18,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "991007003",
       "source_inc": "1.1.1 Concerto Allegro moderato.",
       "source_voice": "pf",
       "overlap": 14,
+      "agree": 14,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "991007004",
       "source_inc": "1.1.1 CONCERTO ALLEGRO MODERATO.",
       "source_voice": "pf",
       "overlap": 14,
+      "agree": 14,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -219,6 +249,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -269,7 +300,9 @@
     "comparator_notes": 17,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -304,7 +337,9 @@
     "comparator_notes": 17,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -335,6 +370,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -375,7 +411,9 @@
     "comparator_notes": 16,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -400,7 +438,9 @@
     "comparator_notes": 24,
     "same_key": false,
     "same_voice": true,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -435,7 +475,9 @@
     "comparator_notes": 24,
     "same_key": false,
     "same_voice": true,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -466,6 +508,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [
    "300510949: cross-reference to Hasse, Johann Adolf (1699-1783) (Ascertained)"
@@ -518,7 +561,9 @@
     "comparator_notes": 17,
     "same_key": false,
     "same_voice": true,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -553,7 +598,9 @@
     "comparator_notes": 17,
     "same_key": false,
     "same_voice": true,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -581,6 +628,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -631,7 +679,9 @@
     "comparator_notes": 32,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -666,7 +716,9 @@
     "comparator_notes": 32,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -694,6 +746,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [
    "heading 'Compilations' names no identifiable person"
@@ -747,7 +800,25 @@
     "comparator_notes": 24,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [
+     {
+      "source": "650003959",
+      "source_inc": "1.1.1 Allegro",
+      "source_voice": "vl",
+      "overlap": 16,
+      "agree": 1,
+      "offset": [
+       0,
+       8
+      ],
+      "figuration": 0.93,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": false
+     }
+    ],
     "text_agreement": ""
    },
    {
@@ -756,9 +827,26 @@
     "keysig": "bBEA",
     "text": "",
     "notes": 17,
-    "agree": 0,
-    "overlap": 0,
-    "source": null
+    "agree": 1,
+    "overlap": 5,
+    "source": "650003959",
+    "source_inc": "1.2.1 Menuetto",
+    "source_voice": "vl",
+    "source_first": false,
+    "source_keysig": "xF",
+    "source_text": "",
+    "offset": [
+     4,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 10,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": false,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
    },
    {
     "inc": "1.3.1 Rondeau moderato",
@@ -782,7 +870,25 @@
     "comparator_notes": 24,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [
+     {
+      "source": "650003959",
+      "source_inc": "1.1.1 Allegro",
+      "source_voice": "vl",
+      "overlap": 21,
+      "agree": 1,
+      "offset": [
+       8,
+       0
+      ],
+      "figuration": 0.9,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": false
+     }
+    ],
     "text_agreement": ""
    },
    {
@@ -813,6 +919,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -855,7 +962,9 @@
     "comparator_notes": 26,
     "same_key": false,
     "same_voice": true,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -880,7 +989,40 @@
     "comparator_notes": 35,
     "same_key": true,
     "same_voice": true,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [
+     {
+      "source": "1001264387",
+      "source_inc": "1.1.1 [No.] 51. Aria Allegro con spirito",
+      "source_voice": "vl 1",
+      "overlap": 16,
+      "agree": 16,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.93,
+      "same_key": false,
+      "same_voice": true,
+      "eligible": false
+     },
+     {
+      "source": "858000645",
+      "source_inc": "1.1.1 [Aria]. Allegro",
+      "source_voice": "vl 1",
+      "overlap": 16,
+      "agree": 16,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.93,
+      "same_key": false,
+      "same_voice": true,
+      "eligible": false
+     }
+    ],
     "text_agreement": ""
    },
    {
@@ -915,7 +1057,40 @@
     "comparator_notes": 35,
     "same_key": true,
     "same_voice": true,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [
+     {
+      "source": "1001264387",
+      "source_inc": "1.1.1 [No.] 51. Aria Allegro con spirito",
+      "source_voice": "vl 1",
+      "overlap": 16,
+      "agree": 16,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.93,
+      "same_key": false,
+      "same_voice": true,
+      "eligible": false
+     },
+     {
+      "source": "858000645",
+      "source_inc": "1.1.1 [Aria]. Allegro",
+      "source_voice": "vl 1",
+      "overlap": 16,
+      "agree": 16,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.93,
+      "same_key": false,
+      "same_voice": true,
+      "eligible": false
+     }
+    ],
     "text_agreement": ""
    },
    {
@@ -940,7 +1115,9 @@
     "comparator_notes": 20,
     "same_key": true,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -961,6 +1138,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -1011,7 +1189,9 @@
     "comparator_notes": 36,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -1046,7 +1226,9 @@
     "comparator_notes": 36,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -1077,6 +1259,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [
    "603001889: composer qualified as Alleged"
@@ -1129,7 +1312,25 @@
     "comparator_notes": 32,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [
+     {
+      "source": "1001060344",
+      "source_inc": "1.2.2 Rondeau Allegro",
+      "source_voice": "vl 2",
+      "overlap": 16,
+      "agree": 1,
+      "offset": [
+       8,
+       0
+      ],
+      "figuration": 1.0,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": false
+     }
+    ],
     "text_agreement": ""
    },
    {
@@ -1164,7 +1365,25 @@
     "comparator_notes": 32,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [
+     {
+      "source": "1001060344",
+      "source_inc": "1.2.2 Rondeau Allegro",
+      "source_voice": "vl 2",
+      "overlap": 8,
+      "agree": 1,
+      "offset": [
+       8,
+       0
+      ],
+      "figuration": 1.0,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": false
+     }
+    ],
     "text_agreement": ""
    },
    {
@@ -1195,6 +1414,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -1245,7 +1465,9 @@
     "comparator_notes": 32,
     "same_key": false,
     "same_voice": true,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -1280,7 +1502,9 @@
     "comparator_notes": 32,
     "same_key": false,
     "same_voice": true,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -1311,6 +1535,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -1361,7 +1586,9 @@
     "comparator_notes": 21,
     "same_key": true,
     "same_voice": true,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -1396,7 +1623,9 @@
     "comparator_notes": 21,
     "same_key": true,
     "same_voice": true,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -1424,6 +1653,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [
    "250012916: cross-reference to Mattuschka, Joseph von (Conjectural)",
@@ -1477,7 +1707,9 @@
     "comparator_notes": 25,
     "same_key": false,
     "same_voice": true,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -1512,7 +1744,9 @@
     "comparator_notes": 25,
     "same_key": false,
     "same_voice": true,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -1543,6 +1777,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -1570,37 +1805,38 @@
     "agree": 1,
     "overlap": 6,
     "source": "655001348",
-    "source_inc": "1.1.1 Molto Adagio majestoso",
+    "source_inc": "1.4.1 Adagio",
     "source_voice": "org",
-    "source_first": true,
+    "source_first": false,
     "source_keysig": "n",
-    "source_text": "Kyrie",
+    "source_text": "Sanctus",
     "offset": [
-     13,
+     4,
      0
     ],
     "figuration": 0.0,
-    "comparator_notes": 14,
+    "comparator_notes": 6,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
-     {
-      "source": "655001348",
-      "source_inc": "1.4.1 Adagio",
-      "source_voice": "org",
-      "overlap": 6,
-      "same_key": false,
-      "same_voice": false
-     },
      {
       "source": "655001348",
       "source_inc": "1.4.2",
       "source_voice": "org",
       "overlap": 6,
+      "agree": 1,
+      "offset": [
+       11,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -1625,7 +1861,9 @@
     "comparator_notes": 51,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -1660,7 +1898,9 @@
     "comparator_notes": 51,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -1674,12 +1914,18 @@
     "source": null
    }
   ],
-  "incipits_matched": [],
-  "distinct_numbers_matched": [],
-  "internal_matches": [],
+  "incipits_matched": [
+   "1.1.1 Allegro Moderato"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [
+   "1.1.1 Allegro Moderato -> 655001348 1.4.1 Adagio"
+  ],
   "vocal_matches": [],
   "text_mismatch": [],
-  "transposed": false,
+  "transposed": true,
   "key_label_mismatch": false,
   "life": [
    1795,
@@ -1691,13 +1937,14 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [
    "655001348: composer qualified as Conjectural"
   ],
   "anonymous_record_authorship": [],
   "competitors": [],
-  "class": "weak"
+  "class": "plausible"
  },
  {
   "anon": "1001118376",
@@ -1743,7 +1990,9 @@
     "comparator_notes": 40,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -1778,7 +2027,9 @@
     "comparator_notes": 40,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -1809,6 +2060,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -1859,7 +2111,9 @@
     "comparator_notes": 18,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -1894,7 +2148,9 @@
     "comparator_notes": 18,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -1925,6 +2181,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -1966,7 +2223,9 @@
     "comparator_notes": 15,
     "same_key": false,
     "same_voice": true,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -1991,7 +2250,25 @@
     "comparator_notes": 24,
     "same_key": false,
     "same_voice": true,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [
+     {
+      "source": "212006902",
+      "source_inc": "1.1.1 Atto I:|m|o  Sinfonia.",
+      "source_voice": "vl 1",
+      "overlap": 16,
+      "agree": 8,
+      "offset": [
+       0,
+       8
+      ],
+      "figuration": 0.93,
+      "same_key": false,
+      "same_voice": true,
+      "eligible": false
+     }
+    ],
     "text_agreement": ""
    },
    {
@@ -2026,7 +2303,25 @@
     "comparator_notes": 24,
     "same_key": false,
     "same_voice": true,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [
+     {
+      "source": "212006902",
+      "source_inc": "1.1.1 Atto I:|m|o  Sinfonia.",
+      "source_voice": "vl 1",
+      "overlap": 16,
+      "agree": 8,
+      "offset": [
+       0,
+       8
+      ],
+      "figuration": 0.93,
+      "same_key": false,
+      "same_voice": true,
+      "eligible": false
+     }
+    ],
     "text_agreement": ""
    },
    {
@@ -2051,7 +2346,9 @@
     "comparator_notes": 13,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -2080,6 +2377,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [
    "212001669: cross-reference to Leo, Leonardo (1694-1744) (Ascertained)",
@@ -2135,7 +2433,55 @@
     "comparator_notes": 28,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [
+     {
+      "source": "650006668",
+      "source_inc": "1.1.3",
+      "source_voice": "cemb",
+      "overlap": 16,
+      "agree": 8,
+      "offset": [
+       0,
+       8
+      ],
+      "figuration": 0.93,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": false
+     },
+     {
+      "source": "650006664",
+      "source_inc": "1.1.1 Allegro",
+      "source_voice": "vl",
+      "overlap": 16,
+      "agree": 1,
+      "offset": [
+       8,
+       0
+      ],
+      "figuration": 1.0,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": false
+     },
+     {
+      "source": "650006668",
+      "source_inc": "1.1.1 Allegro",
+      "source_voice": "vl",
+      "overlap": 16,
+      "agree": 1,
+      "offset": [
+       8,
+       0
+      ],
+      "figuration": 1.0,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": false
+     }
+    ],
     "text_agreement": ""
    },
    {
@@ -2170,7 +2516,55 @@
     "comparator_notes": 28,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [
+     {
+      "source": "650006668",
+      "source_inc": "1.1.3",
+      "source_voice": "cemb",
+      "overlap": 20,
+      "agree": 8,
+      "offset": [
+       0,
+       8
+      ],
+      "figuration": 0.74,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": false
+     },
+     {
+      "source": "650006664",
+      "source_inc": "1.1.1 Allegro",
+      "source_voice": "vl",
+      "overlap": 8,
+      "agree": 1,
+      "offset": [
+       8,
+       0
+      ],
+      "figuration": 1.0,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": false
+     },
+     {
+      "source": "650006668",
+      "source_inc": "1.1.1 Allegro",
+      "source_voice": "vl",
+      "overlap": 8,
+      "agree": 1,
+      "offset": [
+       8,
+       0
+      ],
+      "figuration": 1.0,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": false
+     }
+    ],
     "text_agreement": ""
    },
    {
@@ -2201,6 +2595,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -2244,24 +2639,40 @@
     "comparator_notes": 11,
     "same_key": true,
     "same_voice": true,
+    "eligible": true,
     "witnesses": [
      {
       "source": "1001254592",
       "source_inc": "1.1.1 Adagio mà non troppo",
       "source_voice": "vl 1",
       "overlap": 11,
+      "agree": 11,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": true
+      "same_voice": true,
+      "eligible": true
      },
      {
       "source": "550504372",
       "source_inc": "1.1.1 Adagio",
       "source_voice": "pf",
       "overlap": 11,
+      "agree": 11,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -2286,16 +2697,25 @@
     "comparator_notes": 16,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "1001254592",
       "source_inc": "1.2.1 Andante",
       "source_voice": "cl",
       "overlap": 16,
+      "agree": 16,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -2320,7 +2740,9 @@
     "comparator_notes": 22,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -2344,6 +2766,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -2385,24 +2808,40 @@
     "comparator_notes": 11,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "850779832",
       "source_inc": "1.1.1 All.o spiritoso",
       "source_voice": "cemb",
       "overlap": 8,
+      "agree": 8,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "850782549",
       "source_inc": "1.1.1 All.o Spiritoso",
       "source_voice": "cemb",
       "overlap": 8,
+      "agree": 8,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -2427,6 +2866,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -2486,7 +2926,9 @@
     "comparator_notes": 15,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -2520,6 +2962,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -2579,7 +3022,9 @@
     "comparator_notes": 19,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -2606,6 +3051,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [
@@ -2649,7 +3095,9 @@
     "comparator_notes": 12,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -2671,6 +3119,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -2714,24 +3163,40 @@
     "comparator_notes": 16,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "550031893",
       "source_inc": "1.1.1 Allegro",
       "source_voice": "vl princ",
       "overlap": 16,
+      "agree": 16,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "990021534",
       "source_inc": "1.1.1 Allegro",
       "source_voice": "vl solo",
       "overlap": 16,
+      "agree": 16,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -2756,16 +3221,25 @@
     "comparator_notes": 18,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "990021534",
       "source_inc": "1.2.1 Amoroso con espressione",
       "source_voice": "vl solo",
       "overlap": 18,
+      "agree": 18,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -2790,16 +3264,25 @@
     "comparator_notes": 19,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "990021534",
       "source_inc": "1.3.1 Rondo",
       "source_voice": "vl solo",
       "overlap": 12,
+      "agree": 12,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -2828,6 +3311,7 @@
   ],
   "names_composer": true,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -2869,7 +3353,9 @@
     "comparator_notes": 12,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -2894,6 +3380,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -2933,7 +3420,9 @@
     "comparator_notes": 18,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -2958,6 +3447,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -2997,16 +3487,25 @@
     "comparator_notes": 17,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "800092933",
       "source_inc": "1.1.2",
       "source_voice": "S",
       "overlap": 12,
+      "agree": 1,
+      "offset": [
+       0,
+       6
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -3031,6 +3530,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -3080,7 +3580,9 @@
     "comparator_notes": 19,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -3119,6 +3621,7 @@
   ],
   "names_composer": true,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -3159,7 +3662,9 @@
     "comparator_notes": 19,
     "same_key": true,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -3180,6 +3685,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -3219,7 +3725,9 @@
     "comparator_notes": 18,
     "same_key": false,
     "same_voice": true,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -3244,6 +3752,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -3283,7 +3792,9 @@
     "comparator_notes": 15,
     "same_key": true,
     "same_voice": true,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -3308,6 +3819,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -3348,32 +3860,55 @@
     "comparator_notes": 13,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "270000629",
       "source_inc": "1.63.2",
       "source_voice": "T",
       "overlap": 6,
+      "agree": 6,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "200043789",
       "source_inc": "1.44.2",
       "source_voice": "S",
       "overlap": 6,
+      "agree": 1,
+      "offset": [
+       0,
+       4
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "270000629",
       "source_inc": "1.44.2",
       "source_voice": "S",
       "overlap": 6,
+      "agree": 1,
+      "offset": [
+       0,
+       4
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -3397,6 +3932,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -3436,7 +3972,9 @@
     "comparator_notes": 26,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -3463,6 +4001,7 @@
   ],
   "names_composer": true,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [
    {
     "source": "453011722",
@@ -3510,7 +4049,9 @@
     "comparator_notes": 10,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -3535,7 +4076,9 @@
     "comparator_notes": 13,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -3572,6 +4115,7 @@
   ],
   "names_composer": true,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [
    "212003237: composer qualified as Conjectural"
@@ -3633,7 +4177,9 @@
     "comparator_notes": 11,
     "same_key": true,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -3654,6 +4200,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -3694,7 +4241,9 @@
     "comparator_notes": 24,
     "same_key": false,
     "same_voice": true,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -3719,7 +4268,9 @@
     "comparator_notes": 16,
     "same_key": false,
     "same_voice": true,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -3750,6 +4301,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -3809,7 +4361,9 @@
     "comparator_notes": 17,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -3834,6 +4388,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -3883,7 +4438,9 @@
     "comparator_notes": 28,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -3940,6 +4497,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -4010,16 +4568,25 @@
     "comparator_notes": 23,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "1001031795",
       "source_inc": "1.6.2",
       "source_voice": "S solo",
       "overlap": 7,
+      "agree": 1,
+      "offset": [
+       0,
+       1
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -4056,6 +4623,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -4095,7 +4663,9 @@
     "comparator_notes": 34,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -4120,7 +4690,9 @@
     "comparator_notes": 34,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -4160,6 +4732,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -4209,7 +4782,9 @@
     "comparator_notes": 27,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -4236,6 +4811,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [
@@ -4307,7 +4883,9 @@
     "comparator_notes": 15,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -4328,6 +4906,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [
    "1001183979: copied or edited by Rzepko, Władysław (1854-1932); a modern copy, not a period witness"
@@ -4369,7 +4948,9 @@
     "comparator_notes": 11,
     "same_key": true,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -4404,7 +4985,9 @@
     "comparator_notes": 9,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -4426,6 +5009,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [
    "heading 'Graun' names no identifiable person"
@@ -4467,7 +5051,9 @@
     "comparator_notes": 11,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -4516,6 +5102,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -4565,7 +5152,9 @@
     "comparator_notes": 30,
     "same_key": false,
     "same_voice": true,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -4610,72 +5199,130 @@
     "comparator_notes": 20,
     "same_key": false,
     "same_voice": true,
+    "eligible": true,
     "witnesses": [
      {
       "source": "201009378",
       "source_inc": "1.9.1 [Aria].",
       "source_voice": "vl 1",
       "overlap": 18,
+      "agree": 18,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": true
+      "same_voice": true,
+      "eligible": true
      },
      {
       "source": "201009379",
       "source_inc": "1.6.1 Aria.",
       "source_voice": "vl 1",
       "overlap": 18,
+      "agree": 18,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": true
+      "same_voice": true,
+      "eligible": true
      },
      {
       "source": "800262206",
       "source_inc": "1.1.1",
       "source_voice": "vl 1",
       "overlap": 18,
+      "agree": 18,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": true
+      "same_voice": true,
+      "eligible": true
      },
      {
       "source": "1001225573",
       "source_inc": "1.1.2",
       "source_voice": "A solo",
       "overlap": 18,
+      "agree": 18,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "1001312240",
       "source_inc": "1.1.1",
       "source_voice": "",
       "overlap": 18,
+      "agree": 18,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "142735",
       "source_inc": "1.1.1",
       "source_voice": "cor 1",
       "overlap": 18,
+      "agree": 18,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "201009378",
       "source_inc": "1.9.2",
       "source_voice": "A solo",
       "overlap": 18,
+      "agree": 18,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "201009379",
       "source_inc": "1.6.2",
       "source_voice": "T solo",
       "overlap": 18,
+      "agree": 18,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -4702,6 +5349,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [
    "201009379: cross-reference to Porpora, Nicola (1686-1768) (Ascertained)"
@@ -4743,7 +5391,9 @@
     "comparator_notes": 10,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -4786,6 +5436,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -4825,7 +5476,9 @@
     "comparator_notes": 13,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -4847,6 +5500,7 @@
   "copy_years": null,
   "names_composer": true,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -4886,7 +5540,9 @@
     "comparator_notes": 26,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -4908,6 +5564,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -4947,7 +5604,9 @@
     "comparator_notes": 14,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -4968,6 +5627,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -5007,7 +5667,9 @@
     "comparator_notes": 22,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -5030,6 +5692,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [
    "1001276280: composer qualified as Alleged"
@@ -5071,7 +5734,9 @@
     "comparator_notes": 5,
     "same_key": true,
     "same_voice": true,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -5092,6 +5757,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -5132,16 +5798,25 @@
     "comparator_notes": 10,
     "same_key": true,
     "same_voice": true,
+    "eligible": true,
     "witnesses": [
      {
       "source": "212001742",
       "source_inc": "1.1.1 Adagio",
       "source_voice": "vl 1",
       "overlap": 9,
+      "agree": 9,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": true
+      "same_voice": true,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -5166,6 +5841,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -5205,7 +5881,9 @@
     "comparator_notes": 11,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -5227,6 +5905,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -5267,16 +5946,25 @@
     "comparator_notes": 14,
     "same_key": false,
     "same_voice": true,
+    "eligible": true,
     "witnesses": [
      {
       "source": "552002016",
       "source_inc": "1.1.1 Andante",
       "source_voice": "vl 1",
       "overlap": 14,
+      "agree": 14,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": true
+      "same_voice": true,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -5301,6 +5989,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [
    "1001138783: composer qualified as Conjectural",
@@ -5344,7 +6033,9 @@
     "comparator_notes": 26,
     "same_key": false,
     "same_voice": true,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -5368,6 +6059,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -5409,24 +6101,40 @@
     "comparator_notes": 20,
     "same_key": true,
     "same_voice": true,
+    "eligible": true,
     "witnesses": [
      {
       "source": "450016732",
       "source_inc": "1.1.1 Allegro moderato",
       "source_voice": "cemb",
       "overlap": 18,
+      "agree": 18,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.29,
       "same_key": true,
-      "same_voice": true
+      "same_voice": true,
+      "eligible": true
      },
      {
       "source": "450019664",
       "source_inc": "1.1.1",
       "source_voice": "cemb",
       "overlap": 18,
+      "agree": 18,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.29,
       "same_key": true,
-      "same_voice": true
+      "same_voice": true,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -5453,6 +6161,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": true,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -5492,7 +6201,9 @@
     "comparator_notes": 12,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -5514,6 +6225,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -5554,16 +6266,25 @@
     "comparator_notes": 16,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "452004508",
       "source_inc": "1.1.1 Poco adagio",
       "source_voice": "cemb",
       "overlap": 11,
+      "agree": 11,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -5588,6 +6309,7 @@
   ],
   "names_composer": true,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -5627,7 +6349,9 @@
     "comparator_notes": 27,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -5651,6 +6375,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [
    "190021287: composer qualified as Conjectural",
@@ -5693,16 +6418,25 @@
     "comparator_notes": 28,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "201009388",
       "source_inc": "1.8.1 Aria. Allegro",
       "source_voice": "vl 1",
       "overlap": 11,
+      "agree": 1,
+      "offset": [
+       0,
+       8
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -5729,6 +6463,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -5768,7 +6503,9 @@
     "comparator_notes": 6,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -5793,16 +6530,25 @@
     "comparator_notes": 13,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "800265562",
       "source_inc": "1.2.1 [Aria]. Spiritoso",
       "source_voice": "vl 1",
       "overlap": 7,
+      "agree": 1,
+      "offset": [
+       0,
+       1
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -5826,6 +6572,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -5865,7 +6612,9 @@
     "comparator_notes": 20,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -5887,6 +6636,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -5926,7 +6676,9 @@
     "comparator_notes": 23,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -5971,6 +6723,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -6010,7 +6763,9 @@
     "comparator_notes": 8,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -6055,6 +6810,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -6114,7 +6870,9 @@
     "comparator_notes": 7,
     "same_key": false,
     "same_voice": true,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -6141,6 +6899,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [
    "1001019395: composer qualified as Conjectural"
@@ -6201,6 +6960,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -6260,7 +7020,9 @@
     "comparator_notes": 23,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -6287,6 +7049,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -6326,7 +7089,9 @@
     "comparator_notes": 30,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -6361,6 +7126,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [
    {
     "source": "550500620",
@@ -6412,7 +7178,9 @@
     "comparator_notes": 12,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -6437,7 +7205,9 @@
     "comparator_notes": 12,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -6474,6 +7244,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -6539,7 +7310,9 @@
     "comparator_notes": 13,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -6586,6 +7359,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [
    "302005518: composer qualified as Conjectural"
@@ -6627,7 +7401,9 @@
     "comparator_notes": 13,
     "same_key": false,
     "same_voice": true,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -6652,6 +7428,7 @@
   ],
   "names_composer": true,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [
@@ -6693,7 +7470,9 @@
     "comparator_notes": 13,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -6718,6 +7497,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [
@@ -6759,7 +7539,9 @@
     "comparator_notes": 17,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -6784,7 +7566,9 @@
     "comparator_notes": 12,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -6817,6 +7601,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -6857,16 +7642,25 @@
     "comparator_notes": 26,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "600026045",
       "source_inc": "1.1.1 Moderato",
       "source_voice": "vl princ",
       "overlap": 14,
+      "agree": 14,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -6898,6 +7692,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -6957,7 +7752,9 @@
     "comparator_notes": 13,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -7074,6 +7871,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -7114,16 +7912,25 @@
     "comparator_notes": 9,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "552000409",
       "source_inc": "1.1.1 Concerto. Allegro",
       "source_voice": "vl 1",
       "overlap": 8,
+      "agree": 8,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -7148,16 +7955,25 @@
     "comparator_notes": 17,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "552000409",
       "source_inc": "1.2.1 Romance.",
       "source_voice": "cl princ",
       "overlap": 10,
+      "agree": 10,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -7182,16 +7998,25 @@
     "comparator_notes": 19,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "552000409",
       "source_inc": "1.3.1 Rondo.",
       "source_voice": "cl princ",
       "overlap": 15,
+      "agree": 15,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -7220,6 +8045,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -7269,7 +8095,9 @@
     "comparator_notes": 21,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -7297,6 +8125,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -7336,7 +8165,9 @@
     "comparator_notes": 13,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -7362,6 +8193,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -7402,16 +8234,25 @@
     "comparator_notes": 15,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "450013478",
       "source_inc": "1.1.1 Allegro molto",
       "source_voice": "vl 1",
       "overlap": 7,
+      "agree": 7,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -7433,6 +8274,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -7474,16 +8316,25 @@
     "comparator_notes": 20,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "212001450",
       "source_inc": "1.1.1 all:[egr]|o",
       "source_voice": "vl obl",
       "overlap": 14,
+      "agree": 14,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -7491,25 +8342,10 @@
     "voice": "vl",
     "keysig": "n",
     "text": "",
-    "notes": 5,
-    "agree": 5,
-    "overlap": 5,
-    "source": "1001244317",
-    "source_inc": "1.2.1 Adagio",
-    "source_voice": "vl 1",
-    "source_first": false,
-    "source_keysig": "n",
-    "source_text": "",
-    "offset": [
-     0,
-     0
-    ],
-    "figuration": 0.0,
-    "comparator_notes": 8,
-    "same_key": true,
-    "same_voice": false,
-    "witnesses": [],
-    "text_agreement": ""
+    "notes": 2,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
    },
    {
     "inc": "1.3.1 Allegro assai",
@@ -7533,16 +8369,25 @@
     "comparator_notes": 19,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "212001450",
       "source_inc": "1.3.1 All.[egr]|o assai",
       "source_voice": "vl obl",
       "overlap": 19,
+      "agree": 19,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -7566,6 +8411,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -7607,16 +8453,25 @@
     "comparator_notes": 12,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "455002332",
       "source_inc": "1.1.1 Allegro",
       "source_voice": "vl 1",
       "overlap": 12,
+      "agree": 12,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -7651,7 +8506,9 @@
     "comparator_notes": 36,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -7675,6 +8532,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -7726,7 +8584,9 @@
     "comparator_notes": 11,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -7762,6 +8622,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -7821,7 +8682,9 @@
     "comparator_notes": 30,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -7847,6 +8710,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -7916,7 +8780,9 @@
     "comparator_notes": 16,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -7941,7 +8807,9 @@
     "comparator_notes": 18,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -7965,6 +8833,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -7987,7 +8856,7 @@
     "voice": "org",
     "keysig": "xF",
     "text": "",
-    "notes": 7,
+    "notes": 6,
     "agree": 0,
     "overlap": 0,
     "source": null
@@ -8024,6 +8893,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -8090,40 +8960,70 @@
     "comparator_notes": 28,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "455022446",
       "source_inc": "1.1.1 Allegro",
       "source_voice": "pf",
       "overlap": 18,
+      "agree": 18,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "150203481",
       "source_inc": "1.1.1 Allegro",
       "source_voice": "pf",
       "overlap": 15,
+      "agree": 15,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "301003432",
       "source_inc": "1.1.1 Allegro",
       "source_voice": "pf",
       "overlap": 15,
+      "agree": 15,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "450036362",
       "source_inc": "1.1.1 Allegro",
       "source_voice": "cemb",
       "overlap": 15,
+      "agree": 15,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -8148,16 +9048,25 @@
     "comparator_notes": 26,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "455022446",
       "source_inc": "1.2.1 Largo spirituoso",
       "source_voice": "pf",
       "overlap": 26,
+      "agree": 26,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -8182,24 +9091,40 @@
     "comparator_notes": 14,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "450000217",
       "source_inc": "1.1.1",
       "source_voice": "pf",
       "overlap": 14,
+      "agree": 14,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "455022446",
       "source_inc": "1.3.1 Menuett.",
       "source_voice": "pf",
       "overlap": 14,
+      "agree": 14,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -8250,6 +9175,7 @@
   ],
   "names_composer": true,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -8291,24 +9217,40 @@
     "comparator_notes": 16,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "190007059",
       "source_inc": "1.1.1 Allegro",
       "source_voice": "vl 1",
       "overlap": 13,
+      "agree": 13,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "500027563",
       "source_inc": "1.1.1 Allegro moderato",
       "source_voice": "vl 1",
       "overlap": 13,
+      "agree": 13,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -8330,6 +9272,7 @@
   "copy_years": null,
   "names_composer": true,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [
@@ -8371,7 +9314,9 @@
     "comparator_notes": 14,
     "same_key": false,
     "same_voice": true,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -8393,6 +9338,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -8433,16 +9379,25 @@
     "comparator_notes": 10,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "800226002",
       "source_inc": "1.1.1 Andante",
       "source_voice": "vl",
       "overlap": 10,
+      "agree": 10,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -8464,6 +9419,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -8504,16 +9460,25 @@
     "comparator_notes": 10,
     "same_key": true,
     "same_voice": true,
+    "eligible": true,
     "witnesses": [
      {
       "source": "800226003",
       "source_inc": "1.1.1 Andante",
       "source_voice": "vl 1",
       "overlap": 9,
+      "agree": 9,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": true
+      "same_voice": true,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -8535,6 +9500,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -8575,16 +9541,25 @@
     "comparator_notes": 9,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "800226005",
       "source_inc": "1.1.1 Staccato",
       "source_voice": "vl",
       "overlap": 9,
+      "agree": 9,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -8606,6 +9581,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -8646,16 +9622,25 @@
     "comparator_notes": 9,
     "same_key": true,
     "same_voice": true,
+    "eligible": true,
     "witnesses": [
      {
       "source": "800190023",
       "source_inc": "1.1.1 Allegro",
       "source_voice": "ob 1",
       "overlap": 9,
+      "agree": 9,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -8677,6 +9662,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -8717,16 +9703,25 @@
     "comparator_notes": 30,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "806550013",
       "source_inc": "1.1.1 Concerto à quattrio Violini, Viola, / e Violoncello. Allegros e Spicco",
       "source_voice": "vl 1",
       "overlap": 15,
+      "agree": 15,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -8748,6 +9743,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [
    {
     "source": "806550013",
@@ -8794,7 +9790,9 @@
     "comparator_notes": 17,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -8816,6 +9814,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -8839,9 +9838,9 @@
     "voice": "vl 1",
     "keysig": "bB",
     "text": "",
-    "notes": 9,
-    "agree": 9,
-    "overlap": 9,
+    "notes": 8,
+    "agree": 8,
+    "overlap": 8,
     "source": "850777862",
     "source_inc": "1.1.1 Allegro Mod.to",
     "source_voice": "vl",
@@ -8853,19 +9852,28 @@
      0
     ],
     "figuration": 0.0,
-    "comparator_notes": 9,
+    "comparator_notes": 8,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "450000625",
       "source_inc": "1.1.1",
       "source_voice": "vl 1",
-      "overlap": 9,
+      "overlap": 8,
+      "agree": 8,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": true
+      "same_voice": true,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -8887,6 +9895,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -8926,7 +9935,9 @@
     "comparator_notes": 11,
     "same_key": true,
     "same_voice": true,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -8951,6 +9962,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -8994,25 +10006,10 @@
     "voice": "keyb",
     "keysig": "n",
     "text": "",
-    "notes": 5,
-    "agree": 1,
-    "overlap": 5,
-    "source": "1001098811",
-    "source_inc": "1.1.2",
-    "source_voice": "vl 1 conc",
-    "source_first": false,
-    "source_keysig": "bB",
-    "source_text": "",
-    "offset": [
-     0,
-     5
-    ],
-    "figuration": 0.0,
-    "comparator_notes": 10,
-    "same_key": false,
-    "same_voice": false,
-    "witnesses": [],
-    "text_agreement": ""
+    "notes": 4,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
    },
    {
     "inc": "1.2.2",
@@ -9036,7 +10033,9 @@
     "comparator_notes": 28,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    },
    {
@@ -9077,6 +10076,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": true,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [
@@ -9121,7 +10121,7 @@
     "voice": "vl 1",
     "keysig": "xFC",
     "text": "",
-    "notes": 6,
+    "notes": 5,
     "agree": 0,
     "overlap": 0,
     "source": null
@@ -9148,7 +10148,9 @@
     "comparator_notes": 20,
     "same_key": false,
     "same_voice": true,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -9175,6 +10177,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -9244,7 +10247,9 @@
     "comparator_notes": 12,
     "same_key": false,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -9262,6 +10267,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -9302,16 +10308,25 @@
     "comparator_notes": 18,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "455031478",
       "source_inc": "1.4.1 Aria. Affettuoso",
       "source_voice": "S",
       "overlap": 13,
+      "agree": 13,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -9337,6 +10352,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -9376,7 +10392,9 @@
     "comparator_notes": 17,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -9401,6 +10419,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [
    "603001961: composer qualified as Conjectural"
@@ -9447,48 +10466,85 @@
     "comparator_notes": 14,
     "same_key": true,
     "same_voice": true,
+    "eligible": true,
     "witnesses": [
      {
       "source": "124898",
       "source_inc": "1.1.1 Allegro",
       "source_voice": "vl 1",
       "overlap": 14,
+      "agree": 14,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "400004941",
       "source_inc": "1.1.1 Allegro",
       "source_voice": "pf princ",
       "overlap": 14,
+      "agree": 14,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "452508396",
       "source_inc": "1.1.1 Allegro",
       "source_voice": "vl 1",
       "overlap": 14,
+      "agree": 14,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "455001024",
       "source_inc": "1.1.1 Allegro",
       "source_voice": "pf",
       "overlap": 14,
+      "agree": 14,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "530004386",
       "source_inc": "1.1.1 Allegro",
       "source_voice": "pf",
       "overlap": 14,
+      "agree": 14,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -9510,6 +10566,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -9550,16 +10607,25 @@
     "comparator_notes": 11,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "456015403",
       "source_inc": "1.2.1 Nr. 1 (Coro). Allegro",
       "source_voice": "S",
       "overlap": 9,
+      "agree": 9,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -9586,6 +10652,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -9625,7 +10692,9 @@
     "comparator_notes": 7,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -9650,6 +10719,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -9689,7 +10759,9 @@
     "comparator_notes": 27,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -9714,6 +10786,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -9753,7 +10826,9 @@
     "comparator_notes": 7,
     "same_key": true,
     "same_voice": false,
+    "eligible": false,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -9771,6 +10846,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -9814,40 +10890,70 @@
     "comparator_notes": 33,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "455005972",
       "source_inc": "1.1.1 Allegro",
       "source_voice": "vl 1",
       "overlap": 15,
+      "agree": 15,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "530001184",
       "source_inc": "1.1.1 Allegro",
       "source_voice": "org",
       "overlap": 15,
+      "agree": 15,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "551001167",
       "source_inc": "1.1.1 Allegretto",
       "source_voice": "vl 1",
       "overlap": 15,
+      "agree": 15,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "600503137",
       "source_inc": "1.1.1 Allegro",
       "source_voice": "vl 1",
       "overlap": 15,
+      "agree": 15,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -9872,6 +10978,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -9911,7 +11018,9 @@
     "comparator_notes": 11,
     "same_key": true,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -9935,6 +11044,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -9975,16 +11085,25 @@
     "comparator_notes": 19,
     "same_key": true,
     "same_voice": true,
+    "eligible": true,
     "witnesses": [
      {
       "source": "850779176",
       "source_inc": "1.1.1 Allegro",
       "source_voice": "cemb",
       "overlap": 13,
+      "agree": 13,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
       "same_key": true,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -10006,6 +11125,7 @@
   "copy_years": null,
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -10051,6 +11171,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -10090,7 +11211,9 @@
     "comparator_notes": 15,
     "same_key": true,
     "same_voice": true,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -10115,6 +11238,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -10164,7 +11288,9 @@
     "comparator_notes": 24,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -10191,6 +11317,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
@@ -10240,72 +11367,130 @@
     "comparator_notes": 16,
     "same_key": false,
     "same_voice": false,
+    "eligible": true,
     "witnesses": [
      {
       "source": "400007248",
       "source_inc": "1.1.1 Allo con spirito",
       "source_voice": "org",
       "overlap": 10,
+      "agree": 2,
+      "offset": [
+       0,
+       2
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "400007475",
       "source_inc": "1.1.1 Allegro con spirito",
       "source_voice": "cemb",
       "overlap": 10,
+      "agree": 2,
+      "offset": [
+       0,
+       2
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "402013291",
       "source_inc": "1.1.1 Allegro con spirito",
       "source_voice": "vl",
       "overlap": 10,
+      "agree": 2,
+      "offset": [
+       0,
+       2
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "410001188",
       "source_inc": "1.1.1 Allegro con Spirito",
       "source_voice": "vl 1",
       "overlap": 10,
+      "agree": 2,
+      "offset": [
+       0,
+       2
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "530000333",
       "source_inc": "1.1.1 Allegro con spirito",
       "source_voice": "cemb",
       "overlap": 10,
+      "agree": 2,
+      "offset": [
+       0,
+       2
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "550508338",
       "source_inc": "1.1.1 Allegro con Spirito",
       "source_voice": "vl 2",
       "overlap": 10,
+      "agree": 2,
+      "offset": [
+       0,
+       2
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "600172810",
       "source_inc": "1.1.1 Allegro con spirito",
       "source_voice": "vl",
       "overlap": 10,
+      "agree": 2,
+      "offset": [
+       0,
+       2
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      },
      {
       "source": "850611515",
       "source_inc": "1.1.1 All.o Con Spirito",
       "source_voice": "vl1",
       "overlap": 10,
+      "agree": 2,
+      "offset": [
+       0,
+       2
+      ],
+      "figuration": 0.0,
       "same_key": false,
-      "same_voice": false
+      "same_voice": false,
+      "eligible": true
      }
     ],
+    "failed_witnesses": [],
     "text_agreement": ""
    }
   ],
@@ -10332,6 +11517,7 @@
   ],
   "names_composer": false,
   "catalogue_number_in_title": false,
+  "title_names_work": [],
   "prior_documentation": [],
   "attribution_flags": [],
   "anonymous_record_authorship": [],
