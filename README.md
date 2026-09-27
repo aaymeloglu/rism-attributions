@@ -8,7 +8,7 @@ those incipits against the attributed ones and compares every candidate incipit 
 The results, with each anonymous copy's movements rendered next to the attributed copy's, are at
 **https://aaymeloglu.github.io/rism-attributions/**.
 
-## Results so far (26 September 2026)
+## Results so far (27 September 2026)
 
 | | Symphonies | Concertos | Operas |
 |---|---|---|---|
@@ -35,14 +35,19 @@ many anonymous arias turn out to be one composer's setting of a much-set librett
 *Didone abbandonata*, Sarri's, Perez's), German or Latin versions of Italian numbers (*Una cosa rara*,
 a Hasse aria with the Latin words "Veni mi Jesu care"), or arias a composer reused in another opera. Twenty-eight pairs
 of anonymous copies agree with each other from the start of two or more differently numbered
-incipits; each was compared by eye (25 same music, 3 probable), and RISM already links 19 of them and they are listed on the site as
+incipits; each was compared by eye (25 same music, 3 probable). RISM already documents 24 of
+the pairs; four have no explicit concordance found in the checked records. They are listed as
 [anonymous concordances](https://aaymeloglu.github.io/rism-attributions/concordances.html).
 
 A match means RISM holds an attributed copy of the same music. It does not settle a disputed
 authorship, and composers' printed thematic catalogues may already list some of these copies.
 Nothing has been reported to RISM yet. See [METHOD.md](METHOD.md) for the pipeline, what each
-verdict means, the checks, and the limits. The research was done by Claude (an LLM); two
-independent reviews by Codex (another LLM) led to the current verdicts, checks and descriptions.
+verdict means, the checks, and the limits. The research was done by Claude (an LLM); successive
+reviews by Codex (another LLM) led to the current verdicts, checks and descriptions.
+
+A [first manuscript and catalogue check](research/source-check-2026-09-27.md) supports the
+Seyffarth identification with longer passages in both manuscripts. Benda and Rosetti received
+more limited checks; unavailable images and thematic-catalogue source lists are recorded there.
 
 ## Layout
 

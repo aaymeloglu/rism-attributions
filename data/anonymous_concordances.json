@@ -23,7 +23,7 @@
   ],
   "already_documented": false,
   "verdict": "same",
-  "note": "The encoded incipits agree on 3 sections. Both copies are in the same library, perhaps catalogued together there."
+  "note": "The three encoded sections agree. The second-violin part of I-211 carries the former shelfmark I-240, now the other record's shelfmark; a parts or recataloguing relationship needs checking. RISM also states that no concordance is known."
  },
  {
   "a": "1001012913",
@@ -446,9 +446,9 @@
     "pitches": 16
    }
   ],
-  "already_documented": false,
+  "already_documented": true,
   "verdict": "same",
-  "note": "The encoded incipits agree on 3 sections. Both copies are in the same library, perhaps catalogued together there."
+  "note": "The three encoded sections agree. RISM already cites the concordant Dresden copies Mus.2-O-7a and -7b in its notes."
  },
  {
   "a": "212003540",
@@ -472,9 +472,9 @@
     "pitches": 19
    }
   ],
-  "already_documented": false,
+  "already_documented": true,
   "verdict": "same",
-  "note": "The encoded incipits agree on 3 sections. Both copies are in the same library, perhaps catalogued together there."
+  "note": "The three encoded sections agree. RISM already identifies the score under Mus.2-O-1,59a and the parts under Mus.2-O-1,59b."
  },
  {
   "a": "212003553",
@@ -545,9 +545,9 @@
     "pitches": 16
    }
   ],
-  "already_documented": false,
+  "already_documented": true,
   "verdict": "same",
-  "note": "The encoded incipits agree on 3 sections. Both copies are in the same library, perhaps catalogued together there."
+  "note": "The three encoded sections agree. RISM already links the scoring variants Mus.2-O-7c and -7a in its notes."
  },
  {
   "a": "212003590",
@@ -685,9 +685,9 @@
     "pitches": 20
    }
   ],
-  "already_documented": false,
+  "already_documented": true,
   "verdict": "probable",
-  "note": "Same harp concerto a whole tone apart (C major and B-flat major), all encoded sections agreeing."
+  "note": "Same harp concerto a whole tone apart (C major and B-flat major), all encoded sections agreeing. RISM already links RM 5636 and RM 5629 and describes the different key."
  },
  {
   "a": "400110586",
