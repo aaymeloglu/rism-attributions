@@ -34,6 +34,34 @@ def _call_tail(callno):
     return toks[-1] if toks else ""
 
 
+def _catalogue_notes(obj):
+    """Prose notes, excluding display labels and the record's own shelfmark fields."""
+    if isinstance(obj, dict):
+        label = (obj.get("label") or {}).get("en", []) if isinstance(obj.get("label"), dict) else []
+        if label and "note" in label[0].lower():
+            yield from (obj.get("value") or {}).get("none", [])
+        for key, value in obj.items():
+            if key not in {"label", "value", "incipits", "rendered", "renderings", "encodings"}:
+                yield from _catalogue_notes(value)
+    elif isinstance(obj, list):
+        for item in obj:
+            yield from _catalogue_notes(item)
+
+
+def _local_citations(src, siglum, callno):
+    """Local references can omit the library siglum. Require a full shelfmark and a
+    reference phrase; a note merely recording an old shelfmark is not a concordance.
+    This deliberately leaves ambiguous/abbreviated references for human review.
+    """
+    if not siglum or shelfmark(src)[0] != siglum or not re.search(r"\d", callno):
+        return
+    call = re.compile(r"(?<![\w/-])" + re.escape(callno) + r"(?![\w/-]|[.,]\d)")
+    reference = re.compile(r"\b(?:unter|siehe|see|concordan\w*|konkordanz\w*|manus[ck]ript\w*)\b", re.I)
+    for note in _catalogue_notes(src):
+        if call.search(note) and reference.search(note):
+            yield note
+
+
 def prior_documentation(anon_id, anon_src, comparators):
     """[(comparator id, snippet)] where a comparator record already refers to the anonymous copy."""
     siglum, callno = shelfmark(anon_src)
@@ -42,15 +70,20 @@ def prior_documentation(anon_id, anon_src, comparators):
     sigla.discard("")
     hits = []
     for cid, src in comparators:
+        local = list(_local_citations(src, siglum, callno))
+        if local:
+            hits.append((cid, local[0]))
+            continue
         text = _text(src)
-        if anon_id in text:
-            k = text.index(anon_id)
+        ident = re.search(r"(?<!\d)" + re.escape(anon_id) + r"(?!\d)", text)
+        if ident:
+            k = ident.start()
             hits.append((cid, text[max(0, k - 160):k + 40]))
             continue
         if not tail:
             continue
         for m in re.finditer(re.escape(tail), text):
-            if text[m.end():m.end() + 1].isdigit() or text[m.start() - 1:m.start()].isdigit():
+            if re.match(r"[\w/-]|[.,]\d", text[m.end():]) or re.search(r"[\w/-]$", text[:m.start()]):
                 continue
             window = text[max(0, m.start() - 60):m.start()]
             q0, q1 = text.rfind('"', 0, m.start()), text.find('"', m.end())

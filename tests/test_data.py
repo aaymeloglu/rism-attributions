@@ -262,6 +262,43 @@ def test_documented_concordances_say_so():
         if c.get("already_documented") and c["verdict"] != "rejected":
             assert re.search(r"already|cross-referenc", c["note"], re.I), (c["a"], c["b"], "the records already point at each other")
 
+    shown = [c for c in json.loads((ROOT / "data/anonymous_concordances.json").read_text())
+             if c["verdict"] in ("same", "probable")]
+    count = re.search(r"RISM already documents (\d+) of", (ROOT / "README.md").read_text())
+    assert count and int(count[1]) == sum(c["already_documented"] for c in shown), "README concordance total is stale"
+
+
+def test_local_shelfmark_concordances():
+    """Real RISM notes omit D-Dl/PL-Wu when citing copies in the same library."""
+    import context
+    sources = json.loads((ROOT / "tests/fixtures/local_concordances.json").read_text())
+    exported = {(c["a"], c["b"]): c for c in json.loads((ROOT / "data/anonymous_concordances.json").read_text())}
+    for a, b in [("212003416", "212003586"), ("212003585", "212003586"),
+                 ("212003540", "212003541"), ("300511197", "300511198")]:
+        hits = context.prior_documentation(a, sources[a], [(b, sources[b])])
+        hits += context.prior_documentation(b, sources[b], [(a, sources[a])])
+        assert hits, (a, b, "an explicit local citation was missed")
+        assert exported[a, b]["already_documented"], (a, b, "regenerate concordances")
+    # A former shelfmark suggests a relationship but does not establish a concordance.
+    a, b = "1001012602", "1001012610"
+    assert not context.prior_documentation(a, sources[a], [(b, sources[b])])
+    assert not context.prior_documentation(b, sources[b], [(a, sources[a])])
+
+
+def test_shelfmark_references_need_library_and_boundaries():
+    import context
+    def source(siglum, callno, note=""):
+        return {"label": {"en": [f"Concertos; Manuscript copy; {siglum} {callno}"]},
+                "notes": {"summary": [{"label": {"en": ["General note"]}, "value": {"none": [note]}}]}}
+    anon = source("D-Dl", "Mus.2-O-14")
+    assert context.prior_documentation("123456", anon, [("9", source("D-Dl", "Mus.2-O-15", "Partitur unter Mus.2-O-14."))])
+    for other in [source("PL-Wu", "Mus.2-O-15", "Partitur unter Mus.2-O-14."),
+                  source("D-Dl", "Mus.2-O-14a"),
+                  source("D-Dl", "Mus.2-O-15", "Partitur unter D-Dl Mus.2-O-14a."),
+                  source("D-Dl", "Mus.2-O-15", "Partitur unter D-Dl Mus.2-O-14,2."),
+                  source("D-Dl", "Mus.2-O-15", "See RISM 1234567.")]:
+        assert not context.prior_documentation("123456", anon, [("9", other)]), other
+
 
 def test_no_local_paths_or_secrets():
     bad = re.compile(r"/Users/|/private/tmp|AIza[0-9A-Za-z_-]{20,}")

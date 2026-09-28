@@ -125,7 +125,9 @@ differently numbered incipits are candidates. Each gets a verdict in
 `data/concordance_verdicts.csv` (same, probable, rejected) after comparison by eye; only same
 and probable pairs are published, and a rejected pair stays rejected on regeneration. Pairs whose records already point at each other
 (RISM's related-source links, or a note citing the other copy) are marked as already linked:
-verified, not new.
+verified, not new. Explicit full-shelfmark citations in notes can omit the library siglum
+when both copies are in the same library. A former shelfmark alone is not treated as a
+concordance; abbreviated or ambiguous references still need review.
 
 ## Limits
 
@@ -139,9 +141,11 @@ verified, not new.
   copy. Check before reporting.
 - Unencoded movements and sections are neither matches nor mismatches; the site reports
   matches as "k of n encoded incipits".
-- The research and incipit comparison were done by Claude (an LLM). Two independent reviews by
-  Codex (another LLM) on 26 September 2026 led to the three-part verdict, the catalogue checks,
-  the incipit-label descriptions and the parser fixes. No manuscript images were examined.
+- The research and incipit comparison were done by Claude (an LLM). Successive reviews by
+  Codex (another LLM) led to the three-part verdict, the catalogue checks,
+  the incipit-label descriptions and the parser fixes. A first, limited
+  [manuscript and catalogue check](research/source-check-2026-09-27.md) on 27 September 2026
+  records exactly which images were inspected and where access remains incomplete.
 
 ## Adding a genre
 

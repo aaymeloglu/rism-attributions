@@ -243,7 +243,7 @@ def build():
         '<div class="scroll"><table class="idx sortable"><tr><th data-col="0">Subject</th><th data-col="1">Anonymous with incipits</th>'
         '<th>Leads reviewed</th><th>Found</th><th>Status</th></tr>' + "".join(burn) + "</table></div>"
         f'<p class="where">Also: <a href="concordances.html">{sum(1 for c in conc if c["verdict"] in ("same", "probable"))} pairs of anonymous copies</a> '
-        f'({sum(1 for c in conc if c["verdict"] in ("same", "probable") and not c.get("already_documented"))} not yet linked in RISM) '
+        f'({sum(1 for c in conc if c["verdict"] in ("same", "probable") and not c.get("already_documented"))} with no prior concordance found in the checked RISM records) '
         'that agree with each other on two or more incipits, reviewed by eye. These group copies of one work without naming its composer.</p>'
         f'<details><summary>{len(other)} anonymous copies whose leads were reviewed and rejected</summary>'
         '<div class="scroll"><table class="idx"><tr><th>Anonymous copy</th><th>Lead</th><th>Verdict</th><th>Reason</th></tr>'
