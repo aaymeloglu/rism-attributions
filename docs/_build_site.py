@@ -53,18 +53,6 @@ details { margin:18px 0; } summary { cursor:pointer; color:var(--accent); }
 @media (max-width:700px) { body { font-size:16px; } .mv { grid-template-columns:1fr; } table.idx td { padding:8px; } }
 """
 
-SORT_JS = """<script>
-document.querySelectorAll('table.sortable th[data-col]').forEach(function(th){
-  th.style.cursor='pointer'; th.title='Sort';
-  th.addEventListener('click',function(){
-    var t=th.closest('table'), c=+th.dataset.col, rows=Array.from(t.querySelectorAll('tr')).slice(1);
-    var asc=!(th.dataset.asc==='1'); th.dataset.asc=asc?'1':'0';
-    rows.sort(function(a,b){var x=a.cells[c].dataset.sort||a.cells[c].textContent.trim(), y=b.cells[c].dataset.sort||b.cells[c].textContent.trim(); return (x<y?-1:x>y?1:0)*(asc?1:-1);});
-    rows.forEach(function(r){t.appendChild(r);});
-  });
-});
-</script>"""
-
 RENDER_JS = f"""<script src="{VEROVIO}" defer></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {{
@@ -78,19 +66,26 @@ document.addEventListener('DOMContentLoaded', function() {{
 }});
 </script>"""
 
-LABELS = {"confirmed": "Same music", "probable": "Probably same music", "unresolved": "Unresolved", "rejected": "Rejected"}
+LABELS = {"confirmed": "Same music", "probable": "Probable", "unresolved": "Unresolved", "rejected": "Rejected"}
 ATTRIBUTION = {"secure": "", "shared": "Work by several composers", "disputed": "Composer disputed", "uncertain": "Attribution uncertain",
-               "name-only": "Surname only", "modern-copy": "Attribution from a modern copy"}
-PRIOR = {"new": "", "anonymous-record": "Already named in the record", "comparator-record": "Already noted by RISM"}
+               "name-only": "Surname only", "modern-copy": "Attribution from a modern copy", "work-only": "Work identified only"}
+PRIOR = {"new": "", "anonymous-record": "Already named in the record", "comparator-record": "Already noted by RISM",
+         "title-names-work": "Title already names the work"}
 SHOWN = ("confirmed", "probable", "unresolved")
+AUTHOR_FILTERS = {"secure": "Unqualified", "disputed": "Disputed", "uncertain": "Uncertain",
+                  "name-only": "Surname only", "modern-copy": "Modern copy", "work-only": "Work only",
+                  "shared": "Shared", "": "Not assessed"}
+PRIOR_FILTERS = {"new": "Not noted", "anonymous-record": "Names composer", "comparator-record": "Cites copy",
+                 "title-names-work": "Names work", "": "Not assessed"}
 
 
-def page(title, body, crumbs="", depth=0):
+def page(title, body, crumbs="", depth=0, results=False):
     up = "../" * depth
+    extra = '<link rel="stylesheet" href="results.css"><script src="results.js" defer></script>' if results else ""
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{html.escape(title)}</title><style>{STYLE}</style></head>
-<body><div class="wrap">{crumbs.replace('HREF_UP', up)}{body}
+<title>{html.escape(title)}</title><style>{STYLE}</style>{extra}</head>
+<body{' class="results-page"' if results else ''}><div class="wrap">{crumbs.replace('HREF_UP', up)}{body}
 <p class="credit">Catalogue data and incipits come from <a href="https://rism.online/">RISM</a> (Répertoire International des Sources Musicales), CC BY 4.0. Incipits are rendered with <a href="https://www.verovio.org/">Verovio</a>. Source and data: <a href="{REPO}">{REPO}</a>.</p>
 </div></body></html>
 """
@@ -116,8 +111,10 @@ def score(p):
     return f'<div class="score" data-pae="{html.escape(pae_string(p))}"></div><code class="pae">{html.escape(p["data"])}</code>'
 
 
-def evidence(lead):
+def evidence(lead, compact=False):
     inc, hit = lead.get("incipits", []), lead.get("incipits_matched", [])
+    if compact:
+        return f"{len(hit)} of {len(inc)}" if "incipits" in lead else "Not scored"
     return f"{len(hit)} of {len(inc)} encoded incipit{'s' if len(inc) != 1 else ''}"
 
 
@@ -181,6 +178,60 @@ def record_page(r):
     return page(f"{r['shelfmark']} · RISM attributions", "".join(parts) + RENDER_JS, crumbs, depth=1)
 
 
+def primary_leads(record):
+    return [lead for lead in record["leads"] if lead["verdict"] == record["verdict"]]
+
+
+def filter_group(key, title, options, data, selected=None):
+    buttons = []
+    for value, label in options.items():
+        if key in ("verdict", "genre"):
+            count = sum(r[key] == value for r in data)
+        else:
+            count = sum(any(lead[key] == value for lead in primary_leads(r)) for r in data)
+        active = selected is None or value in selected
+        buttons.append(f'<button type="button" class="chip {value}" data-value="{value}" '
+                       f'aria-pressed="{str(active).lower()}">{html.escape(label)} <span class="chip-count">{count}</span></button>')
+    return (f'<fieldset data-filter="{key}"><legend>{title}</legend><div class="filter-options">'
+            + "".join(buttons) + '<button type="button" class="filter-all">All</button></div></fieldset>')
+
+
+def results_row(r, genre_labels):
+    leads = primary_leads(r)
+    # Keep one row per anonymous copy. Multiple equally ranked leads retain their own
+    # explanations and qualifications; filters must match both fields on the same lead.
+    displayed = leads[:1] if r["verdict"] == "rejected" else leads
+    composers, statuses, notes, counts = [], [], [], []
+    for lead in displayed:
+        name = lead.get("identity") or lead["composer"]
+        short_name = name.split(" (")[0]
+        work = matched_work(lead)
+        composers.append(f'<div class="lead-block"><strong title="{html.escape(name)}">{html.escape(short_name)}</strong>'
+                         + (f'<span class="work-title">{html.escape(work["label"].split(";")[0])}</span>' if work else "") + '</div>')
+        flags = [text for text in (ATTRIBUTION.get(lead["attribution"]), PRIOR.get(lead["prior"])) if text]
+        prefix = f'<b>{html.escape(short_name.split(",")[0])}:</b> ' if len(displayed) > 1 else ""
+        statuses.append('<div class="lead-block">' + (f'<span class="qualification">{prefix}</span>' if prefix and flags else "")
+                        + ''.join(f'<span class="qualification">{html.escape(text)}</span>' for text in flags) + '</div>')
+        notes.append(f'<div class="lead-block">{prefix}{html.escape(lead["note"])}</div>')
+        counts.append(f'<div class="lead-block">' + (f'<span class="qualification">{prefix}</span>' if prefix else "")
+                      + f'{evidence(lead, compact=True)}</div>')
+    if len(leads) > len(displayed):
+        composers.append(f'<span class="where">+ {len(leads) - 1} other rejected candidates</span>')
+        notes.append(f'<details><summary>Other rejected candidates ({len(leads) - 1})</summary><ul>'
+                     + ''.join(f'<li><b>{html.escape(x.get("identity") or x["composer"])}</b>: {html.escape(x["note"])}</li>' for x in leads[1:]) + '</ul></details>')
+    lead_filters = html.escape(json.dumps([{key: lead[key] for key in ("attribution", "prior")} for lead in leads]))
+    local = f'r/{r["id"]}.html' if r["verdict"] in SHOWN else RISM + r["id"]
+    return (f'<tr data-verdict="{r["verdict"]}" data-genre="{r["genre"]}" data-leads="{lead_filters}">'
+            f'<td class="rism-id" data-sort="{r["id"]}"><a href="{RISM}{r["id"]}">{r["id"]}</a></td>'
+            f'<td><a class="copy-link" href="{local}">{html.escape(r["shelfmark"])}</a>'
+            f'<span class="work-title">{html.escape(r["label"].split(";")[0])}</span></td>'
+            f'<td class="genre">{html.escape(genre_labels[r["genre"]])}</td>'
+            f'<td>{"".join(composers)}</td>'
+            f'<td class="incipit-count">{"".join(counts)}</td>'
+            f'<td data-sort="{list(LABELS).index(r["verdict"])}">{badge(r["verdict"])}{"".join(statuses)}</td>'
+            f'<td class="explanation">{"".join(notes)}</td></tr>')
+
+
 def build():
     data = json.loads((ROOT / "data" / "attributions.json").read_text())
     genres = json.loads((ROOT / "data" / "genres.json").read_text())
@@ -188,24 +239,14 @@ def build():
     (DOCS / "r").mkdir(parents=True, exist_ok=True)
     for old in (DOCS / "r").glob("*.html"):
         old.unlink()
-    rows, other = [], []
+    genre_labels = {g["slug"]: g["subject"] for g in genres}
+    rows = []
     for r in data:
-        lead = r["leads"][0]
         if r["verdict"] in SHOWN:
             (DOCS / "r" / f"{r['id']}.html").write_text(record_page(r))
-            work = matched_work(lead)
-            names = " / ".join(html.escape(x.get("identity") or x["composer"]) for x in r["leads"] if x["verdict"] == r["verdict"])
-            rows.append("<tr>"
-                        f'<td><a href="r/{r["id"]}.html"><b>{html.escape(r["shelfmark"])}</b></a><br>'
-                        f'<span class="where">{html.escape(r["label"].split(";")[0])} · <a href="{RISM}{r["id"]}">RISM {r["id"]}</a></span></td>'
-                        f'<td><b>{names}</b><br><span class="where">{html.escape(work["label"]) if work else ""}</span></td>'
-                        f'<td>{evidence(lead)}</td>'
-                        f'<td data-sort="{SHOWN.index(r["verdict"])}{lead["attribution"] != "secure":d}{lead["prior"] != "new":d}">{badges(lead)}<br><span class="where">{html.escape(lead["note"])}</span></td></tr>')
-        else:
-            other.append(f'<tr><td><a href="{RISM}{r["id"]}">{html.escape(r["shelfmark"])}</a></td>'
-                         f'<td>{html.escape(lead["composer"])}</td><td>{badge(r["verdict"])}</td><td class="where">{html.escape(lead["note"])}</td></tr>')
+        rows.append(results_row(r, genre_labels))
     shown = [r for r in data if r["verdict"] in SHOWN]
-    count = {v: sum(1 for r in shown if r["verdict"] == v) for v in LABELS}
+    count = {v: sum(1 for r in data if r["verdict"] == v) for v in LABELS}
     same = [r["leads"][0] for r in shown if r["verdict"] == "confirmed"]
     new_secure = sum(1 for x in same if x["attribution"] == "secure" and x["prior"] == "new")
     documented = sum(1 for x in same if x["prior"] != "new")
@@ -219,36 +260,60 @@ def build():
                   else '<span class="badge open">open</span>')
         burn.append(f'<tr><td>{html.escape(g["subject"])}</td><td data-sort="{g["anonymous_with_incipits"]:07d}">{g["anonymous_with_incipits"]:,}</td>'
                     f'<td>{len(done) if g.get("run") else ""}</td><td>{found if g.get("run") else ""}</td><td>{status}</td></tr>')
+    available_genres = {slug: label for slug, label in genre_labels.items() if any(r["genre"] == slug for r in data)}
+    filters = (filter_group("verdict", "Verdict", LABELS, data, {"confirmed"})
+               + filter_group("genre", "Genre", available_genres, data)
+               + filter_group("attribution", "Authorship", AUTHOR_FILTERS, data)
+               + filter_group("prior", "RISM record", PRIOR_FILTERS, data))
     body = (
-        "<h1>RISM: naming the anonymous</h1>"
-        '<p class="lede"><a href="https://rism.online/">RISM</a> catalogues about 1.6 million music manuscripts and prints; '
-        'about 297,000 of them are listed under “Anonymus”. Most of those carry incipits, the opening bars of movements or sections in '
-        'Plaine &amp; Easie code. This project searches every anonymous incipit against the attributed ones, keeps matches that no '
-        'other composer shares, and compares every candidate incipit by incipit. '
-        f'So far {count["confirmed"]} anonymous copies are the same music as an attributed copy ({multi} on two or more '
-        f'differently numbered incipits, {count["confirmed"] - multi} on a single one). Of those, {new_secure} are not noted '
-        f'in RISM and carry a single, unqualified attribution; {qualified} more are new but their composer is disputed, uncertain, '
-        f'a bare surname or known only from a modern copy; {documented} turned out to be noted in RISM already. '
-        f'{count["probable"]} more are probably the same music (transposed, arranged, or only partly encoded) and {count["unresolved"]} are unresolved. '
-        'The automatic score compares pitch contour only, ignoring rhythm; it finds candidates, and the rendered incipits on each '
-        'page are the evidence. A match transfers RISM’s attribution of the other copy, so it cannot settle a disputed authorship, '
-        'and composers’ printed thematic catalogues may already list some copies. '
-        f'Research and incipit comparison by Claude (an LLM); an independent review by Codex (another LLM) led to the current labels. Method in <a href="{REPO}/blob/main/METHOD.md">METHOD.md</a>.</p>'
-        "<h2>Results</h2>"
-        '<div class="scroll"><table class="idx sortable"><tr><th data-col="0">Anonymous copy</th><th data-col="1">Matches</th>'
-        '<th>Movements matching</th><th data-col="3">Verdict</th></tr>' + "".join(rows) + "</table></div>"
-        "<h2>Burndown</h2>"
-        '<p class="lede">Anonymous RISM sources with incipits, by subject heading. Multi-movement genres went first because '
-        'agreement across several movements is the strongest evidence.</p>'
-        '<div class="scroll"><table class="idx sortable"><tr><th data-col="0">Subject</th><th data-col="1">Anonymous with incipits</th>'
-        '<th>Leads reviewed</th><th>Found</th><th>Status</th></tr>' + "".join(burn) + "</table></div>"
+        "<header><h1>RISM: naming the anonymous</h1>"
+        '<p class="lede">Finding composers for anonymous music by comparing its opening bars '
+        'with attributed copies in <a href="https://rism.online/">RISM</a>.</p>'
+        f'<p class="summary-line"><strong>{count["confirmed"]} anonymous copies matched</strong> to the same music in an attributed source.</p>'
+        '<ul class="stats">'
+        f'<li><strong>{new_secure}</strong><span>Unqualified attribution</span><small>No prior link found in RISM</small></li>'
+        f'<li><strong>{qualified}</strong><span>Qualified attribution</span><small>No prior link found; authorship needs care</small></li>'
+        f'<li><strong>{documented}</strong><span>Already documented</span><small>The RISM record already names or links the work</small></li></ul>'
+        f'<p class="summary-line secondary">Also reviewed: <b>{count["probable"]}</b> probable matches, '
+        f'<b>{count["unresolved"]}</b> unresolved copies, and <b>{count["rejected"]}</b> copies with rejected leads.</p>'
+        '<p class="reading-note">A musical match does not settle disputed authorship or establish a new discovery.</p>'
+        '<details class="method"><summary>How to read these results</summary>'
+        '<ul><li><b>Incipits</b> are the opening bars encoded in RISM. Counts show matching openings out of all encoded openings; '
+        'these may represent movements, sections, or instrumental parts.</li>'
+        '<li><b>Same music</b> means a reviewed concordance with an attributed copy. <b>Probable</b> means a likely match; '
+        '<b>Unresolved</b> needs more evidence; <b>Rejected</b> means the candidate match did not hold up.</li>'
+        '<li><b>Authorship</b> records the strength of the attribution. “Unqualified” means a single, unqualified composer attribution '
+        'in the reviewed evidence. <b>RISM record</b> says whether the work was already named or linked there. '
+        '“Not noted” does not mean unknown to scholars; printed thematic catalogues may already list the copy.</li>'
+        f'<li>{multi} same-music matches have two or more differently numbered incipits; {count["confirmed"] - multi} have one. '
+        'Automatic matching uses pitch contour, ignoring rhythm; candidates are then reviewed against the incipit notation.</li></ul>'
+        f'<p>Research by Claude; reviewed by Codex. See the <a href="{REPO}/blob/main/METHOD.md">method</a> '
+        f'and <a href="{REPO}/blob/main/research/source-check-2026-09-27.md">selected manuscript checks</a>.</p></details></header>'
+        '<section aria-labelledby="results-title"><div class="results-heading"><h2 id="results-title">Results</h2>'
+        '<button type="button" id="reset-filters" hidden>Reset filters</button></div>'
+        '<div id="filters" hidden>' + filters + '</div>'
+        '<p id="result-count" role="status" aria-live="polite"></p>'
+        '<noscript><p>All reviewed copies are shown. Enable JavaScript to filter and sort.</p></noscript>'
+        '<div class="scroll" role="region" aria-label="Attribution results" tabindex="0">'
+        '<table id="results" class="idx sortable"><colgroup><col class="col-id"><col class="col-copy"><col class="col-genre">'
+        '<col class="col-match"><col class="col-incipits"><col class="col-verdict"><col class="col-note"></colgroup>'
+        '<thead><tr><th scope="col" data-col="0" data-type="number">RISM ID</th><th scope="col" data-col="1">Anonymous copy</th>'
+        '<th scope="col" data-col="2" title="RISM search category; the matched work may have a different genre">Genre</th><th scope="col" data-col="3">Matches</th>'
+        '<th scope="col" title="Matching openings out of all encoded openings">Incipits</th>'
+        '<th scope="col" data-col="5" data-type="number">Verdict</th><th scope="col">Explanation</th></tr></thead><tbody>'
+        + "".join(rows) + '</tbody></table></div>'
+        '<p id="no-results" hidden>No copies match these filters. Select another bubble or reset the filters.</p></section>'
+        "<h2>Search progress</h2>"
+        '<p class="lede">Anonymous RISM sources with incipits, by subject heading. Genres with several movements went first '
+        'because agreement across them gives stronger evidence.</p>'
+        '<div class="scroll"><table class="idx sortable"><thead><tr><th scope="col" data-col="0">Subject</th>'
+        '<th scope="col" data-col="1" data-type="number">Anonymous with incipits</th>'
+        '<th scope="col">Leads reviewed</th><th scope="col">Found</th><th scope="col">Status</th></tr></thead><tbody>'
+        + "".join(burn) + "</tbody></table></div>"
         f'<p class="where">Also: <a href="concordances.html">{sum(1 for c in conc if c["verdict"] in ("same", "probable"))} pairs of anonymous copies</a> '
         f'({sum(1 for c in conc if c["verdict"] in ("same", "probable") and not c.get("already_documented"))} with no prior concordance found in the checked RISM records) '
-        'that agree with each other on two or more incipits, reviewed by eye. These group copies of one work without naming its composer.</p>'
-        f'<details><summary>{len(other)} anonymous copies whose leads were reviewed and rejected</summary>'
-        '<div class="scroll"><table class="idx"><tr><th>Anonymous copy</th><th>Lead</th><th>Verdict</th><th>Reason</th></tr>'
-        + "".join(other) + "</table></div></details>" + SORT_JS)
-    (DOCS / "index.html").write_text(page("RISM: naming the anonymous", body))
+        'that agree with each other on two or more incipits, reviewed by eye. These group copies of one work without naming its composer.</p>')
+    (DOCS / "index.html").write_text(page("RISM: naming the anonymous", body, results=True))
     shown_conc = [c for c in conc if c["verdict"] in ("same", "probable")]
     crows = "".join(
         f'<tr><td><a href="{RISM}{c["a"]}">{html.escape(c["a_label"])}</a></td><td><a href="{RISM}{c["b"]}">{html.escape(c["b_label"])}</a></td>'
