@@ -25,7 +25,7 @@
       row.hidden = !matches;
       if (matches) visible++;
     });
-    count.textContent = `${visible} of ${rows.length} copies · Select bubbles to combine filters. Bubble counts are totals across all reviewed copies.`;
+    count.textContent = `${visible} of ${rows.length} copies · Select bubbles to combine filters. Bubble counts are totals for this table.`;
     empty.hidden = visible !== 0;
   }
   groups.forEach(group => {
