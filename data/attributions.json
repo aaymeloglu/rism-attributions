@@ -790,6 +790,70 @@
   "verdict": "confirmed"
  },
  {
+  "id": "850002422",
+  "genre": "overtures",
+  "label": "Overtures–F major; Manuscript copy; I-MAav Cart.14 n.18",
+  "shelfmark": "I-MAav Cart.14 n.18",
+  "leads": [
+   {
+    "composer": "Astarita, Gennaro (1745c-1805)",
+    "identity": "",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Matches the Sinfonia of Astarita's La contessa di Bimbimpoli (as Gli divertimenti in campagna, Dresden 1783), rhythm and repeat sign included.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro assai",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "'4F8-FFABG/i/4F8-CFCFC/4F-8-''(8FED)"
+      },
+      "notes": 18,
+      "overlap": 15,
+      "from_start": 15,
+      "counts": true,
+      "match": {
+       "source": "1001290294",
+       "incipit": "1.1.1 Sinfonia allegro vivace",
+       "voice": "vl 1",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "'4F8-F{FABG}/i/4F8-C{8FCFC}/4F"
+      },
+      "witnesses": []
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1 Allegro assai"
+    ],
+    "sources": [
+     {
+      "id": "1001290294",
+      "label": "La contessa di Bimbimpoli (Excerpts, Arrangement); Manuscript copy; RUS-Mrg Ф.954 II №641-650"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
   "id": "1001363895",
   "genre": "operas",
   "label": "Quadrille über Thema aus der Oper Des Teufels Anteil; Print",
@@ -1039,6 +1103,385 @@
      {
       "id": "301009643",
       "label": "La Part du diable (Excerpts, Arrangement); Manuscript copy; AWV 36.12; PL-WRu 62491 Muz."
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "850026320",
+  "genre": "overtures",
+  "label": "Overtures–C major; Manuscript copy; I-Rc Mss. 6204",
+  "shelfmark": "I-Rc Mss. 6204",
+  "leads": [
+   {
+    "composer": "Bach, Johann Christian (1735-1782)",
+    "identity": "",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Matches the Allegro assai of the Sinfonia of Johann Christian Bach's Il tutore e la pupilla (WarB G 24) and its symphony versions, rhythm included; here headed 'del Sig.r N. N. 1762'.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "850005023: cross-reference to Bach, Johann Peter"
+    ],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro assai",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "4'''C-CC/C-CC/C-g''A{8G6FG}4E/g''A{8G6FG}4Eg''A{8G6FG}4E/"
+      },
+      "notes": 16,
+      "overlap": 16,
+      "from_start": 16,
+      "counts": true,
+      "match": {
+       "source": "200018111",
+       "incipit": "1.1.1 Allegro assai",
+       "voice": "vl 1",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "'''4C-CC/C-CC/C-''gA8G6FG4E/!gA8G6FG4E!f/"
+      },
+      "witnesses": [
+       {
+        "source": "320500028",
+        "source_inc": "1.1.1 All[egr]o assai",
+        "source_voice": "vl 1",
+        "overlap": 16,
+        "agree": 16,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": true,
+        "eligible": true
+       },
+       {
+        "source": "400006321",
+        "source_inc": "1.1.1 Allegro assai",
+        "source_voice": "vl 1",
+        "overlap": 16,
+        "agree": 16,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": true,
+        "eligible": true
+       },
+       {
+        "source": "400007876",
+        "source_inc": "1.1.1 Allegro assai",
+        "source_voice": "vl 1",
+        "overlap": 16,
+        "agree": 16,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": true,
+        "eligible": true
+       },
+       {
+        "source": "551006179",
+        "source_inc": "1.1.1 Allegro assai",
+        "source_voice": "vl 1",
+        "overlap": 16,
+        "agree": 16,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": true,
+        "eligible": true
+       },
+       {
+        "source": "850005023",
+        "source_inc": "1.1.1 Allegro assai",
+        "source_voice": "vl 1",
+        "overlap": 7,
+        "agree": 7,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": true,
+        "eligible": true
+       },
+       {
+        "source": "1001075342",
+        "source_inc": "1.1.1 Allegro assai",
+        "source_voice": "vl 1",
+        "overlap": 6,
+        "agree": 6,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": true,
+        "eligible": true
+       },
+       {
+        "source": "400011424",
+        "source_inc": "1.1.1 Allegro assai",
+        "source_voice": "vl 1",
+        "overlap": 6,
+        "agree": 6,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": true,
+        "eligible": true
+       },
+       {
+        "source": "600055142",
+        "source_inc": "1.1.1 Allegro assai",
+        "source_voice": "vl 1",
+        "overlap": 6,
+        "agree": 6,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": true,
+        "eligible": true
+       }
+      ]
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1 Allegro assai"
+    ],
+    "sources": [
+     {
+      "id": "1001075342",
+      "label": "Sinfonia–C major; Manuscript copy; TerB 273/4, WarB G 24; D-Rp Ra 2"
+     },
+     {
+      "id": "200018111",
+      "label": "Il tutore e la pupilla (Excerpts); Manuscript copy; WarB G 24, TerB 273/4; D-RUl RH-B 14"
+     },
+     {
+      "id": "320500028",
+      "label": "Il tutore e la pupilla (Excerpts); Manuscript copy; WarB G 24, TerB 273/4; UA-Knbuv Rozum 120594/7"
+     },
+     {
+      "id": "400006321",
+      "label": "Symphonies–C major; Manuscript copy; SchB 181/4b, TerB 273/4, WarB G 24; CH-Bu kr IV 14"
+     },
+     {
+      "id": "400007876",
+      "label": "Overtures–C major; Manuscript copy; TerB 273/4, WarB G 24; CH-Zz AMG XIII 780 & a-g"
+     },
+     {
+      "id": "400011424",
+      "label": "Overtures–C major; Manuscript copy; TerB 273/4, WarB G 24; CH-E 679,3"
+     },
+     {
+      "id": "551006179",
+      "label": "Symphonies–C major; Manuscript copy; TerB 273/4, WarB G24; CZ-Pnm XLII B 257"
+     },
+     {
+      "id": "600055142",
+      "label": "Il tutore e la pupilla (Excerpts); Manuscript copy; WarB G 24, TerB 273/4; A-VOR 954"
+     },
+     {
+      "id": "850005023",
+      "label": "Symphonies–C major; Manuscript copy; WarB C 2a, TerB 273/4; I-BGc N.C.16.23"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "400014316",
+  "genre": "overtures",
+  "label": "Overtures–D major; Manuscript copy; CH-E 199,23",
+  "shelfmark": "CH-E 199,23",
+  "leads": [
+   {
+    "composer": "Balbi, Ignazio (1696c-1777p)",
+    "identity": "",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Matches the Allegro of an overture attributed to Ignazio Balbi in four copies, including one headed 'Del Sig.e D.n Ignazio Balbi Dilettante', rhythm included.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "'4.D8C{DEFG}/4.A8B{AGFE}/4D''{8.F3EF}4GC/"
+      },
+      "notes": 18,
+      "overlap": 18,
+      "from_start": 18,
+      "counts": true,
+      "match": {
+       "source": "190009634",
+       "incipit": "1.1.1 Allegro",
+       "voice": "vl 1",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "'4.D8C{DEFG}/4.A8B{AGFE}/4D{''8.F3EF}4GC/"
+      },
+      "witnesses": [
+       {
+        "source": "190009635",
+        "source_inc": "1.1.1 Allegro",
+        "source_voice": "vl 1",
+        "overlap": 18,
+        "agree": 18,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": true,
+        "eligible": true
+       },
+       {
+        "source": "452002962",
+        "source_inc": "1.1.1 Allegro assai",
+        "source_voice": "vl 1",
+        "overlap": 18,
+        "agree": 18,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": true,
+        "eligible": true
+       },
+       {
+        "source": "550018257",
+        "source_inc": "1.1.1 Allegro assai",
+        "source_voice": "vl 1",
+        "overlap": 18,
+        "agree": 18,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": true,
+        "eligible": true
+       },
+       {
+        "source": "603000040",
+        "source_inc": "1.1.1 All[egr]o assai",
+        "source_voice": "vl 1",
+        "overlap": 18,
+        "agree": 18,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": true,
+        "eligible": true
+       },
+       {
+        "source": "603000041",
+        "source_inc": "1.1.1 All[egr]o assai",
+        "source_voice": "vl 1",
+        "overlap": 18,
+        "agree": 18,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": true,
+        "eligible": true
+       }
+      ]
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1 Allegro"
+    ],
+    "sources": [
+     {
+      "id": "190009634",
+      "label": "Overtures–D major; Manuscript copy; S-Skma Leuhusens saml."
+     },
+     {
+      "id": "190009635",
+      "label": "Overtures–D major; Manuscript copy; S-Skma O-R"
+     },
+     {
+      "id": "452002962",
+      "label": "Overtures–D major; Manuscript copy; D-B Mus.ms. 1045"
+     },
+     {
+      "id": "550018257",
+      "label": "Overtures–D major; Manuscript copy; CZ-Pnm XXXIV C 157"
+     },
+     {
+      "id": "603000040",
+      "label": "Symphonies–D major; Manuscript copy; A-LA 247"
+     },
+     {
+      "id": "603000041",
+      "label": "Symphonies–D major; Manuscript copy; A-LA 248"
      }
     ]
    }
@@ -1981,6 +2424,90 @@
   "verdict": "confirmed"
  },
  {
+  "id": "850609975",
+  "genre": "overtures",
+  "label": "Overtures–B♭ major; Manuscript copy; I-OS Mss.Mus.B 596",
+  "shelfmark": "I-OS Mss.Mus.B 596",
+  "leads": [
+   {
+    "composer": "Benatti, Vincenzo (1767-1797)",
+    "identity": "",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The first-violin part matches the Allegro of the overture in Benatti's partial autograph of Egeria in the same library (I-OS Mss.Mus.B 1953), rhythm included.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "voice": "vl1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c/",
+       "data": "''4B-F-/'B8-B{''EDDD}/{GFFF}{ABBB}/!4.A"
+      },
+      "notes": 10,
+      "overlap": 10,
+      "from_start": 10,
+      "counts": true,
+      "match": {
+       "source": "850601928",
+       "incipit": "1.1.1 Allegro",
+       "voice": "vl1",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c/",
+       "data": "''4B-F-/'B8-B{''EDDD}/{GFFF}{ABBB}/!4.A"
+      },
+      "witnesses": [
+       {
+        "source": "850605404",
+        "source_inc": "1.1.1 All.o vivace",
+        "source_voice": "vl1",
+        "overlap": 10,
+        "agree": 10,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": true,
+        "eligible": true
+       }
+      ]
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1 Allegro"
+    ],
+    "sources": [
+     {
+      "id": "850601928",
+      "label": "Egeria; Partial autograph; I-OS Mss.Mus.B 1953"
+     },
+     {
+      "id": "850605404",
+      "label": "Egeria; Autograph manuscript; I-OS Mss.Mus.Rari B 6"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
   "id": "469190800",
   "genre": "symphonies",
   "label": "Symphonies–D major; Manuscript copy; D-Bsa SA 1908",
@@ -2104,6 +2631,238 @@
       "label": "Symphonies–D major; Manuscript copy; LeeB 1.4; D-Dl Mus.2981-N-2"
      }
     ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "1001318030",
+  "genre": "overtures",
+  "label": "Overtures–F major; Manuscript copy; PL-ŁA RM 133",
+  "shelfmark": "PL-ŁA RM 133",
+  "leads": [
+   {
+    "composer": "Bernardini, Marcello (1747c-1819)",
+    "identity": "",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Two incipits match Marcello Bernardini's pantomime Le nozze di Amore e Psiche in the same library (PL-ŁA RM 265): the Andante note for note, and the opening Allegro a fourth apart (F here, C there; transposed). The other numbers here (nymph and Amore ballets) fit the same pantomime.",
+    "class": "strong",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro giusto",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "{3''gGgFgE}4''F8F-{3''gGgFgE}4F8F-/{3''gGgFgE}4F8F-{3''gGgFgE}4F8F-/{3''gAgGgxF}4G8G-{3''gAgGgxF}4G8G-"
+      },
+      "notes": 24,
+      "overlap": 18,
+      "from_start": 18,
+      "counts": true,
+      "match": {
+       "source": "1001318302",
+       "incipit": "1.1.1 Overtura",
+       "voice": "vl 1",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "{6''qqGFEr}4F8F-{3''qqGFEr}4F8F-/{3''qqGFEr}4F8F-{3''qqGFEr}4F8F-/{3''qqAGFr}4G8G-{3''qqAGFr}4G8G-"
+      },
+      "witnesses": []
+     },
+     {
+      "incipit": "1.2.1 Andante | Comodo",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "2'E{8FGAG}/4G+{8G''C}{8'B''FD'B}/2C{8DEFE}/2EF/"
+      },
+      "notes": 16,
+      "overlap": 16,
+      "from_start": 16,
+      "counts": true,
+      "match": {
+       "source": "1001318302",
+       "incipit": "1.2.1 andante comodo",
+       "voice": "vl 1",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": false,
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "2'E{8FGAG}/4G+{8G''C}{8'B''FD'B}/2'C{8DEFE}/2EF/2''G{8xFGAG}/4.G8A4.F8G"
+      },
+      "witnesses": []
+     },
+     {
+      "incipit": "1.3.1 Marcia",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "2'F4F{8.F6F}/4A{8.A6A}4''C{8.C6C}/4F-4'A{8.A6G}/4FF{8.G6F8.G6A}"
+      },
+      "notes": 11,
+      "overlap": 0,
+      "from_start": 0,
+      "counts": false
+     },
+     {
+      "incipit": "1.4.1 Balletto Vanorale Andantino grazioso",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "6/8",
+       "data": "4''D8E/4G8F{8FGE}/4E8D4D8E/4G8F{8FED}/4C8-4D8E"
+      },
+      "notes": 15,
+      "overlap": 0,
+      "from_start": 0,
+      "counts": false
+     },
+     {
+      "incipit": "1.5.1 Le Ninfe Scacciate Allegro",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "2/4",
+       "data": "4'F{8''CC}//:{8FF}{6FGAF}/{8CC}{8CC}/{8AA}{6AB'''C''A}/8F-{8'''CC}/{8''AA}{6GABG}/{8AA'''CC}/{8''AA}{6GABG}/4F{8CC}://{8FF}{6FGAF}"
+      },
+      "notes": 31,
+      "overlap": 0,
+      "from_start": 0,
+      "counts": false
+     },
+     {
+      "incipit": "1.6.1 Amoresi addormoita e sogna andante comodo",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "1-/4-8-8G{8''CCCC}/4'B-2-/4-8-8G{8''CCCC}/4'B8''D-G-(4-)/-1/2.'''C4''G/2.E4'''C"
+      },
+      "notes": 12,
+      "overlap": 0,
+      "from_start": 0,
+      "counts": false
+     },
+     {
+      "incipit": "1.7.1 Le Ninfe sono in cafenate al Carro Allegro",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "2/4",
+       "data": "4.''B8F/4.'''D8''B/{6AB'''C''B}{6AB'''C''A}/4.''B8F-"
+      },
+      "notes": 14,
+      "overlap": 5,
+      "from_start": 1,
+      "counts": false,
+      "match": {
+       "source": "1001318302",
+       "incipit": "1.1.1 Overtura",
+       "voice": "vl 1",
+       "text": "",
+       "offset": [
+        6,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "{6''qqGFEr}4F8F-{3''qqGFEr}4F8F-/{3''qqGFEr}4F8F-{3''qqGFEr}4F8F-/{3''qqAGFr}4G8G-{3''qqAGFr}4G8G-"
+      },
+      "witnesses": []
+     },
+     {
+      "incipit": "1.8.1 Marcia Maestosa",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "c",
+       "data": "2'E//4E{8.E6E}/{3gDgE}4F,B'F{8.F6F}/{6gEgF}4GE''G{8.G6G}/4BGF{8G6G}"
+      },
+      "notes": 11,
+      "overlap": 0,
+      "from_start": 0,
+      "counts": false
+     },
+     {
+      "incipit": "1.9.1 Andante Maestoso",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "c",
+       "data": "2'EG/B4-{8.''G6F}/4EEE{8.D6F}/4FE-{8.B6A}"
+      },
+      "notes": 11,
+      "overlap": 0,
+      "from_start": 0,
+      "counts": false
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1 Allegro giusto",
+     "1.2.1 Andante | Comodo"
+    ],
+    "sources": [
+     {
+      "id": "1001318302",
+      "label": "Le Nozze di Amore–C major; Manuscript copy; PL-ŁA RM 265"
+     }
+    ]
+   },
+   {
+    "composer": "Huber, Ferdinand Fürchtegott (1791-1863)",
+    "identity": "",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only short fragments agree with a set of duets written long after this copy",
+    "class": "date-impossible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [
+     "1.9.1 Andante Maestoso -> 407000693 1.1.1 Maestoso"
+    ],
+    "anonymous_record_authorship": []
    }
   ],
   "verdict": "confirmed"
@@ -2250,6 +3009,174 @@
      {
       "id": "603000933",
       "label": "Le Petit Chaperon rouge–D major (Excerpts, Arrangement); Print"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "850026318",
+  "genre": "overtures",
+  "label": "Overtures–C major; Manuscript copy; I-Rc Mss. 6208",
+  "shelfmark": "I-Rc Mss. 6208",
+  "leads": [
+   {
+    "composer": "Borghi, Giovanni Battista (1738-1796)",
+    "identity": "",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Matches the Overtura of Borghi's Piramo e Tisbe (Florence 1783) and a symphony headed 'Del Sig:r Giovanni Battista Borghi', rhythm included. The record notes that the other parts of this set are in I-Fn MS MUS 298 (RISM 850026319).",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro con spirito",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "2''C4.C8C/4ECEG/'''C8-C{3''BA8.G}8{GG}/4'''C8-C"
+      },
+      "notes": 10,
+      "overlap": 10,
+      "from_start": 10,
+      "counts": true,
+      "match": {
+       "source": "500052593",
+       "incipit": "1.1.1 Allegro",
+       "voice": "vl 1",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "''2C4CC/ECEG/'''C8-C{''3BA8.G}{8GG}/'''4C"
+      },
+      "witnesses": [
+       {
+        "source": "850007012",
+        "source_inc": "1.1.1 Overtura.",
+        "source_voice": "vl 1",
+        "overlap": 10,
+        "agree": 10,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": true,
+        "eligible": true
+       }
+      ]
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1 Allegro con spirito"
+    ],
+    "sources": [
+     {
+      "id": "500052593",
+      "label": "Symphonies–C major; Manuscript copy; HR-Dsmb 3/80"
+     },
+     {
+      "id": "850007012",
+      "label": "Piramo e Tisbe (Excerpts); Manuscript copy; I-Tf 9 II 14-4"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "850026319",
+  "genre": "overtures",
+  "label": "Overtures–C major; Manuscript copy; I-Fn MS MUS 298",
+  "shelfmark": "I-Fn MS MUS 298",
+  "leads": [
+   {
+    "composer": "Borghi, Giovanni Battista (1738-1796)",
+    "identity": "",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Matches the Overtura of Borghi's Piramo e Tisbe (Florence 1783) and a symphony headed 'Del Sig:r Giovanni Battista Borghi', rhythm included. Parts of the same set as I-Rc Mss. 6208 (RISM 850026318).",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "2''C4.C8C/4ECEG/'''C8-C{3''BA8.G}8{GG}/4'''C8-C"
+      },
+      "notes": 10,
+      "overlap": 10,
+      "from_start": 10,
+      "counts": true,
+      "match": {
+       "source": "500052593",
+       "incipit": "1.1.1 Allegro",
+       "voice": "vl 1",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "''2C4CC/ECEG/'''C8-C{''3BA8.G}{8GG}/'''4C"
+      },
+      "witnesses": [
+       {
+        "source": "850007012",
+        "source_inc": "1.1.1 Overtura.",
+        "source_voice": "vl 1",
+        "overlap": 10,
+        "agree": 10,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": true,
+        "eligible": true
+       }
+      ]
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1"
+    ],
+    "sources": [
+     {
+      "id": "500052593",
+      "label": "Symphonies–C major; Manuscript copy; HR-Dsmb 3/80"
+     },
+     {
+      "id": "850007012",
+      "label": "Piramo e Tisbe (Excerpts); Manuscript copy; I-Tf 9 II 14-4"
      }
     ]
    }
@@ -2911,6 +3838,287 @@
   "verdict": "confirmed"
  },
  {
+  "id": "270002463",
+  "genre": "overtures",
+  "label": "Overtures–D major; Manuscript copy; D-Dl Mus.3556-F-516",
+  "shelfmark": "D-Dl Mus.3556-F-516",
+  "leads": [
+   {
+    "composer": "Cimarosa, Domenico (1749-1801)",
+    "identity": "",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "anonymous-record",
+    "note": "All three encoded incipits (Allegro assai, Andantino, Allegro con spirito) match the Sinfonia of Cimarosa's L'amor costante in the Dresden score of the same library (Mus.3556-F-512, given as Giulietta e Armidoro in 1790); copies of Il ritorno di Don Calandrino and L'Armida immaginaria open with the same Allegro. The anonymous record already names Cimarosa, but only as the composer of L'infedeltà fedele, into whose overture this sinfonia is bound as a Dresden alternative; the match identifies which Cimarosa sinfonia it is.",
+    "class": "known",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro assai",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "2.'''D4''A/2A{8GFED}/2.'''D4''A/2A{8GFED}/"
+      },
+      "notes": 12,
+      "overlap": 12,
+      "from_start": 12,
+      "counts": true,
+      "match": {
+       "source": "270001302",
+       "incipit": "1.1.1 Sinfonia. Allegro assai",
+       "voice": "vl 1",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "2.'''D4''A/2A{8GFED}/2.'''D4''A/2A{8GFED}/"
+      },
+      "witnesses": [
+       {
+        "source": "270002458",
+        "source_inc": "1.1.1 [Sinfonia]. Allegro assai",
+        "source_voice": "vl 1",
+        "overlap": 12,
+        "agree": 12,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": true,
+        "eligible": true
+       },
+       {
+        "source": "550019154",
+        "source_inc": "1.1.1 Overture. Allegro assai",
+        "source_voice": "vl 1",
+        "overlap": 12,
+        "agree": 12,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": true,
+        "eligible": true
+       },
+       {
+        "source": "850008343",
+        "source_inc": "1.1.1 Overtura. Allegro spiritoso",
+        "source_voice": "vl 1",
+        "overlap": 12,
+        "agree": 12,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": true,
+        "eligible": true
+       },
+       {
+        "source": "850008400",
+        "source_inc": "1.1.1 Sinfonia. Allegro assai",
+        "source_voice": "vl 1",
+        "overlap": 12,
+        "agree": 12,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": true,
+        "eligible": true
+       },
+       {
+        "source": "858000054",
+        "source_inc": "1.1.1 [Sinfonia] Overtura. Allegro spiritoso",
+        "source_voice": "vl 1",
+        "overlap": 12,
+        "agree": 12,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": true,
+        "eligible": true
+       },
+       {
+        "source": "858000096",
+        "source_inc": "1.1.1 [Sinfonia]. Allegro assai",
+        "source_voice": "vl 1",
+        "overlap": 12,
+        "agree": 12,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": true,
+        "eligible": true
+       },
+       {
+        "source": "850801904",
+        "source_inc": "1.1.1 Allegro assai",
+        "source_voice": "vl",
+        "overlap": 12,
+        "agree": 12,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": false,
+        "eligible": true
+       },
+       {
+        "source": "451511661",
+        "source_inc": "1.1.1 Allegro assai",
+        "source_voice": "vl",
+        "overlap": 8,
+        "agree": 8,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": false,
+        "eligible": true
+       }
+      ]
+     },
+     {
+      "incipit": "1.2.1 Andantino",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "3/4",
+       "data": "qq6''DEFr8G-D-'B-/4G--/6{AB''C'B}{AB''C'B}q6''D{8C6'BA}/{8GG}G-"
+      },
+      "notes": 20,
+      "overlap": 20,
+      "from_start": 20,
+      "counts": true,
+      "match": {
+       "source": "270001302",
+       "incipit": "1.2.1 Andantino",
+       "voice": "vl 1",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": false,
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "3/4",
+       "data": "qq6''DEFr8G-D-'B-/4G--/{6AB''C'B}{AB''C'B}q''D{8C6'BA}/{8GG}G-"
+      },
+      "witnesses": []
+     },
+     {
+      "incipit": "1.3.1 Allegro con spirito",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "2/4",
+       "data": "6''D/4D8-3-{'AB''C}/6{D'A''D'A}{''ECEC}/{FDFD}{GEGE}/"
+      },
+      "notes": 20,
+      "overlap": 20,
+      "from_start": 20,
+      "counts": true,
+      "match": {
+       "source": "270001302",
+       "incipit": "1.3.1 Allegro con spirito",
+       "voice": "vl 1",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": false,
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "2/4",
+       "data": "6''D/4D8-3-{'AB''C}/{6D'A''D'A}{''ECEC}/{FDFD}{GEGE}/"
+      },
+      "witnesses": []
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1 Allegro assai",
+     "1.2.1 Andantino",
+     "1.3.1 Allegro con spirito"
+    ],
+    "sources": [
+     {
+      "id": "270001302",
+      "label": "L' Amor costante; Manuscript copy; D-Dl Mus.3556-F-512"
+     },
+     {
+      "id": "270002458",
+      "label": "L'amor costante (Excerpts); Manuscript copy; D-Dl Mus.3556-F-509"
+     },
+     {
+      "id": "451511661",
+      "label": "Il ritorno di Don Calandrino; Manuscript copy; D-Wa 46 Alt 140-141"
+     },
+     {
+      "id": "550019154",
+      "label": "Il ritorno di Don Calandrino; Manuscript copy; CZ-BER HU 784"
+     },
+     {
+      "id": "850008343",
+      "label": "L'Armida immaginaria; Partial autograph; I-Nc Rari 1.3.8-9"
+     },
+     {
+      "id": "850008400",
+      "label": "Il ritorno di Don Calandrino; Partial autograph; I-Nc 1.4.5-6"
+     },
+     {
+      "id": "850801904",
+      "label": "Pieces; Manuscript copy; I-Bl [no indication]"
+     },
+     {
+      "id": "858000054",
+      "label": "Armida immaginaria; Manuscript copy; I-Rmassimo [without shelfmark]"
+     },
+     {
+      "id": "858000096",
+      "label": "Il ritorno di Don Calandrino; Manuscript copy; I-Rmassimo [without shelfmark]"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
   "id": "400003941",
   "genre": "symphonies",
   "label": "Symphonies–D major; Manuscript copy; CH-EN Ms A 128",
@@ -3370,6 +4578,123 @@
   "verdict": "confirmed"
  },
  {
+  "id": "240007321",
+  "genre": "overtures",
+  "label": "Overtures–G minor; Manuscript copy; D-SWl Mus.276",
+  "shelfmark": "D-SWl Mus.276",
+  "leads": [
+   {
+    "composer": "Conti, Francesco Bartolomeo (1681c-1732)",
+    "identity": "",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Two incipits match keyboard arrangements of the overture to Conti's Clotilde (1706): the Ouverture opening, and the 12/8 movement matches the Jigg (1001284369 incipit 1.1.1), which that record calls the third part of the same overture. The comparator notes that Handel also used this overture for the pasticcio Ormisda.",
+    "class": "strong",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [
+     "1.3.1 -> 1001284369 1.1.1"
+    ],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Ouverture.",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "8''G/4G8-3-{GFE}4D{8.C6'BA}/{8BG}"
+      },
+      "notes": 9,
+      "overlap": 9,
+      "from_start": 9,
+      "counts": true,
+      "match": {
+       "source": "1001284367",
+       "incipit": "1.1.1",
+       "voice": "keyb",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "6''G/4.G3-{GFE4}D8{C6'BA}/{8BG}{''8.G6G}{8G6AB}4xF/"
+      },
+      "witnesses": []
+     },
+     {
+      "incipit": "1.2.1",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "3/4",
+       "data": "4''E-D/'nB-''C/'A-B/G-A/xF"
+      },
+      "notes": 9,
+      "overlap": 0,
+      "from_start": 0,
+      "counts": false
+     },
+     {
+      "incipit": "1.3.1",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "12/8",
+       "data": "8''D/4G8G{GAB}4A8A{ABA}/{GAB}"
+      },
+      "notes": 10,
+      "overlap": 10,
+      "from_start": 10,
+      "counts": true,
+      "match": {
+       "source": "1001284369",
+       "incipit": "1.1.1",
+       "voice": "keyb",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "12/8",
+       "data": "8''D/4G8G{GAB}4A8A{ABA}/{GAB}{ABG}4.xF8-3{DnExF}/"
+      },
+      "witnesses": []
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1 Ouverture.",
+     "1.3.1"
+    ],
+    "sources": [
+     {
+      "id": "1001284367",
+      "label": "Overtures–D major (Excerpts, Arrangement); Manuscript copy; GB-BEcr OR2183"
+     },
+     {
+      "id": "1001284369",
+      "label": "Gigue–G minor (Excerpts, Arrangement); Manuscript copy; GB-BEcr OR2183"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
   "id": "850004869",
   "genre": "symphonies",
   "label": "Symphonies–D major; Manuscript copy; I-Fn MUS.Mss.Rostirolla.202",
@@ -3447,6 +4772,85 @@
      {
       "id": "450012798",
       "label": "Oratorio per l'Assunzione della Maria Vergine (Excerpts); Possible autograph manuscript; D-KA Don Mus.Ms. 293"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "301002876",
+  "genre": "overtures",
+  "label": "Overtures–D minor; Manuscript copy; PL-WRu 61457 Muz.",
+  "shelfmark": "PL-WRu 61457 Muz.",
+  "leads": [
+   {
+    "composer": "Dalayrac, Nicolas-Marie (1753-1809)",
+    "identity": "",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The slow introduction matches the Ouverture (Largo) of Dalayrac's Camille, ou Le souterrain, rhythm included, through the descending run.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Adagio lento",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "2''D4.'D8D/4D4-4-3-{3''DC'B}{AG5FEDC}/4,BBB'B/AAAA/AAAA/AAAA/ABBB/BBBB/"
+      },
+      "notes": 15,
+      "overlap": 12,
+      "from_start": 1,
+      "counts": true,
+      "match": {
+       "source": "990012077",
+       "incipit": "1.1.1 Ouverture. Larghetto",
+       "voice": "vl",
+       "text": "",
+       "offset": [
+        1,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "'2D^''D'4.D8D/4D4--3-{''DC'B}{AG5FEDC}/4,BBB'B/"
+      },
+      "witnesses": []
+     },
+     {
+      "incipit": "1.2.1 Allegro assai",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "2''D'A/F4.D6-6''D/'2bBG/D,bB/''EC/'bB4.G6-6''E/"
+      },
+      "notes": 14,
+      "overlap": 0,
+      "from_start": 0,
+      "counts": false
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1 Adagio lento"
+    ],
+    "sources": [
+     {
+      "id": "990012077",
+      "label": "Camille; Print"
      }
     ]
    }
@@ -3795,6 +5199,189 @@
      {
       "id": "551005498",
       "label": "Symphonies–D major; Manuscript copy; FosD 2; CZ-Pnm XLII B 26"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "1001220251",
+  "genre": "overtures",
+  "label": "Quartets–E minor (Excerpts, Arrangement); Manuscript copy; GB-Cmc F.4.35",
+  "shelfmark": "GB-Cmc F.4.35",
+  "leads": [
+   {
+    "composer": "Desmarets, Henri (1661-1741)",
+    "identity": "",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The Ouverture treble matches the Ouverture of Desmarest's Circé (1694) in a Berkeley arrangement whose dessus is headed 'Ouverture de Circé, mise en musique par M. Desmarais', rhythm included. One of the Cambridge quartet arrangements (24th Sett).",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Ouverture",
+      "voice": "Treble",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c/",
+       "data": "''2G+8{GGAB}/2A+8{AFBF}/4.G8G4.G8F/2E+8E"
+      },
+      "notes": 10,
+      "overlap": 10,
+      "from_start": 10,
+      "counts": true,
+      "match": {
+       "source": "116794",
+       "incipit": "1.1.1 Ouverture. Lentement",
+       "voice": "dessus",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-1",
+       "keysig": "xF",
+       "timesig": "c/",
+       "data": "''2G+{8GGAB}/2A+{8AFBF}/4.G8G4.G8F/2E+{8E'B''E'B}/"
+      },
+      "witnesses": [
+       {
+        "source": "840011874",
+        "source_inc": "1.2.1",
+        "source_voice": "",
+        "overlap": 10,
+        "agree": 10,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": false,
+        "eligible": true
+       }
+      ]
+     },
+     {
+      "incipit": "1.1.2 Ouverture",
+      "voice": "Bass",
+      "text": "",
+      "anon": {
+       "clef": "F-4",
+       "keysig": "xF",
+       "timesig": "c/",
+       "data": ",4.E8B'4.E8E/2ExD/2E+8{E,B'E,B}/'{CC,BA}2xG/"
+      },
+      "notes": 12,
+      "overlap": 0,
+      "from_start": 0,
+      "counts": false
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1 Ouverture"
+    ],
+    "sources": [
+     {
+      "id": "116794",
+      "label": "Circe (Excerpts, Arrangement); Manuscript copy; US-BEm MS 893 A-B"
+     },
+     {
+      "id": "840011874",
+      "label": "Circé; Manuscript copy; F-Pn X-92"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "126395",
+  "genre": "overtures",
+  "label": "Julie (Excerpts, Arrangement); Manuscript copy; US-AAu M118.Q2 17--",
+  "shelfmark": "US-AAu M118.Q2 17--",
+  "leads": [
+   {
+    "composer": "Dezède, Nicolas (1745c-1792)",
+    "identity": "",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "title-names-work",
+    "note": "Matches the Allegro of the overture to Dezède's Julie in a harp or keyboard arrangement, which the title already names.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "voice": "arp",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "{''8BBBB}4.B{6AG}/{8FFFF}4F{6FEDC}/{'8BBBB}4.B{6AG}/{8FD}"
+      },
+      "notes": 12,
+      "overlap": 12,
+      "from_start": 12,
+      "counts": true,
+      "match": {
+       "source": "1001369932",
+       "incipit": "1.1.1 Allegro",
+       "voice": "arp (cemb, pf)",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "{''8BBBB}4.B{6AG}/{8FFFF}4F{6FEDC}/{'8BBBB}4.B{6AG}/{8FD}"
+      },
+      "witnesses": [
+       {
+        "source": "551005419",
+        "source_inc": "1.1.1 Ouverture. All[egr]o",
+        "source_voice": "vl 1",
+        "overlap": 12,
+        "agree": 12,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": false,
+        "same_voice": false,
+        "eligible": true
+       }
+      ]
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1 Allegro"
+    ],
+    "sources": [
+     {
+      "id": "1001369932",
+      "label": "Julie–B♭ major (Excerpts, Arrangement); Print"
+     },
+     {
+      "id": "551005419",
+      "label": "Julie (Excerpts); Manuscript copy; CZ-Pnm XLII A 355"
      }
     ]
    }
@@ -4762,6 +6349,103 @@
      {
       "id": "800070098",
       "label": "The Maid of the Mill (Excerpts, Arrangement); Manuscript copy; GB-Gu Bi 22 - z.29"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "1001214064",
+  "genre": "overtures",
+  "label": "Quartets–G major (Arrangement); Manuscript copy; GB-Cmc F.4.35",
+  "shelfmark": "GB-Cmc F.4.35",
+  "leads": [
+   {
+    "composer": "Farinel, Jean Baptiste (1655-1725c)",
+    "identity": "",
+    "verdict": "confirmed",
+    "attribution": "uncertain",
+    "prior": "new",
+    "note": "The Ouverture treble matches the Ouverture of the 3e Suitte in D-DS Mus.ms 1221, rhythm included; the bass agrees only where it imitates the treble. That suite's attribution to Farinel is a conjecture (AlbertynH 2005). One of the Cambridge quartet arrangements (49th Sett).",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "450028011: composer qualified as Conjectural"
+    ],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Ouverture",
+      "voice": "Treble",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "2",
+       "data": "''4.G8D4GA/2F+{8FGAF}/4.G8A4.B8'''C/''4A2D"
+      },
+      "notes": 14,
+      "overlap": 12,
+      "from_start": 12,
+      "counts": true,
+      "match": {
+       "source": "450028011",
+       "incipit": "1.1.1 3.e Suitte / Ouverture.",
+       "voice": "vl",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-1",
+       "keysig": "xF",
+       "timesig": "2/2",
+       "data": "''4.G8D4GA/2F+8FGAF/4.G8A4B'''C/"
+      },
+      "witnesses": []
+     },
+     {
+      "incipit": "1.1.2 Ouverture",
+      "voice": "Bass",
+      "text": "",
+      "anon": {
+       "clef": "F-4",
+       "keysig": "xF",
+       "timesig": "2",
+       "data": "=/=/,4.G8D4GA/FG,,4.B8G/"
+      },
+      "notes": 8,
+      "overlap": 6,
+      "from_start": 6,
+      "counts": false,
+      "match": {
+       "source": "450028011",
+       "incipit": "1.1.1 3.e Suitte / Ouverture.",
+       "voice": "vl",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-1",
+       "keysig": "xF",
+       "timesig": "2/2",
+       "data": "''4.G8D4GA/2F+8FGAF/4.G8A4B'''C/"
+      },
+      "witnesses": []
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1 Ouverture"
+    ],
+    "sources": [
+     {
+      "id": "450028011",
+      "label": "Suites–G major; Manuscript copy; D-DS Mus.ms 1221"
      }
     ]
    }
@@ -7320,6 +9004,185 @@
   "verdict": "confirmed"
  },
  {
+  "id": "703002202",
+  "genre": "overtures",
+  "label": "Overtures–G minor (Arrangement); Manuscript copy; B-Bc 15454/28",
+  "shelfmark": "B-Bc 15454/28",
+  "leads": [
+   {
+    "composer": "Grétry, André-Ernest-Modeste (1741-1813)",
+    "identity": "",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The primo part of this piano arrangement matches the Ouverture of Grétry's Richard Cœur-de-Lion, rhythm included.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1",
+      "voice": "pf primo",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "'{8G6GG8GG}{GBAxF}/{B6BB8BB}{B''DC'A}/"
+      },
+      "notes": 8,
+      "overlap": 8,
+      "from_start": 8,
+      "counts": true,
+      "match": {
+       "source": "1001010927",
+       "incipit": "1.1.1 Ouverture. Allegretto",
+       "voice": "ob 1",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "8{'G6GG}8{GG}{GBAxF}/8{B6BB}8{BB}{B''DC'A}/"
+      },
+      "witnesses": [
+       {
+        "source": "1001354547",
+        "source_inc": "1.1.1",
+        "source_voice": "ob 1",
+        "overlap": 8,
+        "agree": 8,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": false,
+        "eligible": true
+       },
+       {
+        "source": "200043309",
+        "source_inc": "1.1.1 Nro 1. Ouvertüre. Allegretto",
+        "source_voice": "ob 1",
+        "overlap": 8,
+        "agree": 8,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": false,
+        "eligible": true
+       },
+       {
+        "source": "280000054",
+        "source_inc": "1.1.1 Ouverture. Allegretto",
+        "source_voice": "ob 1",
+        "overlap": 8,
+        "agree": 8,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": false,
+        "eligible": true
+       },
+       {
+        "source": "280000618",
+        "source_inc": "1.1.1 Ouverture. Allegretto",
+        "source_voice": "ob 1",
+        "overlap": 8,
+        "agree": 8,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": false,
+        "eligible": true
+       },
+       {
+        "source": "280001854",
+        "source_inc": "1.1.1 Maestoso",
+        "source_voice": "ob 1",
+        "overlap": 8,
+        "agree": 8,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": false,
+        "eligible": true
+       },
+       {
+        "source": "550401388",
+        "source_inc": "1.1.1 Ouvertüre. Allegretto",
+        "source_voice": "ob 1",
+        "overlap": 8,
+        "agree": 8,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": false,
+        "eligible": true
+       }
+      ]
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1"
+    ],
+    "sources": [
+     {
+      "id": "1001010927",
+      "label": "Richard Cœur-de-Lion; Manuscript copy; D-DEat EPH 012"
+     },
+     {
+      "id": "1001354547",
+      "label": "Richard Cœur-de-Lion; Manuscript copy; D-DEsa D1.09 ATD-Musik 3705"
+     },
+     {
+      "id": "200043309",
+      "label": "Richard Cœur-de-Lion; Manuscript copy; D-MEIr A 6"
+     },
+     {
+      "id": "280000054",
+      "label": "Richard Cœur-de-Lion; Manuscript copy; D-WRha DNT 26"
+     },
+     {
+      "id": "280000618",
+      "label": "Richard Cœur-de-Lion; Manuscript copy; D-WRha DNT 26"
+     },
+     {
+      "id": "280001854",
+      "label": "Richard Cœur-de-Lion; Manuscript copy; D-RUl SH 186"
+     },
+     {
+      "id": "550401388",
+      "label": "Richard Cœur-de-Lion; Manuscript copy; CZ-Pu 59 R 143"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
   "id": "840021496",
   "genre": "operas",
   "label": "L'Impromptu de Limours; Manuscript copy; F-Pn VM6-58 (1)",
@@ -7588,6 +9451,109 @@
      {
       "id": "840016153",
       "label": "La Fausse magie (Excerpts, Arrangement); Manuscript copy; F-Pn L-4617 (1)"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "117437",
+  "genre": "overtures",
+  "label": "La schiava (Excerpts, Arrangement); Manuscript copy; US-SFsc *M2.5 v. 45",
+  "shelfmark": "US-SFsc *M2.5 v. 45",
+  "leads": [
+   {
+    "composer": "Guglielmi, Pietro Alessandro (1728-1804)",
+    "identity": "",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Matches the Sinfonia of Guglielmi's Il ratto della sposa (three copies, two naming Guglielmi), rhythm included; here captioned 'Overture in La Schiava'. One Guglielmi copy notes the sinfonia also circulated, wrongly, as Sacchini's.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1",
+      "voice": "cemb",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "''4G8-{6BtA}4G8-{6BA}/4G8-{6B'''C}4D8-{''6B'''C}/!{8D''6B'''C}!f/8D"
+      },
+      "notes": 19,
+      "overlap": 19,
+      "from_start": 19,
+      "counts": true,
+      "match": {
+       "source": "453011452",
+       "incipit": "1.1.1 Allegro",
+       "voice": "vl 1",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "4''G^'B^D8-6{''BA}4G8-{6BA}/4G^'B^D8-{6''B'''C}4D8-{6''B'''C}/{866D''B'''C}{D''B'''C}{8D''BGD}/"
+      },
+      "witnesses": [
+       {
+        "source": "706000009",
+        "source_inc": "1.1.1 [Sinfonia]. Allegro assai",
+        "source_voice": "vl 1",
+        "overlap": 19,
+        "agree": 19,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": false,
+        "eligible": true
+       },
+       {
+        "source": "850002132",
+        "source_inc": "1.1.1 Allegro assai",
+        "source_voice": "vl 1",
+        "overlap": 19,
+        "agree": 19,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": false,
+        "eligible": true
+       }
+      ]
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1"
+    ],
+    "sources": [
+     {
+      "id": "453011452",
+      "label": "Il ratto della sposa–G major (Excerpts); Manuscript copy; D-MMm 618"
+     },
+     {
+      "id": "706000009",
+      "label": "Il ratto della sposa; Manuscript copy; B-Bc 2116"
+     },
+     {
+      "id": "850002132",
+      "label": "Overtures–G major; Manuscript copy; I-MAav Cart.13 n.14"
      }
     ]
    }
@@ -9718,6 +11684,72 @@
   "verdict": "confirmed"
  },
  {
+  "id": "110018",
+  "genre": "overtures",
+  "label": "Overtures–D major; Manuscript copy; GombosiH 1970 no.C I[.68]; US-WS H C I[.68]",
+  "shelfmark": "US-WS H C I[.68]",
+  "leads": [
+   {
+    "composer": "Händel, Georg Friedrich (1685-1759)",
+    "identity": "",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "anonymous-record",
+    "note": "Matches a keyboard arrangement of a Water Music movement (GB-Lbl Add. 63816), rhythm included; the anonymous record already notes the Water Music attribution.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": [
+     "D maj.; 48 m.; Keyboard. This is also found, attributed to Handel in his Water Music, in: Collection of harpsichord pieces and a few songs. See RISM ID 806252012."
+    ],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Overture. Largo",
+      "voice": "cemb",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "3/4",
+       "data": "3-{'AB''C}/4D'4.D6-B/4ED6-{DEF}/2G+{8.G6A}/4F4.E"
+      },
+      "notes": 14,
+      "overlap": 12,
+      "from_start": 12,
+      "counts": true,
+      "match": {
+       "source": "806251971",
+       "incipit": "1.1.1",
+       "voice": "cemb",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "3/4",
+       "data": "6-{'3AB''C}/4D'4.D6-6B/4E4.D3-{3DEF}/2G+{8.G6A}/"
+      },
+      "witnesses": []
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1 Overture. Largo"
+    ],
+    "sources": [
+     {
+      "id": "806251971",
+      "label": "Water music–D major (Excerpts, Arrangement); Manuscript copy; GB-Lbl Add. 63816"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
   "id": "190100289",
   "genre": "concertos",
   "label": "Concertos–E major; Manuscript copy; HWV Anh. B 318; S-Skma C1-R",
@@ -9973,6 +12005,70 @@
      {
       "id": "852028876",
       "label": "Alessandro Severo (Excerpts); Print; HWV A13; I-MC 1-G-44-51b st"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "900001801",
+  "genre": "overtures",
+  "label": "Overtures–B♭ major; Manuscript copy; US-NH Misc. Ms. 170, Filmer 29",
+  "shelfmark": "US-NH Misc. Ms. 170, Filmer 29",
+  "leads": [
+   {
+    "composer": "Händel, Georg Friedrich (1685-1759)",
+    "identity": "",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The 'First Treble Overture' matches the Overture of Handel's 'Tunes compos'd for the Play-house' for The Alchemist (HWV 43, drawn from Rodrigo), rhythm included.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1",
+      "voice": "i",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "4.''B8F4D{8EF}/2'A+{8AAGF}/4.''E8E4EF/2D"
+      },
+      "notes": 11,
+      "overlap": 10,
+      "from_start": 10,
+      "counts": true,
+      "match": {
+       "source": "806533277",
+       "incipit": "1.1.1 Tunes compos'd for the Play-house. Ouverture",
+       "voice": "vl 1",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "''4.B8F4D{8EF}/'2A+{8AAGF}/''4.E8E4EF/"
+      },
+      "witnesses": []
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1"
+    ],
+    "sources": [
+     {
+      "id": "806533277",
+      "label": "The Alchemist–B♭ major (Excerpts); Manuscript copy; HWV 43, HWV Anh. B 363; GB-Mp MS. 130Hd4v.187(1)"
      }
     ]
    }
@@ -11744,6 +13840,74 @@
   "verdict": "confirmed"
  },
  {
+  "id": "400066392",
+  "genre": "overtures",
+  "label": "Overtures; Manuscript copy; CH-Gc Ab 240 Vol. III",
+  "shelfmark": "CH-Gc Ab 240 Vol. III",
+  "leads": [
+   {
+    "composer": "Mayr, Johann Simon (1763-1845)",
+    "identity": "",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "anonymous-record",
+    "note": "Matches the Ouverture of Mayr's Le due giornate (Milan 1801); the anonymous title already reads 'Sinfonia Nelle due Giornate Del Sig.r Simon Mayr'.",
+    "class": "known",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Largo",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "3/4",
+       "data": "''6E/86.3{E-'E}{E-E}{G-E}/,4B2-/4-8-{'DD}-/"
+      },
+      "notes": 6,
+      "overlap": 6,
+      "from_start": 6,
+      "counts": true,
+      "match": {
+       "source": "101483",
+       "incipit": "1.1.1 Ouverture.",
+       "voice": "vl 1",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "3/4",
+       "data": "''6E/{8E6.-'3E}{8E6.-3E}{8G6.-3E}/,4B--/-8-{'DD}-/"
+      },
+      "witnesses": []
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1 Largo"
+    ],
+    "sources": [
+     {
+      "id": "101483",
+      "label": "Le due giornate; Manuscript copy; US-Bp M.41.5"
+     },
+     {
+      "id": "900011165",
+      "label": "Alonso e Cora; Manuscript copy; US-Wc M1500.M46 A66 (Case)"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
   "id": "450056291",
   "genre": "operas",
   "label": "Potpourris; Manuscript copy; D-WALs 220/19-32",
@@ -13369,6 +15533,250 @@
   "verdict": "confirmed"
  },
  {
+  "id": "201001727",
+  "genre": "overtures",
+  "label": "Overtures–C major; Manuscript copy; D-LEm PM 9644",
+  "shelfmark": "D-LEm PM 9644",
+  "leads": [
+   {
+    "composer": "Méhul, Etienne-Nicolas (1763-1817)",
+    "identity": "",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The slow introduction matches the overture to Méhul's Les Deux Aveugles de Tolède in several piano arrangements, rhythm included.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Moderato",
+      "voice": "pf",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "({3,GAB})/2'C4.8CC/2.''C8-6-({3,GAB})/2'C4.8CC/2.''E4-/"
+      },
+      "notes": 10,
+      "overlap": 10,
+      "from_start": 10,
+      "counts": true,
+      "match": {
+       "source": "1001047696",
+       "incipit": "1.1.1 Andante",
+       "voice": "pf",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "{6,GAB}/2'C4.C8C/''2.C8-6-{6,GAB}/2.'C4.C8C/2.''E4-/4'GAB''C/"
+      },
+      "witnesses": [
+       {
+        "source": "310000108",
+        "source_inc": "1.1.1 Moderato",
+        "source_voice": "pf",
+        "overlap": 10,
+        "agree": 10,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": true,
+        "eligible": true
+       },
+       {
+        "source": "1001010010",
+        "source_inc": "1.1.1 Allegro moderato",
+        "source_voice": "vl 1",
+        "overlap": 10,
+        "agree": 10,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": false,
+        "eligible": true
+       },
+       {
+        "source": "1001048518",
+        "source_inc": "1.1.1 Allegro moder",
+        "source_voice": "vl 1",
+        "overlap": 10,
+        "agree": 10,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": false,
+        "eligible": true
+       },
+       {
+        "source": "270001484",
+        "source_inc": "1.1.1 [Ouverture]. Allegro moderato",
+        "source_voice": "vl 1",
+        "overlap": 10,
+        "agree": 10,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": false,
+        "eligible": true
+       },
+       {
+        "source": "280000181",
+        "source_inc": "1.1.1 Ouvertura. Allegro moderato",
+        "source_voice": "vl 1",
+        "overlap": 10,
+        "agree": 10,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": false,
+        "eligible": true
+       },
+       {
+        "source": "300000839",
+        "source_inc": "1.1.1 Andante",
+        "source_voice": "vl 2",
+        "overlap": 10,
+        "agree": 10,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": false,
+        "eligible": true
+       },
+       {
+        "source": "400066061",
+        "source_inc": "1.1.1 Allegro moderato",
+        "source_voice": "vl 1",
+        "overlap": 10,
+        "agree": 10,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": false,
+        "eligible": true
+       },
+       {
+        "source": "400090381",
+        "source_inc": "1.1.1 Allegro moderato",
+        "source_voice": "vl 1",
+        "overlap": 10,
+        "agree": 10,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": false,
+        "eligible": true
+       }
+      ]
+     },
+     {
+      "incipit": "1.2.1 Allegro moderato",
+      "voice": "pf",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "3/4",
+       "data": "!8'E-E-E-/{E6EE}{8EEFF}/!f8E-4--/"
+      },
+      "notes": 5,
+      "overlap": 0,
+      "from_start": 0,
+      "counts": false
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1 Moderato"
+    ],
+    "sources": [
+     {
+      "id": "1001010010",
+      "label": "Les Deux Aveugles de Tolède (Excerpts); Manuscript copy; D-WO Mus.ant. 45"
+     },
+     {
+      "id": "1001047696",
+      "label": "Les Deux Aveugles de Tolède–C major (Excerpts, Arrangement); Manuscript copy; PL-Wb M.R.0337"
+     },
+     {
+      "id": "1001048518",
+      "label": "Les Deux Aveugles de Tolède (Excerpts); Manuscript copy; D-Hhfmt RARA, K20, Ko13"
+     },
+     {
+      "id": "270001484",
+      "label": "Les Deux Aveugles de Tolède; Manuscript copy; D-Dl Mus.4105-F-504"
+     },
+     {
+      "id": "280000181",
+      "label": "Les Deux Aveugles de Tolède; Manuscript copy; D-WRha DNT 98"
+     },
+     {
+      "id": "300000839",
+      "label": "Deux aveugles de Tolède (Excerpts); Manuscript copy; PL-CZ II-360"
+     },
+     {
+      "id": "301002827",
+      "label": "Les Deux Aveugles de Tolède (Excerpts); Manuscript copy; PL-WRu 61431 Muz."
+     },
+     {
+      "id": "301002828",
+      "label": "Les Deux Aveugles de Tolède (Excerpts); Manuscript copy; PL-WRu 61432 Muz."
+     },
+     {
+      "id": "310000108",
+      "label": "Les Deux Aveugles de Tolède (Excerpts, Arrangement); Manuscript copy; RUS-Mk D-55"
+     },
+     {
+      "id": "400066061",
+      "label": "Les deux aveugles de Tolède (Excerpts); Manuscript copy; CH-Gc C 23"
+     },
+     {
+      "id": "400090381",
+      "label": "Les deux aveugles de Tolède (Excerpts); Manuscript copy; CH-Wsh Mus. Koll. C 60"
+     },
+     {
+      "id": "410002872",
+      "label": "Les deux aveugles de Tolède (Excerpts, Arrangement); Manuscript copy; CH-BEl SLA-Mus-JL MLHs 132/8/49"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
   "id": "850658887",
   "genre": "operas",
   "label": "Aveugles de Tolède–C major (Excerpts, Arrangement); Manuscript copy; I-Fn MUS.Mss.Rostirolla.1368",
@@ -14589,6 +16997,85 @@
      {
       "id": "850025379",
       "label": "Nerone (Excerpts); Manuscript copy; I-Vqs MS Cl.VIII.19 (1441)"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "410006475",
+  "genre": "overtures",
+  "label": "Overtures–G minor (Arrangement); Manuscript copy; CH-Fcu LE 54 Ms. 27",
+  "shelfmark": "CH-Fcu LE 54 Ms. 27",
+  "leads": [
+   {
+    "composer": "Paër, Ferdinando (1771-1839)",
+    "identity": "",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Piano arrangement of the overture to Paër's Agnese, matching the Simonis piano reduction, rhythm included.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Andante Sostenuto.",
+      "voice": "pf",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "'3B/8B6.-,3B{8.Bt3AB}'4C8-(6.-)''3C/8C6.-'3C{8.Ct,3B'C}4D8-6-"
+      },
+      "notes": 10,
+      "overlap": 10,
+      "from_start": 10,
+      "counts": true,
+      "match": {
+       "source": "452521240",
+       "incipit": "1.1.1 Ouverture. Andante sostenuto",
+       "voice": "pf",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "c",
+       "data": "''3B/{8B6.-'3B}{8.Bt3AB}''4C8-6.-'''3C/{8C6.-''3C}{8.Ct'3B''C}4D"
+      },
+      "witnesses": []
+     },
+     {
+      "incipit": "1.1.2 Allegro.",
+      "voice": "pf",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "2/4",
+       "data": "(1-)/'6{B''CDE}{FGFnE}/8{F6FB}'''4D/8{C6C''B}8{A6A'''C}/''8{B6B'''D}''8F-"
+      },
+      "notes": 18,
+      "overlap": 0,
+      "from_start": 0,
+      "counts": false
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1 Andante Sostenuto."
+    ],
+    "sources": [
+     {
+      "id": "452521240",
+      "label": "Agnese (Arrangement); Print"
      }
     ]
    }
@@ -18023,6 +20510,141 @@
   "verdict": "confirmed"
  },
  {
+  "id": "840002835",
+  "genre": "overtures",
+  "label": "La Provençale (Excerpts); Manuscript copy; F-AG 673",
+  "shelfmark": "F-AG 673",
+  "leads": [
+   {
+    "composer": "Rameau, Jean-Philippe (1683-1764)",
+    "identity": "",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "anonymous-record",
+    "note": "The Ouverture matches the overture of Rameau's La naissance d'Osiris (1754): incipit 1.2.1 of the score F-Pn VM2-311 and the first incipit of the parts F-Pn VM2-323, rhythm included. A Rameau harpsichord arrangement (840026887) says the piece was that overture. The anonymous record already names Rameau, but only for the Vivement (La Pantomime), not for the overture.",
+    "class": "known",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [
+     "1.1.1 Ouverture. Gai -> 840017220 1.2.1"
+    ],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Ouverture. Gai",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "2",
+       "data": "2''F4DC/4.F8G4FE/DC{8DCDE}/2F4C"
+      },
+      "notes": 15,
+      "overlap": 15,
+      "from_start": 15,
+      "counts": true,
+      "match": {
+       "source": "840017220",
+       "incipit": "1.2.1",
+       "voice": "",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "2/2",
+       "data": "''2F4DC/4.F8G4FE/tDC8DCDE/2F4C-"
+      },
+      "witnesses": [
+       {
+        "source": "840017223",
+        "source_inc": "1.1.1",
+        "source_voice": "",
+        "overlap": 15,
+        "agree": 15,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.29,
+        "same_key": true,
+        "same_voice": false,
+        "eligible": true
+       },
+       {
+        "source": "840026887",
+        "source_inc": "1.1.1",
+        "source_voice": "clav",
+        "overlap": 15,
+        "agree": 15,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.29,
+        "same_key": true,
+        "same_voice": false,
+        "eligible": true
+       }
+      ]
+     },
+     {
+      "incipit": "1.2.1 Gracieux",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "3",
+       "data": "4''F/4.A8G4F/GCF/GG{8AB}/2G4'''C/4.C8''B4A/"
+      },
+      "notes": 14,
+      "overlap": 0,
+      "from_start": 0,
+      "counts": false
+     },
+     {
+      "incipit": "1.3.1 Vivement",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "6/8",
+       "data": "8''C/4C8C4C8C/4.F8'F-''F/{6EFGFED}4C8'B/6A"
+      },
+      "notes": 13,
+      "overlap": 0,
+      "from_start": 0,
+      "counts": false
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1 Ouverture. Gai"
+    ],
+    "sources": [
+     {
+      "id": "840017220",
+      "label": "La naissance d'Osiris; Manuscript copy; F-Pn VM2-311"
+     },
+     {
+      "id": "840017223",
+      "label": "La naissance d'Osiris; Manuscript copy; F-Pn VM2-323"
+     },
+     {
+      "id": "840026887",
+      "label": "Les Paladins (Excerpts, Arrangement); Manuscript copy; F-Pn VM7-2108"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
   "id": "450013956",
   "genre": "symphonies",
   "label": "Symphonies–D major; Manuscript copy; D-KA Don Mus.Ms. 1790",
@@ -18491,6 +21113,70 @@
      {
       "id": "850002239",
       "label": "Symphonies–E♭ major; Manuscript copy; I-MAav Cart.15/2 n.16"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "400014318",
+  "genre": "overtures",
+  "label": "Overtures–G major; Manuscript copy; CH-E 199,18",
+  "shelfmark": "CH-E 199,18",
+  "leads": [
+   {
+    "composer": "Riso, Paolo (18.sc)",
+    "identity": "",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Matches the Allegro of an overture headed 'Del Sig.re Pauolo Riso' (GB-Lam), rhythm included.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "''4G8-DGBGB/4G6DC'B''C'4B''6DC'B''C/'4B8-"
+      },
+      "notes": 17,
+      "overlap": 17,
+      "from_start": 17,
+      "counts": true,
+      "match": {
+       "source": "800159233",
+       "incipit": "1.1.1 Allegro",
+       "voice": "vl 1",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "xF",
+       "timesig": "c",
+       "data": "''4G8-D{GBGB}/4G{6DC'B''C}'4B{''6DC'B''C}/'4B8-"
+      },
+      "witnesses": []
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1 Allegro"
+    ],
+    "sources": [
+     {
+      "id": "800159233",
+      "label": "Overtures–G major; Manuscript copy; GB-Lam MS 176-182"
      }
     ]
    }
@@ -20695,6 +23381,136 @@
   "verdict": "confirmed"
  },
  {
+  "id": "270002548",
+  "genre": "overtures",
+  "label": "Overtures–D major; Manuscript copy; D-Dl Mus.4119-F-500",
+  "shelfmark": "D-Dl Mus.4119-F-500",
+  "leads": [
+   {
+    "composer": "Schmittbauer, Joseph Aloys (1718-1809)",
+    "identity": "",
+    "verdict": "confirmed",
+    "attribution": "uncertain",
+    "prior": "comparator-record",
+    "note": "Matches the Introduzione of Schmittbauer's Lindor und Ismene (1778), rhythm included, in Leucht's scores from Darmstadt and Hamburg sources. Comparator 1001295610 already cites this copy and calls the attribution possible; it also names Fabrizi's opera into which Dresden inserted it.",
+    "class": "known",
+    "prior_documentation": [
+     {
+      "source": "1001295610",
+      "text": "Vermutlich Dresdner Einlage zu Fabrizis \"I due castellani burlati\", siehe D-Dl Mus.4119-F-500 (RISM ID no. 270002548). Möglicherweise handelt es sich um die Introduzione aus \"Lindor und Ismene\" von Joseph Aloys Schmittbauer, siehe die konkordanten Quellen D-ASm N 8213 und D-Hs ND VII 352."
+     }
+    ],
+    "attribution_flags": [
+     "1001295610: composer qualified as Conjectural",
+     "1001295610: cross-reference to Fabrizi, Vincenzo (1764-1812p) (Ascertained)"
+    ],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro spiritoso",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "4.''A8F4D8-D/q6F{8EDEF}4D-/q8'A4.''A8F4D8-D/q6F{8EDEF}4D-/"
+      },
+      "notes": 19,
+      "overlap": 19,
+      "from_start": 19,
+      "counts": true,
+      "match": {
+       "source": "1001295610",
+       "incipit": "1.1.1 Sinfonia Allegro spiritoso",
+       "voice": "vl 1",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''4.A8F4D8-D/q6F{8EDEF}4D-/q8'A4.''A8F4D8-D/q6F{8EDEF}4D-/"
+      },
+      "witnesses": [
+       {
+        "source": "450066799",
+        "source_inc": "1.1.1 Introduzzione.",
+        "source_voice": "vl 1",
+        "overlap": 19,
+        "agree": 19,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": true,
+        "eligible": true
+       },
+       {
+        "source": "452503744",
+        "source_inc": "1.1.1 Introduzzione. Allegro con spirito",
+        "source_voice": "vl 1",
+        "overlap": 19,
+        "agree": 19,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": true,
+        "eligible": true
+       },
+       {
+        "source": "450066806",
+        "source_inc": "1.1.1",
+        "source_voice": "pf",
+        "overlap": 19,
+        "agree": 19,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": false,
+        "eligible": true
+       }
+      ]
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1 Allegro spiritoso"
+    ],
+    "sources": [
+     {
+      "id": "1001295610",
+      "label": "Lindor und Ismene (Excerpts, Arrangement); Manuscript copy; D-Dl Mus.1-F-125,37"
+     },
+     {
+      "id": "450066799",
+      "label": "Lindor und Ismene (Excerpts); Manuscript copy; D-ASm N 8213"
+     },
+     {
+      "id": "450066806",
+      "label": "Lindor und Ismene (Excerpts, Arrangement); Manuscript copy; D-ASm N 8213"
+     },
+     {
+      "id": "452503744",
+      "label": "Lindor und Ismene; Manuscript copy; D-Hs ND VII 352"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
   "id": "1001198167",
   "genre": "concertos",
   "label": "Concertos–E♭ major; Manuscript copy; PL-Kc 100607 III",
@@ -21667,6 +24483,78 @@
      {
       "id": "400013124",
       "label": "Concertos–D major; Manuscript copy; CH-E 19,31"
+     }
+    ]
+   }
+  ],
+  "verdict": "confirmed"
+ },
+ {
+  "id": "852034586",
+  "genre": "overtures",
+  "label": "Overtures–C major (Arrangement); Manuscript copy; I-MC 6-E-5/27b",
+  "shelfmark": "I-MC 6-E-5/27b",
+  "leads": [
+   {
+    "composer": "Sterkel, Johann Franz Xaver (1750-1817)",
+    "identity": "",
+    "verdict": "confirmed",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Organ arrangement of the overture to Sterkel's Il Farnace (Naples 1782), matching the Frankfurt piano print over four bars, rhythm included.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1",
+      "voice": "org",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c/",
+       "data": "'2(C)4-{8CC}/{8C,B'CC}{C,B'CD}/4EF2(-)/(2D)4-"
+      },
+      "notes": 9,
+      "overlap": 9,
+      "from_start": 9,
+      "counts": true,
+      "match": {
+       "source": "990062058",
+       "incipit": "1.1.1 [p. 2, at left of the 1st stave:] OUVERTURE | Allegro",
+       "voice": "vl",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c/",
+       "data": "2'(C)4-{8CC}/{C,B'CC}{C,B'CD}/4EF2(-)/2'(D)4-{8DD}/{DCDD}{DCDE}/4FG2(-)/"
+      },
+      "witnesses": []
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1"
+    ],
+    "sources": [
+     {
+      "id": "451018280",
+      "label": "Il Farnace; Manuscript copy; StWV 1; D-MÜs SANT Hs 4077a.b.c."
+     },
+     {
+      "id": "850735973",
+      "label": "Il Farnace–C major (Excerpts); Manuscript copy; StWV 1; I-Mc Noseda Q.14.17"
+     },
+     {
+      "id": "990062058",
+      "label": "Il Farnace (Excerpts, Arrangement); Print"
      }
     ]
    }
@@ -24867,6 +27755,74 @@
   "verdict": "probable"
  },
  {
+  "id": "450301302",
+  "genre": "overtures",
+  "label": "Overtures–D major; Manuscript copy; D-Eu Esl VIII 82",
+  "shelfmark": "D-Eu Esl VIII 82",
+  "leads": [
+   {
+    "composer": "Bach",
+    "identity": "",
+    "verdict": "probable",
+    "attribution": "name-only",
+    "prior": "new",
+    "note": "The Ouverture opening has the same pitches and bar positions (D F A D, C-sharp E A, C-natural F) as no. 8, Andante con moto (incipit 1.8.1), of the pantomime Zauberrose headed only 'Bach'; the comparator writes the notes as staccato quavers with rests.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "heading 'Bach' names no identifiable person"
+    ],
+    "internal_matches": [
+     "1.1.1 -> 201007161 1.8.1 [No] 8. Andante con moto"
+    ],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "4'DF4.A8D/4CEA-/nCF"
+      },
+      "notes": 9,
+      "overlap": 9,
+      "from_start": 9,
+      "counts": true,
+      "match": {
+       "source": "201007161",
+       "incipit": "1.8.1 [No] 8. Andante con moto",
+       "voice": "vl 1",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": false,
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "8'D-F-A-8.6-D/8C-E-4A-/8nC-F-A-8.6-C/8,bB-'D-G-4-/-8,A-4-8A-/'D-D-4D"
+      },
+      "witnesses": []
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1"
+    ],
+    "sources": [
+     {
+      "id": "201007161",
+      "label": "Zauberrose; Manuscript copy; D-LEtz M 281"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
   "id": "469473100",
   "genre": "concertos",
   "label": "Concertos–D major; Manuscript copy; Wq deest, HelB deest; D-Bsa SA 4731",
@@ -25300,6 +28256,235 @@
      {
       "id": "650004773",
       "label": "Symphonies–D major; Manuscript copy; JohC deest, EvaM 10: DS2; A-ST Mus.ms. 376"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
+  "id": "451509900",
+  "genre": "overtures",
+  "label": "Overtures; Manuscript copy; D-MÜs SANT Hs 4112 (Nr. 17)",
+  "shelfmark": "D-MÜs SANT Hs 4112 (Nr. 17)",
+  "leads": [
+   {
+    "composer": "Corelli, Arcangelo (1653-1713)",
+    "identity": "",
+    "verdict": "probable",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Lute arrangement, a fifth lower (transposed), of the Preludio (Largo) of a Corelli Sonata I in C major, rhythm included.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1",
+      "voice": "lute",
+      "text": "",
+      "anon": {
+       "clef": "g-2",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "4.'Ct6-D{8.6,BB'CC}/4.,A6-B{8.6GGAA}/4.F"
+      },
+      "notes": 9,
+      "overlap": 9,
+      "from_start": 9,
+      "counts": true,
+      "match": {
+       "source": "1001223112",
+       "incipit": "1.1.1 Largo Preludio",
+       "voice": "vl 1",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c",
+       "data": "''4.G6-A{8.F6F}{8.G6G}/4.E6-F{8.D6D}{8.E6E}/4.C6-D{'8.B6G}{''8.G6C}/2F"
+      },
+      "witnesses": [
+       {
+        "source": "130117",
+        "source_inc": "1.1.1 Preludio. Adagio",
+        "source_voice": "vl 1",
+        "overlap": 9,
+        "agree": 9,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": false,
+        "same_voice": false,
+        "eligible": true
+       },
+       {
+        "source": "400216095",
+        "source_inc": "1.1.1 Preludio Largo",
+        "source_voice": "vl 1",
+        "overlap": 9,
+        "agree": 9,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": false,
+        "same_voice": false,
+        "eligible": true
+       },
+       {
+        "source": "450027761",
+        "source_inc": "1.1.1 [Preludio]. Largo",
+        "source_voice": "i 1",
+        "overlap": 9,
+        "agree": 9,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": false,
+        "same_voice": false,
+        "eligible": true
+       },
+       {
+        "source": "450106626",
+        "source_inc": "1.1.1 171. Bruludio[!].",
+        "source_voice": "dessus",
+        "overlap": 9,
+        "agree": 9,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": false,
+        "same_voice": false,
+        "eligible": true
+       },
+       {
+        "source": "452009229",
+        "source_inc": "1.1.1 Preludio. Largo",
+        "source_voice": "vl 1",
+        "overlap": 9,
+        "agree": 9,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": false,
+        "same_voice": false,
+        "eligible": true
+       },
+       {
+        "source": "452009335",
+        "source_inc": "1.1.1 Preludio. Largo",
+        "source_voice": "vl 1",
+        "overlap": 9,
+        "agree": 9,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": false,
+        "same_voice": false,
+        "eligible": true
+       },
+       {
+        "source": "452504394",
+        "source_inc": "1.1.1 Preludio. Largo",
+        "source_voice": "vl 1",
+        "overlap": 9,
+        "agree": 9,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": false,
+        "same_voice": false,
+        "eligible": true
+       },
+       {
+        "source": "600502792",
+        "source_inc": "1.1.1 Largo",
+        "source_voice": "vl",
+        "overlap": 9,
+        "agree": 9,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": false,
+        "same_voice": false,
+        "eligible": true
+       }
+      ]
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1"
+    ],
+    "sources": [
+     {
+      "id": "1001223112",
+      "label": "Sonatas–C major; Print"
+     },
+     {
+      "id": "130117",
+      "label": "Sonatas–C major; Manuscript copy; MarC 4.1; US-R M311.C797"
+     },
+     {
+      "id": "400216095",
+      "label": "Sonatas–C major; Manuscript copy; MarC 4.1; CH-Gpu Ms.mus.451"
+     },
+     {
+      "id": "450027761",
+      "label": "Sonatas–C major; Manuscript copy; MarC 4.1; D-SÜN Ms 59"
+     },
+     {
+      "id": "450106626",
+      "label": "Trio sonatas–C major; Manuscript copy; MarC 4.1; D-JE C 9"
+     },
+     {
+      "id": "452009229",
+      "label": "Sonatas–C major; Manuscript copy; MarC 4.1; D-B Mus.ms. 4120/4"
+     },
+     {
+      "id": "452009335",
+      "label": "Sonatas–C major; Manuscript copy; MarC 4.1; D-B Mus.ms. 4124"
+     },
+     {
+      "id": "452504394",
+      "label": "Sonatas–C major; Manuscript copy; MarC 4.1; D-B Am.B 249 (37)"
+     },
+     {
+      "id": "600502792",
+      "label": "Sonatas–C major; Manuscript copy; MarC 4.1; A-SCH 464"
+     },
+     {
+      "id": "800256988",
+      "label": "Sonatas–C major (Arrangement); Manuscript copy; MarC 4.1; GB-Lbl R.M.24.k.5."
+     },
+     {
+      "id": "806410012",
+      "label": "Sonatas–C major; Manuscript copy; MarC 4.1; GB-WWro CR1291/474"
+     },
+     {
+      "id": "840020536",
+      "label": "Trio sonatas–C major; Manuscript copy; MarC 4.1; F-Pn MS-13361"
      }
     ]
    }
@@ -25867,6 +29052,104 @@
      {
       "id": "600502590",
       "label": "Symphonies–C major; Manuscript copy; A-SCH 383"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
+  "id": "1001223098",
+  "genre": "overtures",
+  "label": "Quartets–C major (Arrangement); Manuscript copy; GB-Cmc F.4.35",
+  "shelfmark": "GB-Cmc F.4.35",
+  "leads": [
+   {
+    "composer": "Farinel, Jean Baptiste (1655-1725c)",
+    "identity": "",
+    "verdict": "probable",
+    "attribution": "uncertain",
+    "prior": "new",
+    "note": "The Ouverture treble matches the flute Ouverture of '4me Concert de Farinelli pour le Nouvel an 1703' a fourth lower (transposed), rhythm included; the bass (1.1.2) agrees with flute incipit 1.1.1 only where it imitates it. The comparator record suggests that suite may be assembled from independent pieces, so the overture's authorship is open. One of the Cambridge quartet arrangements (9th Sett).",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [
+     "1.1.2 Ouverture -> 450116933 1.1.1 Ouverture."
+    ],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Ouverture",
+      "voice": "Treble",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "c/",
+       "data": "''4.G8F{8.E6E8.D6C}/4D'G''4.C8C/''4.F8G4.E8F/2D+{8D'B''E'B}/"
+      },
+      "notes": 16,
+      "overlap": 16,
+      "from_start": 16,
+      "counts": true,
+      "match": {
+       "source": "450116933",
+       "incipit": "1.1.1 Ouverture.",
+       "voice": "fl",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-1",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "'''4.C''8B/{AAGtF}/4GC4.F8F/4.8B'''C''AtB/2Gt+{8GEAE}/"
+      },
+      "witnesses": []
+     },
+     {
+      "incipit": "1.1.2 Ouverture",
+      "voice": "Bass",
+      "text": "",
+      "anon": {
+       "clef": "F-4",
+       "keysig": "n",
+       "timesig": "c/",
+       "data": ",1C/4.G8F{8.E6E8.D6C}/4D,,G,C,,C/G,G2xG/"
+      },
+      "notes": 13,
+      "overlap": 8,
+      "from_start": 1,
+      "counts": true,
+      "match": {
+       "source": "450116933",
+       "incipit": "1.1.1 Ouverture.",
+       "voice": "fl",
+       "text": "",
+       "offset": [
+        1,
+        0
+       ],
+       "first": true,
+       "clef": "G-1",
+       "keysig": "bB",
+       "timesig": "c",
+       "data": "'''4.C''8B/{AAGtF}/4GC4.F8F/4.8B'''C''AtB/2Gt+{8GEAE}/"
+      },
+      "witnesses": []
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1 Ouverture",
+     "1.1.2 Ouverture"
+    ],
+    "sources": [
+     {
+      "id": "450116933",
+      "label": "Concert pour le nouvel an 1703; Manuscript copy; D-HVl Ms IV, 417"
      }
     ]
    }
@@ -28160,6 +31443,130 @@
   "verdict": "probable"
  },
  {
+  "id": "451026165",
+  "genre": "overtures",
+  "label": "Das Erwachen des Löwen–E♭ major; Manuscript copy; D-DT Mus - n 5838",
+  "shelfmark": "D-DT Mus - n 5838",
+  "leads": [
+   {
+    "composer": "Kątski, Antoni (1817-1899)",
+    "identity": "",
+    "verdict": "probable",
+    "attribution": "uncertain",
+    "prior": "title-names-work",
+    "note": "Band arrangement in E-flat of Antoine de Kontski's Le Réveil du lion, op. 115 (the piano prints are in D-flat; transposed); the German title, Das Erwachen des Löwen, already names it. One print's attribution is marked conjectural; the other copies name Kontski.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [
+     "1001122015: composer qualified as Conjectural"
+    ],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1",
+      "voice": "tr",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bBEA",
+       "timesig": "c",
+       "data": ",{(6BBB)}/4B8-{(6BBB)}4B8-{(6BBB)}/4B8-{(6BBB)}4B(4{6B'E,BGEG};6)/"
+      },
+      "notes": 6,
+      "overlap": 6,
+      "from_start": 6,
+      "counts": true,
+      "match": {
+       "source": "1001119855",
+       "incipit": "1.1.1 Tempo di marcia.",
+       "voice": "pf",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "bBEADG",
+       "timesig": "c",
+       "data": "6({AAA})/4A8-({6AAA})4A8-6({AAA})/4A8-6({AAA})4A6{(A''D'AFDF;6)}/4A8-%F-4 6{*,AAA})4A8-6({AAA})/"
+      },
+      "witnesses": [
+       {
+        "source": "1001122015",
+        "source_inc": "1.1.1 Tempo di marcia.",
+        "source_voice": "pf",
+        "overlap": 6,
+        "agree": 6,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": false,
+        "same_voice": false,
+        "eligible": true
+       },
+       {
+        "source": "1001188686",
+        "source_inc": "1.1.1 Temp di marcia",
+        "source_voice": "",
+        "overlap": 6,
+        "agree": 6,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": false,
+        "same_voice": false,
+        "eligible": true
+       },
+       {
+        "source": "450119185",
+        "source_inc": "1.1.1",
+        "source_voice": "tr 1 in B|b",
+        "overlap": 6,
+        "agree": 6,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": false,
+        "same_voice": false,
+        "eligible": true
+       }
+      ]
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1"
+    ],
+    "sources": [
+     {
+      "id": "1001119855",
+      "label": "Le Réveil du lion–D♭ major; Print"
+     },
+     {
+      "id": "1001122015",
+      "label": "Caprice héroique: Réveil du lion; Print"
+     },
+     {
+      "id": "1001188686",
+      "label": "Le Réveil du lion; Print"
+     },
+     {
+      "id": "450119185",
+      "label": "Le Réveil du lion–D♭ major (Arrangement); Manuscript copy; D-HVl Noviss. 145 : 9, No. 982"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
   "id": "806426578",
   "genre": "symphonies",
   "label": "Symphonies–C major; Manuscript copy; GB-Lbl Add. 17785",
@@ -28513,6 +31920,90 @@
      {
       "id": "858000048",
       "label": "L'arbore di Diana; Manuscript copy; I-Rmassimo [without shelfmark]"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
+  "id": "190008951",
+  "genre": "overtures",
+  "label": "Overtures–G minor; Manuscript copy; S-SK 231:20.",
+  "shelfmark": "S-SK 231:20.",
+  "leads": [
+   {
+    "composer": "Mattheson, Johann (1681-1764)",
+    "identity": "",
+    "verdict": "probable",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The Ouverture is the Ouverture of Mattheson's Suite douzième (D-B Mus.ms. 13905) a whole tone higher (transposed): G minor here, F minor there, rhythm included. RISM titles the copy G minor; the key signature has one flat, an older notation of G minor.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1",
+      "voice": "vl",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "c/",
+       "data": "''4.D8D4DG/4.C8C4C{8D'A}/4B''D4.G8A/2xF+{8FFGA}/4.B8B4BA/4.G8G4GF/4.bE8E4C"
+      },
+      "notes": 18,
+      "overlap": 10,
+      "from_start": 10,
+      "counts": true,
+      "match": {
+       "source": "452010711",
+       "incipit": "1.1.1 Ouvertur.",
+       "voice": "cemb",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "C-1",
+       "keysig": "bBEA[D]",
+       "timesig": "c",
+       "data": "''4.C8C4CF/'4.B8B4B{8''C'G}/4A''C4.F8G/2nE"
+      },
+      "witnesses": [
+       {
+        "source": "452010725",
+        "source_inc": "1.1.1 Ouverture.",
+        "source_voice": "cemb",
+        "overlap": 10,
+        "agree": 10,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": false,
+        "same_voice": false,
+        "eligible": true
+       }
+      ]
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1"
+    ],
+    "sources": [
+     {
+      "id": "452010711",
+      "label": "Suites–F minor; Manuscript copy; D-B Mus.ms. 13905"
+     },
+     {
+      "id": "452010725",
+      "label": "Suites–F minor; Manuscript copy; D-B Mus.ms. 13905/1"
      }
     ]
    }
@@ -31362,6 +34853,109 @@
   "verdict": "probable"
  },
  {
+  "id": "1001042458",
+  "genre": "overtures",
+  "label": "Overtures; Manuscript copy; MEX-Mahn E26-T1-V5",
+  "shelfmark": "MEX-Mahn E26-T1-V5",
+  "leads": [
+   {
+    "composer": "Vinci, Leonardo (1696c-1730)",
+    "identity": "",
+    "verdict": "probable",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The second-violin incipit of this 'Obertura 10' follows the first violin of the Sinfonia of Vinci's Artaserse (Rome 1730) for three bars, rhythm included, then moves to F where the first violin repeats E; a second violin part, so a full match is not expected.",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1",
+      "voice": "vl 2",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "4/4",
+       "data": "'4D8-6{DC}8{D,A'DF}/i/'4E8-6{ED}8{E,A'EG}/4F8-6{GF}8{FDFA}/"
+      },
+      "notes": 24,
+      "overlap": 18,
+      "from_start": 18,
+      "counts": true,
+      "match": {
+       "source": "119908",
+       "incipit": "1.1.1 Sinfonia. Allegro",
+       "voice": "vl 1",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "'4D8-{6DC}{8D,A'DF}/4D8-{6DC}{8D,A'DF}/4E8-{6ED}{8E,A'EG}/4E8-"
+      },
+      "witnesses": [
+       {
+        "source": "452504412",
+        "source_inc": "1.1.1 Sinfonia. Allegro",
+        "source_voice": "vl 1",
+        "overlap": 18,
+        "agree": 18,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": false,
+        "eligible": true
+       },
+       {
+        "source": "452515086",
+        "source_inc": "1.1.1 Sinfonia. Allegro",
+        "source_voice": "vl 1",
+        "overlap": 18,
+        "agree": 18,
+        "offset": [
+         0,
+         0
+        ],
+        "figuration": 0.0,
+        "same_key": true,
+        "same_voice": false,
+        "eligible": true
+       }
+      ]
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1"
+    ],
+    "sources": [
+     {
+      "id": "119908",
+      "label": "Artaserse; Manuscript copy; US-BEm MS 138"
+     },
+     {
+      "id": "452504412",
+      "label": "Artaserse; Manuscript copy; D-B Am.B 263"
+     },
+     {
+      "id": "452515086",
+      "label": "Artaserse (Excerpts); Manuscript copy; D-B Mus.ms. 22375"
+     }
+    ]
+   }
+  ],
+  "verdict": "probable"
+ },
+ {
   "id": "406002769",
   "genre": "operas",
   "label": "La pupille rusée–G major (Excerpts, Arrangement); Print",
@@ -31803,6 +35397,70 @@
      {
       "id": "850032622",
       "label": "Masses–D major; Manuscript copy; I-Rama A.Ms.2663"
+     }
+    ]
+   }
+  ],
+  "verdict": "unresolved"
+ },
+ {
+  "id": "450026720",
+  "genre": "overtures",
+  "label": "Overtures–D major; Manuscript copy; D-Hs ND VII 524",
+  "shelfmark": "D-Hs ND VII 524",
+  "leads": [
+   {
+    "composer": "Champein, Stanislas (1753-1830)",
+    "identity": "",
+    "verdict": "unresolved",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Same two bars of repeated-note D-major figuration as the encoded opening of Champein's Les Dettes; too generic to decide without more of either.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "2",
+       "data": "{8'D6DD}{8DD}{6DD,AA}{'DD,AA}/{8'F6FF}{8FF}{6FFDD}"
+      },
+      "notes": 6,
+      "overlap": 6,
+      "from_start": 6,
+      "counts": true,
+      "match": {
+       "source": "990002094",
+       "incipit": "1.1.1",
+       "voice": "vl",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "2",
+       "data": "{8'D6DD}{8DD}{6DD,AA}{'DD,AA}/{8'F6FF}{8FF}{6FFDD}{FFDD}/"
+      },
+      "witnesses": []
+     }
+    ],
+    "incipits_matched": [
+     "1.1.1 Allegro"
+    ],
+    "sources": [
+     {
+      "id": "990002094",
+      "label": "Les Dettes; Print"
      }
     ]
    }
@@ -32741,6 +36399,130 @@
   "verdict": "unresolved"
  },
  {
+  "id": "850636724",
+  "genre": "overtures",
+  "label": "Overtures–D major; Manuscript copy; I-COLbarcella 83",
+  "shelfmark": "I-COLbarcella 83",
+  "leads": [
+   {
+    "composer": "Minoja, Ambrogio (1752-1825)",
+    "identity": "",
+    "verdict": "unresolved",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "One bar and its repeat agree, rhythm included, with a keyboard sonata attributed to Minoja; too short to decide.",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "voice": "cemb",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "{6''DCDC}8D-4F{8.F6F}/i/"
+      },
+      "notes": 12,
+      "overlap": 12,
+      "from_start": 12,
+      "counts": false,
+      "match": {
+       "source": "400012564",
+       "incipit": "1.1.1 Allegro",
+       "voice": "cemb",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": true,
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "c",
+       "data": "''6DCDC8D-4F8.F6F/i/"
+      },
+      "witnesses": []
+     }
+    ],
+    "incipits_matched": [],
+    "sources": [
+     {
+      "id": "400012564",
+      "label": "Sonatas–D major; Manuscript copy; CH-E 66,78"
+     }
+    ]
+   }
+  ],
+  "verdict": "unresolved"
+ },
+ {
+  "id": "300001535",
+  "genre": "overtures",
+  "label": "Overtures–C major; Manuscript copy; PL-CZ III-891",
+  "shelfmark": "PL-CZ III-891",
+  "leads": [
+   {
+    "composer": "Müller, Wenzel (1759-1835)",
+    "identity": "",
+    "verdict": "unresolved",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "Same rhythm and melody a whole tone lower for three bars as no. 6 (incipit 1.6.1) of a wind arrangement of Müller's Der alte Überall und Nirgends; a rising triad and neighbour-note repetitions are too common to decide without more of either.",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegretto",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "n",
+       "timesig": "6/8",
+       "data": "{8'CEF}4.G/{8GAG}4.G/{8GAG}{GAG}/{GAB}4.''C/"
+      },
+      "notes": 13,
+      "overlap": 10,
+      "from_start": 10,
+      "counts": false,
+      "match": {
+       "source": "301000539",
+       "incipit": "1.6.1 Allegretto",
+       "voice": "ob 1",
+       "text": "",
+       "offset": [
+        0,
+        0
+       ],
+       "first": false,
+       "clef": "G-2",
+       "keysig": "bBE",
+       "timesig": "6/8",
+       "data": "{'8B''DE}4.F/{8FGF}4.F/{8FGF}{FGF}/"
+      },
+      "witnesses": []
+     }
+    ],
+    "incipits_matched": [],
+    "sources": [
+     {
+      "id": "301000539",
+      "label": "Der alte Überall und Nirgends (Arrangement); Manuscript copy; PL-WRu 60243 Muz."
+     }
+    ]
+   }
+  ],
+  "verdict": "unresolved"
+ },
+ {
   "id": "850607316",
   "genre": "symphonies",
   "label": "Symphonies–G major; Manuscript copy; I-OS Mss.Mus.B 4713",
@@ -33470,6 +37252,102 @@
      {
       "id": "455020019",
       "label": "Siroe re di Persia (Excerpts); Manuscript copy; RieT 32.3/1; D-Mbs Mus.ms. 3954#Beibd.9"
+     }
+    ]
+   }
+  ],
+  "verdict": "unresolved"
+ },
+ {
+  "id": "704002008",
+  "genre": "overtures",
+  "label": "Overtures–D major; Manuscript copy; B-Br Ms III 1511 (6) Mus",
+  "shelfmark": "B-Br Ms III 1511 (6) Mus",
+  "leads": [
+   {
+    "composer": "Trial, Jean-Claude (1732-1771)",
+    "identity": "",
+    "verdict": "unresolved",
+    "attribution": "secure",
+    "prior": "new",
+    "note": "The Andante's triplet-and-repeated-note figure is like the 2e Tambourin (incipit 1.12.1) of Trial's La Fête de Flore, but the rhythm differs and the other two incipits do not match.",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [
+     "1.2.1 Andante piano -> 990064682 1.12.1 2.|e Tambourin"
+    ],
+    "anonymous_record_authorship": [],
+    "incipits": [
+     {
+      "incipit": "1.1.1 Allegro",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "2/4",
+       "data": "4'D+{8D6FD}/{8A6FA}{''8D6'AF}/4D+{8D6FD}/"
+      },
+      "notes": 12,
+      "overlap": 0,
+      "from_start": 0,
+      "counts": false
+     },
+     {
+      "incipit": "1.2.1 Andante piano",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "2/4",
+       "data": "8''D/8(6{FGA};3)4D8D/8{(6GAB;3)}4D8D/"
+      },
+      "notes": 9,
+      "overlap": 9,
+      "from_start": 1,
+      "counts": true,
+      "match": {
+       "source": "990064682",
+       "incipit": "1.12.1 2.|e Tambourin",
+       "voice": "vl 1",
+       "text": "",
+       "offset": [
+        0,
+        1
+       ],
+       "first": false,
+       "clef": "G-2",
+       "keysig": "bB",
+       "timesig": "2/4",
+       "data": "8A/{''DDDD}/{338FGA}6-{8DD}/{338GAB}6-{8DD}/({6FGA})8D-"
+      },
+      "witnesses": []
+     },
+     {
+      "incipit": "1.3.1 Allegro",
+      "voice": "vl 1",
+      "text": "",
+      "anon": {
+       "clef": "G-2",
+       "keysig": "xFC",
+       "timesig": "3/4",
+       "data": "4.''A{8'FGE}/{FD}{''D'A''FD}/"
+      },
+      "notes": 10,
+      "overlap": 0,
+      "from_start": 0,
+      "counts": false
+     }
+    ],
+    "incipits_matched": [
+     "1.2.1 Andante piano"
+    ],
+    "sources": [
+     {
+      "id": "990064682",
+      "label": "La Fête de Flore; Print"
      }
     ]
    }
@@ -34577,6 +38455,28 @@
   "verdict": "rejected"
  },
  {
+  "id": "190001798",
+  "genre": "overtures",
+  "label": "Overtures–D major; Manuscript copy; S-L Saml.Engelhart 250",
+  "shelfmark": "S-L Saml.Engelhart 250",
+  "leads": [
+   {
+    "composer": "Berger, Ludwig (1777-1839)",
+    "identity": "",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only broken-chord figuration agrees",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
   "id": "456011367",
   "genre": "operas",
   "label": "Demetrio (Excerpts); Manuscript copy; D-Mbs Mus.ms. 180",
@@ -34689,6 +38589,28 @@
     "internal_matches": [
      "1.2.1 Rondò. Andantino -> 452524145 1.1.1 No: 5. Allegretto"
     ],
+    "anonymous_record_authorship": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "190004785",
+  "genre": "overtures",
+  "label": "Overtures–A minor; Manuscript copy; S-Uu Instr. mus. i hs. 64:12",
+  "shelfmark": "S-Uu Instr. mus. i hs. 64:12",
+  "leads": [
+   {
+    "composer": "Böie, John (1822-1900)",
+    "identity": "",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only a five-pitch fragment agrees with a song",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
     "anonymous_record_authorship": []
    }
   ],
@@ -34830,6 +38752,46 @@
     "attribution_flags": [],
     "internal_matches": [
      "1.3.1 Adagio -> 455018323 1.5.1 Nr. 5 / Sanctus. Andante"
+    ],
+    "anonymous_record_authorship": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "1001171605",
+  "genre": "overtures",
+  "label": "Overtures–F major; Manuscript copy; D-ROu Mus. Saec. XVII.18-51.52",
+  "shelfmark": "D-ROu Mus. Saec. XVII.18-51.52",
+  "leads": [
+   {
+    "composer": "Chiti, Girolamo (1679-1759)",
+    "identity": "",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only short contour fragments of suite movements agree with a vocal Statuit, in a different key and metre",
+    "class": "strong",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [
+     "1.10.1 Phantasia -> 850508066 1.1.1",
+     "1.4.1 Boure -> 850508066 1.1.1"
+    ],
+    "anonymous_record_authorship": []
+   },
+   {
+    "composer": "Zelenka, Jan Dismas (1679-1745)",
+    "identity": "",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only a fragment of the Courante agrees with a tenor Alleluia in a different key",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [
+     "1.3.1 Courrent allegro -> 212006667 1.2.1 [Tutti]."
     ],
     "anonymous_record_authorship": []
    }
@@ -34981,6 +38943,54 @@
     "attribution": "",
     "prior": "",
     "note": "Composer's dates impossible for this copy; only a fragment agrees",
+    "class": "date-impossible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "280000037",
+  "genre": "overtures",
+  "label": "Overtures–D major (Fragments); Manuscript copy; D-WRha DNT i 47",
+  "shelfmark": "D-WRha DNT i 47",
+  "leads": [
+   {
+    "composer": "Cordicelli, Giovanni (1774+)",
+    "identity": "",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only scale fragments agree, transposed and in different metres, with arias of L'Adrasto",
+    "class": "strong",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [
+     "1.1.1 -> 550280518 1.47.1 Aria. Silvera. Largo",
+     "1.3.1 -> 550280518 1.47.1 Aria. Silvera. Largo",
+     "1.4.1 -> 550280518 1.15.1 Aria. Silvera. Andante"
+    ],
+    "anonymous_record_authorship": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "1001224082",
+  "genre": "overtures",
+  "label": "Quartets–D minor; Manuscript copy; GB-Cmc F.4.35",
+  "shelfmark": "GB-Cmc F.4.35",
+  "leads": [
+   {
+    "composer": "D'Aprile, Bernardo (1781+)",
+    "identity": "",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only a bass-line fragment agrees with a Mass written long after this copy",
     "class": "date-impossible",
     "prior_documentation": [],
     "attribution_flags": [],
@@ -35507,6 +39517,28 @@
     "internal_matches": [
      "1.2.1 Adagio -> 200042801 1.5.2"
     ],
+    "anonymous_record_authorship": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "704002011",
+  "genre": "overtures",
+  "label": "?Overtures?–D major; Manuscript copy; B-Br Ms III 1511 (9) Mus",
+  "shelfmark": "B-Br Ms III 1511 (9) Mus",
+  "leads": [
+   {
+    "composer": "Graupner, Christoph (1683-1760)",
+    "identity": "",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only a transposed broken-chord fragment agrees with an aria accompaniment",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
     "anonymous_record_authorship": []
    }
   ],
@@ -36118,21 +40150,6 @@
     ],
     "internal_matches": [],
     "anonymous_record_authorship": []
-   },
-   {
-    "composer": "Leo, Leonardo (1694-1744)",
-    "identity": "",
-    "verdict": "rejected",
-    "attribution": "",
-    "prior": "",
-    "note": "Hand review: melodies differ beyond the opening figure",
-    "class": "plausible",
-    "prior_documentation": [],
-    "attribution_flags": [
-     "603001961: composer qualified as Conjectural"
-    ],
-    "internal_matches": [],
-    "anonymous_record_authorship": []
    }
   ],
   "verdict": "rejected"
@@ -36568,6 +40585,28 @@
   "verdict": "rejected"
  },
  {
+  "id": "450001617",
+  "genre": "overtures",
+  "label": "Overtures–D major; Manuscript copy; D-BAR Ba 120 Bü 378",
+  "shelfmark": "D-BAR Ba 120 Bü 378",
+  "leads": [
+   {
+    "composer": "Neruda, Johann Baptist Georg (1707c-1780c)",
+    "identity": "",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only a D-major triad opening agrees, in a different metre and rhythm",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
+    "anonymous_record_authorship": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
   "id": "453001017",
   "genre": "concertos",
   "label": "Concertos–B♭ major; Manuscript copy; D-Gs 8|o Cod. Ms. philos. 84|e: Anon. 15a",
@@ -36665,6 +40704,31 @@
   "verdict": "rejected"
  },
  {
+  "id": "1001170744",
+  "genre": "overtures",
+  "label": "Overtures–D major; Manuscript copy; D-ROu Mus. Saec. XVII.18-51.49",
+  "shelfmark": "D-ROu Mus. Saec. XVII.18-51.49",
+  "leads": [
+   {
+    "composer": "Paër, Ferdinando (1771-1839)",
+    "identity": "",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only short fragments agree with numbers from Sargino, an opera written a century after this copy",
+    "class": "date-impossible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [
+     "1.4.1 Saraband -> 410002957 1.1.1",
+     "1.7.1 Hornepip allego -> 1001151819 1.14.1 [p. 106: Akt II, Vierter Auftritt, Arie] No. 2. Allegro maestoso."
+    ],
+    "anonymous_record_authorship": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
   "id": "451512024",
   "genre": "operas",
   "label": "Operas (Fragments); Manuscript copy; D-Wa 46 Alt 780",
@@ -36706,6 +40770,30 @@
     "attribution_flags": [],
     "internal_matches": [
      "1.1.2 All.o spiritoso -> 551006846 1.1.1"
+    ],
+    "anonymous_record_authorship": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "1001202921",
+  "genre": "overtures",
+  "label": "Das Leben ein Traum (Excerpts); Manuscript copy; D-B Mus.ms. 30435,9",
+  "shelfmark": "D-B Mus.ms. 30435,9",
+  "leads": [
+   {
+    "composer": "Perez, Davide (1711-1778)",
+    "identity": "",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only an eight-pitch fragment agrees with a bass solo from a Mattutino de' morti, in a different key",
+    "class": "good",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [
+     "1.2.1 All[egro] molto -> 110000606 1.5.1 Resp.o 2.o.."
     ],
     "anonymous_record_authorship": []
    }
@@ -37053,6 +41141,30 @@
   "verdict": "rejected"
  },
  {
+  "id": "280004122",
+  "genre": "overtures",
+  "label": "Overtures; Manuscript copy; D-RUl Sa 10",
+  "shelfmark": "D-RUl Sa 10",
+  "leads": [
+   {
+    "composer": "Scarlatti, Alessandro (1660-1725)",
+    "identity": "",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only short transposed fragments agree with arias of Il Sedecia",
+    "class": "plausible",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [
+     "1.2.1 Adagio -> 1001174801 1.56.1 [Aria] Andante"
+    ],
+    "anonymous_record_authorship": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
   "id": "212008730",
   "genre": "operas",
   "label": "Bel viso per mi moro–G minor; Manuscript copy; D-Dl Mus.2666-K-1",
@@ -37117,6 +41229,28 @@
     "internal_matches": [
      "1.1.1 Allegro -> 550500119 1.2.1 Moderato"
     ],
+    "anonymous_record_authorship": []
+   }
+  ],
+  "verdict": "rejected"
+ },
+ {
+  "id": "704002019",
+  "genre": "overtures",
+  "label": "?Overtures?–A major; Manuscript copy; B-Br Ms III 1511 (17) Mus",
+  "shelfmark": "B-Br Ms III 1511 (17) Mus",
+  "leads": [
+   {
+    "composer": "Seidl, Maria Stanislava Katharina von, OSU (1752-1837)",
+    "identity": "",
+    "verdict": "rejected",
+    "attribution": "",
+    "prior": "",
+    "note": "Only broken-chord figuration agrees",
+    "class": "weak",
+    "prior_documentation": [],
+    "attribution_flags": [],
+    "internal_matches": [],
     "anonymous_record_authorship": []
    }
   ],

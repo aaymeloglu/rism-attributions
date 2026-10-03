@@ -48,7 +48,9 @@ Anonymus count; RISM's Anonymus list also contains records that merely cross-ref
    `tools/verdict.py` records verdicts in `data/verdicts.csv`, checking the vocabulary). Every candidate is judged incipit by incipit: same notes
    in the same order beyond the opening figure, compatible rhythm, and a plausible relationship.
 4. **Export and build** (`tools/export.py`, `python3 docs/_build_site.py`). Joins verdicts
-   with the evidence into `data/attributions.json` and builds the site.
+   with the evidence into `data/attributions.json` and builds the site. A source with leads in
+   several genres (an anonymous "overture" that is also an opera excerpt) appears once, under
+   the genre searched first, and its verdict is shared.
 
 ## What the automatic score is
 

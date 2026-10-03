@@ -87,7 +87,12 @@ def main():
     with open("data/verdicts.csv") as f:
         verdicts = {(r["anon_id"], r["composer"]): r for r in csv.DictReader(f)}
     records = {}
-    for slug in sorted(os.listdir("runs")):
+    # A source with leads in several genres keeps the genre of the earliest run (same-day runs by
+    # name), and each (source, composer) lead appears once.
+    with open("data/genres.json") as f:
+        run = {g["slug"]: g.get("run", "9999") for g in json.load(f)}
+    slugs = sorted(os.listdir("runs"), key=lambda s: (run.get(s, "9999"), s))
+    for slug in slugs:
         path = f"runs/{slug}/leads.json"
         if not os.path.exists(path):
             continue
@@ -101,6 +106,8 @@ def main():
             rec = records.setdefault(lead["anon"], {
                 "id": lead["anon"], "genre": slug, "label": rism.label(src),
                 "shelfmark": rism.label(src).split(";")[-1].strip(), "leads": []})
+            if any(e["composer"] == lead["composer"] for e in rec["leads"]):
+                continue
             entry = {"composer": lead["composer"], "identity": v.get("identity", ""), "verdict": v["verdict"], "attribution": v["attribution"],
                      "prior": v["prior"], "note": v["note"], "class": lead["class"],
                      "prior_documentation": lead["prior_documentation"], "attribution_flags": lead["attribution_flags"],
