@@ -1,0 +1,6692 @@
+[
+ {
+  "anon": "1001042458",
+  "label": "Overtures; Manuscript copy; MEX-Mahn E26-T1-V5",
+  "composer": "Vinci, Leonardo (1696c-1730)",
+  "matched": [
+   "1.1.1"
+  ],
+  "sources": [
+   "119908",
+   "452504412",
+   "452515086"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1",
+    "voice": "vl 2",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 24,
+    "agree": 18,
+    "overlap": 18,
+    "source": "119908",
+    "source_inc": "1.1.1 Sinfonia. Allegro",
+    "source_voice": "vl 1",
+    "source_first": true,
+    "source_keysig": "xFC",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 19,
+    "same_key": true,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [
+     {
+      "source": "452504412",
+      "source_inc": "1.1.1 Sinfonia. Allegro",
+      "source_voice": "vl 1",
+      "overlap": 18,
+      "agree": 18,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "452515086",
+      "source_inc": "1.1.1 Sinfonia. Allegro",
+      "source_voice": "vl 1",
+      "overlap": 18,
+      "agree": 18,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     }
+    ],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1696,
+   1730
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "1001132289",
+  "label": "L'Orfanella (Excerpts, Arrangement); Manuscript copy; E-MANs 145",
+  "composer": "Ricci, Luigi (1805-1859)",
+  "matched": [
+   "1.1.1 Andante Maestoso"
+  ],
+  "sources": [
+   "452500237"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Andante Maestoso",
+    "voice": "vl 1",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 10,
+    "agree": 10,
+    "overlap": 10,
+    "source": "452500237",
+    "source_inc": "1.1.1 [Sinfonia]. Andante maestoso",
+    "source_voice": "vl 1",
+    "source_first": true,
+    "source_keysig": "xFC",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 10,
+    "same_key": true,
+    "same_voice": true,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Andante Maestoso"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1805,
+   1859
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [
+   "452500237"
+  ],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "1001170744",
+  "label": "Overtures–D major; Manuscript copy; D-ROu Mus. Saec. XVII.18-51.49",
+  "composer": "Paër, Ferdinando (1771-1839)",
+  "matched": [
+   "1.4.1 Saraband",
+   "1.6.1 Boure"
+  ],
+  "sources": [
+   "1001100364",
+   "1001151819",
+   "201004265",
+   "410002957"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Preludio",
+    "voice": "vl and ob 1 princ",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 36,
+    "agree": 2,
+    "overlap": 5,
+    "source": "1001151819",
+    "source_inc": "1.3.1 [p. 10: Akt I, Zweiter Auftritt] Adagio maestoso.",
+    "source_voice": "T solo",
+    "source_first": false,
+    "source_keysig": "n",
+    "source_text": "Sì o sia d'onor fregiato",
+    "offset": [
+     10,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 6,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": false,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.2.1 Presto",
+    "voice": "vl and ob 1 princ",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 23,
+    "agree": 1,
+    "overlap": 5,
+    "source": "201004265",
+    "source_inc": "1.50.1 Aria No. 20. Maestoso",
+    "source_voice": "vl 1",
+    "source_first": false,
+    "source_keysig": "xFC",
+    "source_text": "",
+    "offset": [
+     0,
+     9
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 17,
+    "same_key": true,
+    "same_voice": false,
+    "eligible": false,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.3.1 Marche d infanteri allegro",
+    "voice": "vl and ob 1 princ",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 12,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.4.1 Saraband",
+    "voice": "vl and ob 1 princ",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 13,
+    "agree": 1,
+    "overlap": 11,
+    "source": "410002957",
+    "source_inc": "1.1.1",
+    "source_voice": "pf",
+    "source_first": true,
+    "source_keysig": "bB",
+    "source_text": "",
+    "offset": [
+     0,
+     8
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 20,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.5.1 Menuet et Trio",
+    "voice": "vl and ob 1 princ",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 20,
+    "agree": 1,
+    "overlap": 5,
+    "source": "1001100364",
+    "source_inc": "1.19.2",
+    "source_voice": "S solo",
+    "source_first": false,
+    "source_keysig": "xF",
+    "source_text": "Quest'aspettare",
+    "offset": [
+     0,
+     6
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 12,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": false,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.6.1 Boure",
+    "voice": "cor 1 and tamb turc",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 7,
+    "agree": 7,
+    "overlap": 7,
+    "source": "1001100364",
+    "source_inc": "1.10.1 No: 3. Aria Allegro",
+    "source_voice": "T solo",
+    "source_first": false,
+    "source_keysig": "xFC",
+    "source_text": "Di trombe e di tamburi",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.67,
+    "comparator_notes": 13,
+    "same_key": true,
+    "same_voice": false,
+    "eligible": false,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.7.1 Hornepip allego",
+    "voice": "vl and ob 1 princ",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 31,
+    "agree": 1,
+    "overlap": 10,
+    "source": "1001151819",
+    "source_inc": "1.14.1 [p. 106: Akt II, Vierter Auftritt, Arie] No. 2. Allegro maestoso.",
+    "source_voice": "B solo",
+    "source_first": false,
+    "source_keysig": "bBEA",
+    "source_text": "La più gran bestialità",
+    "offset": [
+     8,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 14,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [
+     {
+      "source": "201004265",
+      "source_inc": "1.35.1 No: 14. Allegro maestoso",
+      "source_voice": "vl 1",
+      "overlap": 10,
+      "agree": 1,
+      "offset": [
+       8,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "201004265",
+      "source_inc": "1.35.2",
+      "source_voice": "B solo",
+      "overlap": 10,
+      "agree": 1,
+      "offset": [
+       8,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": true
+     }
+    ],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.8.1 Guique",
+    "voice": "vl and ob 1 princ",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 11,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   }
+  ],
+  "incipits_matched": [
+   "1.4.1 Saraband",
+   "1.7.1 Hornepip allego"
+  ],
+  "distinct_numbers_matched": [
+   "1.4",
+   "1.7"
+  ],
+  "internal_matches": [
+   "1.4.1 Saraband -> 410002957 1.1.1",
+   "1.7.1 Hornepip allego -> 1001151819 1.14.1 [p. 106: Akt II, Vierter Auftritt, Arie] No. 2. Allegro maestoso."
+  ],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "life": [
+   1771,
+   1839
+  ],
+  "copy_years": [
+   1700,
+   1731
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [
+   "Bononcini",
+   "Büchner, Adolf Emil (1826-1908)",
+   "Concone, Giuseppe (1801-1861)",
+   "Donizetti, Gaetano (1797-1848)"
+  ],
+  "class": "date-impossible"
+ },
+ {
+  "anon": "1001171605",
+  "label": "Overtures–F major; Manuscript copy; D-ROu Mus. Saec. XVII.18-51.52",
+  "composer": "Chiti, Girolamo (1679-1759)",
+  "matched": [
+   "1.10.1 Phantasia"
+  ],
+  "sources": [
+   "850508066"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Overtour Adagio",
+    "voice": "cor 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 10,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.2.1 Allemanda grave",
+    "voice": "vl and ob 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 23,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.2.2 Allemanda adag[io]",
+    "voice": "cor 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 15,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.3.1 Courrent allegro",
+    "voice": "vl and ob 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 22,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.4.1 Boure",
+    "voice": "vl and ob 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 17,
+    "agree": 2,
+    "overlap": 8,
+    "source": "850508066",
+    "source_inc": "1.1.1",
+    "source_voice": "S",
+    "source_first": true,
+    "source_keysig": "xFC",
+    "source_text": "Statuit ei Dominus testamentum pacis",
+    "offset": [
+     6,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 10,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.5.1 Menuet",
+    "voice": "vl and ob 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 15,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.6.1 Aria",
+    "voice": "vl and ob 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 24,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.7.1 Menuet",
+    "voice": "vl and ob 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 17,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.8.1 Aria affectuose",
+    "voice": "vl and ob 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 12,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.9.1 Menuet",
+    "voice": "vl and ob 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 15,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.10.1 Phantasia",
+    "voice": "vl and ob 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 12,
+    "agree": 10,
+    "overlap": 10,
+    "source": "850508066",
+    "source_inc": "1.1.1",
+    "source_voice": "S",
+    "source_first": true,
+    "source_keysig": "xFC",
+    "source_text": "Statuit ei Dominus testamentum pacis",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 10,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.4.1 Boure",
+   "1.10.1 Phantasia"
+  ],
+  "distinct_numbers_matched": [
+   "1.10",
+   "1.4"
+  ],
+  "internal_matches": [
+   "1.10.1 Phantasia -> 850508066 1.1.1",
+   "1.4.1 Boure -> 850508066 1.1.1"
+  ],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "life": [
+   1679,
+   1759
+  ],
+  "copy_years": [
+   1700,
+   1731
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "strong"
+ },
+ {
+  "anon": "1001171605",
+  "label": "Overtures–F major; Manuscript copy; D-ROu Mus. Saec. XVII.18-51.52",
+  "composer": "Zelenka, Jan Dismas (1679-1745)",
+  "matched": [
+   "1.3.1 Courrent allegro"
+  ],
+  "sources": [
+   "212006667"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Overtour Adagio",
+    "voice": "cor 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 10,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.2.1 Allemanda grave",
+    "voice": "vl and ob 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 23,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.2.2 Allemanda adag[io]",
+    "voice": "cor 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 15,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.3.1 Courrent allegro",
+    "voice": "vl and ob 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 22,
+    "agree": 1,
+    "overlap": 15,
+    "source": "212006667",
+    "source_inc": "1.2.1 [Tutti].",
+    "source_voice": "T solo",
+    "source_first": false,
+    "source_keysig": "xFCG",
+    "source_text": "Alleluia",
+    "offset": [
+     0,
+     2
+    ],
+    "figuration": 0.29,
+    "comparator_notes": 17,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [
+     {
+      "source": "212006667",
+      "source_inc": "1.1.1 Symphonia [e recitativo accompagnato].",
+      "source_voice": "vl 2",
+      "overlap": 9,
+      "agree": 1,
+      "offset": [
+       0,
+       6
+      ],
+      "figuration": 0.0,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": true
+     }
+    ],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.4.1 Boure",
+    "voice": "vl and ob 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 17,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.5.1 Menuet",
+    "voice": "vl and ob 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 15,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.6.1 Aria",
+    "voice": "vl and ob 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 24,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.7.1 Menuet",
+    "voice": "vl and ob 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 17,
+    "agree": 1,
+    "overlap": 5,
+    "source": "212006667",
+    "source_inc": "1.1.1 Symphonia [e recitativo accompagnato].",
+    "source_voice": "vl 2",
+    "source_first": true,
+    "source_keysig": "xFCG",
+    "source_text": "",
+    "offset": [
+     0,
+     6
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 15,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": false,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.8.1 Aria affectuose",
+    "voice": "vl and ob 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 12,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.9.1 Menuet",
+    "voice": "vl and ob 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 15,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.10.1 Phantasia",
+    "voice": "vl and ob 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 12,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   }
+  ],
+  "incipits_matched": [
+   "1.3.1 Courrent allegro"
+  ],
+  "distinct_numbers_matched": [
+   "1.3"
+  ],
+  "internal_matches": [
+   "1.3.1 Courrent allegro -> 212006667 1.2.1 [Tutti]."
+  ],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "life": [
+   1679,
+   1745
+  ],
+  "copy_years": [
+   1700,
+   1731
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "1001202921",
+  "label": "Das Leben ein Traum (Excerpts); Manuscript copy; D-B Mus.ms. 30435,9",
+  "composer": "Perez, Davide (1711-1778)",
+  "matched": [
+   "1.2.1 All[egro] molto"
+  ],
+  "sources": [
+   "110000606",
+   "110002363"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Ouverture Grave",
+    "voice": "vl 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 6,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.2.1 All[egro] molto",
+    "voice": "vl 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 25,
+    "agree": 1,
+    "overlap": 8,
+    "source": "110000606",
+    "source_inc": "1.5.1 Resp.o 2.o..",
+    "source_voice": "B 1 solo",
+    "source_first": false,
+    "source_keysig": "bBEA",
+    "source_text": "Hei mihi Domine, quia peccavi nimis in vita mea",
+    "offset": [
+     0,
+     5
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 15,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [
+     {
+      "source": "110002363",
+      "source_inc": "1.6.1",
+      "source_voice": "fag 1",
+      "overlap": 8,
+      "agree": 1,
+      "offset": [
+       0,
+       1
+      ],
+      "figuration": 0.0,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": true
+     }
+    ],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.2.1 All[egro] molto"
+  ],
+  "distinct_numbers_matched": [
+   "1.2"
+  ],
+  "internal_matches": [
+   "1.2.1 All[egro] molto -> 110000606 1.5.1 Resp.o 2.o.."
+  ],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "life": [
+   1711,
+   1778
+  ],
+  "copy_years": [
+   1800,
+   1832
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "1001214064",
+  "label": "Quartets–G major (Arrangement); Manuscript copy; GB-Cmc F.4.35",
+  "composer": "Farinel, Jean Baptiste (1655-1725c)",
+  "matched": [
+   "1.1.1 Ouverture"
+  ],
+  "sources": [
+   "450028011"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Ouverture",
+    "voice": "Treble",
+    "keysig": "xF",
+    "text": "",
+    "notes": 14,
+    "agree": 12,
+    "overlap": 12,
+    "source": "450028011",
+    "source_inc": "1.1.1 3.e Suitte / Ouverture.",
+    "source_voice": "vl",
+    "source_first": true,
+    "source_keysig": "xF",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 12,
+    "same_key": true,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.1.2 Ouverture",
+    "voice": "Bass",
+    "keysig": "xF",
+    "text": "",
+    "notes": 8,
+    "agree": 6,
+    "overlap": 6,
+    "source": "450028011",
+    "source_inc": "1.1.1 3.e Suitte / Ouverture.",
+    "source_voice": "vl",
+    "source_first": true,
+    "source_keysig": "xF",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 12,
+    "same_key": true,
+    "same_voice": false,
+    "eligible": false,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Ouverture"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1655,
+   1725
+  ],
+  "copy_years": [
+   1700,
+   1730
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [
+   "450028011: composer qualified as Conjectural"
+  ],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "1001220251",
+  "label": "Quartets–E minor (Excerpts, Arrangement); Manuscript copy; GB-Cmc F.4.35",
+  "composer": "Desmarets, Henri (1661-1741)",
+  "matched": [
+   "1.1.1 Ouverture"
+  ],
+  "sources": [
+   "116794",
+   "840011874"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Ouverture",
+    "voice": "Treble",
+    "keysig": "xF",
+    "text": "",
+    "notes": 10,
+    "agree": 10,
+    "overlap": 10,
+    "source": "116794",
+    "source_inc": "1.1.1 Ouverture. Lentement",
+    "source_voice": "dessus",
+    "source_first": true,
+    "source_keysig": "xF",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 13,
+    "same_key": true,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [
+     {
+      "source": "840011874",
+      "source_inc": "1.2.1",
+      "source_voice": "",
+      "overlap": 10,
+      "agree": 10,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     }
+    ],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.1.2 Ouverture",
+    "voice": "Bass",
+    "keysig": "xF",
+    "text": "",
+    "notes": 12,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Ouverture"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1661,
+   1741
+  ],
+  "copy_years": [
+   1700,
+   1730
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "1001223098",
+  "label": "Quartets–C major (Arrangement); Manuscript copy; GB-Cmc F.4.35",
+  "composer": "Farinel, Jean Baptiste (1655-1725c)",
+  "matched": [
+   "1.1.1 Ouverture"
+  ],
+  "sources": [
+   "450116933"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Ouverture",
+    "voice": "Treble",
+    "keysig": "n",
+    "text": "",
+    "notes": 16,
+    "agree": 16,
+    "overlap": 16,
+    "source": "450116933",
+    "source_inc": "1.1.1 Ouverture.",
+    "source_voice": "fl",
+    "source_first": true,
+    "source_keysig": "bB",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 16,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.1.2 Ouverture",
+    "voice": "Bass",
+    "keysig": "n",
+    "text": "",
+    "notes": 13,
+    "agree": 1,
+    "overlap": 8,
+    "source": "450116933",
+    "source_inc": "1.1.1 Ouverture.",
+    "source_voice": "fl",
+    "source_first": true,
+    "source_keysig": "bB",
+    "source_text": "",
+    "offset": [
+     1,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 16,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Ouverture",
+   "1.1.2 Ouverture"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [
+   "1.1.2 Ouverture -> 450116933 1.1.1 Ouverture."
+  ],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "life": [
+   1655,
+   1725
+  ],
+  "copy_years": [
+   1700,
+   1730
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "1001224082",
+  "label": "Quartets–D minor; Manuscript copy; GB-Cmc F.4.35",
+  "composer": "D'Aprile, Bernardo (1781+)",
+  "matched": [
+   "1.1.2 Ouverture"
+  ],
+  "sources": [
+   "653001962"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Ouverture",
+    "voice": "Treble",
+    "keysig": "bB",
+    "text": "",
+    "notes": 15,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.1.2 Ouverture",
+    "voice": "Bass",
+    "keysig": "bB",
+    "text": "",
+    "notes": 12,
+    "agree": 9,
+    "overlap": 9,
+    "source": "653001962",
+    "source_inc": "1.1.2",
+    "source_voice": "org (=bc)",
+    "source_first": false,
+    "source_keysig": "n",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 17,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.2 Ouverture"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "life": [
+   1781
+  ],
+  "copy_years": [
+   1700,
+   1730
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "date-impossible"
+ },
+ {
+  "anon": "1001318030",
+  "label": "Overtures–F major; Manuscript copy; PL-ŁA RM 133",
+  "composer": "Bernardini, Marcello (1747c-1819)",
+  "matched": [
+   "1.2.1 Andante | Comodo"
+  ],
+  "sources": [
+   "1001318302"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Allegro giusto",
+    "voice": "vl 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 24,
+    "agree": 18,
+    "overlap": 18,
+    "source": "1001318302",
+    "source_inc": "1.1.1 Overtura",
+    "source_voice": "vl 1",
+    "source_first": true,
+    "source_keysig": "n",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 24,
+    "same_key": false,
+    "same_voice": true,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.2.1 Andante | Comodo",
+    "voice": "vl 1",
+    "keysig": "n",
+    "text": "",
+    "notes": 16,
+    "agree": 16,
+    "overlap": 16,
+    "source": "1001318302",
+    "source_inc": "1.2.1 andante comodo",
+    "source_voice": "vl 1",
+    "source_first": false,
+    "source_keysig": "n",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 24,
+    "same_key": true,
+    "same_voice": true,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.3.1 Marcia",
+    "voice": "vl 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 11,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.4.1 Balletto Vanorale Andantino grazioso",
+    "voice": "vl 1",
+    "keysig": "bBE",
+    "text": "",
+    "notes": 15,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.5.1 Le Ninfe Scacciate Allegro",
+    "voice": "vl 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 31,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.6.1 Amoresi addormoita e sogna andante comodo",
+    "voice": "vl 1",
+    "keysig": "n",
+    "text": "",
+    "notes": 12,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.7.1 Le Ninfe sono in cafenate al Carro Allegro",
+    "voice": "vl 1",
+    "keysig": "bBE",
+    "text": "",
+    "notes": 14,
+    "agree": 1,
+    "overlap": 5,
+    "source": "1001318302",
+    "source_inc": "1.1.1 Overtura",
+    "source_voice": "vl 1",
+    "source_first": true,
+    "source_keysig": "n",
+    "source_text": "",
+    "offset": [
+     6,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 24,
+    "same_key": false,
+    "same_voice": true,
+    "eligible": false,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.8.1 Marcia Maestosa",
+    "voice": "vl 1",
+    "keysig": "bBEA",
+    "text": "",
+    "notes": 11,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.9.1 Andante Maestoso",
+    "voice": "vl 1",
+    "keysig": "bBEA",
+    "text": "",
+    "notes": 11,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Allegro giusto",
+   "1.2.1 Andante | Comodo"
+  ],
+  "distinct_numbers_matched": [
+   "1.1",
+   "1.2"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "life": [
+   1747,
+   1819
+  ],
+  "copy_years": [
+   1800,
+   1800
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "strong"
+ },
+ {
+  "anon": "1001318030",
+  "label": "Overtures–F major; Manuscript copy; PL-ŁA RM 133",
+  "composer": "Huber, Ferdinand Fürchtegott (1791-1863)",
+  "matched": [
+   "1.9.1 Andante Maestoso"
+  ],
+  "sources": [
+   "407000693"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Allegro giusto",
+    "voice": "vl 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 2,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.2.1 Andante | Comodo",
+    "voice": "vl 1",
+    "keysig": "n",
+    "text": "",
+    "notes": 16,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.3.1 Marcia",
+    "voice": "vl 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 11,
+    "agree": 5,
+    "overlap": 5,
+    "source": "407000693",
+    "source_inc": "1.3.1 Scherzo Allegretto",
+    "source_voice": "vl 1",
+    "source_first": false,
+    "source_keysig": "bB",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 9,
+    "same_key": true,
+    "same_voice": true,
+    "eligible": false,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.4.1 Balletto Vanorale Andantino grazioso",
+    "voice": "vl 1",
+    "keysig": "bBE",
+    "text": "",
+    "notes": 15,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.5.1 Le Ninfe Scacciate Allegro",
+    "voice": "vl 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 31,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.6.1 Amoresi addormoita e sogna andante comodo",
+    "voice": "vl 1",
+    "keysig": "n",
+    "text": "",
+    "notes": 12,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.7.1 Le Ninfe sono in cafenate al Carro Allegro",
+    "voice": "vl 1",
+    "keysig": "bBE",
+    "text": "",
+    "notes": 14,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.8.1 Marcia Maestosa",
+    "voice": "vl 1",
+    "keysig": "bBEA",
+    "text": "",
+    "notes": 11,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.9.1 Andante Maestoso",
+    "voice": "vl 1",
+    "keysig": "bBEA",
+    "text": "",
+    "notes": 11,
+    "agree": 1,
+    "overlap": 9,
+    "source": "407000693",
+    "source_inc": "1.1.1 Maestoso",
+    "source_voice": "vl 1",
+    "source_first": true,
+    "source_keysig": "bB",
+    "source_text": "",
+    "offset": [
+     0,
+     6
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 16,
+    "same_key": false,
+    "same_voice": true,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.9.1 Andante Maestoso"
+  ],
+  "distinct_numbers_matched": [
+   "1.9"
+  ],
+  "internal_matches": [
+   "1.9.1 Andante Maestoso -> 407000693 1.1.1 Maestoso"
+  ],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "life": [
+   1791,
+   1863
+  ],
+  "copy_years": [
+   1800,
+   1800
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "date-impossible"
+ },
+ {
+  "anon": "110018",
+  "label": "Overtures–D major; Manuscript copy; GombosiH 1970 no.C I[.68]; US-WS H C I[.68]",
+  "composer": "Händel, Georg Friedrich (1685-1759)",
+  "matched": [
+   "1.1.1 Overture. Largo"
+  ],
+  "sources": [
+   "806251971"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Overture. Largo",
+    "voice": "cemb",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 14,
+    "agree": 12,
+    "overlap": 12,
+    "source": "806251971",
+    "source_inc": "1.1.1",
+    "source_voice": "cemb",
+    "source_first": true,
+    "source_keysig": "xFC",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 12,
+    "same_key": true,
+    "same_voice": true,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Overture. Largo"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1685,
+   1759
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [
+   "D maj.; 48 m.; Keyboard. This is also found, attributed to Handel in his Water Music, in: Collection of harpsichord pieces and a few songs. See RISM ID 806252012."
+  ],
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "117437",
+  "label": "La schiava (Excerpts, Arrangement); Manuscript copy; US-SFsc *M2.5 v. 45",
+  "composer": "Guglielmi, Pietro Alessandro (1728-1804)",
+  "matched": [
+   "1.1.1"
+  ],
+  "sources": [
+   "453011452",
+   "706000009",
+   "850002132"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1",
+    "voice": "cemb",
+    "keysig": "xF",
+    "text": "",
+    "notes": 19,
+    "agree": 19,
+    "overlap": 19,
+    "source": "453011452",
+    "source_inc": "1.1.1 Allegro",
+    "source_voice": "vl 1",
+    "source_first": true,
+    "source_keysig": "xF",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 22,
+    "same_key": true,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [
+     {
+      "source": "706000009",
+      "source_inc": "1.1.1 [Sinfonia]. Allegro assai",
+      "source_voice": "vl 1",
+      "overlap": 19,
+      "agree": 19,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "850002132",
+      "source_inc": "1.1.1 Allegro assai",
+      "source_voice": "vl 1",
+      "overlap": 19,
+      "agree": 19,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     }
+    ],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1728,
+   1804
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "126395",
+  "label": "Julie (Excerpts, Arrangement); Manuscript copy; US-AAu M118.Q2 17--",
+  "composer": "Dezède, Nicolas (1745c-1792)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "1001369932",
+   "551005419"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Allegro",
+    "voice": "arp",
+    "keysig": "bBE",
+    "text": "",
+    "notes": 12,
+    "agree": 12,
+    "overlap": 12,
+    "source": "1001369932",
+    "source_inc": "1.1.1 Allegro",
+    "source_voice": "arp (cemb, pf)",
+    "source_first": true,
+    "source_keysig": "bBE",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 12,
+    "same_key": true,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [
+     {
+      "source": "551005419",
+      "source_inc": "1.1.1 Ouverture. All[egr]o",
+      "source_voice": "vl 1",
+      "overlap": 12,
+      "agree": 12,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": true
+     }
+    ],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Allegro"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1745,
+   1792
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [
+   "1001369932"
+  ],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "190001798",
+  "label": "Overtures–D major; Manuscript copy; S-L Saml.Engelhart 250",
+  "composer": "Berger, Ludwig (1777-1839)",
+  "matched": [
+   "1.1.1 Adagio"
+  ],
+  "sources": [
+   "1001112380"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Adagio",
+    "voice": "i",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 21,
+    "agree": 7,
+    "overlap": 14,
+    "source": "1001112380",
+    "source_inc": "1.1.1 Allegro moderato.",
+    "source_voice": "pf",
+    "source_first": true,
+    "source_keysig": "n",
+    "source_text": "",
+    "offset": [
+     0,
+     25
+    ],
+    "figuration": 0.92,
+    "comparator_notes": 48,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": false,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [],
+  "distinct_numbers_matched": [],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1777,
+   1839
+  ],
+  "copy_years": [
+   1700,
+   1799
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "190004785",
+  "label": "Overtures–A minor; Manuscript copy; S-Uu Instr. mus. i hs. 64:12",
+  "composer": "Böie, John (1822-1900)",
+  "matched": [
+   "1.1.1 Ouverture."
+  ],
+  "sources": [
+   "450111315"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Ouverture.",
+    "voice": "dessus 1",
+    "keysig": "n",
+    "text": "",
+    "notes": 6,
+    "agree": 1,
+    "overlap": 5,
+    "source": "450111315",
+    "source_inc": "1.1.1 Moderato",
+    "source_voice": "A (Bariton)",
+    "source_first": true,
+    "source_keysig": "bBEA",
+    "source_text": "Wohl waren es Tage der Sonne",
+    "offset": [
+     0,
+     4
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 11,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": false,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [],
+  "distinct_numbers_matched": [],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1822,
+   1900
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "190008951",
+  "label": "Overtures–G minor; Manuscript copy; S-SK 231:20.",
+  "composer": "Mattheson, Johann (1681-1764)",
+  "matched": [
+   "1.1.1"
+  ],
+  "sources": [
+   "452010711",
+   "452010725"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1",
+    "voice": "vl",
+    "keysig": "bB",
+    "text": "",
+    "notes": 18,
+    "agree": 10,
+    "overlap": 10,
+    "source": "452010711",
+    "source_inc": "1.1.1 Ouvertur.",
+    "source_voice": "cemb",
+    "source_first": true,
+    "source_keysig": "bBEA[D]",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 10,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [
+     {
+      "source": "452010725",
+      "source_inc": "1.1.1 Ouverture.",
+      "source_voice": "cemb",
+      "overlap": 10,
+      "agree": 10,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": true
+     }
+    ],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": true,
+  "key_label_mismatch": true,
+  "life": [
+   1681,
+   1764
+  ],
+  "copy_years": [
+   1700,
+   1749
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "201001727",
+  "label": "Overtures–C major; Manuscript copy; D-LEm PM 9644",
+  "composer": "Méhul, Etienne-Nicolas (1763-1817)",
+  "matched": [
+   "1.1.1 Moderato"
+  ],
+  "sources": [
+   "1001010010",
+   "1001047696",
+   "1001048518",
+   "270001484",
+   "280000181",
+   "300000839",
+   "301002827",
+   "301002828",
+   "310000108",
+   "400066061",
+   "400090381",
+   "410002872",
+   "450062792",
+   "452521251",
+   "455001790",
+   "456015296",
+   "550509755",
+   "850007280",
+   "850777545",
+   "990040479",
+   "990040480",
+   "991022490"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Moderato",
+    "voice": "pf",
+    "keysig": "n",
+    "text": "",
+    "notes": 10,
+    "agree": 10,
+    "overlap": 10,
+    "source": "1001047696",
+    "source_inc": "1.1.1 Andante",
+    "source_voice": "pf",
+    "source_first": true,
+    "source_keysig": "n",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 14,
+    "same_key": true,
+    "same_voice": true,
+    "eligible": true,
+    "witnesses": [
+     {
+      "source": "310000108",
+      "source_inc": "1.1.1 Moderato",
+      "source_voice": "pf",
+      "overlap": 10,
+      "agree": 10,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     },
+     {
+      "source": "1001010010",
+      "source_inc": "1.1.1 Allegro moderato",
+      "source_voice": "vl 1",
+      "overlap": 10,
+      "agree": 10,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "1001048518",
+      "source_inc": "1.1.1 Allegro moder",
+      "source_voice": "vl 1",
+      "overlap": 10,
+      "agree": 10,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "270001484",
+      "source_inc": "1.1.1 [Ouverture]. Allegro moderato",
+      "source_voice": "vl 1",
+      "overlap": 10,
+      "agree": 10,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "280000181",
+      "source_inc": "1.1.1 Ouvertura. Allegro moderato",
+      "source_voice": "vl 1",
+      "overlap": 10,
+      "agree": 10,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "300000839",
+      "source_inc": "1.1.1 Andante",
+      "source_voice": "vl 2",
+      "overlap": 10,
+      "agree": 10,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "400066061",
+      "source_inc": "1.1.1 Allegro moderato",
+      "source_voice": "vl 1",
+      "overlap": 10,
+      "agree": 10,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "400090381",
+      "source_inc": "1.1.1 Allegro moderato",
+      "source_voice": "vl 1",
+      "overlap": 10,
+      "agree": 10,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     }
+    ],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.2.1 Allegro moderato",
+    "voice": "pf",
+    "keysig": "n",
+    "text": "",
+    "notes": 5,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Moderato"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1763,
+   1817
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "240007321",
+  "label": "Overtures–G minor; Manuscript copy; D-SWl Mus.276",
+  "composer": "Conti, Francesco Bartolomeo (1681c-1732)",
+  "matched": [
+   "1.1.1 Ouverture.",
+   "1.3.1"
+  ],
+  "sources": [
+   "1001284367",
+   "1001284369"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Ouverture.",
+    "voice": "vl 1",
+    "keysig": "bBE",
+    "text": "",
+    "notes": 9,
+    "agree": 9,
+    "overlap": 9,
+    "source": "1001284367",
+    "source_inc": "1.1.1",
+    "source_voice": "keyb",
+    "source_first": true,
+    "source_keysig": "bBE",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 13,
+    "same_key": true,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.2.1",
+    "voice": "vl 1",
+    "keysig": "bBE",
+    "text": "",
+    "notes": 9,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.3.1",
+    "voice": "vl 1",
+    "keysig": "bBE",
+    "text": "",
+    "notes": 10,
+    "agree": 10,
+    "overlap": 10,
+    "source": "1001284369",
+    "source_inc": "1.1.1",
+    "source_voice": "keyb",
+    "source_first": true,
+    "source_keysig": "bBE",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.44,
+    "comparator_notes": 17,
+    "same_key": true,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Ouverture.",
+   "1.3.1"
+  ],
+  "distinct_numbers_matched": [
+   "1.1",
+   "1.3"
+  ],
+  "internal_matches": [
+   "1.3.1 -> 1001284369 1.1.1"
+  ],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1681,
+   1732
+  ],
+  "copy_years": [
+   1708,
+   1749
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [
+   "Biber, Heinrich Ignaz Franz von (1644-1704)"
+  ],
+  "class": "strong"
+ },
+ {
+  "anon": "270002463",
+  "label": "Overtures–D major; Manuscript copy; D-Dl Mus.3556-F-516",
+  "composer": "Cimarosa, Domenico (1749-1801)",
+  "matched": [
+   "1.1.1 Allegro assai",
+   "1.2.1 Andantino",
+   "1.3.1 Allegro con spirito"
+  ],
+  "sources": [
+   "270001302",
+   "270002458",
+   "451511661",
+   "550019154",
+   "850008343",
+   "850008400",
+   "850801904",
+   "858000054",
+   "858000096"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Allegro assai",
+    "voice": "vl 1",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 12,
+    "agree": 12,
+    "overlap": 12,
+    "source": "270001302",
+    "source_inc": "1.1.1 Sinfonia. Allegro assai",
+    "source_voice": "vl 1",
+    "source_first": true,
+    "source_keysig": "xFC",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 12,
+    "same_key": true,
+    "same_voice": true,
+    "eligible": true,
+    "witnesses": [
+     {
+      "source": "270002458",
+      "source_inc": "1.1.1 [Sinfonia]. Allegro assai",
+      "source_voice": "vl 1",
+      "overlap": 12,
+      "agree": 12,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     },
+     {
+      "source": "550019154",
+      "source_inc": "1.1.1 Overture. Allegro assai",
+      "source_voice": "vl 1",
+      "overlap": 12,
+      "agree": 12,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     },
+     {
+      "source": "850008343",
+      "source_inc": "1.1.1 Overtura. Allegro spiritoso",
+      "source_voice": "vl 1",
+      "overlap": 12,
+      "agree": 12,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     },
+     {
+      "source": "850008400",
+      "source_inc": "1.1.1 Sinfonia. Allegro assai",
+      "source_voice": "vl 1",
+      "overlap": 12,
+      "agree": 12,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     },
+     {
+      "source": "858000054",
+      "source_inc": "1.1.1 [Sinfonia] Overtura. Allegro spiritoso",
+      "source_voice": "vl 1",
+      "overlap": 12,
+      "agree": 12,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     },
+     {
+      "source": "858000096",
+      "source_inc": "1.1.1 [Sinfonia]. Allegro assai",
+      "source_voice": "vl 1",
+      "overlap": 12,
+      "agree": 12,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     },
+     {
+      "source": "850801904",
+      "source_inc": "1.1.1 Allegro assai",
+      "source_voice": "vl",
+      "overlap": 12,
+      "agree": 12,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "451511661",
+      "source_inc": "1.1.1 Allegro assai",
+      "source_voice": "vl",
+      "overlap": 8,
+      "agree": 8,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     }
+    ],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.2.1 Andantino",
+    "voice": "vl 1",
+    "keysig": "xF",
+    "text": "",
+    "notes": 20,
+    "agree": 20,
+    "overlap": 20,
+    "source": "270001302",
+    "source_inc": "1.2.1 Andantino",
+    "source_voice": "vl 1",
+    "source_first": false,
+    "source_keysig": "xF",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 20,
+    "same_key": true,
+    "same_voice": true,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.3.1 Allegro con spirito",
+    "voice": "vl 1",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 20,
+    "agree": 20,
+    "overlap": 20,
+    "source": "270001302",
+    "source_inc": "1.3.1 Allegro con spirito",
+    "source_voice": "vl 1",
+    "source_first": false,
+    "source_keysig": "xFC",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 20,
+    "same_key": true,
+    "same_voice": true,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Allegro assai",
+   "1.2.1 Andantino",
+   "1.3.1 Allegro con spirito"
+  ],
+  "distinct_numbers_matched": [
+   "1.1",
+   "1.2",
+   "1.3"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1749,
+   1801
+  ],
+  "copy_years": [
+   1782,
+   1792
+  ],
+  "names_composer": true,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [
+   "Bini, Pasquale (1716-1770)",
+   "Durand, Auguste (1830-1909)",
+   "Herschel, William (1738-1822)",
+   "Paisiello, Giovanni (1740-1816)",
+   "Rolle, Johann Heinrich (1716-1785)",
+   "Valls, Francisco (1671c-1747)"
+  ],
+  "class": "known"
+ },
+ {
+  "anon": "270002548",
+  "label": "Overtures–D major; Manuscript copy; D-Dl Mus.4119-F-500",
+  "composer": "Schmittbauer, Joseph Aloys (1718-1809)",
+  "matched": [
+   "1.1.1 Allegro spiritoso"
+  ],
+  "sources": [
+   "1001295610",
+   "450066799",
+   "450066806",
+   "452503744"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Allegro spiritoso",
+    "voice": "vl 1",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 19,
+    "agree": 19,
+    "overlap": 19,
+    "source": "1001295610",
+    "source_inc": "1.1.1 Sinfonia Allegro spiritoso",
+    "source_voice": "vl 1",
+    "source_first": true,
+    "source_keysig": "xFC",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 19,
+    "same_key": true,
+    "same_voice": true,
+    "eligible": true,
+    "witnesses": [
+     {
+      "source": "450066799",
+      "source_inc": "1.1.1 Introduzzione.",
+      "source_voice": "vl 1",
+      "overlap": 19,
+      "agree": 19,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     },
+     {
+      "source": "452503744",
+      "source_inc": "1.1.1 Introduzzione. Allegro con spirito",
+      "source_voice": "vl 1",
+      "overlap": 19,
+      "agree": 19,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     },
+     {
+      "source": "450066806",
+      "source_inc": "1.1.1",
+      "source_voice": "pf",
+      "overlap": 19,
+      "agree": 19,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     }
+    ],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Allegro spiritoso"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1718,
+   1809
+  ],
+  "copy_years": [
+   1788,
+   1788
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [
+   {
+    "source": "1001295610",
+    "text": "Vermutlich Dresdner Einlage zu Fabrizis \"I due castellani burlati\", siehe D-Dl Mus.4119-F-500 (RISM ID no. 270002548). Möglicherweise handelt es sich um die Introduzione aus \"Lindor und Ismene\" von Joseph Aloys Schmittbauer, siehe die konkordanten Quellen D-ASm N 8213 und D-Hs ND VII 352."
+   }
+  ],
+  "attribution_flags": [
+   "1001295610: composer qualified as Conjectural",
+   "1001295610: cross-reference to Fabrizi, Vincenzo (1764-1812p) (Ascertained)"
+  ],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "known"
+ },
+ {
+  "anon": "270002715",
+  "label": "Operas (Excerpts); Manuscript copy; D-Dl Mus.1-F-531",
+  "composer": "Reichel, Adolf (1816-1896)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "410003600",
+   "410003611"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Allegro",
+    "voice": "vl 1",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 17,
+    "agree": 1,
+    "overlap": 8,
+    "source": "410003600",
+    "source_inc": "1.1.1 [p.1:] Allegro un poco vivace.",
+    "source_voice": "vlc",
+    "source_first": true,
+    "source_keysig": "xF",
+    "source_text": "",
+    "offset": [
+     0,
+     6
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 17,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [
+     {
+      "source": "410003611",
+      "source_inc": "1.1.1 [score, p.1:] Allegro un poco vivace.",
+      "source_voice": "vlc",
+      "overlap": 8,
+      "agree": 1,
+      "offset": [
+       0,
+       6
+      ],
+      "figuration": 0.0,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": true
+     }
+    ],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Allegro"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "life": [
+   1816,
+   1896
+  ],
+  "copy_years": [
+   1845,
+   1845
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [
+   "410003600: copied or edited by Reichel, Ernst (1858-1922); a modern copy, not a period witness"
+  ],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "280000037",
+  "label": "Overtures–D major (Fragments); Manuscript copy; D-WRha DNT i 47",
+  "composer": "Cordicelli, Giovanni (1774+)",
+  "matched": [
+   "1.3.1"
+  ],
+  "sources": [
+   "550280518"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1",
+    "voice": "vl 1",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 32,
+    "agree": 1,
+    "overlap": 9,
+    "source": "550280518",
+    "source_inc": "1.47.1 Aria. Silvera. Largo",
+    "source_voice": "vl 1",
+    "source_first": false,
+    "source_keysig": "bB",
+    "source_text": "",
+    "offset": [
+     21,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 22,
+    "same_key": false,
+    "same_voice": true,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.2.1",
+    "voice": "vl 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 17,
+    "agree": 1,
+    "overlap": 5,
+    "source": "550280518",
+    "source_inc": "1.1.1 Atto Primo. Scena Prima. / Cillano e Silvera / [Recit.].",
+    "source_voice": "T",
+    "source_first": true,
+    "source_keysig": "n",
+    "source_text": "Figlia già sette volte",
+    "offset": [
+     10,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 7,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": false,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.3.1",
+    "voice": "vl 1",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 16,
+    "agree": 2,
+    "overlap": 13,
+    "source": "550280518",
+    "source_inc": "1.47.1 Aria. Silvera. Largo",
+    "source_voice": "vl 1",
+    "source_first": false,
+    "source_keysig": "bB",
+    "source_text": "",
+    "offset": [
+     0,
+     2
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 22,
+    "same_key": false,
+    "same_voice": true,
+    "eligible": true,
+    "witnesses": [
+     {
+      "source": "550280518",
+      "source_inc": "1.15.1 Aria. Silvera. Andante",
+      "source_voice": "vl 1",
+      "overlap": 10,
+      "agree": 10,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": false,
+      "same_voice": true,
+      "eligible": true
+     },
+     {
+      "source": "550280518",
+      "source_inc": "1.47.2",
+      "source_voice": "S",
+      "overlap": 10,
+      "agree": 10,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": true
+     }
+    ],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.4.1",
+    "voice": "vl 1",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 13,
+    "agree": 10,
+    "overlap": 10,
+    "source": "550280518",
+    "source_inc": "1.15.1 Aria. Silvera. Andante",
+    "source_voice": "vl 1",
+    "source_first": false,
+    "source_keysig": "bB",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 22,
+    "same_key": false,
+    "same_voice": true,
+    "eligible": true,
+    "witnesses": [
+     {
+      "source": "550280518",
+      "source_inc": "1.47.1 Aria. Silvera. Largo",
+      "source_voice": "vl 1",
+      "overlap": 10,
+      "agree": 10,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": false,
+      "same_voice": true,
+      "eligible": true
+     },
+     {
+      "source": "550280518",
+      "source_inc": "1.47.2",
+      "source_voice": "S",
+      "overlap": 10,
+      "agree": 10,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": true
+     }
+    ],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1",
+   "1.3.1",
+   "1.4.1"
+  ],
+  "distinct_numbers_matched": [
+   "1.1",
+   "1.3",
+   "1.4"
+  ],
+  "internal_matches": [
+   "1.1.1 -> 550280518 1.47.1 Aria. Silvera. Largo",
+   "1.3.1 -> 550280518 1.47.1 Aria. Silvera. Largo",
+   "1.4.1 -> 550280518 1.15.1 Aria. Silvera. Andante"
+  ],
+  "vocal_matches": [
+   "550280518 1.15.1 Aria. Silvera. Andante",
+   "550280518 1.47.1 Aria. Silvera. Largo"
+  ],
+  "text_mismatch": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "life": [
+   1774
+  ],
+  "copy_years": [
+   1790,
+   1799
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "strong"
+ },
+ {
+  "anon": "280004122",
+  "label": "Overtures; Manuscript copy; D-RUl Sa 10",
+  "composer": "Scarlatti, Alessandro (1660-1725)",
+  "matched": [
+   "1.2.1 Adagio"
+  ],
+  "sources": [
+   "1001174801"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Allegro furioso",
+    "voice": "cl in A 1",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 15,
+    "agree": 1,
+    "overlap": 5,
+    "source": "1001174801",
+    "source_inc": "1.51.1 [Aria] Largo",
+    "source_voice": "vl 1",
+    "source_first": false,
+    "source_keysig": "xFC",
+    "source_text": "",
+    "offset": [
+     9,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 9,
+    "same_key": true,
+    "same_voice": false,
+    "eligible": false,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.2.1 Adagio",
+    "voice": "cl in A 1",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 7,
+    "agree": 1,
+    "overlap": 6,
+    "source": "1001174801",
+    "source_inc": "1.56.1 [Aria] Andante",
+    "source_voice": "b",
+    "source_first": false,
+    "source_keysig": "n",
+    "source_text": "",
+    "offset": [
+     0,
+     26
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 35,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.3.1 Allegro molto",
+    "voice": "cl in A 1",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 15,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   }
+  ],
+  "incipits_matched": [
+   "1.2.1 Adagio"
+  ],
+  "distinct_numbers_matched": [
+   "1.2"
+  ],
+  "internal_matches": [
+   "1.2.1 Adagio -> 1001174801 1.56.1 [Aria] Andante"
+  ],
+  "vocal_matches": [
+   "1001174801 1.56.1 [Aria] Andante"
+  ],
+  "text_mismatch": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "life": [
+   1660,
+   1725
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "300001535",
+  "label": "Overtures–C major; Manuscript copy; PL-CZ III-891",
+  "composer": "Müller, Wenzel (1759-1835)",
+  "matched": [
+   "1.1.1 Allegretto"
+  ],
+  "sources": [
+   "301000539"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Allegretto",
+    "voice": "vl 1",
+    "keysig": "n",
+    "text": "",
+    "notes": 13,
+    "agree": 10,
+    "overlap": 10,
+    "source": "301000539",
+    "source_inc": "1.6.1 Allegretto",
+    "source_voice": "ob 1",
+    "source_first": false,
+    "source_keysig": "bBE",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.67,
+    "comparator_notes": 10,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": false,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [],
+  "distinct_numbers_matched": [],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1759,
+   1835
+  ],
+  "copy_years": [
+   1804,
+   1805
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "301002876",
+  "label": "Overtures–D minor; Manuscript copy; PL-WRu 61457 Muz.",
+  "composer": "Dalayrac, Nicolas-Marie (1753-1809)",
+  "matched": [
+   "1.1.1 Adagio lento"
+  ],
+  "sources": [
+   "990012077"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Adagio lento",
+    "voice": "vl 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 15,
+    "agree": 1,
+    "overlap": 12,
+    "source": "990012077",
+    "source_inc": "1.1.1 Ouverture. Larghetto",
+    "source_voice": "vl",
+    "source_first": true,
+    "source_keysig": "bB",
+    "source_text": "",
+    "offset": [
+     1,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 12,
+    "same_key": true,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.2.1 Allegro assai",
+    "voice": "vl 1",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 14,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Adagio lento"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1753,
+   1809
+  ],
+  "copy_years": [
+   1800,
+   1810
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "400014316",
+  "label": "Overtures–D major; Manuscript copy; CH-E 199,23",
+  "composer": "Balbi, Ignazio (1696c-1777p)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "190009634",
+   "190009635",
+   "452002962",
+   "550018257",
+   "603000040",
+   "603000041"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Allegro",
+    "voice": "vl 1",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 18,
+    "agree": 18,
+    "overlap": 18,
+    "source": "190009634",
+    "source_inc": "1.1.1 Allegro",
+    "source_voice": "vl 1",
+    "source_first": true,
+    "source_keysig": "xFC",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 18,
+    "same_key": true,
+    "same_voice": true,
+    "eligible": true,
+    "witnesses": [
+     {
+      "source": "190009635",
+      "source_inc": "1.1.1 Allegro",
+      "source_voice": "vl 1",
+      "overlap": 18,
+      "agree": 18,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     },
+     {
+      "source": "452002962",
+      "source_inc": "1.1.1 Allegro assai",
+      "source_voice": "vl 1",
+      "overlap": 18,
+      "agree": 18,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     },
+     {
+      "source": "550018257",
+      "source_inc": "1.1.1 Allegro assai",
+      "source_voice": "vl 1",
+      "overlap": 18,
+      "agree": 18,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     },
+     {
+      "source": "603000040",
+      "source_inc": "1.1.1 All[egr]o assai",
+      "source_voice": "vl 1",
+      "overlap": 18,
+      "agree": 18,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     },
+     {
+      "source": "603000041",
+      "source_inc": "1.1.1 All[egr]o assai",
+      "source_voice": "vl 1",
+      "overlap": 18,
+      "agree": 18,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     }
+    ],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Allegro"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1696,
+   1777
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "400014318",
+  "label": "Overtures–G major; Manuscript copy; CH-E 199,18",
+  "composer": "Riso, Paolo (18.sc)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "800159233"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Allegro",
+    "voice": "vl 1",
+    "keysig": "xF",
+    "text": "",
+    "notes": 17,
+    "agree": 17,
+    "overlap": 17,
+    "source": "800159233",
+    "source_inc": "1.1.1 Allegro",
+    "source_voice": "vl 1",
+    "source_first": true,
+    "source_keysig": "xF",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.25,
+    "comparator_notes": 17,
+    "same_key": true,
+    "same_voice": true,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Allegro"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "400065567",
+  "label": "Muzio Scevola (Excerpts); Manuscript copy; HWV 13; CH-N XB obl. 149",
+  "composer": "Händel, Georg Friedrich (1685-1759)",
+  "matched": [
+   "1.1.1"
+  ],
+  "sources": [
+   "452014247"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1",
+    "voice": "vl 1",
+    "keysig": "bBE",
+    "text": "",
+    "notes": 19,
+    "agree": 19,
+    "overlap": 19,
+    "source": "452014247",
+    "source_inc": "1.1.1",
+    "source_voice": "pf",
+    "source_first": true,
+    "source_keysig": "bBE",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 19,
+    "same_key": true,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1685,
+   1759
+  ],
+  "copy_years": null,
+  "names_composer": true,
+  "catalogue_number_in_title": false,
+  "title_names_work": [
+   "452014247"
+  ],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [
+   "cross-reference to Amadei, Filippo (1665c-1725c)",
+   "cross-reference to Bononcini, Giovanni (1670-1747)"
+  ],
+  "competitors": [],
+  "class": "known"
+ },
+ {
+  "anon": "400065578",
+  "label": "Alessandro Severo (Excerpts); Manuscript copy; HWV A13; CH-N XB obl. 149",
+  "composer": "Händel, Georg Friedrich (1685-1759)",
+  "matched": [
+   "1.1.1 Largo"
+  ],
+  "sources": [
+   "1001209695",
+   "452504047",
+   "452504070",
+   "852028876"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Largo",
+    "voice": "vl 1",
+    "keysig": "bBE",
+    "text": "",
+    "notes": 17,
+    "agree": 17,
+    "overlap": 17,
+    "source": "1001209695",
+    "source_inc": "1.1.1 Largo; Allegro",
+    "source_voice": "vl 1",
+    "source_first": true,
+    "source_keysig": "bBE",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 20,
+    "same_key": true,
+    "same_voice": true,
+    "eligible": true,
+    "witnesses": [
+     {
+      "source": "452504047",
+      "source_inc": "1.1.1 Overture.",
+      "source_voice": "vl 1",
+      "overlap": 17,
+      "agree": 17,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     },
+     {
+      "source": "452504070",
+      "source_inc": "1.1.1 Ouverture.",
+      "source_voice": "vl 1",
+      "overlap": 17,
+      "agree": 17,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     },
+     {
+      "source": "852028876",
+      "source_inc": "1.1.1 Ouverture. 2; 1; 29",
+      "source_voice": "i",
+      "overlap": 17,
+      "agree": 17,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     }
+    ],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Largo"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1685,
+   1759
+  ],
+  "copy_years": null,
+  "names_composer": true,
+  "catalogue_number_in_title": false,
+  "title_names_work": [
+   "1001209695"
+  ],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "known"
+ },
+ {
+  "anon": "400066392",
+  "label": "Overtures; Manuscript copy; CH-Gc Ab 240 Vol. III",
+  "composer": "Mayr, Johann Simon (1763-1845)",
+  "matched": [
+   "1.1.1 Largo"
+  ],
+  "sources": [
+   "101483",
+   "900011165"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Largo",
+    "voice": "vl 1",
+    "keysig": "bBEA",
+    "text": "",
+    "notes": 6,
+    "agree": 6,
+    "overlap": 6,
+    "source": "101483",
+    "source_inc": "1.1.1 Ouverture.",
+    "source_voice": "vl 1",
+    "source_first": true,
+    "source_keysig": "bBEA",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 6,
+    "same_key": true,
+    "same_voice": true,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Largo"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1763,
+   1845
+  ],
+  "copy_years": null,
+  "names_composer": true,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "known"
+ },
+ {
+  "anon": "410006475",
+  "label": "Overtures–G minor (Arrangement); Manuscript copy; CH-Fcu LE 54 Ms. 27",
+  "composer": "Paër, Ferdinando (1771-1839)",
+  "matched": [
+   "1.1.1 Andante Sostenuto."
+  ],
+  "sources": [
+   "452521240"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Andante Sostenuto.",
+    "voice": "pf",
+    "keysig": "bBE",
+    "text": "",
+    "notes": 10,
+    "agree": 10,
+    "overlap": 10,
+    "source": "452521240",
+    "source_inc": "1.1.1 Ouverture. Andante sostenuto",
+    "source_voice": "pf",
+    "source_first": true,
+    "source_keysig": "bBE",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 10,
+    "same_key": true,
+    "same_voice": true,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.1.2 Allegro.",
+    "voice": "pf",
+    "keysig": "bBE",
+    "text": "",
+    "notes": 18,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Andante Sostenuto."
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1771,
+   1839
+  ],
+  "copy_years": [
+   1750,
+   1850
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "450001617",
+  "label": "Overtures–D major; Manuscript copy; D-BAR Ba 120 Bü 378",
+  "composer": "Neruda, Johann Baptist Georg (1707c-1780c)",
+  "matched": [
+   "1.1.1 Maestoso"
+  ],
+  "sources": [
+   "452506483"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Maestoso",
+    "voice": "fl",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 11,
+    "agree": 1,
+    "overlap": 8,
+    "source": "452506483",
+    "source_inc": "1.1.1 Allegro",
+    "source_voice": "vl 1",
+    "source_first": true,
+    "source_keysig": "xFC",
+    "source_text": "",
+    "offset": [
+     0,
+     2
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 12,
+    "same_key": true,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.2.1 Marcia.",
+    "voice": "fl",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 6,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.3.1 Andante",
+    "voice": "fl",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 9,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.4.1 Allegro",
+    "voice": "fl",
+    "keysig": "xF",
+    "text": "",
+    "notes": 8,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Maestoso"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1707,
+   1780
+  ],
+  "copy_years": [
+   1820,
+   1820
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "450026357",
+  "label": "?Overtures?–E♭ major; Manuscript copy; D-Hs M B/2463",
+  "composer": "Vogel",
+  "matched": [
+   "1.1.1 Allegro moderato"
+  ],
+  "sources": [
+   "190021287"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Allegro moderato",
+    "voice": "vl",
+    "keysig": "bBEA",
+    "text": "",
+    "notes": 10,
+    "agree": 10,
+    "overlap": 10,
+    "source": "190021287",
+    "source_inc": "1.2.1 Allegro",
+    "source_voice": "vl 1",
+    "source_first": false,
+    "source_keysig": "bBE[A]",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 27,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Allegro moderato"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [
+   "1.1.1 Allegro moderato -> 190021287 1.2.1 Allegro"
+  ],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [],
+  "copy_years": [
+   1700,
+   1710
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [
+   "190021287: composer qualified as Conjectural",
+   "heading 'Vogel' names no identifiable person"
+  ],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "450026720",
+  "label": "Overtures–D major; Manuscript copy; D-Hs ND VII 524",
+  "composer": "Champein, Stanislas (1753-1830)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "990002094"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Allegro",
+    "voice": "vl 1",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 6,
+    "agree": 6,
+    "overlap": 6,
+    "source": "990002094",
+    "source_inc": "1.1.1",
+    "source_voice": "vl",
+    "source_first": true,
+    "source_keysig": "xFC",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 8,
+    "same_key": true,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Allegro"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1753,
+   1830
+  ],
+  "copy_years": [
+   1780,
+   1800
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "450065499",
+  "label": "Variations–G major; Manuscript copy; RobP 1.76/15; D-BNu PGB 4° 1660/25",
+  "composer": "Grundling",
+  "matched": [
+   "1.1.2",
+   "1.2.1 Var 1."
+  ],
+  "sources": [
+   "230008400"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Thema. Andante",
+    "voice": "pf 4hands",
+    "keysig": "xF",
+    "text": "",
+    "notes": 7,
+    "agree": 7,
+    "overlap": 7,
+    "source": "230008400",
+    "source_inc": "1.1.1 Thema. Andante",
+    "source_voice": "pf primo",
+    "source_first": true,
+    "source_keysig": "xF",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 7,
+    "same_key": true,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.1.2",
+    "voice": "pf 4hands",
+    "keysig": "xF",
+    "text": "",
+    "notes": 16,
+    "agree": 16,
+    "overlap": 16,
+    "source": "230008400",
+    "source_inc": "1.1.2",
+    "source_voice": "pf secondo",
+    "source_first": false,
+    "source_keysig": "xF",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 20,
+    "same_key": true,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.2.1 Var 1.",
+    "voice": "pf 4hands",
+    "keysig": "xF",
+    "text": "",
+    "notes": 15,
+    "agree": 15,
+    "overlap": 15,
+    "source": "230008400",
+    "source_inc": "1.2.1 Var: 1.",
+    "source_voice": "pf primo",
+    "source_first": false,
+    "source_keysig": "xF",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.64,
+    "comparator_notes": 15,
+    "same_key": true,
+    "same_voice": false,
+    "eligible": false,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Thema. Andante",
+   "1.1.2"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [
+   {
+    "source": "230008400",
+    "text": "Enthält: Thema Andante (\\\"Nel cor più non mi sento\\\") und 6 Variationen. Variationen 1-4 und 6 in G, 6/8, Variation 5 in g, 6/8.\", \"Ermittelt nach RISM ID no.: 450065499, wonach das Thema aus einer Op"
+   }
+  ],
+  "attribution_flags": [
+   "230008400: cross-reference to Paisiello, Giovanni (1740-1816) (Ascertained)",
+   "heading 'Grundling' names no identifiable person"
+  ],
+  "anonymous_record_authorship": [
+   "cross-reference to Paisiello, Giovanni (1740-1816) (Ascertained)"
+  ],
+  "competitors": [],
+  "class": "known"
+ },
+ {
+  "anon": "450301302",
+  "label": "Overtures–D major; Manuscript copy; D-Eu Esl VIII 82",
+  "composer": "Bach",
+  "matched": [
+   "1.1.1"
+  ],
+  "sources": [
+   "201007161"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1",
+    "voice": "vl 1",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 9,
+    "agree": 9,
+    "overlap": 9,
+    "source": "201007161",
+    "source_inc": "1.8.1 [No] 8. Andante con moto",
+    "source_voice": "vl 1",
+    "source_first": false,
+    "source_keysig": "xFC",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 16,
+    "same_key": true,
+    "same_voice": true,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [
+   "1.1.1 -> 201007161 1.8.1 [No] 8. Andante con moto"
+  ],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [
+   "heading 'Bach' names no identifiable person"
+  ],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "451026165",
+  "label": "Das Erwachen des Löwen–E♭ major; Manuscript copy; D-DT Mus - n 5838",
+  "composer": "Kątski, Antoni (1817-1899)",
+  "matched": [
+   "1.1.1"
+  ],
+  "sources": [
+   "1001119855",
+   "1001122015",
+   "1001188686",
+   "450119185"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1",
+    "voice": "tr",
+    "keysig": "bBEA",
+    "text": "",
+    "notes": 6,
+    "agree": 6,
+    "overlap": 6,
+    "source": "1001119855",
+    "source_inc": "1.1.1 Tempo di marcia.",
+    "source_voice": "pf",
+    "source_first": true,
+    "source_keysig": "bBEADG",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 8,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [
+     {
+      "source": "1001122015",
+      "source_inc": "1.1.1 Tempo di marcia.",
+      "source_voice": "pf",
+      "overlap": 6,
+      "agree": 6,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "1001188686",
+      "source_inc": "1.1.1 Temp di marcia",
+      "source_voice": "",
+      "overlap": 6,
+      "agree": 6,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "450119185",
+      "source_inc": "1.1.1",
+      "source_voice": "tr 1 in B|b",
+      "overlap": 6,
+      "agree": 6,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": true
+     }
+    ],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "life": [
+   1817,
+   1899
+  ],
+  "copy_years": [
+   1800,
+   1899
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [
+   "1001122015: composer qualified as Conjectural"
+  ],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "451509900",
+  "label": "Overtures; Manuscript copy; D-MÜs SANT Hs 4112 (Nr. 17)",
+  "composer": "Corelli, Arcangelo (1653-1713)",
+  "matched": [
+   "1.1.1"
+  ],
+  "sources": [
+   "1001223112",
+   "130117",
+   "400216095",
+   "450027761",
+   "450106626",
+   "452009229",
+   "452009335",
+   "452504394",
+   "600502792",
+   "800256988",
+   "806410012",
+   "840020536"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1",
+    "voice": "lute",
+    "keysig": "bB",
+    "text": "",
+    "notes": 9,
+    "agree": 9,
+    "overlap": 9,
+    "source": "1001223112",
+    "source_inc": "1.1.1 Largo Preludio",
+    "source_voice": "vl 1",
+    "source_first": true,
+    "source_keysig": "n",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 15,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [
+     {
+      "source": "130117",
+      "source_inc": "1.1.1 Preludio. Adagio",
+      "source_voice": "vl 1",
+      "overlap": 9,
+      "agree": 9,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "400216095",
+      "source_inc": "1.1.1 Preludio Largo",
+      "source_voice": "vl 1",
+      "overlap": 9,
+      "agree": 9,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "450027761",
+      "source_inc": "1.1.1 [Preludio]. Largo",
+      "source_voice": "i 1",
+      "overlap": 9,
+      "agree": 9,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "450106626",
+      "source_inc": "1.1.1 171. Bruludio[!].",
+      "source_voice": "dessus",
+      "overlap": 9,
+      "agree": 9,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "452009229",
+      "source_inc": "1.1.1 Preludio. Largo",
+      "source_voice": "vl 1",
+      "overlap": 9,
+      "agree": 9,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "452009335",
+      "source_inc": "1.1.1 Preludio. Largo",
+      "source_voice": "vl 1",
+      "overlap": 9,
+      "agree": 9,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "452504394",
+      "source_inc": "1.1.1 Preludio. Largo",
+      "source_voice": "vl 1",
+      "overlap": 9,
+      "agree": 9,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "600502792",
+      "source_inc": "1.1.1 Largo",
+      "source_voice": "vl",
+      "overlap": 9,
+      "agree": 9,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": false,
+      "same_voice": false,
+      "eligible": true
+     }
+    ],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "life": [
+   1653,
+   1713
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "455016177",
+  "label": "Il Ciro (Arrangement); Manuscript copy; D-Mbs Mus.ms. 3656",
+  "composer": "Chiti, Girolamo (1679-1759)",
+  "matched": [
+   "1.6.1 Nr. 2. Andante sostenuto"
+  ],
+  "sources": [
+   "850503715"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Sinfonia. Allegro",
+    "voice": "pf",
+    "keysig": "n",
+    "text": "",
+    "notes": 22,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.2.1 Akt 1 / Nr. 1. Adagio",
+    "voice": "pf",
+    "keysig": "bB",
+    "text": "",
+    "notes": 12,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.3.1 Nr. 2. Allegro",
+    "voice": "pf",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 12,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.4.1 Nr. 3. Allegro",
+    "voice": "pf",
+    "keysig": "n",
+    "text": "",
+    "notes": 13,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.5.1 Akt 2 / Nr. 1. Andante",
+    "voice": "pf",
+    "keysig": "n",
+    "text": "",
+    "notes": 17,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.6.1 Nr. 2. Andante sostenuto",
+    "voice": "pf",
+    "keysig": "bBEA",
+    "text": "",
+    "notes": 28,
+    "agree": 12,
+    "overlap": 12,
+    "source": "850503715",
+    "source_inc": "1.1.1",
+    "source_voice": "T",
+    "source_first": true,
+    "source_keysig": "bBE",
+    "source_text": "Cumque intuerentur, in caelum euntem",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 14,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.7.1 Nr. 3 / Marcia.",
+    "voice": "pf",
+    "keysig": "bBEA",
+    "text": "",
+    "notes": 26,
+    "agree": 3,
+    "overlap": 6,
+    "source": "850503715",
+    "source_inc": "1.1.1",
+    "source_voice": "T",
+    "source_first": true,
+    "source_keysig": "bBE",
+    "source_text": "Cumque intuerentur, in caelum euntem",
+    "offset": [
+     3,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 14,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": false,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.8.1 Akt 3 / Nr. 1. Allegretto",
+    "voice": "pf",
+    "keysig": "bB",
+    "text": "",
+    "notes": 26,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.9.1 Nr. 2. Ballabile",
+    "voice": "pf",
+    "keysig": "bBE",
+    "text": "",
+    "notes": 25,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.10.1 Nr. 3. Allegro moderato",
+    "voice": "pf",
+    "keysig": "n",
+    "text": "",
+    "notes": 17,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.11.1 Nr. 4. Allegro vivace",
+    "voice": "pf",
+    "keysig": "n",
+    "text": "",
+    "notes": 30,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.12.1 Nr. 5. Allegro",
+    "voice": "pf",
+    "keysig": "n",
+    "text": "",
+    "notes": 19,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.13.1 Nr.6. Allegro",
+    "voice": "pf",
+    "keysig": "xF",
+    "text": "",
+    "notes": 23,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.14.1 Akt 4 / Nr. Solo. Largo",
+    "voice": "pf",
+    "keysig": "bBEA",
+    "text": "",
+    "notes": 21,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.15.1 Akt 5 / Nr. 1. Andante sostenuto",
+    "voice": "pf",
+    "keysig": "bBEA",
+    "text": "",
+    "notes": 16,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.16.1 Nr. 2. Allegro",
+    "voice": "pf",
+    "keysig": "bBEA",
+    "text": "",
+    "notes": 9,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.17.1 Nr. 3. Maestoso espressivo",
+    "voice": "pf",
+    "keysig": "xF",
+    "text": "",
+    "notes": 9,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.18.1 Nr. 4. Ballabile",
+    "voice": "pf",
+    "keysig": "bB",
+    "text": "",
+    "notes": 13,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.19.1 Nr. 5 / Quartetto. Allegro brillante",
+    "voice": "pf",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 30,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.20.1 Nr. 6 / Terzetto. Andante sostenuto",
+    "voice": "pf",
+    "keysig": "bB",
+    "text": "",
+    "notes": 21,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.21.1 [Akt 6] / Finale / Nr. 1. Largo",
+    "voice": "pf",
+    "keysig": "n",
+    "text": "",
+    "notes": 12,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   }
+  ],
+  "incipits_matched": [
+   "1.6.1 Nr. 2. Andante sostenuto"
+  ],
+  "distinct_numbers_matched": [
+   "1.6"
+  ],
+  "internal_matches": [
+   "1.6.1 Nr. 2. Andante sostenuto -> 850503715 1.1.1"
+  ],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "life": [
+   1679,
+   1759
+  ],
+  "copy_years": [
+   1790,
+   1810
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [
+   "cross-reference to Mozart, Wolfgang Amadeus (1756-1791) (Ascertained)"
+  ],
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "455026202",
+  "label": "?Operas? (Excerpts); Manuscript copy; D-NBss Mus. ms. 435",
+  "composer": "Mozart, Wolfgang Amadeus (1756-1791)",
+  "matched": [
+   "1.1.1 Andante; Allegro"
+  ],
+  "sources": [
+   "1001208618"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Andante; Allegro",
+    "voice": "vla",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 4,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.1.2",
+    "voice": "b",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 3,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   }
+  ],
+  "incipits_matched": [],
+  "distinct_numbers_matched": [],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1756,
+   1791
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [
+   "1001208618: composer qualified as Alleged"
+  ],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "551005403",
+  "label": "Marches; Manuscript copy; CZ-Pnm XLII A 346",
+  "composer": "Lully, Jean-Baptiste (1632-1687)",
+  "matched": [
+   "1.2.1 N|o 2 Marche De Thesée [par Lully]."
+  ],
+  "sources": [
+   "1001149837",
+   "1001154567",
+   "112967",
+   "118039",
+   "190001415",
+   "240006916",
+   "300041451",
+   "900001260",
+   "900020531",
+   "900020885"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 N|o I Marche De Castor [et Pollux par Rameau].",
+    "voice": "vl 1",
+    "keysig": "n",
+    "text": "",
+    "notes": 30,
+    "agree": 1,
+    "overlap": 5,
+    "source": "1001154567",
+    "source_inc": "1.13.1 Prélude",
+    "source_voice": "dessus 1",
+    "source_first": false,
+    "source_keysig": "n",
+    "source_text": "",
+    "offset": [
+     17,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 16,
+    "same_key": true,
+    "same_voice": false,
+    "eligible": false,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.2.1 N|o 2 Marche De Thesée [par Lully].",
+    "voice": "vl 1",
+    "keysig": "n",
+    "text": "",
+    "notes": 32,
+    "agree": 18,
+    "overlap": 18,
+    "source": "1001154567",
+    "source_inc": "1.11.1 La Marche",
+    "source_voice": "dessus 1",
+    "source_first": false,
+    "source_keysig": "n",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 18,
+    "same_key": true,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [
+     {
+      "source": "900001260",
+      "source_inc": "1.1.1",
+      "source_voice": "fl",
+      "overlap": 18,
+      "agree": 18,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "1001149837",
+      "source_inc": "1.1.1",
+      "source_voice": "musette (fiddle)",
+      "overlap": 17,
+      "agree": 17,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "112967",
+      "source_inc": "1.3.1 Marche.",
+      "source_voice": "i",
+      "overlap": 17,
+      "agree": 17,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "900020531",
+      "source_inc": "1.1.1",
+      "source_voice": "i",
+      "overlap": 16,
+      "agree": 16,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "900020885",
+      "source_inc": "1.1.1",
+      "source_voice": "i",
+      "overlap": 16,
+      "agree": 16,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "118039",
+      "source_inc": "1.1.1 Marche.",
+      "source_voice": "cemb",
+      "overlap": 11,
+      "agree": 11,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "190001415",
+      "source_inc": "1.1.1",
+      "source_voice": "i",
+      "overlap": 11,
+      "agree": 11,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "300041451",
+      "source_inc": "1.1.1",
+      "source_voice": "fl",
+      "overlap": 11,
+      "agree": 11,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     }
+    ],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.3.1 N|o 3 Marche De Tancrede.",
+    "voice": "vl 1",
+    "keysig": "n",
+    "text": "",
+    "notes": 26,
+    "agree": 5,
+    "overlap": 5,
+    "source": "1001154567",
+    "source_inc": "1.6.1 Chœur",
+    "source_voice": "dessus 1",
+    "source_first": false,
+    "source_keysig": "n",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 7,
+    "same_key": true,
+    "same_voice": false,
+    "eligible": false,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.4.1 N|o 4 Marche De Jephté.",
+    "voice": "vl 1",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 29,
+    "agree": 2,
+    "overlap": 6,
+    "source": "300041451",
+    "source_inc": "1.1.1",
+    "source_voice": "fl",
+    "source_first": true,
+    "source_keysig": "n",
+    "source_text": "",
+    "offset": [
+     0,
+     9
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 18,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": false,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.5.1 N|o 5 Marche D' hypermernerstre [!].",
+    "voice": "vl 1",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 22,
+    "agree": 1,
+    "overlap": 5,
+    "source": "1001154567",
+    "source_inc": "1.13.1 Prélude",
+    "source_voice": "dessus 1",
+    "source_first": false,
+    "source_keysig": "n",
+    "source_text": "",
+    "offset": [
+     4,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 16,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": false,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.6.1 N|o 6 Marche D'hercule Mourant.",
+    "voice": "vl 1",
+    "keysig": "xFCGD",
+    "text": "",
+    "notes": 27,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   }
+  ],
+  "incipits_matched": [
+   "1.2.1 N|o 2 Marche De Thesée [par Lully]."
+  ],
+  "distinct_numbers_matched": [
+   "1.2"
+  ],
+  "internal_matches": [
+   "1.2.1 N|o 2 Marche De Thesée [par Lully]. -> 1001154567 1.11.1 La Marche"
+  ],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1632,
+   1687
+  ],
+  "copy_years": null,
+  "names_composer": true,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [
+   "cross-reference to Rameau, Jean-Philippe (1683-1764) (Ascertained)"
+  ],
+  "competitors": [],
+  "class": "known"
+ },
+ {
+  "anon": "703002202",
+  "label": "Overtures–G minor (Arrangement); Manuscript copy; B-Bc 15454/28",
+  "composer": "Grétry, André-Ernest-Modeste (1741-1813)",
+  "matched": [
+   "1.1.1"
+  ],
+  "sources": [
+   "1001010927",
+   "1001354547",
+   "200043309",
+   "280000054",
+   "280000618",
+   "280001854",
+   "550401388"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1",
+    "voice": "pf primo",
+    "keysig": "bBE",
+    "text": "",
+    "notes": 8,
+    "agree": 8,
+    "overlap": 8,
+    "source": "1001010927",
+    "source_inc": "1.1.1 Ouverture. Allegretto",
+    "source_voice": "ob 1",
+    "source_first": true,
+    "source_keysig": "bBE",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 8,
+    "same_key": true,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [
+     {
+      "source": "1001354547",
+      "source_inc": "1.1.1",
+      "source_voice": "ob 1",
+      "overlap": 8,
+      "agree": 8,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "200043309",
+      "source_inc": "1.1.1 Nro 1. Ouvertüre. Allegretto",
+      "source_voice": "ob 1",
+      "overlap": 8,
+      "agree": 8,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "280000054",
+      "source_inc": "1.1.1 Ouverture. Allegretto",
+      "source_voice": "ob 1",
+      "overlap": 8,
+      "agree": 8,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "280000618",
+      "source_inc": "1.1.1 Ouverture. Allegretto",
+      "source_voice": "ob 1",
+      "overlap": 8,
+      "agree": 8,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "280001854",
+      "source_inc": "1.1.1 Maestoso",
+      "source_voice": "ob 1",
+      "overlap": 8,
+      "agree": 8,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "550401388",
+      "source_inc": "1.1.1 Ouvertüre. Allegretto",
+      "source_voice": "ob 1",
+      "overlap": 8,
+      "agree": 8,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     }
+    ],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1741,
+   1813
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "704002008",
+  "label": "Overtures–D major; Manuscript copy; B-Br Ms III 1511 (6) Mus",
+  "composer": "Trial, Jean-Claude (1732-1771)",
+  "matched": [
+   "1.2.1 Andante piano"
+  ],
+  "sources": [
+   "990064682"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Allegro",
+    "voice": "vl 1",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 12,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.2.1 Andante piano",
+    "voice": "vl 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 9,
+    "agree": 1,
+    "overlap": 9,
+    "source": "990064682",
+    "source_inc": "1.12.1 2.|e Tambourin",
+    "source_voice": "vl 1",
+    "source_first": false,
+    "source_keysig": "bB",
+    "source_text": "",
+    "offset": [
+     0,
+     1
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 14,
+    "same_key": true,
+    "same_voice": true,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.3.1 Allegro",
+    "voice": "vl 1",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 10,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   }
+  ],
+  "incipits_matched": [
+   "1.2.1 Andante piano"
+  ],
+  "distinct_numbers_matched": [
+   "1.2"
+  ],
+  "internal_matches": [
+   "1.2.1 Andante piano -> 990064682 1.12.1 2.|e Tambourin"
+  ],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1732,
+   1771
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "704002011",
+  "label": "?Overtures?–D major; Manuscript copy; B-Br Ms III 1511 (9) Mus",
+  "composer": "Graupner, Christoph (1683-1760)",
+  "matched": [
+   "1.3.1 Presto"
+  ],
+  "sources": [
+   "450006994"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Con brio",
+    "voice": "vl 2",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 14,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.2.1 Andante sottovoce",
+    "voice": "vl 2",
+    "keysig": "xF",
+    "text": "",
+    "notes": 7,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.3.1 Presto",
+    "voice": "vl 2",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 9,
+    "agree": 1,
+    "overlap": 9,
+    "source": "450006994",
+    "source_inc": "1.3.1 [Aria]. Allegro",
+    "source_voice": "vl 1",
+    "source_first": false,
+    "source_keysig": "n",
+    "source_text": "",
+    "offset": [
+     0,
+     9
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 30,
+    "same_key": false,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.3.1 Presto"
+  ],
+  "distinct_numbers_matched": [
+   "1.3"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [
+   "450006994 1.3.1 [Aria]. Allegro"
+  ],
+  "text_mismatch": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "life": [
+   1683,
+   1760
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "704002019",
+  "label": "?Overtures?–A major; Manuscript copy; B-Br Ms III 1511 (17) Mus",
+  "composer": "Seidl, Maria Stanislava Katharina von, OSU (1752-1837)",
+  "matched": [
+   "1.1.1"
+  ],
+  "sources": [
+   "1001189733"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1",
+    "voice": "vl 2",
+    "keysig": "xFCG",
+    "text": "",
+    "notes": 24,
+    "agree": 1,
+    "overlap": 24,
+    "source": "1001189733",
+    "source_inc": "1.3.1 All[egr]o",
+    "source_voice": "vl 2",
+    "source_first": false,
+    "source_keysig": "n",
+    "source_text": "",
+    "offset": [
+     0,
+     24
+    ],
+    "figuration": 0.96,
+    "comparator_notes": 49,
+    "same_key": false,
+    "same_voice": true,
+    "eligible": false,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.2.1 Andante piano",
+    "voice": "vl 2",
+    "keysig": "n",
+    "text": "",
+    "notes": 7,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.3.1",
+    "voice": "vl 2",
+    "keysig": "xFCG",
+    "text": "",
+    "notes": 10,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   }
+  ],
+  "incipits_matched": [],
+  "distinct_numbers_matched": [],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1752,
+   1837
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "800000068",
+  "label": "?Symphonies?–D major (Excerpts); Manuscript copy; GB-P O.2",
+  "composer": "Tritto, Giacomo (1733-1824)",
+  "matched": [
+   "1.1.1 Allegro con spirito"
+  ],
+  "sources": [
+   "850009190"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Allegro con spirito",
+    "voice": "vl 1",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 12,
+    "agree": 1,
+    "overlap": 12,
+    "source": "850009190",
+    "source_inc": "1.1.1 [Sinfonia].",
+    "source_voice": "vl 1",
+    "source_first": true,
+    "source_keysig": "bB",
+    "source_text": "",
+    "offset": [
+     0,
+     1
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 17,
+    "same_key": false,
+    "same_voice": true,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Allegro con spirito"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": true,
+  "key_label_mismatch": false,
+  "life": [
+   1733,
+   1824
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "840002835",
+  "label": "La Provençale (Excerpts); Manuscript copy; F-AG 673",
+  "composer": "Rameau, Jean-Philippe (1683-1764)",
+  "matched": [
+   "1.1.1 Ouverture. Gai"
+  ],
+  "sources": [
+   "840017220",
+   "840017223",
+   "840026887"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Ouverture. Gai",
+    "voice": "vl 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 15,
+    "agree": 15,
+    "overlap": 15,
+    "source": "840017220",
+    "source_inc": "1.2.1",
+    "source_voice": "",
+    "source_first": true,
+    "source_keysig": "bB",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.29,
+    "comparator_notes": 15,
+    "same_key": true,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [
+     {
+      "source": "840017223",
+      "source_inc": "1.1.1",
+      "source_voice": "",
+      "overlap": 15,
+      "agree": 15,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.29,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     },
+     {
+      "source": "840026887",
+      "source_inc": "1.1.1",
+      "source_voice": "clav",
+      "overlap": 15,
+      "agree": 15,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.29,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": true
+     }
+    ],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   },
+   {
+    "inc": "1.2.1 Gracieux",
+    "voice": "vl 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 14,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   },
+   {
+    "inc": "1.3.1 Vivement",
+    "voice": "vl 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 13,
+    "agree": 0,
+    "overlap": 0,
+    "source": null
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Ouverture. Gai"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [
+   "1.1.1 Ouverture. Gai -> 840017220 1.2.1"
+  ],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1683,
+   1764
+  ],
+  "copy_years": [
+   1745,
+   1760
+  ],
+  "names_composer": true,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "known"
+ },
+ {
+  "anon": "850002422",
+  "label": "Overtures–F major; Manuscript copy; I-MAav Cart.14 n.18",
+  "composer": "Astarita, Gennaro (1745c-1805)",
+  "matched": [
+   "1.1.1 Allegro assai"
+  ],
+  "sources": [
+   "1001290294"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Allegro assai",
+    "voice": "vl 1",
+    "keysig": "bB",
+    "text": "",
+    "notes": 18,
+    "agree": 15,
+    "overlap": 15,
+    "source": "1001290294",
+    "source_inc": "1.1.1 Sinfonia allegro vivace",
+    "source_voice": "vl 1",
+    "source_first": true,
+    "source_keysig": "bB",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.43,
+    "comparator_notes": 15,
+    "same_key": true,
+    "same_voice": true,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Allegro assai"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1745,
+   1805
+  ],
+  "copy_years": [
+   1750,
+   1799
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "850026318",
+  "label": "Overtures–C major; Manuscript copy; I-Rc Mss. 6208",
+  "composer": "Borghi, Giovanni Battista (1738-1796)",
+  "matched": [
+   "1.1.1 Allegro con spirito"
+  ],
+  "sources": [
+   "500052593",
+   "850007012"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Allegro con spirito",
+    "voice": "vl 1",
+    "keysig": "n",
+    "text": "",
+    "notes": 10,
+    "agree": 10,
+    "overlap": 10,
+    "source": "500052593",
+    "source_inc": "1.1.1 Allegro",
+    "source_voice": "vl 1",
+    "source_first": true,
+    "source_keysig": "n",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 10,
+    "same_key": true,
+    "same_voice": true,
+    "eligible": true,
+    "witnesses": [
+     {
+      "source": "850007012",
+      "source_inc": "1.1.1 Overtura.",
+      "source_voice": "vl 1",
+      "overlap": 10,
+      "agree": 10,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     }
+    ],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Allegro con spirito"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1738,
+   1796
+  ],
+  "copy_years": [
+   1800,
+   1810
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "850026319",
+  "label": "Overtures–C major; Manuscript copy; I-Fn MS MUS 298",
+  "composer": "Borghi, Giovanni Battista (1738-1796)",
+  "matched": [
+   "1.1.1"
+  ],
+  "sources": [
+   "500052593",
+   "850007012"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1",
+    "voice": "vl 1",
+    "keysig": "n",
+    "text": "",
+    "notes": 10,
+    "agree": 10,
+    "overlap": 10,
+    "source": "500052593",
+    "source_inc": "1.1.1 Allegro",
+    "source_voice": "vl 1",
+    "source_first": true,
+    "source_keysig": "n",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 10,
+    "same_key": true,
+    "same_voice": true,
+    "eligible": true,
+    "witnesses": [
+     {
+      "source": "850007012",
+      "source_inc": "1.1.1 Overtura.",
+      "source_voice": "vl 1",
+      "overlap": 10,
+      "agree": 10,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     }
+    ],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1738,
+   1796
+  ],
+  "copy_years": [
+   1800,
+   1810
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "850026320",
+  "label": "Overtures–C major; Manuscript copy; I-Rc Mss. 6204",
+  "composer": "Bach, Johann Christian (1735-1782)",
+  "matched": [
+   "1.1.1 Allegro assai"
+  ],
+  "sources": [
+   "1001075342",
+   "200018111",
+   "320500028",
+   "400006321",
+   "400007876",
+   "400011424",
+   "551006179",
+   "600055142",
+   "850005023"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Allegro assai",
+    "voice": "vl 1",
+    "keysig": "n",
+    "text": "",
+    "notes": 16,
+    "agree": 16,
+    "overlap": 16,
+    "source": "200018111",
+    "source_inc": "1.1.1 Allegro assai",
+    "source_voice": "vl 1",
+    "source_first": true,
+    "source_keysig": "n",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 16,
+    "same_key": true,
+    "same_voice": true,
+    "eligible": true,
+    "witnesses": [
+     {
+      "source": "320500028",
+      "source_inc": "1.1.1 All[egr]o assai",
+      "source_voice": "vl 1",
+      "overlap": 16,
+      "agree": 16,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     },
+     {
+      "source": "400006321",
+      "source_inc": "1.1.1 Allegro assai",
+      "source_voice": "vl 1",
+      "overlap": 16,
+      "agree": 16,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     },
+     {
+      "source": "400007876",
+      "source_inc": "1.1.1 Allegro assai",
+      "source_voice": "vl 1",
+      "overlap": 16,
+      "agree": 16,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     },
+     {
+      "source": "551006179",
+      "source_inc": "1.1.1 Allegro assai",
+      "source_voice": "vl 1",
+      "overlap": 16,
+      "agree": 16,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     },
+     {
+      "source": "850005023",
+      "source_inc": "1.1.1 Allegro assai",
+      "source_voice": "vl 1",
+      "overlap": 7,
+      "agree": 7,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     },
+     {
+      "source": "1001075342",
+      "source_inc": "1.1.1 Allegro assai",
+      "source_voice": "vl 1",
+      "overlap": 6,
+      "agree": 6,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     },
+     {
+      "source": "400011424",
+      "source_inc": "1.1.1 Allegro assai",
+      "source_voice": "vl 1",
+      "overlap": 6,
+      "agree": 6,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     },
+     {
+      "source": "600055142",
+      "source_inc": "1.1.1 Allegro assai",
+      "source_voice": "vl 1",
+      "overlap": 6,
+      "agree": 6,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     }
+    ],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Allegro assai"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1735,
+   1782
+  ],
+  "copy_years": [
+   1762,
+   1800
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [
+   "850005023: cross-reference to Bach, Johann Peter"
+  ],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "850609975",
+  "label": "Overtures–B♭ major; Manuscript copy; I-OS Mss.Mus.B 596",
+  "composer": "Benatti, Vincenzo (1767-1797)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "850601928",
+   "850605404"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Allegro",
+    "voice": "vl1",
+    "keysig": "bBE",
+    "text": "",
+    "notes": 10,
+    "agree": 10,
+    "overlap": 10,
+    "source": "850601928",
+    "source_inc": "1.1.1 Allegro",
+    "source_voice": "vl1",
+    "source_first": true,
+    "source_keysig": "bBE",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 10,
+    "same_key": true,
+    "same_voice": true,
+    "eligible": true,
+    "witnesses": [
+     {
+      "source": "850605404",
+      "source_inc": "1.1.1 All.o vivace",
+      "source_voice": "vl1",
+      "overlap": 10,
+      "agree": 10,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.0,
+      "same_key": true,
+      "same_voice": true,
+      "eligible": true
+     }
+    ],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Allegro"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1767,
+   1797
+  ],
+  "copy_years": [
+   1801,
+   1900
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "850636724",
+  "label": "Overtures–D major; Manuscript copy; I-COLbarcella 83",
+  "composer": "Minoja, Ambrogio (1752-1825)",
+  "matched": [
+   "1.1.1 Allegro"
+  ],
+  "sources": [
+   "400012564"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Allegro",
+    "voice": "cemb",
+    "keysig": "xFC",
+    "text": "",
+    "notes": 12,
+    "agree": 12,
+    "overlap": 12,
+    "source": "400012564",
+    "source_inc": "1.1.1 Allegro",
+    "source_voice": "cemb",
+    "source_first": true,
+    "source_keysig": "xFC",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.73,
+    "comparator_notes": 12,
+    "same_key": true,
+    "same_voice": true,
+    "eligible": false,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [],
+  "distinct_numbers_matched": [],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1752,
+   1825
+  ],
+  "copy_years": [
+   1801,
+   1900
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "weak"
+ },
+ {
+  "anon": "850658887",
+  "label": "Aveugles de Tolède–C major (Excerpts, Arrangement); Manuscript copy; I-Fn MUS.Mss.Rostirolla.1368",
+  "composer": "Méhul, Etienne-Nicolas (1763-1817)",
+  "matched": [
+   "1.1.1 Moderato"
+  ],
+  "sources": [
+   "450056213"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1 Moderato",
+    "voice": "i",
+    "keysig": "n",
+    "text": "",
+    "notes": 9,
+    "agree": 9,
+    "overlap": 9,
+    "source": "450056213",
+    "source_inc": "1.1.1 Allegro moderato",
+    "source_voice": "vl 1",
+    "source_first": true,
+    "source_keysig": "n",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 10,
+    "same_key": true,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1 Moderato"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1763,
+   1817
+  ],
+  "copy_years": [
+   1801,
+   1810
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [
+   "450056213"
+  ],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "plausible"
+ },
+ {
+  "anon": "852034586",
+  "label": "Overtures–C major (Arrangement); Manuscript copy; I-MC 6-E-5/27b",
+  "composer": "Sterkel, Johann Franz Xaver (1750-1817)",
+  "matched": [
+   "1.1.1"
+  ],
+  "sources": [
+   "451018280",
+   "850735973",
+   "990062058"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1",
+    "voice": "org",
+    "keysig": "n",
+    "text": "",
+    "notes": 9,
+    "agree": 9,
+    "overlap": 9,
+    "source": "990062058",
+    "source_inc": "1.1.1 [p. 2, at left of the 1st stave:] OUVERTURE | Allegro",
+    "source_voice": "vl",
+    "source_first": true,
+    "source_keysig": "n",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.5,
+    "comparator_notes": 16,
+    "same_key": true,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [
+     {
+      "source": "451018280",
+      "source_inc": "1.1.1 [Sinfonia]. Allegro",
+      "source_voice": "vl 1",
+      "overlap": 8,
+      "agree": 8,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.57,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": false
+     },
+     {
+      "source": "850735973",
+      "source_inc": "1.1.1 All.o",
+      "source_voice": "vl 1",
+      "overlap": 8,
+      "agree": 8,
+      "offset": [
+       0,
+       0
+      ],
+      "figuration": 0.57,
+      "same_key": true,
+      "same_voice": false,
+      "eligible": false
+     }
+    ],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1750,
+   1817
+  ],
+  "copy_years": null,
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "good"
+ },
+ {
+  "anon": "900001801",
+  "label": "Overtures–B♭ major; Manuscript copy; US-NH Misc. Ms. 170, Filmer 29",
+  "composer": "Händel, Georg Friedrich (1685-1759)",
+  "matched": [
+   "1.1.1"
+  ],
+  "sources": [
+   "806533277"
+  ],
+  "incipits": [
+   {
+    "inc": "1.1.1",
+    "voice": "i",
+    "keysig": "bBE",
+    "text": "",
+    "notes": 11,
+    "agree": 10,
+    "overlap": 10,
+    "source": "806533277",
+    "source_inc": "1.1.1 Tunes compos'd for the Play-house. Ouverture",
+    "source_voice": "vl 1",
+    "source_first": true,
+    "source_keysig": "bBE",
+    "source_text": "",
+    "offset": [
+     0,
+     0
+    ],
+    "figuration": 0.0,
+    "comparator_notes": 10,
+    "same_key": true,
+    "same_voice": false,
+    "eligible": true,
+    "witnesses": [],
+    "failed_witnesses": [],
+    "text_agreement": ""
+   }
+  ],
+  "incipits_matched": [
+   "1.1.1"
+  ],
+  "distinct_numbers_matched": [
+   "1.1"
+  ],
+  "internal_matches": [],
+  "vocal_matches": [],
+  "text_mismatch": [],
+  "transposed": false,
+  "key_label_mismatch": false,
+  "life": [
+   1685,
+   1759
+  ],
+  "copy_years": [
+   1701,
+   1725
+  ],
+  "names_composer": false,
+  "catalogue_number_in_title": false,
+  "title_names_work": [],
+  "prior_documentation": [],
+  "attribution_flags": [],
+  "anonymous_record_authorship": [],
+  "competitors": [],
+  "class": "plausible"
+ }
+]
