@@ -66,8 +66,12 @@ def test_prior_documentation_is_not_called_new():
     for r, e in kept():
         if e["prior_documentation"]:
             assert r["prior"] == "comparator-record", (r["anon_id"], "an attributed copy's record already cites this copy")
-        if e["names_composer"] or e["catalogue_number_in_title"]:
-            assert r["prior"] != "new", (r["anon_id"], "the anonymous record already names the composer or catalogue number")
+        if e["catalogue_number_in_title"]:
+            assert r["prior"] != "new", (r["anon_id"], "the anonymous record already carries the catalogue number")
+        if e["names_composer"] and r["prior"] == "new":
+            reason = prior_resolutions().get((r["anon_id"], r["composer"]), "")
+            assert len(reason) >= 40, (r["anon_id"], "the anonymous record mentions the composer; call it anonymous-record or say in "
+                                       "data/prior_resolutions.csv why the mention does not document this match")
 
 
 def test_title_naming_the_work_is_not_new_without_reason():
@@ -80,6 +84,11 @@ def test_title_naming_the_work_is_not_new_without_reason():
 
 def _surname(name):
     return name.split(",")[0].split(" (")[0].strip()
+
+
+def prior_resolutions():
+    with open(ROOT / "data" / "prior_resolutions.csv") as f:
+        return {(r["anon_id"], r["composer"]): r["reason"] for r in csv.DictReader(f)}
 
 
 def resolutions():

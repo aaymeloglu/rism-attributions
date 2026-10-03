@@ -96,7 +96,7 @@ finding are different questions.
 | Value | Meaning |
 |---|---|
 | new | Neither record notes the other copy. |
-| anonymous-record | The anonymous record already names the composer or the catalogue number. |
+| anonymous-record | The anonymous record already names the composer of this music or its catalogue number. A record that mentions the composer for something else (another movement, the opera a piece is bound into) stays new, with the reason in `data/prior_resolutions.csv`. |
 | comparator-record | An attributed copy's record already cites the anonymous copy. |
 | title-names-work | The anonymous title already names the work, and that work has one known composer. When the title is a libretto set by many composers, the find stays new and the note says whose setting it is. |
 

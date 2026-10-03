@@ -15,10 +15,10 @@ The results, with each anonymous copy's movements rendered next to the attribute
 | Anonymous sources with incipits searched | 878 | 899 | 1,771 | 329 |
 | Anonymous sources with a lead, reviewed | 119 | 97 | 174 | 45 |
 | Same music as an attributed copy | 66 | 39 | 84 | 24 |
-| of which new, with a single unqualified attribution | 52 | 29 | 27 | 17 |
+| of which new, with a single unqualified attribution | 52 | 29 | 27 | 19 |
 | of which new, but the composer is disputed, uncertain, shared, a bare surname, a modern copy or a compilation | 6 | 2 | 4 | 1 |
 | of which the anonymous title already names the work (one known composer) | 0 | 0 | 33 | 1 |
-| of which already noted in RISM | 8 | 8 | 20 | 5 |
+| of which already noted in RISM | 8 | 8 | 20 | 3 |
 | Probably the same music (transposed, arranged, partial, or part of a vocal work) | 17 | 15 | 23 | 6 |
 | Unresolved | 5 | 4 | 5 | 4 |
 | Rejected | 31 | 39 | 62 | 11 |
@@ -58,6 +58,7 @@ more limited checks; unavailable images and thematic-catalogue source lists are 
 ```
 data/verdicts.csv                 verdict, attribution, prior documentation and note for every lead (the source of truth)
 data/attribution_resolutions.csv  written reasons why a flagged attribution is still secure
+data/prior_resolutions.csv        written reasons why an anonymous record that mentions the composer does not document the match
 data/concordance_verdicts.csv     verdict for every automatic anonymous-to-anonymous candidate
 data/work_aliases.csv             sourced alternative titles (Rosalieb = Le petit chaperon rouge) for the title check
 data/attributions.json            generated: verdicts joined with RISM records and incipits (what the site shows)
